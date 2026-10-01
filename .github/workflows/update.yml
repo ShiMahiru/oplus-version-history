@@ -32,8 +32,14 @@ jobs:
       - name: 官方增量更新（v3 + changelog + 降级包）
         run: python3 scripts/update.py
 
+      - name: 版本史归一化（去重 / 排序 / 规范分隔符）
+        run: python3 scripts/normalize.py
+
       - name: 全量链接校验（死链归档）
         run: python3 scripts/verify.py
+
+      - name: 重建检索索引页（GitHub Pages）
+        run: python3 scripts/build_index.py
 
       - name: 提交并推送
         run: |
