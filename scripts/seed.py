@@ -3,11 +3,20 @@
 """
 oplus-version-history 种子导入
 ==============================
-把已验证的真实资产导入仓库，作为首次提交基线：
+把已验证的种子资产导入仓库，作为首次提交基线：
   1) oplusrom_links.json  —— 43 机型 / 393 条官方 gate 链接（实测存活）+ 版本史
-  2) RomCloud devices.json —— 356 机型最新官方 gate 链接 + 内置版本史
+  2) devices.json         —— 356 机型最新官方 gate 链接 + 内置版本史
 
-只做合并，不覆盖脚本已产出的文件（比重写/更新优先生成的内容）。
+种子文件通过环境变量指定（默认在仓库 seeds/ 目录下查找）：
+
+    SEED_OPLUSROM=/path/to/oplusrom_links.json \
+    SEED_DEVICES=/path/to/devices.json \
+    python3 scripts/seed.py
+
+缺省路径: seeds/oplusrom_links.json / seeds/devices.json
+两个种子都可缺失——缺失的源直接跳过，已入库的数据不受影响。
+
+只做合并，不覆盖脚本已产出的文件（比 update.py 生成的内容优先级低）。
 运行: python3 scripts/seed.py
 """
 
@@ -18,8 +27,8 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-OJSON = "/root/RomCloud/app/src/main/assets/oplusrom_links.json"
-DJSON = "/root/RomCloud/app/src/main/assets/devices.json"
+OJSON = os.environ.get("SEED_OPLUSROM", os.path.join(ROOT, "seeds", "oplusrom_links.json"))
+DJSON = os.environ.get("SEED_DEVICES", os.path.join(ROOT, "seeds", "devices.json"))
 
 
 def link_of(model, ver, url):
@@ -48,8 +57,12 @@ def hist_add(model, fp, ver):
 def main():
     n_link = n_hist = n_ver = 0
 
-    # 1) oplusrom 链接库
-    idx = json.load(open(OJSON, encoding="utf-8"))
+    # 1) oplusrom 链接库（种子缺失则跳过）
+    if not os.path.isfile(OJSON):
+        print(f"跳过 oplusrom 种子（未找到 {OJSON}）")
+        idx = {"models": {}}
+    else:
+        idx = json.load(open(OJSON, encoding="utf-8"))
     for pn, m in idx["models"].items():
         for v in m["versions"]:
             ver = v.get("v")
@@ -67,8 +80,12 @@ def main():
                 n_ver += 1
     print(f"oplusrom 源: 新链接 {n_link}  版本史行 {n_hist}  版本条目 {n_ver}")
 
-    # 2) RomCloud devices.json（356 机型）
-    devs = json.load(open(DJSON, encoding="utf-8"))["devices"]
+    # 2) RomCloud devices.json（356 机型；种子缺失则跳过）
+    if not os.path.isfile(DJSON):
+        print(f"跳过 devices 种子（未找到 {DJSON}）")
+        devs = []
+    else:
+        devs = json.load(open(DJSON, encoding="utf-8"))["devices"]
     n2l = n2h = 0
     for d in devs:
         code = d["code"]

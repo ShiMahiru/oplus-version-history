@@ -38,7 +38,7 @@ models/PLQ110/changelog/PLQ110_11.A.57_0570.md ← 官方 descriptionInfo 原文
 ├── links/_dead/ + DEAD.md         # 校验失败的死链归档与报告
 ├── config/                        # 机型清单 / 官方公钥 / 项目号表
 ├── docs/index.html                # 静态检索页（机型/版本/链接，可 GitHub Pages 直出）
-└── scripts/                       # update.py（官方增量）/ verify.py / seed.py
+└── scripts/                       # update.py（官方增量）/ verify.py / normalize.py / build_index.py
                                    # normalize.py（归一化去重）/ fix_history.py（基线修正）
                                    # build_index.py（生成检索页）
 ```
@@ -86,8 +86,10 @@ PLQ110_11.A.57_0570_202608071758  # ColorOS: PLQ110_16.0.10.500(CN01)
   ```bash
   python3 scripts/update.py --model PLQ110    # 单机型增量（含 changelog/降级包）
   python3 scripts/update.py                   # 全量增量（所有机型）
+  python3 scripts/normalize.py                # 版本史归一化（去重/排序/规范分隔符）
   python3 scripts/verify.py                   # 全量链接存活校验（死链移 links/_dead/）
-  python3 scripts/seed.py                     # 重新导入种子基线（幂等）
+  python3 scripts/build_index.py              # 重建 docs/ 检索页（GitHub Pages）
+  python3 scripts/seed.py                     # 导入种子基线（seeds/*.json，缺失则跳过）
   ```
 
 ## 设计原则
