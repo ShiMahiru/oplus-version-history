@@ -13,6 +13,7 @@ oplus-version-history 链接存活校验
 import argparse
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 
@@ -64,35 +65,42 @@ def main():
         for f in fs:
             if f.endswith(".txt"):
                 files.append(os.path.join(root, f))
-    print(f"共 {len(files)} 条链接开始校验")
+    print(f"共 {len(files)} 条链接开始校验（并发 8）")
 
     dead, ok, fail1 = [], 0, []
-    for i, p in enumerate(files, 1):
+
+    def one(p):
         url = open(p, encoding="utf-8").read().strip()
         good, msg = check(url)
-        if good:
-            ok += 1
-        else:
-            fail1.append((p, url, msg))
-        time.sleep(0.32)
-        if i % 100 == 0:
-            print(f"  ... {i}/{len(files)} 有效 {ok} 待定 {len(fail1)}")
+        return p, url, good, msg
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for i, (p, url, good, msg) in enumerate(ex.map(one, files), 1):
+            if good:
+                ok += 1
+            else:
+                fail1.append((p, url, msg))
+            if i % 100 == 0:
+                print(f"  ... {i}/{len(files)} 有效 {ok} 待定 {len(fail1)}", flush=True)
 
     # 二轮确认（决定性证据：死链在两个轮次都失败才算）
-    for p, url, msg in fail1:
-        if args.fast:
+    def reconfirm(item):
+        p, url, msg = item
+        good, _ = check(url)
+        if not good and not args.fast:
+            time.sleep(1.0)
             good, _ = check(url)
-        else:
-            good, _ = check(url)
-            if not good:
-                time.sleep(1.0)
-                good, _ = check(url)
-        time.sleep(0.32)
-        if good:
-            ok += 1
-        else:
-            rel = os.path.relpath(p, os.path.join(ROOT, "links"))
-            dead.append((rel, url, msg))
+        return p, url, msg, good
+
+    if fail1:
+        print(f"  二轮确认 {len(fail1)} 条待定链接 …", flush=True)
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for p, url, msg, good in ex.map(reconfirm, fail1):
+                if good:
+                    ok += 1
+                else:
+                    rel = os.path.relpath(p, os.path.join(ROOT, "links"))
+                    dead.append((rel, url, msg))
 
     # 归档死链
     if dead:
