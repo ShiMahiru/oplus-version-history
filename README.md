@@ -8,21 +8,6 @@
 
 ---
 
-## English
-
-**oplus-version-history** — automatically maintained archive of official
-OPPO / OnePlus / realme ROM history. All data comes from official servers
-(OTA gateway, official downgrade portal, official changelog API). No third-party mirrors.
-
-- `links/{MODEL}/{VERSION}.txt` → official download link (copy & paste)
-- `models/{MODEL}/ota-version.txt` → full version timeline with OTA fingerprints
-- `models/{MODEL}/changelog/` → official release notes (Markdown)
-- `downgrade/{MODEL}.txt` → official downgrade packages
-
-Updated weekly by GitHub Actions · every link verified (302 → official CDN) before it lands in the repo.
-
----
-
 ## 快速使用
 
 拿到官方下载链接（两栖方式）：
@@ -52,7 +37,10 @@ models/PLQ110/changelog/PLQ110_11.A.57_0570.md ← 官方 descriptionInfo 原文
 ├── downgrade/{型号}.txt           # 官方降级包直链（downgrade.coloros.com）
 ├── links/_dead/ + DEAD.md         # 校验失败的死链归档与报告
 ├── config/                        # 机型清单 / 官方公钥 / 项目号表
-└── scripts/                       # update.py（官方增量）/ seed.py / verify.py
+├── docs/index.html                # 静态检索页（机型/版本/链接，可 GitHub Pages 直出）
+└── scripts/                       # update.py（官方增量）/ verify.py / seed.py
+                                   # normalize.py（归一化去重）/ fix_history.py（基线修正）
+                                   # build_index.py（生成检索页）
 ```
 
 ### 数据格式
@@ -113,4 +101,6 @@ PLQ110_11.A.57_0570_202608071758  # ColorOS: PLQ110_16.0.10.500(CN01)
 
 - v0.1 首版：231 机型 / 649 条官方链接 / 614 行版本史基线 + 全链路自动更新
 - v0.2 全量首次扫描完成：356 机型 / 809 条官方链接（全量校验 809/809 有效，零死链）
-  / 507 份官方 changelog / 33 台降级包 / 936 行版本史 + 英文摘要
+  / 507 份官方 changelog / 33 台降级包
+- v0.3 版本史清洗：剔除 79 行重复 + 151 行查询基线指纹，34 条基线重查修正为官方 OTA 指纹，
+  2 条无法取证如实标注「查询基线 · 非官方 OTA 指纹」；新增 `build_index.py` 静态检索页
