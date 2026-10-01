@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:00:02
+查询地区: CN
+最新 OTA 版本: PLZ110_11.A.37_0370_202607300001
+版本名称: PLZ110_16.0.10.500(CN01)
+Android 版本: Android 16
+ColorOS 版本: PLZ110_16.0.10.500(CN01)
+安全补丁: 2026-08-01
+发布时间: 1787564977463
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=78bc1547ecc1ec6256bef42912c96b39&p=a6c78fdd3752888939cedefd42cd3564c578f5e5493754a181bc03eec22d0495bbea61d2b27b3872e838d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8c052a92ce7c01836a4545&taste=0&supportDLTaste=0&mode=1&tr=manual&s=74978673f8a1286505916bc1b45ee6ce

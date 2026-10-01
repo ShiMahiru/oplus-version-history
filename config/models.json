@@ -1,0 +1,2497 @@
+{
+ "count": 356,
+ "models": [
+  {
+   "code": "CPH2409",
+   "name": "OnePlus Nord CE 2 Lite 5G",
+   "brand": "oneplus",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2411",
+   "name": "OnePlus 10R 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2413",
+   "name": "OnePlus 10T 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2415",
+   "name": "OnePlus 10T 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2415EEA",
+   "name": "OnePlus 10T/Ace Pro",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2423",
+   "name": "OnePlus 10R 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2437",
+   "name": "Find N2 Flip",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2447",
+   "name": "OnePlus 11 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2449",
+   "name": "OnePlus 11 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2449EEA",
+   "name": "OnePlus 11",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2465",
+   "name": "OnePlus Nord CE 3 Lite 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2465EEA",
+   "name": "OnePlus Nord CE 3 Lite",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2467",
+   "name": "OnePlus Nord CE 3 Lite 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2483",
+   "name": "A78 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2487",
+   "name": "OnePlus 11R 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2491",
+   "name": "OnePlus Nord 3 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2493",
+   "name": "OnePlus Nord 3 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2493EEA",
+   "name": "OnePlus Nord 3",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2499",
+   "name": "Find N3",
+   "brand": "oppo",
+   "region": "ID",
+   "rui": 5
+  },
+  {
+   "code": "CPH2505",
+   "name": "Reno8 T 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2519",
+   "name": "Find N3 Flip",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2521",
+   "name": "Reno10 Pro+ 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2525",
+   "name": "Reno10 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2529",
+   "name": "A98 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2531",
+   "name": "Reno10 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2551EEA",
+   "name": "OnePlus Open",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2551IN",
+   "name": "OnePlus Open",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2557",
+   "name": "A79 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2565",
+   "name": "A78",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2569",
+   "name": "OnePlus Nord CE 3",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2573IN",
+   "name": "OnePlus 12",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2577",
+   "name": "A58",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2579",
+   "name": "A38",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2581",
+   "name": "OnePlus 12",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2581EEA",
+   "name": "OnePlus 12",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2585IN",
+   "name": "OnePlus 12R/Ace 3",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2591",
+   "name": "A18",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2599",
+   "name": "Reno 11",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2603",
+   "name": "F25 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2605",
+   "name": "OnePlus Nord N30 SE 5G",
+   "brand": "oneplus",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2607",
+   "name": "Reno 11 Pro",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2609",
+   "name": "OnePlus 12R",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2609EEA",
+   "name": "OnePlus 12R/Ace 3",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2613IN",
+   "name": "OnePlus Nord CE 4",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2619IN",
+   "name": "OnePlus Nord CE 4 Lite",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2621",
+   "name": "OnePlus Nord CE4 Lite 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2621EEA",
+   "name": "OnePlus Nord CE 4 Lite",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2625",
+   "name": "Reno12 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2629",
+   "name": "Reno12 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2631",
+   "name": "A60",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2637",
+   "name": "Reno12 F 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2639",
+   "name": "A3 Pro 5G/A3 5G/A80 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2641",
+   "name": "A3x",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2645",
+   "name": "OnePlus 13R",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2645EEA",
+   "name": "OnePlus 13R/Ace 5",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2649IN",
+   "name": "OnePlus 13",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2651",
+   "name": "Find X8",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2653",
+   "name": "OnePlus 13",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2653EEA",
+   "name": "OnePlus 13s",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2659",
+   "name": "Find X8 Pro",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2661IN",
+   "name": "OnePlus Nord 4",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2663",
+   "name": "OnePlus Nord 4",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2663EEA",
+   "name": "OnePlus Nord 4",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2669",
+   "name": "A3",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2671",
+   "name": "Find N5",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2683",
+   "name": "A60 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2689",
+   "name": "Reno13 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2691IN",
+   "name": "OnePlus 13R/Ace 5",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2695",
+   "name": "A5 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2697",
+   "name": "Reno13 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2699",
+   "name": "Reno13 F 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2707IN",
+   "name": "OnePlus Nord 5",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2709",
+   "name": "OnePlus Nord 5",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2709EEA",
+   "name": "OnePlus Nord 5",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2717IN",
+   "name": "OnePlus Nord CE 5",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2719",
+   "name": "Nord CE5",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2719EEA",
+   "name": "OnePlus Nord CE 5",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "CPH2723IN",
+   "name": "OnePlus 13s",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2725",
+   "name": "A5x",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2735",
+   "name": "A5 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2737",
+   "name": "Reno14 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2739",
+   "name": "Reno14 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2743",
+   "name": "Reno14 F 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2745IN",
+   "name": "OnePlus 15",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 7
+  },
+  {
+   "code": "CPH2747",
+   "name": "OnePlus 15",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 7
+  },
+  {
+   "code": "CPH2747EEA",
+   "name": "OnePlus 15",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 7
+  },
+  {
+   "code": "CPH2765",
+   "name": "Find N6",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2767IN",
+   "name": "OnePlus 15R/Ace6T",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 7
+  },
+  {
+   "code": "CPH2769",
+   "name": "OnePlus 15R",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 7
+  },
+  {
+   "code": "CPH2769EEA",
+   "name": "OnePlus 15R/Ace6T",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 7
+  },
+  {
+   "code": "CPH2781",
+   "name": "A6 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2783",
+   "name": "A6x 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2791",
+   "name": "Find X9 Pro",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2793IN",
+   "name": "OnePlus Nord 6",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "CPH2795",
+   "name": "OnePlus Nord 6",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 6
+  },
+  {
+   "code": "CPH2797",
+   "name": "Find X9",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2801",
+   "name": "Reno15 C 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2805IN",
+   "name": "OnePlus Nord CE 6",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2807",
+   "name": "OnePlus Nord CE6",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "CPH2811",
+   "name": "Reno15 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2813",
+   "name": "Reno15 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2819",
+   "name": "A6x",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2825",
+   "name": "Reno15 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2831",
+   "name": "A6 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2841",
+   "name": "Find X9 Ultra",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2859",
+   "name": "Reno16 F 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2863",
+   "name": "Reno16 Pro 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2865",
+   "name": "Reno16 5G",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2873",
+   "name": "Find X9s",
+   "brand": "oppo",
+   "region": "GL",
+   "rui": 5
+  },
+  {
+   "code": "CPH2943IN",
+   "name": "OnePlus Nord CE 6 Lite",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "CPH2955IN",
+   "name": "OnePlus N6",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 7
+  },
+  {
+   "code": "NE2210",
+   "name": "OnePlus 10 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "NE2211",
+   "name": "OnePlus 10 Pro",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "NE2213",
+   "name": "OnePlus 10 Pro",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "NE2213EEA",
+   "name": "OnePlus 10 Pro",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2203",
+   "name": "OnePlus Pad",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2203EEA",
+   "name": "OnePlus Pad",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2403",
+   "name": "OnePlus Pad 2",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "OPD2403EEA",
+   "name": "OnePlus Pad 2",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2403IN",
+   "name": "OnePlus Pad 2",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2404",
+   "name": "OnePlus Pad Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2413",
+   "name": "OnePlus Pad 2 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2415",
+   "name": "OnePlus Pad 3",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "OPD2415EEA",
+   "name": "OnePlus Pad 3",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2415IN",
+   "name": "OnePlus Pad 3",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2504",
+   "name": "OnePlus Pad Go 2 WiFi",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "OPD2504EEA",
+   "name": "OnePlus Pad Go 2 WiFi",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2504IN",
+   "name": "OnePlus Pad Go 2 WiFi",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2505",
+   "name": "OnePlus Pad Go 2 5G",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "OPD2505EEA",
+   "name": "OnePlus Pad Go 2 5G",
+   "brand": "oneplus",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "OPD2505IN",
+   "name": "OnePlus Pad Go 2 5G",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2513",
+   "name": "加平板 3 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "OPD2514",
+   "name": "OnePlus Pad 4",
+   "brand": "oneplus",
+   "region": "GLO",
+   "rui": 5
+  },
+  {
+   "code": "OPD2514IN",
+   "name": "OnePlus Pad 4",
+   "brand": "oneplus",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "PGKM10",
+   "name": "OnePlus 10R 80W",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PGP110",
+   "name": "OnePlus 10T/Ace Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PGZ110",
+   "name": "OnePlus Ace Racing Edition",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PHB110",
+   "name": "OnePlus 11",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PHK110",
+   "name": "OnePlus 11R/Ace 2",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PHN110",
+   "name": "Find N3",
+   "brand": "oppo",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PHP110",
+   "name": "OnePlus Ace 2V",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJA110",
+   "name": "OnePlus Ace 2 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJD110",
+   "name": "OnePlus 12",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJE110",
+   "name": "OnePlus 12R/Ace 3",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJF110",
+   "name": "OnePlus Ace 3V",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJX110",
+   "name": "OnePlus Ace 3 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PJZ110",
+   "name": "OnePlus 13",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PKG110",
+   "name": "OnePlus 13R/Ace 5",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PKR110",
+   "name": "OnePlus Ace 5 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PKX110",
+   "name": "OnePlus 13T",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "PLK110",
+   "name": "OnePlus 15",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 7
+  },
+  {
+   "code": "PLQ110",
+   "name": "OnePlus Ace 6",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 4
+  },
+  {
+   "code": "PLR110",
+   "name": "OnePlus 15R/Ace6T",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 7
+  },
+  {
+   "code": "PLZ110",
+   "name": "OnePlus 15T",
+   "brand": "oneplus",
+   "region": "CN",
+   "rui": 7
+  },
+  {
+   "code": "RMX2202",
+   "name": "realme GT 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX2202EEA",
+   "name": "realme GT 5G",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX2202RU",
+   "name": "realme GT 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3031",
+   "name": "realme X7 Max/GT Neo",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3081",
+   "name": "realme 8 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 4
+  },
+  {
+   "code": "RMX3085",
+   "name": "realme 8",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 4
+  },
+  {
+   "code": "RMX3151",
+   "name": "realme 8i",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 4
+  },
+  {
+   "code": "RMX3193",
+   "name": "realme C25",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3197",
+   "name": "realme C25s",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3241",
+   "name": "realme 8 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3242",
+   "name": "realme Narzo 30 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 4
+  },
+  {
+   "code": "RMX3286",
+   "name": "realme Narzo 50",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3300",
+   "name": "realme GT 2 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3301",
+   "name": "realme GT 2 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3310",
+   "name": "realme GT 2",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3311",
+   "name": "realme GT 2",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3312",
+   "name": "realme GT 2",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3350",
+   "name": "realme X7 Max/GT Neo",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3357",
+   "name": "realme GT Neo 2T",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3360",
+   "name": "realme GT Master Edition",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3363",
+   "name": "realme GT Master Edition",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3366",
+   "name": "realme GT Master Edition",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3370",
+   "name": "realme GT Neo 2",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3381",
+   "name": "realme 8s 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3388",
+   "name": "realme 9 5G",
+   "brand": "realme",
+   "region": "MY",
+   "rui": 4
+  },
+  {
+   "code": "RMX3392",
+   "name": "realme 9 Pro+",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3393",
+   "name": "realme 9 Pro+",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3395",
+   "name": "realme Narzo 50 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3396",
+   "name": "realme Narzo 50 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3430",
+   "name": "realme Narzo 50A",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3461",
+   "name": "realme 9 5G Speed Edition",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 4
+  },
+  {
+   "code": "RMX3471",
+   "name": "realme 9 Pro 5G/Q5",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3472",
+   "name": "realme 9 Pro 5G/Q5",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3474",
+   "name": "realme 9 SD695 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3478",
+   "name": "realme 9 Pro 5G/Q5",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3491",
+   "name": "realme 9i",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 4
+  },
+  {
+   "code": "RMX3521",
+   "name": "realme 9 4G",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3560",
+   "name": "realme GT Neo 3 80W",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3561",
+   "name": "realme GT Neo 3 80W",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3561RU",
+   "name": "realme GT Neo 3 80W",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3562",
+   "name": "realme GT Neo 3 150W",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3563",
+   "name": "realme GT Neo 3 150W",
+   "brand": "realme",
+   "region": "ID",
+   "rui": 5
+  },
+  {
+   "code": "RMX3612",
+   "name": "realme 9i 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3630",
+   "name": "realme 10",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3660",
+   "name": "realme 10 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3661",
+   "name": "realme 10 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3663",
+   "name": "realme 10 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3686",
+   "name": "realme 10 Pro+",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3687",
+   "name": "realme 10 Pro+",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3700",
+   "name": "realme GT Neo 5 SE",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3701",
+   "name": "realme GT Neo 5 SE",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3706",
+   "name": "realme GT3/Neo5",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3708",
+   "name": "realme GT Neo 5 240W",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3709",
+   "name": "realme GT3/Neo5",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3709RU",
+   "name": "realme GT3/Neo5",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3709TR",
+   "name": "realme GT3/Neo5",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3710",
+   "name": "realme Narzo N55",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3740",
+   "name": "realme 11 Pro+ 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3741",
+   "name": "realme 11 Pro+ 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX3750",
+   "name": "realme Narzo 60",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3770",
+   "name": "realme 11 Pro 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3771",
+   "name": "realme 11 Pro 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX3780",
+   "name": "realme 11 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX3780IN",
+   "name": "realme 11 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3782",
+   "name": "realme C67 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3785",
+   "name": "realme 11x 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX3785IN",
+   "name": "realme 11x 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3820",
+   "name": "realme GT5",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3823",
+   "name": "realme GT5 240W",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3840",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3840EEA",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3840IN",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3840RU",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3840TR",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3841",
+   "name": "realme 12 Pro+ 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3842",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3842EEA",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3842IN",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3842RU",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3842TR",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3843",
+   "name": "realme 12 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3844",
+   "name": "realme P1 Pro 5G",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3844IN",
+   "name": "realme P1 Pro 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3850",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3851",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3851EEA",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3851IN",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3851RU",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3851TR",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3852",
+   "name": "realme GT6",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3853",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX3853EEA",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3853IN",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3853RU",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3853TR",
+   "name": "realme GT6T/6SE",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX3867",
+   "name": "realme 12+ 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX3867IN",
+   "name": "realme 12+ 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3868IN",
+   "name": "realme Narzo 70 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3869IN",
+   "name": "realme Narzo 70 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3870IN",
+   "name": "realme P1 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3888",
+   "name": "realme GT 5 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3920",
+   "name": "realme 13 Pro+ 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3921",
+   "name": "realme 13 Pro+ 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3921IN",
+   "name": "realme 13 Pro+ 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3940IN",
+   "name": "realme 14x 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3944IN",
+   "name": "realme Narzo 80x 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3945IN",
+   "name": "realme C73 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3950IN",
+   "name": "realme C63 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3951IN",
+   "name": "realme 13",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3952",
+   "name": "realme 13",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3987IN",
+   "name": "realme P2 Pro 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3988",
+   "name": "realme 13 Pro",
+   "brand": "realme",
+   "region": "ID",
+   "rui": 5
+  },
+  {
+   "code": "RMX3989",
+   "name": "realme 13 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3990IN",
+   "name": "realme 13 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3992",
+   "name": "realme 12 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3993",
+   "name": "realme 12x",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3997",
+   "name": "realme NARZO N65 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX3997EEA",
+   "name": "realme NARZO N65 5G",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX3997IN",
+   "name": "realme C65 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX3998IN",
+   "name": "realme 12x",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX3999IN",
+   "name": "realme 12 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5000",
+   "name": "Realme 13+ 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX5000IN",
+   "name": "Realme 13+ 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5003IN",
+   "name": "realme Narzo 70 Turbo 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5004IN",
+   "name": "realme P1 Speed 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5010",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5011",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX5011EEA",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5011IN",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5011RU",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5011TR",
+   "name": "realme GT7 Pro",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5030IN",
+   "name": "realme P3 Ultra 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5032IN",
+   "name": "realme P3 Pro 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5033IN",
+   "name": "realme Narzo 80 Pro 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5050",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5051",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX5051IN",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5051RU",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5051TR",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5054EEA",
+   "name": "realme 14 Pro+ 5G",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5055",
+   "name": "realme 14 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5056IN",
+   "name": "realme 14 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5060",
+   "name": "realme Neo7",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5061",
+   "name": "realme GT 7",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5061EEA",
+   "name": "realme GT 7",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5061IN",
+   "name": "realme GT 7",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5061RU",
+   "name": "realme GT 7",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5062",
+   "name": "realme Neo7 Turbo",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5070",
+   "name": "realme P3 5G",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 6
+  },
+  {
+   "code": "RMX5070IN",
+   "name": "realme 14/P3",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5071",
+   "name": "realme Neo7x",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5075",
+   "name": "realme 14/P3",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5080",
+   "name": "realme Neo7 SE",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5085",
+   "name": "realme GT 7T",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5085EEA",
+   "name": "realme GT 7T",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5085IN",
+   "name": "realme GT 7T",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5085RU",
+   "name": "realme GT 7T",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5085TR",
+   "name": "realme GT 7T",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5100",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5101",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5101EEA",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5101IN",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5101RU",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5101TR",
+   "name": "realme 15 Pro",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5105",
+   "name": "realme 15 5G",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5106",
+   "name": "realme 15 5G",
+   "brand": "realme",
+   "region": "KZ",
+   "rui": 6
+  },
+  {
+   "code": "RMX5106IN",
+   "name": "realme 15 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5107IN",
+   "name": "realme P4 Power 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5108IN",
+   "name": "realme P4x 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5110IN",
+   "name": "realme P4 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5111IN",
+   "name": "realme 15T",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5112",
+   "name": "realme 15T",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5116IN",
+   "name": "realme P4 Pro 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 6
+  },
+  {
+   "code": "RMX5120",
+   "name": "realme 16 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5120EEA",
+   "name": "realme 16 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5120IN",
+   "name": "realme 16 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5120RU",
+   "name": "realme 16 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5120TR",
+   "name": "realme 16 Pro",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5131",
+   "name": "realme 16 Pro+",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5131EEA",
+   "name": "realme 16 Pro+",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5131IN",
+   "name": "realme 16 Pro+",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5131RU",
+   "name": "realme 16 Pro+",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5131TR",
+   "name": "realme 16 Pro+",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5171",
+   "name": "realme 16 5G",
+   "brand": "realme",
+   "region": "VN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5171EEA",
+   "name": "realme 16 5G",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5171IN",
+   "name": "realme 16 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5171RU",
+   "name": "realme 16 5G",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5200",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5210",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "TW",
+   "rui": 5
+  },
+  {
+   "code": "RMX5210EEA",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5210IN",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5210RU",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5210TR",
+   "name": "realme GT 8 Pro",
+   "brand": "realme",
+   "region": "TR",
+   "rui": 5
+  },
+  {
+   "code": "RMX5250IN",
+   "name": "realme 15x 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5261IN",
+   "name": "realme Narzo 100 Lite 5G",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 7
+  },
+  {
+   "code": "RMX5264",
+   "name": "realme narzo 90x",
+   "brand": "realme",
+   "region": "MEA",
+   "rui": 5
+  },
+  {
+   "code": "RMX5264EEA",
+   "name": "realme narzo 90x",
+   "brand": "realme",
+   "region": "EU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5264IN",
+   "name": "realme narzo 90x",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5264RU",
+   "name": "realme narzo 90x",
+   "brand": "realme",
+   "region": "RU",
+   "rui": 5
+  },
+  {
+   "code": "RMX5268",
+   "name": "realme 16T",
+   "brand": "realme",
+   "region": "VN",
+   "rui": 5
+  },
+  {
+   "code": "RMX5268IN",
+   "name": "realme 16T",
+   "brand": "realme",
+   "region": "IN",
+   "rui": 5
+  },
+  {
+   "code": "RMX6688",
+   "name": "realme GT 7",
+   "brand": "realme",
+   "region": "CN",
+   "rui": 5
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:16:55
+查询地区: IN
+最新 OTA 版本: RMX3660_11.A.47_0470_202401171120
+版本名称: RMX3660_11_A.47
+Android 版本: Android 13
+ColorOS 版本: RMX3660_11_A.47
+安全补丁: 2024-01-05
+发布时间: 1708933281390
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-ea2493f9b68c73132723bc19df4b8458/component-ota/24/01/18/5e68e975549844d6b91869216b1a6cdc.zip

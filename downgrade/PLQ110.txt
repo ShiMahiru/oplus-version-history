@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:59:35
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 10570375254
+- MD5: c9b3ab6db40b402bf468107a5ec98d4a
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/17/bf4dfb7bd97a4cdf9c0ad808cd0398f3.zip
+- 更新说明: KTM降级包测试

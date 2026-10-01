@@ -1,0 +1,1432 @@
+{
+"_meta":{
+"source":"Kheronix/oplus-pn-ref",
+"generated":"2026-09-30"
+},
+"models":{
+"PAFM00":{
+"name":"OPPO Find X 全网通版",
+"prj":"17107"
+},
+"PAFT00":{
+"name":"OPPO Find X 移动版",
+"prj":"17108"
+},
+"PAHM00":{
+"name":"OPPO Find X 超级闪充版 全网通版<br>OPPO Find X 兰博基尼版",
+"prj":"17127"
+},
+"PAFT10":{
+"name":"OPPO Find X 超级闪充版 移动版",
+"prj":"17128"
+},
+"PDEM10":{
+"name":"OPPO Find X2 全网通版",
+"prj":"19065"
+},
+"PDET10":{
+"name":"OPPO Find X2 移动版",
+"prj":"19063"
+},
+"PDEM30":{
+"name":"OPPO Find X2 Pro<br>OPPO Find X2 Pro 兰博基尼版",
+"prj":"19066"
+},
+"PEDM00":{
+"name":"OPPO Find X3",
+"prj":"20061"
+},
+"PEEM00":{
+"name":"OPPO Find X3 Pro 摄影师版",
+"prj":"21051"
+},
+"PFFM10":{
+"name":"OPPO Find X5",
+"prj":"21005"
+},
+"PFEM10":{
+"name":"OPPO Find X5 Pro",
+"prj":"21001"
+},
+"PFFM20":{
+"name":"OPPO Find X5 Pro 天玑版",
+"prj":"21007"
+},
+"PGFM10":{
+"name":"OPPO Find X6",
+"prj":"21135"
+},
+"PGEM10":{
+"name":"OPPO Find X6 Pro",
+"prj":"21131"
+},
+"PHZ110":{
+"name":"OPPO Find X7",
+"prj":"22113"
+},
+"PHY110":{
+"name":"OPPO Find X7 Ultra",
+"prj":"22111"
+},
+"PHY120":{
+"name":"OPPO Find X7 Ultra 卫星通信版",
+"prj":"22112"
+},
+"PKB110":{
+"name":"OPPO Find X8",
+"prj":"23101"
+},
+"PKC110":{
+"name":"OPPO Find X8 Pro",
+"prj":"23105"
+},
+"PKC130":{
+"name":"OPPO Find X8 Pro 卫星通信版",
+"prj":"23106"
+},
+"PKT110":{
+"name":"OPPO Find X8s",
+"prj":"24011"
+},
+"PLB110":{
+"name":"OPPO Find X8s+",
+"prj":"24013"
+},
+"PKJ110":{
+"name":"OPPO Find X8 Ultra",
+"prj":"24019"
+},
+"PKU110":{
+"name":"OPPO Find X8 Ultra 卫星通信版",
+"prj":"24018"
+},
+"PLJ110":{
+"name":"OPPO Find X9",
+"prj":"24087"
+},
+"PLG110":{
+"name":"OPPO Find X9 Pro",
+"prj":"24081"
+},
+"PLG120":{
+"name":"OPPO Find X9 Pro 卫星通信版",
+"prj":"24082"
+},
+"PME110":{
+"name":"OPPO Find X9s Pro",
+"prj":"25025"
+},
+"PMA110":{
+"name":"OPPO Find X9 Ultra",
+"prj":"25021"
+},
+"PMA120":{
+"name":"OPPO Find X9 Ultra 卫星通信版",
+"prj":"25022"
+},
+"PMW110":{
+"name":"OPPO Find X10",
+"prj":"26011"
+},
+"PNA110":{
+"name":"OPPO Find X10 E",
+"prj":"26071"
+},
+"PMX110":{
+"name":"OPPO Find X10 Pro Max",
+"prj":"26015"
+},
+"PEUM00":{
+"name":"OPPO Find N",
+"prj":"20085"
+},
+"PGU110":{
+"name":"OPPO Find N2",
+"prj":"22001"
+},
+"PGT110":{
+"name":"OPPO Find N2 Flip",
+"prj":"22021"
+},
+"PHN110":{
+"name":"OPPO Find N3<br>OPPO Find N3 典藏版",
+"prj":"22003"
+},
+"PHT110":{
+"name":"OPPO Find N3 Flip",
+"prj":"22023"
+},
+"PKH110":{
+"name":"OPPO Find N5",
+"prj":"24001"
+},
+"PKH120":{
+"name":"OPPO Find N5 卫星通信版",
+"prj":"24002"
+},
+"PLP110":{
+"name":"OPPO Find N6",
+"prj":"25001"
+},
+"PLP120":{
+"name":"OPPO Find N6 卫星通信版",
+"prj":"25002"
+},
+"PCAM00":{
+"name":"OPPO Reno 全网通版<br>OPPO Reno 灵感版",
+"prj":"18097"
+},
+"PCAT00":{
+"name":"OPPO Reno 移动版",
+"prj":"18098"
+},
+"PCCM00":{
+"name":"OPPO Reno 10 倍变焦版 全网通版<br>OPPO Reno 巴萨定制版",
+"prj":"18115"
+},
+"PCCT00":{
+"name":"OPPO Reno 10 倍变焦版 移动版",
+"prj":"18116"
+},
+"PCDM10":{
+"name":"OPPO Reno Z 全网通版",
+"prj":"18073"
+},
+"PCDT10":{
+"name":"OPPO Reno Z 移动版",
+"prj":"18075"
+},
+"PCKM00":{
+"name":"OPPO Reno2 全网通版",
+"prj":"19031"
+},
+"PCKM80":{
+"name":"OPPO Reno2 Z 全网通版",
+"prj":"19011"
+},
+"PDCM00":{
+"name":"OPPO Reno3 5G 全网通版",
+"prj":"19165"
+},
+"PCRM00":{
+"name":"OPPO Reno3 Pro 5G 全网通版",
+"prj":"19101"
+},
+"PCLM50":{
+"name":"OPPO K7",
+"prj":"19127"
+},
+"PCRT01":{
+"name":"OPPO Reno3 元气版 5G 移动版",
+"prj":"19126"
+},
+"PDPM00":{
+"name":"OPPO Reno4 5G 全网通版",
+"prj":"19015"
+},
+"PDPT00":{
+"name":"OPPO Reno4 5G 移动版",
+"prj":"19016"
+},
+"PDNM00":{
+"name":"OPPO Reno4 Pro 5G 全网通版",
+"prj":"19191"
+},
+"PDNT00":{
+"name":"OPPO Reno4 Pro 5G 移动版",
+"prj":"19192"
+},
+"PEAM00":{
+"name":"OPPO Reno4 SE 5G 全网通版",
+"prj":"20075"
+},
+"PEAT00":{
+"name":"OPPO Reno4 SE 5G 移动版",
+"prj":"20076"
+},
+"PEGM00":{
+"name":"OPPO Reno5 5G 全网通版",
+"prj":"20111"
+},
+"PEGT00":{
+"name":"OPPO Reno5 5G 移动版",
+"prj":"20113"
+},
+"PEGM10":{
+"name":"OPPO Reno5 K 5G 全网通版",
+"prj":"20057"
+},
+"PEGT10":{
+"name":"OPPO Reno5 K 5G 移动版",
+"prj":"20058"
+},
+"PDSM00":{
+"name":"OPPO Reno5 Pro 5G 全网通版",
+"prj":"20131"
+},
+"PDST00":{
+"name":"OPPO Reno5 Pro 5G 移动版",
+"prj":"20133"
+},
+"PDRM00":{
+"name":"OPPO Reno5 Pro+ 5G<br>OPPO Reno5 Pro+ 艺术家限定版 5G",
+"prj":"20139"
+},
+"PEQM00":{
+"name":"OPPO Reno6 5G",
+"prj":"20181"
+},
+"PEPM00":{
+"name":"OPPO Reno6 Pro 5G",
+"prj":"20171"
+},
+"PENM00":{
+"name":"OPPO Reno6 Pro+ 5G 名侦探柯南限定版",
+"prj":"20163"
+},
+"PFJM10":{
+"name":"OPPO Reno7 5G<br>OPPO Reno7 新年版 5G",
+"prj":"21031"
+},
+"PFDM00":{
+"name":"OPPO Reno7 Pro 5G <br>OPPO Reno7 Pro 英雄联盟手游限定版",
+"prj":"21015"
+},
+"PFCM00":{
+"name":"OPPO Reno7 SE 5G",
+"prj":"21081"
+},
+"PGBM10":{
+"name":"OPPO Reno8 5G",
+"prj":"21127"
+},
+"PGAM10":{
+"name":"OPPO Reno8 Pro 5G",
+"prj":"21125"
+},
+"PFZM10":{
+"name":"OPPO Reno8 Pro+ 5G",
+"prj":"21121"
+},
+"PHM110":{
+"name":"OPPO Reno9 5G",
+"prj":"22055"
+},
+"PGX110":{
+"name":"OPPO Reno9 Pro 5G",
+"prj":"22017"
+},
+"PGW110":{
+"name":"OPPO Reno9 Pro+ 5G",
+"prj":"22015"
+},
+"PHW110":{
+"name":"OPPO Reno10 5G",
+"prj":"22101"
+},
+"PHV110":{
+"name":"OPPO Reno10 Pro 星籁版 5G",
+"prj":"22047"
+},
+"PHU110":{
+"name":"OPPO Reno10 Pro+ 5G",
+"prj":"22091"
+},
+"PJH110":{
+"name":"OPPO Reno11 5G",
+"prj":"23021"
+},
+"PJJ110":{
+"name":"OPPO Reno11 Pro 5G",
+"prj":"23023"
+},
+"PJV110":{
+"name":"OPPO Reno12",
+"prj":"23081"
+},
+"PJW110":{
+"name":"OPPO Reno12 Pro",
+"prj":"23083"
+},
+"PKM110":{
+"name":"OPPO Reno13",
+"prj":"24023"
+},
+"PKK110":{
+"name":"OPPO Reno13 Pro",
+"prj":"24021"
+},
+"PLA110":{
+"name":"OPPO Reno14",
+"prj":"24075"
+},
+"PKZ110":{
+"name":"OPPO Reno14 Pro",
+"prj":"24071"
+},
+"PLW110":{
+"name":"OPPO Reno15",
+"prj":"25015"
+},
+"PLV110":{
+"name":"OPPO Reno15 Pro",
+"prj":"25011"
+},
+"PMD110":{
+"name":"OPPO Reno15c",
+"prj":"25019"
+},
+"PMM110":{
+"name":"OPPO Reno16<br>OPPO Reno16t",
+"prj":"25075"
+},
+"PMK110":{
+"name":"OPPO Reno16 Pro",
+"prj":"25071"
+},
+"PCLM10":{
+"name":"OPPO Reno Ace<br>OPPO Reno Ace 高达版",
+"prj":"19081"
+},
+"PDHM00":{
+"name":"OPPO Ace2<br>OPPO Ace2 EVA限定版",
+"prj":"19161"
+},
+"PACM00":{
+"name":"OPPO R15 全网通版",
+"prj":"17197"
+},
+"PACT00":{
+"name":"OPPO R15 移动版",
+"prj":"17198"
+},
+"PAAM00":{
+"name":"OPPO R15 梦镜版 全网通版",
+"prj":"17081"
+},
+"PAAT00":{
+"name":"OPPO R15 梦镜版 移动版",
+"prj":"17082"
+},
+"PBCM10":{
+"name":"OPPO R15x 全网通版",
+"prj":"18005"
+},
+"PBCT10":{
+"name":"OPPO R15x 移动版",
+"prj":"18007"
+},
+"PBEM00":{
+"name":"OPPO R17 全网通版",
+"prj":"18085"
+},
+"PBET00":{
+"name":"OPPO R17 移动版",
+"prj":"18086"
+},
+"PBDM00":{
+"name":"OPPO R17 Pro 全网通版<br>OPPO R17 Pro 王者定制版",
+"prj":"18181"
+},
+"PADM00":{
+"name":"OPPO A3 全网通版",
+"prj":"17175"
+},
+"PADT00":{
+"name":"OPPO A3 移动版",
+"prj":"17176"
+},
+"PBAM00":{
+"name":"OPPO A5 全网通版",
+"prj":"18031"
+},
+"PBBM30":{
+"name":"OPPO A5 全网通版",
+"prj":"18051"
+},
+"PBAT00":{
+"name":"OPPO A5 移动版",
+"prj":"18032"
+},
+"PBBT30":{
+"name":"OPPO A5 移动版",
+"prj":"18056"
+},
+"PBFM00":{
+"name":"OPPO A7 全网通版",
+"prj":"18171"
+},
+"PBFT00":{
+"name":"OPPO A7 移动版",
+"prj":"18172"
+},
+"PBBM00":{
+"name":"OPPO A7x 全网通版",
+"prj":"18013"
+},
+"PBBT00":{
+"name":"OPPO A7x 移动版",
+"prj":"18015"
+},
+"PCDM00":{
+"name":"OPPO A7n 全网通版",
+"prj":"18121"
+},
+"PCDT00":{
+"name":"OPPO A7n 移动版",
+"prj":"18122"
+},
+"PDBM00":{
+"name":"OPPO A8 全网通版",
+"prj":"19181"
+},
+"PDBT00":{
+"name":"OPPO A8 移动版",
+"prj":"19180"
+},
+"PCAM10":{
+"name":"OPPO A9 全网通版",
+"prj":"18161"
+},
+"PCAT10":{
+"name":"OPPO A9 移动版",
+"prj":"18162"
+},
+"PCEM00":{
+"name":"OPPO A9x 全网通版",
+"prj":"18163"
+},
+"PCET00":{
+"name":"OPPO A9x 移动版",
+"prj":"18165"
+},
+"PCHM10":{
+"name":"OPPO A11 全网通版",
+"prj":"19021"
+},
+"PCHM30":{
+"name":"OPPO A11x 全网通版",
+"prj":"19028"
+},
+"PCHT30":{
+"name":"OPPO A11x 移动版",
+"prj":"19029"
+},
+"PCHM00":{
+"name":"OPPO A11n 全网通版",
+"prj":"19026"
+},
+"PCHT00":{
+"name":"OPPO A11n 移动版",
+"prj":"19027"
+},
+"PDVM00":{
+"name":"OPPO A32",
+"prj":"20021"
+},
+"PEFM00":{
+"name":"OPPO A35",
+"prj":"20091"
+},
+"PESM10":{
+"name":"OPPO A36",
+"prj":"21091"
+},
+"PDAM10":{
+"name":"OPPO A52 全网通版",
+"prj":"19175"
+},
+"PDAT10":{
+"name":"OPPO A52 移动版",
+"prj":"19176"
+},
+"PECM20":{
+"name":"OPPO A53 5G 全网通版",
+"prj":"20043"
+},
+"PECM30":{
+"name":"OPPO A53 5G 全网通版",
+"prj":"20041"
+},
+"PECT30":{
+"name":"OPPO A53 5G 移动版",
+"prj":"20042"
+},
+"PEMM00":{
+"name":"OPPO A55s 5G",
+"prj":"20013"
+},
+"PEMM20":{
+"name":"OPPO A55 5G 全网通版",
+"prj":"20108"
+},
+"PEMT00":{
+"name":"OPPO A55 5G 移动版",
+"prj":"20016"
+},
+"PEMT20":{
+"name":"OPPO A55 5G 移动版",
+"prj":"20109"
+},
+"PFVM10":{
+"name":"OPPO A56 5G",
+"prj":"21037"
+},
+"PFTM20":{
+"name":"OPPO A56s 5G<br>OPPO A57 5G",
+"prj":"21102"
+},
+"PHJ110":{
+"name":"OPPO A1 活力版 5G",
+"prj":"22083"
+},
+"PDYM20":{
+"name":"OPPO A72 5G 全网通版",
+"prj":"20001"
+},
+"PDYT20":{
+"name":"OPPO A72 5G 移动版",
+"prj":"20002"
+},
+"PCPM00":{
+"name":"OPPO A91 全网通版",
+"prj":"19151"
+},
+"PCPT00":{
+"name":"OPPO A91 移动版",
+"prj":"19152"
+},
+"PDKM00":{
+"name":"OPPO A92s 5G 全网通版",
+"prj":"19131"
+},
+"PDKT00":{
+"name":"OPPO A92s 5G 移动版",
+"prj":"19132"
+},
+"PEHM00":{
+"name":"OPPO A93 5G 全网通版",
+"prj":"20121"
+},
+"PEHT00":{
+"name":"OPPO A93 5G 移动版",
+"prj":"20122"
+},
+"PFGM00":{
+"name":"OPPO A93s 5G",
+"prj":"21041"
+},
+"PELM00":{
+"name":"OPPO A95 5G",
+"prj":"20151"
+},
+"PFUM10":{
+"name":"OPPO A96 5G",
+"prj":"21095"
+},
+"PHA120":{
+"name":"OPPO A96 5G",
+"prj":"22042"
+},
+"PFTM10":{
+"name":"OPPO A97 5G",
+"prj":"21102"
+},
+"PHS110":{
+"name":"OPPO A1 5G",
+"prj":"22045"
+},
+"PHQ110":{
+"name":"OPPO A1 Pro 5G",
+"prj":"22035"
+},
+"PJB110":{
+"name":"OPPO A1s 5G<br>OPPO A2 5G",
+"prj":"22087"
+},
+"PJU110":{
+"name":"OPPO A1i 5G<br>OPPO A2m 5G",
+"prj":"23054"
+},
+"PJS110":{
+"name":"OPPO A2x 5G",
+"prj":"23053"
+},
+"PJG110":{
+"name":"OPPO A2 Pro",
+"prj":"23031"
+},
+"PKA110":{
+"name":"OPPO A3 5G<br>OPPO A3i Plus 5G",
+"prj":"23091"
+},
+"PKD110":{
+"name":"OPPO A3 活力版 5G",
+"prj":"23111"
+},
+"PKD130":{
+"name":"OPPO A3x 5G",
+"prj":"23113"
+},
+"PKL110":{
+"name":"OPPO A3i 5G",
+"prj":"24031"
+},
+"PJY110":{
+"name":"OPPO A3 Pro 5G<br>OPPO A5 Plus 5G",
+"prj":"23035"
+},
+"PKQ110":{
+"name":"OPPO A5 5G<br>OPPO A6 Plus 5G",
+"prj":"24055"
+},
+"PKV110":{
+"name":"OPPO A5 活力版 5G<br>OPPO K13x 5G",
+"prj":"24059"
+},
+"PKW110":{
+"name":"OPPO A5x 5G<br>OPPO A5m 5G",
+"prj":"24053"
+},
+"PKP110":{
+"name":"OPPO A5 Pro 5G",
+"prj":"24051"
+},
+"PLS120":{
+"name":"OPPO A6 5G",
+"prj":"24092"
+},
+"PLL110":{
+"name":"OPPO A6 GT 5G<br>OPPO A6 Max 5G<br>OPPO A6l 5G<br>OPPO K13s 5G",
+"prj":"24034"
+},
+"PLN110":{
+"name":"OPPO A6 Pro 5G",
+"prj":"24035"
+},
+"PKW120":{
+"name":"OPPO A6i 5G",
+"prj":"24054"
+},
+"PLT120":{
+"name":"OPPO A6s 5G<br>OPPO A6i+ 5G<br>OPPO A6k 5G",
+"prj":"24095"
+},
+"PMT110":{
+"name":"OPPO A6s Pro 5G",
+"prj":"25055"
+},
+"PLT130":{
+"name":"OPPO A6v 5G",
+"prj":"24094"
+},
+"PLT140":{
+"name":"OPPO A6x 5G<br>OPPO A6m 5G",
+"prj":"24090"
+},
+"PMC110":{
+"name":"OPPO A6c",
+"prj":"25031"
+},
+"PLT150":{
+"name":"OPPO A7i 5G",
+"prj":"24101"
+},
+"PYE110":{
+"name":"OPPO A7 Pro 5G",
+"prj":"25099"
+},
+"PYC110":{
+"name":"OPPO A7 Pro Max 5G",
+"prj":"25101"
+},
+"PBCM30":{
+"name":"OPPO K1",
+"prj":"18009"
+},
+"PCGM00":{
+"name":"OPPO K3 全网通版",
+"prj":"18041"
+},
+"PCNM00":{
+"name":"OPPO K5 全网通版",
+"prj":"19111"
+},
+"PERM00":{
+"name":"OPPO K7x",
+"prj":"20095"
+},
+"PEXM00":{
+"name":"OPPO K9 5G",
+"prj":"20127"
+},
+"PERM10":{
+"name":"OPPO K9s 5G<br>OPPO K10 活力版 5G",
+"prj":"22831"
+},
+"PEYM00":{
+"name":"OPPO K9 Pro 5G",
+"prj":"21061"
+},
+"PGJM10":{
+"name":"OPPO K10 5G",
+"prj":"21143"
+},
+"PGIM10":{
+"name":"OPPO K10 Pro 5G",
+"prj":"21147"
+},
+"PGGM10":{
+"name":"OPPO K10x 5G",
+"prj":"21141"
+},
+"PJC110":{
+"name":"OPPO K11 5G",
+"prj":"22813"
+},
+"PHF110":{
+"name":"OPPO K11x 5G",
+"prj":"22821"
+},
+"PJR110":{
+"name":"OPPO K12 5G",
+"prj":"23061"
+},
+"PKS110":{
+"name":"OPPO K12 Plus",
+"prj":"24061"
+},
+"PJT110":{
+"name":"OPPO K12x 5G",
+"prj":"23071"
+},
+"PLD110":{
+"name":"OPPO K12s 5G",
+"prj":"24065"
+},
+"PLM110":{
+"name":"OPPO K13 Turbo 5G",
+"prj":"24069"
+},
+"PLE110":{
+"name":"OPPO K13 Turbo Pro 5G",
+"prj":"24067"
+},
+"PYD110":{
+"name":"OPPO K15",
+"prj":"25085"
+},
+"PMH110":{
+"name":"OPPO K15 Pro",
+"prj":"25065"
+},
+"PMG110":{
+"name":"OPPO K15 Pro+",
+"prj":"25061"
+},
+"OPD2101":{
+"name":"OPPO Pad",
+"prj":"21027"
+},
+"OPD2102":{
+"name":"OPPO Pad Air",
+"prj":"21029"
+},
+"OPD2201":{
+"name":"OPPO Pad 2",
+"prj":"22921"
+},
+"OPD2301":{
+"name":"OPPO Pad Air2",
+"prj":"23922"
+},
+"OPD2405":{
+"name":"OPPO Pad 3",
+"prj":"24921"
+},
+"OPD2401":{
+"name":"OPPO Pad 3 Pro",
+"prj":"23926"
+},
+"OPD2409":{
+"name":"OPPO Pad 4 Pro",
+"prj":"24924"
+},
+"OPD2417":{
+"name":"OPPO Pad SE",
+"prj":"24928"
+},
+"OPD2506":{
+"name":"OPPO Pad 5",
+"prj":"25922"
+},
+"OPD2501":{
+"name":"OPPO Pad Air5",
+"prj":"25921"
+},
+"OPD2511":{
+"name":"OPPO Pad 5 Pro",
+"prj":"25926"
+},
+"OPD2515":{
+"name":"OPPO Pad Mini",
+"prj":"25928"
+},
+"OPD2601":{
+"name":"OPPO Pad 6",
+"prj":"26921"
+},
+"GM1900":{
+"name":"一加 7",
+"prj":"18857"
+},
+"GM1910":{
+"name":"一加 7 Pro",
+"prj":"18821"
+},
+"HD1900":{
+"name":"一加 7T<br>一加 7T Pro 迈凯伦限定版",
+"prj":"18865"
+},
+"HD1910":{
+"name":"一加 7T Pro",
+"prj":"19801"
+},
+"IN2010":{
+"name":"一加 8",
+"prj":"19823"
+},
+"IN2020":{
+"name":"一加 8 Pro",
+"prj":"19813"
+},
+"KB2000":{
+"name":"一加 8T<br>一加 8T 赛博朋克2077限定版",
+"prj":"20806"
+},
+"LE2100":{
+"name":"一加 9R",
+"prj":"20828"
+},
+"LE2110":{
+"name":"一加 9",
+"prj":"19825"
+},
+"LE2120":{
+"name":"一加 9 Pro",
+"prj":"19815"
+},
+"MT2110":{
+"name":"一加 9RT 5G<br>一加 9RT 原神限定礼盒",
+"prj":"20820"
+},
+"NE2210":{
+"name":"一加 10 Pro",
+"prj":"20846"
+},
+"PHB110":{
+"name":"一加 11<br>一加 11 木星岩限定版",
+"prj":"23978"
+},
+"PJD110":{
+"name":"一加 12",
+"prj":"22825"
+},
+"PJZ110":{
+"name":"一加 13",
+"prj":"23821"
+},
+"PKX110":{
+"name":"一加 13T",
+"prj":"24821"
+},
+"PLK110":{
+"name":"一加 15",
+"prj":"24831"
+},
+"PLZ110":{
+"name":"一加 15T",
+"prj":"25821"
+},
+"PGKM10":{
+"name":"一加 Ace",
+"prj":"21861"
+},
+"PGZ110":{
+"name":"一加 Ace 竞速版",
+"prj":"22801"
+},
+"PGP110":{
+"name":"一加 Ace Pro<br>一加 Ace Pro 原神限定版",
+"prj":"21841"
+},
+"PHK110":{
+"name":"一加 Ace 2<br>一加 Ace 2 原神定制礼盒",
+"prj":"22803"
+},
+"PHP110":{
+"name":"一加 Ace 2V",
+"prj":"22823"
+},
+"PJA110":{
+"name":"一加 Ace 2 Pro<br>一加 Ace 2 Pro 原神派蒙主题礼盒",
+"prj":"22851"
+},
+"PJE110":{
+"name":"一加 Ace 3<br>一加 Ace 3 原神刻晴定制机",
+"prj":"23801"
+},
+"PJF110":{
+"name":"一加 Ace 3V",
+"prj":"23803"
+},
+"PJX110":{
+"name":"一加 Ace 3 Pro",
+"prj":"23814"
+},
+"PKG110":{
+"name":"一加 Ace 5",
+"prj":"23851"
+},
+"PKR110":{
+"name":"一加 Ace 5 Pro",
+"prj":"24811"
+},
+"PLC110":{
+"name":"一加 Ace 5 至尊版",
+"prj":"24813"
+},
+"PLF110":{
+"name":"一加 Ace 5 竞速版",
+"prj":"24825"
+},
+"PLQ110":{
+"name":"一加 Ace 6",
+"prj":"24851"
+},
+"PLR110":{
+"name":"一加 Ace 6T<br>一加 Ace 6T 原神神里绫华定制机",
+"prj":"24855"
+},
+"PMB110":{
+"name":"一加 Ace 6 至尊版",
+"prj":"25815"
+},
+"PLU110":{
+"name":"一加 Turbo 6",
+"prj":"24816"
+},
+"PLY110":{
+"name":"一加 Turbo 6V",
+"prj":"25811"
+},
+"PYS110":{
+"name":"一加 Turbo 6X",
+"prj":"26871"
+},
+"PYR110":{
+"name":"一加 Turbo 6X Pro",
+"prj":"26851"
+},
+"OPD2407":{
+"name":"一加平板",
+"prj":"24922"
+},
+"OPD2404":{
+"name":"一加平板 Pro",
+"prj":"23927"
+},
+"OPD2413":{
+"name":"一加平板 2 Pro",
+"prj":"24926"
+},
+"OPD2508":{
+"name":"一加平板 2",
+"prj":"25923"
+},
+"OPD2513":{
+"name":"一加平板 3 Pro",
+"prj":"25927"
+},
+"RMX1901":{
+"name":"真我X<br>真我X 大师版",
+"prj":"19601"
+},
+"RMX1851":{
+"name":"真我X 青春版",
+"prj":"18637"
+},
+"RMX1991":{
+"name":"真我X2",
+"prj":"19771"
+},
+"RMX1931":{
+"name":"真我X2 Pro",
+"prj":"19781"
+},
+"RMX2051":{
+"name":"真我X50 5G 全网通版",
+"prj":"19751"
+},
+"RMX2025":{
+"name":"真我X50 5G 移动版",
+"prj":"19752"
+},
+"RMX2071":{
+"name":"真我X50 Pro 5G",
+"prj":"19795"
+},
+"RMX2072":{
+"name":"真我X50 Pro 玩家版",
+"prj":"20607"
+},
+"RMX2141":{
+"name":"真我X50m 5G",
+"prj":"19751"
+},
+"RMX2176":{
+"name":"真我X7 5G",
+"prj":"20631"
+},
+"RMX2121":{
+"name":"真我X7 Pro",
+"prj":"20601"
+},
+"RMX3115":{
+"name":"真我X7 Pro 至尊版 全网通版",
+"prj":"20645"
+},
+"RMX2202":{
+"name":"真我GT",
+"prj":"20627"
+},
+"RMX3361":{
+"name":"真我GT 大师版",
+"prj":"21603"
+},
+"RMX3366":{
+"name":"真我GT 大师探索版",
+"prj":"21615"
+},
+"RMX3310":{
+"name":"真我GT 2",
+"prj":"21617"
+},
+"RMX3300":{
+"name":"真我GT 2 Pro",
+"prj":"21631"
+},
+"RMX3551":{
+"name":"真我GT2大师探索版",
+"prj":"21605"
+},
+"RMX3820":{
+"name":"真我GT5",
+"prj":"22635"
+},
+"RMX3823":{
+"name":"真我GT5 240W",
+"prj":"23603"
+},
+"RMX3888":{
+"name":"真我GT5 Pro",
+"prj":"23607"
+},
+"RMX3800":{
+"name":"真我GT6",
+"prj":"23631"
+},
+"RMX6688":{
+"name":"真我GT7<br>真我GT7阿斯顿马丁F1限量版",
+"prj":"24618"
+},
+"RMX5010":{
+"name":"真我GT7 Pro",
+"prj":"24600"
+},
+"RMX5090":{
+"name":"真我GT7 Pro竞速版",
+"prj":"24620"
+},
+"RMX6699":{
+"name":"真我GT8",
+"prj":"25600"
+},
+"RMX5200":{
+"name":"真我GT8 Pro<br>真我GT8 Pro阿斯顿马丁F1限量版",
+"prj":"24624"
+},
+"RMX3031":{
+"name":"真我GT Neo",
+"prj":"20615"
+},
+"RMX3350":{
+"name":"真我GT Neo 闪速版",
+"prj":"21609"
+},
+"RMX3370":{
+"name":"真我GT Neo2",
+"prj":"21619"
+},
+"RMX3357":{
+"name":"真我GT Neo2T",
+"prj":"21651"
+},
+"RMX3560":{
+"name":"真我GT NEO 3",
+"prj":"21641"
+},
+"RMX3562":{
+"name":"真我GT NEO 3 150W<br>真我GT NEO 3 火影限定版",
+"prj":"21642"
+},
+"RMX3706":{
+"name":"真我GT Neo5",
+"prj":"22624"
+},
+"RMX3708":{
+"name":"真我GT Neo5 240W",
+"prj":"22625"
+},
+"RMX3700":{
+"name":"真我GT Neo5 SE",
+"prj":"22623"
+},
+"RMX3852":{
+"name":"真我GT Neo6<br>真我GT Neo6《完美世界》动画云曦限定礼盒",
+"prj":"23622"
+},
+"RMX3850":{
+"name":"真我GT Neo6 SE",
+"prj":"23609"
+},
+"RMX5060":{
+"name":"真我Neo7<br>真我Neo7《画江湖之不良人》限定礼盒",
+"prj":"24610"
+},
+"RMX5062":{
+"name":"真我Neo7 Turbo<br>真我Neo7 Turbo AI版",
+"prj":"24622"
+},
+"RMX5080":{
+"name":"真我Neo7 SE",
+"prj":"24613"
+},
+"RMX5071":{
+"name":"真我Neo7x",
+"prj":"24612"
+},
+"RMX8899":{
+"name":"真我Neo8",
+"prj":"25602"
+},
+"RMX1971":{
+"name":"真我Q",
+"prj":"19791"
+},
+"RMX2117":{
+"name":"真我Q2 5G",
+"prj":"20613"
+},
+"RMX2173":{
+"name":"真我Q2 Pro 5G",
+"prj":"20633"
+},
+"RMX2200":{
+"name":"真我V3 5G 全网通版",
+"prj":"20625"
+},
+"RMX3161":{
+"name":"真我Q3 5G",
+"prj":"20669"
+},
+"RMX2205":{
+"name":"真我Q3 Pro 5G",
+"prj":"20619"
+},
+"RMX3461":{
+"name":"真我Q3s",
+"prj":"21644"
+},
+"RMX3462":{
+"name":"真我Q3t",
+"prj":"21645"
+},
+"RMX3372":{
+"name":"真我Q5 Pro",
+"prj":"21623"
+},
+"RMX3617":{
+"name":"真我10s",
+"prj":"22609"
+},
+"RMX3663":{
+"name":"真我10 Pro",
+"prj":"22602"
+},
+"RMX3687":{
+"name":"真我10 Pro+",
+"prj":"22612"
+},
+"RMX3751":{
+"name":"真我11",
+"prj":"22610"
+},
+"RMX3770":{
+"name":"真我11 Pro",
+"prj":"22633"
+},
+"RMX3740":{
+"name":"真我11 Pro+",
+"prj":"22629"
+},
+"RMX3992":{
+"name":"真我12",
+"prj":"23615"
+},
+"RMX3993":{
+"name":"真我12x",
+"prj":"23628"
+},
+"RMX3843":{
+"name":"真我12 Pro<br>真我12 Pro 至尊版",
+"prj":"23612"
+},
+"RMX3841":{
+"name":"真我12 Pro+",
+"prj":"23611"
+},
+"RMX3952":{
+"name":"真我13",
+"prj":"24605"
+},
+"RMX5002":{
+"name":"真我13 Pro",
+"prj":"24606"
+},
+"RMX3989":{
+"name":"真我13 Pro 至尊版",
+"prj":"23619"
+},
+"RMX3920":{
+"name":"真我13 Pro+",
+"prj":"23625"
+},
+"RMX5075":{
+"name":"真我14",
+"prj":"24621"
+},
+"RMX5055":{
+"name":"真我14 Pro",
+"prj":"24608"
+},
+"RMX5050":{
+"name":"真我14 Pro+",
+"prj":"24607"
+},
+"RMX5105":{
+"name":"真我15",
+"prj":"24626"
+},
+"RMX5100":{
+"name":"真我15 Pro<br>真我15 Pro《权力的游戏》限定版",
+"prj":"24625"
+},
+"RMX5112":{
+"name":"真我15T",
+"prj":"25604"
+},
+"RMX2201":{
+"name":"真我V3 5G 运营商定制版",
+"prj":"20626"
+},
+"RMX2111":{
+"name":"真我V5 5G 全网通版",
+"prj":"20611"
+},
+"RMX2112":{
+"name":"真我V5 5G 运营商定制版",
+"prj":"20610"
+},
+"RMX3121":{
+"name":"真我V11 5G 全网通版",
+"prj":"20651"
+},
+"RMX3122":{
+"name":"真我V11 5G 运营商定制版",
+"prj":"20652"
+},
+"RMX3125":{
+"name":"真我V11s 5G",
+"prj":"21637"
+},
+"RMX3041":{
+"name":"真我V13 5G 全网通版",
+"prj":"20609"
+},
+"RMX3092":{
+"name":"真我V15 5G 全网通版",
+"prj":"20638"
+},
+"RMX3093":{
+"name":"真我V15 5G 运营商定制版",
+"prj":"20639"
+},
+"RMX3610":{
+"name":"真我V20",
+"prj":"22604"
+},
+"RMX3611":{
+"name":"真我V20",
+"prj":"22603"
+},
+"RMX3571":{
+"name":"真我V23",
+"prj":"21639"
+},
+"RMX3475":{
+"name":"真我V25",
+"prj":"21629"
+},
+"RMX3619":{
+"name":"真我V30",
+"prj":"22632"
+},
+"RMX3618":{
+"name":"真我V30t",
+"prj":"22631"
+},
+"RMX3783":{
+"name":"真我V50",
+"prj":"23605"
+},
+"RMX3781":{
+"name":"真我V50s",
+"prj":"23606"
+},
+"RMX3995":{
+"name":"真我V60",
+"prj":"23621"
+},
+"RMX3996":{
+"name":"真我V60s",
+"prj":"23620"
+},
+"RMX3953":{
+"name":"真我V60 Pro",
+"prj":"24601"
+},
+"RMX3946":{
+"name":"真我V70",
+"prj":"24615"
+},
+"RMX3948":{
+"name":"真我V70s",
+"prj":"24747"
+},
+"RMP2108":{
+"name":"真我平板X",
+"prj":"21654"
+}
+}
+}

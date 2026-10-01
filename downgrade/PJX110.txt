@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:57:26
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10797956858
+- MD5: 28199e17042d7a2a4a2cd6e084e8f193
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/28/e791e7f8fcd44398b9783e6010e8b774.zip
+- 更新说明: Corvette 普通版本17C降级包

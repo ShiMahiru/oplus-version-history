@@ -1,0 +1,29 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:53:54
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 7128713336
+- MD5: 00200d3efc034627acdeca8dc16c36c2
+- 链接: https://downgradefs.coloros.com/downgrade/22/08/31/417a044aa93f4f29a082e6cefff6f95c.zip
+- 更新说明: 适用于OnePlus Ace Pro的ColorOS 13降级版本
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 8463016479
+- MD5: 36f331f5d1596ae3845c008820469fe5
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/29/74c9291df6de455bbc08ef38ec6a2984.zip
+- 更新说明: 降级包
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 8336975993
+- MD5: 0170de246edcb871a03a22a0ec2903fc
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/05/bb44bf2d19954547a99a9c367034a15a.zip
+- 更新说明: ovaltine降级包测试
+
+### ColorOS14.0.0
+- Android: Android14
+- 大小: 8689746724
+- MD5: b52a327935dfb166ac8c8f99df65d378
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/09/c5171782cfd14fc48eefb22a3401d722.zip
+- 更新说明: ovaltine 15V降级包
