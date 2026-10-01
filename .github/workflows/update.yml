@@ -41,6 +41,9 @@ jobs:
       - name: 重建检索索引页（GitHub Pages）
         run: python3 scripts/build_index.py
 
+      - name: 重建 Markdown 版本史（私有仓库可浏览）
+        run: python3 scripts/build_md.py
+
       - name: 提交并推送
         run: |
           git config user.name "oplus-history-bot"
@@ -50,5 +53,7 @@ jobs:
             echo "无变化"
           else
             git commit -m "chore: weekly auto update $(date -u +%Y-%m-%dT%H:%M)"
+            # 本轮跑的过程中仓库可能有别的提交，先 rebase 再推，避免整轮数据白抓
+            git pull --rebase --autostash
             git push
           fi
