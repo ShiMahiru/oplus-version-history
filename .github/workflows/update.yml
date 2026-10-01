@@ -11,10 +11,49 @@ permissions:
 
 concurrency:
   group: oplus-history-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  update:
+  # 按官方网关分片抓取。
+  #
+  # 为什么必须分片：单次全量 356 机型，每机型要遍历 9 个分支字母，每次查询后
+  # 固定 sleep 0.4s（官方限流），算下来 65–90 分钟 —— 正好撞死在上限上，
+  # 2026-10-01 那轮手动触发就是这样卡在「官方增量更新」这一步直到被强杀。
+  # 拆成四片后最慢一片（gl，161 机型）约 35 分钟。
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        region: [cn, eu, in, gl]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install requests cryptography
+
+      - name: 官方增量更新（网关 ${{ matrix.region }}）
+        run: python3 scripts/update.py --region ${{ matrix.region }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ota-data-${{ matrix.region }}
+          path: |
+            links/
+            models/
+            downgrade/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  # 汇总：合并四片数据，跑归一化 / 全量校验 / 重建索引，最后一次性提交。
+  # 索引与提交都放在这里做 —— 四个分片各跑一遍会互相覆盖 docs/data.json 与 HISTORY.md。
+  publish:
+    needs: fetch
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -29,8 +68,16 @@ jobs:
       - name: 安装依赖
         run: pip install requests cryptography
 
-      - name: 官方增量更新（v3 + changelog + 降级包）
-        run: python3 scripts/update.py
+      - uses: actions/download-artifact@v4
+        with:
+          path: incoming
+
+      - name: 合并分片数据
+        run: |
+          for d in incoming/*/; do
+            echo "合并 $d"
+            cp -a "$d". .
+          done
 
       - name: 版本史归一化（去重 / 排序 / 规范分隔符）
         run: python3 scripts/normalize.py
@@ -38,10 +85,10 @@ jobs:
       - name: 全量链接校验（死链归档）
         run: python3 scripts/verify.py
 
-      - name: 重建检索索引页（GitHub Pages）
+      - name: 重建检索索引页（docs/index.html）
         run: python3 scripts/build_index.py
 
-      - name: 重建 Markdown 版本史（私有仓库可浏览）
+      - name: 重建 Markdown 版本史（HISTORY.md + docs/md/）
         run: python3 scripts/build_md.py
 
       - name: 提交并推送
@@ -53,7 +100,7 @@ jobs:
             echo "无变化"
           else
             git commit -m "chore: weekly auto update $(date -u +%Y-%m-%dT%H:%M)"
-            # 本轮跑的过程中仓库可能有别的提交，先 rebase 再推，避免整轮数据白抓
+            # 抓取期间仓库可能有别的提交，先 rebase 再推，避免整轮数据白抓
             git pull --rebase --autostash
             git push
           fi

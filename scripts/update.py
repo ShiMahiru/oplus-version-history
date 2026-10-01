@@ -509,6 +509,8 @@ def update_model(model, opts):
 def main():
     ap = argparse.ArgumentParser(description="oplus-version-history 官方更新器")
     ap.add_argument("--model", help="单机型 code")
+    ap.add_argument("--region", choices=sorted(REGIONS.keys()),
+                    help="只处理映射到该官方网关的机型（CI 按网关分片，避免单次全量超时）")
     ap.add_argument("--only-changelog", action="store_true", help="只补 changelog")
     ap.add_argument("--no-downgrade", action="store_true", help="跳过降级包")
     ap.add_argument("--no-history-write", action="store_true", help="不写版本史文件")
@@ -521,6 +523,10 @@ def main():
             sys.exit(f"机型 {opts.model} 不在清单里")
     else:
         models = MODELS
+    if opts.region:
+        models = [m for m in models if region_of(m) == opts.region]
+        if not models:
+            sys.exit(f"网关 {opts.region} 下没有机型")
     if opts.limit:
         models = models[: opts.limit]
 
