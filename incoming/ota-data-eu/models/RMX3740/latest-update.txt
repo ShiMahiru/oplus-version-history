@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:19:36
+查询地区: CN
+最新 OTA 版本: RMX3740_11.A.49_0490_202312221125
+版本名称: RMX3740_13.1.0.149(CN01)
+Android 版本: Android 13
+ColorOS 版本: RMX3740_13.1.0.149(CN01)
+安全补丁: 2023-12-05
+发布时间: 1704438450732
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c6065fa9fc31076b8d7366c844216754/component-ota/23/12/22/83d240422b2e40d7816f75bb9ee04fd2.zip

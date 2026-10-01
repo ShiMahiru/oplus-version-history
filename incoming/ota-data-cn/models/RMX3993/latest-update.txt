@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 23:05:51
+查询地区: CN
+最新 OTA 版本: RMX3993_11.A.29_0290_202501021856
+版本名称: RMX3993_14.0.1.518(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3993_14.0.1.518(CN01)
+安全补丁: 2024-12-05
+发布时间: 1741332139732
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-fac2079659f512d8117b2a5e754bb273/component-ota/25/01/07/6690e47451a14fbd8231b3e48498b53c.zip

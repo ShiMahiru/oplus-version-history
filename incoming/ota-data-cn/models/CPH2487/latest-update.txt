@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 01:03:43
+查询地区: IN
+最新 OTA 版本: CPH2487_11.C.59_1590_202412031154
+版本名称: CPH2487_14.0.0.810(EX01)
+Android 版本: Android 14
+ColorOS 版本: CPH2487_14.0.0.810(EX01)
+安全补丁: 2024-12-05
+发布时间: 1755858856219
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-be4dbc20714a423c8ae2f431bb4cd48b/component-ota/24/12/04/e776c6b6ce6b4cc8a193551f2c9b66c9.zip

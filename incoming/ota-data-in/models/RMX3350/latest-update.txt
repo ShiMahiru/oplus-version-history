@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:06:24
+查询地区: CN
+最新 OTA 版本: RMX3350_11.A.16_0160_202201110217
+版本名称: RMX3350_11_A.16
+Android 版本: Android 11
+ColorOS 版本: RMX3350_11_A.16
+安全补丁: 2022-01-05
+发布时间: 1643244613390
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b8dbac88a90ec1f8c32a8576b8bb5ada/component-ota/22/01/12/040d0ba3022144f1b0849615f733d9ee.zip

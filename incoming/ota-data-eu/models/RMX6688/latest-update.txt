@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 03:08:57
+查询地区: CN
+最新 OTA 版本: RMX6688_11.A.38_0380_202509082012
+版本名称: RMX6688_15.0.1.802(CN01)
+Android 版本: Android 15
+ColorOS 版本: RMX6688_15.0.1.802(CN01)
+安全补丁: 2025-09-01
+发布时间: 1759040792847
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-381e470ea9e1bd970894a4f805960053/component-ota/25/09/09/8b8c8847ccab4ba3a9c00ab2b8a559d5.zip

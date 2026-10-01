@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 22:57:39
+查询地区: CN
+最新 OTA 版本: PKX110_11.A.54_0540_202509191652
+版本名称: PKX110_15.0.2.603(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKX110_15.0.2.603(CN01)
+安全补丁: 2025-09-01
+发布时间: 1760364289504
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-623f0f1c1b3824506b8669fe86292cd7/component-ota/25/09/20/e242997d2fab45aeb6f921c29397f1d7.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 22:56:56
+查询地区: IN
+最新 OTA 版本: RMX3750_11.A.20_0200_202311081726
+版本名称: RMX3750_13.1.0.507(EX01)
+Android 版本: Android 13
+ColorOS 版本: RMX3750_13.1.0.507(EX01)
+安全补丁: 2023-11-05
+发布时间: 1701678524237
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a9ad872e814cf19c8005dcc64ebcd1bc/component-ota/23/11/13/08f86b97ef704ea7800b772acc9989c5.zip

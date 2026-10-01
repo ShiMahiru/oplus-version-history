@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 22:58:34
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10551422352
+- MD5: 13c4028ff7c707f54bdc3c3a059d4a97
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/31/2ba1d8a90ed84f59b145c68b51de9353.zip
+- 更新说明: macan内销降级包发布（包含原神定制）

@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:53:32
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 7211833717
+- MD5: d31a56293048ed68eacbf89502163030
+- 链接: https://downgradefs.coloros.com/downgrade/22/10/17/e485f91a93a64202bea86dabe7889b8b.zip
+- 更新说明: 最新S-A.20版本
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 8466501531
+- MD5: 31ce4e1b13ec0220e0cc2764cd7925d1
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/31/f3f4623e8a9a41f4896f1a177f390b82.zip
+- 更新说明: 适用于一加Ace的ColorOS13降级版本
+
+### ColorOS14.0.0
+- Android: Android14
+- 大小: 8436499573
+- MD5: 8f765970325d1b06bc767e0b3a46bb11
+- 链接: https://downgradefs.coloros.com/downgrade/24/12/10/6de649c6a0f44d36b560bcaf6a19a260.zip
+- 更新说明: 降级包测试

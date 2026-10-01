@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 01:47:51
+查询地区: CN
+最新 OTA 版本: OPD2413_11.A.37_0370_202509231754
+版本名称: OPD2413_15.0.1.801(CN01)
+Android 版本: Android 15
+ColorOS 版本: OPD2413_15.0.1.801(CN01)
+安全补丁: 2025-10-01
+发布时间: 1760540341174
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-53ae2aaacf8a5ec7d077276e397b3c5d/component-ota/25/09/24/3c630f8e0e7748e9bb1097c4a4289ace.zip

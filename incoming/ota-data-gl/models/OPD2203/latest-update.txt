@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 01:45:13
+查询地区: IN
+最新 OTA 版本: OPD2203_11.C.37_1370_202411131003
+版本名称: OPD2203_14.0.0.640(EX01)
+Android 版本: Android 14
+ColorOS 版本: OPD2203_14.0.0.640(EX01)
+安全补丁: 2024-11-05
+发布时间: 1732627762079
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f329de6f038b9a18f16caf84f338e993/component-ota/24/11/14/82fcdada3f884726beff23766241989e.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 23:06:56
+查询地区: CN
+最新 OTA 版本: RMX5060_11.A.61_0610_202509190148
+版本名称: RMX5060_15.0.0.1133(CN01)
+Android 版本: Android 15
+ColorOS 版本: RMX5060_15.0.0.1133(CN01)
+安全补丁: 2025-09-01
+发布时间: 1759974306850
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3b56f5cc34020566e0f9f29c7bd1112a/component-ota/25/09/20/968fd2c49f3e48c39c494fb54d956ec7.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 22:59:00
+查询地区: CN
+最新 OTA 版本: RMX3300_11.A.28_0280_202208222351
+版本名称: RMX3300_11_A.28
+Android 版本: Android 12
+ColorOS 版本: RMX3300_11_A.28
+安全补丁: 2022-08-05
+发布时间: 1669773690389
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e36a10671b8d81a783ec4a4b45c67537/component-ota/22/08/24/dda9f6ee05c94ebebe841ee3f3dce04a.zip

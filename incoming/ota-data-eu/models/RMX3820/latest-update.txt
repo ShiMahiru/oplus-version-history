@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:22:48
+查询地区: CN
+最新 OTA 版本: RMX3820_11.A.48_0480_202312191750
+版本名称: RMX3820_13.1.1.148(CN01)
+Android 版本: Android 13
+ColorOS 版本: RMX3820_13.1.1.148(CN01)
+安全补丁: 2023-10-05
+发布时间: 1704435564535
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a102cfdd5b13198be374f553820859d3/component-ota/23/12/20/703c9a72c6684369ae2cbeea7dacf305.zip

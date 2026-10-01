@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 22:51:06
+查询地区: CN
+最新 OTA 版本: PGP110_11.A.18_0180_202302171827
+版本名称: PGP110_11_A.18
+Android 版本: Android 12
+ColorOS 版本: PGP110_11_A.18
+安全补丁: 2023-02-05
+发布时间: 1677932475649
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a660978896ab7a12bb8cb59f393206ed/component-ota/23/02/18/b57cfcb7265f476686b1bf9975a2f7c6.zip

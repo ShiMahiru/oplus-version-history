@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:01:28
+查询地区: IN
+最新 OTA 版本: RMX3031_11.C.16_1160_202210211756
+版本名称: RMX3031_11_C.16
+Android 版本: Android 12
+ColorOS 版本: RMX3031_11_C.16
+安全补丁: 2022-10-05
+发布时间: 1668150209281
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-d2d2eb7ed9192f6da50c6048d2be5169/component-ota/22/10/27/de5e8d13c9254ef09dffe35a91e018d9.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 23:04:48
+查询地区: CN
+最新 OTA 版本: RMX3920_11.A.41_0410_202501231008
+版本名称: RMX3920_14.1.0.730(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3920_14.1.0.730(CN01)
+安全补丁: 2025-01-01
+发布时间: 1738074693055
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a6384cc15ba485a64603971ce74183f4/component-ota/25/01/23/5eb9fccd98b84798bf0c7f2078bbdb22.zip

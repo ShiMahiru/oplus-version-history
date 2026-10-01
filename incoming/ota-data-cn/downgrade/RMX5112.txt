@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 23:08:51
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 8463318938
+- MD5: 5a40ae708f907571d4c2f054114a1ca3
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/17/4e9286809aa74b0db7b71a36a81ae0b5.zip
+- 更新说明: Chopard-A降级包

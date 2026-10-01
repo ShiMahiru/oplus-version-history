@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 22:52:21
+
+### ColorOS13.2.0
+- Android: Android13
+- 大小: 8033645671
+- MD5: f262332e460cb667586e9376c0dd52ca
+- 链接: https://downgradefs.coloros.com/downgrade/23/11/21/711a7c67fcb84dbfa9bea54a249c1ad5.zip
+- 更新说明: 降级包（正常版+典藏版）
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 7691716728
+- MD5: 8dc32de014974f02d74fe9cd83670ab3
+- 链接: https://downgradefs.coloros.com/downgrade/24/10/08/225ba35221874e13b76641cd965ce6aa.zip
+- 更新说明: 适用于Find N3系列的ColorOS 14的降级版本
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 8159727122
+- MD5: 01527c760016c7f0b5898840733a27da
+- 链接: https://downgradefs.coloros.com/downgrade/25/08/27/3542347a2d36483a9a016bd5464367ee.zip
+- 更新说明: 内销测试降级功能

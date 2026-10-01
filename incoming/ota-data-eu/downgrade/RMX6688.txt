@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 03:09:03
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 11317352853
+- MD5: c80cffe9aa6cab370a93bae3e98d3863
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/29/6c7b449be90e4f2c96d500b93cf111a3.zip
+- 更新说明: Targa降级包

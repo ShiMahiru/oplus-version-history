@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 02:49:31
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 11005281443
+- MD5: 309b197335d3ff2a50de8a29d41d6ccc
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/19/e215500d0d3140e99d05b0b63717cd41.zip
+- 更新说明: Cayman-A降级包
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 11005279746
+- MD5: f0f3c015023238879199c3e2618499da
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/09/380e6272a4cf45179e1d84e24c0e62f1.zip
+- 更新说明: 降级包

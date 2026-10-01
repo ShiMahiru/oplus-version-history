@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:26:44
+查询地区: CN
+最新 OTA 版本: RMX3850_11.A.37_0370_202501222236
+版本名称: RMX3850_14.0.1.612(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3850_14.0.1.612(CN01)
+安全补丁: 2024-10-05
+发布时间: 1738933232352
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e5e03fadab692bb53f1daab7e56b0f99/component-ota/25/01/23/756b2d2a3bcd4a3faa9449c7e1c56fed.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 22:56:36
+查询地区: IN
+最新 OTA 版本: RMX3471_11.A.45_0450_202210200021
+版本名称: RMX3471_11_A.45
+Android 版本: Android 12
+ColorOS 版本: RMX3471_11_A.45
+安全补丁: 2022-10-05
+发布时间: 1667215350023
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-fe802336c0930976b08824ea858b22eb/component-ota/22/10/21/1bcc27c2f7dc4801a865e297682f0485.zip

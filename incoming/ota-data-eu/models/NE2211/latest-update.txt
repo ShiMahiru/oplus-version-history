@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 01:42:39
+查询地区: IN
+最新 OTA 版本: NE2211_11.A.18_0180_202210201343
+版本名称: NE2211_11_A.18
+Android 版本: Android 12
+ColorOS 版本: NE2211_11_A.18
+安全补丁: 2022-10-05
+发布时间: 1667360531736
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-63389772f2e0822a6464ee3df0830256/component-ota/22/10/20/f53d610d52814c7aa7e360c2de314324.zip

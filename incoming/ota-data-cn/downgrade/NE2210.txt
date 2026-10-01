@@ -1,0 +1,29 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 22:49:51
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 7079678676
+- MD5: dfab5da4cef9abd7d85be0151dfb8cfb
+- 链接: https://downgradefs.coloros.com/downgrade/22/09/06/a1dd54d291f94aaaa0c3380a919d715e.zip
+- 更新说明: WLY_T内销降级包
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 8472308557
+- MD5: de68c138c653b19630a2552f161bd627
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/29/1c2bd12ad896438787c85f0fadc86031.zip
+- 更新说明: 降级包
+
+### ColorOS14.0.0
+- Android: Android14
+- 大小: 8237087075
+- MD5: 22b9d82e54c18fd3047a6b3181a09893
+- 链接: https://downgradefs.coloros.com/downgrade/24/10/25/0e1798ce6ee14aea8cac6008db1a7b5d.zip
+- 更新说明: WLY TC2版本降级包
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 8427961498
+- MD5: 3751930356c2f133e73291d4b10d8837
+- 链接: https://downgradefs.coloros.com/downgrade/25/12/25/f026012e37a54dc59e2a4a5833e872d5.zip
+- 更新说明: WLY 降级包测试

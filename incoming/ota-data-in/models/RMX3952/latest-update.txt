@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-01 02:36:40
+查询地区: CN
+最新 OTA 版本: RMX3952_11.A.15_0150_202502131736
+版本名称: RMX3952_14.1.0.108(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3952_14.1.0.108(CN01)
+安全补丁: 2025-01-01
+发布时间: 1741332147193
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1b31580b495a07b2ca583e1666580fd8/component-ota/25/02/17/cb766d6a51374938a26875d397df3dcc.zip
