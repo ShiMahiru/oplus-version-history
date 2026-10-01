@@ -22,6 +22,10 @@ models/PLQ110/latest-update.txt                ← 最新版本 8 元组（含�
 
 # 3) 看某版本的官方更新日志
 models/PLQ110/changelog/PLQ110_11.A.57_0570.md ← 官方 descriptionInfo 原文全文
+
+# 4) 只取需要的分区，不下整包（8 GB 包几秒拿 boot.img）
+python3 scripts/ota_extract.py dump "https://component-ota-cn.../downloadCheck?..."   # 列出全部分区
+python3 scripts/ota_extract.py pull "https://component-ota-cn.../downloadCheck?..." boot vbmeta -o ./out
 ```
 
 教程：打开 `links/你的机型/` → 复制版本文件内容 → 粘贴到浏览器地址栏 → 开始下载（多线程下载器也支持，gate 链接对 `Range` 友好）。
@@ -38,9 +42,10 @@ models/PLQ110/changelog/PLQ110_11.A.57_0570.md ← 官方 descriptionInfo 原文
 ├── links/_dead/ + DEAD.md         # 校验失败的死链归档与报告
 ├── config/                        # 机型清单 / 官方公钥 / 项目号表
 ├── docs/index.html                # 静态检索页（机型/版本/链接，可 GitHub Pages 直出）
-└── scripts/                       # update.py（官方增量）/ verify.py / normalize.py / build_index.py
+└── scripts/                       # update.py（官方增量）/ verify.py（链接校验）
                                    # normalize.py（归一化去重）/ fix_history.py（基线修正）
-                                   # build_index.py（生成检索页）
+                                   # backfill_versions.py（版本名反查）/ build_index.py（检索页）
+                                   # ota_extract.py（★ 分区远程提取，不下整包）
 ```
 
 ### 数据格式
@@ -108,3 +113,50 @@ PLQ110_11.A.57_0570_202608071758  # ColorOS: PLQ110_16.0.10.500(CN01)
   2 条无法取证如实标注「查询基线 · 非官方 OTA 指纹」；新增 `build_index.py` 静态检索页
 - v0.4 版本名反查补全：30 条只有指纹的早期记录经官方 `descriptionInfo` 反查，21 条补上官方版本名
   / 7 条附带官方更新日志；官方返回的 3 条内部占位符（`v_0`/`v_2`）已剔除，不冒充版本名
+## 分区远程提取（不下整包）★
+
+`scripts/ota_extract.py` 利用 OTA zip 内 `payload.bin` 的 CrAU 结构，
+只按 HTTP Range 取需要的字节区间，**不用下整包**就能拿到指定分区的镜像。
+
+原理（字段号取自 `chromeos_update_engine.UpdateMetadata`）：
+
+```
+DeltaArchiveManifest.partitions         = 13
+DeltaArchiveManifest.securityPatchLevel = 18
+DeltaArchiveManifest.blockSize          = 3
+PartitionUpdate.partitionName           = 1
+PartitionUpdate.newPartitionInfo        = 7   (子字段 size = 1)
+PartitionUpdate.operations              = 8
+InstallOperation.type                   = 1
+InstallOperation.dataOffset             = 2
+InstallOperation.dataLength             = 3
+```
+
+用法：
+
+```bash
+# 列出包内全部分区（分区名 / 镜像大小 / 数据区间 / 操作类型）
+python3 scripts/ota_extract.py dump "https://component-ota-cn.allawntech.com/downloadCheck?..."
+
+# 提取指定分区（支持多个），输出 {分区名}.img
+python3 scripts/ota_extract.py pull "<链接>" boot init_boot vbmeta dtbo -o ./out
+
+# 提取全部分区
+python3 scripts/ota_extract.py pull "<链接>" --all -o ./out
+```
+
+实测（PLQ110 / 16.0.10.500，8.46 GB 包）：
+
+```
+准备提取 4 个分区，共 13.0 MB（包总大小 7.88 GB）
+  ✓ boot                    96.00 MB    2.5s   → boot.img      (ANDROID! / kernel 36866560 B)
+  ✓ init_boot                8.00 MB    0.4s   → init_boot.img (ANDROID!)
+  ✓ dtbo                    24.00 MB    0.5s   → dtbo.img      (dt_table)
+  ✓ vbmeta                   0.01 MB    0.1s   → vbmeta.img    (AVB0)
+```
+
+只下载 13 MB 压缩数据即得到 128 MB 解压后镜像（各分区大小与 manifest 的
+`image_size` 完全一致）。支持 `REPLACE` / `REPLACE_BZ` / `REPLACE_XZ` / `ZERO`
+四类操作，逐段解压拼装；`--progress-file` / `--cancel-file` 供宿主程序读进度与取消。
+
+> gate 链接需带 `userId: oplus-ota|16002018` 头才返回 302 直链（实测），脚本已内置。
