@@ -151,6 +151,23 @@ def main():
                "浏览器/下载器访问会 302 到官方 CDN。")
     out.append("")
 
+    # 最近更新：跨机型按日期倒序。比翻机型目录更常用 —— 想知道「最近出了什么新包」看这里。
+    recent = []
+    for m in models:
+        for v in (m.get("versions") or []):
+            d = short_date(v.get("date") or "")
+            if d and v.get("url"):
+                recent.append((d, m["code"], m.get("name") or "", v.get("ver") or "", v["url"]))
+    recent.sort(key=lambda x: x[0], reverse=True)
+    if recent:
+        out.append(f"## 最近更新（最新 {min(len(recent), 120)} 条 / 共 {len(recent)} 条带日期记录）")
+        out.append("")
+        out.append("| 日期 | 机型 | 版本 | 链接 |")
+        out.append("|---|---|---|---|")
+        for d, code, name, ver, url in recent[:120]:
+            out.append(f"| {d} | [`{code}`](<docs/md/{code}.md>) {cell(name)} | {cell(ver)} | {md_link('下载', url)} |")
+        out.append("")
+
     groups = {}
     for m in models:
         groups.setdefault(m.get("brand") or "", []).append(m)
