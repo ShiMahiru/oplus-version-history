@@ -8,6 +8,21 @@
 
 ---
 
+## English
+
+**oplus-version-history** — automatically maintained archive of official
+OPPO / OnePlus / realme ROM history. All data comes from official servers
+(OTA gateway, official downgrade portal, official changelog API). No third-party mirrors.
+
+- `links/{MODEL}/{VERSION}.txt` → official download link (copy & paste)
+- `models/{MODEL}/ota-version.txt` → full version timeline with OTA fingerprints
+- `models/{MODEL}/changelog/` → official release notes (Markdown)
+- `downgrade/{MODEL}.txt` → official downgrade packages
+
+Updated weekly by GitHub Actions · every link verified (302 → official CDN) before it lands in the repo.
+
+---
+
 ## 快速使用
 
 拿到官方下载链接（两栖方式）：
@@ -97,3 +112,5 @@ PLQ110_11.A.57_0570_202608071758  # ColorOS: PLQ110_16.0.10.500(CN01)
 ## 版本记录（2026-09 起）
 
 - v0.1 首版：231 机型 / 649 条官方链接 / 614 行版本史基线 + 全链路自动更新
+- v0.2 全量首次扫描完成：356 机型 / 809 条官方链接（全量校验 809/809 有效，零死链）
+  / 507 份官方 changelog / 33 台降级包 / 936 行版本史 + 英文摘要
