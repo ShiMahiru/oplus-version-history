@@ -1,12 +1,12 @@
 # 欧加官方 ROM 历史版本档案 · 索引
 
-> **232** 机型 · **825** 条官方链接 · **551** 份官方更新日志 · **62** 个官方降级包
+> **232** 机型 · **829** 条官方链接 · **551** 份官方更新日志 · **62** 个官方降级包
 >
 > 私有档案，仅自己可见。数据全部来自官方服务器，链接入库前逐个 302 实测。
 
 点型号进详情页；表格里的「下载」就是官方 gate 链接，浏览器/下载器访问会 302 到官方 CDN。
 
-## 最近更新（最新 120 条 / 共 656 条带日期记录）
+## 最近更新（最新 120 条 / 共 660 条带日期记录）
 
 | 日期 | 机型 | 版本 | 链接 |
 |---|---|---|---|
@@ -81,7 +81,7 @@
 | 2026-08-01 | [`PKX110`](<docs/md/PKX110.md>) OnePlus 13T | PKX110_16.0.10.500(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=e5a54ab41327bda599700b7842267ebb&p=a6c78fdd375d888a3acedaaa449764379726f5e0423554a68ded5bedc22f0794eab96bddee7d3620b43bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8eb29d76d168017ee7d172&taste=0&supportDLTaste=0&mode=1&tr=manual&s=da630bfad1b64c054ff5908c6e9c7e95>) |
 | 2026-07-31 | [`CPH2569`](<docs/md/CPH2569.md>) OnePlus Nord CE 3 | CPH2569_15.0.0.1902(EX01) | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-550e9534a612be9da9c9fc078b18a1ad/component-ota/26/08/04/9b39cb807b0d4f89977a864ec9cc922c.zip>) |
 | 2026-07-31 | [`CPH2745`](<docs/md/CPH2745.md>)  | CPH2745_16.0.10.500(EX01) | [下载](<https://component-ota-in.allawnos.com/downloadCheck?c=59ff8fe54a87c154d7149c0e79dd79f6&p=a50845bd67478544c7601e42384626d97add10a8174044625171ddb8a699d5dd005da5c6c3c980fee25d4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=6eca8e983251792e8f79cfc1c1db3f66&id=6a707aa392ce7c01806f56be&taste=1&supportDLTaste=0&mode=1&tr=manual&s=73a7bd5d66baf1dd825247d389bfc970>) |
-| 2026-07-31 | [`CPH2747`](<docs/md/CPH2747.md>) OnePlus 15 | CPH2747_16.0.10.500(EX01) | [下载](<https://component-ota-sg.allawnos.com/downloadCheck?c=dc5623c3791be0ca1fedc139e05a4c0e&p=f088224e00631388a7bc9b001233d663412d19942c32c0e82e1bc786cfc3813310b3354efe5126e14203452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=6618115ee14549923572361d09b1f7ba&id=6a707aa476d168017f1d71af&taste=0&supportDLTaste=0&mode=1&tr=manual&s=90627227c51042d4591454d0ce9d0384>) |
+| 2026-07-31 | [`CPH2747`](<docs/md/CPH2747.md>) OnePlus 15 | CPH2747_16.0.10.500(EX01) | [下载](<https://component-ota-sg.allawnos.com/downloadCheck?c=0f2eaa884dcce811d407183a3c8377ae&p=f088224e00631388a7bc9b001233d663412d19942c32c0e82e1bc786cfc3813310b3354efe5126e14203452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a90f01d92ce7c01836a4b84&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a92494cf720765b6608f193f8413f50b>) |
 | 2026-07-30 | [`PLK110`](<docs/md/PLK110.md>) OnePlus 15 | PLK110_16.0.10.500(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=759ecca7bfc4a45dccb29f330cd07981&p=a6c78fdd3752888938cedea64b9a67679e74a8e5433554fed3b85abfc42903c4beee36dae2293172ba3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=32b02167a12c6e46f70588c7d58db1ec&id=6a769a7b92ce7c01806f5e72&taste=1&supportDLTaste=0&mode=1&tr=manual&s=beec48a7bd06e6f10d1e135749bc339e>) |
 | 2026-07-30 | [`PLZ110`](<docs/md/PLZ110.md>) OnePlus 15T | PLZ110_16.0.10.500(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=78bc1547ecc1ec6256bef42912c96b39&p=a6c78fdd3752888939cedefd42cd3564c578f5e5493754a181bc03eec22d0495bbea61d2b27b3872e838d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8c052a92ce7c01836a4545&taste=0&supportDLTaste=0&mode=1&tr=manual&s=74978673f8a1286505916bc1b45ee6ce>) |
 | 2026-07-28 | [`CPH2807`](<docs/md/CPH2807.md>) OnePlus Nord CE6 | CPH2807_16.0.5.1101(EX01) | [下载](<https://component-ota-sg.allawnos.com/downloadCheck?c=89b1c45c728e29335f3a4867bd304d1c&p=f088224e006c138aadbc955646648034467a15c72a65c0ec2919c685ca94d26713ea624ea9067ae6175f452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a697daf9e207b01827c8f82&taste=0&supportDLTaste=0&mode=1&tr=manual&s=65fbd05709e84286f5e5232fe0bb4a8c>) |
@@ -127,9 +127,9 @@
 | 2026-07-01 | [`CPH2747`](<docs/md/CPH2747.md>) OnePlus 15 | CPH2747_16.0.9.400(EX01) | [下载](<https://component-ota-sg.allawnos.com/downloadCheck?c=3c0acc17da9dc9209f0a471dbdda4dde&p=f088224e006c1388a6bc950d42368032472e47c77a62c0ba2e4c9ed1cc95813341b0304ca8552de71008452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=ddba11d1387ee9f16ff5f570becd85f6&id=6a465bad9e207b01827c6fe2&taste=0&supportDLTaste=0&mode=1&tr=manual&s=bae6f5ebb11f110cc1376c281185103d>) |
 | 2026-07-01 | [`PKX110`](<docs/md/PKX110.md>) OnePlus 13T | PKX110_16.0.9.400(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=2a347b193a24e76fbadfd4e1ee6c9949&p=a6c78fdd3752888a3bcedafa13c933359225ffe71f6154f481bf03ebc47e0794efbd67dcb27c6525bb6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=704acf5b4668557e73d189aeab83c719&id=6a45c2e69e207b01827c6e9b&taste=1&supportDLTaste=0&mode=1&tr=manual&s=1044d5bb077ceff5527565c1853b360e>) |
 | 2026-07-01 | [`RMX3820`](<docs/md/RMX3820.md>) realme GT5 | RMX3820_16.0.5.1010(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=99188bdd382f213f1b5a4d342b63457f&p=a6c78fdd3752888a3ace8cab4a9c36319323f4b3196054a18cb85bb19f7c07c4ebb664dbe7793824e93dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6aaa7176d168017f1d6e92&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ce0b57215e0ed5fdaba4404ea72a88cc>) |
+| 2026-07-01 | [`RMX3823`](<docs/md/RMX3823.md>) realme GT5 240W | RMX3823_16.0.5.1010(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=d31e22f9c2a923668c57b7d99f9f5a94&p=a6c78fdd3752888a3acedfac13ca3663c671aeb0196054ffd6ea03e99f2b589be8ea368de77e3972bd6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6aaa2276d168017f1d6e91&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2c1c7249124ea8a3f266b57361c80dcf>) |
 | 2026-06-30 | [`PGP110`](<docs/md/PGP110.md>) OnePlus 10T/Ace Pro | PGP110_15.0.0.1901(CN01) | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-99711bbca067535e5f7660e3e1a2dd10/component-ota/26/07/02/3632c4577af34d84b730a5e029de56f5.zip>) |
 | 2026-06-25 | [`PLK110`](<docs/md/PLK110.md>) OnePlus 15 | PLK110_16.0.9.400(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=0d7519e302902e50bdd641da68493a7b&p=a6c78fdd375388883cce8fac17cb6530c123fbb71c6f54f5d4eb5aee937b5092edbc36dab22b3872bc6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a5a14ab007ddc01813e1449&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1a968e099ec43cd280abb7631e3ed9cd>) |
-| 2026-06-23 | [`OPD2407`](<docs/md/OPD2407.md>)  | OPD2407_16.0.5.1001(CN01) | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=6c007329fdb46be988ad32cf05a1762a&p=a6c78fdd375388883fce8ffe4a9c3867c424f9e51b6054ff84b75ab8922d05c7eab836d3b27d322fb43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=8877f9505d7af3c3cd03b646d72a38ad&id=6a3e2515007ddc01813dfaa3&taste=1&supportDLTaste=0&mode=1&tr=manual&s=46a6a0c7d8c45714445da1153f8bc559>) |
 
 ## OPPO（54）
 
@@ -206,7 +206,7 @@
 | `CPH2487` | OnePlus 11R 5G | IN | 4 | 4 | CPH2487_13.1.0.583(EX01) | [查看](<docs/md/CPH2487.md>) |
 | `CPH2491` | OnePlus Nord 3 5G | IN | 4 | 4 | CPH2491_13.1.0.592(EX01) | [查看](<docs/md/CPH2491.md>) |
 | `CPH2493` | OnePlus Nord 3 5G | GLO | 4 | 4 | CPH2493_13.1.0.592(EX01) | [查看](<docs/md/CPH2493.md>) |
-| `CPH2569` | OnePlus Nord CE 3 | IN | 3 | 3 | CPH2569_13.1.1.502(EX01) | [查看](<docs/md/CPH2569.md>) |
+| `CPH2569` | OnePlus Nord CE 3 | IN | 3 | 3 | CPH2569_14.0.0.1402(EX01) | [查看](<docs/md/CPH2569.md>) |
 | `CPH2581` | OnePlus 12 | GLO | 3 | 3 | CPH2581_14.0.0.850(EX01) | [查看](<docs/md/CPH2581.md>) |
 | `CPH2605` | OnePlus Nord N30 SE 5G | GL | 3 | 3 | CPH2605_14.0.0.800(EX01) | [查看](<docs/md/CPH2605.md>) |
 | `CPH2609` | OnePlus 12R | GLO | 3 | 3 | CPH2609_14.0.0.832(EX01) | [查看](<docs/md/CPH2609.md>) |
@@ -216,7 +216,7 @@
 | `CPH2663` | OnePlus Nord 4 | GLO | 3 | 3 | CPH2663_14.1.0.605(EX01) | [查看](<docs/md/CPH2663.md>) |
 | `CPH2709` | OnePlus Nord 5 | GLO | 2 | 2 | CPH2709_15.0.2.604(EX01) | [查看](<docs/md/CPH2709.md>) |
 | `CPH2719` | Nord CE5 | GLO | 2 | 2 | CPH2719_15.0.2.602(EX01) | [查看](<docs/md/CPH2719.md>) |
-| `CPH2747` | OnePlus 15 | GLO | 8 | 8 | CPH2747_16.0.10.601(EX01) | [查看](<docs/md/CPH2747.md>) |
+| `CPH2747` | OnePlus 15 | GLO | 8 | 8 | CPH2747_16.0.10.500(EX01) | [查看](<docs/md/CPH2747.md>) |
 | `CPH2769` | OnePlus 15R | GLO | 8 | 8 | CPH2769_16.0.10.500(EX01) | [查看](<docs/md/CPH2769.md>) |
 | `CPH2795` | OnePlus Nord 6 | GLO | 1 | 1 | CPH2795_16.0.5.1200(EX01) | [查看](<docs/md/CPH2795.md>) |
 | `CPH2807` | OnePlus Nord CE6 | GLO | 1 | 1 | CPH2807_16.0.5.1101(EX01) | [查看](<docs/md/CPH2807.md>) |
@@ -302,7 +302,7 @@
 | `RMX3663` | realme 10 Pro | CN | 3 | 3 | RMX3663_11_A.64 | [查看](<docs/md/RMX3663.md>) |
 | `RMX3686` | realme 10 Pro+ | TW | 1 | 1 | — | [查看](<docs/md/RMX3686.md>) |
 | `RMX3687` | realme 10 Pro+ | CN | 3 | 3 | RMX3687_11_A.36 | [查看](<docs/md/RMX3687.md>) |
-| `RMX3700` | realme GT Neo 5 SE | CN | 4 | 3 | RMX3700_13.1.0.121(CN01) | [查看](<docs/md/RMX3700.md>) |
+| `RMX3700` | realme GT Neo 5 SE | CN | 4 | 4 | RMX3700_13.1.0.121(CN01) | [查看](<docs/md/RMX3700.md>) |
 | `RMX3701` | realme GT Neo 5 SE | MEA | 1 | 1 | — | [查看](<docs/md/RMX3701.md>) |
 | `RMX3706` | realme GT3/Neo5 | CN | 4 | 4 | RMX3706_13.1.0.118(SP01CN01) | [查看](<docs/md/RMX3706.md>) |
 | `RMX3708` | realme GT Neo 5 240W | CN | 4 | 4 | RMX3708_13.1.0.118(SP01CN01) | [查看](<docs/md/RMX3708.md>) |
@@ -311,13 +311,13 @@
 | `RMX3740` | realme 11 Pro+ 5G | CN | 3 | 3 | RMX3740_13.1.0.149(CN01) | [查看](<docs/md/RMX3740.md>) |
 | `RMX3741` | realme 11 Pro+ 5G | TW | 3 | 3 | — | [查看](<docs/md/RMX3741.md>) |
 | `RMX3750` | realme Narzo 60 | IN | 3 | 3 | RMX3750_13.1.0.507(EX01) | [查看](<docs/md/RMX3750.md>) |
-| `RMX3770` | realme 11 Pro 5G | CN | 3 | 2 | RMX3770_13.1.0.149(CN01) | [查看](<docs/md/RMX3770.md>) |
+| `RMX3770` | realme 11 Pro 5G | CN | 3 | 3 | RMX3770_13.1.0.149(CN01) | [查看](<docs/md/RMX3770.md>) |
 | `RMX3771` | realme 11 Pro 5G | TW | 4 | 4 | — | [查看](<docs/md/RMX3771.md>) |
 | `RMX3780` | realme 11 5G | TW | 4 | 4 | — | [查看](<docs/md/RMX3780.md>) |
 | `RMX3782` | realme C67 5G | IN | 3 | 3 | RMX3782_14.0.0.115(EX01) | [查看](<docs/md/RMX3782.md>) |
 | `RMX3785` | realme 11x 5G | TW | 2 | 2 | — | [查看](<docs/md/RMX3785.md>) |
 | `RMX3820` | realme GT5 | CN | 4 | 4 | RMX3820_13.1.1.148(CN01) | [查看](<docs/md/RMX3820.md>) |
-| `RMX3823` | realme GT5 240W | CN | 4 | 2 | RMX3823_13.1.1.148(CN01) | [查看](<docs/md/RMX3823.md>) |
+| `RMX3823` | realme GT5 240W | CN | 4 | 4 | RMX3823_13.1.1.148(CN01) | [查看](<docs/md/RMX3823.md>) |
 | `RMX3840` | realme 12 Pro+ 5G | TW | 3 | 3 | — | [查看](<docs/md/RMX3840.md>) |
 | `RMX3841` | realme 12 Pro+ 5G | CN | 3 | 3 | RMX3841_14.0.0.1501(CN01) | [查看](<docs/md/RMX3841.md>) |
 | `RMX3842` | realme 12 Pro | MEA | 1 | 1 | — | [查看](<docs/md/RMX3842.md>) |

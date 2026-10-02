@@ -464,7 +464,7 @@ def update_model(model, opts):
 
     # changelog：对每条有版本名的指纹补官方日志（--only-changelog 时全补）
     clogs = 0
-    for fp, ver in history.items():
+    for fp, ver in (() if opts.only_latest else history.items()):
         if not ver or not fp:
             continue
         cp = changelog_path(code, fp)
@@ -485,7 +485,7 @@ def update_model(model, opts):
 
     # downgrade（仅 CN 机型且配置了项目号）
     done_dg = False
-    if not opts.no_downgrade and region == "cn":
+    if not opts.no_downgrade and not opts.only_latest and region == "cn":
         entry = PNREF.get("models", {}).get(code)
         prj = entry.get("prj") if entry else None
         if prj:
@@ -512,6 +512,8 @@ def main():
     ap.add_argument("--region", choices=sorted(REGIONS.keys()),
                     help="只处理映射到该官方网关的机型（CI 按网关分片，避免单次全量超时）")
     ap.add_argument("--only-changelog", action="store_true", help="只补 changelog")
+    ap.add_argument("--only-latest", action="store_true",
+                    help="只补 latest-update.txt（跳过 changelog 与降级包），用于补齐机型元数据")
     ap.add_argument("--no-downgrade", action="store_true", help="跳过降级包")
     ap.add_argument("--no-history-write", action="store_true", help="不写版本史文件")
     ap.add_argument("--limit", type=int, default=0, help="最多处理 N 个机型（测试用）")
