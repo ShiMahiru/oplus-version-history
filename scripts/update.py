@@ -21,7 +21,9 @@ import json
 import os
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 import requests
@@ -91,7 +93,10 @@ NVID_FALLBACK = {
 # CPH2781 / CPH2735 标为 GL，实际只在 EU 网关有响应。因此主区域全部落空时，
 # 按下面的顺序把 host+公钥+nvid 成套切换到别的网关再试一轮。
 GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th", "ru", "tr"]
-GAP = 0.4  # 实测 >300ms 稳定
+# 查询间隔。实测 GAP=0 也能稳定拿到全部分支（网络往返本身就有 ~0.44s 节流，
+# 实测 9 个分支从 7.7s 降到 4.0s），但多进程分片并行时叠加起来会放大总速率，
+# 因此保留可调。回填用 0.15，常规增量用默认值。
+GAP = float(os.environ.get("OPLUS_GAP", "0.4"))
 TIMEOUT = 20
 
 KEYS = json.load(open(os.path.join(ROOT, "config", "keys.json"), encoding="utf-8"))
@@ -129,9 +134,43 @@ def region_of(model):
     return _REGION_ALIAS.get(reg, "gl")
 
 
+# op-ota 数据集记录了每个机型实际扫到固件时用的区域（小写）。它与清单 region
+# 有 144 个机型不一致：CPH2409 清单标 gl、op-ota 记 eu，实测 gl 才对；
+# CPH2781 清单标 gl，实际只在 eu 有响应。两边都可能对，所以都作为候选。
+_OPOTA_ALIAS = {k.lower(): v for k, v in _REGION_ALIAS.items()}
+OPOTA_REGION = {}
+_opota_meta_path = os.path.join(ROOT, "config", "opota_meta.json")
+if os.path.isfile(_opota_meta_path):
+    import collections as _collections
+    for _code, _vs in json.load(open(_opota_meta_path, encoding="utf-8")).items():
+        _c = _collections.Counter(
+            (v.get("region") or "").lower() for v in _vs.values() if v.get("region"))
+        if _c:
+            _r = _c.most_common(1)[0][0]
+            OPOTA_REGION[_code.upper()] = _OPOTA_ALIAS.get(_r, "gl")
+
+
+def region_candidates(model):
+    """返回按优先级排列的候选区域：清单映射优先，其次 op-ota 实测区域。"""
+    code = model["code"]
+    out = [region_of(model)]
+    alt = OPOTA_REGION.get(code)
+    if alt and alt not in out:
+        out.append(alt)
+    return out
+
+
+_PUB_CACHE = {}
+
+
 def load_pub(reg_key):
-    pem = KEYS["OTA_PUBLIC_KEYS"][reg_key]
-    return serialization.load_pem_public_key(pem.encode())
+    """公钥解析开销不小，而回填要跑上万次查询，这里做进程内缓存。"""
+    pub = _PUB_CACHE.get(reg_key)
+    if pub is None:
+        pem = KEYS["OTA_PUBLIC_KEYS"][reg_key]
+        pub = serialization.load_pem_public_key(pem.encode())
+        _PUB_CACHE[reg_key] = pub
+    return pub
 
 
 def load_dg_pub():
@@ -140,10 +179,17 @@ def load_dg_pub():
 
 
 # ─────────────── v3 加密查询 ───────────────
-def v3_query(model, region, letter):
-    """查询一个分支。返回 dict 或 None。model=型号 code，region=区域 key，letter=分支字母。"""
+def v3_query(model, region, letter, nvid=None):
+    """查询一个分支。返回 dict 或 None。model=型号 code，region=区域 key，letter=分支字母。
+
+    nvid 显式传入时用它，否则用区域默认值。并发扫描时必须显式传，
+    因为并发下不能再靠临时改写 REGIONS[region]['nvid'] 来切换。
+    """
     cfg = REGIONS[region]
-    fw = f"{model}{cfg['nvid']}_11.{letter}.01_0001_100001010000"
+    nv = nvid or cfg["nvid"]
+    # nvCarrier 必须与 nvid 对应（两者是同一个值的二进制串与十六进制写法）
+    carrier = cfg["carrier"] if nv == cfg["nvid"] else bin(int(nv[2:], 16))[2:].zfill(8)
+    fw = f"{model}{nv}_11.{letter}.01_0001_100001010000"
     aes_key = os.urandom(32)
     iv = os.urandom(16)
     pub = load_pub(cfg["key"])
@@ -169,7 +215,7 @@ def v3_query(model, region, letter):
         "romVersion": f"{model}_11", "otaVersion": fw,
         "androidVersion": "Android16.0", "colorOSVersion": "ColorOS16",
         "model": model, "infVersion": "1", "pipelineKey": "ALLNET",
-        "operator": "ALLNET", "companyId": "", "nvCarrier": cfg["carrier"],
+        "operator": "ALLNET", "companyId": "", "nvCarrier": carrier,
         "uRegion": cfg["uRegion"], "trackRegion": cfg["uRegion"],
         "imei": "000000000000000", "imei1": "000000000000000",
         "deviceId": "0" * 64, "mode": "manual", "channel": "pc", "version": "2",
@@ -525,67 +571,108 @@ def code_variants(code, region):
 
 
 # ─────────────── 主流程 ───────────────
-def scan_region(code, region, variants, history):
+def _apply_result(res, code, history, state):
+    """把一次成功查询并入 history 与计数。返回是否命中。"""
+    if not res or not res["url"]:
+        return False
+    fp = res["fp"] or res["fw"]
+    ver = res["version"]
+    if not history.get(fp):
+        history[fp] = ver
+        state["new_fp"] += 1
+        if ver:
+            write_link(code, ver, res["url"])
+            state["new_links"] += 1
+    if state["latest"] is None:
+        state["latest"] = res
+    return True
+
+
+def scan_region(code, region, variants, history, workers=1):
     """在一个网关上扫 variant × nvid × letter。
-    返回 (hits, new_fp, new_links, latest)。会临时改写 REGIONS[region]['nvid']。"""
-    hits, new_fp, new_links, latest = [], 0, 0, None
-    nvid_seq = NVID_FALLBACK.get(region, [REGIONS[region]["nvid"]])
-    saved = REGIONS[region]["nvid"]
-    try:
+    返回 (hits, new_fp, new_links, latest)。
+
+    短路规则（串行与并发一致）：某个 variant 的某个 nvid 一旦有产出，
+    就不再试该 nvid 的剩余回退值、也不再试后续 variant。
+    workers=1 时按 GAP 串行；>1 时用线程池并发（并发下由 workers 数控制压力）。
+    """
+    state = {"new_fp": 0, "new_links": 0, "latest": None}
+    hits = []
+    seq = NVID_FALLBACK.get(region, [REGIONS[region]["nvid"]])
+
+    if workers <= 1:
         for variant in variants:
-            for nvid in nvid_seq:
-                REGIONS[region]["nvid"] = nvid
+            for nv in seq:
                 before = len(hits)
                 for letter in LETTER_POOL:
-                    res = v3_query(variant, region, letter)
-                    if not res or not res["url"]:
-                        time.sleep(GAP)
-                        continue
-                    hits.append(letter)
-                    fp = res["fp"] or res["fw"]
-                    ver = res["version"]
-                    if not history.get(fp):
-                        history[fp] = ver
-                        new_fp += 1
-                        if ver:
-                            write_link(code, ver, res["url"])
-                            new_links += 1
-                    if latest is None:
-                        latest = res
+                    res = v3_query(variant, region, letter, nv)
+                    if _apply_result(res, code, history, state):
+                        hits.append(letter)
                     time.sleep(GAP)
                 if len(hits) > before:
-                    break          # 该 nvid 有产出，不再试回退值
+                    break
             if hits:
-                break              # 该 variant 已命中，无需再去后缀重试
-    finally:
-        REGIONS[region]["nvid"] = saved
-    return hits, new_fp, new_links, latest
+                break
+        return hits, state["new_fp"], state["new_links"], state["latest"]
+
+    # 并发：同一 nvid 的 9 个分支一起发，命中后不再试回退 nvid。
+    sem = threading.Semaphore(workers)
+
+    def one(task):
+        variant, nv, letter = task
+        with sem:
+            return task, v3_query(variant, region, letter, nv)
+
+    for variant in variants:
+        for nv in seq:
+            before = len(hits)
+            batch = [(variant, nv, lt) for lt in LETTER_POOL]
+            with ThreadPoolExecutor(max_workers=workers) as ex:
+                for task, res in ex.map(one, batch):
+                    if _apply_result(res, code, history, state):
+                        hits.append(task[2])
+            if len(hits) > before:
+                break
+        if hits:
+            break
+    return hits, state["new_fp"], state["new_links"], state["latest"]
 
 
 def update_model(model, opts):
     code = model["code"]
     region = region_of(model)
     history = read_history(code)
-    variants = code_variants(code, region)
+    workers = getattr(opts, "workers", 1) or 1
 
-    hits, new_fp, new_links, latest = scan_region(code, region, variants, history)
+    hits, new_fp, new_links, latest = [], 0, 0, None
 
-    # 主区域全落空 -> 按 GATEWAY_FALLBACK 成套切换 host+公钥+nvid 再试
+    # 先试清单映射与 op-ota 实测区域（命中即停），再退到全网关回退。
+    candidates = region_candidates(model)
+    for cand in candidates:
+        h, f, l, lt = scan_region(code, cand, code_variants(code, cand), history, workers)
+        if h:
+            hits = h
+            new_fp += f
+            new_links += l
+            latest = latest or lt
+            region = cand
+            if cand != candidates[0]:
+                print(f"  {code} 清单区域 {candidates[0]} 无产出，改走 {cand} 命中 {'/'.join(h)}")
+            break
+
     if not hits and not opts.no_gateway_fallback:
         for alt in GATEWAY_FALLBACK:
-            if alt == region:
+            if alt in candidates:
                 continue
-            h, f, l, lt = scan_region(code, alt, code_variants(code, alt), history)
+            h, f, l, lt = scan_region(code, alt, code_variants(code, alt), history, workers)
             if h:
-                print(f"  {code} 主区域 {region} 无产出，改走 {alt} 命中 {'/'.join(h)}")
+                print(f"  {code} 候选区域均无产出，改走 {alt} 命中 {'/'.join(h)}")
                 hits = h
                 new_fp += f
                 new_links += l
                 latest = latest or lt
                 region = alt
                 break
-    elif not hits and len(variants) > 1:
-        print(f"  {code} 原串与去后缀串均未命中")
 
     if new_fp:
         write_history(code, history)
@@ -651,6 +738,8 @@ def main():
     ap.add_argument("--no-gateway-fallback", action="store_true",
                     help="主区域无产出时不跨网关重试（更快，但会漏掉区域标记错误的机型）")
     ap.add_argument("--shard", help="分片，形如 0/4（配合多进程并行回填）")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="并发线程数（>1 时不再逐次 sleep，用于回填提速；默认 1 串行）")
     ap.add_argument("--skip-has-latest", action="store_true",
                     help="跳过已有 latest-update.txt 的机型（回填提速，不用于常规增量）")
     opts = ap.parse_args()
