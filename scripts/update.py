@@ -651,6 +651,8 @@ def main():
     ap.add_argument("--no-gateway-fallback", action="store_true",
                     help="主区域无产出时不跨网关重试（更快，但会漏掉区域标记错误的机型）")
     ap.add_argument("--shard", help="分片，形如 0/4（配合多进程并行回填）")
+    ap.add_argument("--skip-has-latest", action="store_true",
+                    help="跳过已有 latest-update.txt 的机型（回填提速，不用于常规增量）")
     opts = ap.parse_args()
 
     if opts.model:
@@ -663,6 +665,10 @@ def main():
         models = [m for m in models if region_of(m) == opts.region]
         if not models:
             sys.exit(f"网关 {opts.region} 下没有机型")
+    if opts.skip_has_latest:
+        before = len(models)
+        models = [m for m in models if not os.path.isfile(latest_path(m["code"]))]
+        print(f"--skip-has-latest: {before} -> {len(models)} 个待处理")
     if opts.shard:
         try:
             idx, total = (int(x) for x in opts.shard.split("/"))
