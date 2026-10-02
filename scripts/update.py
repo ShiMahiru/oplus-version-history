@@ -89,9 +89,9 @@ NVID_FALLBACK = {
     "in": ["NV1B", "NV2C", "NV9E"],
 }
 
-# config/models.json 的 region 标记来自第三方清单（OTA-Pulse / oppo-probe），实测有误：
-# CPH2781 / CPH2735 标为 GL，实际只在 EU 网关有响应。因此主区域全部落空时，
-# 按下面的顺序把 host+公钥+nvid 成套切换到别的网关再试一轮。
+# 候选区域（清单 region 与 op-ota 实测 region）全部落空时，可选的兜底网关顺序。
+# 只在 --gateway-fallback 下启用：实测 12 个网关全试一遍要 150 秒/机型，
+# 而取不到固件的机型绝大多数是真已下架，所以默认不做这层重试。
 GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th", "ru", "tr"]
 # 查询间隔。实测 GAP=0 也能稳定拿到全部分支（网络往返本身就有 ~0.44s 节流，
 # 实测 9 个分支从 7.7s 降到 4.0s），但多进程分片并行时叠加起来会放大总速率，
@@ -660,7 +660,7 @@ def update_model(model, opts):
                 print(f"  {code} 清单区域 {candidates[0]} 无产出，改走 {cand} 命中 {'/'.join(h)}")
             break
 
-    if not hits and not opts.no_gateway_fallback:
+    if not hits and getattr(opts, "gateway_fallback", False):
         for alt in GATEWAY_FALLBACK:
             if alt in candidates:
                 continue
@@ -735,8 +735,10 @@ def main():
     ap.add_argument("--no-downgrade", action="store_true", help="跳过降级包")
     ap.add_argument("--no-history-write", action="store_true", help="不写版本史文件")
     ap.add_argument("--limit", type=int, default=0, help="最多处理 N 个机型（测试用）")
-    ap.add_argument("--no-gateway-fallback", action="store_true",
-                    help="主区域无产出时不跨网关重试（更快，但会漏掉区域标记错误的机型）")
+    ap.add_argument("--gateway-fallback", action="store_true",
+                    help="候选区域均无产出时，再逐个试其余网关。默认关闭："
+                         "绝大多数取不到固件的机型是真的已下架，全网关重试要 150 秒/个，"
+                         "收益极低；回填时不要开。")
     ap.add_argument("--shard", help="分片，形如 0/4（配合多进程并行回填）")
     ap.add_argument("--workers", type=int, default=1,
                     help="并发线程数（>1 时不再逐次 sleep，用于回填提速；默认 1 串行）")
