@@ -4,7 +4,7 @@
 
 
 
-版本记录 **11** 条 · 有官方链接 **9** 条 · 有更新日志 **0** 份
+版本记录 **11** 条 · 有官方链接 **10** 条 · 有更新日志 **0** 份
 
 ## 版本史
 
@@ -16,7 +16,7 @@
 | PGEM10_16.0.2.401(CN01) | `PGEM10_11.H.08_3080_202512241912` | 2025-12-24 | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=01deb7584f68a49b99d883fffcbeb80a&p=a6c78cdd365788883ccedeab17ce6037c621f8b4196154f581b95beec22900c7b8ba37d3e52a3523ef6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6954edfd007ddc017e03a08e&taste=1&supportDLTaste=0&mode=1&s=0fdedc1c62b4f2984cbf0f4edde0696c>) |  |  |
 | PGEM10_16.0.1.300(CN01) | `PGEM10_11.H.06_3060_202511201836` | 2025-11-20 | [下载](<https://component-ota-cn.allawntech.com/downloadCheck?c=a2763377d740429ca4395584d25f59c7&p=a6c78cdd3654888839ced8fb179637379275fbe3426754f087eb5ae9c32c51c3ebe937dce22e3976bc38d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=694947d9007ddc017e038d8f&taste=0&supportDLTaste=0&mode=1&s=c46ece02a2faffef60bf0f1c000f6594>) |  |  |
 | PGEM10_15.0.0.861(CN01) | `PGEM10_11.F.35_2350_202510301712` | 2025-10-30 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6e86f141b35b86dfd441def310b51e78/component-ota/25/11/03/0ef17444a4484da8a82b6bf857e90fea.zip>) |  |  |
-| PGEM10_15.0.0.700(CN01) | `PGEM10_11.F.26_2260_202503242228` | 2025-03-24 |  |  |  |
+| PGEM10_15.0.0.700(CN01) | `PGEM10_11.F.26_2260_202503242228` | 2025-03-24 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8960758ff6a7acde7239d9e8b357ccba/component-ota/25/03/25/2a502e76f3794f778609822c84cc16d1.zip>) |  |  |
 | PGEM10_14.0.0.850(CN01) | `PGEM10_11.C.90_1900_202410181334` | 2024-10-18 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-49b7a6ca4fd62601aa85f3cca33e6fe1/component-ota/24/10/22/bf906143ad6d4b7581eb0710653dda4f.zip>) |  |  |
 | PGEM10_14.0.0.401(CN01) | `PGEM10_11.C.77_1770_202401300311` | 2024-01-30 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8c6c29908c54c2c5dd78fe7146d848da/component-ota/24/01/30/7a25999c89274461b31e72d8eaaa4727.zip>) |  |  |
 | PGEM10_13.1.0.144(CN01) | `PGEM10_11.A.50_0500_202312131722` | 2023-12-13 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5a6d48643d04511c350e777921644afc/component-ota/23/12/14/62d272b8641d4ecfa8083e0391e0b814.zip>) |  |  |
