@@ -1,0 +1,17 @@
+# RMX3868IN · realme Narzo 70 Pro
+
+[← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/RMX3868IN/latest-update.txt>)
+
+**realme / IN** · 最新版本 `RMX3868_14.0.0.506(EX01)` · OTA `RMX3868_11.A.13_0130_202404071916` · Android 14 · 安全补丁 2024-02-05
+
+版本记录 **1** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
+
+## 版本史
+
+| 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
+|---|---|---|---|---|---|
+| RMX3868_14.0.0.506(EX01) | `RMX3868_11.A.13_0130_202404071916` | 2024-04-07 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-c761d542bb3965634e4b24f80d66c6d6/component-ota/24/04/08/5b880ee53e384cd894d8eee833e18cf0.zip>) |  |  |
+
+---
+
+链接是官方 `downloadCheck` 网关地址（长期有效）：浏览器或多线程下载器访问会 302 跳到官方 CDN 直链。
