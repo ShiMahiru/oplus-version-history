@@ -1362,7 +1362,7 @@
   {
    "code": "MT2110",
    "name": "一加 9RT 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2132,7 +2132,7 @@
   {
    "code": "PLC110",
    "name": "一加 Ace 5 至尊版 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2153,7 +2153,7 @@
   {
    "code": "PLF110",
    "name": "一加 Ace 5 竞速版 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2272,7 +2272,7 @@
   {
    "code": "PLU110",
    "name": "一加 Turbo 6 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2293,7 +2293,7 @@
   {
    "code": "PLY110",
    "name": "一加 Turbo 6V 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2321,7 +2321,7 @@
   {
    "code": "PMB110",
    "name": "一加 Ace 6 至尊版 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
@@ -2433,14 +2433,14 @@
   {
    "code": "PYR110",
    "name": "一加 Turbo 6X Pro 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },
   {
    "code": "PYS110",
    "name": "一加 Turbo 6X 国行版",
-   "brand": "unknown",
+   "brand": "oneplus",
    "region": "CN",
    "_source": "jeck24India/op-ota"
   },

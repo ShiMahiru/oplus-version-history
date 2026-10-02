@@ -41,11 +41,12 @@ def ver_filename(ver, code):
 
 def brand_of(name):
     n = (name or "").lower()
-    if "oneplus" in n:
+    # 国行机型在 op-ota 里用的是中文名（一加 / 真我 / 欧珀）
+    if "oneplus" in n or "一加" in n:
         return "oneplus"
-    if "realme" in n:
+    if "realme" in n or "真我" in n:
         return "realme"
-    if "oppo" in n:
+    if "oppo" in n or "欧珀" in n or "欧普" in n:
         return "oppo"
     return "unknown"
 
