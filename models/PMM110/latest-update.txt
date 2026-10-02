@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:41:22
+查询地区: CN
+最新 OTA 版本: PMM110_11.A.50_0500_202608012236
+版本名称: PMM110_16.0.10.500(CN01)
+Android 版本: Android 16
+ColorOS 版本: PMM110_16.0.10.500(CN01)
+安全补丁: 2026-08-01
+发布时间: 1787568720634
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=24cff226b6f785b3f8a50a0e8cfc8b27&p=a6c78fdd375d888a3bce8eaf10cb36319222aee24a3254f4d6ef00ed9e2005c7bcb8638fb52a3027bc6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8c148d76d168017ee7ce27&taste=0&supportDLTaste=0&mode=1&tr=manual&s=73299d0400bca4d836f1fadbbcd39304

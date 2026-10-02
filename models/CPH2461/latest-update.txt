@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:29:07
+查询地区: APC
+最新 OTA 版本: CPH2461_11.A.12_0120_202211242307
+版本名称: CPH2461_11_A.12
+Android 版本: Android 12
+ColorOS 版本: CPH2461_11_A.12
+安全补丁: 2022-11-05
+发布时间: 1670316447663
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-88c1c0204c8e905e5545f1038f6d3c71/component-ota/22/11/25/a4c7f72b008443f8963a77056f993edf.zip

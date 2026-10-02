@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:44:36
+查询地区: TW
+最新 OTA 版本: RMX3780_11.A.51_0510_202401031417
+版本名称: RMX3780_13.2.0.500(SP03EX01)
+Android 版本: Android 13
+ColorOS 版本: RMX3780_13.2.0.500(SP03EX01)
+安全补丁: 2024-01-05
+发布时间: 1705759394611
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-229224a79cae6703d47cc6736fb10d5e/component-ota/24/01/03/4ce161e3b5f040129de9be698c1be2fe.zip

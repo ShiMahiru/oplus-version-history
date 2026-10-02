@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:47:41
+查询地区: EU
+最新 OTA 版本: RMX3997_11.A.31_0310_202409301357
+版本名称: RMX3997_14.0.1.517(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3997_14.0.1.517(EX01)
+安全补丁: 2024-09-05
+发布时间: 1730780008865
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8960437ccb68948942993613f156b9aa/component-ota/24/10/10/730fa8aa2a094adf8d35e25c9715529e.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:48:18
+查询地区: CN
+最新 OTA 版本: PGJM10_11.A.18_0180_202302082242
+版本名称: PGJM10_11_A.18
+Android 版本: Android 12
+ColorOS 版本: PGJM10_11_A.18
+安全补丁: 2022-12-05
+发布时间: 1676720212388
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d7a08bdf822dcfc29e3d1b39dd0a6ed7/component-ota/23/02/09/bac36f9a9fc347b688101df34c636478.zip

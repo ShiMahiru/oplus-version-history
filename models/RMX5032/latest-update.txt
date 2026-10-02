@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: RMX5032_15.0.0.1034(EX01)
+版本名称: RMX5032_15.0.0.1034(EX01)
+Android 版本: 
+ColorOS 版本: RMX5032_15.0.0.1034(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-07264833259e0dbec57877622b7781dd/component-ota/25/11/24/b480e1661b0a42c9afe5d0f264533a53.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 7374.98 MB
+MD5: a4a3c982289390a3c61ab74a6fa85bde

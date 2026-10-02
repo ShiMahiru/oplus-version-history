@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:46:02
+查询地区: CN
+最新 OTA 版本: PMC110_11.A.18_0180_202603192144
+版本名称: PMC110_15.0.2.1101(CN01)
+Android 版本: Android 15
+ColorOS 版本: PMC110_15.0.2.1101(CN01)
+安全补丁: 2026-03-01
+发布时间: 1775182744508
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5a9e97b5cda2ec09cada4b4966efd073/component-ota/26/03/21/550f0babc0264f918b6dd82b8a59994c.zip

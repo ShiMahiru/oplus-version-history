@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:38:40
+查询地区: EU
+最新 OTA 版本: CPH2695_11.A.37_1370_202506051603
+版本名称: CPH2695_15.0.0.904(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2695_15.0.0.904(EX01)
+安全补丁: 2025-06-01
+发布时间: 1751333547398
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-5ce695538514d50b14b60302c6e3030d/component-ota/25/06/05/1bc9766e5355487f982d117757e321ef.zip

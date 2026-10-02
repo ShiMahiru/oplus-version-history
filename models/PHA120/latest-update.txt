@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:33:28
+查询地区: CN
+最新 OTA 版本: PHA120_11.A.05_0050_202208252355
+版本名称: PHA120_11_A.05
+Android 版本: Android 11
+ColorOS 版本: PHA120_11_A.05
+安全补丁: 2022-08-05
+发布时间: 1667523632395
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c3182291080c761829081af83d5f8661/component-ota/22/08/26/b4e394f5abb34ea7bf7210d2a91e91d3.zip

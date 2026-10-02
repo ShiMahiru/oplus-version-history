@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:32:11
+查询地区: EG
+最新 OTA 版本: CPH2385_11.A.32_0320_202305130016
+版本名称: CPH2385_11_A.32
+Android 版本: Android 12
+ColorOS 版本: CPH2385_11_A.32
+安全补丁: 2023-05-05
+发布时间: 1686903474863
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-61d53d20e51dc126c2ffb5543b24ee9e/component-ota/23/05/15/a05be007f03b460d8c6353da4be4c11d.zip

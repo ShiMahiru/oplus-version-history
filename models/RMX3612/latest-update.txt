@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:47:58
+查询地区: TW
+最新 OTA 版本: RMX3612_11.F.15_2150_202510162053
+版本名称: RMX3612_14.0.0.2200(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3612_14.0.0.2200(EX01)
+安全补丁: 2025-07-01
+发布时间: 1764067559828
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-208ab3605cd0fd87d4c681587003a955/component-ota/25/10/18/8f7cfac3767c4e23baa8746c6b180ca0.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:46:26
+查询地区: RU
+最新 OTA 版本: RMX3840_11.A.69_0690_202410101825
+版本名称: RMX3840_14.0.0.1501(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3840_14.0.0.1501(EX01)
+安全补丁: 2024-10-05
+发布时间: 1730718472816
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-418cf2eb0d348f7ce367d0b5d5638dc0/component-ota/24/10/12/33552cf81ffe4b6596be5f349b6bac85.zip

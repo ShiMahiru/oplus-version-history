@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:42:32
+查询地区: IN
+最新 OTA 版本: RMX3868_11.A.13_0130_202404071916
+版本名称: RMX3868_14.0.0.506(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3868_14.0.0.506(EX01)
+安全补丁: 2024-02-05
+发布时间: 1712971367820
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-c761d542bb3965634e4b24f80d66c6d6/component-ota/24/04/08/5b880ee53e384cd894d8eee833e18cf0.zip

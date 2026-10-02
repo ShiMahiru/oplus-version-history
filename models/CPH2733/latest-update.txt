@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: CPH2733_16.0.5.1200(EX01)
+版本名称: CPH2733_16.0.5.1200(EX01)
+Android 版本: 
+ColorOS 版本: CPH2733_16.0.5.1200(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=845cba72a7a46c7a993ae3d9743b7ff2&p=a50845bd67478545c460464f6a1c20d47b8919ac101744365577ddbaf59388dd0e5bf7c2ca99d4f6e15c4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a96a27a76d168017ee7d9e5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f57ca5f704f1b38af35beb318b0528b5
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 6344.84 MB
+MD5: c7f773e5dc526575e6e262105cc18153

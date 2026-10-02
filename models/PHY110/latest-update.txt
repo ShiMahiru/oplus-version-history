@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:43:40
+查询地区: CN
+最新 OTA 版本: PHY110_11.F.28_2280_202608111929
+版本名称: PHY110_16.0.10.500(CN01)
+Android 版本: Android 16
+ColorOS 版本: PHY110_16.0.10.500(CN01)
+安全补丁: 2026-08-01
+发布时间: 1788517125952
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=e3ecc410f045ac5cc1dca0d14f298905&p=a6c78fdd375d888b3acedcfd419c3830c378abe8423254a3d6bb00ec922955c3bebc63d9b179362fb43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9a820076d168017ee7dfad&taste=0&supportDLTaste=0&mode=1&tr=manual&s=989a474591bde8a54d14015f058c56e6

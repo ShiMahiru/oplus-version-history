@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:42:57
+查询地区: EU
+最新 OTA 版本: RMX2202_11.A.17_0170_202112071504
+版本名称: RMX2202_11_A.17
+Android 版本: Android 11
+ColorOS 版本: RMX2202_11_A.17
+安全补丁: 2021-12-05
+发布时间: 1640911451237
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-bc060f8d4afc4566338c5947df8a4143/component-ota/21/12/08/85740d431e704202a417b88873c280c2.zip

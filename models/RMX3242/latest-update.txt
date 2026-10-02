@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:44:51
+查询地区: RU
+最新 OTA 版本: RMX3242_11.A.18_0180_202207201314
+版本名称: RMX3242_11_A.18
+Android 版本: Android 11
+ColorOS 版本: RMX3242_11_A.18
+安全补丁: 2022-07-05
+发布时间: 1658971495939
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-5c2b52bf6394094740aeb632d73c8a0c/component-ota/22/07/21/ad33cff2e76d4329ae88c9d50b799371.zip

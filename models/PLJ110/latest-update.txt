@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:39:56
+查询地区: CN
+最新 OTA 版本: PLJ110_11.A.28_1280_202608141316
+版本名称: PLJ110_16.0.10.502(CN01)
+Android 版本: Android 16
+ColorOS 版本: PLJ110_16.0.10.502(CN01)
+安全补丁: 2026-08-01
+发布时间: 1789008356271
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=093aca08a1d9dff7df4dfd127ffa2f13&p=a6c78fdd375d888b3dce88fb47ce63649476aeb3186154a686ea03ed952d52c7ecbc6a89e62c6522b96dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aa1166892ce7c01836a5d10&taste=0&supportDLTaste=0&mode=1&tr=manual&s=688ad63796779c9bd75ed71c8290297a

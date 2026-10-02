@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:30:18
+查询地区: EU
+最新 OTA 版本: CPH2399_11.A.19_0190_202302031303
+版本名称: CPH2399_11_A.19
+Android 版本: Android 12
+ColorOS 版本: CPH2399_11_A.19
+安全补丁: 2023-01-05
+发布时间: 1677761008251
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-17ad8f459e6b45fce6a3da2f81559435/component-ota/23/02/06/0d6db6e4ddf94790b3270849ec6a825e.zip

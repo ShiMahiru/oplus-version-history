@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:32:51
+查询地区: OCA
+最新 OTA 版本: CPH2863_11.A.44_0440_202608111420
+版本名称: CPH2863_16.0.10.501(EX01)
+Android 版本: Android 16
+ColorOS 版本: CPH2863_16.0.10.501(EX01)
+安全补丁: 2026-08-01
+发布时间: 1787584505150
+ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=71b97803b25acaa92f4c5b94674f24f3&p=f088224e00631389a5bc9b074566d069402f13c22a31c0b8291e9d82cfc3d76543e4604cfc5528b44703452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8c5be876d168017ee7ceaa&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a66155e7e5a764da0078387d2292cbab

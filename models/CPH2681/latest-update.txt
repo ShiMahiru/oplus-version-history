@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: CPH2681_15.0.0.1705(EX01)
+版本名称: CPH2681_15.0.0.1705(EX01)
+Android 版本: 
+ColorOS 版本: CPH2681_15.0.0.1705(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0746afe8a1ab872e5bc5fb415637a2c2/component-ota/26/08/24/aa85f22daea44c188fdba973771bffa9.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 5355.78 MB
+MD5: 892695fd1372015e6764d3fbe51012ba

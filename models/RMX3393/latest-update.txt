@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:43:04
+查询地区: TW
+最新 OTA 版本: RMX3393_11.A.18_0180_202210191935
+版本名称: RMX3393_11_A.18
+Android 版本: Android 12
+ColorOS 版本: RMX3393_11_A.18
+安全补丁: 2022-10-05
+发布时间: 1667468271146
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0101a1da46d92b016532abc401a5b504/component-ota/22/10/20/54f0b30ea47b461c99087f492998594d.zip

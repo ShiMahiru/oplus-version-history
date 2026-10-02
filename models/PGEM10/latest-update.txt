@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:44:40
+查询地区: CN
+最新 OTA 版本: PGEM10_11.C.90_1900_202410181334
+版本名称: PGEM10_14.0.0.850(CN01)
+Android 版本: Android 14
+ColorOS 版本: PGEM10_14.0.0.850(CN01)
+安全补丁: 2024-10-05
+发布时间: 1731331730019
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-641a0f37a3bd3d281e073dcc4daca942/component-ota/24/10/22/bf906143ad6d4b7581eb0710653dda4f.zip

@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: BR
+最新 OTA 版本: CPH2853_16.0.5.1200(EX01)
+版本名称: CPH2853_16.0.5.1200(EX01)
+Android 版本: 
+ColorOS 版本: CPH2853_16.0.5.1200(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=a6d50b62beb2c22e8c1ef1b31da14b1b&p=f088224e00631389a6bc94561736d760442f40c07f65c0ee2b4b9e829994833f47e43618fb527ce2445a452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a7bdf5c92ce7c01806f64c8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=e7b9ae4bc10cc6897eb0361fe820f4f1
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 6295.09 MB
+MD5: 6cb62ed2917e9f68816fa0c89ec67a2a

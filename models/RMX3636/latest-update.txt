@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:47:35
+查询地区: APC
+最新 OTA 版本: RMX3636_11.A.16_0160_202403051211
+版本名称: RMX3636_11_A.16
+Android 版本: Android 13
+ColorOS 版本: RMX3636_11_A.16
+安全补丁: 2024-03-05
+发布时间: 1711519892548
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-ac2174793c30c9419852a6a4e6f808c4/component-ota/24/03/06/10048385a1fd4778b1f02449b0feb1e2.zip

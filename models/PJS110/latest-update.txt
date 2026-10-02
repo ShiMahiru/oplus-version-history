@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:43:17
+查询地区: CN
+最新 OTA 版本: PJS110_11.A.35_1350_202406182320
+版本名称: PJS110_14.0.0.800(CN01)
+Android 版本: Android 14
+ColorOS 版本: PJS110_14.0.0.800(CN01)
+安全补丁: 2024-06-05
+发布时间: 1723556372588
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a14d42a4da2410fd5722eb2ef6d4fc9f/component-ota/24/06/24/021849ca3bbb48a5a264e34d33917749.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:34:46
+查询地区: CN
+最新 OTA 版本: PJV110_11.A.69_0690_202412052338
+版本名称: PJV110_14.1.0.614(CN01)
+Android 版本: Android 14
+ColorOS 版本: PJV110_14.1.0.614(CN01)
+安全补丁: 2024-12-05
+发布时间: 1736490961270
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f0b3cc61960ef5bd1368b445db34ef42/component-ota/24/12/10/0c1930ac3ea748fdb070b6407416fb5f.zip

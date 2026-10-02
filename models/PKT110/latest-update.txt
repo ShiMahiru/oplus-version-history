@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:40:05
+查询地区: CN
+最新 OTA 版本: PKT110_11.A.61_0610_202508211418
+版本名称: PKT110_15.0.1.620(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKT110_15.0.1.620(CN01)
+安全补丁: 2025-09-01
+发布时间: 1758243331417
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2c8b5dafc28d64602499a0eba4177100/component-ota/25/08/22/245f8056cf13495bae3ebcc13ef06135.zip

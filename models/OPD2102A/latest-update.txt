@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: EU
+最新 OTA 版本: OPD2102A_11_C.33
+版本名称: OPD2102A_11_C.33
+Android 版本: 
+ColorOS 版本: OPD2102A_11_C.33
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-fe2342413501ba09fb3d426ca7996032/component-ota/25/08/11/98cf9de96bfb49cb88607aed81102ec7.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 3633.43 MB
+MD5: 3874c07d38896757ac8ae8b199afd171

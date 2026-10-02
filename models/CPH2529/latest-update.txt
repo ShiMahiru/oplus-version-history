@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:30:25
+查询地区: EU
+最新 OTA 版本: CPH2529_11.A.48_1480_202404271722
+版本名称: CPH2529_14.0.0.700(EX01)
+Android 版本: Android 14
+ColorOS 版本: CPH2529_14.0.0.700(EX01)
+安全补丁: 2024-05-05
+发布时间: 1725000055935
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-878697a5e28831ee756ac81d1acbe850/component-ota/24/04/30/7c53b716b6bc49839bdf3f8511dea9a6.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:59:51
+查询地区: EU
+最新 OTA 版本: RMX3943_11.A.26_0260_202503301726
+版本名称: RMX3943_15.0.0.520(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX3943_15.0.0.520(EX01)
+安全补丁: 2025-03-01
+发布时间: 1744711192618
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-596f1af15b1dc2d0ae9784ef2538ee1b/component-ota/25/04/01/8f046ba72c6a4ae9a60ffa9f3c359632.zip

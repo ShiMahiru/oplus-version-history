@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:44:13
+查询地区: TR
+最新 OTA 版本: RMX3630_11.C.25_1250_202405101600
+版本名称: RMX3630_11_C.25
+Android 版本: Android 13
+ColorOS 版本: RMX3630_11_C.25
+安全补丁: 2024-04-05
+发布时间: 1717145586789
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-2dc07c6ad50078dbede86169fdde02dd/component-ota/24/05/11/f4fe6d3a05ef4305b71ee8f7b0e65066.zip

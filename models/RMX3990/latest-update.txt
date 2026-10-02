@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: RMX3990_16.0.5.1000(EX01)
+版本名称: RMX3990_16.0.5.1000(EX01)
+Android 版本: 
+ColorOS 版本: RMX3990_16.0.5.1000(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=3e8a1661f2eb35987e19e4e9c2717498&p=a50845bd67488544c26016176a4722d52e8c1afb454244370270debef1c4ded00c0fa5c491c982f7b2594b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8cef6d76d168017ee7cee8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=43452803cf239df03de56145fcc41d8f
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 7976.69 MB
+MD5: 802c212a27ba2605abc5bac7a31ff381

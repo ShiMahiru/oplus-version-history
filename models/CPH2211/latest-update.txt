@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:26:35
+查询地区: EU
+最新 OTA 版本: CPH2211_11.A.13_0130_202111250023
+版本名称: CPH2211_11_A.13
+Android 版本: Android 11
+ColorOS 版本: CPH2211_11_A.13
+安全补丁: 2021-11-05
+发布时间: 1639036656868
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-20b91f0a8982be8cb54d16a4fb6c968b/component-ota/21/11/25/98011a1ac00d4109864e76480f1212e5.zip

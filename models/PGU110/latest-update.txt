@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:42:37
+查询地区: CN
+最新 OTA 版本: PGU110_11.A.46_0460_202310171706
+版本名称: PGU110_13.1.0.184(CN01)
+Android 版本: Android 13
+ColorOS 版本: PGU110_13.1.0.184(CN01)
+安全补丁: 2023-10-05
+发布时间: 1729235875721
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-930bb2c486f3f91043dfca5b7820b0ec/component-ota/23/10/18/217167adb45e4b26a72909461f9667e6.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:45:12
+查询地区: TW
+最新 OTA 版本: RMX3867_11.A.28_0280_202412242344
+版本名称: RMX3867_14.0.0.516(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3867_14.0.0.516(EX01)
+安全补丁: 2024-12-05
+发布时间: 1750057110898
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-b13594e7de599482a57daa313d99e213/component-ota/24/12/26/5eedb1918d3b4eaea07ef9c5b603b728.zip

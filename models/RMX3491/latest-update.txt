@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:45:37
+查询地区: TW
+最新 OTA 版本: RMX3491_11.A.15_0150_202205191705
+版本名称: RMX3491_11_A.15
+Android 版本: Android 11.1
+ColorOS 版本: RMX3491_11_A.15
+安全补丁: 2022-05-05
+发布时间: 1654755859922
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f62229746689b08583345514f228799a/component-ota/22/05/20/3c64492cba834b21b2e419f332ca4048.zip

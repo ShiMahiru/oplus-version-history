@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:31:53
+查询地区: IN
+最新 OTA 版本: CPH2527_11.A.12_0120_202311031758
+版本名称: CPH2527_13.1.0.586(EX01)
+Android 版本: Android 13
+ColorOS 版本: CPH2527_13.1.0.586(EX01)
+安全补丁: 2023-11-05
+发布时间: 1701084323927
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-5a06b1ba44024be89b9907c45ac5c600/component-ota/23/11/06/8be4034f89cc4a398536ce9f3de259b1.zip

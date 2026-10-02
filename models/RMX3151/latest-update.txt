@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:51:49
+查询地区: RU
+最新 OTA 版本: RMX3151_11.C.17_1170_202302141555
+版本名称: RMX3151_11_C.17
+Android 版本: Android 12
+ColorOS 版本: RMX3151_11_C.17
+安全补丁: 2023-02-05
+发布时间: 1677497517368
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-713657e2edcddc544d2d5b9ef1938a7b/component-ota/23/02/17/97350e6680844da0b396f28d3eff8885.zip

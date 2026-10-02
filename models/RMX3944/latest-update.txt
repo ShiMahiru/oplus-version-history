@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:43:14
+查询地区: IN
+最新 OTA 版本: RMX3944_11.A.45_0450_202510101112
+版本名称: RMX3944_15.0.0.1011(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX3944_15.0.0.1011(EX01)
+安全补丁: 2025-10-01
+发布时间: 1761702295885
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-56bd291250ac4d36a5d2456f23956025/component-ota/25/10/16/586014f02c6b49da87eefcfe1aefa83b.zip

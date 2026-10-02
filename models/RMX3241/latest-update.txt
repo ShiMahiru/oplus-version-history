@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:36:06
+查询地区: TW
+最新 OTA 版本: RMX3241_11.A.25_0250_202205130034
+版本名称: RMX3241_11_A.25
+Android 版本: Android 11
+ColorOS 版本: RMX3241_11_A.25
+安全补丁: 2022-05-05
+发布时间: 1653901792633
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f40139019016d1ab338d7fe37f8e9662/component-ota/22/05/14/50980511df4d4e6aa8fe98bb06121217.zip

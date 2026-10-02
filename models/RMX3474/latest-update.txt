@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:36:19
+查询地区: RU
+最新 OTA 版本: RMX3474_11.C.22_1220_202401301014
+版本名称: RMX3474_11_C.22
+Android 版本: Android 13
+ColorOS 版本: RMX3474_11_C.22
+安全补丁: 2024-02-05
+发布时间: 1708936603243
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-68b032bbf710e3901f312ce71400590d/component-ota/24/01/31/b37130441d5d4f1ea42e767898cd0c60.zip

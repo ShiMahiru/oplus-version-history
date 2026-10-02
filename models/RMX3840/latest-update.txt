@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: VN
+最新 OTA 版本: RMX3840_16.0.5.1000(EX01)
+版本名称: RMX3840_16.0.5.1000(EX01)
+Android 版本: 
+ColorOS 版本: RMX3840_16.0.5.1000(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=bf8b2eabff514275f8cc16011e0d8c82&p=f088224e006d138aacbcc1054a63de37412a16c52e3ec0bb2b1ac6d1989fd63317e43144a8017db2160b452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a96959576d168017ee7d9c0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=dc8d5e7c74c5bba36ae077b5a7092fc7
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 8215.73 MB
+MD5: 037890463485ed70283c7caa0db91427

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 13:01:38
+查询地区: EU
+最新 OTA 版本: RMX5079_11.C.84_1840_202510131400
+版本名称: RMX5079_15.0.0.840(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX5079_15.0.0.840(EX01)
+安全补丁: 2025-09-01
+发布时间: 1762312177188
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-98abe9fc000a02c2e0b472c5f751f061/component-ota/25/10/14/0bc30c943c634c3fa910821b07417f24.zip

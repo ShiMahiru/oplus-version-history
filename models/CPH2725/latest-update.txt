@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:44:20
+查询地区: EU
+最新 OTA 版本: CPH2725_11.A.22_1220_202505080023
+版本名称: CPH2725_15.0.1.306(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2725_15.0.1.306(EX01)
+安全补丁: 2025-05-01
+发布时间: 1747742025602
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-4719967f5ca44ff3bfea7824db464c6f/component-ota/25/05/08/b2b64049e9e34cd593146b53301a1c17.zip

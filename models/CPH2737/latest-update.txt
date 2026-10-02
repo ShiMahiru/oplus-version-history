@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:23:23
+查询地区: VN
+最新 OTA 版本: CPH2737_11.A.41_0410_202510071536
+版本名称: CPH2737_15.0.2.606(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2737_15.0.2.606(EX01)
+安全补丁: 2025-10-01
+发布时间: 1760540927738
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-eb638e492c9d92bda21df9d53dc5a1d1/component-ota/25/10/07/b743f474065345cfbb89b475a81f53a1.zip

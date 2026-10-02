@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:44:11
+查询地区: CN
+最新 OTA 版本: PJY110_11.A.28_0280_202412121631
+版本名称: PJY110_14.0.1.1410(CN01)
+Android 版本: Android 14
+ColorOS 版本: PJY110_14.0.1.1410(CN01)
+安全补丁: 2024-12-05
+发布时间: 1755834373649
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ef3abb9bf4c413f67cd101707db9d182/component-ota/24/12/13/c323107d3b9f4361b58eff27bfb71b59.zip

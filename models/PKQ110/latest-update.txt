@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:33:58
+查询地区: CN
+最新 OTA 版本: PKQ110_11.A.21_0210_202509101836
+版本名称: PKQ110_15.0.0.1300(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKQ110_15.0.0.1300(CN01)
+安全补丁: 2025-09-01
+发布时间: 1758875612099
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9db38ae61830143d82d04fecd2b2ebe5/component-ota/25/09/11/97e1fb6088fe4743acba1072856b2d82.zip

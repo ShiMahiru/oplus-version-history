@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:47:55
+查询地区: TR
+最新 OTA 版本: RMX3710_11.A.63_0630_202401292013
+版本名称: RMX3710_11_A.63
+Android 版本: Android 13
+ColorOS 版本: RMX3710_11_A.63
+安全补丁: 2024-01-05
+发布时间: 1708573107461
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-c9b8a90b50eec8c32c3a180fbda07169/component-ota/24/01/30/b416dd4bf0244a53b60151fe2abcc09c.zip

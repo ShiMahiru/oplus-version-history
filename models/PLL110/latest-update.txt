@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:45:05
+查询地区: CN
+最新 OTA 版本: PLL110_11.A.23_0230_202601231918
+版本名称: PLL110_15.0.2.810(CN01)
+Android 版本: Android 15
+ColorOS 版本: PLL110_15.0.2.810(CN01)
+安全补丁: 2026-02-01
+发布时间: 1771927161708
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6cc99887ca7e278cfcbbfb2f7aac7c6d/component-ota/26/02/03/ed0072be955d439783e0b25c800a589b.zip

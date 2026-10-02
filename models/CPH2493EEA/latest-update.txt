@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:34:19
+查询地区: EU
+最新 OTA 版本: CPH2493_11.A.15_0150_202310131211
+版本名称: CPH2493_13.1.0.592(EX01)
+Android 版本: Android 13
+ColorOS 版本: CPH2493_13.1.0.592(EX01)
+安全补丁: 2023-10-05
+发布时间: 1697793969614
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-44aa5cf1b44b5dbbd6d5c9ee10cbc2dd/component-ota/23/10/13/e1d669d729e44216bfcb8e936bff22f2.zip

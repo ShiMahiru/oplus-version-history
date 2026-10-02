@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:38:59
+查询地区: CN
+最新 OTA 版本: PJH110_11.A.50_0500_202502171152
+版本名称: PJH110_14.0.0.712(CN01)
+Android 版本: Android 14
+ColorOS 版本: PJH110_14.0.0.712(CN01)
+安全补丁: 2025-01-01
+发布时间: 1755772187160
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7895a70dae7d7943d9d35eed4929c498/component-ota/25/02/19/8b8fbab0b4974410a12998284f7ced1b.zip

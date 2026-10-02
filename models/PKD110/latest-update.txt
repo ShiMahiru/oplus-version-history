@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:45:29
+查询地区: CN
+最新 OTA 版本: PKD110_11.A.31_0310_202411042350
+版本名称: PKD110_14.0.1.1201(CN01)
+Android 版本: Android 14
+ColorOS 版本: PKD110_14.0.1.1201(CN01)
+安全补丁: 2024-11-05
+发布时间: 1732276008573
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7e6b36999ecdaa973a70edc62184c8ca/component-ota/24/11/05/f7a435a9b0d94ca7a81553ab5a95d7df.zip

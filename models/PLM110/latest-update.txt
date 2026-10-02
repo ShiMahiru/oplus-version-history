@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:36:24
+查询地区: CN
+最新 OTA 版本: PLM110_11.A.25_0250_202509301358
+版本名称: PLM110_15.0.2.701(CN01)
+Android 版本: Android 15
+ColorOS 版本: PLM110_15.0.2.701(CN01)
+安全补丁: 2025-10-01
+发布时间: 1760971863633
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-43615fde843faf3380bb209aaea65a9e/component-ota/25/10/08/7fab279ab53d44a390b796c18cddfc92.zip

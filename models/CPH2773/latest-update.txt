@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:26:00
+查询地区: APC
+最新 OTA 版本: CPH2773_11.A.66_0660_202607031519
+版本名称: CPH2773_14.0.1.2253(EX01)
+Android 版本: Android 14
+ColorOS 版本: CPH2773_14.0.1.2253(EX01)
+安全补丁: 2026-07-01
+发布时间: 1786448455467
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-e186464bd3ab608dd7588124a9612d21/component-ota/26/07/06/8685b1b0de6c4def80d3053ddddaa1d5.zip

@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: CPH2971_16.0.9.452(EX01)
+版本名称: CPH2971_16.0.9.452(EX01)
+Android 版本: 
+ColorOS 版本: CPH2971_16.0.9.452(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=41c7a8731d57d66263cb102a171656f3&p=a50845bd67468544cd60104f684e70d628dc1cfe471444600625dee8a198dfd55a50fe939599d1acb10b4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6aaa52d392ce7c01836a6792&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a3a22ad6e21095a154d417d257ebb2f8
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 6077.45 MB
+MD5: c69c1a2e49d29446e0f258ada0a73f9a

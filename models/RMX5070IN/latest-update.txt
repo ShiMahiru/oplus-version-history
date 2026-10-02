@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:57:47
+查询地区: IN
+最新 OTA 版本: RMX5070_11.A.69_1690_202505210122
+版本名称: RMX5070_15.0.0.690(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX5070_15.0.0.690(EX01)
+安全补丁: 2025-05-01
+发布时间: 1751006771277
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-35ceaefc3412023f427d05f54a2f0494/component-ota/25/05/22/24597460379b4f6d98ed4a0fcd3ede52.zip

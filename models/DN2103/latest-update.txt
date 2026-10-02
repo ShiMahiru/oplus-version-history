@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: EU
+最新 OTA 版本: DN2103_11_C.14
+版本名称: DN2103_11_C.14
+Android 版本: 
+ColorOS 版本: DN2103_11_C.14
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-881db7a05f0de5f9513a0a84a11458e9/component-ota/23/03/27/37c805b393c8459bb0c22ae20c80a3a1.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 1.23 MB
+MD5: ec3d5f9d0487a2ffaa98f8e57a0fe2aa

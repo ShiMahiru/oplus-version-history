@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:04:50
+查询地区: EU
+最新 OTA 版本: CPH2781_11.A.44_0440_202602061811
+版本名称: CPH2781_15.0.2.901(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2781_15.0.2.901(EX01)
+安全补丁: 2026-02-01
+发布时间: 1772636301676
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-b20ffc71e3220934dc279b9ca20d0168/component-ota/26/02/07/574344594ec6406eb3413351f65bd1af.zip

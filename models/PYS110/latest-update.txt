@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:41:57
+查询地区: CN
+最新 OTA 版本: PYS110_11.A.35_0350_202607170014
+版本名称: PYS110_16.0.5.906(CN01)
+Android 版本: Android 16
+ColorOS 版本: PYS110_16.0.5.906(CN01)
+安全补丁: 2026-07-01
+发布时间: 1785932044625
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=fae9d06cf99dafe32167cfc163e013ba&p=a6c78fdd3752888b3eced4fb10cb316dc624fdb0433554f3d3bd00bfc07957c7e2eb63d3b22b3320b86ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a705f7592ce7c01806f56a6&taste=0&supportDLTaste=0&mode=1&tr=manual&s=dd8c4a1c6fe466da177f1ab192859c24

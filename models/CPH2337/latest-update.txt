@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:29:14
+查询地区: IN
+最新 OTA 版本: CPH2337_11.A.07_0070_202209240047
+版本名称: CPH2337_11_A.07
+Android 版本: Android 12
+ColorOS 版本: CPH2337_11_A.07
+安全补丁: 2022-09-05
+发布时间: 1665454847401
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-cfe74ec09abc02eb9365cef413f1f422/component-ota/22/09/24/6d1510722204401f90f8bbee322bc092.zip

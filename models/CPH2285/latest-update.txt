@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:29:17
+查询地区: IN
+最新 OTA 版本: CPH2285_11.A.30_0300_202203112038
+版本名称: CPH2285_11_A.30
+Android 版本: Android 11
+ColorOS 版本: CPH2285_11_A.30
+安全补丁: 2022-03-05
+发布时间: 1648208143397
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-59421040adeec83925b7e247f0c62595/component-ota/22/03/12/270f173035d4495fafc7bed0aff7615d.zip

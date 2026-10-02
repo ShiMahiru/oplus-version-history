@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: EU
+最新 OTA 版本: IV2201_11_C.10
+版本名称: IV2201_11_C.10
+Android 版本: 
+ColorOS 版本: IV2201_11_C.10
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-11a87c83cd163e4bddabc5f61b8c9220/component-ota/22/12/28/fada98b1b72949fba055ffcef80728eb.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 1.22 MB
+MD5: 3aad75ae1782a4a3693fe70b43317a52

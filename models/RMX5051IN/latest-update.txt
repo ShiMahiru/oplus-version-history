@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:52:23
+查询地区: IN
+最新 OTA 版本: RMX5051_11.A.42_0420_202504281914
+版本名称: RMX5051_15.0.0.910(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX5051_15.0.0.910(EX01)
+安全补丁: 2025-04-01
+发布时间: 1750152028620
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-046d05510b780350d60620a45cdee96a/component-ota/25/04/29/50c1aff5d55e49fc8324cef234da3df1.zip

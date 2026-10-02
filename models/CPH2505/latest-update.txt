@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:30:51
+查询地区: EU
+最新 OTA 版本: CPH2505_11.A.41_1410_202404302044
+版本名称: CPH2505_14.0.0.700(EX01)
+Android 版本: Android 14
+ColorOS 版本: CPH2505_14.0.0.700(EX01)
+安全补丁: 2024-05-05
+发布时间: 1717633840063
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-c7744e144d55ca992f3fb374d360ba73/component-ota/24/05/10/d79a28bae56847d2a6a99833c68d758d.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:38:33
+查询地区: CN
+最新 OTA 版本: PGCM10_11.A.06_0060_202205202113
+版本名称: PGCM10_11_A.06
+Android 版本: Android 11
+ColorOS 版本: PGCM10_11_A.06
+安全补丁: 2022-05-05
+发布时间: 1654153749054
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-530eda7d17dbbd2963ddff9e900d01ee/component-ota/22/05/23/ca274573974a4e2e956f018920802365.zip

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:46:24
+查询地区: RU
+最新 OTA 版本: RMX3081NV37_11.A.48_1480_202205091448
+版本名称: RMX3081_11_A.48
+Android 版本: Android 11
+ColorOS 版本: RMX3081_11_A.48
+安全补丁: 2022-05-05
+发布时间: 1653385015276
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-db02c4ca206b782f7c5ef4585ea63f59/component-ota/22/05/11/5c5d9628490c4968a6cee118cdebe32f.zip

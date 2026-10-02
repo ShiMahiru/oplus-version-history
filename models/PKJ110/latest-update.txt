@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:49:27
+查询地区: CN
+最新 OTA 版本: PKJ110_11.A.63_0630_202509191808
+版本名称: PKJ110_15.0.1.622(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKJ110_15.0.1.622(CN01)
+安全补丁: 2025-09-01
+发布时间: 1760191167317
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6a697118138154b9884dc79f215a7de8/component-ota/25/09/20/b14de3f16b8c42409fbc5cbb246b6c12.zip

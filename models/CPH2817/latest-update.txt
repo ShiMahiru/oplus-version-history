@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:34:30
+查询地区: EU
+最新 OTA 版本: CPH2817_11.A.28_0280_202603092127
+版本名称: CPH2817_15.0.2.1102(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2817_15.0.2.1102(EX01)
+安全补丁: 2026-03-01
+发布时间: 1775035016152
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0c52aa14e1a0e93a78a796aeba97c050/component-ota/26/03/10/4f96ff2cafa44a8c981e0ddcc8e96b52.zip

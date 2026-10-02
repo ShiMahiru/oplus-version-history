@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:41:31
+查询地区: CN
+最新 OTA 版本: PLT150_11.C.54_1540_202606022229
+版本名称: PLT150_16.0.5.1000(CN01)
+Android 版本: Android 16
+ColorOS 版本: PLT150_16.0.5.1000(CN01)
+安全补丁: 2026-06-01
+发布时间: 1781522748698
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=2a15a5aab3d93b16a3cbd245709061f1&p=a6c78fdd3753888a3dce8eae42cd3266c177f9b7183754a380ec5abd917e52c6efbe6bdab22c3924bb3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a20e3979e207b01827c4f42&taste=0&supportDLTaste=0&mode=1&tr=manual&s=de23c73eb98b787c789bdc34d4bf4b04

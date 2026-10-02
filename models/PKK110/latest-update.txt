@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:34:49
+查询地区: CN
+最新 OTA 版本: PKK110_11.A.66_0660_202509231814
+版本名称: PKK110_15.0.0.863(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKK110_15.0.0.863(CN01)
+安全补丁: 2025-10-01
+发布时间: 1761297993637
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8e68f68f43505f3aadec1cba70ac1d0f/component-ota/25/09/24/49f49d1a473e47fc8d65b9f63ae7ec10.zip

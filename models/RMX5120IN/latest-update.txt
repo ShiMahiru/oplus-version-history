@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 13:08:19
+查询地区: IN
+最新 OTA 版本: RMX5120_11.A.75_0750_202607181720
+版本名称: RMX5120_16.0.5.1102(EX01)
+Android 版本: Android 16
+ColorOS 版本: RMX5120_16.0.5.1102(EX01)
+安全补丁: 2026-07-01
+发布时间: 1785498124227
+ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=b3f9f893bcff60422b166051355f6ff8&p=a50845bd67488545cd60124f654e7dd27ad019ab4344446d042285e5a1938a800c59a7c7c39a85fce35c4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6c6de476d168017f1d707a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f80d59c24f0e1e0a91c5cf56444ac58e

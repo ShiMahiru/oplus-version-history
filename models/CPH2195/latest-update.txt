@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: EU
+最新 OTA 版本: CPH2195_11_C.48
+版本名称: CPH2195_11_C.48
+Android 版本: 
+ColorOS 版本: CPH2195_11_C.48
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-9fd4938c24d6abdb363b37f2df3596ed/component-ota/22/11/11/9e883efaea2844a49035007216240110.zip
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 3494.34 MB
+MD5: 7d60479250ce9872ce3c270555631af9

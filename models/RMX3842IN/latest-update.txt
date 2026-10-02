@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:52:26
+查询地区: IN
+最新 OTA 版本: RMX3842_11.A.53_0530_202404080139
+版本名称: RMX3842_14.0.0.807(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3842_14.0.0.807(EX01)
+安全补丁: 2024-03-05
+发布时间: 1713325529709
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-647956cbab73e061d5b827783bc98c7c/component-ota/24/04/08/0e6ce9701ea9479c8be67ced3fd168cb.zip

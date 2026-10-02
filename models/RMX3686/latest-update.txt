@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:52:21
+查询地区: TW
+最新 OTA 版本: RMX3686_11.A.36_0360_202312061217
+版本名称: RMX3686_11_A.36
+Android 版本: Android 13
+ColorOS 版本: RMX3686_11_A.36
+安全补丁: 2023-12-05
+发布时间: 1703743323690
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-39caff02f80c70f402124ca55332cd40/component-ota/23/12/07/88bc5064c2704ffab3f3622a41a9c312.zip

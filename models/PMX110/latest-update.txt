@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:51:18
+查询地区: CN
+最新 OTA 版本: PMX110_11.A.50_0500_202609190225
+版本名称: PMX110_17.0.0.109(CN01)
+Android 版本: Android 17
+ColorOS 版本: PMX110_17.0.0.109(CN01)
+安全补丁: 2026-09-01
+发布时间: 1790243399939
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=81d145dd6c8179d0540f86ed1d0e3a74&p=a6c78fdd375c888b30cedffe449f3137c425a8b3436054a382bd5aebc22a58c0b9be348fef783625ee6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ab3866992ce7c01836a71f4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=21d3ab4977d6586d7cf0ec696debcb3f

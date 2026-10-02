@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:35:05
+查询地区: EU
+最新 OTA 版本: OPD2203_11.A.26_0260_202311061154
+版本名称: OPD2203_13.1.0.604(EX01)
+Android 版本: Android 13
+ColorOS 版本: OPD2203_13.1.0.604(EX01)
+安全补丁: 2023-10-05
+发布时间: 1701083493225
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-962e64c95cc85a17d04152e3b465054b/component-ota/23/11/07/2b685cc6d1394174a9124efa3bb4636b.zip

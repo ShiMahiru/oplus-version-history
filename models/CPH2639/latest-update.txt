@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:34:43
+查询地区: EU
+最新 OTA 版本: CPH2639_11.A.31_0310_202411051747
+版本名称: CPH2639_14.0.1.1201(EX01)
+Android 版本: Android 14
+ColorOS 版本: CPH2639_14.0.1.1201(EX01)
+安全补丁: 2024-11-05
+发布时间: 1732189350261
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-5167a61f3149f93026b208027f05e4b9/component-ota/24/11/05/f03cde8091c142539d756c8a931829ef.zip

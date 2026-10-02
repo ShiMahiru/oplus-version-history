@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:12:10
+查询地区: APC
+最新 OTA 版本: CPH2727_11.C.39_1390_202510271215
+版本名称: CPH2727_15.0.1.704(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2727_15.0.1.704(EX01)
+安全补丁: 2025-11-01
+发布时间: 1763120591735
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-d34d9d5213e77960fe6b7eb9867adb1b/component-ota/25/10/27/dd13369e4dcf452ba92a139107e7488c.zip

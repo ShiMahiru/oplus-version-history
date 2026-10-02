@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:35:38
+查询地区: CN
+最新 OTA 版本: PKH120_11.A.62_0620_202508222105
+版本名称: PKH120_15.0.1.860(CN01)
+Android 版本: Android 15
+ColorOS 版本: PKH120_15.0.1.860(CN01)
+安全补丁: 2025-09-01
+发布时间: 1757674018858
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2f3c28c763fe95a009ea193da5d0a550/component-ota/25/08/25/84e255cf493c4a1ca7ddfd6b5648307e.zip

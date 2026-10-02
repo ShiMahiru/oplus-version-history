@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 11:44:07
+查询地区: EU
+最新 OTA 版本: CPH2831_11.C.56_1560_202608110024
+版本名称: CPH2831_16.0.5.1200(EX01)
+Android 版本: Android 16
+ColorOS 版本: CPH2831_16.0.5.1200(EX01)
+安全补丁: 2026-08-01
+发布时间: 1788782816501
+ROM 下载链接: https://component-ota-eu.allawnos.com/downloadCheck?c=390e07f1b6a6b3fcc7779cbd734bd008&p=c25c9713dabda25f809e34a23e3ae81555a28e19a78973202734d3ab579c69834638f1a337dedf6f31fb181c2077&d=851ad54c99bfa241d5d076b47975b91b5ae3d60ba797246f7975c5af5dc86d924a61afb32ddb8867&g=10eab6008d5642cf42abd2aa41f847cb&id=6a7be3a276d168017f1d7f2d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7fdb1df83db3199c6881963e975050f9

@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:35:26
+查询地区: EU
+最新 OTA 版本: OPD2481_11.A.14_0140_202601092109
+版本名称: OPD2481_15.0.1.1101(EX01)
+Android 版本: Android 15
+ColorOS 版本: OPD2481_15.0.1.1101(EX01)
+安全补丁: 2026-01-01
+发布时间: 1769690934439
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-1f9a1df7c85a4781f1f74feefcdc5396/component-ota/26/01/23/ee5c688a51a043efba5bacf3405419dc.zip

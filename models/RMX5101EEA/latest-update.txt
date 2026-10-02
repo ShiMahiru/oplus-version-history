@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:59:37
+查询地区: EU
+最新 OTA 版本: RMX5101_11.A.67_0670_202601201958
+版本名称: RMX5101_15.0.2.605(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX5101_15.0.2.605(EX01)
+安全补丁: 2026-01-01
+发布时间: 1772077479351
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-06bb7a5465c52c9615493dcbca34b485/component-ota/26/01/21/c9e1a4e8470e4fdeb584de95fd0a429b.zip

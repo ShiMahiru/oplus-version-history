@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 13:03:02
+查询地区: IN
+最新 OTA 版本: RMX3951_11.A.22_0220_202503181035
+版本名称: RMX3951_14.1.0.511(EX01)
+Android 版本: Android 14
+ColorOS 版本: RMX3951_14.1.0.511(EX01)
+安全补丁: 2025-03-01
+发布时间: 1744697582377
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8c34cb8962b7d2d821fa878afc6e9533/component-ota/25/03/19/a747a1afc7914b28ab78feabc1192d21.zip

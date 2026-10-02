@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:50:04
+查询地区: TW
+最新 OTA 版本: RMX5000_11.C.41_1410_202512092046
+版本名称: RMX5000_15.0.0.1360(EX01)
+Android 版本: Android 15
+ColorOS 版本: RMX5000_15.0.0.1360(EX01)
+安全补丁: 2025-12-01
+发布时间: 1768830045880
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-14efa6c3a7fd7f83169c1d8a9ff50d75/component-ota/25/12/11/73aa6fcaf4454d09ba22c5c9c600d831.zip

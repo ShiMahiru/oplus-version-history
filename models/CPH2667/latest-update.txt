@@ -1,0 +1,14 @@
+本地更新时间: 2026-10-02 13:24:50
+查询地区: IN
+最新 OTA 版本: CPH2667_16.0.5.1200(EX01)
+版本名称: CPH2667_16.0.5.1200(EX01)
+Android 版本: 
+ColorOS 版本: CPH2667_16.0.5.1200(EX01)
+安全补丁: 
+发布时间: 
+ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=bba72ed5aa9b66c4b8b357dff6bc05e1&p=a50845bd67478545c7604217391a278375d848fb42154461547084e9f1968ad7010af7c6c799d3f8b70b4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a97fed476d168017ee7dc64&taste=0&supportDLTaste=0&mode=1&tr=manual&s=883406e1e5abd2d50f5ef00550c04a97
+
+数据来源: jeck24India/op-ota（官方 v3 协议对该机型返回 2004，
+          本文件由 op-ota 数据集补出，非 v3 查询产物）
+包大小: 6106.76 MB
+MD5: 35d50fa4f5a4c99152114030552e8544

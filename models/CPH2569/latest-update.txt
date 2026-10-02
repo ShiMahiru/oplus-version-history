@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 09:19:48
+本地更新时间: 2026-10-02 10:25:40
 查询地区: IN
-最新 OTA 版本: CPH2569_11.C.27_1270_202503191318
-版本名称: CPH2569_14.0.0.1402(EX01)
-Android 版本: Android 14
-ColorOS 版本: CPH2569_14.0.0.1402(EX01)
-安全补丁: 2025-03-01
-发布时间: 1743427067859
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-05f434ada76ef905b205ee88f3aaf5ae/component-ota/25/03/20/6008abe0410f4fe0911e6dbb346152da.zip
+最新 OTA 版本: CPH2569_11.A.07_0070_202312200022
+版本名称: CPH2569_13.1.1.502(EX01)
+Android 版本: Android 13
+ColorOS 版本: CPH2569_13.1.1.502(EX01)
+安全补丁: 2024-01-05
+发布时间: 1706103489494
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-2784ab83af60b3ca92b7770e12d9c280/component-ota/23/12/26/9b80974561e5450a8d938f088b79f2f1.zip

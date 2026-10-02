@@ -1,0 +1,9 @@
+本地更新时间: 2026-10-02 12:43:17
+查询地区: CN
+最新 OTA 版本: PHF110_11.A.08_0080_202311071820
+版本名称: PHF110_13.1.0.222(CN01)
+Android 版本: Android 13
+ColorOS 版本: PHF110_13.1.0.222(CN01)
+安全补丁: 2023-11-05
+发布时间: 1701435646292
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3cb7e039f5b28a69bcf65f15f1c80479/component-ota/23/11/13/2a04979e98f34f90a29be5b6fc718172.zip
