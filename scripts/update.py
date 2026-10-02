@@ -77,6 +77,20 @@ for _name, (_srv, _carrier, _ureg, _lang) in REGION_TABLE.items():
         "nvid": "NV%02X" % int(_carrier, 2),
     }
 LETTER_POOL = ["A", "C", "F", "H", "J", "E", "B", "D", "G"]
+
+# 部分区域的官方 nvid 对已上市机型查不到固件（返回 2004 artifactV1Result is empty），
+# 但同一机型在其它产线 nvid 下能命中。实测：CPH2735 仅 NV2C 命中、
+# CPH2781 在 NV2C/NVA6/NV9E 命中，而两者的区域 nvid(NV44) 全部落空。
+# 这里给出按区域追加尝试的 nvid 序列，主 nvid 始终排第一。
+NVID_FALLBACK = {
+    "eu": ["NV44", "NV2C", "NVA6", "NV9E", "NVA7"],
+    "in": ["NV1B", "NV2C", "NV9E"],
+}
+
+# config/models.json 的 region 标记来自第三方清单（OTA-Pulse / oppo-probe），实测有误：
+# CPH2781 / CPH2735 标为 GL，实际只在 EU 网关有响应。因此主区域全部落空时，
+# 按下面的顺序把 host+公钥+nvid 成套切换到别的网关再试一轮。
+GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th", "ru", "tr"]
 GAP = 0.4  # 实测 >300ms 稳定
 TIMEOUT = 20
 
@@ -511,37 +525,67 @@ def code_variants(code, region):
 
 
 # ─────────────── 主流程 ───────────────
+def scan_region(code, region, variants, history):
+    """在一个网关上扫 variant × nvid × letter。
+    返回 (hits, new_fp, new_links, latest)。会临时改写 REGIONS[region]['nvid']。"""
+    hits, new_fp, new_links, latest = [], 0, 0, None
+    nvid_seq = NVID_FALLBACK.get(region, [REGIONS[region]["nvid"]])
+    saved = REGIONS[region]["nvid"]
+    try:
+        for variant in variants:
+            for nvid in nvid_seq:
+                REGIONS[region]["nvid"] = nvid
+                before = len(hits)
+                for letter in LETTER_POOL:
+                    res = v3_query(variant, region, letter)
+                    if not res or not res["url"]:
+                        time.sleep(GAP)
+                        continue
+                    hits.append(letter)
+                    fp = res["fp"] or res["fw"]
+                    ver = res["version"]
+                    if not history.get(fp):
+                        history[fp] = ver
+                        new_fp += 1
+                        if ver:
+                            write_link(code, ver, res["url"])
+                            new_links += 1
+                    if latest is None:
+                        latest = res
+                    time.sleep(GAP)
+                if len(hits) > before:
+                    break          # 该 nvid 有产出，不再试回退值
+            if hits:
+                break              # 该 variant 已命中，无需再去后缀重试
+    finally:
+        REGIONS[region]["nvid"] = saved
+    return hits, new_fp, new_links, latest
+
+
 def update_model(model, opts):
     code = model["code"]
     region = region_of(model)
     history = read_history(code)
-    new_links = 0
-    new_fp = 0
-    latest = None
-    hits = []
+    variants = code_variants(code, region)
 
-    for variant in code_variants(code, region):
-        for letter in LETTER_POOL:
-            res = v3_query(variant, region, letter)
-            if not res or not res["url"]:
-                time.sleep(GAP)
+    hits, new_fp, new_links, latest = scan_region(code, region, variants, history)
+
+    # 主区域全落空 -> 按 GATEWAY_FALLBACK 成套切换 host+公钥+nvid 再试
+    if not hits and not opts.no_gateway_fallback:
+        for alt in GATEWAY_FALLBACK:
+            if alt == region:
                 continue
-            hits.append(letter)
-            fp = res["fp"] or res["fw"]
-            ver = res["version"]
-            if not history.get(fp):
-                history[fp] = ver
-                new_fp += 1
-                if ver:
-                    write_link(code, ver, res["url"])
-                    new_links += 1
-            if latest is None:
-                latest = res
-            time.sleep(GAP)
-        if hits:
-            break          # 原串已命中，无需再去后缀重试
-        if len(code_variants(code, region)) > 1:
-            print(f"  {code} 原串未命中，回退去后缀重试 {code_variants(code, region)[1]}")
+            h, f, l, lt = scan_region(code, alt, code_variants(code, alt), history)
+            if h:
+                print(f"  {code} 主区域 {region} 无产出，改走 {alt} 命中 {'/'.join(h)}")
+                hits = h
+                new_fp += f
+                new_links += l
+                latest = latest or lt
+                region = alt
+                break
+    elif not hits and len(variants) > 1:
+        print(f"  {code} 原串与去后缀串均未命中")
 
     if new_fp:
         write_history(code, history)
@@ -604,6 +648,8 @@ def main():
     ap.add_argument("--no-downgrade", action="store_true", help="跳过降级包")
     ap.add_argument("--no-history-write", action="store_true", help="不写版本史文件")
     ap.add_argument("--limit", type=int, default=0, help="最多处理 N 个机型（测试用）")
+    ap.add_argument("--no-gateway-fallback", action="store_true",
+                    help="主区域无产出时不跨网关重试（更快，但会漏掉区域标记错误的机型）")
     opts = ap.parse_args()
 
     if opts.model:
