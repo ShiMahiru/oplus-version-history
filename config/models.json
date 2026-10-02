@@ -1,6 +1,174 @@
 {
- "count": 356,
+ "count": 586,
  "models": [
+  {
+   "code": "CPH2145",
+   "name": "OPPO Reno5",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2173",
+   "name": "OPPO Find X3 Pro",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2195",
+   "name": "OPPO A54",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2197",
+   "name": "OPPO A74",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2211",
+   "name": "OPPO A94 5G",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2247",
+   "name": "OPPO Reno6 Pro",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2251",
+   "name": "OPPO Reno6",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2263",
+   "name": "OPPO A74",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2285",
+   "name": "OPPO F19 Pro",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2305",
+   "name": "OPPO Find X5 Pro",
+   "brand": "oppo",
+   "region": "EG",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2307",
+   "name": "OPPO Find X5",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2337",
+   "name": "OPPO K10",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2339",
+   "name": "OPPO A77",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2341",
+   "name": "OPPO F21 Pro 5G",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2343",
+   "name": "OPPO Reno7 Z",
+   "brand": "oppo",
+   "region": "LK",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2357",
+   "name": "OPPO Reno8 Pro",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2359",
+   "name": "OPPO Reno8",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2363",
+   "name": "OPPO F21 Pro",
+   "brand": "oppo",
+   "region": "MX",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2371",
+   "name": "OPPO Find X5 Lite",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2381",
+   "name": "OnePlus Nord CE 2 Lite",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2385",
+   "name": "OPPO A57s",
+   "brand": "oppo",
+   "region": "EG",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2387",
+   "name": "OPPO A57 4G",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2399",
+   "name": "OnePlus Nord 2T",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2401",
+   "name": "OnePlus Nord 2T",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
   {
    "code": "CPH2409",
    "name": "OnePlus Nord CE 2 Lite 5G",
@@ -72,6 +240,20 @@
    "rui": 5
   },
   {
+   "code": "CPH2455",
+   "name": "OPPO F21s Pro 5G",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2461",
+   "name": "OPPO F21s Pro",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2465",
    "name": "OnePlus Nord CE 3 Lite 5G",
    "brand": "oneplus",
@@ -91,6 +273,13 @@
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "CPH2477",
+   "name": "OPPO A17",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2483",
@@ -128,6 +317,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2495",
+   "name": "OPPO A78",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2499",
    "name": "Find N3",
    "brand": "oppo",
@@ -163,6 +359,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2527",
+   "name": "OPPO F23",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2529",
    "name": "A98 5G",
    "brand": "oppo",
@@ -177,6 +380,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2551",
+   "name": "OnePlus Open",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2551EEA",
    "name": "OnePlus Open",
    "brand": "oneplus",
@@ -189,6 +399,13 @@
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "CPH2553",
+   "name": "OPPO A79",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2557",
@@ -210,6 +427,13 @@
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "CPH2573",
+   "name": "OnePlus 12",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2573IN",
@@ -245,6 +469,13 @@
    "brand": "oneplus",
    "region": "EU",
    "rui": 5
+  },
+  {
+   "code": "CPH2585",
+   "name": "OnePlus 12R",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2585IN",
@@ -303,11 +534,32 @@
    "rui": 5
   },
   {
+   "code": "CPH2613",
+   "name": "OnePlus Nord CE 4",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2613IN",
    "name": "OnePlus Nord CE 4",
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "CPH2617",
+   "name": "OPPO A59",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2619",
+   "name": "OnePlus Nord CE 4 Lite",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2619IN",
@@ -373,6 +625,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2643",
+   "name": "OPPO F27 Pro+",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2645",
    "name": "OnePlus 13R",
    "brand": "oneplus",
@@ -385,6 +644,13 @@
    "brand": "oneplus",
    "region": "EU",
    "rui": 5
+  },
+  {
+   "code": "CPH2649",
+   "name": "OnePlus 13",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2649IN",
@@ -422,6 +688,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2661",
+   "name": "OnePlus Nord 4",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2661IN",
    "name": "OnePlus Nord 4",
    "brand": "oneplus",
@@ -443,6 +716,20 @@
    "rui": 5
   },
   {
+   "code": "CPH2665",
+   "name": "OPPO A3 Pro",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2667",
+   "name": "OPPO K12x",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2669",
    "name": "A3",
    "brand": "oppo",
@@ -457,11 +744,25 @@
    "rui": 5
   },
   {
+   "code": "CPH2681",
+   "name": "OPPO A3x 5G",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2683",
    "name": "A60 5G",
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2687",
+   "name": "OPPO Reno12 F",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2689",
@@ -471,11 +772,25 @@
    "rui": 5
   },
   {
+   "code": "CPH2691",
+   "name": "OnePlus 13R",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2691IN",
    "name": "OnePlus 13R/Ace 5",
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "CPH2693",
+   "name": "OPPO A3",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2695",
@@ -499,6 +814,27 @@
    "rui": 5
   },
   {
+   "code": "CPH2701",
+   "name": "OPPO Reno13 F 4G",
+   "brand": "oppo",
+   "region": "KZ",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2705",
+   "name": "OPPO F29 Pro",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2707",
+   "name": "OnePlus Nord 5",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2707IN",
    "name": "OnePlus Nord 5",
    "brand": "oneplus",
@@ -518,6 +854,20 @@
    "brand": "oneplus",
    "region": "EU",
    "rui": 5
+  },
+  {
+   "code": "CPH2711",
+   "name": "OPPO A5 Pro 4G",
+   "brand": "oppo",
+   "region": "EG",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2717",
+   "name": "OnePlus Nord CE5",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2717IN",
@@ -541,6 +891,20 @@
    "rui": 5
   },
   {
+   "code": "CPH2721",
+   "name": "OPPO F29",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2723",
+   "name": "OnePlus 13s",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2723IN",
    "name": "OnePlus 13s",
    "brand": "oneplus",
@@ -553,6 +917,34 @@
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2727",
+   "name": "OPPO A5 4G",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2729",
+   "name": "OPPO K13",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2731",
+   "name": "OPPO K13 Turbo Pro",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2733",
+   "name": "OPPO A5x",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2735",
@@ -583,6 +975,13 @@
    "rui": 5
   },
   {
+   "code": "CPH2745",
+   "name": "OnePlus 15",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2745IN",
    "name": "OnePlus 15",
    "brand": "oneplus",
@@ -604,11 +1003,60 @@
    "rui": 7
   },
   {
+   "code": "CPH2751",
+   "name": "OPPO A5",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2753",
+   "name": "OPPO K13x",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2755",
+   "name": "OPPO A5i Pro",
+   "brand": "oppo",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2757",
+   "name": "OPPO F31 Pro+",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2761",
+   "name": "OPPO K13 Turbo",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2763",
+   "name": "OPPO F31 Pro",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2765",
    "name": "Find N6",
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2767",
+   "name": "OnePlus 15R",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2767IN",
@@ -632,6 +1080,13 @@
    "rui": 7
   },
   {
+   "code": "CPH2773",
+   "name": "OPPO A5i",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2781",
    "name": "A6 Pro 5G",
    "brand": "oppo",
@@ -646,11 +1101,32 @@
    "rui": 5
   },
   {
+   "code": "CPH2785",
+   "name": "OPPO A6",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2789",
+   "name": "OPPO A6s",
+   "brand": "oppo",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2791",
    "name": "Find X9 Pro",
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2793",
+   "name": "OnePlus Nord 6",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2793IN",
@@ -674,11 +1150,25 @@
    "rui": 5
   },
   {
+   "code": "CPH2799",
+   "name": "OPPO A6 Pro 4G",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2801",
    "name": "Reno15 C 5G",
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2805",
+   "name": "OnePlus Nord CE6",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2805IN",
@@ -709,11 +1199,32 @@
    "rui": 5
   },
   {
+   "code": "CPH2815",
+   "name": "OPPO A6s 4G",
+   "brand": "oppo",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2817",
+   "name": "OPPO A6 4G",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2819",
    "name": "A6x",
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2823",
+   "name": "OPPO A6x",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2825",
@@ -735,6 +1246,27 @@
    "brand": "oppo",
    "region": "GL",
    "rui": 5
+  },
+  {
+   "code": "CPH2847",
+   "name": "OPPO A6t 4G",
+   "brand": "oppo",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2849",
+   "name": "OPPO A6t Pro 4G",
+   "brand": "oppo",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2853",
+   "name": "OPPO A6t",
+   "brand": "oppo",
+   "region": "EG",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "CPH2859",
@@ -765,6 +1297,27 @@
    "rui": 5
   },
   {
+   "code": "CPH2889",
+   "name": "OPPO A6s",
+   "brand": "oppo",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2891",
+   "name": "OPPO A6k",
+   "brand": "oppo",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "CPH2943",
+   "name": "OnePlus Nord CE6 Lite",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2943IN",
    "name": "OnePlus Nord CE 6 Lite",
    "brand": "oneplus",
@@ -772,11 +1325,46 @@
    "rui": 5
   },
   {
+   "code": "CPH2955",
+   "name": "OnePlus N6",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "CPH2955IN",
    "name": "OnePlus N6",
    "brand": "oneplus",
    "region": "IN",
    "rui": 7
+  },
+  {
+   "code": "CPH2971",
+   "name": "OnePlus N6x",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "DN2103",
+   "name": "OnePlus Nord 2",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "IV2201",
+   "name": "OnePlus Nord CE 2",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "MT2110",
+   "name": "一加 9RT 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "NE2210",
@@ -807,6 +1395,20 @@
    "rui": 5
   },
   {
+   "code": "OPD2102A",
+   "name": "OPPO Pad Air",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2202",
+   "name": "OPPO Pad 2",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "OPD2203",
    "name": "OnePlus Pad",
    "brand": "oneplus",
@@ -819,6 +1421,41 @@
    "brand": "oneplus",
    "region": "EU",
    "rui": 5
+  },
+  {
+   "code": "OPD2302",
+   "name": "OPPO Pad Neo WiFi",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2303",
+   "name": "OPPO Pad Neo LTE",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2304",
+   "name": "OnePlus Pad Go",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2305",
+   "name": "OnePlus Pad Go",
+   "brand": "oneplus",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2402",
+   "name": "OPPO Pad 3 Pro",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "OPD2403",
@@ -849,6 +1486,13 @@
    "rui": 5
   },
   {
+   "code": "OPD2406",
+   "name": "OPPO Pad 3",
+   "brand": "oppo",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "OPD2413",
    "name": "OnePlus Pad 2 Pro",
    "brand": "oneplus",
@@ -875,6 +1519,34 @@
    "brand": "oneplus",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "OPD2419",
+   "name": "OPPO Pad SE WiFi",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2420",
+   "name": "OPPO Pad SE LTE",
+   "brand": "oppo",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2480",
+   "name": "OnePlus Pad Lite WiFi",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "OPD2481",
+   "name": "OnePlus Pad Lite LTE",
+   "brand": "oneplus",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "OPD2504",
@@ -940,6 +1612,62 @@
    "rui": 5
   },
   {
+   "code": "PGAM10",
+   "name": "OPPO Reno8 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGBM10",
+   "name": "OPPO Reno8",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGCM10",
+   "name": "OPPO K9x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGEM10",
+   "name": "OPPO Find X6 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGFM10",
+   "name": "OPPO Find X6",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGGM10",
+   "name": "OPPO K10x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGIM10",
+   "name": "OPPO K10 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGJM10",
+   "name": "OPPO K10",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PGKM10",
    "name": "OnePlus 10R 80W",
    "brand": "oneplus",
@@ -954,11 +1682,46 @@
    "rui": 5
   },
   {
+   "code": "PGT110",
+   "name": "OPPO Find N2 Flip",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGU110",
+   "name": "OPPO Find N2",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGW110",
+   "name": "OPPO Reno9 Pro+",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PGX110",
+   "name": "OPPO Reno9 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PGZ110",
    "name": "OnePlus Ace Racing Edition",
    "brand": "oneplus",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "PHA120",
+   "name": "OPPO A96",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PHB110",
@@ -968,11 +1731,25 @@
    "rui": 5
   },
   {
+   "code": "PHF110",
+   "name": "OPPO K11x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PHK110",
    "name": "OnePlus 11R/Ace 2",
    "brand": "oneplus",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "PHM110",
+   "name": "OPPO Reno9",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PHN110",
@@ -989,11 +1766,81 @@
    "rui": 5
   },
   {
+   "code": "PHQ110",
+   "name": "OPPO A1 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHS110",
+   "name": "OPPO A1 5G (2023)",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHT110",
+   "name": "OPPO Find N3 Flip",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHU110",
+   "name": "OPPO Reno10 Pro+",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHV110",
+   "name": "OPPO Reno10 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHW110",
+   "name": "OPPO Reno10",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHY110",
+   "name": "OPPO Find X7 Ultra",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHY120",
+   "name": "OPPO Find X7 Ultra 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PHZ110",
+   "name": "OPPO Find X7",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PJA110",
    "name": "OnePlus Ace 2 Pro",
    "brand": "oneplus",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "PJC110",
+   "name": "OPPO K11",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PJD110",
@@ -1017,11 +1864,81 @@
    "rui": 5
   },
   {
+   "code": "PJG110",
+   "name": "OPPO A2 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJH110",
+   "name": "OPPO Reno11",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJJ110",
+   "name": "OPPO Reno11 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJR110",
+   "name": "OPPO K12",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJS110",
+   "name": "OPPO A2x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJT110",
+   "name": "OPPO K12x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJU110",
+   "name": "OPPO A1i / OPPO A2m",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJV110",
+   "name": "OPPO Reno12",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PJW110",
+   "name": "OPPO Reno12 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PJX110",
    "name": "OnePlus Ace 3 Pro",
    "brand": "oneplus",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "PJY110",
+   "name": "OPPO A3 Pro / OPPO A5 Plus",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PJZ110",
@@ -1031,11 +1948,109 @@
    "rui": 5
   },
   {
+   "code": "PKA110",
+   "name": "OPPO A3 5G (2024) / OPPO A3i Plus",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKB110",
+   "name": "OPPO Find X8",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKC110",
+   "name": "OPPO Find X8 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKC130",
+   "name": "OPPO Find X8 Pro 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKD110",
+   "name": "OPPO A3 活力版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKD130",
+   "name": "OPPO A3x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PKG110",
    "name": "OnePlus 13R/Ace 5",
    "brand": "oneplus",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "PKH110",
+   "name": "OPPO Find N5",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKH120",
+   "name": "OPPO Find N5 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKJ110",
+   "name": "OPPO Find X8 Ultra",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKK110",
+   "name": "OPPO Reno13 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKL110",
+   "name": "OPPO A3i",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKM110",
+   "name": "OPPO Reno13",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKP110",
+   "name": "OPPO A5 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKQ110",
+   "name": "OPPO A5 5G (2025) / OPPO A6 Plus",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PKR110",
@@ -1045,6 +2060,48 @@
    "rui": 5
   },
   {
+   "code": "PKS110",
+   "name": "OPPO K12 Plus",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKT110",
+   "name": "OPPO Find X8s",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKU110",
+   "name": "OPPO Find X8 Ultra 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKV110",
+   "name": "OPPO K13x",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKW110",
+   "name": "OPPO A5x / OPPO A5m",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PKW120",
+   "name": "OPPO A6i",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PKX110",
    "name": "OnePlus 13T",
    "brand": "oneplus",
@@ -1052,11 +2109,116 @@
    "rui": 5
   },
   {
+   "code": "PKZ110",
+   "name": "OPPO Reno14 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLA110",
+   "name": "OPPO Reno14",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLB110",
+   "name": "OPPO Find X8s+",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLC110",
+   "name": "一加 Ace 5 至尊版 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLD110",
+   "name": "OPPO K12s",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLE110",
+   "name": "OPPO K13 Turbo Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLF110",
+   "name": "一加 Ace 5 竞速版 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLG110",
+   "name": "OPPO Find X9 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLG120",
+   "name": "OPPO Find X9 Pro 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLJ110",
+   "name": "OPPO Find X9",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PLK110",
    "name": "OnePlus 15",
    "brand": "oneplus",
    "region": "CN",
    "rui": 7
+  },
+  {
+   "code": "PLL110",
+   "name": "OPPO K13s",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLM110",
+   "name": "OPPO K13 Turbo",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLN110",
+   "name": "OPPO A6 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLP110",
+   "name": "OPPO Find N6",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLP120",
+   "name": "OPPO Find N6 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "PLQ110",
@@ -1073,11 +2235,221 @@
    "rui": 7
   },
   {
+   "code": "PLS120",
+   "name": "OPPO A6",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLT120",
+   "name": "OPPO A6s / OPPO A6i+ / OPPO A6k",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLT130",
+   "name": "OPPO A6v",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLT140",
+   "name": "OPPO A6x / OPPO A6m",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLT150",
+   "name": "OPPO A7i",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLU110",
+   "name": "一加 Turbo 6 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLV110",
+   "name": "OPPO Reno15 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLW110",
+   "name": "OPPO Reno15",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PLY110",
+   "name": "一加 Turbo 6V 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "PLZ110",
    "name": "OnePlus 15T",
    "brand": "oneplus",
    "region": "CN",
    "rui": 7
+  },
+  {
+   "code": "PMA110",
+   "name": "OPPO Find X9 Ultra",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMA120",
+   "name": "OPPO Find X9 Ultra 卫星通信版",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMB110",
+   "name": "一加 Ace 6 至尊版 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMC110",
+   "name": "OPPO A6c",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMD110",
+   "name": "OPPO Reno15c",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PME110",
+   "name": "OPPO Find X9s Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMG110",
+   "name": "OPPO K15 Pro+",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMH110",
+   "name": "OPPO K15 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMK110",
+   "name": "OPPO Reno16 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMM110",
+   "name": "OPPO Reno16",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMT110",
+   "name": "OPPO A6s Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMW110",
+   "name": "OPPO Find X10",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PMX110",
+   "name": "OPPO Find X10 Pro Max",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PNA110",
+   "name": "OPPO Find X10 E",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYC110",
+   "name": "OPPO A7 Pro Max",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYD110",
+   "name": "OPPO K15",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYE110",
+   "name": "OPPO A7 Pro",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYE130",
+   "name": "OPPO K15s",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYR110",
+   "name": "一加 Turbo 6X Pro 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "PYS110",
+   "name": "一加 Turbo 6X 国行版",
+   "brand": "unknown",
+   "region": "CN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMP2204",
+   "name": "realme Pad 2",
+   "brand": "realme",
+   "region": "MEA",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX2202",
@@ -1241,6 +2613,13 @@
    "rui": 4
   },
   {
+   "code": "RMX3371",
+   "name": "realme GT NEO 3T",
+   "brand": "realme",
+   "region": "EG",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3381",
    "name": "realme 8s 5G",
    "brand": "realme",
@@ -1374,6 +2753,13 @@
    "rui": 5
   },
   {
+   "code": "RMX3571",
+   "name": "realme NARZO 50",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3612",
    "name": "realme 9i 5G",
    "brand": "realme",
@@ -1386,6 +2772,13 @@
    "brand": "realme",
    "region": "TR",
    "rui": 5
+  },
+  {
+   "code": "RMX3636",
+   "name": "realme 11 4G",
+   "brand": "realme",
+   "region": "APC",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3660",
@@ -1759,11 +3152,25 @@
    "rui": 6
   },
   {
+   "code": "RMX3868",
+   "name": "realme NARZO 70 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3868IN",
    "name": "realme Narzo 70 Pro",
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX3869",
+   "name": "realme NARZO 70",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3869IN",
@@ -1778,6 +3185,13 @@
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX3871",
+   "name": "realme 12 4G",
+   "brand": "realme",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3888",
@@ -1808,11 +3222,39 @@
    "rui": 5
   },
   {
+   "code": "RMX3940",
+   "name": "realme C75",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3940IN",
    "name": "realme 14x 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 6
+  },
+  {
+   "code": "RMX3941",
+   "name": "realme C75 4G",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMX3943",
+   "name": "realme 14x",
+   "brand": "realme",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMX3944",
+   "name": "realme P3x",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3944IN",
@@ -1822,6 +3264,13 @@
    "rui": 5
   },
   {
+   "code": "RMX3945",
+   "name": "realme C73",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3945IN",
    "name": "realme C73 5G",
    "brand": "realme",
@@ -1829,11 +3278,25 @@
    "rui": 6
   },
   {
+   "code": "RMX3950",
+   "name": "realme C63",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3950IN",
    "name": "realme C63 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 6
+  },
+  {
+   "code": "RMX3951",
+   "name": "realme 13",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3951IN",
@@ -1848,6 +3311,13 @@
    "brand": "realme",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "RMX3987",
+   "name": "realme P2 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3987IN",
@@ -1869,6 +3339,13 @@
    "brand": "realme",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "RMX3990",
+   "name": "realme 13 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3990IN",
@@ -1913,11 +3390,25 @@
    "rui": 6
   },
   {
+   "code": "RMX3998",
+   "name": "realme 12x",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX3998IN",
    "name": "realme 12x",
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX3999",
+   "name": "realme 12",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX3999IN",
@@ -1941,11 +3432,25 @@
    "rui": 6
   },
   {
+   "code": "RMX5003",
+   "name": "realme NARZO 70 Turbo",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5003IN",
    "name": "realme Narzo 70 Turbo 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX5004",
+   "name": "realme P1 Speed",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5004IN",
@@ -1997,11 +3502,39 @@
    "rui": 5
   },
   {
+   "code": "RMX5020",
+   "name": "realme C75x",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMX5030",
+   "name": "realme P3 Ultra",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5030IN",
    "name": "realme P3 Ultra 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 6
+  },
+  {
+   "code": "RMX5031",
+   "name": "realme P3 Ultra",
+   "brand": "realme",
+   "region": "ID",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMX5032",
+   "name": "realme P3 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5032IN",
@@ -2067,11 +3600,25 @@
    "rui": 5
   },
   {
+   "code": "RMX5056",
+   "name": "realme 14 Pro",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5056IN",
    "name": "realme 14 Pro",
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX5057",
+   "name": "realme 14 Pro",
+   "brand": "realme",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5060",
@@ -2137,11 +3684,32 @@
    "rui": 5
   },
   {
+   "code": "RMX5074",
+   "name": "realme 14T",
+   "brand": "realme",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5075",
    "name": "realme 14/P3",
    "brand": "realme",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "RMX5078",
+   "name": "realme 14T",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
+  },
+  {
+   "code": "RMX5079",
+   "name": "realme P3",
+   "brand": "realme",
+   "region": "EU",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5080",
@@ -2256,6 +3824,13 @@
    "rui": 6
   },
   {
+   "code": "RMX5108",
+   "name": "realme P4x",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5108IN",
    "name": "realme P4x 5G",
    "brand": "realme",
@@ -2263,11 +3838,25 @@
    "rui": 6
   },
   {
+   "code": "RMX5110",
+   "name": "realme P4",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5110IN",
    "name": "realme P4 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 6
+  },
+  {
+   "code": "RMX5111",
+   "name": "realme 15T",
+   "brand": "realme",
+   "region": "BR",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5111IN",
@@ -2282,6 +3871,13 @@
    "brand": "realme",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "RMX5116",
+   "name": "realme P4 Pro",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5116IN",
@@ -2431,11 +4027,25 @@
    "rui": 5
   },
   {
+   "code": "RMX5250",
+   "name": "realme 15x",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
+  },
+  {
    "code": "RMX5250IN",
    "name": "realme 15x 5G",
    "brand": "realme",
    "region": "IN",
    "rui": 5
+  },
+  {
+   "code": "RMX5261",
+   "name": "realme NARZO 100 Lite",
+   "brand": "realme",
+   "region": "IN",
+   "_source": "jeck24India/op-ota"
   },
   {
    "code": "RMX5261IN",

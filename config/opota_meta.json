@@ -1,0 +1,4529 @@
+{
+ "CPH2145": {
+  "CPH2145_13.1.0.620(EX01)": {
+   "md5": "ca51a7ea4cc9448f983d2aaf16bfaf6d",
+   "region": "eu",
+   "size": "4874.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2173": {
+  "CPH2173_14.0.0.2102(EX01)": {
+   "md5": "0d2005b4b7818ccdc3590096b88d8d09",
+   "region": "sg",
+   "size": "6202.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2195": {
+  "CPH2195_11_C.48": {
+   "md5": "7d60479250ce9872ce3c270555631af9",
+   "region": "eu",
+   "size": "3494.34 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2195EEA"
+  }
+ },
+ "CPH2197": {
+  "CPH2197_11_C.48": {
+   "md5": "10dae431fc44d645158fb3cdf6aa617c",
+   "region": "tw",
+   "size": "3725.49 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2197"
+  },
+  "CPH2197_11_C.49": {
+   "md5": "24a505a0bb1409bcfba6356e6d8236c0",
+   "region": "sa",
+   "size": "3586.63 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2197"
+  }
+ },
+ "CPH2211": {
+  "CPH2211_11_C.31": {
+   "md5": "0edda76fc58f8f8d3427dab0e6729e7f",
+   "region": "eu",
+   "size": "1.29 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2211EEA"
+  }
+ },
+ "CPH2247": {
+  "CPH2247_13.1.0.597(EX01)": {
+   "md5": "2d46dcd3f913b77e8a17da249b775d65",
+   "region": "eu",
+   "size": "5144.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2251": {
+  "CPH2251_13.1.0.615(EX01)": {
+   "md5": "ae44ddf5f8461125ae98dbccb09a1a59",
+   "region": "eu",
+   "size": "5132.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2263": {
+  "CPH2263_11_C.48": {
+   "md5": "56cb19340a3f94fdc3efb34822c1db37",
+   "region": "in",
+   "size": "3781.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2263"
+  }
+ },
+ "CPH2285": {
+  "CPH2285_11_C.40": {
+   "md5": "02f3d093dcf288b76326a4106f2de1eb",
+   "region": "in",
+   "size": "1.32 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2285"
+  }
+ },
+ "CPH2305": {
+  "CPH2305_11_A.19": {
+   "md5": "f61010fa1d6349cc6e8000f62c70b670",
+   "region": "eg",
+   "size": "4872.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2305"
+  },
+  "CPH2305_15.0.0.1301(EX01)": {
+   "md5": "81aa48b49783dffec339e362edeb230b",
+   "region": "sg",
+   "size": "7679.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2305_15.0.0.1303(EX01)": {
+   "md5": "e242b3d05c10cdfeeda73d70656b8ef5",
+   "region": "eu",
+   "size": "6578.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2307": {
+  "CPH2307_15.0.0.1600(EX01)": {
+   "md5": "fe06415c8aa4aad526cb40e776ba9b36",
+   "region": "eg",
+   "size": "6927.42 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2337": {
+  "CPH2337_14.0.0.3000(EX01)": {
+   "md5": "43e99f2225fa47d070f13153d5892ec8",
+   "region": "in",
+   "size": "5252.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2339": {
+  "CPH2339_14.0.0.2900(EX01)": {
+   "md5": "12722e10cde0d073a080af86531ccdc7",
+   "region": "eu",
+   "size": "4473.64 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2339_14.0.0.3000(EX01)": {
+   "md5": "f7fcd33d4a2f287f3f82717c54ef74e1",
+   "region": "tw",
+   "size": "4784.05 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2341": {
+  "CPH2341_11_F.46": {
+   "md5": "674323ca88f9b511aec87bf1eecf08ea",
+   "region": "in",
+   "size": "4932.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2341"
+  }
+ },
+ "CPH2343": {
+  "CPH2343_11_C.32": {
+   "md5": "29f48e64db590ccc944a5f3ae57a8498",
+   "region": "tw",
+   "size": "4439.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2343"
+  },
+  "CPH2343_11_F.46": {
+   "md5": "a7e29f527a8ad90e22e1aea2a65fd970",
+   "region": "sa",
+   "size": "4676.77 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2343"
+  }
+ },
+ "CPH2357": {
+  "CPH2357_14.0.0.2302(EX01)": {
+   "md5": "2a80c6c4fd58b5f78bdeced02ec2cead",
+   "region": "tw",
+   "size": "6658.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2359": {
+  "CPH2359_14.0.0.2901(EX01)": {
+   "md5": "96c61620c2454fc297b21d37df2fff9b",
+   "region": "eu",
+   "size": "5535.06 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2359_14.0.0.3001(EX01)": {
+   "md5": "d6c536b1529f7f28a514383b067fadf1",
+   "region": "tw",
+   "size": "6119.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2363": {
+  "CPH2363_14.0.0.2900(EX01)": {
+   "md5": "f222f43b6354aa2839880245d5b28fd5",
+   "region": "latam",
+   "size": "5524.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2363_14.0.0.3000(EX01)": {
+   "md5": "d504bd381ecc2889c9a295684c14fedd",
+   "region": "br",
+   "size": "5437.13 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2371": {
+  "CPH2371_13.1.0.622(EX01)": {
+   "md5": "c09ac798314381cde15a33be4e769e50",
+   "region": "eu",
+   "size": "5247.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2371_13.1.0.625(EX01)": {
+   "md5": "ad6bb61e0800d0f0f8ef47d532a02e32",
+   "region": "in",
+   "size": "6052.61 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2381": {
+  "CPH2381_14.0.0.3000(EX01)": {
+   "md5": "67130cd50f5b870b193d00bea8594851",
+   "region": "in",
+   "size": "5338.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2385": {
+  "CPH2385_14.0.0.3000(EX01)": {
+   "md5": "f15ae8ed4b8e69d487f4eb24abe874b5",
+   "region": "sa",
+   "size": "4470.54 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2387": {
+  "CPH2387_14.0.0.3000(EX01)": {
+   "md5": "62af2f3d063cc4da6f85150629677430",
+   "region": "tw",
+   "size": "4465.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2399": {
+  "CPH2399_14.0.0.2901(EX01)": {
+   "md5": "774a21b27fa89e779d7a9fb9a2b35a68",
+   "region": "eu",
+   "size": "5283.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2399_14.0.0.3001(EX01)": {
+   "md5": "5872fe68b65c53ff560856ef8167c01e",
+   "region": "glo",
+   "size": "5282.25 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2401": {
+  "CPH2401_14.0.0.2901(EX01)": {
+   "md5": "b82df6fc11dc22f3fc4438a5a1e6b720",
+   "region": "in",
+   "size": "5805.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2409": {
+  "CPH2409_14.0.0.2900(EX01)": {
+   "md5": "5724c78163af42d048b1c4f28c4f34cd",
+   "region": "eu",
+   "size": "5007.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2409_14.0.0.3000(EX01)": {
+   "md5": "832d14fdae57427c336532de40191a30",
+   "region": "glo",
+   "size": "5002.33 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2411": {
+  "CPH2411_15.0.0.1901(EX01)": {
+   "md5": "11ca8c0294d102a41a236045fab63b2b",
+   "region": "in",
+   "size": "6699.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2413": {
+  "CPH2413_15.0.0.1901(EX01)": {
+   "md5": "173a45209c63a1209099660c1cc22331",
+   "region": "in",
+   "size": "6529.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2415": {
+  "CPH2415_15.0.0.1901(EX01)": {
+   "md5": "67cefc60166e2fde946fb5aa4c0a0f6d",
+   "region": "glo",
+   "size": "6200.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2423": {
+  "CPH2423_15.0.0.1901(EX01)": {
+   "md5": "83cd4a8386c31ea0bc12db8b831ef125",
+   "region": "in",
+   "size": "6699.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2437": {
+  "CPH2437_16.0.5.1200(EX01)": {
+   "md5": "113d6faf8c4faa0d7515052f3f234d3f",
+   "region": "tw",
+   "size": "8799.43 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2447": {
+  "CPH2447_16.0.5.702(EX01)": {
+   "md5": "d2c6f81214c200eb98e29e6918ecd136",
+   "region": "in",
+   "size": "7439.19 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2449": {
+  "CPH2449_16.0.5.1002(EX01)": {
+   "md5": "15e2d68a9e5324ee838a38b97052a105",
+   "region": "eu",
+   "size": "7392.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2449_16.0.5.1301(EX01)": {
+   "md5": "324b3fb14f3969f38978739bae48fb57",
+   "region": "glo",
+   "size": "7455.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2455": {
+  "CPH2455_14.0.0.3000(EX01)": {
+   "md5": "046d996ce41f1a153f8b60e6245954d1",
+   "region": "in",
+   "size": "5849.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2461": {
+  "CPH2461_14.0.0.2900(EX01)": {
+   "md5": "8463105fc95d18f82f874f49f40d5361",
+   "region": "lk",
+   "size": "5417.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2461_14.0.0.3000(EX01)": {
+   "md5": "37ea375f564d6604ebf8e503847218d9",
+   "region": "apc",
+   "size": "5567.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2465": {
+  "CPH2465_15.0.0.1910(EX01)": {
+   "md5": "e6136575ac91e1bdc8ce39a7600b0ff7",
+   "region": "glo",
+   "size": "5694.32 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2467": {
+  "CPH2467_15.0.0.1910(EX01)": {
+   "md5": "05e595476654d5cd3bf0e23007f460f2",
+   "region": "in",
+   "size": "6025.5 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2477": {
+  "CPH2477_11_A.57": {
+   "md5": "b0cb0e643602fa9cf1f5c369c4c78762",
+   "region": "eu",
+   "size": "2999.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2477EEA"
+  }
+ },
+ "CPH2483": {
+  "CPH2483_15.0.0.1900(EX01)": {
+   "md5": "91fea7b24225ed7097770012a4d22757",
+   "region": "my",
+   "size": "5349.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2487": {
+  "CPH2487_16.0.5.700(EX01)": {
+   "md5": "2ca008bcb199ed68c71cde3a145be24c",
+   "region": "in",
+   "size": "7545.34 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2491": {
+  "CPH2491_16.0.5.1200(EX01)": {
+   "md5": "711fecb49f74d09da9727f14b34c026f",
+   "region": "in",
+   "size": "7812.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2493": {
+  "CPH2493_16.0.5.1200(EX01)": {
+   "md5": "3f3587055796d1c0510c665f0a177490",
+   "region": "eu",
+   "size": "7472.3 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2495": {
+  "CPH2495_15.0.0.1900(EX01)": {
+   "md5": "295e73141db761575d2780e22f032cad",
+   "region": "in",
+   "size": "5085.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2499": {
+  "CPH2499_16.0.5.1002(EX01)": {
+   "md5": "9161dcb8b8674ff6a9dd0d2d23411aeb",
+   "region": "tw",
+   "size": "8837.29 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2499_16.0.5.1301(EX01)": {
+   "md5": "7c6c4b1ef76b0d84a3682e4f38018b0e",
+   "region": "vn",
+   "size": "8838.67 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2505": {
+  "CPH2505_15.0.0.1900(EX01)": {
+   "md5": "2f86f756a5b9c319898aae7ea1bf7601",
+   "region": "th",
+   "size": "6234.44 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2519": {
+  "CPH2519_16.0.5.1301(EX01)": {
+   "md5": "664a1b7435124a48f5b1b0b66d3f95d9",
+   "region": "vn",
+   "size": "9021.12 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2521": {
+  "CPH2521_16.0.5.1200(EX01)": {
+   "md5": "a2c732617fa7a0b8c2639769ad9c8703",
+   "region": "tw",
+   "size": "8476.42 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2525": {
+  "CPH2525_15.0.0.1910(EX01)": {
+   "md5": "eedae27e381d8ccaa8cb1ab8c893af6b",
+   "region": "vn",
+   "size": "6805.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2527": {
+  "CPH2527_15.0.0.1910(EX01)": {
+   "md5": "06e23c12c9a6fd83e5571fdbebe52165",
+   "region": "in",
+   "size": "6275.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2529": {
+  "CPH2529_15.0.0.1810(EX01)": {
+   "md5": "1b493b1c796e4a1d5d66514b614dba6d",
+   "region": "tw",
+   "size": "6332.52 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2529_15.0.0.1910(EX01)": {
+   "md5": "d4ee3c3f052c771fd34ac11a9cd06fa0",
+   "region": "vn",
+   "size": "6302.24 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2531": {
+  "CPH2531_15.0.0.1900(EX01)": {
+   "md5": "c83f9de5bc25c89dea0d10f179d3f831",
+   "region": "vn",
+   "size": "6298.84 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2551": {
+  "CPH2551_16.0.5.1002(EX01)": {
+   "md5": "363756ee2772eabb0fefdbc211f5519c",
+   "region": "eu",
+   "size": "8198.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2551_16.0.5.1301(EX01)": {
+   "md5": "1cb275faf8b87bc4ef8448ad7cc99435",
+   "region": "in",
+   "size": "8602.22 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2553": {
+  "CPH2553_15.0.0.2000(EX01)": {
+   "md5": "353b26d12d2a4f81d45b50a656485425",
+   "region": "in",
+   "size": "5235.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2557": {
+  "CPH2557_15.0.0.1900(EX01)": {
+   "md5": "29d16bcfe28a16f811f3b6f2c99a4e1b",
+   "region": "mx",
+   "size": "5219.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2557_15.0.0.2000(EX01)": {
+   "md5": "2cd71371277844b6ee73a9f9b69355eb",
+   "region": "tw",
+   "size": "5315.36 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2565": {
+  "CPH2565_15.0.0.1800(EX01)": {
+   "md5": "21fbac50857f2742244edbcbef49ec0f",
+   "region": "mea",
+   "size": "5603.77 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2565_15.0.0.1810(EX01)": {
+   "md5": "f43f311dd684b56b3e4f6cba3ff42d48",
+   "region": "eu",
+   "size": "5242.54 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2565_15.0.0.1820(EX01)": {
+   "md5": "89df3d51716371bf86e0178a5c4bfb83",
+   "region": "oca",
+   "size": "5599.04 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2565_15.0.0.1900(EX01)": {
+   "md5": "7ec6106204687b306f1cf00d077e27f6",
+   "region": "th",
+   "size": "5563.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2569": {
+  "CPH2569_15.0.0.1902(EX01)": {
+   "md5": "243631c13291e64994eb63bb97e2602b",
+   "region": "in",
+   "size": "6684.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2573": {
+  "CPH2573_16.0.10.501(EX01)": {
+   "md5": "70f517062350e61dbc1d4a843f568056",
+   "region": "in",
+   "size": "8015.89 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2577": {
+  "CPH2577_15.0.0.1900(EX01)": {
+   "md5": "89eff731df72b100cfa6ef8c762c7d39",
+   "region": "th",
+   "size": "4993.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2577_15.0.0.2000(EX01)": {
+   "md5": "d5c532ad2878399fbb7a0f04491f6e40",
+   "region": "in",
+   "size": "5022.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2579": {
+  "CPH2579_15.0.0.1800(EX01)": {
+   "md5": "c03331fadff29ba78a50578b41ed13e7",
+   "region": "oca",
+   "size": "5013.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2579_15.0.0.1900(EX01)": {
+   "md5": "308ab51ac053f4d7b5a97f5e52e648b1",
+   "region": "mea",
+   "size": "5021.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2579_15.0.0.2000(EX01)": {
+   "md5": "0c816e61d3c1f9a980db68dc3ba04089",
+   "region": "mx",
+   "size": "4981.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2581": {
+  "CPH2581_16.0.10.501(EX01)": {
+   "md5": "d35c3f5a81cc8b763f83269c556a21de",
+   "region": "glo",
+   "size": "7678.39 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2585": {
+  "CPH2585_16.0.5.1002(EX01)": {
+   "md5": "8b5e3bb7baea261107bce1f74df5651a",
+   "region": "in",
+   "size": "7744.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2591": {
+  "CPH2591_15.0.0.1900(EX01)": {
+   "md5": "0532f88e256dbf5032a66afa2391bc1c",
+   "region": "vn",
+   "size": "5009.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2599": {
+  "CPH2599_16.0.5.1200(EX01)": {
+   "md5": "1a60f704aed5cc8f46ba7f2e3385680a",
+   "region": "vn",
+   "size": "7459.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2603": {
+  "CPH2603_16.0.5.1200(EX01)": {
+   "md5": "d83b87cb6baadc4422694ad676a33aa5",
+   "region": "ph",
+   "size": "7466.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2605": {
+  "CPH2605_15.0.0.1901(EX01)": {
+   "md5": "6bde6f9ba3d2e73ca2e842aa9f8d9f38",
+   "region": "glo",
+   "size": "4748.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2607": {
+  "CPH2607_15.0.0.880(EX01)": {
+   "md5": "c153b215b22c7492b0c0a1c3b2a21f6e",
+   "region": "tw",
+   "size": "7171.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2607"
+  },
+  "CPH2607_16.0.5.1002(EX01)": {
+   "md5": "39924452dcfab13ae0e75c33366e0163",
+   "region": "th",
+   "size": "7911.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2609": {
+  "CPH2609_16.0.5.1301(EX01)": {
+   "md5": "c5b0894201de900fb8f72741a7c6ccd5",
+   "region": "glo",
+   "size": "7484.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2609_16.0.5.702(EX01)": {
+   "md5": "87ad2458dc4ac3e281c841844dca3125",
+   "region": "eu",
+   "size": "7203.51 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2613": {
+  "CPH2613_16.0.5.1201(EX01)": {
+   "md5": "fd7a535f1ebda437cdd48fee31d3ce82",
+   "region": "in",
+   "size": "7674.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2617": {
+  "CPH2617_15.0.0.1901(EX01)": {
+   "md5": "30a78ac832a3bf447782ca309ab1bcc8",
+   "region": "in",
+   "size": "5122.84 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2619": {
+  "CPH2619_16.0.5.1200(EX01)": {
+   "md5": "048602721a31aeff811c2cb7ac138c00",
+   "region": "in",
+   "size": "7156.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2621": {
+  "CPH2621_16.0.5.1200(EX01)": {
+   "md5": "8b3d62a39de291c3dafd1a275dc953d2",
+   "region": "glo",
+   "size": "6814.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2625": {
+  "CPH2625_16.0.5.1200(EX01)": {
+   "md5": "54f167ddbef9e01bc6e446dc1caa3405",
+   "region": "vn",
+   "size": "8391.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2629": {
+  "CPH2629_16.0.5.1000(EX01)": {
+   "md5": "a297ef43c5fb6cd13f6e99f9e735dc48",
+   "region": "mea",
+   "size": "7842.61 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2629_16.0.5.1300(EX01)": {
+   "md5": "967eb95ae8a047e7b90716b90b361c7c",
+   "region": "vn",
+   "size": "7917.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2631": {
+  "CPH2631_16.0.5.1010(EX01)": {
+   "md5": "900090171103e327ee1cf9b2f6097358",
+   "region": "oca",
+   "size": "6274.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2637": {
+  "CPH2637_16.0.5.1200(EX01)": {
+   "md5": "834d6ba758555cc3364f3c6268b2e658",
+   "region": "vn",
+   "size": "6902.56 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2639": {
+  "CPH2639_16.0.5.1200(EX01)": {
+   "md5": "887d64511aa822aeaa316835891b2e2d",
+   "region": "tw",
+   "size": "6273.51 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2641": {
+  "CPH2641_14.0.1.2254(EX01)": {
+   "md5": "4495491fb85756bd9a8c659c7ee5c15a",
+   "region": "latam",
+   "size": "4652.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2641"
+  },
+  "CPH2641_15.0.0.1720(EX01)": {
+   "md5": "a6abc2a52083ae13ebdba36351c3bd19",
+   "region": "lk",
+   "size": "5192.52 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2641"
+  },
+  "CPH2641_15.0.0.1740(EX01)": {
+   "md5": "b0cda80545f67fc2a22af0b2268cf792",
+   "region": "vn",
+   "size": "5232.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2641"
+  }
+ },
+ "CPH2643": {
+  "CPH2643_16.0.5.1200(EX01)": {
+   "md5": "2411ba9e9fc04de63bc77ce7776c9402",
+   "region": "in",
+   "size": "6965.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2645": {
+  "CPH2645_16.0.10.500(EX01)": {
+   "md5": "46514c530bfd2d7a3a860bff3b2a7a1d",
+   "region": "glo",
+   "size": "7598.35 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2649": {
+  "CPH2649_16.0.10.501(EX01)": {
+   "md5": "32b8fa2cd3cc2d8e5ff1b7411211529a",
+   "region": "in",
+   "size": "8276.53 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2651": {
+  "CPH2651_16.0.10.500(EX01)": {
+   "md5": "fc53538ea0234308f09cc3fc26df6c19",
+   "region": "vn",
+   "size": "8594.43 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2651"
+  }
+ },
+ "CPH2653": {
+  "CPH2653_16.0.10.501(EX01)": {
+   "md5": "3531ddd50c5b229d68a690de1e0a4103",
+   "region": "glo",
+   "size": "7939.03 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2659": {
+  "CPH2659_16.0.10.500(EX01)": {
+   "md5": "9e48f9aec981a2b4b8694a7d3f90145d",
+   "region": "tw",
+   "size": "8703.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2659"
+  }
+ },
+ "CPH2661": {
+  "CPH2661_16.0.5.1001(EX01)": {
+   "md5": "0e1d8a680e0c7d1b9bac3e5aa427b85f",
+   "region": "in",
+   "size": "7682.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2663": {
+  "CPH2663_16.0.5.1301(EX01)": {
+   "md5": "7cfbc7c657d3f4a85cb133defdb89b3d",
+   "region": "glo",
+   "size": "7431.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2663_16.0.5.702(EX01)": {
+   "md5": "16accee17408f6ce7989bba97b0f5c27",
+   "region": "eu",
+   "size": "7151.3 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2665": {
+  "CPH2665_16.0.5.1200(EX01)": {
+   "md5": "1c9ade9bc7f9f5803880af9d2f5ad7a4",
+   "region": "in",
+   "size": "6104.48 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2667": {
+  "CPH2667_16.0.5.1200(EX01)": {
+   "md5": "35d50fa4f5a4c99152114030552e8544",
+   "region": "in",
+   "size": "6106.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2669": {
+  "CPH2669_14.0.1.2254(EX01)": {
+   "md5": "a03ed7614991b3d08fdf01b3cdef8516",
+   "region": "br",
+   "size": "4593.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2669"
+  },
+  "CPH2669_16.0.5.1300(EX01)": {
+   "md5": "5d4f35cc2721201729d917ba3c6f985e",
+   "region": "vn",
+   "size": "6160.83 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2671": {
+  "CPH2671_16.0.10.500(EX01)": {
+   "md5": "e33296552aaefd89bc9fca83d25a1891",
+   "region": "th",
+   "size": "9041.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2671"
+  },
+  "CPH2671_16.0.10.600(EX01)": {
+   "md5": "e6df68c1aacf76a0291ea5caae2c61ed",
+   "region": "id",
+   "size": "9147.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2671"
+  }
+ },
+ "CPH2681": {
+  "CPH2681_15.0.0.1705(EX01)": {
+   "md5": "892695fd1372015e6764d3fbe51012ba",
+   "region": "in",
+   "size": "5355.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2681IN"
+  }
+ },
+ "CPH2683": {
+  "CPH2683_15.0.0.1700(EX01)": {
+   "md5": "3c65296f160ee6d762963477a383a749",
+   "region": "oca",
+   "size": "5283.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2683"
+  },
+  "CPH2683_16.0.5.1000(EX01)": {
+   "md5": "76859dda2763b549241b5d8f62756439",
+   "region": "my",
+   "size": "6167.33 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2683_16.0.5.1200(EX01)": {
+   "md5": "4c3659bd0bf45889f1ddc7b71d12527e",
+   "region": "eu",
+   "size": "5915.88 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2687": {
+  "CPH2687_16.0.5.1000(EX01)": {
+   "md5": "d75b95461a84a355be081943c99c6d3f",
+   "region": "mea",
+   "size": "6195.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2689": {
+  "CPH2689_16.0.5.1001(EX01)": {
+   "md5": "9ac0cf38fefeb584c76dfd25b13f1e12",
+   "region": "vn",
+   "size": "8231.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2689_16.0.5.701(EX01)": {
+   "md5": "e44c9143a04a47f2e87a8d7512863fe2",
+   "region": "eu",
+   "size": "7588.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2691": {
+  "CPH2691_16.0.10.500(EX01)": {
+   "md5": "e57fceae0123251445a3faf745bab0cc",
+   "region": "in",
+   "size": "7935.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2693": {
+  "CPH2693_16.0.5.1200(EX01)": {
+   "md5": "54c9a454ecf36793bbcb7f6b7e2dde5b",
+   "region": "in",
+   "size": "6168.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2695": {
+  "CPH2695_16.0.5.1001(EX01)": {
+   "md5": "c7a207ba986f494005bf82b9ccdc0659",
+   "region": "latam",
+   "size": "5979.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2695_16.0.5.1200(EX01)": {
+   "md5": "94555a5305f7244c15a526da34529b11",
+   "region": "vn",
+   "size": "6214.41 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2697": {
+  "CPH2697_15.0.0.326(EX01)": {
+   "md5": "d637ff2e09f1ca5d7790137c5138b7e1",
+   "region": "id",
+   "size": "6716.93 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2697"
+  },
+  "CPH2697_16.0.5.1001(EX01)": {
+   "md5": "3afaf3be892a7bd12adb8caed344f54a",
+   "region": "vn",
+   "size": "8238.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2697_16.0.5.701(EX01)": {
+   "md5": "8eb4ae8a8c6d3a647d0fa1d49ef1d1de",
+   "region": "eu",
+   "size": "7595.88 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2699": {
+  "CPH2699_16.0.5.1001(EX01)": {
+   "md5": "15b8855bc807abe776e35eacf5f13739",
+   "region": "mx",
+   "size": "6563.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2699_16.0.5.1200(EX01)": {
+   "md5": "f280f8a1480f93481dc446e5898e7ba0",
+   "region": "tw",
+   "size": "6870.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2701": {
+  "CPH2701_16.0.5.1200(EX01)": {
+   "md5": "27a3a804c75a8cd699dc25ee368e55ef",
+   "region": "vn",
+   "size": "6597.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2701"
+  }
+ },
+ "CPH2705": {
+  "CPH2705_16.0.5.1202(EX01)": {
+   "md5": "54b3e8bf80acec7d58a35013c12581d4",
+   "region": "in",
+   "size": "7341.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2705IN"
+  }
+ },
+ "CPH2707": {
+  "CPH2707_16.0.5.1201(EX01)": {
+   "md5": "53fc8f372873c69fdf9b40dc14452586",
+   "region": "in",
+   "size": "8136.74 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2707IN"
+  }
+ },
+ "CPH2709": {
+  "CPH2709_16.0.5.1002(EX01)": {
+   "md5": "1197aaa3eaf341c7fcae6b251346d315",
+   "region": "eu",
+   "size": "7725.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2709EEA"
+  },
+  "CPH2709_16.0.5.1201(EX01)": {
+   "md5": "8704f6d3634aedb81bc88720a7f86e43",
+   "region": "glo",
+   "size": "7794.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2709"
+  }
+ },
+ "CPH2711": {
+  "CPH2711_15.0.0.1301(EX01)": {
+   "md5": "dddbcb2e18a815d309cd9c98b14b25e1",
+   "region": "my",
+   "size": "5684.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2711"
+  },
+  "CPH2711_15.0.0.1302(EX01)": {
+   "md5": "aa985b554fe64264d55aa36c081165b1",
+   "region": "mx",
+   "size": "5457.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2711"
+  },
+  "CPH2711_16.0.5.1201(EX01)": {
+   "md5": "4eae627a968c9cdd5fde852318771eed",
+   "region": "eu",
+   "size": "6033.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2717": {
+  "CPH2717_16.0.5.1002(EX01)": {
+   "md5": "0f5e5385be942ff0c30f667a367d9f88",
+   "region": "in",
+   "size": "7993.29 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2717IN"
+  }
+ },
+ "CPH2719": {
+  "CPH2719_16.0.5.1002(EX01)": {
+   "md5": "3b9a784b2cce3f8b7898d8101310b1b6",
+   "region": "eu",
+   "size": "7671.41 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2719EEA"
+  },
+  "CPH2719_16.0.5.1300(EX01)": {
+   "md5": "ebc31746ca4e1d75bf517d65cc53dac4",
+   "region": "glo",
+   "size": "7740.4 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2719"
+  }
+ },
+ "CPH2721": {
+  "CPH2721_16.0.5.1200(EX01)": {
+   "md5": "3f4db217e6f97a2016fc14317d10a8b6",
+   "region": "in",
+   "size": "6501.12 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2721IN"
+  }
+ },
+ "CPH2723": {
+  "CPH2723_16.0.10.500(EX01)": {
+   "md5": "ebcccb0ea41bfe82c70b31f61342cc04",
+   "region": "in",
+   "size": "7897.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2723IN"
+  }
+ },
+ "CPH2725": {
+  "CPH2725_16.0.5.1201(EX01)": {
+   "md5": "78085aebdc2129da075457331d00cd85",
+   "region": "lk",
+   "size": "6481.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2725_16.0.5.701(EX01)": {
+   "md5": "e7324512d2d666c1b1e50a57a94e213e",
+   "region": "vn",
+   "size": "6183.52 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2727": {
+  "CPH2727_16.0.1.305(EX01)": {
+   "md5": "2778b4251632b1ad1c2c559c133470c5",
+   "region": "mea",
+   "size": "6193.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2727_16.0.5.1201(EX01)": {
+   "md5": "5b475c1f011609306a37b4b7bd67983b",
+   "region": "th",
+   "size": "6592.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2727_16.0.5.701(EX01)": {
+   "md5": "066aa3fef8a46d5d048d22c915f7f4d6",
+   "region": "vn",
+   "size": "6293.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2729": {
+  "CPH2729_16.0.5.707(EX01)": {
+   "md5": "ba292b3c37d02027f63f6779a01af56b",
+   "region": "in",
+   "size": "6762.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2729IN"
+  }
+ },
+ "CPH2731": {
+  "CPH2731_16.0.10.600(EX01)": {
+   "md5": "05eb16bac1f0f35bbed0d3a2a91c7940",
+   "region": "in",
+   "size": "7580.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2731IN"
+  }
+ },
+ "CPH2733": {
+  "CPH2733_16.0.5.1200(EX01)": {
+   "md5": "c7f773e5dc526575e6e262105cc18153",
+   "region": "in",
+   "size": "6344.84 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2733IN"
+  }
+ },
+ "CPH2735": {
+  "CPH2735_15.0.1.1201(EX01)": {
+   "md5": "2810cb77488b476ebdf63b5cb738a7e1",
+   "region": "oca",
+   "size": "5694.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2735"
+  },
+  "CPH2735_15.0.1.313(EX01)": {
+   "md5": "b6a9acdb4d0fed832b3362d40d4667c6",
+   "region": "eg",
+   "size": "5387.42 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2735"
+  },
+  "CPH2735_15.0.1.706(EX01)": {
+   "md5": "8293f698958ac7072f4ae67d0f5d9eea",
+   "region": "tr",
+   "size": "5186.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2735"
+  },
+  "CPH2735_16.0.5.1000(EX01)": {
+   "md5": "d927a2a7127248a42981a9e3db2bec4d",
+   "region": "eu",
+   "size": "5800.56 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2735EEA"
+  },
+  "CPH2735_16.0.5.1200(EX01)": {
+   "md5": "9293fadc660d350a4db0b9a00aa9e273",
+   "region": "tw",
+   "size": "6416.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2735"
+  }
+ },
+ "CPH2737": {
+  "CPH2737_16.0.10.600(EX01)": {
+   "md5": "bd3f633709fcbfae0c156d7ad44a5ecf",
+   "region": "vn",
+   "size": "8768.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2737"
+  },
+  "CPH2737_16.0.9.400(EX01)": {
+   "md5": "95cde228f0af03c8c192d43337750b17",
+   "region": "tw",
+   "size": "8813.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2737"
+  }
+ },
+ "CPH2739": {
+  "CPH2739_16.0.9.401(EX01)": {
+   "md5": "d950d331ad507b395c8e3130bd3cfe03",
+   "region": "vn",
+   "size": "8404.05 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2739"
+  }
+ },
+ "CPH2743": {
+  "CPH2743_16.0.5.1000(EX01)": {
+   "md5": "95b9c6dd2c8d6498a15c3ad2d4253c89",
+   "region": "tw",
+   "size": "7052.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2743"
+  },
+  "CPH2743_16.0.5.1001(EX01)": {
+   "md5": "e96a05e0edde03e835dbb5848a7a6016",
+   "region": "vn",
+   "size": "7104.51 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2743"
+  },
+  "CPH2743_16.0.5.710(EX01)": {
+   "md5": "322e74578a94199f591c38385de136f4",
+   "region": "eg",
+   "size": "6884.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2743"
+  }
+ },
+ "CPH2745": {
+  "CPH2745_16.0.10.500(EX01)": {
+   "md5": "27466b035e8a04bc244aafcb38c88ee2",
+   "region": "in",
+   "size": "9188.17 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2745IN"
+  }
+ },
+ "CPH2747": {
+  "CPH2747_16.0.10.500(EX01)": {
+   "md5": "efe722a4f9b1b185ea4996aa32494704",
+   "region": "eu",
+   "size": "8845.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2747EEA"
+  },
+  "CPH2747_16.0.10.601(EX01)": {
+   "md5": "f18405ee46ef1867265e17928cc88c2d",
+   "region": "glo",
+   "size": "8847.4 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2747"
+  }
+ },
+ "CPH2751": {
+  "CPH2751_16.0.5.1200(EX01)": {
+   "md5": "24c11acb7370ce1fa18839437a9c44a0",
+   "region": "in",
+   "size": "6284.48 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2751IN"
+  }
+ },
+ "CPH2753": {
+  "CPH2753_16.0.5.1200(EX01)": {
+   "md5": "03d6272d369dc98e223e2b04cfba32ae",
+   "region": "in",
+   "size": "6284.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2753IN"
+  }
+ },
+ "CPH2755": {
+  "CPH2755_16.0.5.1201(EX01)": {
+   "md5": "8566894d2dd5b40066cdcd89c2f8a788",
+   "region": "th",
+   "size": "6367.63 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "CPH2755_16.0.5.701(EX01)": {
+   "md5": "259a4d4a8a3c579e512cb5f188c679bd",
+   "region": "vn",
+   "size": "6069.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "CPH2757": {
+  "CPH2757_16.0.5.1201(EX01)": {
+   "md5": "9cfe3760f2f34babb5a0434a9dbcdd71",
+   "region": "in",
+   "size": "7913.83 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2757IN"
+  }
+ },
+ "CPH2761": {
+  "CPH2761_16.0.5.1200(EX01)": {
+   "md5": "e95f77e012475e2a69afa45f4e22ef18",
+   "region": "in",
+   "size": "7612.65 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2761IN"
+  }
+ },
+ "CPH2763": {
+  "CPH2763_16.0.5.1201(EX01)": {
+   "md5": "2ba1e9764b7540a5b2b7b6a6114e1f47",
+   "region": "in",
+   "size": "7372.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2763IN"
+  }
+ },
+ "CPH2765": {
+  "CPH2765_16.0.10.500(EX01)": {
+   "md5": "4ae9439d37ca0931bde305cf568180ff",
+   "region": "tw",
+   "size": "9348.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2765"
+  }
+ },
+ "CPH2767": {
+  "CPH2767_16.0.10.500(EX01)": {
+   "md5": "c097d766c3b13cec60b1b076fdf2be3e",
+   "region": "in",
+   "size": "7746.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2767IN"
+  }
+ },
+ "CPH2769": {
+  "CPH2769_16.0.10.500(EX01)": {
+   "md5": "cd3119ca3a50d88cbfb21ea5f7f2dc00",
+   "region": "eu",
+   "size": "7411.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2769EEA"
+  }
+ },
+ "CPH2773": {
+  "CPH2773_14.0.1.2253(EX01)": {
+   "md5": "b81322fd04c3d15943ba04f2f23c5227",
+   "region": "mea",
+   "size": "4631.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2773"
+  },
+  "CPH2773_14.0.1.2254(EX01)": {
+   "md5": "41e0e5524c8b7eda29c89167cd064c6e",
+   "region": "vn",
+   "size": "4726.39 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2773"
+  }
+ },
+ "CPH2781": {
+  "CPH2781_15.0.2.802(EX01)": {
+   "md5": "8166b801457c2f0a401ebbc89c4b8a47",
+   "region": "eu",
+   "size": "5458.92 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2781EEA"
+  },
+  "CPH2781_16.0.5.1201(EX01)": {
+   "md5": "318d6427eab88a6e460235c73e0b5e96",
+   "region": "vn",
+   "size": "6477.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2781"
+  }
+ },
+ "CPH2783": {
+  "CPH2783_15.0.2.1003(EX01)": {
+   "md5": "2d64efe80824ce5540d1a71aa1a4a2cb",
+   "region": "eu",
+   "size": "5320.75 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2783EEA"
+  },
+  "CPH2783_15.0.2.1201(EX01)": {
+   "md5": "e9a18aaf5b756909389f9ddf1af9d6ff",
+   "region": "latam",
+   "size": "5705.27 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2783"
+  },
+  "CPH2783_16.0.5.1000(EX01)": {
+   "md5": "c70bcb178e88ce20e58bc1e2977a076c",
+   "region": "oca",
+   "size": "6091.35 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2783"
+  },
+  "CPH2783_16.0.5.1200(EX01)": {
+   "md5": "5979ae6e50f6953e22c00f3b00e1404a",
+   "region": "ph",
+   "size": "6326.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2783"
+  }
+ },
+ "CPH2785": {
+  "CPH2785_16.0.5.1200(EX01)": {
+   "md5": "b847c97302be1c553b6ef9e42d7c2329",
+   "region": "in",
+   "size": "6263.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2785IN"
+  }
+ },
+ "CPH2789": {
+  "CPH2789_16.0.5.1200(EX01)": {
+   "md5": "6e06c6d4e58ac0dc260ce469babf3ea7",
+   "region": "tw",
+   "size": "6439.43 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2789"
+  }
+ },
+ "CPH2791": {
+  "CPH2791_16.0.10.500(EX01)": {
+   "md5": "860efcf9965314a05ace55fa4780fc22",
+   "region": "oca",
+   "size": "8881.27 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2791"
+  },
+  "CPH2791_16.0.3.504(EX01)": {
+   "md5": "d27cb3a15c8f33c3307c8cfdf0e1aeb2",
+   "region": "eu",
+   "size": "9939.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2791EEA"
+  }
+ },
+ "CPH2793": {
+  "CPH2793_16.0.5.1200(EX01)": {
+   "md5": "aaea1aa12e925aedb5d0a97be21e9bf0",
+   "region": "in",
+   "size": "7538.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2793IN"
+  }
+ },
+ "CPH2795": {
+  "CPH2795_16.0.5.1200(EX01)": {
+   "md5": "f8c056c2b3a30078cb075d34a4a7d27b",
+   "region": "glo",
+   "size": "7192.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2795"
+  }
+ },
+ "CPH2797": {
+  "CPH2797_16.0.10.500(EX01)": {
+   "md5": "48bce6fe1dbdfbf8184063e9bc047578",
+   "region": "tw",
+   "size": "8867.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2797"
+  }
+ },
+ "CPH2799": {
+  "CPH2799_16.0.9.402(EX01)": {
+   "md5": "f0dcfc01911612dc0acb8d000613702b",
+   "region": "vn",
+   "size": "6278.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2799"
+  }
+ },
+ "CPH2801": {
+  "CPH2801_16.0.5.1000(EX01)": {
+   "md5": "08d74051e0283416190aa929870da1b0",
+   "region": "tw",
+   "size": "7092.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2801"
+  },
+  "CPH2801_16.0.5.1200(EX01)": {
+   "md5": "5c7a9cfa8363a30d3cae8a25dc5d39f3",
+   "region": "oca",
+   "size": "7237.05 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2801"
+  }
+ },
+ "CPH2805": {
+  "CPH2805_16.0.5.1101(EX01)": {
+   "md5": "82cd333de301dfb64e0143d367023965",
+   "region": "in",
+   "size": "7159.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2805IN"
+  }
+ },
+ "CPH2807": {
+  "CPH2807_16.0.5.1101(EX01)": {
+   "md5": "6c7234d99ae9b9efd4f7fc9638e1a59d",
+   "region": "glo",
+   "size": "6835.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2807"
+  }
+ },
+ "CPH2811": {
+  "CPH2811_16.0.10.500(EX01)": {
+   "md5": "6381224fbab731db6c8d0b85a96ce0d8",
+   "region": "sg",
+   "size": "9122.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2811"
+  }
+ },
+ "CPH2813": {
+  "CPH2813_16.0.10.500(EX01)": {
+   "md5": "8630ed4aa6cc961e1a66cd054b040de2",
+   "region": "eu",
+   "size": "8274.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2813EEA"
+  }
+ },
+ "CPH2815": {
+  "CPH2815_16.0.5.1201(EX01)": {
+   "md5": "f65119c8a44838cab95385001357bb06",
+   "region": "lk",
+   "size": "6391.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2815"
+  }
+ },
+ "CPH2817": {
+  "CPH2817_16.0.5.1201(EX01)": {
+   "md5": "973b9b35041104de82e3de47d7160607",
+   "region": "apc",
+   "size": "6394.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2817"
+  }
+ },
+ "CPH2819": {
+  "CPH2819_16.0.5.1201(EX01)": {
+   "md5": "1a566e52107f6ec512c368e9489d5ae9",
+   "region": "br",
+   "size": "6403.4 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2819"
+  },
+  "CPH2819_16.0.5.1204(EX01)": {
+   "md5": "1b11b8b6abc1c05ee7cb6ed77a631ff7",
+   "region": "in",
+   "size": "6405.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2819IN"
+  }
+ },
+ "CPH2823": {
+  "CPH2823_16.0.5.1200(EX01)": {
+   "md5": "b9e6f2ac73a0ab7f7eb37685f2b7505a",
+   "region": "in",
+   "size": "6266.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2823IN"
+  }
+ },
+ "CPH2825": {
+  "CPH2825_16.0.10.501(EX01)": {
+   "md5": "f1fe7bd22b63cf0956ff316a12377976",
+   "region": "vn",
+   "size": "8695.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2825"
+  },
+  "CPH2825_16.0.9.401(EX01)": {
+   "md5": "d8d0200b7221dd0a4110ad2caaaae6cf",
+   "region": "sa",
+   "size": "8662.74 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2825"
+  }
+ },
+ "CPH2831": {
+  "CPH2831_16.0.5.1000(EX01)": {
+   "md5": "ce86dfa6f2e656416918539b1812d2fe",
+   "region": "eg",
+   "size": "6130.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2831"
+  },
+  "CPH2831_16.0.5.1200(EX01)": {
+   "md5": "889987fd67c211aede88e6cc59f34663",
+   "region": "vn",
+   "size": "6367.13 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2831"
+  }
+ },
+ "CPH2841": {
+  "CPH2841_16.0.10.500(EX01)": {
+   "md5": "5eb9b43a2b9a723df2ab720493ef72ee",
+   "region": "tw",
+   "size": "9698.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2841"
+  },
+  "CPH2841_16.0.10.602(EX01)": {
+   "md5": "6e636173d3621c97cce4801e9b6fc8f3",
+   "region": "in",
+   "size": "9639.61 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2841IN"
+  }
+ },
+ "CPH2847": {
+  "CPH2847_16.0.5.1201(EX01)": {
+   "md5": "b48bfab93b497b6a38cd1338c0e2c2c7",
+   "region": "mx",
+   "size": "6352.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2847"
+  }
+ },
+ "CPH2849": {
+  "CPH2849_16.0.5.1201(EX01)": {
+   "md5": "edfd762121edb5d7d61ce08c261b2fbc",
+   "region": "latam",
+   "size": "6222.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2849"
+  }
+ },
+ "CPH2853": {
+  "CPH2853_16.0.5.1200(EX01)": {
+   "md5": "6cb62ed2917e9f68816fa0c89ec67a2a",
+   "region": "br",
+   "size": "6295.09 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2853"
+  }
+ },
+ "CPH2859": {
+  "CPH2859_16.0.10.500(EX01)": {
+   "md5": "461fa700dd48a38392f4c69a2510faeb",
+   "region": "oca",
+   "size": "7964.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2859"
+  },
+  "CPH2859_16.0.10.601(EX01)": {
+   "md5": "0a654e04cd98db31b6f3ab3a2e20cb68",
+   "region": "in",
+   "size": "7987.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2859IN"
+  },
+  "CPH2859_16.0.10.602(EX01)": {
+   "md5": "d135b61224d4aafef77da20c14a85279",
+   "region": "th",
+   "size": "7982.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2859"
+  }
+ },
+ "CPH2863": {
+  "CPH2863_16.0.10.501(EX01)": {
+   "md5": "577f69fd3137b74f4a8c1fd86be9b995",
+   "region": "oca",
+   "size": "8557.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2863"
+  },
+  "CPH2863_16.0.10.601(EX01)": {
+   "md5": "16ed30335314e8d2732c3930e7d3f270",
+   "region": "eu",
+   "size": "8239.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2863EEA"
+  }
+ },
+ "CPH2865": {
+  "CPH2865_16.0.10.501(EX01)": {
+   "md5": "99c79604012c783e65d4b92e74164c56",
+   "region": "eu",
+   "size": "8661.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2865EEA"
+  },
+  "CPH2865_16.0.10.601(EX01)": {
+   "md5": "f928ea1904f88e00a65b6b0e5644e42c",
+   "region": "in",
+   "size": "9058.92 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2865IN"
+  },
+  "CPH2865_16.0.10.602(EX01)": {
+   "md5": "2a6b1255c4fb139a8dd66f0d275892f9",
+   "region": "th",
+   "size": "9053.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2865"
+  }
+ },
+ "CPH2889": {
+  "CPH2889_16.0.5.1200(EX01)": {
+   "md5": "21a74869bab788b1108a943ba2af7250",
+   "region": "in",
+   "size": "6265.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2889IN"
+  }
+ },
+ "CPH2891": {
+  "CPH2891_16.0.5.1201(EX01)": {
+   "md5": "b2f151c3796d0d4298ad83e8398121d5",
+   "region": "br",
+   "size": "6295.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2891"
+  }
+ },
+ "CPH2943": {
+  "CPH2943_16.0.5.1201(EX01)": {
+   "md5": "95cdc4433ffc7cc8face2122809f0d70",
+   "region": "in",
+   "size": "7502.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2943IN"
+  }
+ },
+ "CPH2955": {
+  "CPH2955_16.0.5.1062(EX01)": {
+   "md5": "529b0c2d8546fb3e1c4ac6904136c535",
+   "region": "in",
+   "size": "6018.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2955IN"
+  }
+ },
+ "CPH2971": {
+  "CPH2971_16.0.9.452(EX01)": {
+   "md5": "c69c1a2e49d29446e0f258ada0a73f9a",
+   "region": "in",
+   "size": "6077.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "CPH2971IN"
+  }
+ },
+ "DN2103": {
+  "DN2103_11_C.14": {
+   "md5": "ec3d5f9d0487a2ffaa98f8e57a0fe2aa",
+   "region": "eu",
+   "size": "1.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "DN2103EEA"
+  }
+ },
+ "IV2201": {
+  "IV2201_11_C.10": {
+   "md5": "3aad75ae1782a4a3693fe70b43317a52",
+   "region": "eu",
+   "size": "1.22 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "IV2201EEA"
+  }
+ },
+ "MT2110": {
+  "MT2110_11_A.14": {
+   "md5": "3b5cbaa427972ba82f7a817bb2590063",
+   "region": "cn",
+   "size": "4388.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "NE2210": {
+  "NE2210_15.0.0.1202(CN01)": {
+   "md5": "851094bc9f6829aae556cb124ae35a55",
+   "region": "cn",
+   "size": "6612.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "NE2211": {
+  "NE2211_15.0.0.1302(EX01)": {
+   "md5": "7ff5b88637be13d09bae0b4fa1c7cf99",
+   "region": "in",
+   "size": "6302.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "NE2213": {
+  "NE2213_15.0.0.1302(EX01)": {
+   "md5": "4f4678dc3a6898a2c76745886fa79313",
+   "region": "glo",
+   "size": "5981.09 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "OPD2102A": {
+  "OPD2102A_11_C.33": {
+   "md5": "3874c07d38896757ac8ae8b199afd171",
+   "region": "eu",
+   "size": "3633.43 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2102AEEA"
+  }
+ },
+ "OPD2202": {
+  "OPD2202_16.0.5.1200(EX01)": {
+   "md5": "3c7c7ec46270aa8f51396cbcaa56ba5e",
+   "region": "vn",
+   "size": "6929.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "OPD2203": {
+  "OPD2203_16.0.5.1200(EX01)": {
+   "md5": "34cd7d29cfeb42320ee2ce43a1737133",
+   "region": "na",
+   "size": "6617.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "OPD2302": {
+  "OPD2302_14.0.0.2900(EX01)": {
+   "md5": "610459d87df2c8220b441c6991480f38",
+   "region": "vn",
+   "size": "4685.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2302"
+  }
+ },
+ "OPD2303": {
+  "OPD2303_14.0.0.2900(EX01)": {
+   "md5": "200ce0af1eb12e7cf6b6e1572edf5376",
+   "region": "vn",
+   "size": "4717.25 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2303"
+  }
+ },
+ "OPD2304": {
+  "OPD2304_14.0.0.2901(EX01)": {
+   "md5": "2d646859e7da05394f07c3da582540d9",
+   "region": "in",
+   "size": "4610.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2304"
+  }
+ },
+ "OPD2305": {
+  "OPD2305_14.0.0.2901(EX01)": {
+   "md5": "9074d279ab4ce95790bf54cbafdd5735",
+   "region": "in",
+   "size": "4548.34 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2305"
+  }
+ },
+ "OPD2402": {
+  "OPD2402_16.0.5.1301(EX01)": {
+   "md5": "906c7eb38b9ba16673ea43be48461f2c",
+   "region": "sa",
+   "size": "7094.84 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "OPD2403": {
+  "OPD2403_16.0.5.1002(EX01)": {
+   "md5": "0a1df6596f371b7bbd675e7496058880",
+   "region": "eu",
+   "size": "6718.49 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "OPD2403_16.0.5.1301(EX01)": {
+   "md5": "7a4fa50bc05cab42eb3a252a173fc263",
+   "region": "in",
+   "size": "6874.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "OPD2406": {
+  "OPD2406_16.0.5.1201(EX01)": {
+   "md5": "43ad32ebf030130604363ab1647f2268",
+   "region": "sa",
+   "size": "6641.98 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2406"
+  }
+ },
+ "OPD2415": {
+  "OPD2415_16.0.10.600(EX01)": {
+   "md5": "c57b6e0e0476998f4f35775297c48bb4",
+   "region": "in",
+   "size": "6069.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2415IN"
+  },
+  "OPD2415_16.0.9.400(EX01)": {
+   "md5": "ff553091027315b3409c3e434cfad4bd",
+   "region": "eu",
+   "size": "5986.24 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2415EEA"
+  }
+ },
+ "OPD2419": {
+  "OPD2419_16.0.5.1301(EX01)": {
+   "md5": "d48ff7b5ba517153309947f622386e8d",
+   "region": "tw",
+   "size": "5471.98 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2419"
+  },
+  "OPD2419_16.0.5.701(EX01)": {
+   "md5": "b63b54cc426e423527be869e040851cc",
+   "region": "sa",
+   "size": "5351.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2419"
+  }
+ },
+ "OPD2420": {
+  "OPD2420_16.0.5.1301(EX01)": {
+   "md5": "f866f9cca230e4d07174d4f024a751d0",
+   "region": "tw",
+   "size": "5557.97 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2420"
+  },
+  "OPD2420_16.0.5.701(EX01)": {
+   "md5": "980287f844c906eb68a3a369a9ce22c2",
+   "region": "eu",
+   "size": "5233.75 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2420EEA"
+  }
+ },
+ "OPD2480": {
+  "OPD2480_16.0.5.1301(EX01)": {
+   "md5": "a265a63336ee8b3b756e8f2e356a4534",
+   "region": "glo",
+   "size": "5217.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2480"
+  },
+  "OPD2480_16.0.5.701(EX01)": {
+   "md5": "af79cc6e81a2fb5ad8bdb499696bc662",
+   "region": "in",
+   "size": "5160.88 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2480IN"
+  }
+ },
+ "OPD2481": {
+  "OPD2481_16.0.5.1301(EX01)": {
+   "md5": "c8dba66f9cbf6d48930f138dabe334ee",
+   "region": "glo",
+   "size": "5298.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2481"
+  },
+  "OPD2481_16.0.5.701(EX01)": {
+   "md5": "7e01f9ee45af35597abb26ada56c22f9",
+   "region": "in",
+   "size": "5246.24 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2481IN"
+  }
+ },
+ "OPD2504": {
+  "OPD2504_16.0.5.1200(EX01)": {
+   "md5": "65a47fdf0725b900af49b8bd365c123e",
+   "region": "in",
+   "size": "6340.17 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2504IN"
+  }
+ },
+ "OPD2505": {
+  "OPD2505_16.0.5.1202(EX01)": {
+   "md5": "78c837f4109ee770033b71f3ec852616",
+   "region": "in",
+   "size": "6429.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2505IN"
+  }
+ },
+ "OPD2514": {
+  "OPD2514_16.0.10.501(EX01)": {
+   "md5": "33a14d05e026fbf93410f1cf658944d6",
+   "region": "in",
+   "size": "6958.06 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "OPD2514IN"
+  }
+ },
+ "PGAM10": {
+  "PGAM10_14.0.0.3002(CN01)": {
+   "md5": "fe1295396c77acd24cd1f7967466e816",
+   "region": "cn",
+   "size": "7160.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGBM10": {
+  "PGBM10_14.0.0.3001(CN01)": {
+   "md5": "0b55643767e286571f454000ed294296",
+   "region": "cn",
+   "size": "6587.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGCM10": {
+  "PGCM10_11_A.06": {
+   "md5": "6b273a6456e238fef6582c39a1bb7c61",
+   "region": "cn",
+   "size": "1.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGEM10": {
+  "PGEM10_16.0.5.1201(CN01)": {
+   "md5": "6bbfc33f81015669cd95bbe7a3fce801",
+   "region": "cn",
+   "size": "8202.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGFM10": {
+  "PGFM10_16.0.5.701(CN01)": {
+   "md5": "5d3cd02dce5c96ccfd4bd40a7ea7728e",
+   "region": "cn",
+   "size": "8042.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGGM10": {
+  "PGGM10_14.0.0.3100(CN01)": {
+   "md5": "4435dc588cef1bbe1bdb7c74673490bf",
+   "region": "cn",
+   "size": "6054.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGIM10": {
+  "PGIM10_14.0.0.2302(CN01)": {
+   "md5": "bee6c255f1576ee5f97152eb72bca6f0",
+   "region": "cn",
+   "size": "6521.09 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGJM10": {
+  "PGJM10_14.0.0.3001(CN01)": {
+   "md5": "0ad6c2a8054663ef86b56b8f415c832e",
+   "region": "cn",
+   "size": "6856.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGKM10": {
+  "PGKM10_15.0.0.1800(CN01)": {
+   "md5": "9ed76b5cd524c7fff4bf0b4d33cb75c5",
+   "region": "cn",
+   "size": "6899.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGP110": {
+  "PGP110_15.0.0.1901(CN01)": {
+   "md5": "82b83c3a733e802b0af51454230f10dc",
+   "region": "cn",
+   "size": "6889.12 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGT110": {
+  "PGT110_16.0.5.1000(CN01)": {
+   "md5": "109eabc712c1d54f0f2095763543f408",
+   "region": "cn",
+   "size": "8230.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGU110": {
+  "PGU110_16.0.5.1001(CN01)": {
+   "md5": "a058a8fcbb89aa183dedd94e4afa33ba",
+   "region": "cn",
+   "size": "8709.36 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGW110": {
+  "PGW110_16.0.5.700(CN01)": {
+   "md5": "22468d15c01f1aa7c1cc51d4baccf704",
+   "region": "cn",
+   "size": "7958.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGX110": {
+  "PGX110_15.0.0.1900(CN01)": {
+   "md5": "727b9d1438d38e9f772c7a7ab3ef726f",
+   "region": "cn",
+   "size": "7011.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PGZ110": {
+  "PGZ110_15.0.0.1600(CN01)": {
+   "md5": "2907f06261e58fddc5024498f8c6b01e",
+   "region": "cn",
+   "size": "6797.54 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHA120": {
+  "PHA120_11_C.24": {
+   "md5": "6a17ec1423f45953f0426240d18d5989",
+   "region": "cn",
+   "size": "5297.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHB110": {
+  "PHB110_16.0.5.1002(CN01)": {
+   "md5": "a6480b9f701d114e355fab8a1e766477",
+   "region": "cn",
+   "size": "7805.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHF110": {
+  "PHF110_15.0.0.1900(CN01)": {
+   "md5": "5614a9df99d5ff38a996cec1830440a0",
+   "region": "cn",
+   "size": "6319.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHK110": {
+  "PHK110_16.0.5.1201(CN01)": {
+   "md5": "1451ab23a9c853b90bc22dbd6904048d",
+   "region": "cn",
+   "size": "7895.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHM110": {
+  "PHM110_15.0.0.1901(CN01)": {
+   "md5": "3f15b6db3bc17ad8319abca21f93c248",
+   "region": "cn",
+   "size": "6973.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHN110": {
+  "PHN110_16.0.5.1201(CN01)": {
+   "md5": "d52b7e99f85ac6243e72188fdcb7778e",
+   "region": "cn",
+   "size": "8783.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHP110": {
+  "PHP110_16.0.5.1000(CN01)": {
+   "md5": "989d3892e1ad9541d24469eb7f3fff3b",
+   "region": "cn",
+   "size": "7576.25 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHQ110": {
+  "PHQ110_14.0.0.3000(CN01)": {
+   "md5": "34709078369c9f30132bd370c8714f69",
+   "region": "cn",
+   "size": "6395.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHS110": {
+  "PHS110_14.0.0.3000(CN01)": {
+   "md5": "bec15bb89e84487b104728993feab7df",
+   "region": "cn",
+   "size": "6414.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHT110": {
+  "PHT110_16.0.5.1301(CN01)": {
+   "md5": "f2cf27c0c88892d80904e11f7bc1203d",
+   "region": "cn",
+   "size": "8947.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHU110": {
+  "PHU110_16.0.5.1001(CN01)": {
+   "md5": "35826062f7a1f7e7a01bc64c7329bdf5",
+   "region": "cn",
+   "size": "8062.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHV110": {
+  "PHV110_15.0.0.1800(CN01)": {
+   "md5": "7c2af583e76c4f993ece668dd6eb1b46",
+   "region": "cn",
+   "size": "7420.56 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHW110": {
+  "PHW110_15.0.0.1901(CN01)": {
+   "md5": "b33cefb4b41a84a2f1aae89bdc3dd422",
+   "region": "cn",
+   "size": "7018.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHY110": {
+  "PHY110_16.0.10.500(CN01)": {
+   "md5": "991421501418658ab1ba6aff31554632",
+   "region": "cn",
+   "size": "8582.48 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHY120": {
+  "PHY120_16.0.10.500(CN01)": {
+   "md5": "0809174987fe6890f8b311203496e879",
+   "region": "cn",
+   "size": "8583.5 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PHZ110": {
+  "PHZ110_16.0.10.500(CN01)": {
+   "md5": "c72f87111b70d25601e7b28d4a89829f",
+   "region": "cn",
+   "size": "8328.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJA110": {
+  "PJA110_16.0.5.1201(CN01)": {
+   "md5": "5bc58a8ba41c0a9d630056aa41f4f6dd",
+   "region": "cn",
+   "size": "8038.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJC110": {
+  "PJC110_15.0.0.1901(CN01)": {
+   "md5": "52de9adf4a88f287bb3cf66abd576201",
+   "region": "cn",
+   "size": "6963.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJD110": {
+  "PJD110_16.0.10.501(CN01)": {
+   "md5": "ec2001b7d8e6b945308f152aa773a26b",
+   "region": "cn",
+   "size": "8210.64 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJE110": {
+  "PJE110_16.0.5.1002(CN01)": {
+   "md5": "fd1b0301a17e416e4eab063ec082ac68",
+   "region": "cn",
+   "size": "7843.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJF110": {
+  "PJF110_16.0.5.1001(CN01)": {
+   "md5": "0539d2c86f1cdf01ed5c0d63d5f30498",
+   "region": "cn",
+   "size": "7818.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJG110": {
+  "PJG110_14.0.0.3001(CN01)": {
+   "md5": "fb34723a336e1e974a4ea3ac8893bef5",
+   "region": "cn",
+   "size": "6496.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJH110": {
+  "PJH110_16.0.3.500(CN01)": {
+   "md5": "05b934111b647b5fcb1261fb4795dc86",
+   "region": "cn",
+   "size": "7549.93 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJJ110": {
+  "PJJ110_16.0.5.1001(CN01)": {
+   "md5": "22a49e40b789279638638bc5da3c094b",
+   "region": "cn",
+   "size": "7989.82 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJR110": {
+  "PJR110_16.0.5.1201(CN01)": {
+   "md5": "16dc8a2f877eb54bca0609017199d1f2",
+   "region": "cn",
+   "size": "7639.51 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJS110": {
+  "PJS110_14.0.0.3000(CN01)": {
+   "md5": "1bc412ac00f8cae228aa1b0160fefaf1",
+   "region": "cn",
+   "size": "5677.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJT110": {
+  "PJT110_16.0.5.1200(CN01)": {
+   "md5": "9c2b2e9c766aa678c50280748cdb4cf4",
+   "region": "cn",
+   "size": "7069.53 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJU110": {
+  "PJU110_14.0.0.3000(CN01)": {
+   "md5": "f385128b887c113fd416cce3505baa4d",
+   "region": "cn",
+   "size": "5677.12 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJV110": {
+  "PJV110_16.0.5.700(CN01)": {
+   "md5": "318ace5f3df15e5a98f9a81cb0d11523",
+   "region": "cn",
+   "size": "7749.63 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJW110": {
+  "PJW110_16.0.5.1000(CN01)": {
+   "md5": "580e2ab27040bc71ec28de5357c91d4f",
+   "region": "cn",
+   "size": "7987.77 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJX110": {
+  "PJX110_16.0.5.1001(CN01)": {
+   "md5": "12acd5d1b01dc3a03fec06a9a4f1a9c3",
+   "region": "cn",
+   "size": "8607.69 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJY110": {
+  "PJY110_15.0.0.1900(CN01)": {
+   "md5": "a61f7ecc9e3b0c12fd72085b239a15e4",
+   "region": "cn",
+   "size": "6407.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PJZ110": {
+  "PJZ110_16.0.10.501(CN01)": {
+   "md5": "6bd2956979795c267a062462ad7fc50f",
+   "region": "cn",
+   "size": "8559.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKA110": {
+  "PKA110_15.0.0.1900(CN01)": {
+   "md5": "2f746f9c08ab6f3c1cfde79e89a6143a",
+   "region": "cn",
+   "size": "6488.63 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKB110": {
+  "PKB110_16.0.10.500(CN01)": {
+   "md5": "97a2f3c7bc5a0afeecf40060d81ccc99",
+   "region": "cn",
+   "size": "8516.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKC110": {
+  "PKC110_16.0.10.500(CN01)": {
+   "md5": "572f9094f8ee717dcfe102637ea6cae1",
+   "region": "cn",
+   "size": "8615.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKC130": {
+  "PKC130_16.0.10.500(CN01)": {
+   "md5": "c25baf5636ac4230e4c5f45f91044e5c",
+   "region": "cn",
+   "size": "8613.84 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKD110": {
+  "PKD110_15.0.0.1900(CN01)": {
+   "md5": "47d3dad8a508808f68220c68aeaba60e",
+   "region": "cn",
+   "size": "5352.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKD130": {
+  "PKD130_15.0.0.1900(CN01)": {
+   "md5": "d3c761b94256f543bc76a12fd5f951f4",
+   "region": "cn",
+   "size": "5339.21 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKG110": {
+  "PKG110_15.0.0.860(CN01)": {
+   "md5": "f1dc5639c3965964bdd99e4f18550857",
+   "region": "cn",
+   "size": "7651.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKH110": {
+  "PKH110_16.0.10.501(CN01)": {
+   "md5": "d51c4e21408e351534edd4c0393d3e81",
+   "region": "cn",
+   "size": "9016.34 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKH120": {
+  "PKH120_16.0.10.501(CN01)": {
+   "md5": "b8b3645ad387e7bab961909a3e352518",
+   "region": "cn",
+   "size": "9015.09 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKJ110": {
+  "PKJ110_16.0.10.501(CN01)": {
+   "md5": "bf9eea5ec1c3bf78918d79dbc2735398",
+   "region": "cn",
+   "size": "9112.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKK110": {
+  "PKK110_16.0.5.1200(CN01)": {
+   "md5": "558d4f495963352e2197d60627c9b71a",
+   "region": "cn",
+   "size": "8434.75 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKL110": {
+  "PKL110_15.0.0.1900(CN01)": {
+   "md5": "3918bca92d3ea870f96e0f8de0660e54",
+   "region": "cn",
+   "size": "5394.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKM110": {
+  "PKM110_16.0.5.1200(CN01)": {
+   "md5": "c60ad7100821ba65cbc40c1545bd705e",
+   "region": "cn",
+   "size": "8428.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKP110": {
+  "PKP110_16.0.5.1201(CN01)": {
+   "md5": "39702ef2280ed0969042ccb6ec713ca0",
+   "region": "cn",
+   "size": "7643.34 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKQ110": {
+  "PKQ110_16.0.5.1200(CN01)": {
+   "md5": "50d3953c8c373bc7983d9037df09c543",
+   "region": "cn",
+   "size": "6492.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKR110": {
+  "PKR110_16.0.10.500(CN01)": {
+   "md5": "f08ebc8857b31c98d9565c3542c82b3f",
+   "region": "cn",
+   "size": "8131.05 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKS110": {
+  "PKS110_16.0.5.1002(CN01)": {
+   "md5": "8361debbcff8b22b7ce48e46fa1ed3cb",
+   "region": "cn",
+   "size": "7567.0 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKT110": {
+  "PKT110_16.0.10.500(CN01)": {
+   "md5": "879ce87b43e7ec1c3860cd9b034e0ca2",
+   "region": "cn",
+   "size": "8556.52 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKU110": {
+  "PKU110_16.0.10.501(CN01)": {
+   "md5": "091269146c51db71da082907c39813ef",
+   "region": "cn",
+   "size": "9118.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKV110": {
+  "PKV110_16.0.5.1200(CN01)": {
+   "md5": "9eee3c8f2242934066c7584ea0ee50f3",
+   "region": "cn",
+   "size": "5907.03 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKW110": {
+  "PKW110_16.0.5.1000(CN01)": {
+   "md5": "c1eb158aabc299c0c838b76e28207592",
+   "region": "cn",
+   "size": "5859.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKW120": {
+  "PKW120_16.0.5.1000(CN01)": {
+   "md5": "1a4f775689b7cd737c5971fc1ee2d2c7",
+   "region": "cn",
+   "size": "5797.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKX110": {
+  "PKX110_16.0.10.500(CN01)": {
+   "md5": "918612b11b727fb05d9c6190ce1cd8d1",
+   "region": "cn",
+   "size": "8160.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PKZ110": {
+  "PKZ110_16.0.9.400(CN01)": {
+   "md5": "0b00cc9a076ef7cef89fe705067c6915",
+   "region": "cn",
+   "size": "8384.47 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLA110": {
+  "PLA110_16.0.10.600(CN01)": {
+   "md5": "9b40f59f1bb2b5abc7b4cdd19fb0a39c",
+   "region": "cn",
+   "size": "8750.97 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLB110": {
+  "PLB110_16.0.10.500(CN01)": {
+   "md5": "0b572986fcf1252ec15e94b61e70ac2b",
+   "region": "cn",
+   "size": "8681.83 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLC110": {
+  "PLC110_16.0.10.500(CN01)": {
+   "md5": "8f90672be7775f0235d3365e0cbac9e4",
+   "region": "cn",
+   "size": "8060.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLD110": {
+  "PLD110_16.0.5.1001(CN01)": {
+   "md5": "3fb16fdfea784dbe7e3e6ea4cd73dfbe",
+   "region": "cn",
+   "size": "7010.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLE110": {
+  "PLE110_16.0.9.400(CN01)": {
+   "md5": "baf7f212b8d0dd7d8af85ba75bde9758",
+   "region": "cn",
+   "size": "7734.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLF110": {
+  "PLF110_16.0.10.501(CN01)": {
+   "md5": "3c0a6a33ee99b56fcf6e6d1c0e1db871",
+   "region": "cn",
+   "size": "8212.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLG110": {
+  "PLG110_16.0.10.501(CN01)": {
+   "md5": "ed74da0c5d0f2cebee307919bd0fa5bb",
+   "region": "cn",
+   "size": "8793.83 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLG120": {
+  "PLG120_16.0.10.501(CN01)": {
+   "md5": "f751d912bb4c87aec750c8ac596ed361",
+   "region": "cn",
+   "size": "8802.81 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLJ110": {
+  "PLJ110_16.0.10.502(CN01)": {
+   "md5": "630df2273197394d54e49d0610afc3fd",
+   "region": "cn",
+   "size": "8773.74 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLK110": {
+  "PLK110_16.0.10.500(CN01)": {
+   "md5": "2cbe1af4dece932fff62c81f5e6dbb68",
+   "region": "cn",
+   "size": "8722.95 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLL110": {
+  "PLL110_16.0.5.1201(CN01)": {
+   "md5": "7e855ce454c2ec23c76fce3f8c4abe1c",
+   "region": "cn",
+   "size": "7777.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLM110": {
+  "PLM110_16.0.5.1200(CN01)": {
+   "md5": "16fcbd2985d9c32ed23abe46d6a259e9",
+   "region": "cn",
+   "size": "7955.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLN110": {
+  "PLN110_16.0.5.1201(CN01)": {
+   "md5": "2fa72bbdf8efa5ce55bd7e121450628b",
+   "region": "cn",
+   "size": "7681.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLP110": {
+  "PLP110_16.0.10.500(CN01)": {
+   "md5": "33ba71c280c17f97bef82e75e6df9d18",
+   "region": "cn",
+   "size": "9198.42 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLP120": {
+  "PLP120_16.0.10.500(CN01)": {
+   "md5": "5edc06a3ecda9a130e82551172764251",
+   "region": "cn",
+   "size": "9203.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLQ110": {
+  "PLQ110_16.0.10.500(CN01)": {
+   "md5": "426959f59655e11efc126bc788a9a77f",
+   "region": "cn",
+   "size": "8066.44 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLR110": {
+  "PLR110_16.0.10.500(CN01)": {
+   "md5": "2ce9f884cfc5cc27611d4d59f168b887",
+   "region": "cn",
+   "size": "8049.56 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLS120": {
+  "PLS120_16.0.5.1200(CN01)": {
+   "md5": "f61d4d1deef35f8f191f323547e27fc1",
+   "region": "cn",
+   "size": "6146.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLT120": {
+  "PLT120_16.0.5.1200(CN01)": {
+   "md5": "d3ff633b552e47d993dfb9a527e850b1",
+   "region": "cn",
+   "size": "5998.35 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLT130": {
+  "PLT130_16.0.5.1200(CN01)": {
+   "md5": "60deb2f06818dd1c81fa71a9190d80a1",
+   "region": "cn",
+   "size": "5997.77 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLT140": {
+  "PLT140_16.0.5.1200(CN01)": {
+   "md5": "c56713658f7aac10c469bc00670c96e8",
+   "region": "cn",
+   "size": "5971.35 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLT150": {
+  "PLT150_16.0.5.1000(CN01)": {
+   "md5": "a3e529043bf3a3f74975931c9aa3ff01",
+   "region": "cn",
+   "size": "5751.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLU110": {
+  "PLU110_16.0.9.401(CN01)": {
+   "md5": "e8f027598ac300ac6a564a02d5e29c7d",
+   "region": "cn",
+   "size": "7878.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLV110": {
+  "PLV110_16.0.10.500(CN01)": {
+   "md5": "2da7a615ae7305fbde05ae7136cd04b4",
+   "region": "cn",
+   "size": "8584.82 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLW110": {
+  "PLW110_16.0.10.500(CN01)": {
+   "md5": "ce7caf55e106ebd9f7b95030235ba86b",
+   "region": "cn",
+   "size": "8579.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLY110": {
+  "PLY110_16.0.9.401(CN01)": {
+   "md5": "da284303471f4f79303431c50a7f81b1",
+   "region": "cn",
+   "size": "7482.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PLZ110": {
+  "PLZ110_16.0.10.500(CN01)": {
+   "md5": "c613b61ceaf628f331eefc5856f3d88f",
+   "region": "cn",
+   "size": "8745.44 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMA110": {
+  "PMA110_16.0.10.501(CN01)": {
+   "md5": "328838972f6fd5bd804ce127d5461375",
+   "region": "cn",
+   "size": "9630.97 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMA120": {
+  "PMA120_16.0.10.501(CN01)": {
+   "md5": "66306c284bc88985e146d14759f73440",
+   "region": "cn",
+   "size": "9651.25 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMB110": {
+  "PMB110_16.0.10.500(CN01)": {
+   "md5": "9c21fddedabec092e03b7ccc4cf29388",
+   "region": "cn",
+   "size": "8183.4 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMC110": {
+  "PMC110_16.0.5.1200(CN01)": {
+   "md5": "0861b9a7aedbe0ac8ef39ae3e5a841dc",
+   "region": "cn",
+   "size": "5951.03 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMD110": {
+  "PMD110_16.0.10.501(CN01)": {
+   "md5": "0c8b3af639c144ac9d31439488eeb934",
+   "region": "cn",
+   "size": "8518.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PME110": {
+  "PME110_16.0.10.500(CN01)": {
+   "md5": "fa8a6a88ad5e226a795240c1f2275da3",
+   "region": "cn",
+   "size": "8934.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMG110": {
+  "PMG110_16.0.10.500(CN01)": {
+   "md5": "02530bf96e1043872421109f33614965",
+   "region": "cn",
+   "size": "7982.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMH110": {
+  "PMH110_16.0.10.600(CN01)": {
+   "md5": "c45ac94bee9228559f6fbf32b6ef344b",
+   "region": "cn",
+   "size": "8461.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMK110": {
+  "PMK110_16.0.10.500(CN01)": {
+   "md5": "687404ac8783efcdb54729771e659bb4",
+   "region": "cn",
+   "size": "8633.17 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMM110": {
+  "PMM110_16.0.10.500(CN01)": {
+   "md5": "5b98187a027877bc965e5642eb28d446",
+   "region": "cn",
+   "size": "8553.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMT110": {
+  "PMT110_16.0.9.400(CN01)": {
+   "md5": "11bf558f0fcde9b9f6084fe1f16567ab",
+   "region": "cn",
+   "size": "6056.13 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMW110": {
+  "PMW110_17.0.0.109(CN01)": {
+   "md5": "d508ce53e90498a82d270eab553eb082",
+   "region": "cn",
+   "size": "10347.48 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PMX110": {
+  "PMX110_17.0.0.109(CN01)": {
+   "md5": "c3ac963ffc3bbd45048c8bfad45131f9",
+   "region": "cn",
+   "size": "10733.32 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PNA110": {
+  "PNA110_17.0.0.109(CN01)": {
+   "md5": "e92190665afa7d20b8d36f42b2d73619",
+   "region": "cn",
+   "size": "8950.36 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYC110": {
+  "PYC110_16.0.9.416(CN01)": {
+   "md5": "24464d6308e1a5a94ea74f2aa4267e54",
+   "region": "cn",
+   "size": "5989.0 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYD110": {
+  "PYD110_16.0.10.500(CN01)": {
+   "md5": "f99e2a2378c2085c9ecff28868752923",
+   "region": "cn",
+   "size": "7715.24 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYE110": {
+  "PYE110_16.0.10.504(CN01)": {
+   "md5": "22a6aa90193efa81243690894dd67d2e",
+   "region": "cn",
+   "size": "6018.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYE130": {
+  "PYE130_16.0.10.504(CN01)": {
+   "md5": "b7016656619aa7724185fa81a4eef7ba",
+   "region": "cn",
+   "size": "5992.92 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYR110": {
+  "PYR110_16.0.5.1301(CN01)": {
+   "md5": "68da0e6162533361dcb5c0d9df3ddd3f",
+   "region": "cn",
+   "size": "8028.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "PYS110": {
+  "PYS110_16.0.5.1100(CN01)": {
+   "md5": "1e90ec77a0618c883677c840492e8d7d",
+   "region": "cn",
+   "size": "7654.29 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMP2204": {
+  "RMP2204_14.1.0.1003(EX01)": {
+   "md5": "1987d3ce11cd5047e0b69b5a98b03ed9",
+   "region": "ru",
+   "size": "5096.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMP2204"
+  },
+  "RMP2204_14.1.0.1530(EX01)": {
+   "md5": "6203eeeb622284bc9240c21af9292c6b",
+   "region": "ph",
+   "size": "5227.17 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMP2204"
+  }
+ },
+ "RMX3031": {
+  "RMX3031_13.1.0.400(EX01)": {
+   "md5": "2172a1088a654bac4172e4391ca8192a",
+   "region": "in",
+   "size": "5949.3 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3081": {
+  "RMX3081_11_C.26": {
+   "md5": "9ff9ce67292c52cc87b2278cd6232887",
+   "region": "lk",
+   "size": "1.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3081"
+  }
+ },
+ "RMX3085": {
+  "RMX3085_11_C.14": {
+   "md5": "8398b1142ba8712626d76ebc6f328a80",
+   "region": "th",
+   "size": "1.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3085"
+  }
+ },
+ "RMX3241": {
+  "RMX3241_11_A.26": {
+   "md5": "39eb5d476e1db5c2733969277dcb9fee",
+   "region": "eu",
+   "size": "1.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3241"
+  },
+  "RMX3241_11_C.06": {
+   "md5": "1817eea167c92d238562b25d45919fee",
+   "region": "vn",
+   "size": "1.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3241"
+  }
+ },
+ "RMX3242": {
+  "RMX3242_11_C.06": {
+   "md5": "03ea33332795996e054f4beaa340e903",
+   "region": "latam",
+   "size": "1.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3242"
+  }
+ },
+ "RMX3301": {
+  "RMX3301_15.0.0.130(EX01)": {
+   "md5": "5d4c887b001d39203b6b911708528f04",
+   "region": "tw",
+   "size": "7210.77 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3301_15.0.0.1410(EX01)": {
+   "md5": "8c447329f01c7032fa3a70d0decc9dad",
+   "region": "in",
+   "size": "7467.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3312": {
+  "RMX3312_15.0.0.1670(EX01)": {
+   "md5": "8fabacf6c3b97b858ed95cabb8e8522c",
+   "region": "in",
+   "size": "7181.29 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3360": {
+  "RMX3360_13.1.0.161(EX01)": {
+   "md5": "75e13a3e69d16c4dd39fddaccf261845",
+   "region": "in",
+   "size": "5689.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3370": {
+  "RMX3370_11_A.09": {
+   "md5": "8f21467b370b006f3b737e98bc301c1d",
+   "region": "kz",
+   "size": "1.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3370"
+  },
+  "RMX3370_13.1.0.1100(EX01)": {
+   "md5": "9d92573b5966b9f328a7fef5ff0c5606",
+   "region": "tw",
+   "size": "6002.68 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3370_13.1.0.1101(EX01)": {
+   "md5": "d37a4caa5b48b3709e8df8980e5f653f",
+   "region": "eu",
+   "size": "5360.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3370_13.1.0.1110(EX01)": {
+   "md5": "e782fd35a624df48e51ec17e77813cb2",
+   "region": "latam",
+   "size": "5959.98 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3370_13.1.0.900(EX01)": {
+   "md5": "379437d7096bd842580584abc63221db",
+   "region": "th",
+   "size": "6035.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3371": {
+  "RMX3371_11_A.08": {
+   "md5": "be1f6138cdd6a6973af674393b620e29",
+   "region": "sa",
+   "size": "4357.69 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3371"
+  },
+  "RMX3371_11_A.10": {
+   "md5": "ae7c69669e0947d04b03ded9f386114a",
+   "region": "vn",
+   "size": "4551.65 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3371"
+  },
+  "RMX3371_14.0.0.1310(EX01)": {
+   "md5": "09729fd3035117cc344636c08436b063",
+   "region": "tw",
+   "size": "5757.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3371_14.0.0.210(EX01)": {
+   "md5": "047cf016bfae8e78e5d8ebd15fe3f783",
+   "region": "th",
+   "size": "5488.24 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3381": {
+  "RMX3381_11_C.07": {
+   "md5": "a22e6624259cec52df7681a6a3077e05",
+   "region": "in",
+   "size": "1.28 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3381"
+  }
+ },
+ "RMX3392": {
+  "RMX3392_14.0.0.1015(EX01)": {
+   "md5": "f8ba5962328f8ebc8514b5e778f8eea3",
+   "region": "in",
+   "size": "5925.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3395": {
+  "RMX3395_14.0.0.1015(EX01)": {
+   "md5": "f4ea2182f5c15ffc684628a3ce2e9a44",
+   "region": "in",
+   "size": "5973.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3430": {
+  "RMX3430_11_C.18": {
+   "md5": "46b480ee94d84a93be5817ff5ed25fb8",
+   "region": "tw",
+   "size": "1.3 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3430"
+  }
+ },
+ "RMX3461": {
+  "RMX3461_13.1.0.100(EX01)": {
+   "md5": "9c621794daa8032584269f735f671267",
+   "region": "in",
+   "size": "5612.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3471": {
+  "RMX3471_14.0.0.1900(EX01)": {
+   "md5": "a3bde63520a9acdf97f4adb881802b52",
+   "region": "in",
+   "size": "5625.06 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3491": {
+  "RMX3491_11_C.07": {
+   "md5": "6b8682ab6cf6f4321e44887f9bc9420e",
+   "region": "ru",
+   "size": "1.3 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3491"
+  },
+  "RMX3491_11_C.09": {
+   "md5": "234f33b8e92245f4aa3066e489737dca",
+   "region": "vn",
+   "size": "1.31 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3491"
+  }
+ },
+ "RMX3561": {
+  "RMX3561_13.1.0.800(EX01)": {
+   "md5": "7ca2e948863a556470adb1d63514abbf",
+   "region": "ru",
+   "size": "5912.22 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3561"
+  },
+  "RMX3561_14.0.0.524(EX01)": {
+   "md5": "55b57e92516f3486092aeb2d2925480e",
+   "region": "th",
+   "size": "6205.53 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3561_14.0.0.932(EX01)": {
+   "md5": "81e3b542dced2f38c06d52956ee7b15c",
+   "region": "tw",
+   "size": "6501.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3563": {
+  "RMX3563_14.0.0.524(EX01)": {
+   "md5": "f068ec4cabaf43e7a7a3d2ab53cd5233",
+   "region": "id",
+   "size": "6370.92 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3563_14.0.0.932(EX01)": {
+   "md5": "becc4e65f72bde70b976666ee887e8d8",
+   "region": "in",
+   "size": "6633.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3571": {
+  "RMX3571_14.0.0.114(EX01)": {
+   "md5": "97a2fb820675c7b860e3a20a6104d5a9",
+   "region": "in",
+   "size": "4958.67 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3612": {
+  "RMX3612_14.0.0.2200(EX01)": {
+   "md5": "0a9ed4f3023cc69c93cb5737f475af8f",
+   "region": "sa",
+   "size": "4961.93 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3612_14.0.0.900(EX01)": {
+   "md5": "b49492c1e1e50982c9f0667175d92632",
+   "region": "th",
+   "size": "4734.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3630": {
+  "RMX3630_14.0.0.2302(EX01)": {
+   "md5": "3dbdf1605bb85f8c7c839f2f49c0f920",
+   "region": "vn",
+   "size": "5483.94 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3630_14.0.0.2710(EX01)": {
+   "md5": "65c26ccb9ccf7d66ffb0c8a99e54e7c6",
+   "region": "sa",
+   "size": "5484.5 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3636": {
+  "RMX3636_14.0.0.910(EX01)": {
+   "md5": "50c9ea29882ea1c6eb7f0e2a00f8ea7c",
+   "region": "tr",
+   "size": "5361.83 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3636"
+  },
+  "RMX3636_14.0.0.920(EX01)": {
+   "md5": "d20d9aaae65f925f0bfebfd75a4ffbe0",
+   "region": "ru",
+   "size": "5751.95 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3636"
+  },
+  "RMX3636_14.0.0.930(EX01)": {
+   "md5": "884c89bd265064c12d91390c3ce61497",
+   "region": "apc",
+   "size": "5858.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3636"
+  },
+  "RMX3636_15.0.0.1910(EX01)": {
+   "md5": "0b26118de29cbed1d50669886de50124",
+   "region": "vn",
+   "size": "6507.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3660": {
+  "RMX3660_15.0.0.830(EX01)": {
+   "md5": "cdd139c31eea4b1ef0baee671dc572a5",
+   "region": "in",
+   "size": "6363.39 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3686": {
+  "RMX3686_14.0.0.900(EX01)": {
+   "md5": "32b186ccc222743a7f48d2bbe2759133",
+   "region": "ru",
+   "size": "5844.82 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3686"
+  },
+  "RMX3686_14.0.0.918(EX01)": {
+   "md5": "20037c3f995ba3125288f4ae102a57b2",
+   "region": "tw",
+   "size": "6083.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3686"
+  },
+  "RMX3686_15.0.0.1000(EX01)": {
+   "md5": "1f6df1a5fe9d1aa1e29a9ae759e4d8d3",
+   "region": "vn",
+   "size": "6713.63 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3701": {
+  "RMX3701_16.0.5.1010(EX01)": {
+   "md5": "48a4c9118a335e5420fe9dfbde4642c4",
+   "region": "mea",
+   "size": "8312.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3709": {
+  "RMX3709_15.0.0.470(EX01)": {
+   "md5": "d15e603af4671d33a39a30bc01e0275a",
+   "region": "my",
+   "size": "7450.08 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3709_15.0.0.500(EX01)": {
+   "md5": "13ea0b92a8d104f87562bc548b8afc56",
+   "region": "sa",
+   "size": "7326.38 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3741": {
+  "RMX3741_14.0.0.912(EX01)": {
+   "md5": "2e017cf8d4004b9aa7a2230b2cc848ad",
+   "region": "eu",
+   "size": "5752.54 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3741"
+  },
+  "RMX3741_14.0.0.915(EX01)": {
+   "md5": "ddf14a98248ef8111f4044baa7769edc",
+   "region": "tr",
+   "size": "5731.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3741"
+  },
+  "RMX3741_15.0.0.1910(EX01)": {
+   "md5": "8674d0244c35c0cc53b8e4d3ad18d776",
+   "region": "tw",
+   "size": "6832.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3741_15.0.0.930(EX01)": {
+   "md5": "aacbcec807d99cc8a69daf2c8390a708",
+   "region": "ru",
+   "size": "6416.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3750": {
+  "RMX3750_15.0.0.1910(EX01)": {
+   "md5": "ae94d1d5cfb03adc399a31a912d6af89",
+   "region": "in",
+   "size": "6093.62 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3771": {
+  "RMX3771_13.1.0.526(EX01)": {
+   "md5": "0389080606b15749ffc2a6902c2a5680",
+   "region": "latam",
+   "size": "5408.53 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3771"
+  },
+  "RMX3771_14.0.0.912(EX01)": {
+   "md5": "17fe95e288f540ad6e746a1704c03045",
+   "region": "eu",
+   "size": "5707.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3771"
+  },
+  "RMX3771_14.0.0.915(EX01)": {
+   "md5": "0d3abde13cb84a95d14707c3334dd7c5",
+   "region": "tr",
+   "size": "5686.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3771"
+  },
+  "RMX3771_15.0.0.1910(EX01)": {
+   "md5": "38009d771c97563ffe08b4bc34070857",
+   "region": "vn",
+   "size": "6732.42 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3780": {
+  "RMX3780_14.0.0.100(EX01)": {
+   "md5": "106af11e3eff1882b6e875f12a343e50",
+   "region": "in",
+   "size": "5040.08 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3780"
+  },
+  "RMX3780_15.0.0.110(EX01)": {
+   "md5": "230a4517b9af406e1e45eb65d8a31fe9",
+   "region": "eu",
+   "size": "5063.74 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3780_15.0.0.1910(EX01)": {
+   "md5": "ad1ddb5d79587164d9e56202ccd0382e",
+   "region": "tw",
+   "size": "6189.1 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3840": {
+  "RMX3840_15.0.0.1000(EX01)": {
+   "md5": "595617b4d02b5626f0630648bc56acac",
+   "region": "tr",
+   "size": "6518.14 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3840"
+  },
+  "RMX3840_16.0.5.1000(EX01)": {
+   "md5": "037890463485ed70283c7caa0db91427",
+   "region": "vn",
+   "size": "8215.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3842": {
+  "RMX3842_15.0.0.1000(EX01)": {
+   "md5": "c11407a48f0bed7fa2b7e1cf5857a0a3",
+   "region": "tr",
+   "size": "6452.41 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3842"
+  },
+  "RMX3842_16.0.5.1000(EX01)": {
+   "md5": "147b4248085fb51cd03d06ed09879fd4",
+   "region": "sa",
+   "size": "8152.03 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3851": {
+  "RMX3851_15.0.0.1010(EX01)": {
+   "md5": "4905d8faabc3f4ed97fc4cb816471237",
+   "region": "ru",
+   "size": "7376.49 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3851"
+  },
+  "RMX3851_15.0.0.730(EX01)": {
+   "md5": "f7aae590b07c7739e27f35669bd0d867",
+   "region": "tr",
+   "size": "6826.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3851"
+  },
+  "RMX3851_16.0.5.1200(EX01)": {
+   "md5": "27bc8dede4585c7d57f518c969a71ba3",
+   "region": "tw",
+   "size": "8663.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3853": {
+  "RMX3853_15.0.0.1010(EX01)": {
+   "md5": "909251f35a1ca9ddd3aacea257b0ddf4",
+   "region": "tr",
+   "size": "6688.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3853"
+  },
+  "RMX3853_16.0.5.1200(EX01)": {
+   "md5": "af67bd058c0a415afeb076d365bfcbe1",
+   "region": "th",
+   "size": "8413.43 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3867": {
+  "RMX3867_15.0.0.940(EX01)": {
+   "md5": "903b9598879f963a11c629125524abed",
+   "region": "tr",
+   "size": "6005.19 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3867"
+  },
+  "RMX3867_16.0.5.1201(EX01)": {
+   "md5": "c7cbf528219cc766d01889148fc5f069",
+   "region": "vn",
+   "size": "7589.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3867_16.0.5.702(EX01)": {
+   "md5": "352008dab88d6dd34d78be4ed9db1b64",
+   "region": "tw",
+   "size": "7343.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3868": {
+  "RMX3868_16.0.5.1201(EX01)": {
+   "md5": "0ebf91fd8d2c2061713579173eed67d6",
+   "region": "in",
+   "size": "7468.03 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3869": {
+  "RMX3869_16.0.5.1200(EX01)": {
+   "md5": "af6f9b92ed646f29f04b2eea248cba98",
+   "region": "in",
+   "size": "6852.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3871": {
+  "RMX3871_15.0.0.1200(EX01)": {
+   "md5": "98aefd8dbb45d28bf71ab9e14267da9f",
+   "region": "sa",
+   "size": "6286.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3871"
+  },
+  "RMX3871_15.0.0.802(EX01)": {
+   "md5": "9090c5b9a50eccc80896ed323db2c70c",
+   "region": "tr",
+   "size": "5552.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3871"
+  },
+  "RMX3871_16.0.5.1200(EX01)": {
+   "md5": "4dbc18d66d2bddd920ce5ffe297c07e7",
+   "region": "vn",
+   "size": "7384.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3940": {
+  "RMX3940_16.0.5.1200(EX01)": {
+   "md5": "a60fb95bac52c98421dc64292ef134d4",
+   "region": "in",
+   "size": "6660.39 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3941": {
+  "RMX3941_14.1.0.370(EX01)": {
+   "md5": "da7ef8c12c4031e1d17b84e674c3b8c2",
+   "region": "eu",
+   "size": "5023.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3941"
+  },
+  "RMX3941_14.1.0.400(EX01)": {
+   "md5": "2e05e452a4dbbe5b5949713e1f1e2b2f",
+   "region": "vn",
+   "size": "5333.88 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3941"
+  }
+ },
+ "RMX3943": {
+  "RMX3943_15.0.0.1011(EX01)": {
+   "md5": "b5a28ca77b937997c4f7fc51fe24a9be",
+   "region": "eu",
+   "size": "5493.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3943"
+  },
+  "RMX3943_15.0.0.1200(EX01)": {
+   "md5": "2cbf1ba8618b2806ac0e2b0dbaf7345a",
+   "region": "tw",
+   "size": "5947.05 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3943"
+  },
+  "RMX3943_16.0.5.1200(EX01)": {
+   "md5": "2cd7c7afdfe88986f1ad4eec7eec2fe4",
+   "region": "in",
+   "size": "6737.04 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3943IN"
+  },
+  "RMX3943_16.0.5.1210(EX01)": {
+   "md5": "42dd88ea0f3633fa15e6d921ba79fe35",
+   "region": "my",
+   "size": "7070.48 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3944": {
+  "RMX3944_16.0.5.1210(EX01)": {
+   "md5": "7acc972ba1c51967685593d8d3b57a48",
+   "region": "in",
+   "size": "6703.91 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3944IN"
+  }
+ },
+ "RMX3945": {
+  "RMX3945_16.0.5.1210(EX01)": {
+   "md5": "be5936e1d0fa690b53af1b1fdc287413",
+   "region": "in",
+   "size": "6734.98 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3945IN"
+  }
+ },
+ "RMX3950": {
+  "RMX3950_16.0.5.1210(EX01)": {
+   "md5": "cb06e51140032803eeb659efde69b682",
+   "region": "in",
+   "size": "6561.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3951": {
+  "RMX3951_15.0.0.1600(EX01)": {
+   "md5": "482cc3e5462f6cb5189e8e25b358f9c6",
+   "region": "ru",
+   "size": "5650.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3951"
+  },
+  "RMX3951_16.0.5.1000(EX01)": {
+   "md5": "134f3fe3123a1537c51393e354ac2bb1",
+   "region": "latam",
+   "size": "6648.26 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3951_16.0.5.1210(EX01)": {
+   "md5": "04a7776c16a7842b38be58029adedcce",
+   "region": "th",
+   "size": "6680.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3987": {
+  "RMX3987_16.0.5.1000(EX01)": {
+   "md5": "d107ecbf7f68e55e0549f1de8fee79f4",
+   "region": "in",
+   "size": "8278.67 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3988": {
+  "RMX3988_16.0.5.1000(EX01)": {
+   "md5": "7d744f2d4cf468fdaff2d56fcea927c3",
+   "region": "ph",
+   "size": "8102.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3988_16.0.5.1301(EX01)": {
+   "md5": "f6ab6e4dd935e15992f239305c4e0d29",
+   "region": "tw",
+   "size": "8279.88 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3990": {
+  "RMX3990_16.0.5.1000(EX01)": {
+   "md5": "802c212a27ba2605abc5bac7a31ff381",
+   "region": "in",
+   "size": "7976.69 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3997": {
+  "RMX3997_14.0.1.523(EX01)": {
+   "md5": "4f111c17b590a4a51b24c99f9440f9b9",
+   "region": "id",
+   "size": "5483.75 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3997"
+  },
+  "RMX3997_14.0.1.524(EX01)": {
+   "md5": "c5fecb5f081b0dc7329e5a6c98edc8a0",
+   "region": "ru",
+   "size": "5243.66 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3997"
+  },
+  "RMX3997_16.0.5.1210(EX01)": {
+   "md5": "8b7482d5b5383dfa2e8efa9cda9d5464",
+   "region": "in",
+   "size": "6476.73 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3998": {
+  "RMX3998_16.0.5.1210(EX01)": {
+   "md5": "f014b138970a838143d339c791d14cf7",
+   "region": "in",
+   "size": "6542.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX3999": {
+  "RMX3999_14.0.1.521(EX01)": {
+   "md5": "836d7399a61594bbc2eaa9e965e2c0f3",
+   "region": "vn",
+   "size": "5362.75 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3999"
+  },
+  "RMX3999_14.0.1.524(EX01)": {
+   "md5": "66de6602f4f6a763ba41b9c4da56bdf5",
+   "region": "mx",
+   "size": "5228.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3999"
+  },
+  "RMX3999_14.0.1.529(EX01)": {
+   "md5": "03db3a9af553ea6349de6c00a8a984d0",
+   "region": "ru",
+   "size": "5298.74 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX3999"
+  },
+  "RMX3999_16.0.5.1000(EX01)": {
+   "md5": "21a065d893d45dcc144f9fedde853832",
+   "region": "kz",
+   "size": "6569.37 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX3999_16.0.5.1210(EX01)": {
+   "md5": "4b71d85af33c489b17a62662c20adb8c",
+   "region": "tw",
+   "size": "6731.8 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5000": {
+  "RMX5000_15.0.0.900(EX01)": {
+   "md5": "9b32f73f04f4b8a3b518d440c68dc152",
+   "region": "ru",
+   "size": "7125.4 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5000"
+  },
+  "RMX5000_16.0.5.1010(EX01)": {
+   "md5": "5d8fc600ddbb507927b9047d9902f021",
+   "region": "vn",
+   "size": "8318.15 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5003": {
+  "RMX5003_16.0.5.1010(EX01)": {
+   "md5": "71a5ec290ec58ef37306f9e0d70b4a4e",
+   "region": "in",
+   "size": "8234.04 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5004": {
+  "RMX5004_16.0.5.1010(EX01)": {
+   "md5": "deff1c77ec703c49167d4b0612d20c0b",
+   "region": "in",
+   "size": "8234.04 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5011": {
+  "RMX5011_15.0.0.270(EX01)": {
+   "md5": "27632a1a5d1f1ef7449f898c9cd6bd6b",
+   "region": "tr",
+   "size": "6939.71 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5011"
+  },
+  "RMX5011_15.0.0.910(EX01)": {
+   "md5": "b7e67ba29d596f045146711bb1104cb0",
+   "region": "ru",
+   "size": "7776.57 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5011"
+  },
+  "RMX5011_16.0.10.500(EX01)": {
+   "md5": "fba0e5b096752770f50f8f481aeedf7f",
+   "region": "in",
+   "size": "9027.02 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5020": {
+  "RMX5020_16.0.5.1010(EX01)": {
+   "md5": "151bc21801f09d69e39769bfbf79bff0",
+   "region": "vn",
+   "size": "6330.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5020"
+  },
+  "RMX5020_16.0.5.1300(EX01)": {
+   "md5": "4ce0e012732a46622e0e917c64f87c36",
+   "region": "mx",
+   "size": "6437.52 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5020"
+  }
+ },
+ "RMX5030": {
+  "RMX5030_16.0.5.1210(EX01)": {
+   "md5": "3a28b48c151034606794ea0cd398bdb2",
+   "region": "in",
+   "size": "8500.97 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5030IN"
+  }
+ },
+ "RMX5031": {
+  "RMX5031_16.0.3.502(EX01)": {
+   "md5": "eee375913a00dd4bd1cb5b00799888b3",
+   "region": "id",
+   "size": "8200.44 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5031"
+  },
+  "RMX5031_16.0.5.1210(EX01)": {
+   "md5": "f30dcf38a65655b136cca5c60e7de6ca",
+   "region": "th",
+   "size": "8527.87 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5031"
+  }
+ },
+ "RMX5032": {
+  "RMX5032_15.0.0.1034(EX01)": {
+   "md5": "a4a3c982289390a3c61ab74a6fa85bde",
+   "region": "in",
+   "size": "7374.98 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5032IN"
+  }
+ },
+ "RMX5051": {
+  "RMX5051_15.0.0.1034(EX01)": {
+   "md5": "befe7e8f54937efa9a39a5ec62b44e74",
+   "region": "tr",
+   "size": "6679.72 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5051"
+  },
+  "RMX5051_15.0.0.640(EX01)": {
+   "md5": "5cd40f62cd103a48a014383d4fbbd03f",
+   "region": "vn",
+   "size": "7378.07 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5051"
+  },
+  "RMX5051_16.0.0.230(EX01)": {
+   "md5": "a0bcd5dd9de931977d0863f7a6d1e020",
+   "region": "eg",
+   "size": "8192.17 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX5051_16.0.5.1200(EX01)": {
+   "md5": "337fb945b606daaaa37af1959e9fa82f",
+   "region": "tw",
+   "size": "8606.04 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5056": {
+  "RMX5056_15.0.0.1202(EX01)": {
+   "md5": "b86a02b1b1cdc8534c4a21b2c5fb8d4f",
+   "region": "lk",
+   "size": "7199.58 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5056"
+  },
+  "RMX5056_16.0.5.1210(EX01)": {
+   "md5": "1dd9f3dc90d222aa89af64700893918d",
+   "region": "vn",
+   "size": "8375.6 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX5056_16.0.5.1220(EX01)": {
+   "md5": "9ef67e2ca86c8d8409bcf66b97ccbb79",
+   "region": "in",
+   "size": "8286.7 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5057": {
+  "RMX5057_16.0.5.1210(EX01)": {
+   "md5": "2956c7a7a72bee08f933066e35c1d058",
+   "region": "eu",
+   "size": "7794.45 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5061": {
+  "RMX5061_15.0.1.593(EX01)": {
+   "md5": "6f3a28e3a1d6d523dc2c0629496079cf",
+   "region": "in",
+   "size": "8071.16 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5061"
+  },
+  "RMX5061_15.0.1.813(EX01)": {
+   "md5": "b52b792a4d988a3d26244bdcb6822ecb",
+   "region": "ru",
+   "size": "8136.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5061"
+  },
+  "RMX5061_16.0.10.500(EX01)": {
+   "md5": "b257ea5bcea4a10abdf44d8d60456187",
+   "region": "mea",
+   "size": "9201.76 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5070": {
+  "RMX5070_15.0.0.780(EX01)": {
+   "md5": "4dc95b4159c310e5b7e6ecfeefccaade",
+   "region": "tr",
+   "size": "6423.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5070"
+  },
+  "RMX5070_15.0.0.830(EX01)": {
+   "md5": "d0ca215f1e2ac01625d283a375edf768",
+   "region": "ru",
+   "size": "6900.08 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5070"
+  },
+  "RMX5070_15.0.0.840(EX01)": {
+   "md5": "316da2f4c7fcecb561fc3762f663dac1",
+   "region": "eu",
+   "size": "6585.46 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5070"
+  },
+  "RMX5070_16.0.5.1010(EX01)": {
+   "md5": "2d6e99f9afa257572144f6e140858748",
+   "region": "vn",
+   "size": "8064.99 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX5070_16.0.5.1300(EX01)": {
+   "md5": "f344903cbbe5fbb24443b38353cb41e7",
+   "region": "mea",
+   "size": "8199.78 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5074": {
+  "RMX5074_16.0.5.1010(EX01)": {
+   "md5": "c7995206669c0c7dc4ba80bd365aaa29",
+   "region": "eu",
+   "size": "6356.19 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5078": {
+  "RMX5078_15.0.0.1207(EX01)": {
+   "md5": "9427e15ca7856f0b1234e415347993bf",
+   "region": "in",
+   "size": "5951.65 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5078"
+  },
+  "RMX5078_15.0.0.1208(EX01)": {
+   "md5": "2701a5172c1b648aabc9f538c3fbbe7b",
+   "region": "sa",
+   "size": "5979.41 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5078"
+  },
+  "RMX5078_16.0.5.1010(EX01)": {
+   "md5": "a93fad70fecfd7621faee5cf36c6ac0b",
+   "region": "th",
+   "size": "6814.82 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5079": {
+  "RMX5079_15.0.0.830(EX01)": {
+   "md5": "9fc5e232c0c4fd81950cdee2ff757a87",
+   "region": "ru",
+   "size": "6830.89 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5079"
+  },
+  "RMX5079_15.0.0.840(EX01)": {
+   "md5": "3ce9097dc70cf3fd890d50346d323168",
+   "region": "eu",
+   "size": "6588.22 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5079"
+  }
+ },
+ "RMX5085": {
+  "RMX5085_15.0.0.816(EX01)": {
+   "md5": "8b6d547d692a5115fc66848d5e920de1",
+   "region": "eu",
+   "size": "7204.25 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5085EEA"
+  },
+  "RMX5085_16.0.9.402(EX01)": {
+   "md5": "f457441693010dddd9f53a81a9d05b94",
+   "region": "tw",
+   "size": "8933.59 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5101": {
+  "RMX5101_16.0.0.202(EX01)": {
+   "md5": "9b0ccc126c9a8729ecf14fff36b1963f",
+   "region": "tr",
+   "size": "7698.5 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5101"
+  },
+  "RMX5101_16.0.5.1210(EX01)": {
+   "md5": "032a883b3a69759cc2dc7e18be946c4e",
+   "region": "tw",
+   "size": "8619.13 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5101"
+  }
+ },
+ "RMX5106": {
+  "RMX5106_16.0.5.1200(EX01)": {
+   "md5": "9ddf35e18d9403925a80ac4b344e0bc1",
+   "region": "vn",
+   "size": "8335.36 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5106"
+  }
+ },
+ "RMX5108": {
+  "RMX5108_16.0.5.1201(EX01)": {
+   "md5": "14521d986f9382313977214517438216",
+   "region": "in",
+   "size": "8307.18 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5108IN"
+  }
+ },
+ "RMX5110": {
+  "RMX5110_16.0.5.1200(EX01)": {
+   "md5": "67d8df732d5566f8bd7c242b1d75053c",
+   "region": "in",
+   "size": "8102.85 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5110IN"
+  }
+ },
+ "RMX5111": {
+  "RMX5111_16.0.5.1000(EX01)": {
+   "md5": "d1f1d33d24e5bb02de325e8420a75b39",
+   "region": "in",
+   "size": "6997.01 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  },
+  "RMX5111_16.0.5.1301(EX01)": {
+   "md5": "ac066caf0791ab7119299fc10f3fac3d",
+   "region": "sa",
+   "size": "7136.11 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": ""
+  }
+ },
+ "RMX5116": {
+  "RMX5116_16.0.5.1200(EX01)": {
+   "md5": "776bd2e6010beaa1d800630438b56911",
+   "region": "in",
+   "size": "8572.54 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5116IN"
+  }
+ },
+ "RMX5120": {
+  "RMX5120_16.0.5.1102(EX01)": {
+   "md5": "06e6319fe0e9018a04d7cf09f098b9b7",
+   "region": "ru",
+   "size": "8345.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5120"
+  },
+  "RMX5120_16.0.5.1105(EX01)": {
+   "md5": "7a4a7539a0693cfc7006c768daf36415",
+   "region": "vn",
+   "size": "8346.89 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5120"
+  },
+  "RMX5120_16.0.5.707(EX01)": {
+   "md5": "a6bd9fcc16e8cc649abbd4a0b31122a5",
+   "region": "sa",
+   "size": "8274.32 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5120"
+  }
+ },
+ "RMX5131": {
+  "RMX5131_16.0.2.412(EX01)": {
+   "md5": "e84d61a1a07ed477fdb119cc79094239",
+   "region": "mx",
+   "size": "8658.96 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5131"
+  },
+  "RMX5131_16.0.5.1201(EX01)": {
+   "md5": "d6bc7bf51ab847893ffd6f71887686d2",
+   "region": "latam",
+   "size": "9013.55 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5131"
+  }
+ },
+ "RMX5210": {
+  "RMX5210_16.0.9.402(EX01)": {
+   "md5": "b667a200f3dd5dfd888c8fc7b2824681",
+   "region": "ru",
+   "size": "9694.9 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5210"
+  },
+  "RMX5210_16.0.9.404(EX01)": {
+   "md5": "f2a6183d25aa57ec0491b038e7158713",
+   "region": "in",
+   "size": "9687.61 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5210IN"
+  }
+ },
+ "RMX5250": {
+  "RMX5250_16.0.5.1002(EX01)": {
+   "md5": "660783e9553cd4b2b4dbb724438f441a",
+   "region": "in",
+   "size": "6929.2 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5250IN"
+  }
+ },
+ "RMX5261": {
+  "RMX5261_16.0.5.1213(EX01)": {
+   "md5": "5784e800556957db72a06b6d9feb22e1",
+   "region": "in",
+   "size": "6965.86 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5261IN"
+  }
+ },
+ "RMX5264": {
+  "RMX5264_16.0.5.1002(EX01)": {
+   "md5": "95e33a7b0a519a3cad6ca18911d97a6a",
+   "region": "in",
+   "size": "6876.23 MB",
+   "source": "jeck24India/op-ota",
+   "working_model_string": "RMX5264IN"
+  }
+ }
+}
