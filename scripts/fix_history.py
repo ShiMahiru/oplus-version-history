@@ -33,14 +33,16 @@ ROOT = U.ROOT
 NV_RE = re.compile(r"^[A-Z0-9]+NV[0-9A-F]{2}_11\.[A-Z]\.01_0001_100001010000$")
 NVID_RE = re.compile(r"^([A-Z0-9]+?)(NV[0-9A-F]{2})_11\.([A-Z])\.01_0001_100001010000$")
 
-# nvid → 官方网关区域（RomCloud 实测区域表：NV97=CN, NV1B=IN, NV44=EU, NVA7=GL；
-# 其余区域码走 EU 网关，实测这些机型在 eu 网关有响应）
-NVID_REGION = {
-    "NV97": "cn", "NV1B": "in", "NV44": "eu", "NVA7": "gl",
-    "NV33": "eu", "NV2C": "eu", "NV1A": "eu", "NV38": "eu", "NV39": "eu",
-    "NV37": "eu", "NV51": "gl", "NV83": "eu", "NVA6": "eu", "NV3D": "eu",
-    "NV5A": "eu", "NV9A": "eu", "NV9E": "gl",
-}
+# nvid → 官方网关区域。直接由 update.REGIONS 反查生成，避免两张表漂移。
+# 注意：v3_query 的 host/公钥由 region 决定，所以必须让 nvid 落回它真正的区域，
+# 否则会出现「nvid 对但网关错」→ 500 或 2004。
+_NVID_ORDER = ["cn", "in", "eu", "tr", "ru", "gb", "gl", "na", "tw", "sg", "id",
+               "my", "vn", "th", "ph", "sa", "mea", "latam", "br", "kz", "oca",
+               "apc", "eg", "lk", "mx"]
+NVID_REGION = {}
+for _r in _NVID_ORDER:
+    if _r in U.REGIONS:
+        NVID_REGION.setdefault(U.REGIONS[_r]["nvid"], _r)
 
 
 def parse_line(ln):

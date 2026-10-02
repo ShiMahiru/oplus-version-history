@@ -30,16 +30,52 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 # ─────────────── 区域配置（官方网关，实测值） ───────────────
-REGIONS = {
-    "cn": {"host": "component-ota-cn.allawntech.com", "lang": "zh-CN", "carrier": "10010111",
-           "neg": "1615879139745", "key": "cn", "uRegion": "CN", "nvid": "NV97"},
-    "eu": {"host": "component-ota-eu.allawnos.com", "lang": "en-GB", "carrier": "01000100",
-           "neg": "1615897067573", "key": "eu", "uRegion": "EU", "nvid": "NV44"},
-    "in": {"host": "component-ota-in.allawnos.com", "lang": "en-IN", "carrier": "00011011",
-           "neg": "1615896309308", "key": "in", "uRegion": "IN", "nvid": "NV1B"},
-    "gl": {"host": "component-ota-sg.allawnos.com", "lang": "en-US", "carrier": "10100111",
-           "neg": "1615895993238", "key": "sg", "uRegion": "GL", "nvid": "NVA7"},
+# carrier 为 nvid 的二进制串；key/neg 必须与 host 匹配，否则网关返回 500「未知异常」。
+# 实测来源：op-ota/global.py 的 REGION_MAP + OPlus-Tracker/config.py 的 public_key_version。
+# 四个网关各自的公钥/negotiationVersion（用错则 500）：
+_SRV = {
+    0: {"host": "component-ota-sg.allawnos.com", "key": "sg", "neg": "1615895993238"},
+    1: {"host": "component-ota-cn.allawntech.com", "key": "cn", "neg": "1615879139745"},
+    2: {"host": "component-ota-in.allawnos.com", "key": "in", "neg": "1615896309308"},
+    3: {"host": "component-ota-eu.allawnos.com", "key": "eu", "neg": "1615897067573"},
 }
+# 区域 -> (server, carrier, uRegion, lang)；uRegion 官方只用 CN/IN/EU/GL 四值。
+REGION_TABLE = {
+    "cn":    (1, "10010111", "CN", "zh-CN"),
+    "in":    (2, "00011011", "IN", "en-IN"),
+    "eu":    (3, "01000100", "EU", "en-GB"),
+    "gl":    (0, "10100111", "GL", "en-US"),
+    "tw":    (0, "00011010", "GL", "zh-TW"),
+    "ru":    (3, "00110111", "EU", "ru-RU"),
+    "tr":    (3, "01010001", "EU", "tr-TR"),
+    "gb":    (3, "10001010", "EU", "en-GB"),
+    "sg":    (0, "00101100", "GL", "en-SG"),
+    "id":    (0, "00110011", "GL", "id-ID"),
+    "my":    (0, "00111000", "GL", "ms-MY"),
+    "vn":    (0, "00111100", "GL", "vi-VN"),
+    "th":    (0, "00111001", "GL", "th-TH"),
+    "ph":    (0, "00111110", "GL", "en-PH"),
+    "sa":    (0, "10000011", "GL", "sa-SA"),
+    "mea":   (0, "10100110", "GL", "en-MEA"),
+    "latam": (0, "10011010", "GL", "en-LA"),
+    "br":    (0, "10011110", "GL", "en-BR"),
+    "kz":    (0, "01011010", "GL", "ru-KZ"),
+    "oca":   (0, "10100101", "GL", "en-US"),
+    "apc":   (0, "10100100", "GL", "en-US"),
+    "eg":    (0, "01110101", "GL", "ar-EG"),
+    "lk":    (0, "01100000", "GL", "en-LK"),
+    "mx":    (0, "01111011", "GL", "es-MX"),
+    "na":    (0, "10100111", "GL", "en-US"),
+}
+
+REGIONS = {}
+for _name, (_srv, _carrier, _ureg, _lang) in REGION_TABLE.items():
+    REGIONS[_name] = {
+        "host": _SRV[_srv]["host"], "key": _SRV[_srv]["key"],
+        "neg": _SRV[_srv]["neg"], "carrier": _carrier,
+        "uRegion": _ureg, "lang": _lang,
+        "nvid": "NV%02X" % int(_carrier, 2),
+    }
 LETTER_POOL = ["A", "C", "F", "H", "J", "E", "B", "D", "G"]
 GAP = 0.4  # 实测 >300ms 稳定
 TIMEOUT = 20
@@ -56,15 +92,27 @@ except ImportError:
     sys.exit("需要 cryptography: pip install cryptography")
 
 
+# models.json 里的 region 标记 -> REGION_TABLE 键。
+# 旧实现把非 cn/in/eu 的机型一律压成 gl+NVA7，导致 TW/RU/TR/ID/MY/VN/MEA/KZ 等
+# 约 106 个机型长期取不到数据。此处按官方区域逐个映射。
+_REGION_ALIAS = {
+    "CN": "cn", "CH": "cn", "CT": "cn", "CNCMCC": "cn", "CNMOBILE": "cn",
+    "IN": "in", "IND": "in",
+    "EU": "eu", "EEA": "eu", "UK": "eu", "EU-OR": "eu", "EUOR": "eu",
+    "GL": "gl", "GLO": "gl", "GLOBAL": "gl",
+    "TW": "tw", "RU": "ru", "TR": "tr", "GB": "gb",
+    "SG": "sg", "ID": "id", "MY": "my", "VN": "vn", "TH": "th",
+    "PH": "ph", "SA": "sa", "MEA": "mea",
+    "LATAM": "latam", "LA": "latam", "BR": "br",
+    "KZ": "kz", "OCA": "oca", "APC": "apc", "EG": "eg",
+    "LK": "lk", "MX": "mx", "MX-TELCEL": "mx", "MX-ATT": "mx",
+    "NA": "na", "MM": "gl", "BD": "gl", "PK": "gl", "NP": "gl", "KH": "gl",
+}
+
+
 def region_of(model):
     reg = (model.get("region") or "GL").upper()
-    if reg in ("CN", "CH", "CT", "CNCMCC"):
-        return "cn"
-    if reg == "IN":
-        return "in"
-    if reg in ("EU", "EEA", "UK"):
-        return "eu"
-    return "gl"
+    return _REGION_ALIAS.get(reg, "gl")
 
 
 def load_pub(reg_key):
@@ -428,6 +476,40 @@ def write_downgrade(model, items):
         f.write("\n".join(lines))
 
 
+# 各区域机型 code 常见的后缀写法（RMX2202RU / CPH2551IN / CPH2477EEA）。
+# 带后缀的串在 v3 的 model header 里查不到，必须去掉后缀用裸 code 重试。
+REGION_SUFFIX = {
+    "cn": ("CN",), "in": ("IN",), "eu": ("EEA", "EU"), "gl": (),
+    "tw": ("TW",), "ru": ("RU",), "tr": ("TR",), "gb": ("GB",),
+    "sg": ("SG",), "id": ("ID",), "my": ("MY",), "vn": ("VN",),
+    "th": ("TH",), "ph": ("PH",), "sa": ("SA",), "mea": ("MEA",),
+    "latam": ("LATAM", "LA"), "br": ("BR",), "kz": ("KZ",),
+    "oca": ("OCA",), "apc": ("APC",), "eg": ("EG",), "lk": ("LK",),
+    "mx": ("MX",), "na": ("NA",),
+}
+_CODE_SUFFIX_RE = re.compile(r"^([A-Z]{2,4}\d{3,5})([A-Z]{2,4})$")
+
+
+def code_variants(code, region):
+    """返回待试的 model 串，原串优先，其次是去区域后缀的裸 code。"""
+    m = _CODE_SUFFIX_RE.match(code)
+    if not m:
+        return [code]
+    base, suffix = m.group(1), m.group(2)
+    out = [code]
+    if suffix in REGION_SUFFIX.get(region, ()) or suffix in (
+            "RU", "IN", "EEA", "EU", "TW", "ID", "MY", "VN", "TH",
+            "PH", "SA", "MEA", "KZ", "BR", "LA", "LATAM", "OCA", "APC",
+            "EG", "LK", "MX", "NA", "SG", "TR", "GB", "CN"):
+        out.append(base)
+    seen, uniq = set(), []
+    for c in out:
+        if c not in seen:
+            seen.add(c)
+            uniq.append(c)
+    return uniq
+
+
 # ─────────────── 主流程 ───────────────
 def update_model(model, opts):
     code = model["code"]
@@ -438,23 +520,28 @@ def update_model(model, opts):
     latest = None
     hits = []
 
-    for letter in LETTER_POOL:
-        res = v3_query(code, region, letter)
-        if not res or not res["url"]:
+    for variant in code_variants(code, region):
+        for letter in LETTER_POOL:
+            res = v3_query(variant, region, letter)
+            if not res or not res["url"]:
+                time.sleep(GAP)
+                continue
+            hits.append(letter)
+            fp = res["fp"] or res["fw"]
+            ver = res["version"]
+            if not history.get(fp):
+                history[fp] = ver
+                new_fp += 1
+                if ver:
+                    write_link(code, ver, res["url"])
+                    new_links += 1
+            if latest is None:
+                latest = res
             time.sleep(GAP)
-            continue
-        hits.append(letter)
-        fp = res["fp"] or res["fw"]
-        ver = res["version"]
-        if not history.get(fp):
-            history[fp] = ver
-            new_fp += 1
-            if ver:
-                write_link(code, ver, res["url"])
-                new_links += 1
-        if latest is None:
-            latest = res
-        time.sleep(GAP)
+        if hits:
+            break          # 原串已命中，无需再去后缀重试
+        if len(code_variants(code, region)) > 1:
+            print(f"  {code} 原串未命中，回退去后缀重试 {code_variants(code, region)[1]}")
 
     if new_fp:
         write_history(code, history)
