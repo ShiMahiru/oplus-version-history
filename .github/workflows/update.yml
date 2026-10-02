@@ -14,19 +14,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 按官方网关分片抓取。
+  # 按机型索引分片抓取。
   #
-  # 为什么必须分片：单次全量 356 机型，每机型要遍历 9 个分支字母，每次查询后
-  # 固定 sleep 0.4s（官方限流），算下来 65–90 分钟 —— 正好撞死在上限上，
-  # 2026-10-01 那轮手动触发就是这样卡在「官方增量更新」这一步直到被强杀。
-  # 拆成四片后最慢一片（gl，161 机型）约 35 分钟。
+  # 为什么必须分片：单次全量 586 机型，每机型要遍历 9 个分支字母，每次查询后
+  # 固定 sleep 0.4s（官方限流），算下来 3 小时以上，远超 job 上限。
+  #
+  # 注意：这里按索引分片，不按区域分片。区域表现在有 26 个（cn/in/eu/tr/ru/gb
+  # 之外还有 tw/sg/id/my/vn/th/ph/sa/mea/latam/br/kz/oca/apc/eg/lk/mx/na 等），
+  # 旧的 [cn, eu, in, gl] 四片写法会让另外 22 个区域的机型永远不被抓取。
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
     strategy:
       fail-fast: false
       matrix:
-        region: [cn, eu, in, gl]
+        shard: [0, 1, 2, 3, 4, 5]
     steps:
       - uses: actions/checkout@v4
 
@@ -37,12 +39,12 @@ jobs:
       - name: 安装依赖
         run: pip install requests cryptography
 
-      - name: 官方增量更新（网关 ${{ matrix.region }}）
-        run: python3 scripts/update.py --region ${{ matrix.region }}
+      - name: 官方增量更新（分片 ${{ matrix.shard }}/6）
+        run: python3 scripts/update.py --shard ${{ matrix.shard }}/6
 
       - uses: actions/upload-artifact@v4
         with:
-          name: ota-data-${{ matrix.region }}
+          name: ota-data-${{ matrix.shard }}
           path: |
             links/
             models/
@@ -50,8 +52,8 @@ jobs:
           if-no-files-found: ignore
           retention-days: 3
 
-  # 汇总：合并四片数据，跑归一化 / 全量校验 / 重建索引，最后一次性提交。
-  # 索引与提交都放在这里做 —— 四个分片各跑一遍会互相覆盖 docs/data.json 与 HISTORY.md。
+  # 汇总：合并六片数据，跑归一化 / 全量校验 / 重建索引，最后一次性提交。
+  # 索引与提交都放在这里做 —— 各分片各跑一遍会互相覆盖 docs/data.json 与 HISTORY.md。
   publish:
     needs: fetch
     runs-on: ubuntu-latest

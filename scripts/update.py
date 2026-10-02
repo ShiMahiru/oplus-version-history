@@ -650,6 +650,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="最多处理 N 个机型（测试用）")
     ap.add_argument("--no-gateway-fallback", action="store_true",
                     help="主区域无产出时不跨网关重试（更快，但会漏掉区域标记错误的机型）")
+    ap.add_argument("--shard", help="分片，形如 0/4（配合多进程并行回填）")
     opts = ap.parse_args()
 
     if opts.model:
@@ -662,6 +663,14 @@ def main():
         models = [m for m in models if region_of(m) == opts.region]
         if not models:
             sys.exit(f"网关 {opts.region} 下没有机型")
+    if opts.shard:
+        try:
+            idx, total = (int(x) for x in opts.shard.split("/"))
+        except ValueError:
+            sys.exit("--shard 需要形如 0/4 的写法")
+        if not 0 <= idx < total:
+            sys.exit(f"--shard 索引 {idx} 超出 0..{total - 1}")
+        models = [m for i, m in enumerate(models) if i % total == idx]
     if opts.limit:
         models = models[: opts.limit]
 
