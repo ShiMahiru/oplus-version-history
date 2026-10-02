@@ -1,8 +1,0 @@
-# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:57:06
-
-### ColorOS15.0.2
-- Android: Android15
-- 大小: 9005891739
-- MD5: 439bc003ffa887c7a5d4c54630207043
-- 链接: https://downgradefs.coloros.com/downgrade/25/09/09/a12a413b25554de6910b0b95869c9d91.zip
-- 更新说明: Audi 降级包测试

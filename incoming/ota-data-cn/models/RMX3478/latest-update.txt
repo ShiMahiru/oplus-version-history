@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 23:00:24
-查询地区: CN
-最新 OTA 版本: RMX3478_11.A.45_0450_202210061617
-版本名称: RMX3478_11_A.45
-Android 版本: Android 12
-ColorOS 版本: RMX3478_11_A.45
-安全补丁: 2022-10-05
-发布时间: 1666690855116
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5b9362029a53a57ceec36655fe6f00bc/component-ota/22/10/09/0cfdfa2ca4f44a21b1ed1995620b306b.zip

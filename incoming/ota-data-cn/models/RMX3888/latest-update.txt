@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 23:04:33
-查询地区: CN
-最新 OTA 版本: RMX3888_11.A.54_0540_202410242252
-版本名称: RMX3888_14.1.0.805(CN01)
-Android 版本: Android 14
-ColorOS 版本: RMX3888_14.1.0.805(CN01)
-安全补丁: 2024-10-05
-发布时间: 1730876093999
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ec201663a70b7bfa9455fe80246fbf80/component-ota/24/10/25/5f8fd960cb2f4954831757b931dbb743.zip

@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:50:31
-查询地区: GL
-最新 OTA 版本: CPH2465_11.A.48_1480_202404271717
-版本名称: CPH2465_14.0.0.700(EX01)
-Android 版本: Android 14
-ColorOS 版本: CPH2465_14.0.0.700(EX01)
-安全补丁: 2024-05-05
-发布时间: 1717416572242
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-9403148ff1e34aa929323422449e8486/component-ota/24/05/08/05ecc79de1f54be8b32a1fba7f73f78e.zip

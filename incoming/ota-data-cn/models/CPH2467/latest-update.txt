@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 01:01:05
-查询地区: IN
-最新 OTA 版本: CPH2467_11.F.89_2890_202607200935
-版本名称: CPH2467_15.0.0.1910(EX01)
-Android 版本: Android 15
-ColorOS 版本: CPH2467_15.0.0.1910(EX01)
-安全补丁: 2026-07-01
-发布时间: 1788164364753
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-d3ba015888e195cee0055dbc3f2ecfd9/component-ota/26/07/21/f8887ccdacf2498aa223eb5929e31b85.zip

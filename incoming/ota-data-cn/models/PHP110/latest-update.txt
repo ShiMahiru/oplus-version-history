@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:52:31
-查询地区: CN
-最新 OTA 版本: PHP110_11.A.27_0270_202310141110
-版本名称: PHP110_13.1.0.172(CN01)
-Android 版本: Android 13
-ColorOS 版本: PHP110_13.1.0.172(CN01)
-安全补丁: 2023-10-05
-发布时间: 1727161794108
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-73c31fb7089f70ca6d94b6e18262e5c9/component-ota/23/10/16/3c92854e9dc640f4b25a084f724c1b15.zip

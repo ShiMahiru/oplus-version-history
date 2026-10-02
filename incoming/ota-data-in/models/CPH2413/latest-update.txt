@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:49:56
-查询地区: IN
-最新 OTA 版本: CPH2413_11.A.17_0170_202302101049
-版本名称: CPH2413_11_A.17
-Android 版本: Android 12
-ColorOS 版本: CPH2413_11_A.17
-安全补丁: 2023-02-05
-发布时间: 1677509158585
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a1354dae2b8b85adf7f58b7b79f88c90/component-ota/23/02/11/6512981c88614ebca8bdd80d3afe4bcd.zip

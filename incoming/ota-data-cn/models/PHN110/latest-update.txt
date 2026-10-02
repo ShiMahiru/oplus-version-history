@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:52:14
-查询地区: CN
-最新 OTA 版本: PHN110_11.A.48_0480_202312282227
-版本名称: PHN110_13.2.0.300(CN01)
-Android 版本: Android 13
-ColorOS 版本: PHN110_13.2.0.300(CN01)
-安全补丁: 2024-01-05
-发布时间: 1704875292655
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8104fe51e3c5599ec8d78922785200fb/component-ota/24/01/02/cfbc6ed2277842ad8db996f3a0c0613b.zip

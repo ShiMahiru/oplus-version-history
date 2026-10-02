@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 02:18:12
-查询地区: CN
-最新 OTA 版本: RMX3700_11.A.25_0250_202311061652
-版本名称: RMX3700_13.1.0.121(CN01)
-Android 版本: Android 13
-ColorOS 版本: RMX3700_13.1.0.121(CN01)
-安全补丁: 2023-10-05
-发布时间: 1700720822874
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-26e6006b7e1d915af3a295e4699da2a9/component-ota/23/11/08/c3ebc4176f8a4223a3a7bb682e57dfd0.zip

@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 02:52:36
-查询地区: CN
-最新 OTA 版本: RMX5075_11.A.69_1690_202505210118
-版本名称: RMX5075_15.0.0.690(CN01)
-Android 版本: Android 15
-ColorOS 版本: RMX5075_15.0.0.690(CN01)
-安全补丁: 2025-05-01
-发布时间: 1750992772403
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-129e8547b1595d5108bd36708aeeb0a2/component-ota/25/05/22/bae6364b5f0b400c9f1e20e8432ec583.zip

@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 01:54:43
-查询地区: CN
-最新 OTA 版本: PHK110_11.A.45_0450_202311131450
-版本名称: PHK110_13.1.0.184(CN01)
-Android 版本: Android 13
-ColorOS 版本: PHK110_13.1.0.184(CN01)
-安全补丁: 2023-11-05
-发布时间: 1702562021984
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-caac1b3c2ac5d76007f17c529ce836c8/component-ota/23/11/13/cdb816ee265246d6978f5cb1ace8f84f.zip

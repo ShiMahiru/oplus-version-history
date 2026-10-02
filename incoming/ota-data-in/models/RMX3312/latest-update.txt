@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:55:37
-查询地区: IN
-最新 OTA 版本: RMX3312_11.A.22_0220_202210172250
-版本名称: RMX3312_11_A.22
-Android 版本: Android 12
-ColorOS 版本: RMX3312_11_A.22
-安全补丁: 2022-10-05
-发布时间: 1667556082164
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-825d057c0fe1de34beca6fdea06d1da0/component-ota/22/10/18/352d49838bb74306a2856b26a299bc70.zip

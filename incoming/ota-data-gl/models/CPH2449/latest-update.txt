@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:50:20
-查询地区: GL
-最新 OTA 版本: CPH2449_11.A.27_0270_202310120928
-版本名称: CPH2449_13.1.0.596(EX01)
-Android 版本: Android 13
-ColorOS 版本: CPH2449_13.1.0.596(EX01)
-安全补丁: 2023-10-05
-发布时间: 1700577125066
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-09e5c41b01f76f32d88943cc32fbcfe3/component-ota/23/10/13/fd294469007746878a5fc9b898c14439.zip

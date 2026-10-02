@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:56:19
-查询地区: CN
-最新 OTA 版本: PJF110_11.A.47_0470_202410131502
-版本名称: PJF110_14.0.1.720(CN01)
-Android 版本: Android 14
-ColorOS 版本: PJF110_14.0.1.720(CN01)
-安全补丁: 2024-10-05
-发布时间: 1730472970477
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c0ca243069f6cb4e66413d7c5684ff37/component-ota/24/10/14/b7460a85d082410f9d64d392bbd6863b.zip

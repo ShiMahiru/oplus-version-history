@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 02:20:46
-查询地区: CN
-最新 OTA 版本: RMX3770_11.A.49_0490_202312221124
-版本名称: RMX3770_13.1.0.149(CN01)
-Android 版本: Android 13
-ColorOS 版本: RMX3770_13.1.0.149(CN01)
-安全补丁: 2023-12-05
-发布时间: 1704438443463
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7189398f3e348b7084ce8aca02c86b68/component-ota/23/12/22/b20b068bfe4b477487e8673030cd571c.zip

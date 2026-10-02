@@ -444,9 +444,20 @@ def read_history(model):
         ln = ln.strip()
         if not ln:
             continue
-        if " # " in ln:
-            fp, ver = ln.split(" # ", 1)
-            ver = ver.replace("ColorOS: ", "")
+        # 与 normalize.py / build_index.py / fix_history.py / backfill_versions.py 保持一致：
+        # 分隔符是「两个空格 + #」，且 fp 与 ver 两侧都必须 strip。
+        #
+        # 旧实现用 `" # " in ln` + `split(" # ", 1)`，而写盘格式是 `{fp}  # ColorOS: {ver}`
+        # —— 双空格里的第二个空格恰好与 `# ` 凑成 `" # "`，于是 split 成功但 fp 带一个
+        # 尾随空格。后果有三：① `history.get(fp)` 对已存在指纹永远为假，每次增量都重抓
+        # 全量版本；② build_index 的 `fp.startswith(changelog前缀)` 全部失配，该机型的
+        # 更新日志在 App 里凭空消失；③ write_history 回写时 fp 已带空格、再拼两个空格，
+        # 每读写一轮空格 +1（实测往返一轮累积 +1）。CI 因为 update 之后紧跟 normalize
+        # 而被掩盖，但本地按 README 单独跑 update.py 就会触发。
+        if "#" in ln:
+            fp, ver = ln.split("#", 1)
+            fp = fp.strip()
+            ver = re.sub(r"^ColorOS\s*:?\s*", "", ver.strip()).strip()
         else:
             fp, ver = ln, ""
         out[fp] = ver

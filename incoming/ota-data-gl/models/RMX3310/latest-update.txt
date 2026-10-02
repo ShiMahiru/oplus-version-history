@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 02:04:49
-查询地区: CN
-最新 OTA 版本: RMX3310_11.A.21_0210_202210172251
-版本名称: RMX3310_11_A.21
-Android 版本: Android 12
-ColorOS 版本: RMX3310_11_A.21
-安全补丁: 2022-10-05
-发布时间: 1667555976308
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1a80901f817eab02891ffcbc6923192e/component-ota/22/10/18/27e52beebb0e405d8deba136943c05aa.zip

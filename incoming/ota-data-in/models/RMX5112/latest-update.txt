@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 03:00:09
-查询地区: CN
-最新 OTA 版本: RMX5112_11.A.59_0590_202601132144
-版本名称: RMX5112_15.0.2.902(CN01)
-Android 版本: Android 15
-ColorOS 版本: RMX5112_15.0.2.902(CN01)
-安全补丁: 2026-01-01
-发布时间: 1770385799087
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-30527e7a43338c3171f498329cd46ab5/component-ota/26/02/06/25ab92a49b78443d8c7017187ad6d3f2.zip

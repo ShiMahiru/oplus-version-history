@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:51:22
-查询地区: CN
-最新 OTA 版本: PGZ110_11.A.11_0110_202212221217
-版本名称: PGZ110_11_A.11
-Android 版本: Android 12
-ColorOS 版本: PGZ110_11_A.11
-安全补丁: 2022-12-05
-发布时间: 1675075498005
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2e1be34e5315c2c80a9d7c53e78b6090/component-ota/22/12/27/0ec18e754ce84db88ecb16acf3afeeca.zip

@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 23:06:07
-查询地区: CN
-最新 OTA 版本: RMX5010_11.A.56_0560_202509082146
-版本名称: RMX5010_15.0.0.660(CN01)
-Android 版本: Android 15
-ColorOS 版本: RMX5010_15.0.0.660(CN01)
-安全补丁: 2025-09-01
-发布时间: 1759976010598
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-91b6186d5a7f0a7b7aa85d201ee8cd1e/component-ota/25/09/09/4ecf8e7209cd47669ef6cfbe2dde160c.zip

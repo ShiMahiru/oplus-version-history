@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 23:00:34
-查询地区: CN
-最新 OTA 版本: RMX3560_11.A.45_0450_202209161351
-版本名称: RMX3560_11_A.45
-Android 版本: Android 12
-ColorOS 版本: RMX3560_11_A.45
-安全补丁: 2022-09-05
-发布时间: 1664153343565
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-bd2e613556049985352d48be88445d5e/component-ota/22/09/16/cfa4e99129de405cb0ad900dbd720601.zip

@@ -1,8 +1,0 @@
-# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 02:52:54
-
-### ColorOS16.1.0
-- Android: Android16
-- 大小: 11234794801
-- MD5: 18eadd3cca2d31f056c2a9768ac6174a
-- 链接: https://downgradefs.coloros.com/downgrade/26/07/28/f7eebad7ead44efbb0dc6dae4dae0df1.zip
-- 更新说明: BRZ内销在线降级包

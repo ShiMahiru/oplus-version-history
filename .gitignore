@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 /tmp/
 *.log
+
+# CI 的 artifact 落地目录（download-artifact 写入），不应入库
+incoming/

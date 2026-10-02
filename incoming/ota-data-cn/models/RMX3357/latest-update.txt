@@ -1,9 +1,0 @@
-本地更新时间: 2026-10-01 22:59:48
-查询地区: CN
-最新 OTA 版本: RMX3357_11.A.14_0140_202201101833
-版本名称: RMX3357_11_A.14
-Android 版本: Android 11
-ColorOS 版本: RMX3357_11_A.14
-安全补丁: 2022-01-05
-发布时间: 1647995085100
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-36ed32d458b2d0ae14cc49856cead75b/component-ota/22/01/10/c13c2619fed14f6b8f908b2cbc40e2f4.zip
