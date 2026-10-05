@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:41:46
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 9255492759
+- MD5: 0a11de6956b5429e17b36d6c6c77eff2
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/08/39fbda04d62840048ed5f73c8870cf1a.zip
+- 更新说明: 适用于OPPO Reno 12Pro的ColorOS 14的降级版本
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 9507356909
+- MD5: fb3880fc24a7004b2a03b2892dbf844a
+- 链接: https://downgradefs.coloros.com/downgrade/25/12/04/90ef4c31f74246b9adb10b2f75350f8e.zip
+- 更新说明: Omega-C1降级包测试

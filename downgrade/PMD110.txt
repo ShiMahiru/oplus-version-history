@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:46:33
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 11047112950
+- MD5: e60528d75087cf1c5af95a5bcb6eef88
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/21/8b79e27d80bc451e9e51f2b4b979f252.zip
+- 更新说明: Whoopass-C3 17C降价包测试

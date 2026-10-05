@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:44:17
+
+### ColorOS14.0.1
+- Android: Android14
+- 大小: 8500076379
+- MD5: 8257c5e2027f71fd3a89a71068e4b888
+- 链接: https://downgradefs.coloros.com/downgrade/24/12/11/1bf2d8b5de1b435d974c7340688e5ea3.zip
+- 更新说明: 降级测试
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 8643690039
+- MD5: 1e7a729c2cb3da8b0129570f6944c38b
+- 链接: https://downgradefs.coloros.com/downgrade/25/12/05/c643c6dce40a4c7c8042d9734bade1a5.zip
+- 更新说明: jeep的降级包

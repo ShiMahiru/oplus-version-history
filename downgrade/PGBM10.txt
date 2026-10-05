@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:27
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 6801227402
+- MD5: ded5e5f0ecf6df9ebb01dff7e5c36341
+- 链接: https://downgradefs.coloros.com/downgrade/22/09/06/050aa0e072af45b2b143c16a22472d75.zip
+- 更新说明: 降级测试
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 6947342512
+- MD5: 4d5a65ab5a04ec2c5dba54f628bc1eea
+- 链接: https://downgradefs.coloros.com/downgrade/23/04/14/9b503660cdd44897a13f39650cf75118.zip
+- 更新说明: 降级包
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 7981406402
+- MD5: 9bbd0be7b8edf18c547ebbffde556bcd
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/30/9b110abbb5ab4e6dac07e9eda7ed7ffd.zip
+- 更新说明: ALI14U降级包

@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:40:24
+
+### ColorOS13.1.1
+- Android: Android13
+- 大小: 6999096859
+- MD5: 59c1a98d7707062faf71349d133cced7
+- 链接: https://downgradefs.coloros.com/downgrade/24/02/27/5013b117c78b4ab5b5bcc8fe86f2aca8.zip
+- 更新说明: Downgrade

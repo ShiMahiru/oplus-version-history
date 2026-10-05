@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:45:52
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 9390282000
+- MD5: fd88f99f7956a2a8756312f6a3d9351e
+- 链接: https://downgradefs.coloros.com/downgrade/25/11/12/a9b18debc09d4d31a53a9333e3446324.zip
+- 更新说明: Knight-M 内销全网通降级包

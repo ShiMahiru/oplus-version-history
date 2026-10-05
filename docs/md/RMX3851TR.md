@@ -4,13 +4,13 @@
 
 **realme / TR** · 最新版本 `RMX3851_15.0.0.730(EX01)` · OTA `RMX3851_11.C.41_1410_202506101316` · Android 15 · 安全补丁 2025-05-01
 
-版本记录 **1** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
+版本记录 **1** 条 · 有官方链接 **1** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| RMX3851_15.0.0.730(EX01) | `RMX3851_11.C.41_1410_202506101316` | 2025-06-10 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-2023df376c173d819e2ba301b1cce7a4/component-ota/25/06/11/c1bfb442182f4010aa7d837597e29676.zip>) |  |  |
+| RMX3851_15.0.0.730(EX01) | `RMX3851_11.C.41_1410_202506101316` | 2025-06-10 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-2023df376c173d819e2ba301b1cce7a4/component-ota/25/06/11/c1bfb442182f4010aa7d837597e29676.zip>) | [原文](<../../models/RMX3851TR/changelog/RMX3851_11.C.41_1410.md>) |  |
 
 ---
 

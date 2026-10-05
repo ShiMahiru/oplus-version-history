@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:57
+
+### ColorOS13.1.1
+- Android: Android13
+- 大小: 7825784789
+- MD5: c64aa91aa7cd98e150257fb55a0fc57c
+- 链接: https://downgradefs.coloros.com/downgrade/24/03/11/a1f6f470d1314b458d1ccaa71642d7cf.zip
+- 更新说明: Givenchy项目降级包

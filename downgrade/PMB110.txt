@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:46:57
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10597775838
+- MD5: 95e78ac0c68d3db09b02b7e6ecdd2bef
+- 链接: https://downgradefs.coloros.com/downgrade/26/07/23/2b62a4d0bde440aea70ca2ec5062e7a5.zip
+- 更新说明: Roadster降级包
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10597775957
+- MD5: 9f42a30cf2a5589c51f7371f797fc3af
+- 链接: https://downgradefs.coloros.com/downgrade/26/07/24/07c79c8346fa4d57be985d457cc73cbb.zip
+- 更新说明: 降级包

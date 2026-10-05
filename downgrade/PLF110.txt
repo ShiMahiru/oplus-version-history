@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:45:21
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 9552232106
+- MD5: 24e7065e421de8c0a068d466705374ba
+- 链接: https://downgradefs.coloros.com/downgrade/25/08/18/25c20494f7b943eca46115b1ce70b281.zip
+- 更新说明: subaru 降级包
+
+### OxygenOS16.1.0
+- Android: Android16
+- 大小: 10402815907
+- MD5: 6f9a12628d4aff482d812499f4e4e3c3
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/20/45bfbd53dc304c73884e961bddea77e1.zip
+- 更新说明: subaru降级包测试

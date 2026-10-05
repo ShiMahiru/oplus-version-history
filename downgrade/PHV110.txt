@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:40:22
+
+### ColorOS13.1.1
+- Android: Android13
+- 大小: 9091816800
+- MD5: 227b40018047212dc803c17be4739460
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/23/179319ae467043ccb5cd205206694781.zip
+- 更新说明: 适用于OPPO Reno10 Pro 5G的ColorOS 13降级版本
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 9212057038
+- MD5: e2824cfbe8453e5063ba07aa9092ec9e
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/06/5ee26c417e244b9eaad61b08558de52b.zip
+- 更新说明: 15V降级包
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 9236033375
+- MD5: f7aa8ed1fcc6947307f077fde9ae5b76
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/08/dfc58fbb5e814e8dae9d066f2678bd74.zip
+- 更新说明: 15V星籁版降级包

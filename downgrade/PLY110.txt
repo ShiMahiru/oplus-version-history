@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:46:05
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 9970796447
+- MD5: 160235c2a58b111be5a2996d090ff760
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/21/3557d6134c294c768a97b50d62725e72.zip
+- 更新说明: Prado 17C降级包

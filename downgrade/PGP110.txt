@@ -1,4 +1,4 @@
-# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:53:54
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:37:38
 
 ### ColorOS12.1
 - Android: Android12

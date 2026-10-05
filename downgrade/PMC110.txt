@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:44:41
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 7279955400
+- MD5: 73efec29eb733d11caf310cd2d975666
+- 链接: https://downgradefs.coloros.com/downgrade/26/02/03/94bd12ada79e47a087eeb0088593786c.zip
+- 更新说明: BB4LX内销降级包
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 7388782895
+- MD5: c7c22db94222d5119cb7b532791ec85b
+- 链接: https://downgradefs.coloros.com/downgrade/26/04/24/0c2b815a0b3b495488feca62c2c99e0f.zip
+- 更新说明: 25031 BB4LX内销降级包测试

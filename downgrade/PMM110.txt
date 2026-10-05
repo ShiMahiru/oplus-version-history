@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:45:24
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10996862608
+- MD5: 72ba0a7e15a8e3e11ed0708b7a5ae353
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/25/40488171690c491d8e0b05867608c9cf.zip
+- 更新说明: Lychee-C2 内销降级包测试

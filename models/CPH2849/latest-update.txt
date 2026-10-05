@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 12:32:36
-查询地区: LATAM
-最新 OTA 版本: CPH2849_11.C.50_1500_202608102332
-版本名称: CPH2849_16.0.5.1201(EX01)
-Android 版本: Android 16
-ColorOS 版本: CPH2849_16.0.5.1201(EX01)
-安全补丁: 2026-08-01
-发布时间: 1788593041975
-ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=92c00a51f97c56a45491a9fd1388a6c4&p=f088224e00631389a6bc93574365d030412947957f30c0e92c4b9ed6cec6813f46ea644cae567dbc1108452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9a9d1392ce7c01836a57c8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c5996a0b8546f8913ce3ba14ca0e912d
+本地更新时间: 2026-10-05 11:31:12
+查询地区: ID
+最新 OTA 版本: CPH2849_11.A.29_0290_202603190037
+版本名称: CPH2849_15.0.2.1107(EX01)
+Android 版本: Android 15
+ColorOS 版本: CPH2849_15.0.2.1107(EX01)
+安全补丁: 2026-03-01
+发布时间: 1775009911639
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0ba2807026a8909685dc344691ecfa05/component-ota/26/03/19/b0aae1934be54314976590e3e71c1cb5.zip
