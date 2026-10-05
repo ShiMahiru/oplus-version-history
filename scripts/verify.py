@@ -12,6 +12,7 @@ oplus-version-history 链接存活校验
 """
 import argparse
 import os
+import random
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -56,6 +57,10 @@ def check(url):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fast", action="store_true", help="单轮校验（不二轮确认）")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="只报告，不移动文件、不写 DEAD.md")
+    ap.add_argument("--max", type=int, default=0, metavar="N",
+                    help="随机抽 N 条校验（冒烟用；0=全量）")
     args = ap.parse_args()
 
     files = []
@@ -65,6 +70,8 @@ def main():
         for f in fs:
             if f.endswith(".txt"):
                 files.append(os.path.join(root, f))
+    if args.max and args.max < len(files):
+        files = random.sample(files, args.max)
     print(f"共 {len(files)} 条链接开始校验（并发 8）")
 
     dead, ok, fail1 = [], 0, []
@@ -104,21 +111,34 @@ def main():
 
     # 归档死链
     if dead:
+        if args.dry_run:
+            print(f"（dry-run）死链 {len(dead)} 条，未归档：")
+            for rel, url, msg in dead:
+                print(f"  ✗ {rel}  {msg}")
+            return
         import shutil
+        moved = []
         for rel, url, msg in dead:
             dst = os.path.join(DEAD_DIR, rel)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             try:
                 shutil.move(os.path.join(ROOT, "links", rel), dst)
+                moved.append((rel, url, msg))
             except Exception:
-                pass
+                pass  # 源文件已不在（重复归档），跳过
         with open(os.path.join(ROOT, "DEAD.md"), "w", encoding="utf-8") as f:
             f.write("# 死链报告\n\n以下链接连续校验失败，已移入 `links/_dead/`（版本史保留）。\n\n")
             f.write("| 文件 | 链接 | 原因 |\n|---|---|---|\n")
-            for rel, url, msg in dead:
+            for rel, url, msg in moved:
                 f.write(f"| `{rel}` | `{url}` | {msg} |\n")
-        print(f"✗ 死链 {len(dead)} 条已归档 links/_dead/ → 详见 DEAD.md")
+        print(f"✗ 死链 {len(moved)} 条已归档 links/_dead/ → 详见 DEAD.md")
+        print(f"  累计有效 {ok}/{len(files)}")
     else:
+        # 本轮无死链也重写 DEAD.md：上一轮的死链可能已被上游修复并重新抓回，
+        # 报告必须反映「本轮」的状态，而不是历史上最差的一次
+        with open(os.path.join(ROOT, "DEAD.md"), "w", encoding="utf-8") as f:
+            f.write("# 死链报告\n\n以下链接连续校验失败，已移入 `links/_dead/`（版本史保留）。\n\n")
+            f.write("最近一次全量校验未发现死链。历史死链见 `links/_dead/`。\n")
         print(f"✓ 全部 {ok}/{len(files)} 条链接有效，无死链")
 
 
