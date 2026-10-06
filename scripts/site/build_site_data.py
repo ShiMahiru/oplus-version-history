@@ -209,6 +209,30 @@ for b in site["brands"]:
                 if p:
                     v.setdefault("meta", {})["securityPatch"] = p
 
+# ── 5.44b Daniel API 的 md5/size 补全（CN，全格式键） ──
+_dan = {}
+try:
+    _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
+    for _r in _cat.get("releases", []):
+        if _r.get("md5") and _r.get("region") == "CN":
+            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"))
+except Exception:
+    pass
+
+for b in site["brands"]:
+    for model in b["models"]:
+        for v in model["versions"]:
+            meta = v.setdefault("meta", {})
+            if meta.get("md5"):
+                continue
+            ver = v["version"].replace("ColorOS ", "")
+            hit = _dan.get((model["code"], f"{model['code']}_{ver}"))
+            if hit:
+                if not meta.get("md5"):
+                    meta["md5"] = hit[0]
+                if not meta.get("sizeBytes") and hit[1]:
+                    meta["sizeBytes"] = int(hit[1])
+
 # ── 5.45 机型级回填：Android / NV / projectId（跨全部版本含降级包） ──
 def nv_of(region):
     r = (region or "").upper()
