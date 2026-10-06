@@ -105,12 +105,15 @@ class Cancelled(Exception):
 class RangeReader:
     """远程 URL 用 HTTP Range；本地路径直接读文件。"""
 
-    def __init__(self, url: str, session: Optional[requests.Session] = None, timeout: int = 30):
+    def __init__(self, url: str, session: Optional[requests.Session] = None, timeout: int = 30, no_ua: bool = False):
         self.url = url
         self.session = session or requests.Session()
         self.timeout = timeout
         self.pos = 0
         self._file = None
+        # gauss 直链（componentotacostmanual-cn.allawnfs.com 等 CN 手动域）
+        # 带任何 UA 都 403，必须不带 UA 请求
+        self.no_ua = no_ua
 
         path = url
         if path.lower().startswith("file://"):
@@ -127,10 +130,11 @@ class RangeReader:
             self.url = self._final_url or self.url
 
     def _probe_size(self) -> int:
+        hdrs = self._headers()
         try:
             r = self.session.get(
                 self.url,
-                headers=dict(HEADERS, Range="bytes=0-0"),
+                headers=dict(hdrs, Range="bytes=0-0"),
                 timeout=self.timeout,
                 stream=True,
                 allow_redirects=True,
@@ -160,6 +164,13 @@ class RangeReader:
         if total == "*":
             raise ExtractorError("服务器没有给出文件大小。")
         return int(total)
+
+    def _headers(self) -> dict:
+        if self.no_ua:
+            h = dict(HEADERS)
+            h.pop("User-Agent", None)
+            return h
+        return HEADERS
 
     def _is_zip_url(self) -> bool:
         u = (self._final_url or self.url).lower().split("?")[0]
@@ -210,7 +221,7 @@ class RangeReader:
         end = self.pos + n - 1
         r = self.session.get(
             self.url,
-            headers=dict(HEADERS, Range=f"bytes={self.pos}-{end}"),
+            headers=dict(self._headers(), Range=f"bytes={self.pos}-{end}"),
             timeout=self.timeout,
             stream=True,
             allow_redirects=True,
@@ -399,10 +410,11 @@ def resolve_direct(url: str, timeout: int = 30) -> str:
     return final or url
 
 
-def open_payload(url: str) -> Tuple[RangeReader, Dict]:
-    """返回 (reader, manifest)。manifest 里带 _payload_data_offset。"""
+def open_payload(url: str, no_ua: bool = False) -> Tuple[RangeReader, Dict]:
+    """返回 (reader, manifest)。manifest 里带 _payload_data_offset。
+    no_ua=True 时对 gauss 直链不带 UA（CN 手动域带 UA 会 403）。"""
     url = resolve_direct(url)
-    reader = RangeReader(url)
+    reader = RangeReader(url, no_ua=no_ua)
     payload_offset = 0
     if url.lower().split("?")[0].endswith(".zip"):
         reader.seek(0)
