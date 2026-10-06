@@ -106,3 +106,13 @@ jobs:
             git pull --rebase --autostash
             git push
           fi
+
+      - name: 通知 RomBase 同步站点数据
+        if: success()
+        run: |
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/ShiMahiru/RomBase/dispatches" \
+            -d '{"event_type":"data-updated"}' \
+            && echo "已通知 RomBase" || echo "通知失败（不影响数据推送）"

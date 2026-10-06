@@ -1,0 +1,4014 @@
+{
+ "xiaomi": [
+  {
+   "code": "pandora",
+   "name": "Xiaomi 17 Pro"
+  },
+  {
+   "code": "popsicle",
+   "name": "Xiaomi 17 Pro Max"
+  },
+  {
+   "code": "warhol",
+   "name": "Xiaomi 17T Pro"
+  },
+  {
+   "code": "byron",
+   "name": "Xiaomi 17 Max"
+  },
+  {
+   "code": "pudding",
+   "name": "Xiaomi 17"
+  },
+  {
+   "code": "chagall",
+   "name": "Xiaomi 17T"
+  },
+  {
+   "code": "xuanyuan",
+   "name": "Xiaomi 15 Ultra / Xiaomi 15 Ultra 双卫星版"
+  },
+  {
+   "code": "haotian",
+   "name": "Xiaomi 15 Pro"
+  },
+  {
+   "code": "dijun",
+   "name": "Xiaomi 15S Pro"
+  },
+  {
+   "code": "dada",
+   "name": "Xiaomi 15"
+  },
+  {
+   "code": "aurora",
+   "name": "Xiaomi 14 Ultra / Xiaomi 14 Ultra Ti"
+  },
+  {
+   "code": "shennong",
+   "name": "Xiaomi 14 Pro"
+  },
+  {
+   "code": "shennong_t",
+   "name": "Xiaomi 14 Pro Ti"
+  },
+  {
+   "code": "houji",
+   "name": "Xiaomi 14"
+  },
+  {
+   "code": "ishtar",
+   "name": "Xiaomi 13 Ultra"
+  },
+  {
+   "code": "nuwa",
+   "name": "Xiaomi 13 Pro"
+  },
+  {
+   "code": "fuxi",
+   "name": "Xiaomi 13"
+  },
+  {
+   "code": "thor",
+   "name": "Xiaomi 12S Ultra"
+  },
+  {
+   "code": "zeus",
+   "name": "Xiaomi 12 Pro"
+  },
+  {
+   "code": "daumier",
+   "name": "Xiaomi 12 Pro 天玑版"
+  },
+  {
+   "code": "unicorn",
+   "name": "Xiaomi 12S Pro"
+  },
+  {
+   "code": "cupid",
+   "name": "Xiaomi 12"
+  },
+  {
+   "code": "mayfly",
+   "name": "Xiaomi 12S"
+  },
+  {
+   "code": "psyche",
+   "name": "Xiaomi 12X"
+  },
+  {
+   "code": "star",
+   "name": "Xiaomi 11 Ultra / Xiaomi 11 Pro"
+  },
+  {
+   "code": "venus",
+   "name": "Xiaomi 11"
+  },
+  {
+   "code": "renoir",
+   "name": "Xiaomi 11 青春版"
+  },
+  {
+   "code": "lisa",
+   "name": "Xiaomi 11 青春活力版"
+  },
+  {
+   "code": "cmi",
+   "name": "Xiaomi 10 Pro"
+  },
+  {
+   "code": "umi",
+   "name": "Xiaomi 10"
+  },
+  {
+   "code": "vangogh",
+   "name": "Xiaomi 10 青春版"
+  },
+  {
+   "code": "cas",
+   "name": "Xiaomi 10 至尊纪念版"
+  },
+  {
+   "code": "thyme",
+   "name": "Xiaomi 10S"
+  },
+  {
+   "code": "cepheus",
+   "name": "Xiaomi 9"
+  },
+  {
+   "code": "grus",
+   "name": "Xiaomi 9 SE"
+  },
+  {
+   "code": "dipper",
+   "name": "Xiaomi 8"
+  },
+  {
+   "code": "equuleus",
+   "name": "Xiaomi 8 屏幕指纹版"
+  },
+  {
+   "code": "platina",
+   "name": "Xiaomi 8 青春版"
+  },
+  {
+   "code": "ursa",
+   "name": "Xiaomi 8 透明探索版"
+  },
+  {
+   "code": "sirius",
+   "name": "Xiaomi 8 SE"
+  },
+  {
+   "code": "wayne",
+   "name": "Xiaomi 6X"
+  },
+  {
+   "code": "gemini",
+   "name": "Xiaomi 5"
+  },
+  {
+   "code": "meri",
+   "name": "Xiaomi 5C"
+  },
+  {
+   "code": "capricorn",
+   "name": "Xiaomi 5S"
+  },
+  {
+   "code": "natrium",
+   "name": "Xiaomi 5S Plus"
+  },
+  {
+   "code": "tiffany",
+   "name": "Xiaomi 5X"
+  },
+  {
+   "code": "libra",
+   "name": "Xiaomi 4c"
+  },
+  {
+   "code": "aqua",
+   "name": "Xiaomi 4S"
+  },
+  {
+   "code": "cancro",
+   "name": "Xiaomi 3W / Xiaomi 4LTE-CT / Xiaomi 4LTE"
+  },
+  {
+   "code": "pisces",
+   "name": "Xiaomi 3"
+  },
+  {
+   "code": "taurus",
+   "name": "Xiaomi 2A"
+  },
+  {
+   "code": "aries",
+   "name": "Xiaomi 2S"
+  },
+  {
+   "code": "mione_plus",
+   "name": "Xiaomi 1"
+  },
+  {
+   "code": "tucana",
+   "name": "Xiaomi CC9 Pro"
+  },
+  {
+   "code": "pyxis",
+   "name": "Xiaomi CC9"
+  },
+  {
+   "code": "vela",
+   "name": "Xiaomi CC9 美图版"
+  },
+  {
+   "code": "laurus",
+   "name": "Xiaomi CC9e"
+  },
+  {
+   "code": "yupei",
+   "name": "Xiaomi Pad 8 / Xiaomi Pad 9"
+  },
+  {
+   "code": "piano",
+   "name": "Xiaomi Pad 8 Pro"
+  },
+  {
+   "code": "violin",
+   "name": "Xiaomi Pad 7S Pro 12.5"
+  },
+  {
+   "code": "jinghu",
+   "name": "Xiaomi Pad 7 Ultra"
+  },
+  {
+   "code": "muyu",
+   "name": "Xiaomi Pad 7 Pro"
+  },
+  {
+   "code": "uke",
+   "name": "Xiaomi Pad 7"
+  },
+  {
+   "code": "yudi",
+   "name": "Xiaomi Pad 6 Max 14"
+  },
+  {
+   "code": "sheng",
+   "name": "Xiaomi Pad 6S Pro 12.4"
+  },
+  {
+   "code": "liuqin",
+   "name": "Xiaomi Pad 6 Pro"
+  },
+  {
+   "code": "pipa",
+   "name": "Xiaomi Pad 6"
+  },
+  {
+   "code": "dagu",
+   "name": "Xiaomi Pad 5 Pro 12.4"
+  },
+  {
+   "code": "enuma",
+   "name": "Xiaomi Pad 5 Pro 5G"
+  },
+  {
+   "code": "elish",
+   "name": "Xiaomi Pad 5 Pro"
+  },
+  {
+   "code": "nabu",
+   "name": "Xiaomi Pad 5"
+  },
+  {
+   "code": "clover",
+   "name": "Xiaomi Pad 4"
+  },
+  {
+   "code": "cappu",
+   "name": "Xiaomi Pad 3"
+  },
+  {
+   "code": "latte",
+   "name": "Xiaomi Pad 2"
+  },
+  {
+   "code": "mocha",
+   "name": "Xiaomi Pad 1"
+  },
+  {
+   "code": "luming",
+   "name": "Xiaomi Civi 5 Pro"
+  },
+  {
+   "code": "chenfeng",
+   "name": "Xiaomi Civi 4 Pro"
+  },
+  {
+   "code": "yuechu",
+   "name": "Xiaomi Civi 3"
+  },
+  {
+   "code": "ziyi",
+   "name": "Xiaomi Civi 2"
+  },
+  {
+   "code": "zijin",
+   "name": "Xiaomi Civi 1S"
+  },
+  {
+   "code": "mona",
+   "name": "Xiaomi Civi"
+  },
+  {
+   "code": "goku",
+   "name": "Xiaomi MIX Fold 4"
+  },
+  {
+   "code": "babylon",
+   "name": "Xiaomi MIX Fold 3"
+  },
+  {
+   "code": "bixi",
+   "name": "Xiaomi MIX Flip 2"
+  },
+  {
+   "code": "zizhan",
+   "name": "Xiaomi MIX Fold 2"
+  },
+  {
+   "code": "ruyi",
+   "name": "Xiaomi MIX Flip"
+  },
+  {
+   "code": "cetus",
+   "name": "Xiaomi MIX Fold"
+  },
+  {
+   "code": "nitrogen",
+   "name": "Xiaomi Max 3"
+  },
+  {
+   "code": "oxygen",
+   "name": "Xiaomi Max 2"
+  },
+  {
+   "code": "hydrogen",
+   "name": "Xiaomi Max"
+  },
+  {
+   "code": "helium",
+   "name": "Xiaomi Max"
+  },
+  {
+   "code": "jason",
+   "name": "Xiaomi Note 3"
+  },
+  {
+   "code": "scorpio",
+   "name": "Xiaomi Note 2"
+  },
+  {
+   "code": "virgo",
+   "name": "Xiaomi Note 双网通"
+  },
+  {
+   "code": "leo",
+   "name": "Xiaomi Note 双网通顶配版"
+  },
+  {
+   "code": "lotus",
+   "name": "Xiaomi Play"
+  }
+ ],
+ "redmi": [
+  {
+   "code": "myron",
+   "name": "Redmi K90 Pro Max / Redmi K90 Pro Max ALSC"
+  },
+  {
+   "code": "warsaw",
+   "name": "Redmi K90 至尊版"
+  },
+  {
+   "code": "prague",
+   "name": "Redmi K90 Max"
+  },
+  {
+   "code": "annibale",
+   "name": "Redmi K90"
+  },
+  {
+   "code": "miro",
+   "name": "Redmi K80 Pro / Redmi K80 Pro ALSC"
+  },
+  {
+   "code": "dali",
+   "name": "Redmi K80 至尊版"
+  },
+  {
+   "code": "zorn",
+   "name": "Redmi K80"
+  },
+  {
+   "code": "rothko",
+   "name": "Redmi K70 至尊版"
+  },
+  {
+   "code": "manet",
+   "name": "Redmi K70 Pro"
+  },
+  {
+   "code": "vermeer",
+   "name": "Redmi K70"
+  },
+  {
+   "code": "duchamp",
+   "name": "Redmi K70E"
+  },
+  {
+   "code": "corot",
+   "name": "Redmi K60 至尊版"
+  },
+  {
+   "code": "socrates",
+   "name": "Redmi K60 Pro"
+  },
+  {
+   "code": "mondrian",
+   "name": "Redmi K60"
+  },
+  {
+   "code": "rembrandt",
+   "name": "Redmi K60E"
+  },
+  {
+   "code": "diting",
+   "name": "Redmi K50 Ultra"
+  },
+  {
+   "code": "matisse",
+   "name": "Redmi K50 Pro"
+  },
+  {
+   "code": "rubens",
+   "name": "Redmi K50"
+  },
+  {
+   "code": "ingres",
+   "name": "Redmi K50 电竞版"
+  },
+  {
+   "code": "haydn",
+   "name": "Redmi K40 Pro / Redmi K40 Pro+"
+  },
+  {
+   "code": "alioth",
+   "name": "Redmi K40"
+  },
+  {
+   "code": "ares",
+   "name": "Redmi K40 游戏增强版"
+  },
+  {
+   "code": "munch",
+   "name": "Redmi K40S"
+  },
+  {
+   "code": "lmi",
+   "name": "Redmi K30 Pro 标准版 / Redmi K30 Pro 变焦版"
+  },
+  {
+   "code": "picasso",
+   "name": "Redmi K30 5G / Redmi K30 5G 极速版"
+  },
+  {
+   "code": "phoenix",
+   "name": "Redmi K30"
+  },
+  {
+   "code": "cezanne",
+   "name": "Redmi K30 至尊纪念版"
+  },
+  {
+   "code": "apollo",
+   "name": "Redmi K30S 至尊纪念版"
+  },
+  {
+   "code": "raphael",
+   "name": "Redmi K20 Pro"
+  },
+  {
+   "code": "raphaels",
+   "name": "Redmi K20 Pro 尊享版"
+  },
+  {
+   "code": "davinci",
+   "name": "Redmi K20"
+  },
+  {
+   "code": "yili",
+   "name": "Redmi K Pad 2"
+  },
+  {
+   "code": "turner",
+   "name": "Redmi K Pad"
+  },
+  {
+   "code": "tornado",
+   "name": "Redmi 15R 5G"
+  },
+  {
+   "code": "flame",
+   "name": "Redmi 14R 5G"
+  },
+  {
+   "code": "lake",
+   "name": "Redmi 14C"
+  },
+  {
+   "code": "air",
+   "name": "Redmi 13R 5G / Redmi 13C 5G"
+  },
+  {
+   "code": "earth",
+   "name": "Redmi 12C"
+  },
+  {
+   "code": "merlin",
+   "name": "Redmi 10X 4G"
+  },
+  {
+   "code": "bomb",
+   "name": "Redmi 10X Pro"
+  },
+  {
+   "code": "dandelion",
+   "name": "Redmi 10A"
+  },
+  {
+   "code": "atom",
+   "name": "Redmi 10X"
+  },
+  {
+   "code": "lancelot",
+   "name": "Redmi 9"
+  },
+  {
+   "code": "olive",
+   "name": "Redmi 8"
+  },
+  {
+   "code": "olivelite",
+   "name": "Redmi 8A"
+  },
+  {
+   "code": "onc",
+   "name": "Redmi 7"
+  },
+  {
+   "code": "pine",
+   "name": "Redmi 7A"
+  },
+  {
+   "code": "sakura",
+   "name": "Redmi 6 Pro"
+  },
+  {
+   "code": "cereus",
+   "name": "Redmi 6"
+  },
+  {
+   "code": "cactus",
+   "name": "Redmi 6A"
+  },
+  {
+   "code": "rosy",
+   "name": "Redmi 5"
+  },
+  {
+   "code": "vince",
+   "name": "Redmi 5 Plus"
+  },
+  {
+   "code": "riva",
+   "name": "Redmi 5A"
+  },
+  {
+   "code": "markw",
+   "name": "Redmi 4 Pro"
+  },
+  {
+   "code": "prada",
+   "name": "Redmi 4"
+  },
+  {
+   "code": "rolex",
+   "name": "Redmi 4A"
+  },
+  {
+   "code": "santoni",
+   "name": "Redmi 4X"
+  },
+  {
+   "code": "land",
+   "name": "Redmi 3S / Redmi 3X"
+  },
+  {
+   "code": "ido_xhdpi",
+   "name": "Redmi 3 标准版"
+  },
+  {
+   "code": "flourite",
+   "name": "Redmi Note 15 Pro+"
+  },
+  {
+   "code": "lapis",
+   "name": "Redmi Note 15 Pro"
+  },
+  {
+   "code": "kunzite",
+   "name": "Redmi Note 15"
+  },
+  {
+   "code": "spring",
+   "name": "Redmi Note 15R"
+  },
+  {
+   "code": "beryl",
+   "name": "Redmi Note 14 5G"
+  },
+  {
+   "code": "amethyst",
+   "name": "Redmi Note 14 Pro+"
+  },
+  {
+   "code": "malachite",
+   "name": "Redmi Note 14 Pro"
+  },
+  {
+   "code": "gold",
+   "name": "Redmi Note 13 5G / Redmi Note 13R Pro"
+  },
+  {
+   "code": "zircon",
+   "name": "Redmi Note 13 Pro+"
+  },
+  {
+   "code": "garnet",
+   "name": "Redmi Note 13 Pro"
+  },
+  {
+   "code": "breeze",
+   "name": "Redmi Note 13R"
+  },
+  {
+   "code": "ruby",
+   "name": "Redmi Note 12 Pro / Redmi Note 12 Pro+ / Redmi Note 12 DISCOVERY EDITION"
+  },
+  {
+   "code": "sky",
+   "name": "Redmi Note 12R / Redmi 12R / Redmi 12 5G"
+  },
+  {
+   "code": "sunstone",
+   "name": "Redmi Note 12 5G / Redmi Note 12R Pro"
+  },
+  {
+   "code": "redwood",
+   "name": "Redmi Note 12 Pro 极速版"
+  },
+  {
+   "code": "pearl",
+   "name": "Redmi Note 12T Pro"
+  },
+  {
+   "code": "marble",
+   "name": "Redmi Note 12 Turbo"
+  },
+  {
+   "code": "pissarro",
+   "name": "Redmi Note 11 Pro / Redmi Note 11 Pro+"
+  },
+  {
+   "code": "xaga",
+   "name": "Redmi Note 11T Pro / Redmi Note 11T Pro+"
+  },
+  {
+   "code": "evergo",
+   "name": "Redmi Note 11 5G"
+  },
+  {
+   "code": "selene",
+   "name": "Redmi Note 11 4G"
+  },
+  {
+   "code": "selenes",
+   "name": "Redmi Note 11 4G"
+  },
+  {
+   "code": "veux",
+   "name": "Redmi Note 11E Pro"
+  },
+  {
+   "code": "light",
+   "name": "Redmi Note 11E"
+  },
+  {
+   "code": "lightcm",
+   "name": "Redmi Note 11R"
+  },
+  {
+   "code": "camellia",
+   "name": "Redmi Note 10 / Redmi Note 11 SE"
+  },
+  {
+   "code": "chopin",
+   "name": "Redmi Note 10 Pro"
+  },
+  {
+   "code": "lime",
+   "name": "Redmi Note 9 4G"
+  },
+  {
+   "code": "gauguin",
+   "name": "Redmi Note 9 Pro"
+  },
+  {
+   "code": "cannon",
+   "name": "Redmi Note 9"
+  },
+  {
+   "code": "begonia",
+   "name": "Redmi Note 8 Pro"
+  },
+  {
+   "code": "ginkgo",
+   "name": "Redmi Note 8"
+  },
+  {
+   "code": "violet",
+   "name": "Redmi Note 7 Pro"
+  },
+  {
+   "code": "lavender",
+   "name": "Redmi Note 7"
+  },
+  {
+   "code": "whyred",
+   "name": "Redmi Note 5 Pro"
+  },
+  {
+   "code": "ugglite",
+   "name": "Redmi Note 5A 标准版"
+  },
+  {
+   "code": "ugg",
+   "name": "Redmi Note 5A 高配版"
+  },
+  {
+   "code": "nikel",
+   "name": "Redmi Note 4"
+  },
+  {
+   "code": "mido",
+   "name": "Redmi Note 4X"
+  },
+  {
+   "code": "kenzo",
+   "name": "Redmi Note 3"
+  },
+  {
+   "code": "ruan",
+   "name": "Redmi Pad Pro 5G"
+  },
+  {
+   "code": "organ",
+   "name": "Redmi Pad 2 Pro 5G"
+  },
+  {
+   "code": "erhu",
+   "name": "Redmi Pad 2 SE 4G"
+  },
+  {
+   "code": "flute",
+   "name": "Redmi Pad 2 Pro"
+  },
+  {
+   "code": "taiko",
+   "name": "Redmi Pad 2"
+  },
+  {
+   "code": "guitar",
+   "name": "Redmi Pad 2 SE"
+  },
+  {
+   "code": "dizi",
+   "name": "Redmi Pad Pro / Redmi Pad Pro 哈利·波特版"
+  },
+  {
+   "code": "yunluo",
+   "name": "Redmi Pad"
+  },
+  {
+   "code": "xun",
+   "name": "Redmi Pad SE"
+  },
+  {
+   "code": "dash",
+   "name": "Redmi Turbo 5 Max"
+  },
+  {
+   "code": "klee",
+   "name": "Redmi Turbo 5"
+  },
+  {
+   "code": "onyx",
+   "name": "Redmi Turbo 4 Pro"
+  },
+  {
+   "code": "rodin",
+   "name": "Redmi Turbo 4"
+  },
+  {
+   "code": "peridot",
+   "name": "Redmi Turbo 3"
+  },
+  {
+   "code": "ysl",
+   "name": "Redmi S2"
+  },
+  {
+   "code": "omega",
+   "name": "Redmi Pro"
+  }
+ ],
+ "oneplus-global": [
+  {
+   "code": "oneplus-nord-n300",
+   "name": "OnePlus Nord N300，选择地区"
+  },
+  {
+   "code": "oneplus-nord-n30",
+   "name": "OnePlus Nord N30，选择地区"
+  },
+  {
+   "code": "oneplus-nord-n30-se",
+   "name": "OnePlus Nord N30 SE，选择地区"
+  },
+  {
+   "code": "oneplus-nord-n20-se",
+   "name": "OnePlus Nord N20 SE，选择地区"
+  },
+  {
+   "code": "oneplus-nord-6",
+   "name": "OnePlus Nord 6，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-6",
+   "name": "OnePlus Nord CE 6，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-6-lite",
+   "name": "OnePlus Nord CE 6 Lite，选择地区"
+  },
+  {
+   "code": "oneplus-nord-5",
+   "name": "OnePlus Nord 5，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-5",
+   "name": "OnePlus Nord CE 5，选择地区"
+  },
+  {
+   "code": "oneplus-nord-4",
+   "name": "OnePlus Nord 4，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-4",
+   "name": "OnePlus Nord CE 4，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-4-lite",
+   "name": "OnePlus Nord CE 4 Lite，选择地区"
+  },
+  {
+   "code": "oneplus-nord-3",
+   "name": "OnePlus Nord 3，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-3",
+   "name": "OnePlus Nord CE 3，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-3-lite",
+   "name": "OnePlus Nord CE 3 Lite，选择地区"
+  },
+  {
+   "code": "oneplus-nord-2t",
+   "name": "OnePlus Nord 2T，选择地区"
+  },
+  {
+   "code": "oneplus-nord-ce-2-lite",
+   "name": "OnePlus Nord CE 2 Lite，选择地区"
+  },
+  {
+   "code": "oneplus-15",
+   "name": "OnePlus 15，选择地区"
+  },
+  {
+   "code": "oneplus-15r",
+   "name": "OnePlus 15R，选择地区"
+  },
+  {
+   "code": "oneplus-13",
+   "name": "OnePlus 13，选择地区"
+  },
+  {
+   "code": "oneplus-13r",
+   "name": "OnePlus 13R，选择地区"
+  },
+  {
+   "code": "oneplus-13s",
+   "name": "OnePlus 13s，选择地区"
+  },
+  {
+   "code": "oneplus-12",
+   "name": "OnePlus 12，选择地区"
+  },
+  {
+   "code": "oneplus-12r",
+   "name": "OnePlus 12R，选择地区"
+  },
+  {
+   "code": "oneplus-11",
+   "name": "OnePlus 11，选择地区"
+  },
+  {
+   "code": "oneplus-11r",
+   "name": "OnePlus 11R，选择地区"
+  },
+  {
+   "code": "oneplus-10r",
+   "name": "OnePlus 10R，选择地区"
+  },
+  {
+   "code": "oneplus-10t",
+   "name": "OnePlus 10T，选择地区"
+  },
+  {
+   "code": "oneplus-n6",
+   "name": "OnePlus N6，选择地区"
+  },
+  {
+   "code": "oneplus-n6x",
+   "name": "OnePlus N6x，选择地区"
+  },
+  {
+   "code": "oneplus-open",
+   "name": "OnePlus Open，选择地区"
+  }
+ ],
+ "Lenovo": [
+  {
+   "code": "TB-331FC",
+   "name": "Lenovo 小新 Pad 2024"
+  },
+  {
+   "code": "TB-350XC",
+   "name": "Lenovo 小新 Pad Plus 2023"
+  },
+  {
+   "code": "TB-128FU",
+   "name": "Lenovo 小新 Pad 2022/Lenovo 启天 K10 Pro 10.61 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-138FC",
+   "name": "Lenovo 小新 Pad Pro 2022 骁龙版"
+  },
+  {
+   "code": "TB-132FU",
+   "name": "Lenovo 小新 Pad Pro 2022 迅鲲版"
+  },
+  {
+   "code": "TB-J716F",
+   "name": "Lenovo 小新 Pad Pro 2021"
+  },
+  {
+   "code": "TB-J706F",
+   "name": "Lenovo 小新 Pad Pro (2020)"
+  },
+  {
+   "code": "TB-375FC",
+   "name": "Lenovo 小新 Pad Pro 12.7 2025"
+  },
+  {
+   "code": "TB-372FC",
+   "name": "Lenovo 小新 Pad Plus 12.7 舒视版/Lenovo 小新学习平板 12.7"
+  },
+  {
+   "code": "TB-371FC",
+   "name": "Lenovo 小新 Pad Pro 12.7 骁龙版"
+  },
+  {
+   "code": "TB-Q706F",
+   "name": "Lenovo 小新 Pad Pro 12.6"
+  },
+  {
+   "code": "TB-J607F",
+   "name": "Lenovo 小新 Pad Plus/Lenovo 启天 K11 Pro 11 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-J606F%0A%E8%AE%AF%E9%A3%9E%E6%95%99%E5%B8%88",
+   "name": "Lenovo 小新 Pad【讯飞教师】/Lenovo 平板电脑 K11 11 英寸 Wi-Fi 版【讯飞教师】"
+  },
+  {
+   "code": "TB-J606F",
+   "name": "Lenovo 小新 Pad/Lenovo 平板电脑 K11 11 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-J607Z%0A%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9EAI%E5%AD%A6%E4%B9%A0%E6%9C%BA",
+   "name": "Lenovo 小新 Pad Plus 5G【科大讯飞AI学习机】/Lenovo 启天 K11 Pro 11 英寸 5G 版【科大讯飞AI学习机】"
+  },
+  {
+   "code": "TB-J607Z%0ARD",
+   "name": "Lenovo 小新 Pad Plus 5G【RD】/Lenovo 启天 K11 Pro 11 英寸 5G 版【RD】"
+  },
+  {
+   "code": "TB-J607Z",
+   "name": "Lenovo 小新 Pad Plus 5G/Lenovo 启天 K11 Pro 11 英寸 5G 版"
+  },
+  {
+   "code": "TB-351FU",
+   "name": "Lenovo 小新 Pad Studio"
+  },
+  {
+   "code": "TB522FU",
+   "name": "Lenovo AI 平板 拯救者 Y900 13"
+  },
+  {
+   "code": "TB711FU",
+   "name": "Lenovo AI 平板 拯救者 Y900 11"
+  },
+  {
+   "code": "TB323FU",
+   "name": "Lenovo AI 平板 拯救者 Y700 五代"
+  },
+  {
+   "code": "TB376FC",
+   "name": "Lenovo AI 平板 小新 Pro 13"
+  },
+  {
+   "code": "TB378FC",
+   "name": "Lenovo AI 平板 小新 Pro GT 13"
+  },
+  {
+   "code": "TB-570FU",
+   "name": "Lenovo 拯救者平板 Y900"
+  },
+  {
+   "code": "TB321FU",
+   "name": "Lenovo 拯救者平板 Y700 2025"
+  },
+  {
+   "code": "TB-320FC",
+   "name": "Lenovo 拯救者平板 Y700 2023"
+  },
+  {
+   "code": "TB-9707F",
+   "name": "Lenovo 拯救者平板 Y700 (2022)"
+  },
+  {
+   "code": "TB322FC",
+   "name": "Lenovo 拯救者平板 Y700 四代"
+  },
+  {
+   "code": "TB240FC",
+   "name": "Lenovo 启天 K12 12.7 英寸 Wi-Fi 版/Lenovo 昭阳 K12 12.7 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-J6C6F",
+   "name": "Lenovo 启天 K11 11 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB230XC",
+   "name": "Lenovo 启天 K11 Gen2 11.5 英寸 LTE 版"
+  },
+  {
+   "code": "TB230FC",
+   "name": "Lenovo 启天 K11 Gen2 11.5 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB360ZU%0A%E8%B4%B5%E5%B7%9E%E7%A7%BB%E5%8A%A8",
+   "name": "Lenovo 启天 K10 Pro 10.61 英寸 5G 版【贵州移动】/Lenovo 昭阳 K10 10.61 英寸 5G 版【贵州移动】"
+  },
+  {
+   "code": "TB360ZU",
+   "name": "Lenovo 启天 K10 Pro 10.61 英寸 5G 版/Lenovo 昭阳 K10 10.61 英寸 5G 版"
+  },
+  {
+   "code": "TB226XC",
+   "name": "Lenovo 启天 K10 Pro 10.61 英寸 LTE 版"
+  },
+  {
+   "code": "TB223FC",
+   "name": "Lenovo 启天 K10 Pro 10.61 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB223FC%0A%E6%9C%89%E9%81%93%E5%AE%9A%E5%88%B6%E5%AD%A6%E4%B9%A0%E6%9C%BA",
+   "name": "Lenovo 启天 K10 Pro 10.61 英寸 Wi-Fi 版【有道定制学习机】"
+  },
+  {
+   "code": "TB-X6C6NBF",
+   "name": "Lenovo 启天 K10 10.3 英寸 无电池版本"
+  },
+  {
+   "code": "TB-X6C6X",
+   "name": "Lenovo 启天 K10 10.3 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X6C6F",
+   "name": "Lenovo 启天 K10 10.3 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X6C6F%0A%E8%AE%AF%E9%A3%9E",
+   "name": "Lenovo 启天 K10 10.3 英寸 Wi-Fi 版【讯飞】"
+  },
+  {
+   "code": "SP523FC",
+   "name": "Lenovo 启天 SmartPaper 10.3 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB310XC",
+   "name": "Lenovo 启天 K9 9 英寸 LTE 版/Lenovo 昭阳 K9 9 英寸 LTE 版"
+  },
+  {
+   "code": "TB310FU",
+   "name": "Lenovo 启天 K9 9 英寸 Wi-Fi 版/Lenovo 昭阳 K9 9 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-8506N",
+   "name": "Lenovo 启天 K8 8 英寸 LTE 版"
+  },
+  {
+   "code": "TB-8506F",
+   "name": "Lenovo 启天 K8 8 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB373ZC",
+   "name": "Lenovo 昭阳 K12 (二代) 12.7 英寸 5G 版"
+  },
+  {
+   "code": "TB373FU",
+   "name": "Lenovo 昭阳 K12 (二代) 12.7 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB352XC",
+   "name": "Lenovo 昭阳 K11 11.5 英寸 LTE 版"
+  },
+  {
+   "code": "TB352FC",
+   "name": "Lenovo 昭阳 K11 11.5 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TBY11",
+   "name": "Lenovo 昭阳 Y11 10.95 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB330FU%0AT%E7%89%88%E6%9C%AC",
+   "name": "Lenovo 昭阳 K10 10.95 英寸 Wi-Fi 版【T版本】"
+  },
+  {
+   "code": "TB330XC",
+   "name": "Lenovo 昭阳 K10 10.95 英寸 LTE 版"
+  },
+  {
+   "code": "TB330FU",
+   "name": "Lenovo 昭阳 K10 10.95 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB311XC",
+   "name": "Lenovo 昭阳 K10c 10.1 英寸 LTE 版"
+  },
+  {
+   "code": "TB311FU",
+   "name": "Lenovo 昭阳 K10c 10.1 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-520FU",
+   "name": "Lenovo YOGA Pad Pro 12.7/Lenovo YOGA Pad Pro AI 元启版"
+  },
+  {
+   "code": "YT-X703L",
+   "name": "Lenovo YOGA Tab 3 Plus LTE 版"
+  },
+  {
+   "code": "YT-X703F",
+   "name": "Lenovo YOGA Tab 3 Plus Wi-Fi 版"
+  },
+  {
+   "code": "YT-K606F",
+   "name": "Lenovo YOGA Pad Pro"
+  },
+  {
+   "code": "SP-101FU",
+   "name": "Lenovo YOGA Paper 墨水平板"
+  },
+  {
+   "code": "TB365FC",
+   "name": "Lenovo 小新平板 12.1"
+  },
+  {
+   "code": "TB335ZC",
+   "name": "Lenovo 小新平板 11 5G"
+  },
+  {
+   "code": "TB335FC",
+   "name": "Lenovo 小新平板 11"
+  },
+  {
+   "code": "TB-X804F",
+   "name": "Lenovo 小新平板 10 英寸"
+  },
+  {
+   "code": "TB-8804F",
+   "name": "Lenovo 小新平板 8 英寸"
+  },
+  {
+   "code": "TB-8804F%0A%E6%99%BA%E4%BA%AB%E7%89%88",
+   "name": "Lenovo 小新平板 8 英寸【智享版】"
+  },
+  {
+   "code": "TB710FU",
+   "name": "Lenovo 小新平板 Pro GT"
+  },
+  {
+   "code": "TB-J606N",
+   "name": "Lenovo 平板电脑 K11 11 英寸 LTE 版"
+  },
+  {
+   "code": "QBH10",
+   "name": "Lenovo 平板电脑 S11 10.95 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-J616F",
+   "name": "Lenovo Tab P11 Plus"
+  },
+  {
+   "code": "TB-J616N",
+   "name": "Lenovo Tab P11 Plus"
+  },
+  {
+   "code": "TB-X304N",
+   "name": "Lenovo TAB4 10.1 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X304N%0A%E5%85%83%E5%BE%81%E4%BA%8C%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 LTE 版【元征二期】"
+  },
+  {
+   "code": "TB-X304N%0A%E5%85%83%E5%BE%81%E4%B8%89%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 LTE 版【元征三期】"
+  },
+  {
+   "code": "TB-X304N%0A%E5%85%83%E5%BE%81%E4%B8%80%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 LTE 版【元征一期】"
+  },
+  {
+   "code": "TB-X304N%0AXD",
+   "name": "Lenovo TAB4 10.1 英寸 LTE 版【XD】"
+  },
+  {
+   "code": "TB-X504F",
+   "name": "Lenovo TAB4 10.1 英寸 REL"
+  },
+  {
+   "code": "TB-X504F%0AORG",
+   "name": "Lenovo TAB4 10.1 英寸 REL【ORG】"
+  },
+  {
+   "code": "TB-X304F",
+   "name": "Lenovo TAB4 10.1 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X304F%0A%E5%85%83%E5%BE%81%E4%BA%8C%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 Wi-Fi 版【元征二期】"
+  },
+  {
+   "code": "TB-X304F%0A%E5%85%83%E5%BE%81%E4%B8%89%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 Wi-Fi 版【元征三期】"
+  },
+  {
+   "code": "TB-X304F%0A%E5%85%83%E5%BE%81%E4%B8%80%E6%9C%9F",
+   "name": "Lenovo TAB4 10.1 英寸 Wi-Fi 版【元征一期】"
+  },
+  {
+   "code": "TB-X304F%0AORG",
+   "name": "Lenovo TAB4 10.1 英寸 Wi-Fi 版【ORG】"
+  },
+  {
+   "code": "TB-X704N",
+   "name": "Lenovo TAB4 Plus 10.1 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X704N%0A%E5%85%83%E5%BE%81",
+   "name": "Lenovo TAB4 Plus 10.1 英寸 LTE 版【元征】"
+  },
+  {
+   "code": "TB-X704F",
+   "name": "Lenovo TAB4 Plus 10.1 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-8504N",
+   "name": "Lenovo TAB4 8 英寸 LTE 版"
+  },
+  {
+   "code": "TB-8604F",
+   "name": "Lenovo TAB4 8 英寸 REL"
+  },
+  {
+   "code": "TB-8X04F",
+   "name": "Lenovo TAB4 8 英寸 REL"
+  },
+  {
+   "code": "TB-8504F",
+   "name": "Lenovo TAB4 8 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-8704N",
+   "name": "Lenovo TAB4 Plus 8 英寸 LTE 版"
+  },
+  {
+   "code": "TB-8704F",
+   "name": "Lenovo TAB4 Plus 8 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X606M",
+   "name": "Lenovo M10 PLUS 10.3 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X616M",
+   "name": "Lenovo M10 PLUS 10.3 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X606F",
+   "name": "Lenovo M10 PLUS 10.3 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X616F",
+   "name": "Lenovo M10 PLUS 10.3 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X605LC",
+   "name": "Lenovo M10 FHD-REL 10.1 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X605FC",
+   "name": "Lenovo M10 FHD-REL 10.1 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-X605FC%0A%E5%85%83%E5%BE%81",
+   "name": "Lenovo M10 FHD-REL 10.1 英寸 Wi-Fi 版【元征】"
+  },
+  {
+   "code": "TB-X306NC",
+   "name": "Lenovo M10 HD 10.1 英寸 LTE 版"
+  },
+  {
+   "code": "TB-X306FC",
+   "name": "Lenovo M10 HD 10.1 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-8705N",
+   "name": "Lenovo M8 8 英寸 LTE 版"
+  },
+  {
+   "code": "TB-8505N",
+   "name": "Lenovo M8 8 英寸 LTE 版 (商用)"
+  },
+  {
+   "code": "TB-8705F",
+   "name": "Lenovo M8 8 英寸 Wi-Fi 版"
+  },
+  {
+   "code": "TB-8505F",
+   "name": "Lenovo M8 8 英寸 Wi-Fi 版 (商用)"
+  }
+ ],
+ "vivo": [
+  {
+   "code": "PD2561",
+   "name": "vivo Y600 Pro"
+  },
+  {
+   "code": "PD2607",
+   "name": "vivo Y600"
+  },
+  {
+   "code": "PD2553",
+   "name": "vivo Y600 Turbo"
+  },
+  {
+   "code": "PD2617",
+   "name": "vivo Y600i"
+  },
+  {
+   "code": "PD2531",
+   "name": "vivo Y500i / vivo Y500s / vivo Y6 / vivo Y6a / vivo G5i / vivo G5z"
+  },
+  {
+   "code": "PD2608",
+   "name": "vivo X500 Pro"
+  },
+  {
+   "code": "PD2602",
+   "name": "vivo X500 Pro Max"
+  },
+  {
+   "code": "PD2516",
+   "name": "vivo Y500 Pro"
+  },
+  {
+   "code": "PD2609",
+   "name": "vivo X500"
+  },
+  {
+   "code": "PD2506",
+   "name": "vivo Y500"
+  },
+  {
+   "code": "PD2445D",
+   "name": "vivo Y300t / vivo Y300+"
+  },
+  {
+   "code": "PD2435",
+   "name": "vivo Y300 5G / vivo Y300c"
+  },
+  {
+   "code": "PD2444",
+   "name": "vivo Y300i 5G"
+  },
+  {
+   "code": "PD2547",
+   "name": "vivo X300 Ultra"
+  },
+  {
+   "code": "PD2456",
+   "name": "vivo Y300 Pro+"
+  },
+  {
+   "code": "PD2502",
+   "name": "vivo X300 Pro"
+  },
+  {
+   "code": "PD2410",
+   "name": "vivo Y300 Pro"
+  },
+  {
+   "code": "PD2509",
+   "name": "vivo X300"
+  },
+  {
+   "code": "PD2612",
+   "name": "vivo X300 E"
+  },
+  {
+   "code": "PD2548",
+   "name": "vivo X300s"
+  },
+  {
+   "code": "PD2452",
+   "name": "vivo Y300 GT"
+  },
+  {
+   "code": "PD2361",
+   "name": "vivo Y200 GT 5G / vivo Y200 Pro 企业定制版"
+  },
+  {
+   "code": "PD2343",
+   "name": "vivo Y200 5G"
+  },
+  {
+   "code": "PD2353",
+   "name": "vivo Y200t 5G"
+  },
+  {
+   "code": "PD2454",
+   "name": "vivo X200 Ultra"
+  },
+  {
+   "code": "PD2405",
+   "name": "vivo X200 Pro"
+  },
+  {
+   "code": "PD2419",
+   "name": "vivo X200 Pro mini"
+  },
+  {
+   "code": "PD2415",
+   "name": "vivo X200"
+  },
+  {
+   "code": "PD2458",
+   "name": "vivo X200s"
+  },
+  {
+   "code": "PD2186",
+   "name": "vivo X80 Pro 天玑 9000 版"
+  },
+  {
+   "code": "PD2313",
+   "name": "vivo Y100 5G"
+  },
+  {
+   "code": "PD2314",
+   "name": "vivo Y100t 5G"
+  },
+  {
+   "code": "PD2366",
+   "name": "vivo X100 Ultra"
+  },
+  {
+   "code": "PD2324",
+   "name": "vivo X100 Pro"
+  },
+  {
+   "code": "PD2309",
+   "name": "vivo X100"
+  },
+  {
+   "code": "PD2359",
+   "name": "vivo X100s"
+  },
+  {
+   "code": "PD1813",
+   "name": "vivo Y97 全网通版 / vivo Z3i 全网通版 / vivo Z3i 标准版 全网通版"
+  },
+  {
+   "code": "PD1818",
+   "name": "vivo Y93 全网通版 / vivo U1"
+  },
+  {
+   "code": "PD1818B",
+   "name": "vivo Y93 标准版 全网通版"
+  },
+  {
+   "code": "PD1818C",
+   "name": "vivo Y91 全网通版 / vivo Y93s 全网通版"
+  },
+  {
+   "code": "PD2227",
+   "name": "vivo X90 Pro+"
+  },
+  {
+   "code": "PD2242",
+   "name": "vivo X90 Pro"
+  },
+  {
+   "code": "PD2241",
+   "name": "vivo X90"
+  },
+  {
+   "code": "PD1730E",
+   "name": "vivo Y89 / vivo Z1 青春版"
+  },
+  {
+   "code": "PD1732",
+   "name": "vivo Y81 全网通版 / vivo Y81s 全网通版"
+  },
+  {
+   "code": "PD2185",
+   "name": "vivo X80 Pro"
+  },
+  {
+   "code": "PD2183",
+   "name": "vivo X80"
+  },
+  {
+   "code": "PD2312",
+   "name": "vivo Y78t 5G / vivo Y100i 长续航版 5G"
+  },
+  {
+   "code": "PD2271",
+   "name": "vivo Y78+ 5G / vivo Y78+ (t1) 5G"
+  },
+  {
+   "code": "PD2278",
+   "name": "vivo Y77t 5G / vivo Y78 5G / vivo Y78m 5G"
+  },
+  {
+   "code": "PD2224",
+   "name": "vivo Y77e 5G / vivo Y77e (t1 版) 5G"
+  },
+  {
+   "code": "PD2219",
+   "name": "vivo Y77 5G"
+  },
+  {
+   "code": "PD2156",
+   "name": "vivo Y76s 5G"
+  },
+  {
+   "code": "PD2156U",
+   "name": "vivo Y76s (t1 版) 5G"
+  },
+  {
+   "code": "PD2009",
+   "name": "vivo Y74s 5G"
+  },
+  {
+   "code": "PD2164U",
+   "name": "vivo Y73t 5G"
+  },
+  {
+   "code": "PD1731C",
+   "name": "vivo Y71s / vivo Y73"
+  },
+  {
+   "code": "PD2102",
+   "name": "vivo Y71t 5G"
+  },
+  {
+   "code": "PD2002",
+   "name": "vivo Y70s 5G"
+  },
+  {
+   "code": "PD2145",
+   "name": "vivo X70 Pro+"
+  },
+  {
+   "code": "PD2134",
+   "name": "vivo X70 Pro"
+  },
+  {
+   "code": "PD2133",
+   "name": "vivo X70"
+  },
+  {
+   "code": "PD2132",
+   "name": "vivo X70t"
+  },
+  {
+   "code": "PD2542",
+   "name": "vivo Y60i / vivo Y60i m 版 / vivo Y6t m 版"
+  },
+  {
+   "code": "PD2056",
+   "name": "vivo X60 Pro+ / vivo X60t Pro+"
+  },
+  {
+   "code": "PD2559",
+   "name": "vivo Y60 / vivo Y6t / vivo Y6e"
+  },
+  {
+   "code": "PD2047",
+   "name": "vivo X60 Pro"
+  },
+  {
+   "code": "PD2120",
+   "name": "vivo X60t Pro"
+  },
+  {
+   "code": "PD2571",
+   "name": "vivo S60"
+  },
+  {
+   "code": "PD2572",
+   "name": "vivo S60 元气版"
+  },
+  {
+   "code": "PD2046",
+   "name": "vivo X60"
+  },
+  {
+   "code": "PD2059",
+   "name": "vivo X60 曲屏版"
+  },
+  {
+   "code": "PD2085",
+   "name": "vivo X60t"
+  },
+  {
+   "code": "PD2164",
+   "name": "vivo Y55s 5G / vivo Y72t 5G"
+  },
+  {
+   "code": "PD2045",
+   "name": "vivo Y54s 5G"
+  },
+  {
+   "code": "PD2111",
+   "name": "vivo Y53s 5G"
+  },
+  {
+   "code": "PD2123",
+   "name": "vivo Y53s (t2 版) 5G / vivo T1x"
+  },
+  {
+   "code": "PD2069",
+   "name": "vivo Y53s (t1 版) 5G / vivo Y53s (NFC 版) 5G"
+  },
+  {
+   "code": "PD2057",
+   "name": "vivo Y52s 5G"
+  },
+  {
+   "code": "PD2106",
+   "name": "vivo Y52s (t1 版) 5G"
+  },
+  {
+   "code": "PD2019",
+   "name": "vivo Y51s 5G / vivo Y70t 5G"
+  },
+  {
+   "code": "PD2528",
+   "name": "vivo S50 / vivo S50t / vivo S50t 元气版"
+  },
+  {
+   "code": "PD2099",
+   "name": "vivo Y30 2021"
+  },
+  {
+   "code": "PD2011",
+   "name": "vivo X50 Pro+"
+  },
+  {
+   "code": "PD2527",
+   "name": "vivo S50 Pro mini"
+  },
+  {
+   "code": "PD2005",
+   "name": "vivo X50 Pro"
+  },
+  {
+   "code": "PD2001",
+   "name": "vivo X50"
+  },
+  {
+   "code": "PD1965",
+   "name": "vivo Y50"
+  },
+  {
+   "code": "PD2023",
+   "name": "vivo Y50t"
+  },
+  {
+   "code": "PD2354",
+   "name": "vivo Y37 Pro 5G / vivo Y100+ 5G / vivo Y200i 5G / vivo Y200+ 5G"
+  },
+  {
+   "code": "PD2443",
+   "name": "vivo Y37t 5G / vivo Y37+ 5G / vivo Y50 5G / vivo Y50i 5G / vivo Y50e 5G / vivo Y50s 5G / vivo G3"
+  },
+  {
+   "code": "PD2442",
+   "name": "vivo Y37c"
+  },
+  {
+   "code": "PD2357",
+   "name": "vivo Y36c 5G / vivo Y37 5G"
+  },
+  {
+   "code": "PD2318",
+   "name": "vivo Y36 5G / vivo Y36m 5G / vivo Y36i 5G / vivo Y36s 5G / vivo G2"
+  },
+  {
+   "code": "PD2327",
+   "name": "vivo Y36t"
+  },
+  {
+   "code": "PD2230",
+   "name": "vivo Y35 5G / vivo Y35m 5G / vivo Y53t 5G"
+  },
+  {
+   "code": "PD2279",
+   "name": "vivo Y35+ 5G / vivo Y35m+ 5G / vivo Y55t 5G / vivo Y78 (t1) 5G / vivo Y78m (t1) 5G / vivo Y100i 5G"
+  },
+  {
+   "code": "PD2166",
+   "name": "vivo Y33s 5G / vivo Y33e 5G / vivo Y52t 5G"
+  },
+  {
+   "code": "PD2158",
+   "name": "vivo Y32"
+  },
+  {
+   "code": "PD2068",
+   "name": "vivo Y31s 标准版 5G / vivo Y31s (t1 版) 5G"
+  },
+  {
+   "code": "PD2054",
+   "name": "vivo Y31s 5G"
+  },
+  {
+   "code": "PD2092",
+   "name": "vivo Y31s (t2 版) 5G"
+  },
+  {
+   "code": "PD1938",
+   "name": "vivo X30 Pro 5G 全网通版"
+  },
+  {
+   "code": "PD1938C",
+   "name": "vivo X30 5G 全网通版"
+  },
+  {
+   "code": "PD2465",
+   "name": "vivo S30 Pro mini"
+  },
+  {
+   "code": "PD2464",
+   "name": "vivo S30"
+  },
+  {
+   "code": "PD2034",
+   "name": "vivo Y30"
+  },
+  {
+   "code": "PD2036",
+   "name": "vivo Y30 标准版"
+  },
+  {
+   "code": "PD2066",
+   "name": "vivo Y30 活力版"
+  },
+  {
+   "code": "PD2066B",
+   "name": "vivo Y30g"
+  },
+  {
+   "code": "PD1829",
+   "name": "vivo X27 8GB+256GB 全网通版"
+  },
+  {
+   "code": "PD1838",
+   "name": "vivo X27 8GB+128GB 全网通版"
+  },
+  {
+   "code": "PD1836",
+   "name": "vivo X27 Pro 全网通版"
+  },
+  {
+   "code": "PD1816",
+   "name": "vivo X23 幻彩版 全网通版"
+  },
+  {
+   "code": "PD1809",
+   "name": "vivo X23 全网通版"
+  },
+  {
+   "code": "PD1814",
+   "name": "vivo X21s 全网通版"
+  },
+  {
+   "code": "PD2430",
+   "name": "vivo S20 Pro"
+  },
+  {
+   "code": "PD2429",
+   "name": "vivo S20"
+  },
+  {
+   "code": "PD2362",
+   "name": "vivo S19 Pro"
+  },
+  {
+   "code": "PD2364",
+   "name": "vivo S19"
+  },
+  {
+   "code": "PD2344",
+   "name": "vivo S18 Pro"
+  },
+  {
+   "code": "PD2323",
+   "name": "vivo S18"
+  },
+  {
+   "code": "PD2334",
+   "name": "vivo S18e"
+  },
+  {
+   "code": "PD2284",
+   "name": "vivo S17 Pro"
+  },
+  {
+   "code": "PD2283",
+   "name": "vivo S17"
+  },
+  {
+   "code": "PD2285",
+   "name": "vivo S17e"
+  },
+  {
+   "code": "PD2282",
+   "name": "vivo S17t"
+  },
+  {
+   "code": "PD2245",
+   "name": "vivo S16 Pro"
+  },
+  {
+   "code": "PD2244",
+   "name": "vivo S16"
+  },
+  {
+   "code": "PD2239",
+   "name": "vivo S16e"
+  },
+  {
+   "code": "PD2207",
+   "name": "vivo S15 Pro"
+  },
+  {
+   "code": "PD2203",
+   "name": "vivo S15"
+  },
+  {
+   "code": "PD2190",
+   "name": "vivo S15e"
+  },
+  {
+   "code": "PD2317",
+   "name": "vivo Y12 / vivo Y33t"
+  },
+  {
+   "code": "PD1990",
+   "name": "vivo Z5x 712 版"
+  },
+  {
+   "code": "PD2163",
+   "name": "vivo S12 Pro"
+  },
+  {
+   "code": "PD2162",
+   "name": "vivo S12"
+  },
+  {
+   "code": "PD2236",
+   "name": "vivo Y11"
+  },
+  {
+   "code": "PD2121",
+   "name": "vivo S10 / vivo S10 Pro"
+  },
+  {
+   "code": "PD2180",
+   "name": "vivo Y10 (t2 版) / vivo Y32t (骁龙 680)"
+  },
+  {
+   "code": "PD2168",
+   "name": "vivo Y10 (t1 版) / vivo Y32t (P70)"
+  },
+  {
+   "code": "PD2130",
+   "name": "vivo S10e"
+  },
+  {
+   "code": "PD2140",
+   "name": "vivo Y10"
+  },
+  {
+   "code": "PD1813B",
+   "name": "vivo Z3 全网通版 (骁龙 670)"
+  },
+  {
+   "code": "PD2072",
+   "name": "vivo S9"
+  },
+  {
+   "code": "PD2048",
+   "name": "vivo S9e"
+  },
+  {
+   "code": "PD1945",
+   "name": "vivo Y9s 全网通版"
+  },
+  {
+   "code": "PD2031",
+   "name": "vivo S7e / vivo Y73s 5G"
+  },
+  {
+   "code": "PD2020",
+   "name": "vivo S7"
+  },
+  {
+   "code": "PD2031EA",
+   "name": "vivo S7e 活力版"
+  },
+  {
+   "code": "PD2080",
+   "name": "vivo S7t"
+  },
+  {
+   "code": "PD1913",
+   "name": "vivo Y7s 全网通版"
+  },
+  {
+   "code": "PD1963",
+   "name": "vivo Z6 5G"
+  },
+  {
+   "code": "DPD2540",
+   "name": "vivo Pad6 Pro"
+  },
+  {
+   "code": "PD1962",
+   "name": "vivo S6"
+  },
+  {
+   "code": "PD2545",
+   "name": "vivo X Fold6"
+  },
+  {
+   "code": "PD2541",
+   "name": "vivo Y6c"
+  },
+  {
+   "code": "PD2532",
+   "name": "vivo Y6m"
+  },
+  {
+   "code": "PD1941",
+   "name": "vivo Z5i 全网通版 / vivo U3 全网通版"
+  },
+  {
+   "code": "DPD2429",
+   "name": "vivo Pad5 Pro"
+  },
+  {
+   "code": "DPD2437",
+   "name": "vivo Pad5"
+  },
+  {
+   "code": "PD1932",
+   "name": "vivo S5 全网通版"
+  },
+  {
+   "code": "PD2436",
+   "name": "vivo X Fold5"
+  },
+  {
+   "code": "PD1934",
+   "name": "vivo Y5s 全网通版"
+  },
+  {
+   "code": "PD1921",
+   "name": "vivo Z5 全网通版"
+  },
+  {
+   "code": "PD1911",
+   "name": "vivo Z5x 全网通版"
+  },
+  {
+   "code": "PD1924",
+   "name": "vivo NEX 3 5G 全网通版"
+  },
+  {
+   "code": "PD1950",
+   "name": "vivo NEX 3S 5G"
+  },
+  {
+   "code": "PD1901",
+   "name": "vivo Y3 全网通版 / vivo Y3s 全网通版"
+  },
+  {
+   "code": "DPD2329",
+   "name": "vivo Pad3 Pro"
+  },
+  {
+   "code": "PD2337",
+   "name": "vivo X Fold3 Pro"
+  },
+  {
+   "code": "DPD2345",
+   "name": "vivo Pad3"
+  },
+  {
+   "code": "PD1923",
+   "name": "vivo NEX 3 全网通版"
+  },
+  {
+   "code": "PD1928",
+   "name": "vivo U3x 全网通版"
+  },
+  {
+   "code": "PD2303",
+   "name": "vivo X Fold3"
+  },
+  {
+   "code": "PD1930",
+   "name": "vivo Y3 标准版 全网通版"
+  },
+  {
+   "code": "PD1730G",
+   "name": "vivo Z3x"
+  },
+  {
+   "code": "DPD2221",
+   "name": "vivo Pad2"
+  },
+  {
+   "code": "PD2199",
+   "name": "vivo T2"
+  },
+  {
+   "code": "PD2188",
+   "name": "vivo T2x"
+  },
+  {
+   "code": "PD2266",
+   "name": "vivo X Fold2"
+  },
+  {
+   "code": "PD1832",
+   "name": "vivo S1 Pro 全网通版"
+  },
+  {
+   "code": "PD1962B",
+   "name": "vivo G1"
+  },
+  {
+   "code": "PD1831",
+   "name": "vivo S1 全网通版"
+  },
+  {
+   "code": "PD2115",
+   "name": "vivo T1"
+  },
+  {
+   "code": "PD1730C",
+   "name": "vivo Z1"
+  },
+  {
+   "code": "PD1730D",
+   "name": "vivo Z1i 全网通版"
+  },
+  {
+   "code": "DPD2106",
+   "name": "vivo Pad"
+  },
+  {
+   "code": "DPD2305",
+   "name": "vivo Pad Air"
+  },
+  {
+   "code": "DPD2424",
+   "name": "vivo Pad SE"
+  },
+  {
+   "code": "PD1821",
+   "name": "vivo NEX 双屏版 全网通版"
+  },
+  {
+   "code": "PD2256",
+   "name": "vivo X Flip"
+  },
+  {
+   "code": "PD2178",
+   "name": "vivo X Fold"
+  },
+  {
+   "code": "PD2229",
+   "name": "vivo X Fold+"
+  },
+  {
+   "code": "PD2170",
+   "name": "vivo X Note"
+  }
+ ],
+ "OnePlus": [
+  {
+   "code": "PLK110",
+   "name": "一加 15"
+  },
+  {
+   "code": "PLZ110",
+   "name": "一加 15T"
+  },
+  {
+   "code": "PJZ110",
+   "name": "一加 13"
+  },
+  {
+   "code": "PKX110",
+   "name": "一加 13T"
+  },
+  {
+   "code": "PJD110",
+   "name": "一加 12"
+  },
+  {
+   "code": "PHB110",
+   "name": "一加 11"
+  },
+  {
+   "code": "NE2210",
+   "name": "一加 10 Pro"
+  },
+  {
+   "code": "LE2120",
+   "name": "一加 9 Pro"
+  },
+  {
+   "code": "LE2110",
+   "name": "一加 9"
+  },
+  {
+   "code": "LE2100",
+   "name": "一加 9R"
+  },
+  {
+   "code": "MT2110",
+   "name": "一加 9RT"
+  },
+  {
+   "code": "IN2020",
+   "name": "一加 8 Pro"
+  },
+  {
+   "code": "IN2010",
+   "name": "一加 8"
+  },
+  {
+   "code": "KB2000",
+   "name": "一加 8T"
+  },
+  {
+   "code": "GM1910",
+   "name": "一加7 Pro"
+  },
+  {
+   "code": "HD1910",
+   "name": "一加7T Pro"
+  },
+  {
+   "code": "GM1900",
+   "name": "一加7"
+  },
+  {
+   "code": "HD1900",
+   "name": "一加7T"
+  },
+  {
+   "code": "PMB110",
+   "name": "一加 Ace 6 至尊版"
+  },
+  {
+   "code": "PLQ110",
+   "name": "一加 Ace 6"
+  },
+  {
+   "code": "PLR110",
+   "name": "一加 Ace 6T"
+  },
+  {
+   "code": "PLC110",
+   "name": "一加 Ace 5 至尊版"
+  },
+  {
+   "code": "PKR110",
+   "name": "一加 Ace 5 Pro"
+  },
+  {
+   "code": "PLF110",
+   "name": "一加 Ace 5 竞速版"
+  },
+  {
+   "code": "PKG110",
+   "name": "一加 Ace 5"
+  },
+  {
+   "code": "PJX110",
+   "name": "一加 Ace 3 Pro"
+  },
+  {
+   "code": "PJE110",
+   "name": "一加 Ace 3"
+  },
+  {
+   "code": "PJF110",
+   "name": "一加 Ace 3V"
+  },
+  {
+   "code": "PJA110",
+   "name": "一加 Ace 2 Pro"
+  },
+  {
+   "code": "PHK110",
+   "name": "一加 Ace 2"
+  },
+  {
+   "code": "PHP110",
+   "name": "一加 Ace 2V"
+  },
+  {
+   "code": "PGP110",
+   "name": "一加 Ace Pro"
+  },
+  {
+   "code": "PGZ110",
+   "name": "一加 Ace 竞速版"
+  },
+  {
+   "code": "PGKM10",
+   "name": "一加 Ace"
+  },
+  {
+   "code": "PYR110",
+   "name": "一加 Turbo 6X Pro"
+  },
+  {
+   "code": "PLU110",
+   "name": "一加 Turbo 6"
+  },
+  {
+   "code": "PLY110",
+   "name": "一加 Turbo 6V"
+  },
+  {
+   "code": "PYS110",
+   "name": "一加 Turbo 6X"
+  },
+  {
+   "code": "OPD2513",
+   "name": "一加 Pad 3 Pro"
+  },
+  {
+   "code": "OPD2413",
+   "name": "一加 Pad 2 Pro"
+  },
+  {
+   "code": "OPD2508",
+   "name": "一加 Pad 2"
+  },
+  {
+   "code": "OPD2404",
+   "name": "一加 Pad Pro"
+  },
+  {
+   "code": "OPD2407",
+   "name": "一加 Pad"
+  }
+ ],
+ "OPPO": [
+  {
+   "code": "PFTM10",
+   "name": "OPPO A97"
+  },
+  {
+   "code": "PFUM10",
+   "name": "OPPO A96 5G"
+  },
+  {
+   "code": "PHA120",
+   "name": "OPPO A96"
+  },
+  {
+   "code": "PELM00",
+   "name": "OPPO A95 5G"
+  },
+  {
+   "code": "PEHM00",
+   "name": "OPPO A93 5G"
+  },
+  {
+   "code": "PFGM00",
+   "name": "OPPO A93 S 5G"
+  },
+  {
+   "code": "PDKM00",
+   "name": "OPPO A92 S 5G"
+  },
+  {
+   "code": "PCPM00",
+   "name": "OPPO A91"
+  },
+  {
+   "code": "PDYM20",
+   "name": "OPPO A72 5G"
+  },
+  {
+   "code": "PHJ110",
+   "name": "OPPO A58 / OPPO A58x / OPPO A1x / OPPO A1 活力版"
+  },
+  {
+   "code": "PFTM20",
+   "name": "OPPO A56 S 5G/OPPO A57 5G"
+  },
+  {
+   "code": "PFVM10",
+   "name": "OPPO A56 5G"
+  },
+  {
+   "code": "PEMM00",
+   "name": "OPPO A55 5G"
+  },
+  {
+   "code": "PECM30",
+   "name": "OPPO A53 5G"
+  },
+  {
+   "code": "PDAM10",
+   "name": "OPPO A52"
+  },
+  {
+   "code": "PESM10",
+   "name": "OPPO A36"
+  },
+  {
+   "code": "PDVM00",
+   "name": "OPPO A32/OPPO A11s"
+  },
+  {
+   "code": "PCHM10",
+   "name": "OPPO A11"
+  },
+  {
+   "code": "PCHM30",
+   "name": "OPPO A11x"
+  },
+  {
+   "code": "PCAM10",
+   "name": "OPPO A9"
+  },
+  {
+   "code": "PCEM00",
+   "name": "OPPO A9 X"
+  },
+  {
+   "code": "PYC110",
+   "name": "OPPO A7 Pro Max"
+  },
+  {
+   "code": "PLT120",
+   "name": "OPPO A6s / OPPO A6i+ / OPPO A6k"
+  },
+  {
+   "code": "PLN110",
+   "name": "OPPO A6 Pro"
+  },
+  {
+   "code": "PMT110",
+   "name": "OPPO A6s Pro"
+  },
+  {
+   "code": "PLS120",
+   "name": "OPPO A6"
+  },
+  {
+   "code": "PMC110",
+   "name": "OPPO A6c"
+  },
+  {
+   "code": "PKW120",
+   "name": "OPPO A6i"
+  },
+  {
+   "code": "PLT130",
+   "name": "OPPO A6v"
+  },
+  {
+   "code": "PLT140",
+   "name": "OPPO A6x"
+  },
+  {
+   "code": "PKP110",
+   "name": "OPPO A5 Pro 5G"
+  },
+  {
+   "code": "PKQ110",
+   "name": "OPPO A5 5G"
+  },
+  {
+   "code": "PKW110",
+   "name": "OPPO A5x / OPPO A5m"
+  },
+  {
+   "code": "PKA110",
+   "name": "OPPO A3 5G/OPPO A3 i Plus 5G"
+  },
+  {
+   "code": "PJY110",
+   "name": "OPPO A3 Pro 5G"
+  },
+  {
+   "code": "PKD110",
+   "name": "OPPO A3 活力版 5G"
+  },
+  {
+   "code": "PKL110",
+   "name": "OPPO A3 i 5G"
+  },
+  {
+   "code": "PKD130",
+   "name": "OPPO A3 X 5G"
+  },
+  {
+   "code": "PJU110",
+   "name": "OPPO A2 M 5G/OPPO A1 i 5G"
+  },
+  {
+   "code": "PJG110",
+   "name": "OPPO A2 Pro 5G"
+  },
+  {
+   "code": "PJS110",
+   "name": "OPPO A2 X 5G"
+  },
+  {
+   "code": "PHS110",
+   "name": "OPPO A1 5G (2023)"
+  },
+  {
+   "code": "PHQ110",
+   "name": "OPPO A1 Pro 5G"
+  },
+  {
+   "code": "PJB110",
+   "name": "OPPO A1s / OPPO A2"
+  },
+  {
+   "code": "PECM20",
+   "name": "PECM20"
+  },
+  {
+   "code": "PEMM20",
+   "name": "PEMM20"
+  },
+  {
+   "code": "PMK110",
+   "name": "OPPO Reno16 Pro"
+  },
+  {
+   "code": "PMM110",
+   "name": "OPPO Reno16"
+  },
+  {
+   "code": "PLV110",
+   "name": "OPPO Reno15 Pro"
+  },
+  {
+   "code": "PLW110",
+   "name": "OPPO Reno15"
+  },
+  {
+   "code": "PMD110",
+   "name": "OPPO Reno15c"
+  },
+  {
+   "code": "PKZ110",
+   "name": "OPPO Reno14 Pro"
+  },
+  {
+   "code": "PLA110",
+   "name": "OPPO Reno14"
+  },
+  {
+   "code": "PKK110",
+   "name": "OPPO Reno13 Pro"
+  },
+  {
+   "code": "PKM110",
+   "name": "OPPO Reno13"
+  },
+  {
+   "code": "PJW110",
+   "name": "OPPO Reno12 Pro"
+  },
+  {
+   "code": "PJV110",
+   "name": "OPPO Reno12"
+  },
+  {
+   "code": "PJJ110",
+   "name": "OPPO Reno11 Pro 5G"
+  },
+  {
+   "code": "PJH110",
+   "name": "OPPO Reno11 5G"
+  },
+  {
+   "code": "PHV110",
+   "name": "OPPO Reno10 Pro 5G/OPPO Reno10 Pro 星籁版 5G"
+  },
+  {
+   "code": "PHU110",
+   "name": "OPPO Reno10 Pro+ 5G"
+  },
+  {
+   "code": "PHW110",
+   "name": "OPPO Reno10 5G"
+  },
+  {
+   "code": "PCCM00",
+   "name": "OPPO Reno 10倍变焦版"
+  },
+  {
+   "code": "PGW110",
+   "name": "OPPO Reno9 Pro+ 5G"
+  },
+  {
+   "code": "PGX110",
+   "name": "OPPO Reno9 Pro 5G"
+  },
+  {
+   "code": "PHM110",
+   "name": "OPPO Reno9 5G"
+  },
+  {
+   "code": "PFZM10",
+   "name": "OPPO Reno8 Pro+ 5G"
+  },
+  {
+   "code": "PGAM10",
+   "name": "OPPO Reno8 Pro 5G"
+  },
+  {
+   "code": "PGBM10",
+   "name": "OPPO Reno8 5G"
+  },
+  {
+   "code": "PFDM00",
+   "name": "OPPO Reno7 Pro 5G/OPPO Reno7 Pro 英雄联盟手游限定版"
+  },
+  {
+   "code": "PFJM10",
+   "name": "OPPO Reno7 5G"
+  },
+  {
+   "code": "PFCM00",
+   "name": "OPPO Reno7 SE 5G"
+  },
+  {
+   "code": "PENM00",
+   "name": "OPPO Reno6 Pro+ 5G/OPPO Reno6 Pro+ 5G 名侦探柯南限定版"
+  },
+  {
+   "code": "PEPM00",
+   "name": "OPPO Reno6 Pro 5G"
+  },
+  {
+   "code": "PEQM00",
+   "name": "OPPO Reno6 5G"
+  },
+  {
+   "code": "PDRM00",
+   "name": "OPPO Reno5 Pro+ 5G"
+  },
+  {
+   "code": "PDSM00",
+   "name": "OPPO Reno5 Pro 5G"
+  },
+  {
+   "code": "PEGM00",
+   "name": "OPPO Reno5 5G"
+  },
+  {
+   "code": "PEGM10",
+   "name": "OPPO Reno5 K 5G"
+  },
+  {
+   "code": "PDNM00",
+   "name": "OPPO Reno4 Pro 5G 全网通"
+  },
+  {
+   "code": "PDNT00",
+   "name": "OPPO Reno4 Pro 5G 移动版"
+  },
+  {
+   "code": "PDPM00",
+   "name": "OPPO Reno4 5G 全网通"
+  },
+  {
+   "code": "PDPT00",
+   "name": "OPPO Reno4 5G 移动版"
+  },
+  {
+   "code": "PEAM00",
+   "name": "OPPO Reno4 SE 5G"
+  },
+  {
+   "code": "PCRM00",
+   "name": "OPPO Reno3 Pro"
+  },
+  {
+   "code": "PDCM00",
+   "name": "OPPO Reno3"
+  },
+  {
+   "code": "PDHM00",
+   "name": "OPPO Reno Ace2"
+  },
+  {
+   "code": "PCKM00",
+   "name": "OPPO Reno2"
+  },
+  {
+   "code": "PCKM80",
+   "name": "OPPO Reno2 Z"
+  },
+  {
+   "code": "PCAM00",
+   "name": "OPPO Reno"
+  },
+  {
+   "code": "PCLM10",
+   "name": "OPPO Reno Ace"
+  },
+  {
+   "code": "PCDM10",
+   "name": "OPPO Reno Z"
+  },
+  {
+   "code": "PMG110",
+   "name": "OPPO K15 Pro+"
+  },
+  {
+   "code": "PMH110",
+   "name": "OPPO K15 Pro"
+  },
+  {
+   "code": "PLL110",
+   "name": "OPPO K13 S/OPPO A6 GT/OPPO A6 Max/OPPO A6l"
+  },
+  {
+   "code": "PKV110",
+   "name": "OPPO K13 X/OPPO A5活力版"
+  },
+  {
+   "code": "PLE110",
+   "name": "OPPO K13 Turbo Pro"
+  },
+  {
+   "code": "PLM110",
+   "name": "OPPO K13 Turbo"
+  },
+  {
+   "code": "PJR110",
+   "name": "OPPO K12"
+  },
+  {
+   "code": "PKS110",
+   "name": "OPPO K12 Plus"
+  },
+  {
+   "code": "PLD110",
+   "name": "OPPO K12 S"
+  },
+  {
+   "code": "PJT110",
+   "name": "OPPO K12 X"
+  },
+  {
+   "code": "PJC110",
+   "name": "OPPO K11"
+  },
+  {
+   "code": "PHF110",
+   "name": "OPPO K11 X"
+  },
+  {
+   "code": "PGIM10",
+   "name": "OPPO K10 Pro"
+  },
+  {
+   "code": "PGJM10",
+   "name": "OPPO K10"
+  },
+  {
+   "code": "PGGM10",
+   "name": "OPPO K10 X"
+  },
+  {
+   "code": "PERM10",
+   "name": "OPPO K9 S / OPPO K10 活力版"
+  },
+  {
+   "code": "PEYM00",
+   "name": "OPPO K9 Pro"
+  },
+  {
+   "code": "PEXM00",
+   "name": "OPPO K9"
+  },
+  {
+   "code": "PGCM10",
+   "name": "OPPO K9 X"
+  },
+  {
+   "code": "PERM00",
+   "name": "OPPO K7X"
+  },
+  {
+   "code": "PCNM00",
+   "name": "OPPO K5"
+  },
+  {
+   "code": "PCGM00",
+   "name": "OPPO K3"
+  },
+  {
+   "code": "PMX110",
+   "name": "OPPO Find X10 Pro Max"
+  },
+  {
+   "code": "PMW110",
+   "name": "OPPO Find X10"
+  },
+  {
+   "code": "PNA110",
+   "name": "OPPO Find X10 E"
+  },
+  {
+   "code": "PMA110",
+   "name": "OPPO Find X9 Ultra"
+  },
+  {
+   "code": "PMA120",
+   "name": "OPPO Find X9 Ultra 卫星通信版"
+  },
+  {
+   "code": "PLG110",
+   "name": "OPPO Find X9 Pro"
+  },
+  {
+   "code": "PLG120",
+   "name": "OPPO Find X9 Pro 卫星通信版"
+  },
+  {
+   "code": "PME110",
+   "name": "OPPO Find X9s Pro"
+  },
+  {
+   "code": "PLJ110",
+   "name": "OPPO Find X9"
+  },
+  {
+   "code": "PKJ110",
+   "name": "OPPO Find X8 Ultra"
+  },
+  {
+   "code": "PKU110",
+   "name": "OPPO Find X8 Ultra 卫星通信版"
+  },
+  {
+   "code": "PKC110",
+   "name": "OPPO Find X8 Pro"
+  },
+  {
+   "code": "PKC130",
+   "name": "OPPO Find X8 Pro 卫星通信版"
+  },
+  {
+   "code": "PKB110",
+   "name": "OPPO Find X8"
+  },
+  {
+   "code": "PKT110",
+   "name": "OPPO Find X8S"
+  },
+  {
+   "code": "PLB110",
+   "name": "OPPO Find X8S+"
+  },
+  {
+   "code": "PHY110",
+   "name": "OPPO Find X7 Ultra"
+  },
+  {
+   "code": "PHY120",
+   "name": "OPPO Find X7 Ultra 卫星通信版"
+  },
+  {
+   "code": "PHZ110",
+   "name": "OPPO Find X7"
+  },
+  {
+   "code": "PGEM10",
+   "name": "OPPO Find X6 Pro"
+  },
+  {
+   "code": "PLP110",
+   "name": "OPPO Find N6"
+  },
+  {
+   "code": "PLP120",
+   "name": "OPPO Find N6 卫星通信版"
+  },
+  {
+   "code": "PGFM10",
+   "name": "OPPO Find X6"
+  },
+  {
+   "code": "PFEM10",
+   "name": "OPPO Find X5 Pro"
+  },
+  {
+   "code": "PFFM20",
+   "name": "OPPO Find X5 Pro 天玑版"
+  },
+  {
+   "code": "PKH110",
+   "name": "OPPO Find N5"
+  },
+  {
+   "code": "PKH120",
+   "name": "OPPO Find N5 卫星通信版"
+  },
+  {
+   "code": "PFFM10",
+   "name": "OPPO Find X5"
+  },
+  {
+   "code": "PEEM00",
+   "name": "OPPO Find X3 Pro/OPPO Find X3 Pro 摄影师版"
+  },
+  {
+   "code": "PHN110",
+   "name": "OPPO Find N3/OPPO Find N3 典藏版"
+  },
+  {
+   "code": "PHT110",
+   "name": "OPPO Find N3 Flip"
+  },
+  {
+   "code": "PEDM00",
+   "name": "OPPO Find X3"
+  },
+  {
+   "code": "PDEM30",
+   "name": "OPPO Find X2 Pro"
+  },
+  {
+   "code": "PGU110",
+   "name": "OPPO Find N2"
+  },
+  {
+   "code": "PGT110",
+   "name": "OPPO Find N2 Flip"
+  },
+  {
+   "code": "PDEM10",
+   "name": "OPPO Find X2 全网通"
+  },
+  {
+   "code": "PDET10",
+   "name": "OPPO Find X2 移动版"
+  },
+  {
+   "code": "PEUM00",
+   "name": "OPPO Find N"
+  },
+  {
+   "code": "PAFM00",
+   "name": "OPPO Find X"
+  },
+  {
+   "code": "PAHM00",
+   "name": "OPPO Find X 超级闪充版/兰博基尼版 全网通版"
+  },
+  {
+   "code": "OPD2601",
+   "name": "OPPO Pad 6"
+  },
+  {
+   "code": "OPD2511",
+   "name": "OPPO Pad 5 Pro"
+  },
+  {
+   "code": "OPD2506",
+   "name": "OPPO Pad 5"
+  },
+  {
+   "code": "OPD2501",
+   "name": "OPPO Pad Air5"
+  },
+  {
+   "code": "OPD2409",
+   "name": "OPPO Pad 4 Pro"
+  },
+  {
+   "code": "OPD2401",
+   "name": "OPPO Pad 3 Pro"
+  },
+  {
+   "code": "OPD2405",
+   "name": "OPPO Pad 3"
+  },
+  {
+   "code": "OPD2201",
+   "name": "OPPO Pad 2"
+  },
+  {
+   "code": "OPD2301",
+   "name": "OPPO Pad Air2"
+  },
+  {
+   "code": "OPD2101",
+   "name": "OPPO Pad"
+  },
+  {
+   "code": "OPD2102",
+   "name": "OPPO Pad Air"
+  },
+  {
+   "code": "OPD2515",
+   "name": "OPPO Pad Mini"
+  },
+  {
+   "code": "OPD2417",
+   "name": "OPPO Pad SE"
+  }
+ ],
+ "Meizu": [
+  {
+   "code": "m2582",
+   "name": "魅族 22"
+  },
+  {
+   "code": "m2481",
+   "name": "魅族 21 PRO Flyme 钛好用版 / 魅族 21 PRO"
+  },
+  {
+   "code": "m2461",
+   "name": "魅族 21"
+  },
+  {
+   "code": "m2468",
+   "name": "魅族 21 Note"
+  },
+  {
+   "code": "m2381",
+   "name": "魅蓝 20 / 魅族 20"
+  },
+  {
+   "code": "m2391",
+   "name": "魅族 20 PRO"
+  },
+  {
+   "code": "m2421",
+   "name": "魅蓝 20C"
+  },
+  {
+   "code": "m2392",
+   "name": "魅族 20 INFINITY无界版"
+  },
+  {
+   "code": "m2191",
+   "name": "魅族 18 Pro"
+  },
+  {
+   "code": "m2192",
+   "name": "魅族 18s Pro"
+  },
+  {
+   "code": "m2181",
+   "name": "魅族 18"
+  },
+  {
+   "code": "m2182",
+   "name": "魅族 18s"
+  },
+  {
+   "code": "m2172",
+   "name": "魅族 18X"
+  },
+  {
+   "code": "m2091",
+   "name": "魅族 17 Pro"
+  },
+  {
+   "code": "m2081",
+   "name": "魅族 17"
+  },
+  {
+   "code": "m1973",
+   "name": "16s Pro"
+  },
+  {
+   "code": "m1872",
+   "name": "16 X"
+  },
+  {
+   "code": "m1971",
+   "name": "16s"
+  },
+  {
+   "code": "m1928",
+   "name": "16T"
+  },
+  {
+   "code": "m1882",
+   "name": "16th"
+  },
+  {
+   "code": "m1892",
+   "name": "16th Plus"
+  },
+  {
+   "code": "m1926",
+   "name": "16Xs"
+  },
+  {
+   "code": "m1881",
+   "name": "15"
+  },
+  {
+   "code": "m1891",
+   "name": "15 Plus"
+  },
+  {
+   "code": "m2112",
+   "name": "魅蓝 10"
+  },
+  {
+   "code": "m2111",
+   "name": "魅蓝 10s"
+  },
+  {
+   "code": "m1711",
+   "name": "魅蓝 6"
+  },
+  {
+   "code": "m1811",
+   "name": "魅蓝 6T"
+  },
+  {
+   "code": "m1611",
+   "name": "魅蓝 5"
+  },
+  {
+   "code": "m1612",
+   "name": "魅蓝 5s"
+  },
+  {
+   "code": "m98",
+   "name": "魅蓝 3"
+  },
+  {
+   "code": "y15",
+   "name": "魅蓝 3s"
+  },
+  {
+   "code": "m88",
+   "name": "魅蓝 2"
+  },
+  {
+   "code": "u15",
+   "name": "魅蓝 U20"
+  },
+  {
+   "code": "u10",
+   "name": "魅蓝 U10"
+  },
+  {
+   "code": "m2531",
+   "name": "魅族 Note 16 Pro"
+  },
+  {
+   "code": "m2521",
+   "name": "魅族 Note 16"
+  },
+  {
+   "code": "m1923",
+   "name": "Note9"
+  },
+  {
+   "code": "m1822",
+   "name": "Note8"
+  },
+  {
+   "code": "m1721",
+   "name": "魅蓝 Note6"
+  },
+  {
+   "code": "m1621",
+   "name": "魅蓝 Note5"
+  },
+  {
+   "code": "m91",
+   "name": "魅蓝 Note3"
+  },
+  {
+   "code": "m81",
+   "name": "魅蓝 note2"
+  },
+  {
+   "code": "m71",
+   "name": "魅蓝 note"
+  },
+  {
+   "code": "m1871",
+   "name": "M15"
+  },
+  {
+   "code": "M9",
+   "name": "M9"
+  },
+  {
+   "code": "M8",
+   "name": "M8"
+  },
+  {
+   "code": "m2431",
+   "name": "魅族 Lucky 08"
+  },
+  {
+   "code": "m1816",
+   "name": "V8 标配版"
+  },
+  {
+   "code": "m1813",
+   "name": "V8 高配版"
+  },
+  {
+   "code": "m1852",
+   "name": "X8"
+  },
+  {
+   "code": "m92",
+   "name": "魅蓝 X"
+  },
+  {
+   "code": "m1792L",
+   "name": "PRO 7 高配版 / PRO 7 标准版"
+  },
+  {
+   "code": "m1793",
+   "name": "PRO 7 Plus"
+  },
+  {
+   "code": "m80",
+   "name": "PRO 6s / PRO 6"
+  },
+  {
+   "code": "m96",
+   "name": "PRO 6 Plus"
+  },
+  {
+   "code": "m86",
+   "name": "PRO 5"
+  },
+  {
+   "code": "m95",
+   "name": "MX6"
+  },
+  {
+   "code": "m85",
+   "name": "MX5"
+  },
+  {
+   "code": "m76",
+   "name": "MX4 Pro"
+  },
+  {
+   "code": "m75",
+   "name": "MX4"
+  },
+  {
+   "code": "m35",
+   "name": "MX3"
+  },
+  {
+   "code": "m04",
+   "name": "MX2"
+  },
+  {
+   "code": "m03",
+   "name": "MX"
+  },
+  {
+   "code": "m1712",
+   "name": "魅蓝 S6"
+  },
+  {
+   "code": "m1710",
+   "name": "魅蓝 A5"
+  },
+  {
+   "code": "m1851",
+   "name": "魅蓝 E3"
+  },
+  {
+   "code": "m1741",
+   "name": "魅蓝 E2"
+  },
+  {
+   "code": "a02",
+   "name": "魅蓝 E"
+  },
+  {
+   "code": "s25",
+   "name": "魅蓝 Max"
+  },
+  {
+   "code": "ma01",
+   "name": "魅蓝 metal"
+  },
+  {
+   "code": "m79",
+   "name": "魅蓝"
+  }
+ ],
+ "Realme": [
+  {
+   "code": "RMX3946",
+   "name": "Realme V70"
+  },
+  {
+   "code": "RMX3948",
+   "name": "Realme V70S"
+  },
+  {
+   "code": "RMX3953",
+   "name": "Realme V60 Pro"
+  },
+  {
+   "code": "RMX3996",
+   "name": "Realme V60S"
+  },
+  {
+   "code": "RMX3783",
+   "name": "Realme V50"
+  },
+  {
+   "code": "RMX3781",
+   "name": "Realme V50S"
+  },
+  {
+   "code": "RMX3618",
+   "name": "Realme V30T"
+  },
+  {
+   "code": "RMX3475",
+   "name": "Realme V25"
+  },
+  {
+   "code": "RMX3571",
+   "name": "Realme V23"
+  },
+  {
+   "code": "RMX3576",
+   "name": "Realme V23i"
+  },
+  {
+   "code": "RMX3611",
+   "name": "Realme V20"
+  },
+  {
+   "code": "RMX3093",
+   "name": "Realme V15 5G 运营商定制版"
+  },
+  {
+   "code": "RMX3041",
+   "name": "Realme V13 5G 全网通版"
+  },
+  {
+   "code": "RMX3043",
+   "name": "Realme V13 5G 运营商定制版"
+  },
+  {
+   "code": "RMX3122",
+   "name": "Realme V11 5G 运营商定制版"
+  },
+  {
+   "code": "RMX2112",
+   "name": "Realme V5 5G 运营商定制版"
+  },
+  {
+   "code": "RMX2071",
+   "name": "Realme X50 Pro 5G"
+  },
+  {
+   "code": "RMX2051",
+   "name": "Realme X50 5G"
+  },
+  {
+   "code": "RMX2141",
+   "name": "Realme X50M 5G"
+  },
+  {
+   "code": "RMX2072",
+   "name": "Realme X50 Pro 玩家版"
+  },
+  {
+   "code": "RMX2121",
+   "name": "Realme X7 Pro 5G"
+  },
+  {
+   "code": "RMX1931",
+   "name": "Realme X2 Pro"
+  },
+  {
+   "code": "RMX1991",
+   "name": "Realme X2"
+  },
+  {
+   "code": "RMX1901",
+   "name": "Realme X"
+  },
+  {
+   "code": "RMX1851",
+   "name": "Realme X 青春版"
+  },
+  {
+   "code": "RMX5100",
+   "name": "Realme 15 Pro"
+  },
+  {
+   "code": "RMX5105",
+   "name": "Realme 15"
+  },
+  {
+   "code": "RMX5112",
+   "name": "Realme 15T"
+  },
+  {
+   "code": "RMX5050",
+   "name": "Realme 14 Pro+"
+  },
+  {
+   "code": "RMX5055",
+   "name": "Realme 14 Pro"
+  },
+  {
+   "code": "RMX5075",
+   "name": "Realme 14"
+  },
+  {
+   "code": "RMX3989",
+   "name": "Realme 13 Pro 至尊版"
+  },
+  {
+   "code": "RMX3920",
+   "name": "Realme 13 Pro+"
+  },
+  {
+   "code": "RMX5002",
+   "name": "Realme 13 Pro"
+  },
+  {
+   "code": "RMX3952",
+   "name": "Realme 13"
+  },
+  {
+   "code": "RMX3995",
+   "name": "Realme 12x 运营商定制版 / Realme V60"
+  },
+  {
+   "code": "RMX3843",
+   "name": "Realme 12 Pro/Pro 至尊版"
+  },
+  {
+   "code": "RMX3841",
+   "name": "Realme 12 Pro+"
+  },
+  {
+   "code": "RMX3992",
+   "name": "Realme 12"
+  },
+  {
+   "code": "RMX3993",
+   "name": "Realme 12x"
+  },
+  {
+   "code": "RMX3740",
+   "name": "Realme 11 Pro+"
+  },
+  {
+   "code": "RMX3770",
+   "name": "Realme 11 Pro"
+  },
+  {
+   "code": "RMX3751",
+   "name": "Realme 11"
+  },
+  {
+   "code": "RMX3687",
+   "name": "Realme 10 Pro+"
+  },
+  {
+   "code": "RMX3663",
+   "name": "Realme 10 Pro"
+  },
+  {
+   "code": "RMX3615",
+   "name": "Realme 10"
+  },
+  {
+   "code": "RMX3617",
+   "name": "Realme 10S"
+  },
+  {
+   "code": "RMX5200",
+   "name": "Realme GT8 Pro"
+  },
+  {
+   "code": "RMX6699",
+   "name": "Realme GT8"
+  },
+  {
+   "code": "RMX3708",
+   "name": "Realme GT Neo5 240W"
+  },
+  {
+   "code": "RMX3823",
+   "name": "Realme GT5 240W"
+  },
+  {
+   "code": "RMX5010",
+   "name": "Realme GT7 Pro"
+  },
+  {
+   "code": "RMX5090",
+   "name": "Realme GT7 Pro 竞速版"
+  },
+  {
+   "code": "RMX6688",
+   "name": "Realme GT7"
+  },
+  {
+   "code": "RMX3706",
+   "name": "Realme GT Neo5 150W"
+  },
+  {
+   "code": "RMX3820",
+   "name": "Realme GT5 150W"
+  },
+  {
+   "code": "RMX3852",
+   "name": "Realme GT Neo6"
+  },
+  {
+   "code": "RMX3850",
+   "name": "Realme GT Neo6 SE"
+  },
+  {
+   "code": "RMX3800",
+   "name": "Realme GT6"
+  },
+  {
+   "code": "RMX3888",
+   "name": "Realme GT5 Pro"
+  },
+  {
+   "code": "RMX2202",
+   "name": "Realme GT 5G"
+  },
+  {
+   "code": "RMX3031",
+   "name": "Realme GT Neo 5G"
+  },
+  {
+   "code": "RMX3700",
+   "name": "Realme GT Neo5 SE"
+  },
+  {
+   "code": "RMX3562",
+   "name": "Realme GT Neo3 150W"
+  },
+  {
+   "code": "RMX3560",
+   "name": "Realme GT Neo3 80W"
+  },
+  {
+   "code": "RMX3300",
+   "name": "Realme GT2 Pro"
+  },
+  {
+   "code": "RMX3370",
+   "name": "Realme GT Neo2"
+  },
+  {
+   "code": "RMX3357",
+   "name": "Realme GT Neo2T"
+  },
+  {
+   "code": "RMX3310",
+   "name": "Realme GT2"
+  },
+  {
+   "code": "RMX3551",
+   "name": "Realme GT2 大师探索版"
+  },
+  {
+   "code": "RMX3366",
+   "name": "Realme GT 大师探索版"
+  },
+  {
+   "code": "RMX3350",
+   "name": "Realme GT Neo 闪速版"
+  },
+  {
+   "code": "RMX8899",
+   "name": "Realme Neo8"
+  },
+  {
+   "code": "RMX5060",
+   "name": "Realme Neo7"
+  },
+  {
+   "code": "RMX5080",
+   "name": "Realme Neo7 SE"
+  },
+  {
+   "code": "RMX5062",
+   "name": "Realme Neo7 Turbo"
+  },
+  {
+   "code": "RMX5071",
+   "name": "Realme Neo7x"
+  },
+  {
+   "code": "RMX3372",
+   "name": "Realme Q5 Pro"
+  },
+  {
+   "code": "RMX3478",
+   "name": "Realme Q5"
+  },
+  {
+   "code": "RMX3574",
+   "name": "Realme Q5i"
+  },
+  {
+   "code": "RMX3042",
+   "name": "Realme Q3i 5G / Realme V13 5G"
+  },
+  {
+   "code": "RMX2205",
+   "name": "Realme Q3 Pro 5G"
+  },
+  {
+   "code": "RMX3161",
+   "name": "Realme Q3 5G"
+  },
+  {
+   "code": "RMX3461",
+   "name": "Realme Q3S"
+  },
+  {
+   "code": "RMX2117",
+   "name": "Realme Q2 5G / Realme V5 5G"
+  },
+  {
+   "code": "RMX1971",
+   "name": "Realme Q"
+  },
+  {
+   "code": "RMP2108",
+   "name": "Realme 平板 X"
+  }
+ ],
+ "iQOO": [
+  {
+   "code": "PD1936",
+   "name": "iQOO Neo 855 版 全网通版"
+  },
+  {
+   "code": "PD2606",
+   "name": "iQOO 16"
+  },
+  {
+   "code": "PD2546",
+   "name": "iQOO 15 Ultra"
+  },
+  {
+   "code": "PD2505",
+   "name": "iQOO 15"
+  },
+  {
+   "code": "PD2564",
+   "name": "iQOO 15T"
+  },
+  {
+   "code": "PD2408",
+   "name": "iQOO 13"
+  },
+  {
+   "code": "PD2329",
+   "name": "iQOO 12 Pro"
+  },
+  {
+   "code": "PD2307",
+   "name": "iQOO 12"
+  },
+  {
+   "code": "PD2573",
+   "name": "iQOO Neo11 至尊版"
+  },
+  {
+   "code": "PD2254",
+   "name": "iQOO 11 Pro"
+  },
+  {
+   "code": "PD2243",
+   "name": "iQOO 11"
+  },
+  {
+   "code": "PD2304",
+   "name": "iQOO 11S"
+  },
+  {
+   "code": "PD2520",
+   "name": "iQOO Neo11"
+  },
+  {
+   "code": "PD2551",
+   "name": "iQOO Z11"
+  },
+  {
+   "code": "PD2536",
+   "name": "iQOO Z11 Turbo"
+  },
+  {
+   "code": "PD2559",
+   "name": "iQOO Z11i"
+  },
+  {
+   "code": "PD2603",
+   "name": "iQOO Z11S"
+  },
+  {
+   "code": "PD2532",
+   "name": "iQOO Z11x"
+  },
+  {
+   "code": "PD2463",
+   "name": "iQOO Neo10 Pro+"
+  },
+  {
+   "code": "PD2218",
+   "name": "iQOO 10 Pro"
+  },
+  {
+   "code": "PD2426",
+   "name": "iQOO Neo10 Pro"
+  },
+  {
+   "code": "PD2453",
+   "name": "iQOO Z10 Turbo Pro"
+  },
+  {
+   "code": "PD2217",
+   "name": "iQOO 10"
+  },
+  {
+   "code": "PD2425",
+   "name": "iQOO Neo10"
+  },
+  {
+   "code": "PD2452",
+   "name": "iQOO Z10 Turbo"
+  },
+  {
+   "code": "PD2507",
+   "name": "iQOO Z10 Turbo+"
+  },
+  {
+   "code": "PD2445",
+   "name": "iQOO Z10x"
+  },
+  {
+   "code": "PD2403",
+   "name": "iQOO Neo9S Pro+"
+  },
+  {
+   "code": "PD2172",
+   "name": "iQOO 9 Pro"
+  },
+  {
+   "code": "PD2339",
+   "name": "iQOO Neo9 Pro"
+  },
+  {
+   "code": "PD2171",
+   "name": "iQOO 9"
+  },
+  {
+   "code": "PD2338",
+   "name": "iQOO Neo9"
+  },
+  {
+   "code": "PD2361",
+   "name": "iQOO Z9"
+  },
+  {
+   "code": "PD2352",
+   "name": "iQOO Z9 Turbo"
+  },
+  {
+   "code": "PD2352G",
+   "name": "iQOO Z9 Turbo 长续航版"
+  },
+  {
+   "code": "PD2417",
+   "name": "iQOO Z9 Turbo+"
+  },
+  {
+   "code": "PD2353",
+   "name": "iQOO Z9x"
+  },
+  {
+   "code": "PD2141",
+   "name": "iQOO 8 Pro"
+  },
+  {
+   "code": "PD2302",
+   "name": "iQOO Neo8 Pro"
+  },
+  {
+   "code": "PD2136",
+   "name": "iQOO 8"
+  },
+  {
+   "code": "PD2301",
+   "name": "iQOO Neo8"
+  },
+  {
+   "code": "PD2314",
+   "name": "iQOO Z8"
+  },
+  {
+   "code": "PD2312",
+   "name": "iQOO Z8x"
+  },
+  {
+   "code": "PD1824",
+   "name": "iQOO (6GB+128GB)"
+  },
+  {
+   "code": "PD2232",
+   "name": "iQOO Neo7 竞速版"
+  },
+  {
+   "code": "PD2049",
+   "name": "iQOO 7"
+  },
+  {
+   "code": "PD2231",
+   "name": "iQOO Neo7"
+  },
+  {
+   "code": "PD2238",
+   "name": "iQOO Neo7 SE"
+  },
+  {
+   "code": "PD2270",
+   "name": "iQOO Z7"
+  },
+  {
+   "code": "PD2230",
+   "name": "iQOO Z7i"
+  },
+  {
+   "code": "PD2272",
+   "name": "iQOO Z7x"
+  },
+  {
+   "code": "PD2220",
+   "name": "iQOO Z6 / iQOO Z6 活力版"
+  },
+  {
+   "code": "DPD2540",
+   "name": "iQOO Pad6 Pro"
+  },
+  {
+   "code": "PD2196",
+   "name": "iQOO Neo6"
+  },
+  {
+   "code": "PD2199",
+   "name": "iQOO Neo6 SE"
+  },
+  {
+   "code": "PD2164U",
+   "name": "iQOO Z6x"
+  },
+  {
+   "code": "PD2165",
+   "name": "iQOO U5 5G"
+  },
+  {
+   "code": "PD2197",
+   "name": "iQOO U5e 5G"
+  },
+  {
+   "code": "PD2025",
+   "name": "iQOO 5 Pro"
+  },
+  {
+   "code": "DPD2438",
+   "name": "iQOO Pad5 Pro"
+  },
+  {
+   "code": "PD1916",
+   "name": "iQOO Pro 5G 全网通版"
+  },
+  {
+   "code": "DPD2437",
+   "name": "iQOO Pad5"
+  },
+  {
+   "code": "PD2024",
+   "name": "iQOO 5"
+  },
+  {
+   "code": "PD2055",
+   "name": "iQOO Neo5"
+  },
+  {
+   "code": "PD2118",
+   "name": "iQOO Neo5 活力版"
+  },
+  {
+   "code": "PD2157",
+   "name": "iQOO Neo5 SE"
+  },
+  {
+   "code": "PD2154",
+   "name": "iQOO Neo5S"
+  },
+  {
+   "code": "PD2180G",
+   "name": "iQOO U5x"
+  },
+  {
+   "code": "PD2148",
+   "name": "iQOO Z5"
+  },
+  {
+   "code": "PD2131",
+   "name": "iQOO Z5x"
+  },
+  {
+   "code": "PD2061",
+   "name": "iQOO U3 5G"
+  },
+  {
+   "code": "PD2106",
+   "name": "iQOO U3x 5G"
+  },
+  {
+   "code": "PD1955",
+   "name": "iQOO 3"
+  },
+  {
+   "code": "PD1981",
+   "name": "iQOO Neo3"
+  },
+  {
+   "code": "PD2143",
+   "name": "iQOO U3x 标准版"
+  },
+  {
+   "code": "PD2073",
+   "name": "iQOO Z3"
+  },
+  {
+   "code": "DPD2329",
+   "name": "iQOO Pad2 Pro"
+  },
+  {
+   "code": "DPD2345",
+   "name": "iQOO Pad2"
+  },
+  {
+   "code": "PD2023",
+   "name": "iQOO U1"
+  },
+  {
+   "code": "PD2065",
+   "name": "iQOO U1x"
+  },
+  {
+   "code": "PD1986",
+   "name": "iQOO Z1"
+  },
+  {
+   "code": "PD2012",
+   "name": "iQOO Z1x"
+  },
+  {
+   "code": "PD1922",
+   "name": "iQOO Pro 全网通版"
+  },
+  {
+   "code": "DPD2307",
+   "name": "iQOO Pad"
+  },
+  {
+   "code": "DPD2305",
+   "name": "iQOO Pad Air"
+  },
+  {
+   "code": "PD1914",
+   "name": "iQOO Neo 全网通版"
+  }
+ ]
+}
