@@ -26,10 +26,15 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://roms.danielspringer.at/api/ota.php"
 
-# 欧加机型 code 前缀（OnePlus/OPPO/Realme）
+# 欧加机型 code 前缀（OnePlus/OPPO/Realme），显式白名单，避免把小米等混进来
 OPLUS_CODE_RE = re.compile(
-    r"^(CPH|NE|LE|IN|KB|PH|PJ|PL|PK|PG|OPD|RMX|PD[A-Z]?M?|"
-    r"P[A-Z]{2}[A-Z0-9]*|OP[A-Z0-9]*)"
+    r"^(CPH|NE|LE|IN|KB|PHB|PHK|PHQ|PHT|PJD|PJZ|PJA|PJE|PJF|PJB|PJC|PJD|PJE|"
+    r"PLK|PLQ|PLR|PLC|PLD|PLE|PLF|PLG|PLH|PLJ|PLU|PLY|PLZ|PLP|PLL|PLM|PLN|PLT|"
+    r"PKA|PKB|PKC|PKD|PKE|PKF|PKG|PKH|PKJ|PKK|PKL|PKM|PKN|PKQ|PKR|PKS|PKT|PKU|"
+    r"PKV|PKW|PKX|PKY|PKZ|"
+    r"PGA|PGB|PGC|PGD|PGE|PGF|PGG|PGH|PGI|PGJ|PGK|PGL|PGM|PGN|PGO|PGP|PGQ|PGR|"
+    r"PGS|PGT|PGU|PGV|PGW|PGX|PGY|PGZ|"
+    r"NE|LE|IN\d|KB\d|OPD|RMX|RMP)"
 )
 
 
@@ -54,10 +59,15 @@ def version_filename(model, version, region):
     我们的仓库：NE2210_11_A.19.txt / NE2210_14.0.0.300(CN01).txt
     """
     # version 形如 NE2210_11_A.19 或 NE2210_14.0.0.300(CN01)
-    # 去掉 model 前缀
+    # 去掉 model 前缀；个别脏数据带额外首字母（PPKX110...），剥到与 model 对齐
     ver = version
     if ver.startswith(model + "_"):
         ver = ver[len(model) + 1:]
+    else:
+        # 找 model 在 version 里最后一次出现的位置，从那里开始取
+        idx = ver.rfind(model + "_")
+        if idx > 0:
+            ver = ver[idx + len(model) + 1:]
     # 判断是否已带 region 括号
     if "(" in ver:
         return f"{model}_{ver}"
@@ -112,8 +122,11 @@ def main():
         url = r.get("source_url", "")
         if not url:
             continue
-        # 只收 gate（downloadCheck 长期有效）
-        if "downloadCheck" not in url and "download?" not in url:
+        # 域名白名单：只收欧加官方域名（gate + 裸直链都收，实测裸直链长期有效）
+        host = url.split("/")[2] if "/" in url else ""
+        if not any(dom in host for dom in (
+            "allawnfs.com", "allawnos.com", "allawntech.com",
+        )):
             skipped_direct += 1
             continue
         version = r.get("version", "")
@@ -130,7 +143,7 @@ def main():
         to_import.append((code, fname, url))
 
     print(f"欧加机型 release 处理完：可导入 {len(to_import)} 个版本")
-    print(f"  （跳过：已存在 {skipped_exist}，非欧加 {skipped_non_oplus}，直链过期 {skipped_direct}，重复 {skipped_dup}）")
+    print(f"  （跳过：已存在 {skipped_exist}，非欧加 {skipped_non_oplus}，非欧加域名 {skipped_direct}，重复 {skipped_dup}）")
 
     if args.dry_run:
         print("\n[Dry-run] 预览前 20 条：")
