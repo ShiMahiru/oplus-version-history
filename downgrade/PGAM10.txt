@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:37:06
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 7336432367
+- MD5: 08c08c5a1f6295017b57f92558055ee9
+- 链接: https://downgradefs.coloros.com/downgrade/22/08/31/223cb1d6b01c4671935c61056d36c086.zip
+- 更新说明: 适用于OPPO Reno8 5G的ColorOS 12.1的降级版本
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 8539678082
+- MD5: a6655f36b2647c6a43a84c9f6f748152
+- 链接: https://downgradefs.coloros.com/downgrade/23/10/09/6a625ecf19b94c8fbdc2f402eb8172db.zip
+- 更新说明: 降级版本

@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:46
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 7963171681
+- MD5: e3ae3cfd88cb83503628736da74361ab
+- 链接: https://downgradefs.coloros.com/downgrade/25/06/13/6fbf23b432304a8cbebb7a0daf339a91.zip
+- 更新说明: 降级测试
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 9775986209
+- MD5: 756a92d377f54a4511c48e0d2c62bfa2
+- 链接: https://downgradefs.coloros.com/downgrade/25/07/30/69d650b1cc11487d871d4647a7d811c7.zip
+- 更新说明: Find X8 Yala 16.0降级包
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 10519335576
+- MD5: a1e3458afa5681aa94ab57d94d0f7c29
+- 链接: https://downgradefs.coloros.com/downgrade/26/07/28/ddfd0ab6aac549dfaba1460cddf78a95.zip
+- 更新说明: 17C Yala-23101降级包测试

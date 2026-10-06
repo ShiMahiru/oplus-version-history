@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:46:21
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 10385712703
+- MD5: e41f9289e957d9cf2f849a34581ce19d
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/28/307360eb433b40babc2fa931364482ce.zip
+- 更新说明: VW 17降级包测试

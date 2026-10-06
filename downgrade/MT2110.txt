@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:34:39
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 6711761346
+- MD5: de7578d0e132a4083dbecef56916f5ad
+- 链接: https://downgradefs.coloros.com/downgrade/22/09/07/26e95cd880014d8d9e5b28a3fde6f36b.zip
+- 更新说明: 适用于OnePlus 9RT 5G的降级包发布
+
+### ColorOS13.1.0
+- Android: Android13
+- 大小: 7815069469
+- MD5: f9a73aba02e37d4dc8dd0b35bda57e9b
+- 链接: https://downgradefs.coloros.com/downgrade/23/09/04/380814cf57de4bc6ad8698962779cbc0.zip
+- 更新说明: 降级包

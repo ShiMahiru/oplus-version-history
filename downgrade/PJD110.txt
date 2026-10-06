@@ -1,4 +1,4 @@
-# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-01 01:56:26
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:25
 
 ### ColorOS15.0.2
 - Android: Android15

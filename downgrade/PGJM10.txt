@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:53
+
+### ColorOS12.1
+- Android: Android12
+- 大小: 7151132143
+- MD5: 72e6099bf4ca970d38b4eefed4324bdd
+- 链接: https://downgradefs.coloros.com/downgrade/22/12/03/cb5ae9927561450690f718fb952547d1.zip
+- 更新说明: 降级包测试
+
+### ColorOS13.0.0
+- Android: Android13
+- 大小: 7940057675
+- MD5: 721f922c3d2e4651ac42bc86aa5323c1
+- 链接: https://downgradefs.coloros.com/downgrade/23/08/31/5a3cb11f418549d7bab1b655b3ecf49c.zip
+- 更新说明: 适用于OPPO K10 5G的ColorOS13降级版本

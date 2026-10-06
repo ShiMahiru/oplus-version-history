@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:52
+
+### ColorOS14.0.1
+- Android: Android14
+- 大小: 8522855489
+- MD5: b06bb25e4206a620de8337952e85fb34
+- 链接: https://downgradefs.coloros.com/downgrade/24/09/24/6cbc5b658d344610adbea617909d59d3.zip
+- 更新说明: PJR110
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 8536596135
+- MD5: e25fce83daa44a575b645ae16f201eaa
+- 链接: https://downgradefs.coloros.com/downgrade/25/12/02/2ce4504df23b4209b700eba3cafe9cbb.zip
+- 更新说明: Benz-K降级包测试

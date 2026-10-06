@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:39:30
+
+### ColorOS14.0.0
+- Android: Android14
+- 大小: 9544723796
+- MD5: d49bb6b9ae7a0d1c746115a5c9bb3918
+- 链接: https://downgradefs.coloros.com/downgrade/24/05/25/9a4ddc4e0ebd4d9382630cf1f0b957fd.zip
+- 更新说明: 降级测试
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 9650273689
+- MD5: aff8c58cd0c623c63dc5fd01da05aada
+- 链接: https://downgradefs.coloros.com/downgrade/25/08/28/2e927094b733463ba095e1b6783b1893.zip
+- 更新说明: NVWA 16B降级包

@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:25
+
+### ColorOS15.0.2
+- Android: Android15
+- 大小: 10394376684
+- MD5: 290db3610ac1b8642ab9d8f132c120f6
+- 链接: https://downgradefs.coloros.com/downgrade/25/08/22/4e6993ace8204c2fa9b87ceed6c2f3ac.zip
+- 更新说明: ZhuqueC2 降级包

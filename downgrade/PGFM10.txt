@@ -1,0 +1,22 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:40:13
+
+### ColorOS 13.1.0
+- Android: Android13
+- 大小: 9251743007
+- MD5: bc05eff019d4a7c9bdc3a1f4068fa236
+- 链接: https://downgradefs.coloros.com/downgrade/23/07/28/5a94802f2b564069a02e6998a0a008a7.zip
+- 更新说明: 降级包
+
+### ColorOS14.1.0
+- Android: Android14
+- 大小: 9286216292
+- MD5: a5b5b0575004b7adbb6af16161ffaa96
+- 链接: https://downgradefs.coloros.com/downgrade/24/11/06/4cb0080ce01d49e4838096ab255465bc.zip
+- 更新说明: 15.0降级到14.1
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 9372658551
+- MD5: ee6ecd4f287b1bfe98266e75bd780301
+- 链接: https://downgradefs.coloros.com/downgrade/25/10/11/1fffcb03577b43e98632cb3f887e93e5.zip
+- 更新说明: Luna降级包

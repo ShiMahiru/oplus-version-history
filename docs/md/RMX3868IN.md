@@ -4,13 +4,13 @@
 
 **realme / IN** · 最新版本 `RMX3868_14.0.0.506(EX01)` · OTA `RMX3868_11.A.13_0130_202404071916` · Android 14 · 安全补丁 2024-02-05
 
-版本记录 **1** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
+版本记录 **1** 条 · 有官方链接 **1** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| RMX3868_14.0.0.506(EX01) | `RMX3868_11.A.13_0130_202404071916` | 2024-04-07 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-c761d542bb3965634e4b24f80d66c6d6/component-ota/24/04/08/5b880ee53e384cd894d8eee833e18cf0.zip>) |  |  |
+| RMX3868_14.0.0.506(EX01) | `RMX3868_11.A.13_0130_202404071916` | 2024-04-07 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-c761d542bb3965634e4b24f80d66c6d6/component-ota/24/04/08/5b880ee53e384cd894d8eee833e18cf0.zip>) | [原文](<../../models/RMX3868IN/changelog/RMX3868_11.A.13_0130.md>) |  |
 
 ---
 

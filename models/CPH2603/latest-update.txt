@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 11:35:29
-查询地区: EU
-最新 OTA 版本: CPH2603_11.A.41_0410_202412091853
-版本名称: CPH2603_14.0.1.1220(EX01)
+本地更新时间: 2026-10-05 11:20:32
+查询地区: PH
+最新 OTA 版本: CPH2603_11.A.39_0390_202411191956
+版本名称: CPH2603_14.0.1.1200(EX01)
 Android 版本: Android 14
-ColorOS 版本: CPH2603_14.0.1.1220(EX01)
-安全补丁: 2024-12-05
-发布时间: 1737439359438
-ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-1dbd70064393d343cffa1e01eefc8368/component-ota/24/12/12/a1e0694bf55b42c2a4d580add2abd919.zip
+ColorOS 版本: CPH2603_14.0.1.1200(EX01)
+安全补丁: 2024-11-05
+发布时间: 1734441371975
+ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-6006f016a3c8ca06921efecfbbeabe65/component-ota/24/11/20/881a4f91cd2b4608a785af9fc6415c08.zip

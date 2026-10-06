@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:18
+
+### ColorOS15.0.1
+- Android: Android15
+- 大小: 8203273326
+- MD5: 149ec461295d4e7ebafe57ee72236e71
+- 链接: https://downgradefs.coloros.com/downgrade/25/10/31/31e3bd134ba6457a821b670e04f9b5d3.zip
+- 更新说明: Knight-L内销降级包
+
+### ColorOS16.0.0
+- Android: Android16
+- 大小: 9189373221
+- MD5: dd93742c3c8dc668ce388ff15a6d8284
+- 链接: https://downgradefs.coloros.com/downgrade/26/07/29/37fdfb5d30a14555be0d1814b53b871d.zip
+- 更新说明: 17C降级包

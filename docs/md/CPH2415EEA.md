@@ -4,16 +4,16 @@
 
 **oneplus / EU** · 最新版本 `CPH2415_11_A.12` · OTA `CPH2415_11.A.12_0120_202211021048` · Android 12 · 安全补丁 2022-11-05
 
-版本记录 **4** 条 · 有官方链接 **4** 条 · 有更新日志 **0** 份
+版本记录 **4** 条 · 有官方链接 **4** 条 · 有更新日志 **4** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| CPH2415_15.0.0.1901(EX01) | `CPH2415_11.H.85_3850_202606171345` | 2026-06-17 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-754c61ded8f005f6d55e952099a735d8/component-ota/26/06/18/9132631d4aa84fe78efdf36975a09306.zip>) |  |  |
-| CPH2415_15.0.0.700(EX01) | `CPH2415_11.F.76_3760_202504080251` | 2025-04-08 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-89093d8e04010f6000f3edc98d99bec4/component-ota/25/04/09/5c717b072d514b4187bd4efeefba1875.zip>) |  |  |
-| CPH2415_13.1.0.587(EX01) | `CPH2415_11.C.46_1460_202310091500` | 2023-10-09 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-6bed150d673f71994f10300bf9251543/component-ota/23/10/10/568bae0d79134a60840a8e87b7314df3.zip>) |  |  |
-| CPH2415_11_A.12 | `CPH2415_11.A.12_0120_202211021048` | 2022-11-02 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-b39af09099beb0386f9d21ee7f02391a/component-ota/22/11/03/1a4e2bb5a20a42f9be031752e2131ca2.zip>) |  |  |
+| CPH2415_15.0.0.1901(EX01) | `CPH2415_11.H.85_3850_202606171345` | 2026-06-17 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-754c61ded8f005f6d55e952099a735d8/component-ota/26/06/18/9132631d4aa84fe78efdf36975a09306.zip>) | [原文](<../../models/CPH2415EEA/changelog/CPH2415_11.H.85_3850.md>) |  |
+| CPH2415_15.0.0.700(EX01) | `CPH2415_11.F.76_3760_202504080251` | 2025-04-08 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-89093d8e04010f6000f3edc98d99bec4/component-ota/25/04/09/5c717b072d514b4187bd4efeefba1875.zip>) | [原文](<../../models/CPH2415EEA/changelog/CPH2415_11.F.76_3760.md>) |  |
+| CPH2415_13.1.0.587(EX01) | `CPH2415_11.C.46_1460_202310091500` | 2023-10-09 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-6bed150d673f71994f10300bf9251543/component-ota/23/10/10/568bae0d79134a60840a8e87b7314df3.zip>) | [原文](<../../models/CPH2415EEA/changelog/CPH2415_11.C.46_1460.md>) |  |
+| CPH2415_11_A.12 | `CPH2415_11.A.12_0120_202211021048` | 2022-11-02 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-b39af09099beb0386f9d21ee7f02391a/component-ota/22/11/03/1a4e2bb5a20a42f9be031752e2131ca2.zip>) | [原文](<../../models/CPH2415EEA/changelog/CPH2415_11.A.12_0120.md>) |  |
 
 ---
 

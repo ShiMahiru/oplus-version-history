@@ -1,0 +1,15 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:26
+
+### ColorOS15.0.1
+- Android: Android15
+- 大小: 10115230365
+- MD5: 65defff40001d749ec93b943f18beee9
+- 链接: https://downgradefs.coloros.com/downgrade/25/07/14/b7fa2063f971495e8d8e1b4342ebda57.zip
+- 更新说明: FindN5卫星版(PKH120)机型降级包测试
+
+### ColorOS16.1.0
+- Android: Android16
+- 大小: 11128012015
+- MD5: 6451a6d81249dbc8d2150b8a4d58f2ad
+- 链接: https://downgradefs.coloros.com/downgrade/26/08/03/06a4807e216745db9e7e1ace197fb3a3.zip
+- 更新说明: 17C降级包

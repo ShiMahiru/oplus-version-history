@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:35
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 7968701548
+- MD5: f49b855fb399f5cb5c21aad7dafc90e4
+- 链接: https://downgradefs.coloros.com/downgrade/26/09/07/b3b8e16526de4dc4b6ffde4eecb4566c.zip
+- 更新说明: camry-k奇美拉漏洞降级包

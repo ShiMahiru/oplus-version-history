@@ -1,0 +1,8 @@
+# 官方降级包（downgrade.coloros.com 直链） · 更新时间 2026-10-05 11:42:59
+
+### ColorOS15.0.0
+- Android: Android15
+- 大小: 7421396753
+- MD5: f3c62488139bfa2b22ae5f2d1c80f020
+- 链接: https://downgradefs.coloros.com/downgrade/25/06/17/37649e97ea5a47a292cddaef5a9fbdc6.zip
+- 更新说明: 降级包上传工具
