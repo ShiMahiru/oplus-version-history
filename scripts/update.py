@@ -306,34 +306,54 @@ def render_changelog(data, region):
             return ci.get("data", "")
         return str(ci)
 
+    def bullet_lines(content):
+        """统一处理三种 content 形态：list 逐条转 bullet；字符串（updateTips
+        官方多行文本）原样保留并靠内置换行拆分——绝不逐字符迭代。"""
+        if isinstance(content, list):
+            out = []
+            for ci in content:
+                t = text_of(ci)
+                if t:
+                    out.append(f"- {t}")
+            return out
+        if content:
+            return [str(content)]
+        return []
+
     lines = []
     first_block = True
     for item in items:
-        children = item.get("children")
-        if children:
-            for child in children:
+        if "children" in item:
+            # 常规更新分类：每个 child 有 title + content(list)
+            for child in item.get("children") or []:
                 title = child.get("title", "")
-                content = child.get("content", [])
                 if title:
                     if not first_block:
                         lines.append("")
                     lines.append(f"## {title}")
-                for ci in content:
-                    t = text_of(ci)
-                    if t:
-                        lines.append(f"- {t}")
+                lines.extend(bullet_lines(child.get("content")))
                 first_block = False
+        elif "link" in item:
+            # 链接项：可选 content 文本 + link HTML（官方社区链接等）
+            link_html = item.get("link") or ""
+            m = re.search(r'href\s*=\s*"([^"]+)"', link_html)
+            url = m.group(1) if m else link_html.strip()
+            content_text = item.get("content") or ""
+            if not first_block:
+                lines.append("")
+            if content_text:
+                lines.extend(bullet_lines(content_text))
+            if url:
+                lines.append(url)
+            first_block = True
         else:
+            # 重要须知（type=updateTips）：title + content(带 \n 的字符串)
             title = item.get("title", "")
-            content = item.get("content", [])
             if title:
                 if not first_block:
                     lines.append("")
                 lines.append(f"## {title}")
-            for ci in content:
-                t = text_of(ci)
-                if t:
-                    lines.append(f"- {t}")
+            lines.extend(bullet_lines(item.get("content")))
             first_block = False
     if not lines:
         return "官方无更新日志。\n"
