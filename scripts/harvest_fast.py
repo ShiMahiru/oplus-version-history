@@ -9,6 +9,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.
 ctx = ssl._create_unverified_context()
 LOCK = threading.Lock()
 STATS = {"ok": 0, "fail": 0, "nolink": 0, "skip": 0}
+GIVEUP = set()  # 本轮已确认后端无记录的（跳过重试）
 
 
 class Session:
@@ -129,6 +130,9 @@ def worker(sess, task_queue, root_links):
         if os.path.exists(out) and os.path.getsize(out) > 0:
             with LOCK: STATS["skip"] += 1
             continue
+        if out in GIVEUP:
+            with LOCK: STATS["nolink"] += 1
+            continue
         try:
             token = sess.get_token(brand, code, full_ver)
             if not token:
@@ -146,7 +150,9 @@ def worker(sess, task_queue, root_links):
                     if done % 20 == 0:
                         print(f"  进度 {done}: ✓{STATS['ok']} ✗{STATS['fail']} 无{STATS['nolink']} 跳{STATS['skip']}", flush=True)
             else:
-                with LOCK: STATS["nolink"] += 1
+                with LOCK:
+                    STATS["nolink"] += 1
+                    GIVEUP.add(out)  # 目标站后端无记录，本轮跳过
         except Exception as e:
             with LOCK: STATS["fail"] += 1
             if "reset" in str(e).lower():
