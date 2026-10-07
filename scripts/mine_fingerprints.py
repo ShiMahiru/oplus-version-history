@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+指纹挖掘：暴力枚举 {code}_11.{letter}.{nn}_{nn*10} 指纹前缀，用 descriptionInfo
+验证存在性，建立 版本名→指纹 映射，进而补全历史版本的 changelog + ota-version。
+
+来源动机：目标站 roms.lian86.top 有 2403 个欧加版本目录（我们有 984），
+其数据库只有版本名无链接。指纹前缀是查询日志的唯一钥匙，序号空间可枚举。
+
+策略：
+  - 只挖目标站有而我们没有的版本所属机型（164 个）
+  - 每机型枚举 5 分支 × 99 序号 = 495 请求，限速可控
+  - 命中且版本名不在本地的 → 补 ota-version.txt + 拉日志入库
+  - 断点续传：progress 记录已挖机型
+"""
+import json, os, re, sys, time
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # scripts/ 的上一级 = 仓库根
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+from update import changelog_query, REGIONS
+
+LETTERS = ["A", "C", "F", "H", "J"]
+PROGRESS = os.path.join(ROOT, "config", "mine_progress.json")
+
+
+def load_progress():
+    if os.path.exists(PROGRESS):
+        return json.load(open(PROGRESS))
+    return {"done": []}
+
+
+def save_progress(p):
+    json.dump(p, open(PROGRESS, "w"), ensure_ascii=False)
+
+
+def mine_model(code, site_versions, dry=False):
+    """枚举一个机型的指纹空间，返回新增 (指纹前缀, 版本名) 列表"""
+    ver_file = os.path.join(ROOT, "models", code, "ota-version.txt")
+    known_versions = set()
+    if os.path.isfile(ver_file):
+        for line in open(ver_file, encoding="utf-8"):
+            mm = re.match(r"^(\S+)\s+#\s*(?:ColorOS:\s*)?(.+)", line.strip())
+            if mm:
+                known_versions.add(mm.group(2))
+    known_fps = set()
+    if os.path.isfile(ver_file):
+        for line in open(ver_file, encoding="utf-8"):
+            fp = line.strip().split()[0] if line.strip() else ""
+            if fp:
+                prefix = fp.rsplit("_", 1)[0] if fp.rsplit("_", 1)[-1].isdigit() else fp
+                known_fps.add(prefix)
+
+    new_hits = []
+    for letter in LETTERS:
+        for nn in range(1, 100):
+            fp = f"{code}_11.{letter}.{nn:02d}_{nn*10:04d}"
+            if fp in known_fps:
+                continue
+            if dry:
+                continue
+            r = changelog_query(code, fp, "cn")
+            if r and r[0]:
+                vn = r[0]
+                # 只入库目标站有而本地没有的版本
+                if vn not in known_versions:
+                    new_hits.append((fp, vn, r[1]))
+                    known_versions.add(vn)
+                    known_fps.add(fp)
+                    print(f"    命中 {fp} → {vn}", flush=True)
+            else:
+                # 也记录"已挖过无结果"避免重复
+                known_fps.add(fp)
+            time.sleep(0.12)
+    return new_hits
+
+
+def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--model")
+    ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--limit", type=int, default=0, help="最多挖几个机型（调试）")
+    args = ap.parse_args()
+
+    missing = json.load(open("/tmp/missing_from_lian.json"))
+    targets = sorted(missing.keys())
+    if args.model:
+        targets = [args.model]
+    if args.limit:
+        targets = targets[:args.limit]
+
+    prog = load_progress()
+    print(f"待挖机型: {len(targets)}（已完成 {len(prog['done'])}）")
+
+    for i, code in enumerate(targets):
+        if code in prog["done"]:
+            continue
+        print(f"[{i+1}/{len(targets)}] {code} 枚举中...", flush=True)
+        hits = mine_model(code, None, dry=args.dry)
+        # 入库
+        ver_file = os.path.join(ROOT, "models", code, "ota-version.txt")
+        cl_dir = os.path.join(ROOT, "models", code, "changelog")
+        os.makedirs(cl_dir, exist_ok=True)
+        existing_lines = set()
+        if os.path.isfile(ver_file):
+            existing_lines = {l.strip() for l in open(ver_file, encoding="utf-8") if l.strip()}
+        added = 0
+        with open(ver_file, "a", encoding="utf-8") as f:
+            for fp, vn, md in hits:
+                line = f"{fp}_197001010000  # ColorOS: {vn}"
+                # 时间戳用挖掘占位（真实时间戳不可知）——normalize 会保留
+                if fp not in {l.split()[0].rsplit('_',1)[0] for l in existing_lines}:
+                    f.write(line + "\n")
+                    existing_lines.add(line)
+                cl_path = os.path.join(cl_dir, fp + ".md")
+                if not os.path.exists(cl_path) and md:
+                    with open(cl_path, "w", encoding="utf-8") as cf:
+                        cf.write(md)
+                    added += 1
+        prog["done"].append(code)
+        save_progress(prog)
+        print(f"  完成：命中 {len(hits)}，入库 {added}")
+        time.sleep(1)
+
+
+if __name__ == "__main__":
+    main()

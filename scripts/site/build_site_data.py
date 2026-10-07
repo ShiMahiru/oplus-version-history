@@ -49,22 +49,39 @@ def build_versions(code):
                 break
 
     versions = []
+    seen_versions = set()
     links_dir = os.path.join(ROOT, "links", code)
-    if not os.path.isdir(links_dir): return versions
-    for t in sorted(os.listdir(links_dir)):
-        if not t.endswith(".txt"): continue
-        name = t[:-4]
-        m = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", name)
-        ver = m.group(1) if m else name[len(code):].lstrip("_")
-        region = m.group(2) if m else ""
-        url = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
-        changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
+    if not os.path.isdir(links_dir): links_dir = None
+    if links_dir:
+        for t in sorted(os.listdir(links_dir)):
+            if not t.endswith(".txt"): continue
+            name = t[:-4]
+            m = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", name)
+            ver = m.group(1) if m else name[len(code):].lstrip("_")
+            region = m.group(2) if m else ""
+            url = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
+            changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
+            versions.append({
+                "version": f"ColorOS {ver}({region})",
+                "region": region,
+                "url": url,
+                "changelog": changelog,
+            })
+            seen_versions.add(f"{code}_{ver}({region})")
+    # 目录条目：ota-version 里有指纹（官方确认发布过）但 links 缺失的版本
+    for ver_name in cl_fp_to_ver:
+        if ver_name in seen_versions:
+            continue
+        mm = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", ver_name)
+        if not mm:
+            continue
         versions.append({
-            "version": f"ColorOS {ver}({region})",
-            "region": region,
-            "url": url,
-            "changelog": changelog,
+            "version": f"ColorOS {mm.group(1)}({mm.group(2)})",
+            "region": mm.group(2),
+            "url": "",
+            "changelog": cl_fp_to_ver[ver_name],
         })
+        seen_versions.add(ver_name)
     # 版本按语义版本号新到旧
     versions.sort(key=lambda v: ver_key(v["version"]), reverse=True)
     return versions
@@ -119,7 +136,9 @@ for _m in DEV["models"]:
             dev_meta.setdefault(_v["code"], {})[_v.get("region", "")] = _v
 
 def build_date(fp):
-    m = re.search(r"_(\d{8})(?:\d{4})?$", fp or "")
+    if not fp or "197001010000" in fp:
+        return ""  # 挖掘占位指纹，真实编译日期不可知
+    m = re.search(r"_(\d{8})(?:\d{4})?$", fp)
     if m:
         d = m.group(1)
         return f"{d[:4]}-{d[4:6]}-{d[6:8]}"
