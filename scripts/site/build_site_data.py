@@ -308,8 +308,11 @@ for b in site["brands"]:
 for b in site["brands"]:
     for m in b["models"]:
         for idx, v in enumerate(m["versions"]):
-            # 顶部即最新，不加"最新"标签
-            v["tags"] = ["降级包" if "downgradefs.coloros.com" in v.get("url", "") else "全量包"]
+            # 顶部即最新，不加"最新"标签；无链接的目录条目不给包类型标签
+            if v.get("url"):
+                v["tags"] = ["降级包" if "downgradefs.coloros.com" in v["url"] else "全量包"]
+            else:
+                v["tags"] = ["待补链接"]
 
 # ── 6. 机型按发布新到旧（最新版本号降序） ──
 for b in site["brands"]:
