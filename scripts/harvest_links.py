@@ -21,7 +21,7 @@ op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj), urllib.
 def session_warm():
     """过 Peekabo 握手"""
     for _ in range(3):
-        raw = op.open(urllib.request.Request("https://roms.lian86.top/", headers={"User-Agent": UA}), timeout=20).read()
+        raw = op.open(urllib.request.Request("https://catalog-source.local/", headers={"User-Agent": UA}), timeout=20).read()
         text = raw.decode(errors="ignore")
         if "UAM_CHECKING" not in text[:3000]:
             return
@@ -31,7 +31,7 @@ def session_warm():
             nonce = int(m.group(1)); d = 12345
             for i in range(len(fl[0])):
                 if re.match(r"[a-zA-Z0-9]", fl[0][i]): d += ord(fl[0][i]) * (nonce + i)
-            op.open(urllib.request.Request("https://roms.lian86.top/", data=urllib.parse.urlencode(
+            op.open(urllib.request.Request("https://catalog-source.local/", data=urllib.parse.urlencode(
                 {"sum": d, "nonce": nonce}).encode(),
                 headers={"User-Agent": UA, "Content-type": "application/x-www-form-urlencoded",
                          "X-FL-UA-Step": "prev"}), timeout=20)
@@ -39,7 +39,7 @@ def session_warm():
 
 
 def get_token(brand, model, version):
-    req = urllib.request.Request("https://roms.lian86.top/proxy/init",
+    req = urllib.request.Request("https://catalog-source.local/proxy/init",
         data=json.dumps({"captchaVerifyParam": "auto", "brand": brand, "model": model, "version": version}).encode(),
         headers={"User-Agent": UA, "Content-Type": "application/json"})
     r = op.open(req, timeout=25)
@@ -48,7 +48,7 @@ def get_token(brand, model, version):
 
 def get_link(brand, model, version, token):
     q = f"brand={urllib.parse.quote(brand)}&model={urllib.parse.quote(model)}&version={urllib.parse.quote(version)}"
-    req = urllib.request.Request(f"https://roms.lian86.top/proxy/roms/link?{q}",
+    req = urllib.request.Request(f"https://catalog-source.local/proxy/roms/link?{q}",
         headers={"User-Agent": UA, "Authorization": f"Bearer {token}", "Accept": "application/json"})
     r = op.open(req, timeout=30)
     return json.loads(r.read().decode())
@@ -83,7 +83,7 @@ def main():
         brand = brand_of.get(code, "OnePlus")
         try:
             req = urllib.request.Request(
-                f"https://roms.lian86.top/proxy/roms/versions?model={urllib.parse.quote(code)}&brand={urllib.parse.quote(brand)}",
+                f"https://catalog-source.local/proxy/roms/versions?model={urllib.parse.quote(code)}&brand={urllib.parse.quote(brand)}",
                 headers={"User-Agent": UA})
             d = json.loads(op.open(req, timeout=20).read().decode())
             if d.get("status") != "success":

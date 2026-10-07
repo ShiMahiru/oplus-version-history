@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-导入目标站（roms.lian86.top）欧加版本目录 → 目录条目（链接待补）。
+导入目录源（catalog-source）欧加版本目录 → 目录条目（链接待补）。
 
-目标站数据库 = 多年爬虫积累的 gate 链接存档（2403 版本），其 API 只吐版本名
+目录源数据库：gate 链接存档（2403 版本），API 只吐版本名
 不吐链接（链接字段全空，下载走它自己后端的 OTA 实时查询）。
 
 导入策略：
-  - 版本存在于目标站目录、但本地 links/ 没有链接 → 生成目录条目
+  - 版本存在于目录源、但本地 links/ 没有链接 → 生成目录条目
     （links/{code}/{code}_{ver}() 目录文件，内容空串 + 注释标记）
   - 已有链接的版本不动（links 里的 gate/直链 100% 实测存活，价值更高）
 运行: python3 scripts/import_lian_catalog.py [--dry-run]
@@ -24,7 +24,7 @@ def main():
     args = ap.parse_args()
 
     theirs = json.load(open(CATALOG))
-    print(f"目标站目录: {len(theirs)} 机型 / {sum(len(v) for v in theirs.values())} 版本")
+    print(f"目录源: {len(theirs)} 机型 / {sum(len(v) for v in theirs.values())} 版本")
 
     added = 0
     skipped_have = 0

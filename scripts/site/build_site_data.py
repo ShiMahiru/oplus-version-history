@@ -258,8 +258,8 @@ for b in site["brands"]:
                 if not meta.get("sizeBytes") and hit[1]:
                     meta["sizeBytes"] = int(hit[1])
 
-# ── 5.44c 目标站（lian86）版本目录入库：官方确认发布过但链接待补 ──
-_lian_path = os.path.join(ROOT, "config", "lian_versions.json")
+# ── 5.44c 版本目录入库：官方确认发布过但链接待补 ──
+_lian_path = os.path.join(ROOT, "config", "catalog_versions.json")
 if os.path.exists(_lian_path):
     _lian = json.load(open(_lian_path))
     for b in site["brands"]:
@@ -278,8 +278,7 @@ if os.path.exists(_lian_path):
                     "region": region,
                     "url": "",
                     "changelog": "",
-                    "source": "lian86-catalog",
-                })
+                                    })
 
 # ── 5.45 机型级回填：Android / NV / projectId（跨全部版本含降级包） ──
 def nv_of(region):

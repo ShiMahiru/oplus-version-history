@@ -4,11 +4,11 @@
 指纹挖掘：暴力枚举 {code}_11.{letter}.{nn}_{nn*10} 指纹前缀，用 descriptionInfo
 验证存在性，建立 版本名→指纹 映射，进而补全历史版本的 changelog + ota-version。
 
-来源动机：目标站 roms.lian86.top 有 2403 个欧加版本目录（我们有 984），
+来源动机：目录源 catalog-source 有 2403 个欧加版本目录（我们有 984），
 其数据库只有版本名无链接。指纹前缀是查询日志的唯一钥匙，序号空间可枚举。
 
 策略：
-  - 只挖目标站有而我们没有的版本所属机型（164 个）
+  - 只挖目录源有而我们没有的版本所属机型（164 个）
   - 每机型枚举 5 分支 × 99 序号 = 495 请求，限速可控
   - 命中且版本名不在本地的 → 补 ota-version.txt + 拉日志入库
   - 断点续传：progress 记录已挖机型
@@ -53,7 +53,7 @@ def mine_model(code, site_versions, dry=False):
                 known_fps.add(prefix)
 
     new_hits = []
-    # 智能枚举：从目标站缺口版本的 ColorOS 大版本 → 对应分支字母（实测映射），
+    # 智能枚举：从目录缺口版本的 ColorOS 大版本 → 对应分支字母（实测映射），
     # 只枚举相关分支，序号 1-99 全扫但限速更快（0.05s，官方 descriptionInfo 限流松）
     VER_BRANCH = {"13": ["A", "C", "F"], "14": ["A", "C", "F", "H"],
                   "15": ["A", "C", "F", "H"], "16": ["A", "C", "F", "H", "J"],
@@ -77,7 +77,7 @@ def mine_model(code, site_versions, dry=False):
                 # 跨机型撞车校验：versionName 必须含本机型 code
                 if code not in vn:
                     continue
-                # 只入库目标站有而本地没有的版本
+                # 只入库目录源有而本地没有的版本
                 if vn not in known_versions:
                     new_hits.append((fp, vn, r[1]))
                     known_versions.add(vn)
@@ -118,7 +118,7 @@ def main():
         if code in prog["done"]:
             continue
         print(f"[{i+1}/{len(targets)}] {code} 枚举中...", flush=True)
-        # 目标站缺口版本的 ColorOS 大版本集合（用于智能分支选择）
+        # 目录缺口版本的 ColorOS 大版本集合（用于智能分支选择）
         site_versions = missing.get(code, [])
         hits = mine_model(code, site_versions, dry=args.dry)
         # 入库
