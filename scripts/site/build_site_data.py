@@ -339,10 +339,11 @@ for b in site["brands"]:
             # 版本段 = 去 ColorOS/OxygenOS/本code 前缀后的部分
             seg = ver.replace("ColorOS ", "").replace("OxygenOS ", "")
             seg = seg[len(code) + 1:] if seg.startswith(code + "_") else seg
-            bad = ("OxygenOS" in ver
-                   or "氧OS" in ver or "氧os" in ver
-                   or "Realme_UI" in ver or "Realme UI" in ver
-                   or bool([c for c in CODE_RE2.findall(seg) if c != code]))
+            # OxygenOS/氧OS/Realme_UI 是官方海外壳（真实直链），保留；
+            # 只排除版本段嵌完全无关机型 code 的
+            others = [c for c in CODE_RE2.findall(seg) if c != code]
+            same_family = all(c[:2] == code[:2] or c[:3] == code[:3] for c in others)
+            bad = bool(others) and not same_family
             if not bad:
                 clean_versions.append(v)
         m["versions"] = clean_versions
@@ -393,10 +394,11 @@ for b in site["brands"]:
             # 版本段 = 去 ColorOS/OxygenOS/本code 前缀后的部分
             seg = ver.replace("ColorOS ", "").replace("OxygenOS ", "")
             seg = seg[len(code) + 1:] if seg.startswith(code + "_") else seg
-            bad = ("OxygenOS" in ver
-                   or "氧OS" in ver or "氧os" in ver
-                   or "Realme_UI" in ver or "Realme UI" in ver
-                   or bool([c for c in CODE_RE2.findall(seg) if c != code]))
+            # OxygenOS/氧OS/Realme_UI 是官方海外壳（真实直链），保留；
+            # 只排除版本段嵌完全无关机型 code 的
+            others = [c for c in CODE_RE2.findall(seg) if c != code]
+            same_family = all(c[:2] == code[:2] or c[:3] == code[:3] for c in others)
+            bad = bool(others) and not same_family
             if not bad:
                 clean_versions.append(v)
         m["versions"] = clean_versions
