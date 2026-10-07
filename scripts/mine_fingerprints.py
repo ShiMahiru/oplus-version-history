@@ -20,7 +20,9 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from update import changelog_query, REGIONS
 
 LETTERS = ["A", "C", "F", "H", "J"]
-PROGRESS = os.path.join(ROOT, "config", "mine_progress.json")
+import os as _os
+_shard = _os.environ.get("MINE_SHARD", "")
+PROGRESS = os.path.join(ROOT, "config", f"mine_progress{_shard}.json") if _shard else os.path.join(ROOT, "config", "mine_progress.json")
 
 
 def load_progress():
@@ -51,7 +53,18 @@ def mine_model(code, site_versions, dry=False):
                 known_fps.add(prefix)
 
     new_hits = []
-    for letter in LETTERS:
+    # 智能枚举：从目标站缺口版本的 ColorOS 大版本 → 对应分支字母（实测映射），
+    # 只枚举相关分支，序号 1-99 全扫但限速更快（0.05s，官方 descriptionInfo 限流松）
+    VER_BRANCH = {"13": ["A", "C", "F"], "14": ["A", "C", "F", "H"],
+                  "15": ["A", "C", "F", "H"], "16": ["A", "C", "F", "H", "J"],
+                  "17": ["A", "C"], "11": ["A", "C"], "12": ["A", "C", "F"]}
+    # 该机型的缺口版本 ColorOS 大版本集合
+    need_bigs = set()
+    for v in site_versions if isinstance(site_versions, dict) else []:
+        mm2 = re.match(r"ColorOS\s*(\d+)", str(v))
+        if mm2: need_bigs.add(mm2.group(1))
+    branches = sorted(set(b for big in need_bigs for b in VER_BRANCH.get(big, LETTERS))) or LETTERS
+    for letter in branches:
         for nn in range(1, 100):
             fp = f"{code}_11.{letter}.{nn:02d}_{nn*10:04d}"
             if fp in known_fps:
@@ -73,7 +86,7 @@ def mine_model(code, site_versions, dry=False):
             else:
                 # 也记录"已挖过无结果"避免重复
                 known_fps.add(fp)
-            time.sleep(0.12)
+            time.sleep(0.05)
     return new_hits
 
 
@@ -105,7 +118,9 @@ def main():
         if code in prog["done"]:
             continue
         print(f"[{i+1}/{len(targets)}] {code} 枚举中...", flush=True)
-        hits = mine_model(code, None, dry=args.dry)
+        # 目标站缺口版本的 ColorOS 大版本集合（用于智能分支选择）
+        site_versions = missing.get(code, [])
+        hits = mine_model(code, site_versions, dry=args.dry)
         # 入库
         ver_file = os.path.join(ROOT, "models", code, "ota-version.txt")
         cl_dir = os.path.join(ROOT, "models", code, "changelog")
