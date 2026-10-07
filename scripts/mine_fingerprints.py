@@ -80,10 +80,16 @@ def main():
     ap.add_argument("--model")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="最多挖几个机型（调试）")
+    ap.add_argument("--shard", type=int, default=0, help="分片序号")
+    ap.add_argument("--total", type=int, default=1, help="总分片数")
     args = ap.parse_args()
 
-    missing = json.load(open("/tmp/missing_from_lian.json"))
+    missing_path = os.path.join(ROOT, "config", "missing_from_lian.json")
+    missing = json.load(open(missing_path))
     targets = sorted(missing.keys())
+    # 分片：按序取每隔 total 的机型，均衡分布
+    if args.total > 1:
+        targets = targets[args.shard::args.total]
     if args.model:
         targets = [args.model]
     if args.limit:
