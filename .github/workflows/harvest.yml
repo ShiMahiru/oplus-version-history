@@ -1,0 +1,41 @@
+name: Harvest Lian Links
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 每天 07:00 UTC（挖掘+数据更新后）
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "本次最多 harvest 数（0=不限）"
+        default: "0"
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run harvest
+        run: python3 scripts/harvest_lian_links.py --limit ${{ github.event.inputs.limit || 0 }}
+
+      - name: Commit harvested links
+        run: |
+          git config user.name "oplus-history-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add links/
+          if git diff --cached --quiet; then
+            echo "无新链接"
+          else
+            git commit -m "feat(harvest): 从目标站数据库 harvest 历史版本直链"
+            git pull --rebase --autostash
+            git push "https://x-access-token:${{ secrets.GH_PAT }}@github.com/ShiMahiru/oplus-version-history.git" main
+          fi
