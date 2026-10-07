@@ -1,17 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-指纹挖掘：暴力枚举 {code}_11.{letter}.{nn}_{nn*10} 指纹前缀，用 descriptionInfo
-验证存在性，建立 版本名→指纹 映射，进而补全历史版本的 changelog + ota-version。
-
-来源动机：目录源 catalog-source 有 2403 个欧加版本目录（我们有 984），
-其数据库只有版本名无链接。指纹前缀是查询日志的唯一钥匙，序号空间可枚举。
-
-策略：
-  - 只挖目录源有而我们没有的版本所属机型（164 个）
-  - 每机型枚举 5 分支 × 99 序号 = 495 请求，限速可控
-  - 命中且版本名不在本地的 → 补 ota-version.txt + 拉日志入库
-  - 断点续传：progress 记录已挖机型
+指纹挖掘：枚举 {code}_11.{letter}.{nn}_{nn*10} 指纹前缀，经 descriptionInfo
+验证存在性，补全历史版本的 changelog + ota-version。断点续传。
 """
 import json, os, re, sys, time
 
