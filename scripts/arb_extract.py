@@ -1,16 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-批量提取 ARB（防回滚计数器）并存入 models/{code}/arb.json。
 
-复用 ota_extract.py 的 payload 定位 + Range 读取 + xz/bz2 解压，
-只 pull xbl_config 分区（几百 KB），ELF64 解析 ARB（移植自 RomCloud ArbParser.kt）。
 
-用法:
-  python3 scripts/arb_extract.py --all          # 全量（174 机型最新版本）
-  python3 scripts/arb_extract.py --model PLK110 # 单机型
-  python3 scripts/arb_extract.py --model PLK110 --url <gate链接>  # 直接指定链接
-"""
+
 import argparse
 import json
 import os
@@ -24,11 +14,11 @@ from update import v3_query, REGIONS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# ─────────── ELF64 ARB 解析（移植 RomCloud ArbParser.kt / koaaN arbextract.c） ───────────
 def parse_arb(data: bytes):
-    """从 xbl_config.img 字节里读 ARB。返回 (major, minor, arb) 或 None。"""
+    
     ELF_MAGIC = b"\x7fELF"
-    if len(data) < 64 or data[:4] != ELF_MAGIC or data[4] != 2:  # ELFCLASS64
+    if len(data) < 64 or data[:4] != ELF_MAGIC or data[4] != 2:
+
         return None
 
     def u32(off):
@@ -41,7 +31,6 @@ def parse_arb(data: bytes):
     ph_entsize = struct.unpack_from("<H", data, 0x36)[0]
     ph_num = struct.unpack_from("<H", data, 0x38)[0]
 
-    # 倒序找第一个非空 PT_NULL（HASH 段在程序头表末尾）
     hash_off = 0
     hash_size = 0
     for i in range(ph_num - 1, -1, -1):
@@ -49,8 +38,10 @@ def parse_arb(data: bytes):
         if pos + 56 > len(data):
             continue
         p_type = u32(pos)
-        p_offset = u64(pos + 8)      # p_offset 在 ELF64 Phdr 偏移 8
-        p_filesz = u64(pos + 32)     # p_filesz 在偏移 32
+        p_offset = u64(pos + 8)
+
+        p_filesz = u64(pos + 32)
+
         if p_type == 0 and p_filesz > 0:
             hash_off = p_offset
             hash_size = p_filesz
@@ -92,19 +83,17 @@ def parse_arb(data: bytes):
 
 
 def is_cn_manual_direct(url: str) -> bool:
-    """CN 手动域 gauss 直链：带任何 UA 都 403，必须不带 UA。"""
+    
     return ("componentotacostmanual-cn.allawnfs.com" in url
             or "gauss-componentotacostmanual-cn" in url)
 
 
 def extract_arb_from_url(url: str, code: str):
-    """从 OTA 链接提取 ARB。返回 dict 或 None。"""
+    
     is_gate = "downloadCheck" in url or "/download?" in url
-    # gate 先解析成直链；CN 手动直链域不带 UA（带 UA 403）
     direct = oe.resolve_direct(url) if is_gate else url
     no_ua = is_cn_manual_direct(direct)
     reader, manifest = oe.open_payload(direct, no_ua=no_ua)
-    # 找 xbl_config 分区
     xbl = None
     for p in manifest["partitions"]:
         if p["name"] == "xbl_config":
@@ -113,7 +102,6 @@ def extract_arb_from_url(url: str, code: str):
     if xbl is None:
         return {"code": code, "error": "无 xbl_config 分区", "arb": None}
 
-    # 提取到临时内存（xbl_config 通常 < 1MB）
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:
         out = oe.extract(reader, manifest, xbl, tmp)
@@ -129,8 +117,7 @@ def extract_arb_from_url(url: str, code: str):
 
 
 def query_and_extract(code: str):
-    """实时查询拿新鲜 gate 链接 → 提取 ARB。"""
-    # 确定区域：从 models.json 拿 region，映射到 REGION_TABLE 键
+    
     try:
         models = json.load(open(os.path.join(ROOT, "config", "models.json")))[
             "models"]
@@ -139,7 +126,6 @@ def query_and_extract(code: str):
             if m.get("code") == code:
                 region_tag = m.get("region", "")
                 break
-        # region 映射
         alias = {
             "CN": "cn", "CH": "cn", "CT": "cn", "CNCMCC": "cn",
             "IN": "in", "IND": "in", "EU": "eu", "EEA": "eu", "UK": "eu",
@@ -154,7 +140,6 @@ def query_and_extract(code: str):
     except Exception:
         region = "cn"
 
-    # 枚举分支拿最新
     for letter in ["A", "C", "F", "H", "J", "E", "B", "D", "G"]:
         r = v3_query(code, region, letter)
         if r and r.get("url"):
@@ -198,7 +183,6 @@ def main():
         return
 
     if args.all:
-        # 从 site.json 拿机型清单（romcloud-web）
         site_path = "/root/oplus-rom-dev/romcloud-web/frontend/data/site.json"
         site = json.load(open(site_path))
         codes = []

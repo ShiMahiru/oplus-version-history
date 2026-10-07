@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-"""深度清洗 changelog 竖排碎行：连续短列表项（≤2字符）拼回句子/编号列表。"""
+
+
+
 import glob, re
 
 def clean(text):
@@ -7,14 +8,15 @@ def clean(text):
     out = []
     i = 0
     n = len(lines)
-    SHORT = re.compile(r"^- (.{0,2})$")   # "- x" / "- " / "- .."
-    NUM = re.compile(r"^(\d+)\.\s*$")     # "1."
+    SHORT = re.compile(r"^- (.{0,2})$")
+
+    NUM = re.compile(r"^(\d+)\.\s*$")
+
     while i < n:
         line = lines[i]
         m_short = SHORT.match(line.strip())
         m_num = NUM.match(line.strip())
         if m_num:
-            # 编号列表：N. 后跟连续短项拼成 "N. 内容"
             num = m_num.group(1)
             i += 1
             chars = []
@@ -29,7 +31,6 @@ def clean(text):
                     i += 1
                 elif s == "":
                     i += 1
-                    # 空行后若还是短项继续，否则停
                     if i < n and (lines[i].strip() == "-" or SHORT.match(lines[i].strip())):
                         continue
                     break
@@ -39,7 +40,6 @@ def clean(text):
             out.append(f"{num}. {content}" if content else f"{num}.")
             continue
         if m_short:
-            # 普通短项流：连续短项拼回一段（用原始行取 body，保留空格）
             chars = []
             while i < n:
                 raw = lines[i]
@@ -67,7 +67,6 @@ for f in glob.glob("models/*/changelog/*.md"):
         fixed += 1
 print(f"清洗 {fixed} 个文件")
 
-# 复查残留
 import os
 bad = 0
 for f in glob.glob("models/*/changelog/*.md"):

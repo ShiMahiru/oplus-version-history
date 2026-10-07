@@ -1,31 +1,26 @@
-#!/usr/bin/env python3
-"""
-把 oplus-version-history 的 links/models 转成前端可消费的 JSON 索引。
-机型名优先用 pn_ref.json（Kheronix/oplus-pn-ref，含中文名），其次 devices.json。
-"""
+
+
+
 import os, re, json, collections
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # 仓库根
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 DEVICES = os.path.join(ROOT, "config", "devices.json")
 PN_REF = os.path.join(ROOT, "config", "pn_ref.json")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 os.makedirs(OUT, exist_ok=True)
 
-# ── 机型名：pn_ref 优先，devices 兜底 ──
 dev = json.load(open(DEVICES))
 pn = json.load(open(PN_REF))["models"]
 
 def clean_name(n):
-    # 去掉 <br> 和多重命名，取第一个
     n = n.replace("<br>", " / ").replace("<br/>", " / ").replace("<br />", " / ")
     return n.strip()
 
-# code → (品牌, 名称)
 name_map = {}
 for code, info in pn.items():
     name_map[code] = clean_name(info.get("name", code))
 
-# devices.json 的 brand（权威）
 brand_map = {}
 for m in dev["models"]:
     for v in m.get("variants", []):
@@ -35,21 +30,20 @@ for m in dev["models"]:
 
 def brand_of(code):
     if code in brand_map: return brand_map[code]
-    # 去区域后缀
     for suf in ["EEA", "IN", "RU", "TR", "EU", "TW", "MEA", "SA", "SG", "TH",
                 "LATAM", "BR", "MY", "ID", "KZ", "OCA", "VN", "GLO"]:
         if code.endswith(suf):
             b = code[:-len(suf)]
             if b in brand_map: return brand_map[b]
     if code.startswith("RMX"): return "Realme"
-    if code.startswith("CPH"): return "OnePlus"  # 大部分 CPH 是一加海外版
+    if code.startswith("CPH"): return "OnePlus"
+
     if code.startswith(("PH", "OPD", "PJ", "PK", "PL", "PF", "PE", "PD", "PG", "NE", "IN", "KB", "LE", "MT", "GM", "HD", "DN")):
         return "OnePlus"
     return "OPPO"
 
 def model_name(code):
     if code in name_map: return name_map[code]
-    # 去区域后缀
     for suf in ["EEA", "IN", "RU", "TR", "EU", "TW", "MEA", "SA", "SG", "TH",
                 "LATAM", "BR", "MY", "ID", "KZ", "OCA", "VN", "GLO"]:
         if code.endswith(suf):

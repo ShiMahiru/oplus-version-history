@@ -1,15 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-oplus-version-history 链接存活校验
-==================================
-遍历 links/ 下全部条目，核实下载链接真实可用：
-  - 官方 gate（downloadCheck?）→ 302 跳转，Location 指向官方 Gauss CDN = 有效
-  - 直接直链（gauss-*.allawnfs.com）→ 206/200 Range 探测 = 有效
-连续 2 轮失败的移入 links/_dead/，并生成 DEAD.md 报告。
 
-运行: python3 scripts/verify.py [--fast]
-"""
+
+
 import argparse
 import os
 import random
@@ -28,7 +19,6 @@ def check(url):
     is_gate = "downloadCheck" in url or "download?" in url
     try:
         if is_gate:
-            # gate 只认 302 → 官方 CDN；返回 200（错误页）视为无效
             r = requests.get(url, allow_redirects=False, timeout=15,
                              headers={"User-Agent": UA, "userId": UID})
             if r.status_code in (301, 302, 303, 307, 308):
@@ -37,14 +27,10 @@ def check(url):
                     return True, f"302 → {loc.split('/')[2]}"
                 return False, f"302 → 非官方域 {loc[:60]}"
             return False, f"gate HTTP {r.status_code}（需 302）"
-        # 直链：Range 探测（防盗链对无 Range 请求可能 403）
-        # 注意 downgradefs.coloros.com 对 okhttp/浏览器 UA 均返回 403，
-        # 只接受空 UA / python-requests 默认 UA——探测时不手动设 UA。
         h = {"Range": "bytes=0-0"}
         r = requests.get(url, allow_redirects=False, timeout=15, headers=h)
         if r.status_code in (200, 206):
             return True, f"{r.status_code}"
-        # 二次尝试：带 Referer（部分 CDN 校验来源）
         h2 = dict(h, Referer="https://www.coloros.com/")
         r2 = requests.get(url, allow_redirects=False, timeout=15, headers=h2)
         if r2.status_code in (200, 206):
@@ -90,7 +76,6 @@ def main():
             if i % 100 == 0:
                 print(f"  ... {i}/{len(files)} 有效 {ok} 待定 {len(fail1)}", flush=True)
 
-    # 二轮确认（决定性证据：死链在两个轮次都失败才算）
     def reconfirm(item):
         p, url, msg = item
         good, _ = check(url)
@@ -109,7 +94,6 @@ def main():
                     rel = os.path.relpath(p, os.path.join(ROOT, "links"))
                     dead.append((rel, url, msg))
 
-    # 归档死链
     if dead:
         if args.dry_run:
             print(f"（dry-run）死链 {len(dead)} 条，未归档：")
@@ -125,7 +109,8 @@ def main():
                 shutil.move(os.path.join(ROOT, "links", rel), dst)
                 moved.append((rel, url, msg))
             except Exception:
-                pass  # 源文件已不在（重复归档），跳过
+                pass
+
         with open(os.path.join(ROOT, "DEAD.md"), "w", encoding="utf-8") as f:
             f.write("# 死链报告\n\n以下链接连续校验失败，已移入 `links/_dead/`（版本史保留）。\n\n")
             f.write("| 文件 | 链接 | 原因 |\n|---|---|---|\n")
@@ -134,8 +119,6 @@ def main():
         print(f"✗ 死链 {len(moved)} 条已归档 links/_dead/ → 详见 DEAD.md")
         print(f"  累计有效 {ok}/{len(files)}")
     else:
-        # 本轮无死链也重写 DEAD.md：上一轮的死链可能已被上游修复并重新抓回，
-        # 报告必须反映「本轮」的状态，而不是历史上最差的一次
         with open(os.path.join(ROOT, "DEAD.md"), "w", encoding="utf-8") as f:
             f.write("# 死链报告\n\n以下链接连续校验失败，已移入 `links/_dead/`（版本史保留）。\n\n")
             f.write("最近一次全量校验未发现死链。历史死链见 `links/_dead/`。\n")

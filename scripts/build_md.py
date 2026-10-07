@@ -1,19 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-私有可浏览的版本史（Markdown）
-==============================
-读 docs/data.json（build_index.py 的产物），生成：
 
-  - HISTORY.md           根目录全机型索引表，按品牌分组，可点进详情
-  - docs/md/{型号}.md     单机型完整版本史（版本 / 指纹 / 日期 / 官方链接 / 更新日志 / 降级包）
 
-为什么不用 GitHub Pages：私有仓库的 Pages 需要付费计划（免费账号只能公开仓库开 Pages）。
-Markdown 由 GitHub 网页直接渲染 —— 私有、免费、手机能看、官方链接可点，
-不用额外托管、不用 Cloudflare/Vercel、不用把仓库转公开。
 
-运行: python3 scripts/build_md.py
-"""
 import json
 import os
 
@@ -23,12 +10,12 @@ MD_DIR = os.path.join(DOCS, "md")
 
 
 def cell(s):
-    """表格单元格转义：竖线和换行会破坏 Markdown 表格"""
+    
     return str(s or "").replace("|", "\\|").replace("\n", " ").strip()
 
 
 def short_date(ts):
-    """指纹尾部时间戳 202608071758 -> 2026-08-07"""
+    
     if len(ts) >= 8 and ts[:8].isdigit():
         return f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
     return ""
@@ -47,12 +34,12 @@ def size_text(n):
 
 
 def md_link(label, url):
-    """URL 用尖括号包住，避免参数里的特殊字符破坏链接语法"""
+    
     return f"[{label}](<{url}>)" if url else ""
 
 
 def rel_from_md(path):
-    """docs/md/x.md 回到仓库根"""
+    
     return "../../" + path.lstrip("./")
 
 
@@ -135,12 +122,10 @@ def main():
     tot_clog = sum(1 for m in models for v in (m.get("versions") or []) if v.get("cl"))
     tot_dg = sum(len(m.get("downgrade") or []) for m in models)
 
-    # 单机型页
     for m in models:
         with open(os.path.join(MD_DIR, f"{m['code']}.md"), "w", encoding="utf-8") as f:
             f.write(build_model_page(m))
 
-    # 索引页
     out = ["# 欧加官方 ROM 历史版本档案 · 索引", ""]
     out.append(f"> **{len(models)}** 机型 · **{tot_links}** 条官方链接 · "
                f"**{tot_clog}** 份官方更新日志 · **{tot_dg}** 个官方降级包")
@@ -151,7 +136,6 @@ def main():
                "浏览器/下载器访问会 302 到官方 CDN。")
     out.append("")
 
-    # 最近更新：跨机型按日期倒序。比翻机型目录更常用 —— 想知道「最近出了什么新包」看这里。
     recent = []
     for m in models:
         for v in (m.get("versions") or []):
@@ -172,7 +156,6 @@ def main():
     for m in models:
         groups.setdefault(m.get("brand") or "", []).append(m)
 
-    # config/models.json 里的 brand 是小写（oneplus/oppo/realme），展示时再转回正式写法
     label = {"oppo": "OPPO", "oneplus": "OnePlus", "realme": "realme"}
     order = ["oppo", "oneplus", "realme"]
     brands = [b for b in order if b in groups] + sorted(b for b in groups if b not in order)

@@ -1,36 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-从 OTA zip 里按分区远程提取镜像，不用下整包。
 
-原理：
-  OTA zip 内是 payload.bin，带 CrAU 头 + DeltaArchiveManifest(protobuf)；
-  manifest 里每个分区各操作的 dataOffset/dataLength 就是文件内的字节区间，
-  用 HTTP Range 只取这些区间即可。
 
-字段号取自 update_engine 生成类 chromeos_update_engine.UpdateMetadata：
-  DeltaArchiveManifest.partitions         = 13
-  DeltaArchiveManifest.securityPatchLevel = 18
-  DeltaArchiveManifest.blockSize          = 3
-  PartitionUpdate.partitionName           = 1
-  PartitionUpdate.newPartitionInfo        = 7   (子字段 size = 1)
-  PartitionUpdate.operations              = 8
-  InstallOperation.type                   = 1
-  InstallOperation.dataOffset             = 2
-  InstallOperation.dataLength             = 3
-
-用法：
-  python ota_extract.py dump <zip链接> [--json]
-  python ota_extract.py pull <zip链接> <分区名|--all> [-o 输出目录] [--progress-file 路径]
-
-字段说明（dump 输出每分区一行）：
-  name        分区名
-  image_size  分区镜像应有大小（new_partition_info.size）
-  offset      该分区在 payload 内的起始字节（相对 payload 数据区）
-  length      该分区数据占用字节数
-  ops         操作类型列表
-  compressed  是否压缩（REPLACE_BZ / REPLACE_XZ 等）
-"""
 
 import argparse
 import bz2
@@ -47,7 +16,6 @@ import requests
 
 MAGIC = b"CrAU"
 
-# 携带「新数据」的操作类型（其余类型引用源数据，全量包不会出现）
 DATA_OP_TYPES = frozenset({0, 1, 8, 12, 13})
 
 OP_NAMES = {
@@ -67,7 +35,6 @@ OP_NAMES = {
     13: "LZ4DIFF_PUFFDIFF",
 }
 
-# 数据经过压缩的操作类型（取出后需自行解压）
 COMPRESSED_OP_TYPES = frozenset({1, 8, 9, 10, 11, 12, 13})
 
 HEADERS = {
@@ -78,13 +45,12 @@ HEADERS = {
     "Accept": "*/*",
     "Accept-Encoding": "identity",
     "Connection": "keep-alive",
-    # 官方 downloadCheck gate 必须带这个头才返回 302 直链（实测：不带则 200 空响应）
     "userId": "oplus-ota|16002018",
 }
 
 
 def default_out_dir() -> str:
-    """Android 上落到 App 自己的外部目录，桌面上落到当前目录。"""
+    
     for cand in (
         "/sdcard/Android/data/io.otatracker/files/OTA",
         "/storage/emulated/0/Android/data/io.otatracker/files/OTA",
@@ -103,7 +69,7 @@ class Cancelled(Exception):
 
 
 class RangeReader:
-    """远程 URL 用 HTTP Range；本地路径直接读文件。"""
+    
 
     def __init__(self, url: str, session: Optional[requests.Session] = None, timeout: int = 30, no_ua: bool = False):
         self.url = url
@@ -111,8 +77,6 @@ class RangeReader:
         self.timeout = timeout
         self.pos = 0
         self._file = None
-        # gauss 直链（componentotacostmanual-cn.allawnfs.com 等 CN 手动域）
-        # 带任何 UA 都 403，必须不带 UA 请求
         self.no_ua = no_ua
 
         path = url
@@ -125,8 +89,6 @@ class RangeReader:
             self.size = os.path.getsize(path)
         else:
             self.size = self._probe_size()
-            # 官方 downloadCheck gate 会 302 到真正的 CDN 直链：
-            # 后续所有 Range 请求直接打最终直链（省一次跳转，且 gate 会限速）。
             self.url = self._final_url or self.url
 
     def _probe_size(self) -> int:
@@ -151,10 +113,8 @@ class RangeReader:
             code = r.status_code
             r.close()
             raise ExtractorError(f"服务器返回 {code}。")
-        # requests 跟随重定向后的最终 URL（gate -> CDN 直链）
         self._final_url = r.url
         if not self._is_zip_url():
-            # gate 没跳转（或跳到了非 zip）：不能假设包内是 zip
             self._final_url = self.url
         cr = r.headers.get("Content-Range", "")
         r.close()
@@ -255,7 +215,7 @@ def _read_varint(buf: bytes, pos: int) -> Tuple[int, int]:
 
 
 def _fields(buf: bytes):
-    """产出 (field_number, wire_type, value)。"""
+    
     pos, end = 0, len(buf)
     while pos < end:
         key, pos = _read_varint(buf, pos)
@@ -280,7 +240,7 @@ def _fields(buf: bytes):
 
 
 def parse_payload_header(reader: RangeReader, payload_offset: int) -> Tuple[bytes, int]:
-    """读 CrAU 头。布局：magic4 + version8 + manifestSize8 + sigSize4 + manifest。"""
+    
     reader.seek(payload_offset)
     head = reader.read(24)
     if len(head) < 24:
@@ -320,7 +280,7 @@ def parse_manifest(manifest_bytes: bytes) -> Dict:
 
 
 def _parse_partition_info(buf: bytes) -> int:
-    """PartitionInfo 里字段 1 是分区总大小。"""
+    
     for field, wire, value in _fields(buf):
         if field == 1 and wire == 0:
             return value
@@ -383,10 +343,7 @@ def _zip_data_offset(reader: RangeReader, info: zipfile.ZipInfo) -> int:
 
 
 def resolve_direct(url: str, timeout: int = 30) -> str:
-    """
-    把官方 downloadCheck gate 解析成最终直链。
-    实测：不带 userId 头时 gate 返回 200 空响应；带 userId 才 302 到 Gauss CDN。
-    """
+    
     if not url.lower().startswith(("http://", "https://")):
         return url
     if not ("downloadCheck" in url or "/download?" in url):
@@ -402,7 +359,6 @@ def resolve_direct(url: str, timeout: int = 30) -> str:
     r.close()
     if loc:
         return loc
-    # 有些 gate 直接 302 也会被 requests 跟随；再试一次取最终 URL
     r2 = requests.get(url, headers=dict(HEADERS, Range="bytes=0-0"),
                       timeout=timeout, stream=True, allow_redirects=True)
     final = r2.url
@@ -411,8 +367,7 @@ def resolve_direct(url: str, timeout: int = 30) -> str:
 
 
 def open_payload(url: str, no_ua: bool = False) -> Tuple[RangeReader, Dict]:
-    """返回 (reader, manifest)。manifest 里带 _payload_data_offset。
-    no_ua=True 时对 gauss 直链不带 UA（CN 手动域带 UA 会 403）。"""
+    
     url = resolve_direct(url)
     reader = RangeReader(url, no_ua=no_ua)
     payload_offset = 0
@@ -443,16 +398,19 @@ def open_payload(url: str, no_ua: bool = False) -> Tuple[RangeReader, Dict]:
 
 
 def _decompress(op_type: int, blob: bytes, block_size: int) -> bytes:
-    """按操作类型还原数据（全量包里的操作都是「产出新数据」类型）。"""
-    if op_type == 0:            # REPLACE：原始数据
+    
+    if op_type == 0:
+
         return blob
-    if op_type == 1:            # REPLACE_BZ
+    if op_type == 1:
+
         return bz2.decompress(blob)
-    if op_type == 8:            # REPLACE_XZ
+    if op_type == 8:
+
         return lzma.decompress(blob)
-    if op_type in (6, 7):       # ZERO / DISCARD：全零块
+    if op_type in (6, 7):
+
         return b"\x00" * len(blob)
-    # 其余是差分包专用（BSDIFF/PUFFDIFF/ZUCCHINI/…），全量包里不该出现
     raise ExtractorError(
         "分区用了差分包专属操作 %s，无法从全量包还原。"
         % OP_NAMES.get(op_type, str(op_type))
@@ -480,7 +438,6 @@ def extract(
     except Exception:
         free = None
 
-    # 解压后才是镜像真实大小；空间按 image_size 检查
     need = max(part.get("image_size") or 0, part["length"])
     if free is not None and free < need + 33554432:
         raise ExtractorError(
@@ -490,7 +447,6 @@ def extract(
     base = manifest["_payload_data_offset"]
     block_size = manifest.get("block_size") or 4096
     ops = part.get("ops") or []
-    # ops 为空时退化为「整段原始数据」（老包）
     if not ops:
         ops = [{"op_type": 0, "data_offset": part["offset"], "data_length": part["length"]}]
 
@@ -533,7 +489,6 @@ def extract(
 
             dlen = op["data_length"]
             dpos = base + op["data_offset"]
-            # 分段下载该操作的数据区
             buf = bytearray()
             while len(buf) < dlen:
                 if cancel_file and os.path.exists(cancel_file):
@@ -559,8 +514,6 @@ def extract(
             f.write(data)
             out_bytes += len(data)
 
-        # ZERO / DISCARD 操作不携带数据（语义是「把目标块置零」），全量包里
-        # 表现为镜像尾部的零填充：按 manifest 的 image_size 补齐。
         img_size = part.get("image_size") or 0
         if img_size > out_bytes:
             remaining = img_size - out_bytes

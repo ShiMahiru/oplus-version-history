@@ -1,22 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-版本史归一化去重（幂等维护脚本）
-================================
-把 models/{型号}/ota-version.txt 统一成规范形态：
 
-    <指纹>  # ColorOS: <版本名>
-    <指纹>  # ColorOS: <版本名> （查询基线 · 非官方 OTA 指纹）
 
-处理内容：
-  1) 去掉行尾空白、把分隔符统一为两个空格
-  2) 版本名统一剥离重复的 "ColorOS:" 前缀
-  3) 按 (指纹, 版本名) 精确去重（同指纹同版本只留一行）
-  4) 按指纹尾时间戳倒序排列（新版本在前）
-  5) 保留「查询基线」标注，不伪造指纹
 
-运行: python3 scripts/normalize.py [--dry]
-"""
 import argparse
 import os
 import re
@@ -26,7 +10,7 @@ NOTE_RE = re.compile(r"\s*[（(]\s*查询基线.*?[）)]\s*$")
 
 
 def parse_line(ln):
-    """-> (fp, ver, note) 或 None"""
+    
     ln = ln.strip()
     if not ln:
         return None

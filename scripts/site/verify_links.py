@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-"""实测欧加链接存活（正确头：gate 带 userId+UA，gauss 直链不带 UA）"""
+
+
+
 import json, urllib.request, ssl, concurrent.futures
 
 ctx = ssl._create_unverified_context()
@@ -9,7 +10,6 @@ def probe(url):
     if "downloadCheck" in url:
         headers["userId"] = "oplus-ota|16002018"
         headers["User-Agent"] = "okhttp/3.12.12"
-    # gauss 直链：不带 UA（带任何 UA 都 403）
     try:
         req = urllib.request.Request(url, headers=headers)
         r = urllib.request.urlopen(req, timeout=15, context=ctx)

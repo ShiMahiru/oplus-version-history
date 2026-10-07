@@ -1,19 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-oplus-version-history 官方更新器
-================================
-数据全部来自官方服务器（实测验证过的链路）：
-  1) v3 OTA 网关   —— 加密查询，枚举在推分支 -> 版本名/指纹/gate链接/大小/MD5/补丁
-  2) descriptionInfo—— 明文查询，任意历史版本的官方更新日志 + 版本名反查
-  3) downgrade     —— 官方降级包直链（CN 机型，需项目号）
 
-用法:
-  python3 scripts/update.py                 # 全量增量
-  python3 scripts/update.py --model PLQ110  # 单机型
-  python3 scripts/update.py --only-changelog # 只补 changelog（批量）
-  python3 scripts/update.py --no-downgrade  # 跳过降级包
-"""
+
 
 import argparse
 import base64
@@ -31,17 +17,12 @@ import requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-# ─────────────── 区域配置（官方网关，实测值） ───────────────
-# carrier 为 nvid 的二进制串；key/neg 必须与 host 匹配，否则网关返回 500「未知异常」。
-# 实测来源：op-ota/global.py 的 REGION_MAP + OPlus-Tracker/config.py 的 public_key_version。
-# 四个网关各自的公钥/negotiationVersion（用错则 500）：
 _SRV = {
     0: {"host": "component-ota-sg.allawnos.com", "key": "sg", "neg": "1615895993238"},
     1: {"host": "component-ota-cn.allawntech.com", "key": "cn", "neg": "1615879139745"},
     2: {"host": "component-ota-in.allawnos.com", "key": "in", "neg": "1615896309308"},
     3: {"host": "component-ota-eu.allawnos.com", "key": "eu", "neg": "1615897067573"},
 }
-# 区域 -> (server, carrier, uRegion, lang)；uRegion 官方只用 CN/IN/EU/GL 四值。
 REGION_TABLE = {
     "cn":    (1, "10010111", "CN", "zh-CN"),
     "in":    (2, "00011011", "IN", "en-IN"),
@@ -80,22 +61,12 @@ for _name, (_srv, _carrier, _ureg, _lang) in REGION_TABLE.items():
     }
 LETTER_POOL = ["A", "C", "F", "H", "J", "E", "B", "D", "G"]
 
-# 部分区域的官方 nvid 对已上市机型查不到固件（返回 2004 artifactV1Result is empty），
-# 但同一机型在其它产线 nvid 下能命中。实测：CPH2735 仅 NV2C 命中、
-# CPH2781 在 NV2C/NVA6/NV9E 命中，而两者的区域 nvid(NV44) 全部落空。
-# 这里给出按区域追加尝试的 nvid 序列，主 nvid 始终排第一。
 NVID_FALLBACK = {
     "eu": ["NV44", "NV2C", "NVA6", "NV9E", "NVA7"],
     "in": ["NV1B", "NV2C", "NV9E"],
 }
 
-# 候选区域（清单 region 与 op-ota 实测 region）全部落空时，可选的兜底网关顺序。
-# 只在 --gateway-fallback 下启用：实测 12 个网关全试一遍要 150 秒/机型，
-# 而取不到固件的机型绝大多数是真已下架，所以默认不做这层重试。
 GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th", "ru", "tr"]
-# 查询间隔。实测 GAP=0 也能稳定拿到全部分支（网络往返本身就有 ~0.44s 节流，
-# 实测 9 个分支从 7.7s 降到 4.0s），但多进程分片并行时叠加起来会放大总速率，
-# 因此保留可调。回填用 0.15，常规增量用默认值。
 GAP = float(os.environ.get("OPLUS_GAP", "0.4"))
 TIMEOUT = 5
 
@@ -111,9 +82,6 @@ except ImportError:
     sys.exit("需要 cryptography: pip install cryptography")
 
 
-# models.json 里的 region 标记 -> REGION_TABLE 键。
-# 旧实现把非 cn/in/eu 的机型一律压成 gl+NVA7，导致 TW/RU/TR/ID/MY/VN/MEA/KZ 等
-# 约 106 个机型长期取不到数据。此处按官方区域逐个映射。
 _REGION_ALIAS = {
     "CN": "cn", "CH": "cn", "CT": "cn", "CNCMCC": "cn", "CNMOBILE": "cn",
     "IN": "in", "IND": "in",
@@ -134,9 +102,6 @@ def region_of(model):
     return _REGION_ALIAS.get(reg, "gl")
 
 
-# op-ota 数据集记录了每个机型实际扫到固件时用的区域（小写）。它与清单 region
-# 有 144 个机型不一致：CPH2409 清单标 gl、op-ota 记 eu，实测 gl 才对；
-# CPH2781 清单标 gl，实际只在 eu 有响应。两边都可能对，所以都作为候选。
 _OPOTA_ALIAS = {k.lower(): v for k, v in _REGION_ALIAS.items()}
 OPOTA_REGION = {}
 _opota_meta_path = os.path.join(ROOT, "config", "opota_meta.json")
@@ -151,7 +116,7 @@ if os.path.isfile(_opota_meta_path):
 
 
 def region_candidates(model):
-    """返回按优先级排列的候选区域：清单映射优先，其次 op-ota 实测区域。"""
+    
     code = model["code"]
     out = [region_of(model)]
     alt = OPOTA_REGION.get(code)
@@ -164,7 +129,7 @@ _PUB_CACHE = {}
 
 
 def load_pub(reg_key):
-    """公钥解析开销不小，而回填要跑上万次查询，这里做进程内缓存。"""
+    
     pub = _PUB_CACHE.get(reg_key)
     if pub is None:
         pem = KEYS["OTA_PUBLIC_KEYS"][reg_key]
@@ -178,16 +143,10 @@ def load_dg_pub():
     return serialization.load_pem_public_key(pem.encode())
 
 
-# ─────────────── v3 加密查询 ───────────────
 def v3_query(model, region, letter, nvid=None):
-    """查询一个分支。返回 dict 或 None。model=型号 code，region=区域 key，letter=分支字母。
-
-    nvid 显式传入时用它，否则用区域默认值。并发扫描时必须显式传，
-    因为并发下不能再靠临时改写 REGIONS[region]['nvid'] 来切换。
-    """
+    
     cfg = REGIONS[region]
     nv = nvid or cfg["nvid"]
-    # nvCarrier 必须与 nvid 对应（两者是同一个值的二进制串与十六进制写法）
     carrier = cfg["carrier"] if nv == cfg["nvid"] else bin(int(nv[2:], 16))[2:].zfill(8)
     fw = f"{model}{nv}_11.{letter}.01_0001_100001010000"
     aes_key = os.urandom(32)
@@ -255,7 +214,8 @@ def v3_query(model, region, letter, nvid=None):
         "letter": letter,
         "fw": fw,
         "version": content.get("versionName") or "",
-        "fp": content.get("otaVersion") or "",      # 完整指纹（fake otaVersion）
+        "fp": content.get("otaVersion") or "",
+
         "real": content.get("realOtaVersion") or "",
         "url": url,
         "size": pkts.get("size") or "",
@@ -266,9 +226,8 @@ def v3_query(model, region, letter, nvid=None):
     }
 
 
-# ─────────────── descriptionInfo（官方 changelog） ───────────────
 def changelog_query(model, fp_prefix, region="cn"):
-    """fp_prefix 形如 PLQ110_11.A.57_0570（不含时间戳）。返回 (version_name, md_text)。"""
+    
     cfg = REGIONS[region]
     full = f"{fp_prefix}_197001010000"
     headers = {
@@ -307,8 +266,7 @@ def render_changelog(data, region):
         return str(ci)
 
     def bullet_lines(content):
-        """统一处理三种 content 形态：list 逐条转 bullet；字符串（updateTips
-        官方多行文本）原样保留并靠内置换行拆分——绝不逐字符迭代。"""
+        
         if isinstance(content, list):
             out = []
             for ci in content:
@@ -324,7 +282,6 @@ def render_changelog(data, region):
     first_block = True
     for item in items:
         if "children" in item:
-            # 常规更新分类：每个 child 有 title + content(list)
             for child in item.get("children") or []:
                 title = child.get("title", "")
                 if title:
@@ -334,7 +291,6 @@ def render_changelog(data, region):
                 lines.extend(bullet_lines(child.get("content")))
                 first_block = False
         elif "link" in item:
-            # 链接项：可选 content 文本 + link HTML（官方社区链接等）
             link_html = item.get("link") or ""
             m = re.search(r'href\s*=\s*"([^"]+)"', link_html)
             url = m.group(1) if m else link_html.strip()
@@ -347,7 +303,6 @@ def render_changelog(data, region):
                 lines.append(url)
             first_block = True
         else:
-            # 重要须知（type=updateTips）：title + content(带 \n 的字符串)
             title = item.get("title", "")
             if title:
                 if not first_block:
@@ -361,11 +316,10 @@ def render_changelog(data, region):
 
 
 def fp_prefix(fp):
-    """PLQ110_11.A.57_0570_202608071758 -> PLQ110_11.A.57_0570"""
+    
     return fp.rsplit("_", 1)[0] if fp.count("_") >= 2 else fp
 
 
-# ─────────────── downgrade（官方降级包） ───────────────
 def downgrade_query(model, letter, prj, duid="498A44DF1BEC4EB19FBCB3A870FCACB4EC7D424979CC9C517FE7B805A1937746"):
     cfg = KEYS["DOWNGRADE"]
     neg = cfg["negotiation_version"]
@@ -415,8 +369,8 @@ def downgrade_query(model, letter, prj, duid="498A44DF1BEC4EB19FBCB3A870FCACB4EC
             return None
         j = r.json()
         if isinstance(j, dict) and j.get("code") == 1004:
-            return None  # DUID query GUID is empty
-        # 服务端两态：明文 {code:200,data:{downgradeVoList}} 或 密文 {cipher,iv}
+            return None
+
         if "cipher" in j:
             resp_cipher = base64.b64decode(j["cipher"])
             iv2 = base64.b64decode(j["iv"])
@@ -433,7 +387,6 @@ def downgrade_query(model, letter, prj, duid="498A44DF1BEC4EB19FBCB3A870FCACB4EC
     return vo
 
 
-# ─────────────── 文件维护 ───────────────
 def history_path(model):
     return os.path.join(ROOT, "models", model, "ota-version.txt")
 
@@ -464,16 +417,6 @@ def read_history(model):
         ln = ln.strip()
         if not ln:
             continue
-        # 与 normalize.py / build_index.py / fix_history.py / backfill_versions.py 保持一致：
-        # 分隔符是「两个空格 + #」，且 fp 与 ver 两侧都必须 strip。
-        #
-        # 旧实现用 `" # " in ln` + `split(" # ", 1)`，而写盘格式是 `{fp}  # ColorOS: {ver}`
-        # —— 双空格里的第二个空格恰好与 `# ` 凑成 `" # "`，于是 split 成功但 fp 带一个
-        # 尾随空格。后果有三：① `history.get(fp)` 对已存在指纹永远为假，每次增量都重抓
-        # 全量版本；② build_index 的 `fp.startswith(changelog前缀)` 全部失配，该机型的
-        # 更新日志在 App 里凭空消失；③ write_history 回写时 fp 已带空格、再拼两个空格，
-        # 每读写一轮空格 +1（实测往返一轮累积 +1）。CI 因为 update 之后紧跟 normalize
-        # 而被掩盖，但本地按 README 单独跑 update.py 就会触发。
         if "#" in ln:
             fp, ver = ln.split("#", 1)
             fp = fp.strip()
@@ -567,8 +510,6 @@ def write_downgrade(model, items):
         f.write("\n".join(lines))
 
 
-# 各区域机型 code 常见的后缀写法（RMX2202RU / CPH2551IN / CPH2477EEA）。
-# 带后缀的串在 v3 的 model header 里查不到，必须去掉后缀用裸 code 重试。
 REGION_SUFFIX = {
     "cn": ("CN",), "in": ("IN",), "eu": ("EEA", "EU"), "gl": (),
     "tw": ("TW",), "ru": ("RU",), "tr": ("TR",), "gb": ("GB",),
@@ -582,7 +523,7 @@ _CODE_SUFFIX_RE = re.compile(r"^([A-Z]{2,4}\d{3,5})([A-Z]{2,4})$")
 
 
 def code_variants(code, region):
-    """返回待试的 model 串，原串优先，其次是去区域后缀的裸 code。"""
+    
     m = _CODE_SUFFIX_RE.match(code)
     if not m:
         return [code]
@@ -601,9 +542,8 @@ def code_variants(code, region):
     return uniq
 
 
-# ─────────────── 主流程 ───────────────
 def _apply_result(res, code, history, state):
-    """把一次成功查询并入 history 与计数。返回是否命中。"""
+    
     if not res or not res["url"]:
         return False
     fp = res["fp"] or res["fw"]
@@ -620,13 +560,7 @@ def _apply_result(res, code, history, state):
 
 
 def scan_region(code, region, variants, history, workers=1):
-    """在一个网关上扫 variant × nvid × letter。
-    返回 (hits, new_fp, new_links, latest)。
-
-    短路规则（串行与并发一致）：某个 variant 的某个 nvid 一旦有产出，
-    就不再试该 nvid 的剩余回退值、也不再试后续 variant。
-    workers=1 时按 GAP 串行；>1 时用线程池并发（并发下由 workers 数控制压力）。
-    """
+    
     state = {"new_fp": 0, "new_links": 0, "latest": None}
     hits = []
     seq = NVID_FALLBACK.get(region, [REGIONS[region]["nvid"]])
@@ -646,7 +580,6 @@ def scan_region(code, region, variants, history, workers=1):
                 break
         return hits, state["new_fp"], state["new_links"], state["latest"]
 
-    # 并发：同一 nvid 的 9 个分支一起发，命中后不再试回退 nvid。
     sem = threading.Semaphore(workers)
 
     def one(task):
@@ -677,7 +610,6 @@ def update_model(model, opts):
 
     hits, new_fp, new_links, latest = [], 0, 0, None
 
-    # 先试清单映射与 op-ota 实测区域（命中即停），再退到全网关回退。
     candidates = region_candidates(model)
     for cand in candidates:
         h, f, l, lt = scan_region(code, cand, code_variants(code, cand), history, workers)
@@ -711,7 +643,6 @@ def update_model(model, opts):
         latest["region"] = region.upper()
         write_latest(code, latest)
 
-    # changelog：对每条有版本名的指纹补官方日志（--only-changelog 时全补）
     clogs = 0
     for fp, ver in (() if opts.only_latest else history.items()):
         if not ver or not fp:
@@ -732,7 +663,6 @@ def update_model(model, opts):
     if clogs and not opts.no_history_write:
         write_history(code, history)
 
-    # downgrade（仅 CN 机型且配置了项目号）
     done_dg = False
     if not opts.no_downgrade and not opts.only_latest and region == "cn":
         entry = PNREF.get("models", {}).get(code)
