@@ -68,7 +68,7 @@ NVID_FALLBACK = {
 
 GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th", "ru", "tr"]
 GAP = float(os.environ.get("OPLUS_GAP", "0.4"))
-TIMEOUT = 5
+TIMEOUT = 15
 
 KEYS = json.load(open(os.path.join(ROOT, "config", "keys.json"), encoding="utf-8"))
 PNREF = json.load(open(os.path.join(ROOT, "config", "pn_ref.json"), encoding="utf-8"))
