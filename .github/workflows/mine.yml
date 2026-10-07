@@ -8,7 +8,7 @@ on:
         default: "0"
       total:
         description: "总分片数"
-        default: "8"
+        default: "16"
   schedule:
     - cron: "0 6 * * *"   # 每天 06:00 UTC 数据更新后自动挖
 
@@ -19,7 +19,7 @@ concurrency:
 jobs:
   mine:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 170
     steps:
       - uses: actions/checkout@v4
 
