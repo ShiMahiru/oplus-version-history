@@ -93,6 +93,11 @@ jobs:
       - name: 重建 Markdown 版本史（HISTORY.md + docs/md/）
         run: python3 scripts/build_md.py
 
+      - name: 重建站点数据（site/site.json）
+        run: |
+          python3 scripts/site/build_site_data.py
+          python3 scripts/site/merge_arb_full.py
+
       - name: 提交并推送
         run: |
           git config user.name "oplus-history-bot"
