@@ -97,7 +97,7 @@ GATEWAY_FALLBACK = ["gl", "eu", "in", "cn", "sg", "br", "mea", "tw", "id", "th",
 # 实测 9 个分支从 7.7s 降到 4.0s），但多进程分片并行时叠加起来会放大总速率，
 # 因此保留可调。回填用 0.15，常规增量用默认值。
 GAP = float(os.environ.get("OPLUS_GAP", "0.4"))
-TIMEOUT = 20
+TIMEOUT = 5
 
 KEYS = json.load(open(os.path.join(ROOT, "config", "keys.json"), encoding="utf-8"))
 PNREF = json.load(open(os.path.join(ROOT, "config", "pn_ref.json"), encoding="utf-8"))
