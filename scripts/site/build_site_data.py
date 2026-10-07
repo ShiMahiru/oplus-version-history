@@ -43,6 +43,10 @@ def build_versions(code):
     # changelog 无时间戳指纹 → 版本名（通过 fp2ver 前缀匹配）
     cl_fp_to_ver = {}
     for cl_fp, content in fp2cl.items():
+        # changelog 标题里的版本名必须属于本机型（防枚举撞车时别的机型版本混入）
+        head_m = re.search(r"^#\s*(\S+)", content, re.M)
+        if head_m and code not in head_m.group(1):
+            continue
         for full_fp, ver in fp2ver.items():
             if full_fp.startswith(cl_fp):
                 cl_fp_to_ver[ver] = content
@@ -74,6 +78,8 @@ def build_versions(code):
             continue
         mm = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", ver_name)
         if not mm:
+            continue
+        if re.search(r"[A-Z]{2,5}\d{3,4}", mm.group(1)):
             continue
         versions.append({
             "version": f"ColorOS {mm.group(1)}({mm.group(2)})",
@@ -321,9 +327,81 @@ for b in site["brands"]:
         reverse=True,
     )
 
+# 兜底清除：OxygenOS 壳的串数据版本 + 版本段嵌其他机型 code 的（一律删，无法归属就删）
+CODE_RE2 = re.compile(r"[A-Z]{2,5}\d{3,4}")
+for b in site["brands"]:
+    keep_models = []
+    for m in b["models"]:
+        code = m["code"]
+        clean_versions = []
+        for v in m["versions"]:
+            ver = v["version"]
+            # 版本段 = 去 ColorOS/OxygenOS/本code 前缀后的部分
+            seg = ver.replace("ColorOS ", "").replace("OxygenOS ", "")
+            seg = seg[len(code) + 1:] if seg.startswith(code + "_") else seg
+            bad = ("OxygenOS" in ver
+                   or "氧OS" in ver or "氧os" in ver
+                   or "Realme_UI" in ver or "Realme UI" in ver
+                   or bool([c for c in CODE_RE2.findall(seg) if c != code]))
+            if not bad:
+                clean_versions.append(v)
+        m["versions"] = clean_versions
+        if m["versions"]:
+            keep_models.append(m)
+    b["models"] = keep_models
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
 total_ver = sum(len(m["versions"]) for b in site["brands"] for m in b["models"])
 total_cl = sum(1 for b in site["brands"] for m in b["models"] for v in m["versions"] if v["changelog"])
 print(f"品牌 {len(site['brands'])} | 机型 {total_models} | 版本 {total_ver} | 有更新日志 {total_cl}")
+
+# ── 6. 排序：4段语义版本降序在前 → 老格式(branch.seq)降序 → 降级包最后；机型按最新版本降序
+def sort_key(vstr):
+    m = re.search(r"(\d+)\.(\d+)\.(\d+)\.(\d+)", vstr)
+    if m:
+        mm2 = re.match(r"(?:ColorOS |OxygenOS )?(\d+)", vstr)
+        big = int(mm2.group(1)) if mm2 else 0
+        return (2, big) + tuple(int(x) for x in m.groups())
+    m2 = re.search(r"(\d+)(?:\.(\d+))?[_ ]([A-Z])\.(\d+)", vstr)
+    if m2:
+        major = int(m2.group(1)); minor = int(m2.group(2) or 0)
+        return (1, major * 100 + minor, ord(m2.group(3)), int(m2.group(4)))
+    return (0, 0, 0, 0)
+
+for b in site["brands"]:
+    for m in b["models"]:
+        full = [v for v in m["versions"] if "降级包" not in v["version"]]
+        dg = [v for v in m["versions"] if "降级包" in v["version"]]
+        full.sort(key=lambda v: sort_key(v["version"]), reverse=True)
+        m["versions"] = full + dg
+    b["models"].sort(
+        key=lambda m: sort_key(m["versions"][0]["version"]) if m["versions"] else (0, 0, 0, 0),
+        reverse=True,
+    )
+
+# 兜底清除：OxygenOS 壳的串数据版本 + 版本段嵌其他机型 code 的（一律删，无法归属就删）
+CODE_RE2 = re.compile(r"[A-Z]{2,5}\d{3,4}")
+for b in site["brands"]:
+    keep_models = []
+    for m in b["models"]:
+        code = m["code"]
+        clean_versions = []
+        for v in m["versions"]:
+            ver = v["version"]
+            # 版本段 = 去 ColorOS/OxygenOS/本code 前缀后的部分
+            seg = ver.replace("ColorOS ", "").replace("OxygenOS ", "")
+            seg = seg[len(code) + 1:] if seg.startswith(code + "_") else seg
+            bad = ("OxygenOS" in ver
+                   or "氧OS" in ver or "氧os" in ver
+                   or "Realme_UI" in ver or "Realme UI" in ver
+                   or bool([c for c in CODE_RE2.findall(seg) if c != code]))
+            if not bad:
+                clean_versions.append(v)
+        m["versions"] = clean_versions
+        if m["versions"]:
+            keep_models.append(m)
+    b["models"] = keep_models
+
+json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))

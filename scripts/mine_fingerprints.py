@@ -61,6 +61,9 @@ def mine_model(code, site_versions, dry=False):
             r = changelog_query(code, fp, "cn")
             if r and r[0]:
                 vn = r[0]
+                # 跨机型撞车校验：versionName 必须含本机型 code
+                if code not in vn:
+                    continue
                 # 只入库目标站有而本地没有的版本
                 if vn not in known_versions:
                     new_hits.append((fp, vn, r[1]))
