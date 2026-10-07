@@ -67,8 +67,18 @@ class Session:
 
 
 def build_tasks():
-    """任务清单：目标站目录原始 version ∩ 本地缺链接"""
-    missing = json.load(open(os.path.join(ROOT, "config", "missing_from_lian.json")))
+    """任务清单：目标站目录原始 version ∩ 本地缺链接。
+    动态构建：以当前 site.json 的无链接版本为准（含挖掘新增的目录条目）"""
+    # 从数据仓库 site.json 拿当前无链接版本
+    site_path = os.path.join(ROOT, "site", "site.json")
+    d = json.load(open(site_path))
+    missing = {}
+    for b in d["brands"]:
+        for m in b["models"]:
+            no_url = [v["version"].replace("ColorOS ", "").replace(f"{m['code']}_", "", 1)
+                      for v in m["versions"] if not v.get("url")]
+            if no_url:
+                missing[m["code"]] = no_url
     site_crawl = json.load(open(os.path.join(ROOT, "config", "site_crawl.json")))
     brand_of = {}
     for b, ms in site_crawl.items():
