@@ -101,7 +101,7 @@ for key in KEEP:
 
 dead_path = os.path.join(ROOT, "config", "dead_links.json")
 if os.path.exists(dead_path):
-    dead_urls = {x["url"] for x in json.load(open(dead_path))["dead"]}
+    dead_raw = json.load(open(dead_path)); dead_urls = {x["url"] if isinstance(x, dict) else x for x in (dead_raw["dead"] if isinstance(dead_raw, dict) else dead_raw)}
     for b in site["brands"]:
         for m in b["models"]:
             m["versions"] = [v for v in m["versions"] if v.get("url") not in dead_urls]
