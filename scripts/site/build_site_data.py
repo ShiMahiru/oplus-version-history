@@ -336,6 +336,19 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
                     if _hit.get("md5"): meta["md5"] = _hit["md5"]
 
+# ── 链接真实性门禁：只保留永久可下链接（remove- 直链 + 降级包域）
+# 剔除 downloadCheck 门卫（签名过期）和 compota-c 带签名链接（Expires 几小时即失效）
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            _u = v.get("url", "")
+            _is_permanent = ("/remove-" in _u and "compota-c" not in _u) or "downgradefs.coloros.com" in _u
+            if _u and not _is_permanent:
+                v["url"] = ""
+                meta = v.setdefault("meta", {})
+                meta.pop("sizeBytes", None)
+                meta.pop("md5", None)
+
 # ── md5 来源门禁：只保留 CDN 实测验证过的（meta_cache 命中）或降级包（独立来源）
 # 历史批量快照值（daniel_catalog/devices）无法验证，一律剔除，宁缺勿疑
 for b in site["brands"]:
