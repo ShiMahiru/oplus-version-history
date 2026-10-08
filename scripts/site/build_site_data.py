@@ -372,15 +372,4 @@ for b in site["brands"]:
             keep_models.append(m)
     b["models"] = keep_models
 
-# ── sizeBytes 缓存应用（探测结果 url→size）
-_size_cache_path = os.path.join(ROOT, "config", "size_cache.json")
-if os.path.exists(_size_cache_path):
-    _size_cache = json.load(open(_size_cache_path))
-    for b in site["brands"]:
-        for m in b["models"]:
-            for v in m["versions"]:
-                _u = v.get("url")
-                if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
-                    v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
-
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
