@@ -322,6 +322,15 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
+# ── sizeBytes 清洗：删除 <1MB 的假值（downloadCheck 门卫响应体被误当包大小）
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            meta = v.get("meta") or {}
+            sb = meta.get("sizeBytes")
+            if sb and isinstance(sb, int) and sb < 1000000:
+                del meta["sizeBytes"]
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
