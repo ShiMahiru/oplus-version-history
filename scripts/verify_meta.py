@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site", "site.json")
+CACHE = os.path.join(ROOT, "config", "meta_cache.json")
 ctx = ssl._create_unverified_context()
 LOCK = threading.Lock()
 STAT = {"ok": 0, "fixed": 0, "nometa": 0, "fail": 0}
@@ -26,6 +27,7 @@ def probe(url):
 
 def main():
     d = json.load(open(SITE))
+    cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
     tasks = []
     for b in d["brands"]:
         for m in b["models"]:
@@ -59,14 +61,18 @@ def main():
                 elif md5 is None and old_md5:
                     meta.pop("md5", None); changed = True
                 STAT["fixed" if changed else "ok"] += 1
+            if size or md5:
+                cache[u] = {"size": size, "md5": md5}
             done = sum(STAT.values())
             if done % 200 == 0:
+                json.dump(cache, open(CACHE, "w"), ensure_ascii=False)
                 json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
                 print(f"  {done}/{len(tasks)}: 核对一致 {STAT['ok']} 修正 {STAT['fixed']} 无元数据 {STAT['nometa']}", flush=True)
         time.sleep(0.2)
 
     with ThreadPoolExecutor(max_workers=4) as ex:
         list(ex.map(work, tasks))
+    json.dump(cache, open(CACHE, "w"), ensure_ascii=False)
     json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"完成: 一致 {STAT['ok']} | 修正 {STAT['fixed']} | 无元数据删除 {STAT['nometa']} | 失败 {STAT['fail']}")
 

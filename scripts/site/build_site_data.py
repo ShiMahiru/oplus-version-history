@@ -322,6 +322,34 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
+# ── 实测元数据应用（verify_meta 的 CDN 实测结果，最高优先级）
+_meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
+if os.path.exists(_meta_cache_path):
+    _meta_cache = json.load(open(_meta_cache_path))
+    for b in site["brands"]:
+        for m in b["models"]:
+            for v in m["versions"]:
+                _u = v.get("url")
+                if _u and _u in _meta_cache:
+                    _hit = _meta_cache[_u]
+                    meta = v.setdefault("meta", {})
+                    if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
+                    if _hit.get("md5"): meta["md5"] = _hit["md5"]
+
+# ── md5 来源门禁：只保留 CDN 实测验证过的（meta_cache 命中）或降级包（独立来源）
+# 历史批量快照值（daniel_catalog/devices）无法验证，一律剔除，宁缺勿疑
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            meta = v.get("meta") or {}
+            _md5 = meta.get("md5")
+            if not _md5:
+                continue
+            _u = v.get("url", "")
+            _hit = _meta_cache.get(_u) if _u else None
+            if not (_hit and _hit.get("md5") == _md5) and "downgradefs" not in _u:
+                del meta["md5"]
+
 # ── sizeBytes 清洗：<500MB 一律视为无效
 # 依据实测分布：异常值最大 1.4MB（错误归档/门卫响应），正常 ROM 最小 869MB，断层清晰
 MIN_ROM_SIZE = 500 * 1024 * 1024
