@@ -63,6 +63,10 @@ def build_versions(code):
                     _link_meta["sizeBytes"] = int(_l[5:].strip())
                 elif _l.startswith("md5:"):
                     _link_meta["md5"] = _l[4:].strip()
+                elif _l.startswith("patch:"):
+                    _link_meta["securityPatch"] = _l[6:].strip()
+                elif _l.startswith("fp:"):
+                    _link_meta["fp"] = _l[3:].strip()
             changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
             _v = {
                 "version": f"ColorOS {ver}({region})",
@@ -334,7 +338,7 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
-# ── v6 新鲜元数据（链接文件自带的 size/md5，来自官方 v6 响应）
+# ── v6 新鲜元数据（链接文件自带的 size/md5/patch/fp，来自官方 v6 响应）
 for b in site["brands"]:
     for m in b["models"]:
         for v in m["versions"]:
@@ -345,6 +349,17 @@ for b in site["brands"]:
                     meta["sizeBytes"] = lm["sizeBytes"]
                 if lm.get("md5"):
                     meta["md5"] = lm["md5"]
+                if lm.get("securityPatch"):
+                    meta["securityPatch"] = lm["securityPatch"]
+                if lm.get("fp"):
+                    # 指纹 → 编译日期 + 目标版本
+                    _fp = lm["fp"]
+                    meta["targetVersion"] = _fp
+                    if not meta.get("buildDate"):
+                        _dm = re.search(r"_(\d{12})$", _fp)
+                        if _dm:
+                            _ts = _dm.group(1)
+                            meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
 
 # ── 实测元数据应用（verify_meta 的 CDN 实测结果，最高优先级）
 _meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")

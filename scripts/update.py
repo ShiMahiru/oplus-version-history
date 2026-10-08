@@ -531,8 +531,8 @@ def write_history(model, history):
     return len(rows)
 
 
-def write_link(model, ver, url, size=None, md5=None):
-    """写链接文件。v6 有 size/md5 时写三行格式（向后兼容：读方取第一行）"""
+def write_link(model, ver, url, size=None, md5=None, patch=None, fp=None):
+    """写链接文件。v6 有元数据时写多行格式（向后兼容：读方取第一行）"""
     os.makedirs(os.path.dirname(links_path(model, ver)), exist_ok=True)
     with open(links_path(model, ver), "w", encoding="utf-8") as f:
         f.write(url.strip() + "\n")
@@ -540,6 +540,10 @@ def write_link(model, ver, url, size=None, md5=None):
             f.write(f"size: {size}\n")
         if md5:
             f.write(f"md5: {md5}\n")
+        if patch:
+            f.write(f"patch: {patch}\n")
+        if fp:
+            f.write(f"fp: {fp}\n")
 
 
 def write_latest(model, info):
@@ -647,11 +651,11 @@ def _apply_result(res, code, history, state):
         history[fp] = ver
         state["new_fp"] += 1
         if ver:
-            write_link(code, ver, res["url"], res.get("size"), res.get("md5"))
+            write_link(code, ver, res["url"], res.get("size"), res.get("md5"), res.get("patch"), res.get("fp"))
             state["new_links"] += 1
     elif ver:
         # 已有版本：用新鲜链接 + 元数据覆盖（门卫签名有时效，每次查询刷新）
-        write_link(code, ver, res["url"], res.get("size"), res.get("md5"))
+        write_link(code, ver, res["url"], res.get("size"), res.get("md5"), res.get("patch"), res.get("fp"))
         state["refreshed"] = state.get("refreshed", 0) + 1
     if state["latest"] is None:
         state["latest"] = res
