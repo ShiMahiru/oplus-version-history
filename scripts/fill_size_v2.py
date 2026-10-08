@@ -19,11 +19,11 @@ def probe(url):
             if cl and cl.isdigit(): return int(cl), False
             return None, False
         except urllib.error.HTTPError as e:
-            if e.code in (403, 404, 410):  # 永久拒绝 = 真死
+            if e.code in (403, 404, 410):
                 return None, True
-            return None, False  # 429/5xx = 暂时
+            return None, False
         except Exception:
-            time.sleep(2)  # 网络问题，重试
+            time.sleep(2)
     return None, False
 
 def main():

@@ -64,9 +64,7 @@ def main():
     with ThreadPoolExecutor(max_workers=8) as ex:
         list(ex.map(work, tasks))
 
-    # 死链记录
     json.dump(sorted(DEAD), open(os.path.join(ROOT, "config", "dead_links.json"), "w"), indent=1)
-    # 站点数据更新（保留排序等已有结构）
     json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
     el = time.time() - t0
     print(f"完成 {el/60:.1f} 分钟: ✓size {STATS['ok']} | 死链 {STATS['dead']}")

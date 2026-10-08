@@ -1,6 +1,5 @@
 
 
-
 import html
 import json
 import os
@@ -9,14 +8,12 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
 
-
 def read_lines(p):
     try:
         with open(p, encoding="utf-8") as f:
             return [ln.rstrip("\n") for ln in f if ln.strip()]
     except Exception:
         return []
-
 
 def parse_history(code):
     
@@ -38,7 +35,6 @@ def parse_history(code):
             out.append({"fp": fp, "ver": ver, "note": note})
     return out
 
-
 def parse_latest(code):
     p = os.path.join(ROOT, "models", code, "latest-update.txt")
     d = {}
@@ -47,7 +43,6 @@ def parse_latest(code):
             k, v = ln.split(":", 1)
             d[k.strip()] = v.strip()
     return d
-
 
 def parse_downgrade(code):
     p = os.path.join(ROOT, "downgrade", f"{code}.txt")
@@ -63,7 +58,6 @@ def parse_downgrade(code):
                 k, v = ln[2:].split(":", 1)
                 cur[k.strip()] = v.strip()
     return items
-
 
 def main():
     models_cfg = json.load(open(os.path.join(ROOT, "config", "models.json"), encoding="utf-8"))["models"]
@@ -166,7 +160,6 @@ def main():
     print(f"  机型 {stat['models']}  链接 {stat['links']}  版本 {stat['versions']}  "
           f"changelog {stat['changelog']}  降级包 {stat['downgrade']}")
     return stat
-
 
 PAGE = r"""<!DOCTYPE html>
 <html lang="zh-CN">
