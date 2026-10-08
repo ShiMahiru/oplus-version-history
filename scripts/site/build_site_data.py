@@ -53,14 +53,26 @@ def build_versions(code):
             m = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", name)
             ver = m.group(1) if m else name[len(code):].lstrip("_")
             region = m.group(2) if m else ""
-            url = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
+            _raw = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
+            # 支持三行格式：url / size: N / md5: H
+            _lines = [l.strip() for l in _raw.split("\n") if l.strip()]
+            url = _lines[0] if _lines else ""
+            _link_meta = {}
+            for _l in _lines[1:]:
+                if _l.startswith("size:"):
+                    _link_meta["sizeBytes"] = int(_l[5:].strip())
+                elif _l.startswith("md5:"):
+                    _link_meta["md5"] = _l[4:].strip()
             changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
-            versions.append({
+            _v = {
                 "version": f"ColorOS {ver}({region})",
                 "region": region,
                 "url": url,
                 "changelog": changelog,
-            })
+            }
+            if _link_meta:
+                _v["_linkMeta"] = _link_meta
+            versions.append(_v)
             seen_versions.add(f"{code}_{ver}({region})")
     for ver_name in cl_fp_to_ver:
         if ver_name in seen_versions:
@@ -322,6 +334,18 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
+# ── v6 新鲜元数据（链接文件自带的 size/md5，来自官方 v6 响应）
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            lm = v.pop("_linkMeta", None)
+            if lm:
+                meta = v.setdefault("meta", {})
+                if lm.get("sizeBytes"):
+                    meta["sizeBytes"] = lm["sizeBytes"]
+                if lm.get("md5"):
+                    meta["md5"] = lm["md5"]
+
 # ── 实测元数据应用（verify_meta 的 CDN 实测结果，最高优先级）
 _meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
 if os.path.exists(_meta_cache_path):
@@ -336,21 +360,26 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
                     if _hit.get("md5"): meta["md5"] = _hit["md5"]
 
-# ── 链接真实性门禁：只保留永久可下链接（remove- 直链 + 降级包域）
-# 剔除 downloadCheck 门卫（签名过期）和 compota-c 带签名链接（Expires 几小时即失效）
-for b in site["brands"]:
-    for m in b["models"]:
-        for v in m["versions"]:
-            _u = v.get("url", "")
-            _is_permanent = ("/remove-" in _u and "compota-c" not in _u) or "downgradefs.coloros.com" in _u
-            if _u and not _is_permanent:
-                v["url"] = ""
-                meta = v.setdefault("meta", {})
-                meta.pop("sizeBytes", None)
-                meta.pop("md5", None)
+# ── md5 来源门禁：只保留可信来源
+# 可信来源：① meta_cache（CDN 实测）② v6 官方响应（_linkMeta）③ 降级包（官方独立域）
+# 剔除：历史批量快照（daniel_catalog/devices，按机型贴值不可信）
+_trusted_md5 = set()
+for _p in (os.path.join(ROOT, "config", "meta_cache.json"),):
+    if os.path.exists(_p):
+        try:
+            for _u, _h in json.load(open(_p)).items():
+                if _h.get("md5"): _trusted_md5.add((_u, _h["md5"]))
+        except Exception:
+            pass
+# v6 新鲜值：从链接文件的三行格式读取（在下方 _linkMeta 应用时已并入）
+# 这里用链接文件里的 md5 建白名单
+for _b in site["brands"]:
+    for _m in _b["models"]:
+        for _v in _m["versions"]:
+            _u = _v.get("url", "")
+            if _u and _u.startswith("https://component-ota"):
+                _trusted_md5.add((_u, (_v.get("meta") or {}).get("md5", "")))
 
-# ── md5 来源门禁：只保留 CDN 实测验证过的（meta_cache 命中）或降级包（独立来源）
-# 历史批量快照值（daniel_catalog/devices）无法验证，一律剔除，宁缺勿疑
 for b in site["brands"]:
     for m in b["models"]:
         for v in m["versions"]:
@@ -360,7 +389,9 @@ for b in site["brands"]:
                 continue
             _u = v.get("url", "")
             _hit = _meta_cache.get(_u) if _u else None
-            if not (_hit and _hit.get("md5") == _md5) and "downgradefs" not in _u:
+            _verified = (_hit and _hit.get("md5") == _md5)
+            _gate = "component-ota-cn.allawntech.com/downloadCheck" in _u  # v6 官方响应
+            if not (_verified or _gate or "downgradefs" in _u):
                 del meta["md5"]
 
 # ── sizeBytes 清洗：<500MB 一律视为无效

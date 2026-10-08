@@ -1,1 +1,3 @@
 https://component-ota-cn.allawntech.com/downloadCheck?c=af63e1d1d595d5b36ea9ea4e7f49aca1&p=a6c78fdd3752888b3acedbaf44986036c122fce81e6254f384b603eac22c5592b8b9638eef2e3874bf3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6b3eff92ce7c01806f54c8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=624e0f2b6b7e8027998eec50e77d581f
+size: 8895717382
+md5: 73f91109cce06030566ee86d3ef5e56c

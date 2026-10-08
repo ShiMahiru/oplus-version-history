@@ -3,9 +3,11 @@
 
 import argparse
 import base64
+import hashlib
 import json
 import os
 import re
+import secrets
 import sys
 import threading
 import time
@@ -141,6 +143,94 @@ def load_pub(reg_key):
 def load_dg_pub():
     pem = KEYS["DOWNGRADE"]["public_key"]
     return serialization.load_pem_public_key(pem.encode())
+
+
+def v6_query(model, region, mode="manual", ota_version=None, imei=None):
+    """v6 协议查询（OplusUpdater 同款）：protectedKey 头 + 极简 payload。
+    返回字段远多于 v3（42 个 vs 8 个）：securityPatch/publishedTime/realVersionName/
+    googlePatchInfo/versionCode/nightUpdateLimit 等。"""
+    cfg = REGIONS[region]
+    iv = os.urandom(16)
+    aes_key = os.urandom(32)
+    pub = load_pub(cfg["key"])
+    protected = base64.b64encode(
+        pub.encrypt(base64.b64encode(aes_key),
+                    padding.OAEP(mgf=padding.MGF1(hashes.SHA1()),
+                                 algorithm=hashes.SHA1(), label=None))
+    ).decode()
+    # protectedKey 头：SCENE_1 + version(24h后纳秒) + negotiationVersion
+    protected_version = str(int((time.time() + 86400) * 1e9))
+    pkm = {"SCENE_1": {"protectedKey": protected, "version": protected_version,
+                       "negotiationVersion": str(cfg.get("neg") or "1615879139745")}}
+    # deviceId：无 IMEI 用随机 hex64，有则 sha256 大写
+    if imei:
+        device_id = hashlib.sha256(imei.encode()).hexdigest().upper()
+    else:
+        device_id = secrets.token_hex(32)
+    # otaVersion：缺省用 *A.01 基线
+    fw = ota_version or f"{model}{cfg['nvid']}_11.A.01_0001_100001010000"
+    headers = {
+        "language": cfg["lang"], "androidVersion": "unknown", "colorOSVersion": "unknown",
+        "otaVersion": fw, "model": model, "mode": mode, "nvCarrier": cfg["carrier"],
+        "version": "2", "deviceId": device_id,
+        "Content-Type": "application/json; charset=utf-8",
+        "protectedKey": json.dumps(pkm),
+    }
+    payload = {"mode": "0", "time": int(time.time() * 1000), "isRooted": "0",
+               "isLocked": True, "type": "0", "deviceId": device_id,
+               "opex": {"check": True}}
+    c = Cipher(algorithms.AES(aes_key), modes.CTR(iv))
+    enc = c.encryptor()
+    ct = enc.update(json.dumps(payload).encode()) + enc.finalize()
+    wire = json.dumps({"params": json.dumps({
+        "cipher": base64.b64encode(ct).decode(),
+        "iv": base64.b64encode(iv).decode()})})
+    try:
+        r = requests.post(f"https://{cfg['host']}/update/v6", headers=headers,
+                          data=wire.encode(), timeout=TIMEOUT)
+        j = r.json()
+    except Exception:
+        return None
+    if j.get("responseCode") != 200 or not j.get("body"):
+        return None
+    try:
+        inner = json.loads(j["body"])
+        d = Cipher(algorithms.AES(aes_key), modes.CTR(base64.b64decode(inner["iv"])))
+        dec = d.decryptor()
+        content = json.loads(dec.update(base64.b64decode(inner["cipher"])) + dec.finalize())
+    except Exception:
+        return None
+    comps = content.get("components") or []
+    url = ""
+    size = ""
+    md5 = ""
+    for comp in comps:
+        pkts = comp.get("componentPackets") or {}
+        u = pkts.get("manualUrl") or pkts.get("url") or ""
+        if u:
+            url = u
+            size = pkts.get("size") or ""
+            md5 = pkts.get("md5") or ""
+            if comp.get("componentName") == "my_manifest":
+                break
+    return {
+        "fw": fw,
+        "version": content.get("versionName") or "",
+        "fp": content.get("otaVersion") or "",
+        "real": content.get("realOtaVersion") or "",
+        "url": url,
+        "size": size,
+        "md5": md5,
+        "patch": content.get("securityPatch") or "",
+        "patch_vendor": content.get("securityPatchVendor") or "",
+        "published": content.get("publishedTime") or 0,
+        "android": content.get("realAndroidVersion") or content.get("androidVersion") or "",
+        "os_version": content.get("realOsVersion") or content.get("osVersion") or "",
+        "version_code": content.get("versionCode") or "",
+        "nv_id16": content.get("nvId16") or "",
+        "night_limit": content.get("nightUpdateLimit"),
+        "raw": content,
+    }
 
 
 def v3_query(model, region, letter, nvid=None):
@@ -441,10 +531,15 @@ def write_history(model, history):
     return len(rows)
 
 
-def write_link(model, ver, url):
+def write_link(model, ver, url, size=None, md5=None):
+    """写链接文件。v6 有 size/md5 时写三行格式（向后兼容：读方取第一行）"""
     os.makedirs(os.path.dirname(links_path(model, ver)), exist_ok=True)
     with open(links_path(model, ver), "w", encoding="utf-8") as f:
         f.write(url.strip() + "\n")
+        if size:
+            f.write(f"size: {size}\n")
+        if md5:
+            f.write(f"md5: {md5}\n")
 
 
 def write_latest(model, info):
@@ -552,11 +647,25 @@ def _apply_result(res, code, history, state):
         history[fp] = ver
         state["new_fp"] += 1
         if ver:
-            write_link(code, ver, res["url"])
+            write_link(code, ver, res["url"], res.get("size"), res.get("md5"))
             state["new_links"] += 1
+    elif ver:
+        # 已有版本：用新鲜链接 + 元数据覆盖（门卫签名有时效，每次查询刷新）
+        write_link(code, ver, res["url"], res.get("size"), res.get("md5"))
+        state["refreshed"] = state.get("refreshed", 0) + 1
     if state["latest"] is None:
         state["latest"] = res
     return True
+
+
+def scan_region_v6(code, region, history):
+    """v6 单次查询：直接拿到当前在推版全字段（含 size/md5/publishedTime 等 42 项）"""
+    state = {"new_fp": 0, "new_links": 0, "latest": None}
+    res = v6_query(code, region)
+    if not res:
+        return [], 0, 0, None
+    ok = _apply_result(res, code, history, state)
+    return (["v6"] if ok else []), state["new_fp"], state["new_links"], state["latest"]
 
 
 def scan_region(code, region, variants, history, workers=1):
@@ -663,6 +772,16 @@ def update_model(model, opts):
     if clogs and not opts.no_history_write:
         write_history(code, history)
 
+    # v6 模式：单次请求拿全字段（比 v3 多 34 个字段，含 size/md5）
+    if getattr(opts, "v6", False):
+        v6_hits, v6_fp, v6_links, v6_latest = scan_region_v6(code, region, history)
+        if v6_hits:
+            hits.extend(v6_hits)
+            new_fp += v6_fp
+            new_links += v6_links
+            if v6_latest:
+                latest = v6_latest
+
     done_dg = False
     if not opts.no_downgrade and not opts.only_latest and region == "cn":
         entry = PNREF.get("models", {}).get(code)
@@ -691,6 +810,8 @@ def main():
     ap.add_argument("--region", choices=sorted(REGIONS.keys()),
                     help="只处理映射到该官方网关的机型（CI 按网关分片，避免单次全量超时）")
     ap.add_argument("--only-changelog", action="store_true", help="只补 changelog")
+    ap.add_argument("--v6", action="store_true",
+                    help="用 v6 协议查询（单次拿全字段：size/md5/securityPatch/publishedTime 等）")
     ap.add_argument("--only-latest", action="store_true",
                     help="只补 latest-update.txt（跳过 changelog 与降级包），用于补齐机型元数据")
     ap.add_argument("--no-downgrade", action="store_true", help="跳过降级包")

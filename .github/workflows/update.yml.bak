@@ -1,0 +1,123 @@
+name: weekly-update
+
+on:
+  schedule:
+    # 每天 04:00 UTC（北京时间 12:00）
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}   # 允许手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oplus-history-update
+  cancel-in-progress: false
+
+jobs:
+  # 按机型索引分片抓取。
+  #
+  # 为什么必须分片：单次全量 586 机型，每机型要遍历 9 个分支字母，每次查询后
+  # 固定 sleep 0.4s（官方限流），算下来 3 小时以上，远超 job 上限。
+  #
+  # 注意：这里按索引分片，不按区域分片。区域表现在有 26 个（cn/in/eu/tr/ru/gb
+  # 之外还有 tw/sg/id/my/vn/th/ph/sa/mea/latam/br/kz/oca/apc/eg/lk/mx/na 等），
+  # 旧的 [cn, eu, in, gl] 四片写法会让另外 22 个区域的机型永远不被抓取。
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install requests cryptography
+
+      - name: 官方增量更新（分片 ${{ matrix.shard }}/6）
+        run: python3 scripts/update.py --shard ${{ matrix.shard }}/6
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ota-data-${{ matrix.shard }}
+          path: |
+            links/
+            models/
+            downgrade/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  # 汇总：合并六片数据，跑归一化 / 全量校验 / 重建索引，最后一次性提交。
+  # 索引与提交都放在这里做 —— 各分片各跑一遍会互相覆盖 docs/data.json 与 HISTORY.md。
+  publish:
+    needs: fetch
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install requests cryptography
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: incoming
+
+      - name: 合并分片数据
+        run: |
+          for d in incoming/*/; do
+            echo "合并 $d"
+            cp -a "$d". .
+          done
+
+      - name: 版本史归一化（去重 / 排序 / 规范分隔符）
+        run: python3 scripts/normalize.py
+
+      - name: 全量链接校验（死链归档）
+        run: python3 scripts/verify.py
+
+      - name: 重建检索索引页（docs/index.html）
+        run: python3 scripts/build_index.py
+
+      - name: 重建 Markdown 版本史（HISTORY.md + docs/md/）
+        run: python3 scripts/build_md.py
+
+      - name: 重建站点数据（site/site.json）
+        run: |
+          python3 scripts/site/build_site_data.py
+          python3 scripts/site/merge_arb_full.py
+
+      - name: 提交并推送
+        run: |
+          git config user.name "oplus-history-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "chore: weekly auto update $(date -u +%Y-%m-%dT%H:%M)"
+            # 抓取期间仓库可能有别的提交，先 rebase 再推，避免整轮数据白抓
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: 通知 RomBase 同步站点数据
+        if: success()
+        run: |
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GH_PAT }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/ShiMahiru/RomBase/dispatches" \
+            -d '{"event_type":"data-updated"}' \
+            && echo "已通知 RomBase" || echo "通知失败（不影响数据推送）"

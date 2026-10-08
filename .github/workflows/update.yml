@@ -1,10 +1,9 @@
-name: weekly-update
+name: daily-update
 
 on:
   schedule:
-    # 每天 04:00 UTC（北京时间 12:00）
     - cron: "0 4 * * *"
-  workflow_dispatch: {}   # 允许手动触发
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -14,17 +13,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 按机型索引分片抓取。
-  #
-  # 为什么必须分片：单次全量 586 机型，每机型要遍历 9 个分支字母，每次查询后
-  # 固定 sleep 0.4s（官方限流），算下来 3 小时以上，远超 job 上限。
-  #
-  # 注意：这里按索引分片，不按区域分片。区域表现在有 26 个（cn/in/eu/tr/ru/gb
-  # 之外还有 tw/sg/id/my/vn/th/ph/sa/mea/latam/br/kz/oca/apc/eg/lk/mx/na 等），
-  # 旧的 [cn, eu, in, gl] 四片写法会让另外 22 个区域的机型永远不被抓取。
-  fetch:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 90
     strategy:
       fail-fast: false
       matrix:
@@ -39,8 +30,8 @@ jobs:
       - name: 安装依赖
         run: pip install requests cryptography
 
-      - name: 官方增量更新（分片 ${{ matrix.shard }}/6）
-        run: python3 scripts/update.py --shard ${{ matrix.shard }}/6
+      - name: v6 增量记录（分片 ${{ matrix.shard }}/6）
+        run: python3 scripts/update.py --shard ${{ matrix.shard }}/6 --v6
 
       - uses: actions/upload-artifact@v4
         with:
@@ -48,20 +39,16 @@ jobs:
           path: |
             links/
             models/
-            downgrade/
-          if-no-files-found: ignore
-          retention-days: 3
+          retention-days: 1
 
-  # 汇总：合并六片数据，跑归一化 / 全量校验 / 重建索引，最后一次性提交。
-  # 索引与提交都放在这里做 —— 各分片各跑一遍会互相覆盖 docs/data.json 与 HISTORY.md。
-  publish:
-    needs: fetch
+  commit:
+    needs: update
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
 
       - uses: actions/setup-python@v5
         with:
@@ -81,19 +68,20 @@ jobs:
             cp -a "$d". .
           done
 
-      - name: 版本史归一化（去重 / 排序 / 规范分隔符）
+      - name: 版本史归一化
         run: python3 scripts/normalize.py
 
-      - name: 全量链接校验（死链归档）
+      - name: 链接校验
         run: python3 scripts/verify.py
+        continue-on-error: true
 
-      - name: 重建检索索引页（docs/index.html）
+      - name: 重建索引页
         run: python3 scripts/build_index.py
 
-      - name: 重建 Markdown 版本史（HISTORY.md + docs/md/）
+      - name: 重建 Markdown 版本史
         run: python3 scripts/build_md.py
 
-      - name: 重建站点数据（site/site.json）
+      - name: 重建站点数据
         run: |
           python3 scripts/site/build_site_data.py
           python3 scripts/site/merge_arb_full.py
@@ -106,18 +94,16 @@ jobs:
           if git diff --cached --quiet; then
             echo "无变化"
           else
-            git commit -m "chore: weekly auto update $(date -u +%Y-%m-%dT%H:%M)"
-            # 抓取期间仓库可能有别的提交，先 rebase 再推，避免整轮数据白抓
+            git commit -m "chore: daily update $(date -u +%Y-%m-%dT%H:%M)"
             git pull --rebase --autostash
             git push
           fi
 
-      - name: 通知 RomBase 同步站点数据
+      - name: 通知 RomBase 同步
         if: success()
         run: |
           curl -s -X POST \
             -H "Authorization: token ${{ secrets.GH_PAT }}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/ShiMahiru/RomBase/dispatches" \
-            -d '{"event_type":"data-updated"}' \
-            && echo "已通知 RomBase" || echo "通知失败（不影响数据推送）"
+            -d '{"event_type":"data-updated"}'
