@@ -375,6 +375,12 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
                     if _hit.get("md5"): meta["md5"] = _hit["md5"]
 
+# ── 无链接版本删除：只保留有链接的版本（真实可下的官方全量包）
+for b in site["brands"]:
+    for m in b["models"]:
+        m["versions"] = [v for v in m["versions"] if v.get("url")]
+    b["models"] = [m for m in b["models"] if m["versions"]]
+
 # ── md5 来源门禁：只保留可信来源
 # 可信来源：① meta_cache（CDN 实测）② v6 官方响应（_linkMeta）③ 降级包（官方独立域）
 # 剔除：历史批量快照（daniel_catalog/devices，按机型贴值不可信）
