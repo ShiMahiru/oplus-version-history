@@ -322,13 +322,15 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
-# ── sizeBytes 清洗：删除 <1MB 的假值（downloadCheck 门卫响应体被误当包大小）
+# ── sizeBytes 清洗：<500MB 一律视为无效
+# 依据实测分布：异常值最大 1.4MB（错误归档/门卫响应），正常 ROM 最小 869MB，断层清晰
+MIN_ROM_SIZE = 500 * 1024 * 1024
 for b in site["brands"]:
     for m in b["models"]:
         for v in m["versions"]:
             meta = v.get("meta") or {}
             sb = meta.get("sizeBytes")
-            if sb and isinstance(sb, int) and sb < 1000000:
+            if sb and isinstance(sb, int) and sb < MIN_ROM_SIZE:
                 del meta["sizeBytes"]
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
