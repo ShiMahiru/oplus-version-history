@@ -384,18 +384,6 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("md5") and not meta.get("md5"):
                         meta["md5"] = _hit["md5"]
 
-# ── 无 md5 的版本删除（用户要求：没有 md5 的不要）
-for b in site["brands"]:
-    for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if (v.get("meta") or {}).get("md5")]
-    b["models"] = [m for m in b["models"] if m["versions"]]
-
-# ── 无链接版本不显示（站点只展示有真实链接的版本）
-for b in site["brands"]:
-    for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if v.get("url")]
-    b["models"] = [m for m in b["models"] if m["versions"]]
-
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])

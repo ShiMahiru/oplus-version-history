@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-08 18:42:00
+本地更新时间: 2026-10-02 12:44:54
 查询地区: CN
-最新 OTA 版本: PKM110_11.A.66_0660_202509282110
-版本名称: PKM110_15.0.0.863(CN01)
-Android 版本: Android 15
-ColorOS 版本: PKM110_15.0.0.863(CN01)
-安全补丁: 2025-10-01
-发布时间: 1761907748275
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f5ed5d0c1821ccc4f05988b7988b32dc/component-ota/25/10/09/9b03d01f588043ddb606a24b7c5b5436.zip
+最新 OTA 版本: PKM110_11.C.85_1850_202607282322
+版本名称: PKM110_16.0.5.1200(CN01)
+Android 版本: Android 16
+ColorOS 版本: PKM110_16.0.5.1200(CN01)
+安全补丁: 2026-08-01
+发布时间: 1788492446087
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=2e10141fba54c2879cda0453a443ba19&p=a6c78fdd3752888939cedaa84bca34659026fbb71c3454a185be5bbec52d5693e3bb63dde42d3826e938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9a362592ce7c01836a571f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=38ae6dcc1890f7d223ba174313e573b8

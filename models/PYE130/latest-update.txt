@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-08 18:48:10
+本地更新时间: 2026-10-02 12:34:49
 查询地区: CN
-最新 OTA 版本: PYE130_11.A.36_0360_202609271504
-版本名称: PYE130_16.0.10.506(CN01)
+最新 OTA 版本: PYE130_11.A.34_0340_202609040143
+版本名称: PYE130_16.0.10.504(CN01)
 Android 版本: Android 16
-ColorOS 版本: PYE130_16.0.10.506(CN01)
-安全补丁: 2026-10-01
-发布时间: 1791206386268
-ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=c00e79f7dbf61103b6fbbfa803d54c33&p=a6c78fdd375c888831ced8ae469735629623f8b54d3254f183ba00ecc42d5893efbb33d2b17b6223b56fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aba0b7f76d168017ee7feee&taste=0&supportDLTaste=0&mode=1&tr=manual&s=21d2dde5d02519536bb3aa1e1bb8fb05
+ColorOS 版本: PYE130_16.0.10.504(CN01)
+安全补丁: 2026-09-01
+发布时间: 1789724569244
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=34afe947b711a3f8ec736c73b16b5938&p=a6c78fdd375c888a3dcedafd40c937319575f9b0426754f2d3ed00bf9e2154c3b8b861d8b4716120e868d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9a0cd592ce7c01836a5696&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c314460fdf27115a68bd4ade006d2a00
