@@ -61,8 +61,7 @@ def build_versions(code):
             for _l in _lines[1:]:
                 if _l.startswith("size:"):
                     _link_meta["sizeBytes"] = int(_l[5:].strip())
-                elif _l.startswith("md5:"):
-                    _link_meta["md5"] = _l[4:].strip()
+
                 elif _l.startswith("patch:"):
                     _link_meta["securityPatch"] = _l[6:].strip()
                 elif _l.startswith("fp:"):
@@ -175,7 +174,7 @@ for b in site["brands"]:
                 "android": ((meta_match.get("android") if meta_match else "") or v["meta"].get("android", "")),
                 "securityPatch": ((meta_match.get("securityPatch") if meta_match else "") or v["meta"].get("securityPatch", "")),
                 "sizeBytes": (meta_match.get("sizeBytes", 0) if meta_match else 0) or v["meta"].get("sizeBytes", 0),
-                "md5": ((meta_match.get("md5") if meta_match else "") or v["meta"].get("md5", "")),
+                "md5": "",
                 "nv": v["meta"].get("nv", ""),
                 "projectId": prj or v["meta"].get("projectId", ""),
                 "buildDate": build_date(target) or v["meta"].get("buildDate", ""),
@@ -200,7 +199,7 @@ for b in site["brands"]:
                 "region": "CN",
                 "url": url,
                 "changelog": "",
-                "meta": {"android": android.replace("Android", "Android ").strip(), "sizeBytes": int(size), "md5": md5,
+                "meta": {"android": android.replace("Android", "Android ").strip(), "sizeBytes": int(size), "md5": "",
                          "targetVersion": "", "dgTarget": coloros_ver},
             })
 
@@ -230,8 +229,8 @@ _dan = {}
 try:
     _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
     for _r in _cat.get("releases", []):
-        if _r.get("md5") and _r.get("region") == "CN":
-            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"))
+        if _r.get("size") and _r.get("region") == "CN":
+            _dan[(_r["model"], _r["version"])] = ("", _r.get("size"))
 except Exception:
     pass
 
