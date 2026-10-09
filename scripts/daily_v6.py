@@ -27,11 +27,19 @@ def main():
     ap = argparse.ArgumentParser(description="每日 v6 增量记录")
     ap.add_argument("--region", default="CN")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--shard", default="0/1", help="分片，形如 0/6")
     args = ap.parse_args()
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     models = json.load(open(os.path.join(root, "config", "models.json")))["models"]
     targets = [m for m in models if m.get("region") == args.region]
+    # 分片
+    try:
+        si, st = (int(x) for x in args.shard.split("/"))
+        if st > 1:
+            targets = targets[si::st]
+    except Exception:
+        pass
     if args.limit:
         targets = targets[:args.limit]
     print(f"{args.region} 机型 {len(targets)} 个，v6 增量记录开始…", flush=True)

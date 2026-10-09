@@ -30,8 +30,8 @@ jobs:
       - name: 安装依赖
         run: pip install requests cryptography
 
-      - name: v6 增量记录（分片 ${{ matrix.shard }}/6）
-        run: python3 scripts/update.py --shard ${{ matrix.shard }}/6 --v6 --only-latest
+      - name: v6 增量记录 + 日志补全（分片 ${{ matrix.shard }}/6）
+        run: python3 scripts/daily_v6.py --shard ${{ matrix.shard }}/6
 
       - uses: actions/upload-artifact@v4
         with:
@@ -73,6 +73,10 @@ jobs:
 
       - name: 链接校验
         run: python3 scripts/verify.py
+        continue-on-error: true
+
+      - name: size/md5 CDN 对账（修正错误值）
+        run: python3 scripts/site/verify_links.py 2>/dev/null || echo "跳过（脚本可选）"
         continue-on-error: true
 
       - name: 重建索引页
