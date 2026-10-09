@@ -384,6 +384,12 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("md5") and not meta.get("md5"):
                         meta["md5"] = _hit["md5"]
 
+# ── 只保留有更新日志的版本（用户要求：无日志的一律不显示）
+for b in site["brands"]:
+    for m in b["models"]:
+        m["versions"] = [v for v in m["versions"] if (v.get("changelog") or "").strip()]
+    b["models"] = [m for m in b["models"] if m["versions"]]
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
