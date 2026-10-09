@@ -375,6 +375,12 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
                     if _hit.get("md5"): meta["md5"] = _hit["md5"]
 
+# ── 无更新日志的版本删除：只保留有日志的版本（有指纹确认 + 完整详情）
+for b in site["brands"]:
+    for m in b["models"]:
+        m["versions"] = [v for v in m["versions"] if v.get("changelog")]
+    b["models"] = [m for m in b["models"] if m["versions"]]
+
 # ── 无链接版本删除：只保留有链接的版本（真实可下的官方全量包）
 for b in site["brands"]:
     for m in b["models"]:
