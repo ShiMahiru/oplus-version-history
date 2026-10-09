@@ -199,6 +199,15 @@ def patch_from_changelog(cl):
     m = re.search(r"安全补丁[至到]?\s*(20\d{2})\s*年\s*(\d{1,2})\s*月", cl)
     if m:
         return f"{m.group(1)}-{int(m.group(2)):02d}"
+    m = re.search(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(?:Android)?\s*安全补丁", cl)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
+    m = re.search(r"安全补丁[^\d]{0,12}[（(]\s*(20\d{2})\s*[#＃]\s*(\d{1,2})\s*[）)]", cl)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
+    m = re.search(r"安全补丁[^\d]{0,12}(20\d{2})\s*[-/]\s*(\d{1,2})", cl)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
     m2 = re.search(r"(?:security patch|patch level)[^\d]{0,20}(20\d{2})[-/](\d{1,2})[-/](\d{1,2})", cl, re.I)
     if m2:
         return f"{m2.group(1)}-{int(m2.group(2)):02d}-{int(m2.group(3)):02d}"
@@ -216,8 +225,8 @@ _dan = {}
 try:
     _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
     for _r in _cat.get("releases", []):
-        if _r.get("md5") and _r.get("region") == "CN":
-            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"))
+        if (_r.get("md5") or _r.get("security_patch")) and _r.get("region") == "CN":
+            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"), _r.get("security_patch"))
 except Exception:
     pass
 
@@ -230,10 +239,12 @@ for b in site["brands"]:
             ver = v["version"].replace("ColorOS ", "")
             hit = _dan.get((model["code"], f"{model['code']}_{ver}"))
             if hit:
-                if not meta.get("md5"):
+                if not meta.get("md5") and hit[0]:
                     meta["md5"] = hit[0]
                 if not meta.get("sizeBytes") and hit[1]:
                     meta["sizeBytes"] = int(hit[1])
+                if not meta.get("securityPatch") and len(hit) > 2 and hit[2]:
+                    meta["securityPatch"] = hit[2]
 
 _lian_path = os.path.join(ROOT, "config", "catalog_versions.json")
 if os.path.exists(_lian_path):
