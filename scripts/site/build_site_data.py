@@ -419,6 +419,15 @@ for b in site["brands"]:
         m["versions"] = [v for v in m["versions"] if (v.get("changelog") or "").strip()]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
+# ── 只保留三项齐全的版本（md5 + 链接 + 更新日志）
+for b in site["brands"]:
+    for m in b["models"]:
+        m["versions"] = [
+            v for v in m["versions"]
+            if (v.get("meta") or {}).get("md5") and v.get("url") and (v.get("changelog") or "").strip()
+        ]
+    b["models"] = [m for m in b["models"] if m["versions"]]
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
