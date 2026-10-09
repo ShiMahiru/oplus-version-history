@@ -53,31 +53,14 @@ def build_versions(code):
             m = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", name)
             ver = m.group(1) if m else name[len(code):].lstrip("_")
             region = m.group(2) if m else ""
-            _raw = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
-            # 支持三行格式：url / size: N / md5: H
-            _lines = [l.strip() for l in _raw.split("\n") if l.strip()]
-            url = _lines[0] if _lines else ""
-            _link_meta = {}
-            for _l in _lines[1:]:
-                if _l.startswith("size:"):
-                    _link_meta["sizeBytes"] = int(_l[5:].strip())
-
-                elif _l.startswith("md5:"):
-                    _link_meta["md5"] = _l[4:].strip()
-                elif _l.startswith("patch:"):
-                    _link_meta["securityPatch"] = _l[6:].strip()
-                elif _l.startswith("fp:"):
-                    _link_meta["fp"] = _l[3:].strip()
+            url = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
             changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
-            _v = {
+            versions.append({
                 "version": f"ColorOS {ver}({region})",
                 "region": region,
                 "url": url,
                 "changelog": changelog,
-            }
-            if _link_meta:
-                _v["_linkMeta"] = _link_meta
-            versions.append(_v)
+            })
             seen_versions.add(f"{code}_{ver}({region})")
     for ver_name in cl_fp_to_ver:
         if ver_name in seen_versions:
@@ -231,8 +214,8 @@ _dan = {}
 try:
     _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
     for _r in _cat.get("releases", []):
-        if _r.get("region") == "CN" and (_r.get("md5") or _r.get("size")):
-            _dan[(_r["model"], _r["version"])] = (_r.get("md5", ""), _r.get("size"))
+        if _r.get("md5") and _r.get("region") == "CN":
+            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"))
 except Exception:
     pass
 
@@ -339,78 +322,6 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
-# ── v6 新鲜元数据（链接文件自带的 size/md5/patch/fp，来自官方 v6 响应）
-for b in site["brands"]:
-    for m in b["models"]:
-        for v in m["versions"]:
-            lm = v.pop("_linkMeta", None)
-            if lm:
-                meta = v.setdefault("meta", {})
-                if lm.get("sizeBytes"):
-                    meta["sizeBytes"] = lm["sizeBytes"]
-                if lm.get("md5"):
-                    meta["md5"] = lm["md5"]
-                if lm.get("securityPatch"):
-                    meta["securityPatch"] = lm["securityPatch"]
-                if lm.get("fp"):
-                    # 指纹 → 编译日期 + 目标版本
-                    _fp = lm["fp"]
-                    meta["targetVersion"] = _fp
-                    if not meta.get("buildDate"):
-                        _dm = re.search(r"_(\d{12})$", _fp)
-                        if _dm:
-                            _ts = _dm.group(1)
-                            meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
-
-# ── 实测元数据应用（verify_meta 的 CDN 实测结果，最高优先级）
-_meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
-if os.path.exists(_meta_cache_path):
-    _meta_cache = json.load(open(_meta_cache_path))
-    for b in site["brands"]:
-        for m in b["models"]:
-            for v in m["versions"]:
-                _u = v.get("url")
-                if _u and _u in _meta_cache:
-                    _hit = _meta_cache[_u]
-                    meta = v.setdefault("meta", {})
-                    if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
-                    if _hit.get("md5"): meta["md5"] = _hit["md5"]
-
-# ── md5 来源门禁：只保留可信来源
-# 可信来源：① meta_cache（CDN 实测）② v6 官方响应（_linkMeta）③ 降级包（官方独立域）
-# 剔除：历史批量快照（daniel_catalog/devices，按机型贴值不可信）
-_trusted_md5 = set()
-for _p in (os.path.join(ROOT, "config", "meta_cache.json"),):
-    if os.path.exists(_p):
-        try:
-            for _u, _h in json.load(open(_p)).items():
-                if _h.get("md5"): _trusted_md5.add((_u, _h["md5"]))
-        except Exception:
-            pass
-# v6 新鲜值：从链接文件的三行格式读取（在下方 _linkMeta 应用时已并入）
-# 这里用链接文件里的 md5 建白名单
-for _b in site["brands"]:
-    for _m in _b["models"]:
-        for _v in _m["versions"]:
-            _u = _v.get("url", "")
-            if _u and _u.startswith("https://component-ota"):
-                _trusted_md5.add((_u, (_v.get("meta") or {}).get("md5", "")))
-
-for b in site["brands"]:
-    for m in b["models"]:
-        for v in m["versions"]:
-            meta = v.get("meta") or {}
-            _md5 = meta.get("md5")
-            if not _md5:
-                continue
-            _u = v.get("url", "")
-            _hit = _meta_cache.get(_u) if _u else None
-            _verified = (_hit and _hit.get("md5") == _md5)
-            _gate = "component-ota-cn.allawntech.com/downloadCheck" in _u  # v6 官方响应
-            _costmanual = "costmanual" in _u  # costmanual 域的 md5 来自官方（v3响应/devices.json）
-            if not (_verified or _gate or "downgradefs" in _u or _costmanual):
-                del meta["md5"]
-
 # ── sizeBytes 清洗：<500MB 一律视为无效
 # 依据实测分布：异常值最大 1.4MB（错误归档/门卫响应），正常 ROM 最小 869MB，断层清晰
 MIN_ROM_SIZE = 500 * 1024 * 1024
@@ -421,6 +332,55 @@ for b in site["brands"]:
             sb = meta.get("sizeBytes")
             if sb and isinstance(sb, int) and sb < MIN_ROM_SIZE:
                 del meta["sizeBytes"]
+
+# ── v6 新鲜元数据（链接文件五行的 patch/fp/md5/size）
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            _u = v.get("url", "")
+            if not _u:
+                continue
+            # 从 links 文件读五行数据
+            _link_file = None
+            for _ext in [".txt"]:
+                _lf = os.path.join(ROOT, "links", m["code"], f"{m['code']}_" + v["version"].replace("ColorOS ", "").replace(m["code"] + "_", "", 1).replace(" ", "_") + _ext)
+                if os.path.exists(_lf):
+                    _link_file = _lf
+                    break
+            if not _link_file:
+                continue
+            _lines = [l.strip() for l in open(_link_file, encoding="utf-8").read().split("\n") if l.strip()]
+            meta = v.setdefault("meta", {})
+            for _l in _lines[1:]:
+                if _l.startswith("size:") and not meta.get("sizeBytes"):
+                    _sv = _l[5:].strip()
+                    if _sv.isdigit(): meta["sizeBytes"] = int(_sv)
+                elif _l.startswith("md5:") and not meta.get("md5"):
+                    meta["md5"] = _l[4:].strip()
+                elif _l.startswith("patch:") and not meta.get("securityPatch"):
+                    meta["securityPatch"] = _l[6:].strip()
+                elif _l.startswith("fp:"):
+                    meta["targetVersion"] = _l[3:].strip()
+                    _dm = re.search(r"_(\d{12})$", _l[3:].strip())
+                    if _dm and not meta.get("buildDate"):
+                        _ts = _dm.group(1)
+                        meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
+
+# ── meta_cache 应用（CDN 实测的 size/md5）
+_meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
+if os.path.exists(_meta_cache_path):
+    _meta_cache = json.load(open(_meta_cache_path))
+    for b in site["brands"]:
+        for m in b["models"]:
+            for v in m["versions"]:
+                _u = v.get("url", "")
+                if _u and _u in _meta_cache:
+                    _hit = _meta_cache[_u]
+                    meta = v.setdefault("meta", {})
+                    if _hit.get("size") and not meta.get("sizeBytes"):
+                        meta["sizeBytes"] = _hit["size"]
+                    if _hit.get("md5") and not meta.get("md5"):
+                        meta["md5"] = _hit["md5"]
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
@@ -471,5 +431,54 @@ for b in site["brands"]:
         if m["versions"]:
             keep_models.append(m)
     b["models"] = keep_models
+
+# ── v6 新鲜元数据（链接文件五行的 patch/fp/md5/size）
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            _u = v.get("url", "")
+            if not _u:
+                continue
+            # 从 links 文件读五行数据
+            _link_file = None
+            for _ext in [".txt"]:
+                _lf = os.path.join(ROOT, "links", m["code"], f"{m['code']}_" + v["version"].replace("ColorOS ", "").replace(m["code"] + "_", "", 1).replace(" ", "_") + _ext)
+                if os.path.exists(_lf):
+                    _link_file = _lf
+                    break
+            if not _link_file:
+                continue
+            _lines = [l.strip() for l in open(_link_file, encoding="utf-8").read().split("\n") if l.strip()]
+            meta = v.setdefault("meta", {})
+            for _l in _lines[1:]:
+                if _l.startswith("size:") and not meta.get("sizeBytes"):
+                    _sv = _l[5:].strip()
+                    if _sv.isdigit(): meta["sizeBytes"] = int(_sv)
+                elif _l.startswith("md5:") and not meta.get("md5"):
+                    meta["md5"] = _l[4:].strip()
+                elif _l.startswith("patch:") and not meta.get("securityPatch"):
+                    meta["securityPatch"] = _l[6:].strip()
+                elif _l.startswith("fp:"):
+                    meta["targetVersion"] = _l[3:].strip()
+                    _dm = re.search(r"_(\d{12})$", _l[3:].strip())
+                    if _dm and not meta.get("buildDate"):
+                        _ts = _dm.group(1)
+                        meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
+
+# ── meta_cache 应用（CDN 实测的 size/md5）
+_meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
+if os.path.exists(_meta_cache_path):
+    _meta_cache = json.load(open(_meta_cache_path))
+    for b in site["brands"]:
+        for m in b["models"]:
+            for v in m["versions"]:
+                _u = v.get("url", "")
+                if _u and _u in _meta_cache:
+                    _hit = _meta_cache[_u]
+                    meta = v.setdefault("meta", {})
+                    if _hit.get("size") and not meta.get("sizeBytes"):
+                        meta["sizeBytes"] = _hit["size"]
+                    if _hit.get("md5") and not meta.get("md5"):
+                        meta["md5"] = _hit["md5"]
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
