@@ -62,6 +62,8 @@ def build_versions(code):
                 if _l.startswith("size:"):
                     _link_meta["sizeBytes"] = int(_l[5:].strip())
 
+                elif _l.startswith("md5:"):
+                    _link_meta["md5"] = _l[4:].strip()
                 elif _l.startswith("patch:"):
                     _link_meta["securityPatch"] = _l[6:].strip()
                 elif _l.startswith("fp:"):
@@ -174,7 +176,7 @@ for b in site["brands"]:
                 "android": ((meta_match.get("android") if meta_match else "") or v["meta"].get("android", "")),
                 "securityPatch": ((meta_match.get("securityPatch") if meta_match else "") or v["meta"].get("securityPatch", "")),
                 "sizeBytes": (meta_match.get("sizeBytes", 0) if meta_match else 0) or v["meta"].get("sizeBytes", 0),
-                "md5": "",
+                "md5": ((meta_match.get("md5") if meta_match else "") or v["meta"].get("md5", "")),
                 "nv": v["meta"].get("nv", ""),
                 "projectId": prj or v["meta"].get("projectId", ""),
                 "buildDate": build_date(target) or v["meta"].get("buildDate", ""),
@@ -199,7 +201,7 @@ for b in site["brands"]:
                 "region": "CN",
                 "url": url,
                 "changelog": "",
-                "meta": {"android": android.replace("Android", "Android ").strip(), "sizeBytes": int(size), "md5": "",
+                "meta": {"android": android.replace("Android", "Android ").strip(), "sizeBytes": int(size), "md5": md5,
                          "targetVersion": "", "dgTarget": coloros_ver},
             })
 
@@ -229,8 +231,8 @@ _dan = {}
 try:
     _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
     for _r in _cat.get("releases", []):
-        if _r.get("size") and _r.get("region") == "CN":
-            _dan[(_r["model"], _r["version"])] = ("", _r.get("size"))
+        if _r.get("region") == "CN" and (_r.get("md5") or _r.get("size")):
+            _dan[(_r["model"], _r["version"])] = (_r.get("md5", ""), _r.get("size"))
 except Exception:
     pass
 
@@ -374,18 +376,6 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("size"): meta["sizeBytes"] = _hit["size"]
                     if _hit.get("md5"): meta["md5"] = _hit["md5"]
 
-# ── 无更新日志的版本删除：只保留有日志的版本（有指纹确认 + 完整详情）
-for b in site["brands"]:
-    for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if v.get("changelog")]
-    b["models"] = [m for m in b["models"] if m["versions"]]
-
-# ── 无链接版本删除：只保留有链接的版本（真实可下的官方全量包）
-for b in site["brands"]:
-    for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if v.get("url")]
-    b["models"] = [m for m in b["models"] if m["versions"]]
-
 # ── md5 来源门禁：只保留可信来源
 # 可信来源：① meta_cache（CDN 实测）② v6 官方响应（_linkMeta）③ 降级包（官方独立域）
 # 剔除：历史批量快照（daniel_catalog/devices，按机型贴值不可信）
@@ -417,7 +407,8 @@ for b in site["brands"]:
             _hit = _meta_cache.get(_u) if _u else None
             _verified = (_hit and _hit.get("md5") == _md5)
             _gate = "component-ota-cn.allawntech.com/downloadCheck" in _u  # v6 官方响应
-            if not (_verified or _gate or "downgradefs" in _u):
+            _costmanual = "costmanual" in _u  # costmanual 域的 md5 来自官方（v3响应/devices.json）
+            if not (_verified or _gate or "downgradefs" in _u or _costmanual):
                 del meta["md5"]
 
 # ── sizeBytes 清洗：<500MB 一律视为无效
