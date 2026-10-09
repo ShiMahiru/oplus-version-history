@@ -222,11 +222,17 @@ for b in site["brands"]:
                     v.setdefault("meta", {})["securityPatch"] = p
 
 _dan = {}
+_dan_ota = {}
+_dan_src = {}
 try:
     _cat = json.load(open(os.path.join(ROOT, "config", "daniel_catalog.json")))
     for _r in _cat.get("releases", []):
-        if (_r.get("md5") or _r.get("security_patch")) and _r.get("region") == "CN":
-            _dan[(_r["model"], _r["version"])] = (_r["md5"], _r.get("size"), _r.get("security_patch"))
+        if _r.get("md5") or _r.get("security_patch") or _r.get("size"):
+            _dan[(_r["model"], _r["version"])] = (_r.get("md5"), _r.get("size"), _r.get("security_patch"))
+        if _r.get("ota_version"):
+            _dan_ota[_r["ota_version"]] = _r
+        if _r.get("source_url"):
+            _dan_src[_r["source_url"]] = _r
 except Exception:
     pass
 
@@ -237,6 +243,18 @@ for b in site["brands"]:
             if meta.get("md5"):
                 continue
             ver = v["version"].replace("ColorOS ", "")
+            _fp = meta.get("targetVersion", "")
+            _u = v.get("url", "")
+            _rec = _dan_ota.get(_fp) or _dan_src.get(_u)
+            if _rec:
+                if not meta.get("securityPatch") and _rec.get("security_patch"):
+                    meta["securityPatch"] = _rec["security_patch"]
+                if not meta.get("md5") and _rec.get("md5"):
+                    meta["md5"] = _rec["md5"]
+                if not meta.get("sizeBytes") and _rec.get("size"):
+                    try: meta["sizeBytes"] = int(_rec["size"])
+                    except Exception: pass
+                continue
             hit = _dan.get((model["code"], f"{model['code']}_{ver}"))
             if hit:
                 if not meta.get("md5") and hit[0]:
