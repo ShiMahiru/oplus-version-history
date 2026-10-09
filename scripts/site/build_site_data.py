@@ -53,7 +53,9 @@ def build_versions(code):
             m = re.match(rf"^{re.escape(code)}_(.+?)\(([A-Z0-9]+)\)$", name)
             ver = m.group(1) if m else name[len(code):].lstrip("_")
             region = m.group(2) if m else ""
-            url = open(os.path.join(links_dir, t), encoding="utf-8").read().strip()
+            _raw = open(os.path.join(links_dir, t), encoding="utf-8").read()
+            _lines = [l.strip() for l in _raw.split("\n") if l.strip()]
+            url = _lines[0].replace(" ", "") if _lines else ""
             changelog = cl_fp_to_ver.get(f"{code}_{ver}({region})", "")
             versions.append({
                 "version": f"ColorOS {ver}({region})",
