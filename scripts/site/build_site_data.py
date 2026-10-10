@@ -254,6 +254,11 @@ for b in site["brands"]:
                 if not meta.get("sizeBytes") and _rec.get("size"):
                     try: meta["sizeBytes"] = int(_rec["size"])
                     except Exception: pass
+                if not meta.get("buildDate") and _rec.get("build_timestamp"):
+                    meta["buildDate"] = str(_rec["build_timestamp"])[:10]
+                if not meta.get("published") and _rec.get("published"):
+                    try: meta["published"] = int(_rec["published"])
+                    except Exception: pass
                 continue
             hit = _dan.get((model["code"], f"{model['code']}_{ver}"))
             if hit:
