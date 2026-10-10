@@ -428,6 +428,18 @@ for b in site["brands"]:
         ]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
+# ── 已知死链剔除（config/dead_urls.json，由全量实测产出）
+_dead_path = os.path.join(ROOT, "config", "dead_urls.json")
+if os.path.exists(_dead_path):
+    try:
+        _dead = set(json.load(open(_dead_path)))
+    except Exception:
+        _dead = set()
+    if _dead:
+        for b in site["brands"]:
+            for m in b["models"]:
+                m["versions"] = [v for v in m["versions"] if v.get("url") not in _dead]
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
