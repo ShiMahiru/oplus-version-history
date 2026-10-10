@@ -420,22 +420,6 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("md5") and not meta.get("md5"):
                         meta["md5"] = _hit["md5"]
 
-# ── 只保留有【真实】更新日志的版本（占位符/空内容一律删）
-def _real_cl(cl):
-    t = re.sub(r"^#[^\n]*\n?", "", cl or "")
-    t = re.sub(r"^>[^\n]*\n?", "", t, flags=re.M)
-    t = re.sub(r"[\s。．.]", "", t)
-    if not t:
-        return False
-    if t.startswith("官方无更新日志"):
-        return False
-    return len(t) > 10
-
-for b in site["brands"]:
-    for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if _real_cl(v.get("changelog"))]
-    b["models"] = [m for m in b["models"] if m["versions"]]
-
 # ── 只保留三项齐全的版本（md5 + 链接 + 更新日志）
 for b in site["brands"]:
     for m in b["models"]:
