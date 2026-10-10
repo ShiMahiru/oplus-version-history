@@ -28,6 +28,7 @@ def main():
     ap.add_argument("--region", default="CN")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--shard", default="0/1", help="分片，形如 0/6")
+    ap.add_argument("--taste", action="store_true", help="额外采集 taste 灰度版")
     args = ap.parse_args()
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -88,6 +89,44 @@ def main():
         if (i + 1) % 20 == 0:
             print(f"  {i+1}/{len(targets)} | 新链接 {new} | 日志 {cl_got} | 错误 {err} | {time.time()-t0:.0f}s", flush=True)
     print(f"完成: {len(targets)} 机型 | 新链接 {new} | 新日志 {cl_got} | 错误 {err} | {time.time()-t0:.0f}s")
+
+    # ── taste 灰度版采集（可选）
+    if getattr(args, "taste", False):
+        print("\n开始采集 taste 灰度版…", flush=True)
+        t1 = time.time()
+        t_new = t_err = 0
+        for i, m in enumerate(targets):
+            code = m["code"]
+            try:
+                tr = update.v6_query(code, args.region.lower(), mode="taste")
+                if tr and tr.get("url") and tr.get("version"):
+                    fp = tr.get("fp") or ""
+                    ver = tr["version"]
+                    if not update.re.match(r"^[A-Z0-9]+_\d+\.\d+\.\d+", ver):
+                        continue
+                    # 判定真灰度版：版本号必须【高于】已记录的最新版本
+                    hist = update.read_history(code)
+                    def _vkey(s):
+                        mm = update.re.search(r"_(\d+(?:\.\d+)+)", s)
+                        return [int(x) for x in mm.group(1).split(".")] if mm else [0]
+                    newest = [0]
+                    for _h in hist.values():
+                        _k = _vkey(_h)
+                        if _k > newest:
+                            newest = _k
+                    if _vkey(ver) <= newest:
+                        continue   # 老版本，跳过
+                    if fp and fp not in hist:
+                        update.write_link(code, ver, tr["url"], tr.get("size"), tr.get("md5"),
+                                          tr.get("patch"), fp)
+                        hist[fp] = ver
+                        update.write_history(code, hist)
+                        t_new += 1
+                        print(f"  🎯 {code} {ver} (灰度)", flush=True)
+            except Exception as e:
+                t_err += 1
+            time.sleep(update.GAP)
+        print(f"taste 完成: 新灰度版 {t_new} | 错误 {t_err} | {time.time()-t1:.0f}s", flush=True)
 
 
 if __name__ == "__main__":
