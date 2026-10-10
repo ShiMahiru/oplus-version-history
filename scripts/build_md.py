@@ -1,6 +1,5 @@
 
 
-
 import json
 import os
 
@@ -8,18 +7,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
 MD_DIR = os.path.join(DOCS, "md")
 
-
 def cell(s):
-    
+
     return str(s or "").replace("|", "\\|").replace("\n", " ").strip()
 
-
 def short_date(ts):
-    
+
     if len(ts) >= 8 and ts[:8].isdigit():
         return f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
     return ""
-
 
 def size_text(n):
     try:
@@ -32,16 +28,13 @@ def size_text(n):
         return f"{n / 1024 ** 3:.2f} GB"
     return f"{n / 1024 ** 2:.1f} MB"
 
-
 def md_link(label, url):
-    
+
     return f"[{label}](<{url}>)" if url else ""
 
-
 def rel_from_md(path):
-    
-    return "../../" + path.lstrip("./")
 
+    return "../../" + path.lstrip("./")
 
 def build_model_page(m):
     code = m["code"]
@@ -107,7 +100,6 @@ def build_model_page(m):
                 "302 跳到官方 CDN 直链。")
     head.append("")
     return "\n".join(head)
-
 
 def main():
     data_path = os.path.join(DOCS, "data.json")
@@ -188,7 +180,6 @@ def main():
     print(f"✓ docs/md/    ({len(models)} 个机型页)")
     print(f"  链接 {tot_links}  版本 {tot_vers}  更新日志 {tot_clog}  降级包 {tot_dg}")
     return {"models": len(models), "links": tot_links, "versions": tot_vers}
-
 
 if __name__ == "__main__":
     main()

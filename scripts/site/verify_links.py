@@ -1,6 +1,5 @@
 
 
-
 import json, urllib.request, ssl, concurrent.futures
 
 ctx = ssl._create_unverified_context()

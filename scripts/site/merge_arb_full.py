@@ -1,18 +1,15 @@
 
 
-
 import json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 site = json.load(open(os.path.join(ROOT, "site", "site.json")))
 arbdb_path = os.path.join(ROOT, "config", "arb_database.json")
 arbdb = json.load(open(arbdb_path)) if os.path.exists(arbdb_path) else {}
 
-
 def norm_ver(v):
-    
+
     m = re.search(r'(\d+\.\d+\.\d+\.\d+\([A-Z0-9]+\))', v)
     return m.group(1) if m else v
 

@@ -1,6 +1,5 @@
 
 
-
 import argparse
 import bz2
 import json
@@ -48,9 +47,8 @@ HEADERS = {
     "userId": "oplus-ota|16002018",
 }
 
-
 def default_out_dir() -> str:
-    
+
     for cand in (
         "/sdcard/Android/data/io.otatracker/files/OTA",
         "/storage/emulated/0/Android/data/io.otatracker/files/OTA",
@@ -59,17 +57,13 @@ def default_out_dir() -> str:
             return cand
     return os.path.join(os.getcwd(), "ota_out")
 
-
 class ExtractorError(Exception):
     pass
-
 
 class Cancelled(Exception):
     pass
 
-
 class RangeReader:
-    
 
     def __init__(self, url: str, session: Optional[requests.Session] = None, timeout: int = 30, no_ua: bool = False):
         self.url = url
@@ -197,7 +191,6 @@ class RangeReader:
         self.pos += len(buf)
         return bytes(buf)
 
-
 def _read_varint(buf: bytes, pos: int) -> Tuple[int, int]:
     result = 0
     shift = 0
@@ -213,9 +206,8 @@ def _read_varint(buf: bytes, pos: int) -> Tuple[int, int]:
         if shift > 63:
             raise ExtractorError("payload 元数据异常（varint 过长）。")
 
-
 def _fields(buf: bytes):
-    
+
     pos, end = 0, len(buf)
     while pos < end:
         key, pos = _read_varint(buf, pos)
@@ -238,9 +230,8 @@ def _fields(buf: bytes):
             raise ExtractorError("payload 元数据里有未知字段类型 %d。" % wire)
         yield field, wire, value
 
-
 def parse_payload_header(reader: RangeReader, payload_offset: int) -> Tuple[bytes, int]:
-    
+
     reader.seek(payload_offset)
     head = reader.read(24)
     if len(head) < 24:
@@ -260,7 +251,6 @@ def parse_payload_header(reader: RangeReader, payload_offset: int) -> Tuple[byte
     data_offset = payload_offset + 24 + manifest_size + signature_size
     return manifest_bytes, data_offset
 
-
 def parse_manifest(manifest_bytes: bytes) -> Dict:
     partitions: List[Dict] = []
     security_patch = ""
@@ -278,14 +268,12 @@ def parse_manifest(manifest_bytes: bytes) -> Dict:
         "block_size": block_size,
     }
 
-
 def _parse_partition_info(buf: bytes) -> int:
-    
+
     for field, wire, value in _fields(buf):
         if field == 1 and wire == 0:
             return value
     return 0
-
 
 def _parse_partition(buf: bytes) -> Dict:
     name = ""
@@ -319,7 +307,6 @@ def _parse_partition(buf: bytes) -> Dict:
     info["length"] = end - start
     return info
 
-
 def _parse_operation(buf: bytes) -> Dict:
     op = {"data_offset": 0, "data_length": 0, "op_type": 0}
     for field, wire, value in _fields(buf):
@@ -331,7 +318,6 @@ def _parse_operation(buf: bytes) -> Dict:
             op["data_length"] = value
     return op
 
-
 def _zip_data_offset(reader: RangeReader, info: zipfile.ZipInfo) -> int:
     reader.seek(info.header_offset)
     head = reader.read(30)
@@ -341,9 +327,8 @@ def _zip_data_offset(reader: RangeReader, info: zipfile.ZipInfo) -> int:
     extra_len = struct.unpack_from("<H", head, 28)[0]
     return info.header_offset + 30 + name_len + extra_len
 
-
 def resolve_direct(url: str, timeout: int = 30) -> str:
-    
+
     if not url.lower().startswith(("http://", "https://")):
         return url
     if not ("downloadCheck" in url or "/download?" in url):
@@ -365,9 +350,8 @@ def resolve_direct(url: str, timeout: int = 30) -> str:
     r2.close()
     return final or url
 
-
 def open_payload(url: str, no_ua: bool = False) -> Tuple[RangeReader, Dict]:
-    
+
     url = resolve_direct(url)
     reader = RangeReader(url, no_ua=no_ua)
     payload_offset = 0
@@ -396,9 +380,8 @@ def open_payload(url: str, no_ua: bool = False) -> Tuple[RangeReader, Dict]:
     manifest["_file_size"] = reader.size
     return reader, manifest
 
-
 def _decompress(op_type: int, blob: bytes, block_size: int) -> bytes:
-    
+
     if op_type == 0:
 
         return blob
@@ -415,7 +398,6 @@ def _decompress(op_type: int, blob: bytes, block_size: int) -> bytes:
         "分区用了差分包专属操作 %s，无法从全量包还原。"
         % OP_NAMES.get(op_type, str(op_type))
     )
-
 
 def extract(
     reader: RangeReader,
@@ -527,10 +509,8 @@ def extract(
     report(True)
     return out_path
 
-
 def _json_out(obj) -> None:
     print(json.dumps(obj, ensure_ascii=False, indent=2))
-
 
 def cmd_dump(url: str, as_json: bool = False) -> int:
     reader, manifest = open_payload(url)
@@ -565,7 +545,6 @@ def cmd_dump(url: str, as_json: bool = False) -> int:
     reader.close()
     return 0
 
-
 def cmd_pull(url: str, part_names, out_dir: str, all_parts: bool = False,
              progress_file: Optional[str] = None, cancel_file: Optional[str] = None) -> int:
     reader, manifest = open_payload(url)
@@ -595,7 +574,6 @@ def cmd_pull(url: str, part_names, out_dir: str, all_parts: bool = False,
               + ("  （压缩数据，需解压）" if p["compressed"] else ""))
     reader.close()
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -632,7 +610,6 @@ def main() -> int:
     except ExtractorError as e:
         print(f"错误：{e}")
         return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

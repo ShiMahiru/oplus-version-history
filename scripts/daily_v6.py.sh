@@ -1,4 +1,3 @@
-#!/bin/bash
 cd /root/oplus-rom-dev/repos/oplus-version-history
 python3 - <<'PY'
 import sys, json, time

@@ -10,7 +10,6 @@ BASE = "https://roms.lian86.top"
 
 BRAND_OF = {"P": "OnePlus", "O": "OPPO", "R": "Realme"}
 
-
 def new_session():
     cj = http.cookiejar.CookieJar()
     op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj), urllib.request.HTTPSHandler(context=ctx))
@@ -34,7 +33,6 @@ def new_session():
             time.sleep(1)
     return None
 
-
 def resign(op, brand, model, version):
     try:
         req = urllib.request.Request(BASE + "/proxy/init",
@@ -54,7 +52,6 @@ def resign(op, brand, model, version):
         return None
     except Exception:
         return None
-
 
 def main():
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else 0
@@ -83,14 +80,14 @@ def main():
     for i, (brand, code, v) in enumerate(todo):
         if i and i % 40 == 0:
             op = new_session() or op
-        # 目标站需要 "ColorOS {CODE}_{版本}(区域)" 格式
+        
         ver_str = v["version"]
         if not ver_str.startswith("ColorOS " + code):
             ver_str = "ColorOS " + code + "_" + ver_str.replace("ColorOS ", "", 1)
         new_url = resign(op, brand, code, ver_str)
         if new_url:
             v["url"] = new_url
-            # 探测 md5/size
+            
             try:
                 r = urllib.request.urlopen(urllib.request.Request(new_url, headers={"Range": "bytes=0-0"}), timeout=20, context=ctx)
                 md5h = (r.headers.get("x-amz-meta-filemd5") or "").strip('"')
@@ -118,7 +115,6 @@ def main():
     json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"完成: 重签 {ok} | 失败 {fail} | {time.time()-t0:.0f}s")
-
 
 if __name__ == "__main__":
     main()

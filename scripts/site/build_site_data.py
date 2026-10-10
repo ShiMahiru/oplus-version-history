@@ -1,6 +1,5 @@
 
 
-
 import json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -349,7 +348,6 @@ for b in site["brands"]:
             keep_models.append(m)
     b["models"] = keep_models
 
-# ── sizeBytes 缓存应用（探测结果 url→size）
 _size_cache_path = os.path.join(ROOT, "config", "size_cache.json")
 if os.path.exists(_size_cache_path):
     _size_cache = json.load(open(_size_cache_path))
@@ -360,8 +358,6 @@ if os.path.exists(_size_cache_path):
                 if _u and _u in _size_cache and not (v.get("meta") or {}).get("sizeBytes"):
                     v.setdefault("meta", {})["sizeBytes"] = _size_cache[_u]
 
-# ── sizeBytes 清洗：<500MB 一律视为无效
-# 依据实测分布：异常值最大 1.4MB（错误归档/门卫响应），正常 ROM 最小 869MB，断层清晰
 MIN_ROM_SIZE = 500 * 1024 * 1024
 for b in site["brands"]:
     for m in b["models"]:
@@ -371,14 +367,13 @@ for b in site["brands"]:
             if sb and isinstance(sb, int) and sb < MIN_ROM_SIZE:
                 del meta["sizeBytes"]
 
-# ── v6 新鲜元数据（链接文件五行的 patch/fp/md5/size）
 for b in site["brands"]:
     for m in b["models"]:
         for v in m["versions"]:
             _u = v.get("url", "")
             if not _u:
                 continue
-            # 从 links 文件读五行数据
+            
             _link_file = None
             for _ext in [".txt"]:
                 _lf = os.path.join(ROOT, "links", m["code"], f"{m['code']}_" + v["version"].replace("ColorOS ", "").replace(m["code"] + "_", "", 1).replace(" ", "_") + _ext)
@@ -404,7 +399,6 @@ for b in site["brands"]:
                         _ts = _dm.group(1)
                         meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
 
-# ── meta_cache 应用（CDN 实测的 size/md5）
 _meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
 if os.path.exists(_meta_cache_path):
     _meta_cache = json.load(open(_meta_cache_path))
@@ -420,7 +414,6 @@ if os.path.exists(_meta_cache_path):
                     if _hit.get("md5") and not meta.get("md5"):
                         meta["md5"] = _hit["md5"]
 
-# ── 只保留三项齐全的版本（md5 + 链接 + 更新日志）
 for b in site["brands"]:
     for m in b["models"]:
         m["versions"] = [
@@ -429,7 +422,6 @@ for b in site["brands"]:
         ]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
-# ── 已知死链剔除（config/dead_urls.json，由全量实测产出）
 _dead_path = os.path.join(ROOT, "config", "dead_urls.json")
 if os.path.exists(_dead_path):
     try:
@@ -441,7 +433,6 @@ if os.path.exists(_dead_path):
             for m in b["models"]:
                 m["versions"] = [v for v in m["versions"] if v.get("url") not in _dead]
 
-# ── ARB 缓存应用（config/arb_cache.json，由 arb_extract 逐版本实测产出）
 _arb_cache_path = os.path.join(ROOT, "config", "arb_cache.json")
 if os.path.exists(_arb_cache_path):
     try:
@@ -461,7 +452,6 @@ if os.path.exists(_arb_cache_path):
                         meta["arbMinor"] = _hit.get("minor")
                         meta["arbStatus"] = _hit.get("status") or ("Safe" if _hit["arb"] == 0 else "Protected")
 
-# ── 平台标注（config/platform_cache.json）：MTK 机型的 ARB 无法从 ROM 包提取
 _plat_path = os.path.join(ROOT, "config", "platform_cache.json")
 if os.path.exists(_plat_path):
     try:
@@ -481,7 +471,6 @@ if os.path.exists(_plat_path):
                         if _p == "mediatek":
                             meta["arbNote"] = "联发科平台，ARB 存于硬件熔丝，ROM 包内不含"
 
-# ── 删除占位符日志的版本（内容为「官方无更新日志」或 ≤10 字）
 def _real_cl(cl):
     t = re.sub(r"^#[^\n]*\n?", "", cl or "")
     t = re.sub(r"^>[^\n]*\n?", "", t, flags=re.M)
@@ -546,54 +535,5 @@ for b in site["brands"]:
         if m["versions"]:
             keep_models.append(m)
     b["models"] = keep_models
-
-# ── v6 新鲜元数据（链接文件五行的 patch/fp/md5/size）
-for b in site["brands"]:
-    for m in b["models"]:
-        for v in m["versions"]:
-            _u = v.get("url", "")
-            if not _u:
-                continue
-            # 从 links 文件读五行数据
-            _link_file = None
-            for _ext in [".txt"]:
-                _lf = os.path.join(ROOT, "links", m["code"], f"{m['code']}_" + v["version"].replace("ColorOS ", "").replace(m["code"] + "_", "", 1).replace(" ", "_") + _ext)
-                if os.path.exists(_lf):
-                    _link_file = _lf
-                    break
-            if not _link_file:
-                continue
-            _lines = [l.strip() for l in open(_link_file, encoding="utf-8").read().split("\n") if l.strip()]
-            meta = v.setdefault("meta", {})
-            for _l in _lines[1:]:
-                if _l.startswith("size:") and not meta.get("sizeBytes"):
-                    _sv = _l[5:].strip()
-                    if _sv.isdigit(): meta["sizeBytes"] = int(_sv)
-                elif _l.startswith("md5:") and not meta.get("md5"):
-                    meta["md5"] = _l[4:].strip()
-                elif _l.startswith("patch:") and not meta.get("securityPatch"):
-                    meta["securityPatch"] = _l[6:].strip()
-                elif _l.startswith("fp:"):
-                    meta["targetVersion"] = _l[3:].strip()
-                    _dm = re.search(r"_(\d{12})$", _l[3:].strip())
-                    if _dm and not meta.get("buildDate"):
-                        _ts = _dm.group(1)
-                        meta["buildDate"] = f"{_ts[:4]}-{_ts[4:6]}-{_ts[6:8]}"
-
-# ── meta_cache 应用（CDN 实测的 size/md5）
-_meta_cache_path = os.path.join(ROOT, "config", "meta_cache.json")
-if os.path.exists(_meta_cache_path):
-    _meta_cache = json.load(open(_meta_cache_path))
-    for b in site["brands"]:
-        for m in b["models"]:
-            for v in m["versions"]:
-                _u = v.get("url", "")
-                if _u and _u in _meta_cache:
-                    _hit = _meta_cache[_u]
-                    meta = v.setdefault("meta", {})
-                    if _hit.get("size") and not meta.get("sizeBytes"):
-                        meta["sizeBytes"] = _hit["size"]
-                    if _hit.get("md5") and not meta.get("md5"):
-                        meta["md5"] = _hit["md5"]
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))

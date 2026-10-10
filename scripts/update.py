@@ -1,6 +1,5 @@
 
 
-
 import argparse
 import base64
 import hashlib
@@ -83,7 +82,6 @@ try:
 except ImportError:
     sys.exit("需要 cryptography: pip install cryptography")
 
-
 _REGION_ALIAS = {
     "CN": "cn", "CH": "cn", "CT": "cn", "CNCMCC": "cn", "CNMOBILE": "cn",
     "IN": "in", "IND": "in",
@@ -98,11 +96,9 @@ _REGION_ALIAS = {
     "NA": "na", "MM": "gl", "BD": "gl", "PK": "gl", "NP": "gl", "KH": "gl",
 }
 
-
 def region_of(model):
     reg = (model.get("region") or "GL").upper()
     return _REGION_ALIAS.get(reg, "gl")
-
 
 _OPOTA_ALIAS = {k.lower(): v for k, v in _REGION_ALIAS.items()}
 OPOTA_REGION = {}
@@ -116,9 +112,8 @@ if os.path.isfile(_opota_meta_path):
             _r = _c.most_common(1)[0][0]
             OPOTA_REGION[_code.upper()] = _OPOTA_ALIAS.get(_r, "gl")
 
-
 def region_candidates(model):
-    
+
     code = model["code"]
     out = [region_of(model)]
     alt = OPOTA_REGION.get(code)
@@ -126,12 +121,10 @@ def region_candidates(model):
         out.append(alt)
     return out
 
-
 _PUB_CACHE = {}
 
-
 def load_pub(reg_key):
-    
+
     pub = _PUB_CACHE.get(reg_key)
     if pub is None:
         pem = KEYS["OTA_PUBLIC_KEYS"][reg_key]
@@ -139,11 +132,9 @@ def load_pub(reg_key):
         _PUB_CACHE[reg_key] = pub
     return pub
 
-
 def load_dg_pub():
     pem = KEYS["DOWNGRADE"]["public_key"]
     return serialization.load_pem_public_key(pem.encode())
-
 
 def v6_query(model, region, mode="manual", ota_version=None, imei=None):
     """v6 协议查询（OplusUpdater 同款）：protectedKey 头 + 极简 payload。
@@ -158,16 +149,16 @@ def v6_query(model, region, mode="manual", ota_version=None, imei=None):
                     padding.OAEP(mgf=padding.MGF1(hashes.SHA1()),
                                  algorithm=hashes.SHA1(), label=None))
     ).decode()
-    # protectedKey 头：SCENE_1 + version(24h后纳秒) + negotiationVersion
+    
     protected_version = str(int((time.time() + 86400) * 1e9))
     pkm = {"SCENE_1": {"protectedKey": protected, "version": protected_version,
                        "negotiationVersion": str(cfg.get("neg") or "1615879139745")}}
-    # deviceId：无 IMEI 用随机 hex64，有则 sha256 大写
+    
     if imei:
         device_id = hashlib.sha256(imei.encode()).hexdigest().upper()
     else:
         device_id = secrets.token_hex(32)
-    # otaVersion：缺省用 *A.01 基线
+    
     fw = ota_version or f"{model}{cfg['nvid']}_11.A.01_0001_100001010000"
     headers = {
         "language": cfg["lang"], "androidVersion": "unknown", "colorOSVersion": "unknown",
@@ -232,9 +223,8 @@ def v6_query(model, region, mode="manual", ota_version=None, imei=None):
         "raw": content,
     }
 
-
 def v3_query(model, region, letter, nvid=None):
-    
+
     cfg = REGIONS[region]
     nv = nvid or cfg["nvid"]
     carrier = cfg["carrier"] if nv == cfg["nvid"] else bin(int(nv[2:], 16))[2:].zfill(8)
@@ -315,9 +305,8 @@ def v3_query(model, region, letter, nvid=None):
         "android": content.get("androidVersion") or "",
     }
 
-
 def changelog_query(model, fp_prefix, region="cn"):
-    
+
     cfg = REGIONS[region]
     full = f"{fp_prefix}_197001010000"
     headers = {
@@ -344,7 +333,6 @@ def changelog_query(model, fp_prefix, region="cn"):
     md = render_changelog(data, region)
     return version, md
 
-
 def render_changelog(data, region):
     items = data.get("upgInstDetail") or []
     if not items:
@@ -356,7 +344,7 @@ def render_changelog(data, region):
         return str(ci)
 
     def bullet_lines(content):
-        
+
         if isinstance(content, list):
             out = []
             for ci in content:
@@ -404,11 +392,9 @@ def render_changelog(data, region):
         return "官方无更新日志。\n"
     return "\n".join(lines) + "\n"
 
-
 def fp_prefix(fp):
-    
-    return fp.rsplit("_", 1)[0] if fp.count("_") >= 2 else fp
 
+    return fp.rsplit("_", 1)[0] if fp.count("_") >= 2 else fp
 
 def downgrade_query(model, letter, prj, duid="498A44DF1BEC4EB19FBCB3A870FCACB4EC7D424979CC9C517FE7B805A1937746"):
     cfg = KEYS["DOWNGRADE"]
@@ -476,27 +462,21 @@ def downgrade_query(model, letter, prj, duid="498A44DF1BEC4EB19FBCB3A870FCACB4EC
     vo = (inner.get("data") or {}).get("downgradeVoList") or []
     return vo
 
-
 def history_path(model):
     return os.path.join(ROOT, "models", model, "ota-version.txt")
-
 
 def links_path(model, ver):
     safe = re.sub(r'[\\/:*?"<>|]', "_", ver)
     return os.path.join(ROOT, "links", model, f"{safe}.txt")
 
-
 def changelog_path(model, fp):
     return os.path.join(ROOT, "models", model, "changelog", f"{fp_prefix(fp)}.md")
-
 
 def latest_path(model):
     return os.path.join(ROOT, "models", model, "latest-update.txt")
 
-
 def downgrade_path(model):
     return os.path.join(ROOT, "downgrade", f"{model}.txt")
-
 
 def read_history(model):
     p = history_path(model)
@@ -516,7 +496,6 @@ def read_history(model):
         out[fp] = ver
     return out
 
-
 def write_history(model, history):
     rows = sorted(history.items(),
                   key=lambda kv: (kv[0].rsplit("_", 1)[-1] if kv[0].count("_") >= 2 else kv[0]),
@@ -529,7 +508,6 @@ def write_history(model, history):
             else:
                 f.write(f"{fp}\n")
     return len(rows)
-
 
 def write_link(model, ver, url, size=None, md5=None, patch=None, fp=None):
     """写链接文件。v6 有元数据时写多行格式（向后兼容：读方取第一行）"""
@@ -544,7 +522,6 @@ def write_link(model, ver, url, size=None, md5=None, patch=None, fp=None):
             f.write(f"patch: {patch}\n")
         if fp:
             f.write(f"fp: {fp}\n")
-
 
 def write_latest(model, info):
     os.makedirs(os.path.dirname(latest_path(model)), exist_ok=True)
@@ -563,14 +540,12 @@ def write_latest(model, info):
     with open(latest_path(model), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
-
 def write_changelog(model, fp, version, md):
     p = changelog_path(model, fp)
     os.makedirs(os.path.dirname(p), exist_ok=True)
     head = f"# {version or fp}\n\n> 官方更新日志 · 来源: OTA descriptionInfo\n> OTA 指纹: `{fp}`\n\n"
     with open(p, "w", encoding="utf-8") as f:
         f.write(head + md)
-
 
 def write_downgrade(model, items):
     p = downgrade_path(model)
@@ -608,7 +583,6 @@ def write_downgrade(model, items):
     with open(p, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
-
 REGION_SUFFIX = {
     "cn": ("CN",), "in": ("IN",), "eu": ("EEA", "EU"), "gl": (),
     "tw": ("TW",), "ru": ("RU",), "tr": ("TR",), "gb": ("GB",),
@@ -620,9 +594,8 @@ REGION_SUFFIX = {
 }
 _CODE_SUFFIX_RE = re.compile(r"^([A-Z]{2,4}\d{3,5})([A-Z]{2,4})$")
 
-
 def code_variants(code, region):
-    
+
     m = _CODE_SUFFIX_RE.match(code)
     if not m:
         return [code]
@@ -640,9 +613,8 @@ def code_variants(code, region):
             uniq.append(c)
     return uniq
 
-
 def _apply_result(res, code, history, state):
-    
+
     if not res or not res["url"]:
         return False
     fp = res["fp"] or res["fw"]
@@ -654,13 +626,12 @@ def _apply_result(res, code, history, state):
             write_link(code, ver, res["url"], res.get("size"), res.get("md5"), res.get("patch"), res.get("fp"))
             state["new_links"] += 1
     elif ver:
-        # 已有版本：用新鲜链接 + 元数据覆盖（门卫签名有时效，每次查询刷新）
+        
         write_link(code, ver, res["url"], res.get("size"), res.get("md5"), res.get("patch"), res.get("fp"))
         state["refreshed"] = state.get("refreshed", 0) + 1
     if state["latest"] is None:
         state["latest"] = res
     return True
-
 
 def scan_region_v6(code, region, history):
     """v6 单次查询：直接拿到当前在推版全字段（含 size/md5/publishedTime 等 42 项）"""
@@ -671,9 +642,8 @@ def scan_region_v6(code, region, history):
     ok = _apply_result(res, code, history, state)
     return (["v6"] if ok else []), state["new_fp"], state["new_links"], state["latest"]
 
-
 def scan_region(code, region, variants, history, workers=1):
-    
+
     state = {"new_fp": 0, "new_links": 0, "latest": None}
     hits = []
     seq = NVID_FALLBACK.get(region, [REGIONS[region]["nvid"]])
@@ -713,7 +683,6 @@ def scan_region(code, region, variants, history, workers=1):
         if hits:
             break
     return hits, state["new_fp"], state["new_links"], state["latest"]
-
 
 def update_model(model, opts):
     code = model["code"]
@@ -776,7 +745,7 @@ def update_model(model, opts):
     if clogs and not opts.no_history_write:
         write_history(code, history)
 
-    # v6 模式：单次请求拿全字段（比 v3 多 34 个字段，含 size/md5）
+    
     if getattr(opts, "v6", False):
         v6_hits, v6_fp, v6_links, v6_latest = scan_region_v6(code, region, history)
         if v6_hits:
@@ -806,7 +775,6 @@ def update_model(model, opts):
           + (f" 降级包 ✓" if done_dg else ""))
     return {"code": code, "region": region, "new_fp": new_fp,
             "new_links": new_links, "changelog": clogs, "downgrade": done_dg}
-
 
 def main():
     ap = argparse.ArgumentParser(description="oplus-version-history 官方更新器")
@@ -870,7 +838,6 @@ def main():
             print(f"  ... {i}/{len(models)} 用时 {time.time()-t0:.0f}s")
     print(f"完成：新增指纹 {stats['new_fp']} 新链接 {stats['new_links']} "
           f"changelog {stats['changelog']} 降级包 {stats['downgrade']} 用时 {time.time()-t0:.0f}s")
-
 
 if __name__ == "__main__":
     main()

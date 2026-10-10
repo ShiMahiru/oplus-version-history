@@ -1,6 +1,5 @@
 
 
-
 import argparse
 import os
 import re
@@ -8,9 +7,8 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTE_RE = re.compile(r"\s*[（(]\s*查询基线.*?[）)]\s*$")
 
-
 def parse_line(ln):
-    
+
     ln = ln.strip()
     if not ln:
         return None
@@ -28,11 +26,9 @@ def parse_line(ln):
         fp, ver = ln, ""
     return fp, ver, note
 
-
 def key_of(fp):
     tail = fp.rsplit("_", 1)[-1]
     return tail if tail.isdigit() else fp
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -85,7 +81,6 @@ def main():
         print("有变化的文件:")
         for d in dup_files:
             print("   ", d)
-
 
 if __name__ == "__main__":
     main()

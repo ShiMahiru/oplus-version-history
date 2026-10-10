@@ -7,11 +7,10 @@ CACHE = os.path.join(ROOT, "config", "platform_cache.json")
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 import ota_extract as oe
 
-
 def detect(url):
     """通过分区结构判断平台：有 xbl_config = 高通，有 lk/preloader = MTK"""
     direct = oe.resolve_direct(url) if "downloadCheck" in url else url
-    # CN CDN 对带 UA 的请求返回 403，先试无 UA
+    
     for no_ua in (True, False):
         try:
             reader, manifest = oe.open_payload(direct, no_ua=no_ua)
@@ -34,13 +33,12 @@ def detect(url):
     except Exception:
         return None
 
-
 def main():
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     d = json.load(open(SITE))
     cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 
-    # 只检测缺 ARB 的（有 ARB 的必然是高通）
+    
     todo = []
     for b in d["brands"]:
         for m in b["models"]:
@@ -70,7 +68,6 @@ def main():
     print(f"完成: {ok}/{len(todo)}")
     from collections import Counter
     print(Counter(cache.values()))
-
 
 if __name__ == "__main__":
     main()

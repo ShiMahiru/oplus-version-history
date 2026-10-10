@@ -36,7 +36,7 @@ def main():
                 if not u:
                     continue
                 meta = v.get("meta") or {}
-                # 缺任一字段就重测
+                
                 if not meta.get("sizeBytes") or not meta.get("md5"):
                     tasks.append((m["code"], v, u))
     print(f"待实测 {len(tasks)} 条（用正确请求方式）", flush=True)

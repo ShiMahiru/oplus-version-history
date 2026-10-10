@@ -8,12 +8,10 @@ ctx = ssl._create_unverified_context()
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE = "https://roms.lian86.top"
 
-
 def brand_of(code):
     if code.startswith("RMX"): return "Realme"
     if code.startswith("OPD") or code.startswith("CPH"): return "OPPO"
     return "OnePlus"
-
 
 def init_token(brand, model, version):
     req = urllib.request.Request(f"{BASE}/proxy/init",
@@ -24,7 +22,6 @@ def init_token(brand, model, version):
         return json.loads(r.read().decode()).get("token")
     except Exception:
         return None
-
 
 def resign(brand, code, version):
     for _ in range(2):
@@ -46,7 +43,6 @@ def resign(brand, code, version):
             pass
     return None
 
-
 def probe(url):
     try:
         r = urllib.request.urlopen(urllib.request.Request(url, headers={"Range": "bytes=0-0"}), timeout=20, context=ctx)
@@ -57,7 +53,6 @@ def probe(url):
         return (md5 if len(md5) == 32 else None), size
     except Exception:
         return None, None
-
 
 def main():
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else 0
@@ -119,7 +114,6 @@ def main():
     json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"完成: 重签 {ok} | 补 md5 {md5got} | 失败 {fail} | {time.time()-t0:.0f}s")
-
 
 if __name__ == "__main__":
     main()

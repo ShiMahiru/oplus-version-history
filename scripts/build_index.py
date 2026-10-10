@@ -16,7 +16,7 @@ def read_lines(p):
         return []
 
 def parse_history(code):
-    
+
     p = os.path.join(ROOT, "models", code, "ota-version.txt")
     out = []
     for ln in read_lines(p):
@@ -169,8 +169,8 @@ PAGE = r"""<!DOCTYPE html>
 <title>oplus-version-history · 欧加官方 ROM 历史版本档案</title>
 <style>
 :root{
-  --bg:#0b0d12; --card:#151922; --card2:#1c2130; --line:#262c3a;
-  --fg:#e6e9f0; --mut:#8b93a7; --acc:#4c8dff; --ok:#39d98a; --warn:#ffb020;
+  --bg:
+  --fg:
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
@@ -193,16 +193,16 @@ input[type=search]:focus{border-color:var(--acc)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{background:var(--card);border:1px solid var(--line);color:var(--mut);
   border-radius:20px;padding:5px 13px;cursor:pointer;font-size:12px;user-select:none}
-.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.chip.on{background:var(--acc);border-color:var(--acc);color:
 .m{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;overflow:hidden}
 .mh{display:flex;align-items:center;gap:12px;padding:13px 16px;cursor:pointer}
 .mh:hover{background:var(--card2)}
 .mname{font-weight:600}
 .mcode{color:var(--mut);font-family:ui-monospace,Menlo,monospace;font-size:12px}
 .tag{font-size:11px;border-radius:6px;padding:2px 7px;border:1px solid var(--line);color:var(--mut)}
-.tag.b{color:#7fb4ff;border-color:#2b4a7a}
-.tag.r{color:#ffb020;border-color:#5c4620}
-.tag.g{color:#39d98a;border-color:#245c40}
+.tag.b{color:
+.tag.r{color:
+.tag.g{color:
 .right{margin-left:auto;color:var(--mut);font-size:12px;white-space:nowrap}
 .body{display:none;border-top:1px solid var(--line);padding:6px 0 10px}
 .m.open .body{display:block}
@@ -216,7 +216,7 @@ button{background:var(--card2);border:1px solid var(--line);color:var(--fg);
 button:hover{border-color:var(--acc);color:var(--acc)}
 .none{color:var(--mut);font-size:12px;padding:10px 16px}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);
-  background:#232936;border:1px solid var(--line);color:var(--fg);border-radius:10px;
+  background:
   padding:9px 18px;font-size:13px;opacity:0;transition:.2s;pointer-events:none}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 .dg{padding:2px 16px 12px}

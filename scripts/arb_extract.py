@@ -1,6 +1,5 @@
 
 
-
 import argparse
 import json
 import os
@@ -13,9 +12,8 @@ from update import v3_query, REGIONS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 def parse_arb(data: bytes):
-    
+
     ELF_MAGIC = b"\x7fELF"
     if len(data) < 64 or data[:4] != ELF_MAGIC or data[4] != 2:
 
@@ -81,15 +79,13 @@ def parse_arb(data: bytes):
     arb = u32(oem_off + 8)
     return (major, minor, arb)
 
-
 def is_cn_manual_direct(url: str) -> bool:
-    
+
     return ("componentotacostmanual-cn.allawnfs.com" in url
             or "gauss-componentotacostmanual-cn" in url)
 
-
 def extract_arb_from_url(url: str, code: str):
-    
+
     is_gate = "downloadCheck" in url or "/download?" in url
     direct = oe.resolve_direct(url) if is_gate else url
     no_ua = is_cn_manual_direct(direct)
@@ -115,9 +111,8 @@ def extract_arb_from_url(url: str, code: str):
                 "status": "Safe" if arb == 0 else "Protected",
                 "size": xbl.get("image_size")}
 
-
 def query_and_extract(code: str):
-    
+
     try:
         models = json.load(open(os.path.join(ROOT, "config", "models.json")))[
             "models"]
@@ -151,7 +146,6 @@ def query_and_extract(code: str):
                 return arb
     return {"code": code, "error": "查不到固件", "arb": None}
 
-
 def save(code, result):
     out_dir = os.path.join(ROOT, "models", code)
     os.makedirs(out_dir, exist_ok=True)
@@ -159,7 +153,6 @@ def save(code, result):
     with open(out, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     return out
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -210,7 +203,6 @@ def main():
         return
 
     ap.print_help()
-
 
 if __name__ == "__main__":
     main()

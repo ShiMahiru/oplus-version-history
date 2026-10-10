@@ -1,6 +1,5 @@
 
 
-
 import argparse
 import os
 import random
@@ -13,7 +12,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "okhttp/3.12.12"
 UID = "oplus-ota|16002018"
 DEAD_DIR = os.path.join(ROOT, "links", "_dead")
-
 
 def check(url):
     is_gate = "downloadCheck" in url or "download?" in url
@@ -38,7 +36,6 @@ def check(url):
         return False, f"HTTP {r2.status_code} 直链不可用"
     except Exception as e:
         return False, str(e)[:60]
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -123,7 +120,6 @@ def main():
             f.write("# 死链报告\n\n以下链接连续校验失败，已移入 `links/_dead/`（版本史保留）。\n\n")
             f.write("最近一次全量校验未发现死链。历史死链见 `links/_dead/`。\n")
         print(f"✓ 全部 {ok}/{len(files)} 条链接有效，无死链")
-
 
 if __name__ == "__main__":
     main()

@@ -10,7 +10,6 @@ import time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import update
 
-
 class Opts:
     v6 = True
     only_latest = True
@@ -20,7 +19,6 @@ class Opts:
     no_downgrade = True
     no_history_write = False
     only_changelog = False
-
 
 def main():
     import argparse
@@ -34,7 +32,7 @@ def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     models = json.load(open(os.path.join(root, "config", "models.json")))["models"]
     targets = [m for m in models if m.get("region") == args.region]
-    # 分片
+    
     try:
         si, st = (int(x) for x in args.shard.split("/"))
         if st > 1:
@@ -56,7 +54,7 @@ def main():
             err += 1
             print(f"  [错误] {code}: {type(e).__name__} {str(e)[:60]}", flush=True)
             continue
-        # 日志来源优先级：① descriptionInfo（secondContents）② v6 description.opex.content
+        
         try:
             v6_res = update.v6_query(code, args.region.lower())
             if not v6_res:
@@ -64,14 +62,14 @@ def main():
             fp_full = v6_res.get("fp") or ""
             md_text = ""
             cver = v6_res.get("version") or ""
-            # ① descriptionInfo
+            
             mm = update.re.match(rf"({code}_11\.[A-Z]\.\d+)_", fp_full)
             if mm:
                 rr = update.changelog_query(code, mm.group(1), args.region.lower())
                 time.sleep(update.GAP)
                 if rr:
                     cver, md_text = rr[0] or cver, rr[1]
-            # ② v6 description.opex.content（ColorOS 17+ 新格式）
+            
             if not md_text:
                 raw = v6_res.get("raw") or {}
                 desc = raw.get("description") or {}
@@ -90,7 +88,7 @@ def main():
             print(f"  {i+1}/{len(targets)} | 新链接 {new} | 日志 {cl_got} | 错误 {err} | {time.time()-t0:.0f}s", flush=True)
     print(f"完成: {len(targets)} 机型 | 新链接 {new} | 新日志 {cl_got} | 错误 {err} | {time.time()-t0:.0f}s")
 
-    # ── taste 灰度版采集（可选）
+    
     if getattr(args, "taste", False):
         print("\n开始采集 taste 灰度版…", flush=True)
         t1 = time.time()
@@ -104,7 +102,7 @@ def main():
                     ver = tr["version"]
                     if not update.re.match(r"^[A-Z0-9]+_\d+\.\d+\.\d+", ver):
                         continue
-                    # 判定真灰度版：版本号必须【高于】已记录的最新版本
+                    
                     hist = update.read_history(code)
                     def _vkey(s):
                         mm = update.re.search(r"_(\d+(?:\.\d+)+)", s)
@@ -115,7 +113,7 @@ def main():
                         if _k > newest:
                             newest = _k
                     if _vkey(ver) <= newest:
-                        continue   # 老版本，跳过
+                        continue
                     if fp and fp not in hist:
                         update.write_link(code, ver, tr["url"], tr.get("size"), tr.get("md5"),
                                           tr.get("patch"), fp)
@@ -127,7 +125,6 @@ def main():
                 t_err += 1
             time.sleep(update.GAP)
         print(f"taste 完成: 新灰度版 {t_new} | 错误 {t_err} | {time.time()-t1:.0f}s", flush=True)
-
 
 if __name__ == "__main__":
     main()

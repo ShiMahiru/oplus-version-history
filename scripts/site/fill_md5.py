@@ -7,7 +7,6 @@ SITE = os.path.join(ROOT, "site", "site.json")
 CACHE = os.path.join(ROOT, "config", "meta_cache.json")
 ctx = ssl._create_unverified_context()
 
-
 def probe(url, tries=2):
     """探测 CDN 响应头：返回 (md5, size)。仅 CDN 有明确 md5 头时返回 md5。"""
     for _ in range(tries):
@@ -25,7 +24,6 @@ def probe(url, tries=2):
         except Exception:
             time.sleep(0.5)
     return None, None
-
 
 def main():
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else 0
@@ -70,7 +68,6 @@ def main():
     json.dump(d, open(SITE, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(cache, open(CACHE, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"完成: 补到 {ok} | CDN 无 md5 {miss} | {time.time()-t0:.0f}s")
-
 
 if __name__ == "__main__":
     main()
