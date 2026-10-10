@@ -440,6 +440,26 @@ if os.path.exists(_dead_path):
             for m in b["models"]:
                 m["versions"] = [v for v in m["versions"] if v.get("url") not in _dead]
 
+# ── ARB 缓存应用（config/arb_cache.json，由 arb_extract 逐版本实测产出）
+_arb_cache_path = os.path.join(ROOT, "config", "arb_cache.json")
+if os.path.exists(_arb_cache_path):
+    try:
+        _arb_cache = json.load(open(_arb_cache_path))
+    except Exception:
+        _arb_cache = {}
+    if _arb_cache:
+        for b in site["brands"]:
+            for m in b["models"]:
+                for v in m["versions"]:
+                    _k = f"{m['code']}|{v['version']}"
+                    _hit = _arb_cache.get(_k)
+                    if _hit and _hit.get("arb") is not None:
+                        meta = v.setdefault("meta", {})
+                        meta["arb"] = _hit["arb"]
+                        meta["arbMajor"] = _hit.get("major")
+                        meta["arbMinor"] = _hit.get("minor")
+                        meta["arbStatus"] = _hit.get("status") or ("Safe" if _hit["arb"] == 0 else "Protected")
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
