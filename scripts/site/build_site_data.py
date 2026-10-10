@@ -259,6 +259,8 @@ for b in site["brands"]:
                 if not meta.get("published") and _rec.get("published"):
                     try: meta["published"] = int(_rec["published"])
                     except Exception: pass
+                if not meta.get("versionCode") and _rec.get("version_code"):
+                    meta["versionCode"] = _rec["version_code"]
                 continue
             hit = _dan.get((model["code"], f"{model['code']}_{ver}"))
             if hit:
