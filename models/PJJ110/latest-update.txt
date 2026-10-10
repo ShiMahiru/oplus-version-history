@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 12:45:06
+本地更新时间: 2026-10-10 13:34:24
 查询地区: CN
-最新 OTA 版本: PJJ110_11.C.23_1230_202511031952
-版本名称: PJJ110_15.0.0.861(CN01)
-Android 版本: Android 15
-ColorOS 版本: PJJ110_15.0.0.861(CN01)
-安全补丁: 2025-11-01
-发布时间: 1763989057257
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-784101af14ff084d1b108f6cde9779f0/component-ota/25/11/05/451015859f0e40b49b0f600fdecc2148.zip
+最新 OTA 版本: PJJ110_11.A.40_0400_202501081924
+版本名称: PJJ110_14.0.0.726(CN01)
+Android 版本: Android 14
+ColorOS 版本: PJJ110_14.0.0.726(CN01)
+安全补丁: 2024-12-05
+发布时间: 1737109930625
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9ab01869a463eb15331ce7c1589d6067/component-ota/25/01/09/d8191696afa14ad4bf5adb041f43743c.zip
