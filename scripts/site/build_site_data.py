@@ -481,6 +481,22 @@ if os.path.exists(_plat_path):
                         if _p == "mediatek":
                             meta["arbNote"] = "联发科平台，ARB 存于硬件熔丝，ROM 包内不含"
 
+# ── 删除占位符日志的版本（内容为「官方无更新日志」或 ≤10 字）
+def _real_cl(cl):
+    t = re.sub(r"^#[^\n]*\n?", "", cl or "")
+    t = re.sub(r"^>[^\n]*\n?", "", t, flags=re.M)
+    t = re.sub(r"[\s。．.]", "", t)
+    if not t:
+        return False
+    if t.startswith("官方无更新日志"):
+        return False
+    return len(t) > 10
+
+for b in site["brands"]:
+    for m in b["models"]:
+        m["versions"] = [v for v in m["versions"] if _real_cl(v.get("changelog"))]
+    b["models"] = [m for m in b["models"] if m["versions"]]
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
