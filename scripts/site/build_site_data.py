@@ -477,6 +477,26 @@ if os.path.exists(_arb_cache_path):
                         meta["arbMinor"] = _hit.get("minor")
                         meta["arbStatus"] = _hit.get("status") or ("Safe" if _hit["arb"] == 0 else "Protected")
 
+# ── 平台标注（config/platform_cache.json）：MTK 机型的 ARB 无法从 ROM 包提取
+_plat_path = os.path.join(ROOT, "config", "platform_cache.json")
+if os.path.exists(_plat_path):
+    try:
+        _plat = json.load(open(_plat_path))
+    except Exception:
+        _plat = {}
+    if _plat:
+        for b in site["brands"]:
+            for m in b["models"]:
+                _p = _plat.get(m["code"])
+                if not _p:
+                    continue
+                for v in m["versions"]:
+                    meta = v.setdefault("meta", {})
+                    if meta.get("arb") is None:
+                        meta["platform"] = _p
+                        if _p == "mediatek":
+                            meta["arbNote"] = "联发科平台，ARB 存于硬件熔丝，ROM 包内不含"
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_models = sum(len(b["models"]) for b in site["brands"])
