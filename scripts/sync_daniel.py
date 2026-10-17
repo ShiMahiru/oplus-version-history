@@ -8,6 +8,11 @@
   python3 scripts/sync_daniel.py --deploy        # 同步后构建并部署到 Cloudflare
   python3 scripts/sync_daniel.py --no-verify     # 跳过链接实测（快，但有风险）
   python3 scripts/sync_daniel.py --add-models    # 自动把新机型加入机型表
+  python3 scripts/sync_daniel.py --all-regions   # 连海外版一起同步（默认只要 CN）
+
+默认只同步国行（区域 CN / 版本号以 (CN01) 结尾）：
+danielspringer 里 55 个海外机型（CPH 代号、EU/GLO 区域）一个 CN 版本都没有，
+对只做国行的档案没有价值。
 
 退出码: 0 成功 / 1 有失败项
 """
@@ -125,9 +130,19 @@ def main():
     do_deploy = "--deploy" in args
     no_verify = "--no-verify" in args
     add_models = "--add-models" in args
+    all_regions = "--all-regions" in args
+
+    def is_cn(r):
+        """默认只要国行：区域 CN 或版本号以 (CN01) 结尾"""
+        if all_regions:
+            return True
+        if (r.get("region") or "").upper() == "CN":
+            return True
+        return str(r.get("version") or "").endswith("(CN01)")
 
     print("═" * 60)
     print("danielspringer 增量同步" + ("（演练模式）" if dry else ""))
+    print("区域: " + ("全部" if all_regions else "仅国行 CN01"))
     print("═" * 60)
 
     # ── 1. 拉取线上数据
@@ -166,8 +181,11 @@ def main():
             continue
         if r["source_url"] in dead:
             continue
+        if not is_cn(r):
+            continue
         if code not in our_models:
-            unknown_models.setdefault(code, r)
+            if is_cn(r):
+                unknown_models.setdefault(code, r)
             continue
         if ver in existing_versions(code):
             continue
@@ -193,6 +211,7 @@ def main():
                           if r.get("model") in our_models
                           and r.get("source_url") and r.get("md5") and r.get("ota_version")
                           and r["source_url"] not in dead
+                          and is_cn(r)
                           and r.get("version") not in existing_versions(r.get("model"))]
             print(f"  加入后待同步: {len(candidates)}")
 
