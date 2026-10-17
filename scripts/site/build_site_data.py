@@ -488,6 +488,43 @@ for b in site["brands"]:
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
+# ── 分片输出：index.json（首页/品牌页）+ versions/{code}.json（机型页）
+IDX_DIR = os.path.join(ROOT, "site")
+VER_DIR = os.path.join(ROOT, "site", "versions")
+os.makedirs(VER_DIR, exist_ok=True)
+
+index = {"brands": [], "generated": site.get("generated", "")}
+for b in site["brands"]:
+    bm = []
+    for m in b["models"]:
+        vs = m["versions"]
+        latest = vs[0] if vs else {}
+        lm = latest.get("meta") or {}
+        bm.append({
+            "code": m["code"],
+            "name": m["name"],
+            "n": len(vs),
+            "latest": latest.get("version", ""),
+            "patch": lm.get("securityPatch", ""),
+            "date": lm.get("buildDate", ""),
+            "arb": lm.get("arb"),
+            "platform": lm.get("platform", ""),
+            "arbStatus": lm.get("arbStatus", ""),
+        })
+        # 单机型文件
+        payload = {"code": m["code"], "name": m["name"], "brand": b["key"], "versions": vs}
+        with open(os.path.join(VER_DIR, m["code"] + ".json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+    index["brands"].append({"key": b["key"], "models": bm})
+
+with open(os.path.join(IDX_DIR, "index.json"), "w", encoding="utf-8") as f:
+    json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+
+_idx_sz = os.path.getsize(os.path.join(IDX_DIR, "index.json"))
+_ver_sz = sum(os.path.getsize(os.path.join(VER_DIR, x)) for x in os.listdir(VER_DIR))
+print(f"分片: index.json {_idx_sz/1024:.1f} KB | versions/ {len(os.listdir(VER_DIR))} 文件 {_ver_sz/1024/1024:.2f} MB")
+
+
 total_models = sum(len(b["models"]) for b in site["brands"])
 total_ver = sum(len(m["versions"]) for b in site["brands"] for m in b["models"])
 total_cl = sum(1 for b in site["brands"] for m in b["models"] for v in m["versions"] if v["changelog"])
