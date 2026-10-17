@@ -4,15 +4,15 @@
 
 **realme / IN** · 最新版本 `RMX5111_15.0.2.903(EX01)` · OTA `RMX5111_11.A.22_1220_202603101610` · Android 15 · 安全补丁 2026-03-01
 
-版本记录 **3** 条 · 有官方链接 **3** 条 · 有更新日志 **3** 份
+版本记录 **3** 条 · 有官方链接 **0** 条 · 有更新日志 **3** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| RMX5111_16.0.5.1301(EX01) | `RMX5111_11.F.27_2270_202609102256` | 2026-09-10 | [下载](<https://component-ota-in.allawnos.com/downloadCheck?c=cfe9f086a8ca9424ec516893f44eceba&p=a50845bd67468545c5601113651e71832bd010fd424f4431587485e9f0c2d5d75c51f5c1c49989abe65d4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6abb94f476d168017ee80135&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1eb2505cf7797285df7e7c47dd4703ef>) | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.F.27_2270.md>) |  |
-| RMX5111_15.0.2.903(EX01) | `RMX5111_11.A.22_1220_202603101610` | 2026-03-10 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-f4491c1f4e5fa6defbf9f84327f91ac2/component-ota/26/03/11/62b81231a8e64bc69a68e37f6ae518ec.zip>) | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.A.22_1220.md>) |  |
-| RMX5111_15.0.2.903(EX01) | `RMX5111_11.C.22_1220_202603101610` | 2026-03-10 | [下载](<https://gauss-componentotamanual.allawnofs.com/remove-f4491c1f4e5fa6defbf9f84327f91ac2/component-ota/26/03/11/62b81231a8e64bc69a68e37f6ae518ec.zip>) | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.C.22_1220.md>) |  |
+| RMX5111_16.0.5.1301(EX01) | `RMX5111_11.F.27_2270_202609102256` | 2026-09-10 |  | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.F.27_2270.md>) |  |
+| RMX5111_15.0.2.903(EX01) | `RMX5111_11.A.22_1220_202603101610` | 2026-03-10 |  | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.A.22_1220.md>) |  |
+| RMX5111_15.0.2.903(EX01) | `RMX5111_11.C.22_1220_202603101610` | 2026-03-10 |  | [原文](<../../models/RMX5111IN/changelog/RMX5111_11.C.22_1220.md>) |  |
 
 ---
 

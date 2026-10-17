@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGEM10_14.0.0.850(CN01)` · OTA `PGEM10_11.C.90_1900_202410181334` · Android 14 · 安全补丁 2024-10-05
 
-版本记录 **11** 条 · 有官方链接 **10** 条 · 有更新日志 **10** 份
+版本记录 **31** 条 · 有官方链接 **13** 条 · 有更新日志 **28** 份
 
 ## 版本史
 
@@ -19,8 +19,28 @@
 | PGEM10_15.0.0.700(CN01) | `PGEM10_11.F.26_2260_202503242228` | 2025-03-24 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8960758ff6a7acde7239d9e8b357ccba/component-ota/25/03/25/2a502e76f3794f778609822c84cc16d1.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.F.26_2260.md>) |  |
 | PGEM10_14.0.0.850(CN01) | `PGEM10_11.C.90_1900_202410181334` | 2024-10-18 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-641a0f37a3bd3d281e073dcc4daca942/component-ota/24/10/22/bf906143ad6d4b7581eb0710653dda4f.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.C.90_1900.md>) |  |
 | PGEM10_14.0.0.401(CN01) | `PGEM10_11.C.77_1770_202401300311` | 2024-01-30 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8c6c29908c54c2c5dd78fe7146d848da/component-ota/24/01/30/7a25999c89274461b31e72d8eaaa4727.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.C.77_1770.md>) |  |
-| PGEM10_13.1.0.144(CN01) | `PGEM10_11.A.50_0500_202312131722` | 2023-12-13 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5a6d48643d04511c350e777921644afc/component-ota/23/12/14/62d272b8641d4ecfa8083e0391e0b814.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.50_0500.md>) |  |
+| PGEM10_13.1.0.144(CN01) | `PGEM10_11.A.50_0500_202312131722` | 2023-12-13 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-4e313535422c8baebc0f814cab5e9ff2/component-ota/23/12/14/62d272b8641d4ecfa8083e0391e0b814.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.50_0500.md>) |  |
 | _(仅指纹)_ | `PGEM10_11.A.19_0190_202303020125` | 2023-03-02 |  |  |  |
+| PGEM10_13.1.0.111(CN01) | `PGEM10_11.A.24_0240_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.24_0240.md>) |  |
+| PGEM10_13.1.0.112(CN01) | `PGEM10_11.A.26_0260_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.26_0260.md>) |  |
+| PGEM10_13.1.0.114(CN01) | `PGEM10_11.A.28_0280_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.28_0280.md>) |  |
+| PGEM10_13.1.0.115(CN01) | `PGEM10_11.A.29_0290_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.29_0290.md>) |  |
+| PGEM10_13.1.0.121(CN01) | `PGEM10_11.A.31_0310_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.31_0310.md>) |  |
+| PGEM10_13.1.0.122(CN01) | `PGEM10_11.A.32_0320_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.32_0320.md>) |  |
+| PGEM10_13.1.0.123(CN01) | `PGEM10_11.A.33_0330_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.33_0330.md>) |  |
+| PGEM10_13.1.0.125(CN01) | `PGEM10_11.A.35_0350_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.35_0350.md>) |  |
+| PGEM10_13.1.0.126(CN01) | `PGEM10_11.A.36_0360_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.36_0360.md>) |  |
+| PGEM10_13.1.0.127(CN01) | `PGEM10_11.A.37_0370_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.37_0370.md>) |  |
+| PGEM10_13.1.0.130(CN01) | `PGEM10_11.A.39_0390_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.39_0390.md>) |  |
+| PGEM10_13.1.0.131(CN01) | `PGEM10_11.A.41_0410_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.41_0410.md>) |  |
+| PGEM10_13.1.0.133(CN01) | `PGEM10_11.A.43_0430_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.43_0430.md>) |  |
+| PGEM10_13.1.0.134(CN01) | `PGEM10_11.A.44_0440_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.44_0440.md>) |  |
+| PGEM10_13.1.0.135(CN01) | `PGEM10_11.A.46_0460_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.46_0460.md>) |  |
+| PGEM10_13.1.0.141(CN01) | `PGEM10_11.A.47_0470_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.47_0470.md>) |  |
+| PGEM10_13.1.0.142(CN01) | `PGEM10_11.A.48_0480_197001010000` | 1970-01-01 |  | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.48_0480.md>) |  |
+| PGEM10_13.1.0.143(CN01) | `PGEM10_11.A.49_0490_197001010000` | 1970-01-01 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8425271f516b107305c88a51d5710464/component-ota/23/10/24/6f61dad902bf4e359f41b9226bb6f684.zip>) | [原文](<../../models/PGEM10/changelog/PGEM10_11.A.49_0490.md>) |  |
+| PGEM10_14.0.0.500(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-4d3eafed90ceeb2ac98b722b89e3b866/component-ota/24/02/20/ab2b4e7aba3b487ab92ae6c26102160f.zip>) |  |  |
+| PGEM10_15.0.0.860(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-77b5e6846707f1603082fac099764c54/component-ota/25/09/10/93f0f1818a4341cdbb8c1516d1f934c6.zip>) |  |  |
 
 ## 官方降级包
 

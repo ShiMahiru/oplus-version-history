@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGJM10_11_A.18` · OTA `PGJM10_11.A.18_0180_202302082242` · Android 12 · 安全补丁 2022-12-05
 
-版本记录 **4** 条 · 有官方链接 **4** 条 · 有更新日志 **3** 份
+版本记录 **8** 条 · 有官方链接 **8** 条 · 有更新日志 **3** 份
 
 ## 版本史
 
@@ -14,6 +14,10 @@
 | PGJM10_11_C.11 | `PGJM10_11.C.11_1110_202402011214` | 2024-02-01 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f7ffaaddd70f054d3ad2d705d794b97a/component-ota/24/02/04/e9bbf5dece1e4f5d8dcf0142dfde7302.zip>) | [原文](<../../models/PGJM10/changelog/PGJM10_11.C.11_1110.md>) |  |
 | PGJM10_11_A.18 | `PGJM10_11.A.18_0180_202302082242` | 2023-02-08 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d7a08bdf822dcfc29e3d1b39dd0a6ed7/component-ota/23/02/09/bac36f9a9fc347b688101df34c636478.zip>) | [原文](<../../models/PGJM10/changelog/PGJM10_11.A.18_0180.md>) |  |
 | PGJM10_11_A.17 |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c966a7b899578a08ac39f609c1422454/component-ota/22/12/23/a08a8fdee2cc4e418fef847424322f6b.zip>) |  |  |
+| PGJM10_14.0.0.2401(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-865bb2724a403b87c0dbecf65e1ea802/component-ota/25/09/09/1fab7f4725e1429ebc07a16714e60c5d.zip>) |  |  |
+| PGJM10_14.0.0.2701(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-132fb79712cbc4a1d982201592c5b2b8/component-ota/25/12/18/f97a7bff8e6641f59e4e53f4e7ae4ecf.zip>) |  |  |
+| PGJM10_14.0.0.2900(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a06e7ae2ce4afddb342056b03f48b5c3/component-ota/26/03/19/4f1575c5e2694949b96afba968d76653.zip>) |  |  |
+| PGJM10_14.0.0.500(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e4ad109ff27e33c04d82170a6154606e/component-ota/24/02/24/4e8e76eb5771412693e4b257a50336c4.zip>) |  |  |
 
 ## 官方降级包
 

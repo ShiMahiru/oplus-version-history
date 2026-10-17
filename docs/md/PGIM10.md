@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGIM10_11_A.10` · OTA `PGIM10_11.A.10_0100_202212121313` · Android 12 · 安全补丁 2022-11-05
 
-版本记录 **4** 条 · 有官方链接 **4** 条 · 有更新日志 **3** 份
+版本记录 **5** 条 · 有官方链接 **5** 条 · 有更新日志 **3** 份
 
 ## 版本史
 
@@ -14,6 +14,7 @@
 | PGIM10_13.1.0.193(CN01) | `PGIM10_11.C.23_1230_202401081712` | 2024-01-08 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ca96285dd37216d57f7212248e334915/component-ota/24/01/10/9dbc9de1064549ea938ae47a7a8febb7.zip>) | [原文](<../../models/PGIM10/changelog/PGIM10_11.C.23_1230.md>) |  |
 | PGIM10_11_A.10 | `PGIM10_11.A.10_0100_202212121313` | 2022-12-12 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6b28723040e3c81b10d68ee099295d3b/component-ota/22/12/12/e70b11b5956d413cb824134ff600b0fc.zip>) | [原文](<../../models/PGIM10/changelog/PGIM10_11.A.10_0100.md>) |  |
 | PGIM10_13.1.0.192(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5616e883e50e2374f30973f75295502d/component-ota/23/11/15/ac30448e182c441c851eff59bd7b85a1.zip>) |  |  |
+| PGIM10_14.0.0.300(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2c059f1ca15e749894545bc86522be44/component-ota/24/01/19/d627b589569b4c86b3ae37a79a406f64.zip>) |  |  |
 
 ## 官方降级包
 
