@@ -78,7 +78,7 @@ def build_versions(code):
             "changelog": cl_fp_to_ver[ver_name],
         })
         seen_versions.add(ver_name)
-    versions.sort(key=lambda v: ver_key(v["version"]), reverse=True)
+    versions.sort(key=lambda v: (str((v.get("meta") or {}).get("buildDate") or ""), ver_key(v["version"])), reverse=True)
     return versions
 
 def ver_key(vstr):
@@ -486,6 +486,32 @@ for b in site["brands"]:
         m["versions"] = [v for v in m["versions"] if _real_cl(v.get("changelog"))]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
+# 发布日期优先使用官方 published 毫秒时间戳；缺失时回退编译日期，再回退版本号。
+def _release_key(v):
+    meta = v.get("meta") or {}
+    published = meta.get("published")
+    if published:
+        try:
+            return (3, int(published), ver_key(v.get("version", "")))
+        except (TypeError, ValueError):
+            pass
+    build_date = meta.get("buildDate") or ""
+    if build_date:
+        return (2, build_date, ver_key(v.get("version", "")))
+    return (1, "", ver_key(v.get("version", "")))
+
+for b in site["brands"]:
+    for m in b["models"]:
+        full = [v for v in m["versions"] if "降级包" not in v["version"]]
+        dg = [v for v in m["versions"] if "降级包" in v["version"]]
+        full.sort(key=_release_key, reverse=True)
+        dg.sort(key=_release_key, reverse=True)
+        m["versions"] = full + dg
+    b["models"].sort(
+        key=lambda m: _release_key(m["versions"][0]) if m["versions"] else (0, "", (0, 0, 0, 0)),
+        reverse=True,
+    )
+
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 # ── 分片输出：index.json（首页/品牌页）+ versions/{code}.json（机型页）
@@ -529,29 +555,6 @@ total_models = sum(len(b["models"]) for b in site["brands"])
 total_ver = sum(len(m["versions"]) for b in site["brands"] for m in b["models"])
 total_cl = sum(1 for b in site["brands"] for m in b["models"] for v in m["versions"] if v["changelog"])
 print(f"品牌 {len(site['brands'])} | 机型 {total_models} | 版本 {total_ver} | 有更新日志 {total_cl}")
-
-def sort_key(vstr):
-    m = re.search(r"(\d+)\.(\d+)\.(\d+)\.(\d+)", vstr)
-    if m:
-        mm2 = re.match(r"(?:ColorOS |OxygenOS )?(\d+)", vstr)
-        big = int(mm2.group(1)) if mm2 else 0
-        return (2, big) + tuple(int(x) for x in m.groups())
-    m2 = re.search(r"(\d+)(?:\.(\d+))?[_ ]([A-Z])\.(\d+)", vstr)
-    if m2:
-        major = int(m2.group(1)); minor = int(m2.group(2) or 0)
-        return (1, major * 100 + minor, ord(m2.group(3)), int(m2.group(4)))
-    return (0, 0, 0, 0)
-
-for b in site["brands"]:
-    for m in b["models"]:
-        full = [v for v in m["versions"] if "降级包" not in v["version"]]
-        dg = [v for v in m["versions"] if "降级包" in v["version"]]
-        full.sort(key=lambda v: sort_key(v["version"]), reverse=True)
-        m["versions"] = full + dg
-    b["models"].sort(
-        key=lambda m: sort_key(m["versions"][0]["version"]) if m["versions"] else (0, 0, 0, 0),
-        reverse=True,
-    )
 
 CODE_RE2 = re.compile(r"[A-Z]{2,5}\d{3,4}")
 for b in site["brands"]:

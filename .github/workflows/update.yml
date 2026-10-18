@@ -89,6 +89,8 @@ jobs:
         run: |
           python3 scripts/site/build_site_data.py
           python3 scripts/site/merge_arb_full.py
+          # ARB 合并会重写 site.json，最后再生成排序后的分片
+          python3 scripts/site/build_site_data.py
 
       - name: 提交并推送
         run: |
