@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 12:50:29
+本地更新时间: 2026-10-20 15:02:35
 查询地区: CN
-最新 OTA 版本: PKZ110_11.A.46_0460_202509011610
-版本名称: PKZ110_15.0.2.610(CN01)
-Android 版本: Android 15
-ColorOS 版本: PKZ110_15.0.2.610(CN01)
-安全补丁: 2025-09-01
-发布时间: 1758717106789
-ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-dd3fb9673143b64931e16b0485d8cb9a/component-ota/25/09/02/c016b8741b4c4a33a9b00f7d09f078fa.zip
+最新 OTA 版本: PKZ110_11.C.34_1340_202609161624
+版本名称: PKZ110_16.0.10.600(CN01)
+Android 版本: Android 16
+ColorOS 版本: PKZ110_16.0.10.600(CN01)
+安全补丁: 2026-09-01
+发布时间: 1792477998957
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=beedfcc478c58e514fc6e8f6764fb126&p=a6c78fdd375c888b3ece8ba813c93566c425f9b34e6654ff82b85ab99e7b56c1e8b937dcb17d6171eb68d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad5dd717d8131017f157540&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2f495fd3c6828ef50143464b8b358791

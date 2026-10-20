@@ -1,9 +1,9 @@
-本地更新时间: 2026-10-02 12:46:05
+本地更新时间: 2026-10-20 15:03:07
 查询地区: CN
-最新 OTA 版本: PYD110_11.A.15_0150_202608211044
-版本名称: PYD110_16.0.10.500(CN01)
+最新 OTA 版本: PYD110_11.A.17_0170_202610100948
+版本名称: PYD110_16.0.10.601(CN01)
 Android 版本: Android 16
-ColorOS 版本: PYD110_16.0.10.500(CN01)
-安全补丁: 2026-08-01
-发布时间: 1789717436991
-ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=67546b5b7cc295959c37ae9a88c3100f&p=a6c78fdd375d88883cce8eae44993460c672ace21b6054f280ba03eac52f5791ebea65d3b27b3123ba3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aacdcae92ce7c01836a6a56&taste=0&supportDLTaste=0&mode=1&tr=manual&s=17f48cf62c6fc743023ebf526fc18745
+ColorOS 版本: PYD110_16.0.10.601(CN01)
+安全补丁: 2026-10-01
+发布时间: 1792400875775
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=6cbe5d5f4711a362993313157d6ce254&p=a6c78fdd3655888b38cedfac16ce67609625f5e8186454f485bf5ab9917e5496bfb760dce77c6527b438d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad5dadf7d8131017f15753f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2eae569c08b86fb5dba463859520da18
