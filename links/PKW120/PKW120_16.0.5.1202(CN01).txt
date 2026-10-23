@@ -1,0 +1,5 @@
+https://component-ota-cn.allawntech.com/downloadCheck?c=52caf554f360313b7b379df99d6b6e1b&p=a6c78fdd375c888b39ce8efc439d306cc376feb74a3054ff84b600b8942e0794b9ed37dde471332fbf3ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad6ce967d8131017f15765f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a4f1abfd7c53c9dab2e0ad6acd29912a
+size: 6308984848
+md5: d06fe3121b68be6a3dd2ad28cdfd37b0
+patch: 2026-08-01
+fp: PKW120_11.C.58_1580_202609091135
