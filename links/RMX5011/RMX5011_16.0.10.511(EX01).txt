@@ -1,0 +1,7 @@
+https://component-ota-eu.allawnos.com/downloadCheck?c=b0bc62900126bf6003737073528126b8&p=c25c9713dbb5a25e8b9e31f03339ed4d53ab891cf68f73272a368aab529438d3416facf96181d63b67aa181c2077&d=851ad54c99bfa241d5d076b47975b91b5ae3d60ba797246f7975c5af5dc86d924a61afb32ddb8867&g=10eab6008d5642cf42abd2aa41f847cb&id=6adf29b57d8131017f15837c&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2a4b64bfd11ef1cb23366bc53131841d
+size: 9021821303
+md5: 11318bc601b57619a23208a0a27277f4
+patch: 2026-09-01
+fp: RMX5011_11.F.71_2710_202610081720
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-b0bc62900126bf6003737073528126b8/component-ota/26/10/26/999ae4d62e784b01b97b0e5237cbe605.html

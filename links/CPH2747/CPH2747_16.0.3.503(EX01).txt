@@ -1,0 +1,8 @@
+https://component-ota-sg.allawnos.com/downloadCheck?c=457283e00f5aaeeeec2000243184c284&p=f088224e006a138aacbcc10d1633d334132e17912d34c0ee781ac7d3cf918b341bb3664eab5d7de5455e452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=69797d619e207b017baacf56&taste=1&supportDLTaste=0&mode=1&s=456aafc29364d8b238417d4da61ed130
+size: 9006404856
+patch: 2026-02-01
+fp: CPH2747_11.A.27_0270_202601280009
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-457283e00f5aaeeeec2000243184c284/component-ota/26/02/10/a363d557315e4304a714f9abe04fdead.html
+direct: https://gauss-compota-c-sg.allawnofs.com/remove-457283e00f5aaeeeec2000243184c284/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/01/28/b8ed5edb653247708c26829a22f9ca0e.zip?sign=3f2cfe12d84e9cb60641b5aaff39bc44&t=6ae803a6&x-oss-signature=A6xXZNrSWqVXputpd770NvhmZ3ERCS7yWJkLPhOPYUo%3D&x-oss-signature-version=OSS2&x-oss-expires=1793591982&x-oss-access-key-id=LTAI5t7LQqPWs3796pRv6Avx
+md5_pending: yes

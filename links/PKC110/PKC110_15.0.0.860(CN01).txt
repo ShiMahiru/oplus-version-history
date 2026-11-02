@@ -1,0 +1,7 @@
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e3e89989f0abf5ce3a5aee79f61e7629/component-ota/25/08/27/f50ac50a065b4d75848ace4d534fa4ac.zip
+size: 8280920241
+md5: eb70b27de0397cc9fcccada29f35ac05
+patch: 2025-09-01
+fp: PKC110_11.A.91_0910_202508252354
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-e3e89989f0abf5ce3a5aee79f61e7629/component-ota/25/09/18/42becce843a346e6b5b3de1bb4d5d831.html

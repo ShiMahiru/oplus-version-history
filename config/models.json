@@ -1,5 +1,5 @@
 {
- "count": 586,
+ "count": 598,
  "models": [
   {
    "code": "CPH2145",
@@ -4102,6 +4102,90 @@
    "brand": "realme",
    "region": "CN",
    "rui": 5
+  },
+  {
+   "code": "IN2010",
+   "name": "一加 8",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "IN2020",
+   "name": "一加 8 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "KB2000",
+   "name": "一加 8T",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "LE2100",
+   "name": "一加 9R",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "LE2110",
+   "name": "一加 9",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "OPD2301",
+   "name": "OPPO Pad Air2",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "OPD2401",
+   "name": "OPPO Pad 3 Pro",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "OPD2407",
+   "name": "一加 Pad",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "OPD2508",
+   "name": "一加 Pad 2",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "PYB110",
+   "name": "一加 16",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "RMX3800",
+   "name": "Realme GT6",
+   "brand": "realme",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "RMX8899",
+   "name": "Realme Neo8",
+   "brand": "realme",
+   "region": "CN",
+   "_source": "crawl:xiyan+lian86"
   }
  ]
 }

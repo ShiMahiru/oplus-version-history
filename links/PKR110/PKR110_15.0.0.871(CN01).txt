@@ -1,0 +1,7 @@
+https://gauss-compotacostauto-cn.allawnfs.com/remove-a6cbe0b8c508170dd2850a35703a1a70/component-ota/25/09/20/0bc7e8aca013444a99758910a569825f.zip
+size: 7797790953
+md5: 0f44432e4b1ff820e1cd2e36da6058f7
+patch: 2025-09-01
+fp: PKR110_11.A.43_0430_202509191621
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-f05b25bfc1c1b23f8ef4a16bdcbaa6f6/component-ota/25/10/11/7bed18d7480f4b80963155a8a92fc4d4.html

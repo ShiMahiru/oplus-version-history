@@ -1,0 +1,7 @@
+https://component-ota-cn.allawntech.com/downloadCheck?c=15b6a68d26fab67ae51f0a0c15dd1703&p=a6c78fdd3752888939ced4af16c93331c676feb51b3354f383ec03b8c379079be2ec30dbe6786127ba6fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6ac95776d168017f1d6ee3&taste=1&supportDLTaste=0&mode=1&tr=manual&s=2a5b74fd53f2b6799631d2642aa92551
+size: 9650739113
+md5: 5edc06a3ecda9a130e82551172764251
+patch: 2026-08-01
+fp: PLP120_11.A.40_0400_202607300000
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-15b6a68d26fab67ae51f0a0c15dd1703/component-ota/26/08/07/fd09076ae7334fb2879b7b0b0707838a.html

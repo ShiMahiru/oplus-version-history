@@ -1,0 +1,8 @@
+https://gauss-componentotamanual.allawnofs.com/remove-1d239395468e459e75c992ca32fe5060/component-ota/24/01/15/3e26c5e64f0c45c5940c3edffcb96329.zip
+size: 6218815411
+patch: 2024-01-05
+fp: CPH2551_11.A.50_0500_202401091557
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-1d239395468e459e75c992ca32fe5060/component-ota/24/01/24/908b28bec1ab4a3681fb15def31300d7.html
+direct: https://gauss-componentotamanual.allawnofs.com/remove-1d239395468e459e75c992ca32fe5060/component-ota/24/01/15/3e26c5e64f0c45c5940c3edffcb96329.zip
+md5_pending: yes

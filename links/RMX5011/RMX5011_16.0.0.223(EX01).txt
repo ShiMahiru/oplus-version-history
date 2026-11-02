@@ -1,0 +1,8 @@
+https://component-ota-eu.allawnos.com/downloadCheck?c=5e6fd777cc90ec3e0c0c854bd7b9c7d1&p=c25c9413dbb4a25c859e36a1686dbe460ea5814ba5dc73702661d2fc55963f871c6afcf6338ad13830fe181c2077&d=851ad54c99bfa241d5d076b47975b91b5ae3d60ba797246f7975c5af5dc86d924a61afb32ddb8867&g=10eab6008d5642cf42abd2aa41f847cb&id=694513d49e207b017baa84e0&taste=0&supportDLTaste=0&s=b8e54e5e52adb5d68a479ccd8707f691
+size: 8568227081
+patch: 2025-10-01
+fp: RMX5011_11.F.53_2530_202511261602
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-5e6fd777cc90ec3e0c0c854bd7b9c7d1/component-ota/25/12/19/1a3aa82176ac46f0bcf58eaa07912611.html
+direct: https://gauss-compota-c-fr.allawnofs.com/remove-5e6fd777cc90ec3e0c0c854bd7b9c7d1/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/25/11/27/5fb5d29684cf429f92d23b8d560262cc.zip?sign=861ad7025e3d70c837ebe6af09355346&t=6ae803b2&x-oss-signature=F0c2tyY%2B%2FGfCQNPhenkWshBm6s9i8UcpmbKwUUQMJXo%3D&x-oss-signature-version=OSS2&x-oss-expires=1793591994&x-oss-access-key-id=LTAI5t7LQqPWs3796pRv6Avx
+md5_pending: yes
