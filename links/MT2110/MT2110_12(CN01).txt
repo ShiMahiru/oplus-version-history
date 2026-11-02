@@ -1,0 +1,4 @@
+https://componentota-auto-cn.allawnfs.com/component-ota/22/03/29/15e09c34889a485fa17a22702593da20.zip
+size: 229
+md5_pending: yes
+source: lian86

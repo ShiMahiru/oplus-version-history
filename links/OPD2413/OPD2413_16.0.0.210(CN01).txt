@@ -1,0 +1,4 @@
+https://component-ota-gray.coloros.com/downloadCheck?c=0f4f5e75d5b679d06ac30aef64170c98&p=a6c78cdd365588883ece8ff9109e646cc374aee3496054ff85eb00b1972051c6eceb308eb17c612eeb3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=68fedd979e207b014162d6bb&taste=1&supportDLTaste=0&s=6164676b83032c7718d81279249a1124
+size: 24
+md5_pending: yes
+source: lian86

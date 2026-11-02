@@ -1,0 +1,4 @@
+https://component-ota-cn.allawntech.com/download?c=6710a8be9a523776690d53705d8e5183&g=10eab6008d5642cf42abd2aa41f847cb&p=a6c78cdd3655888939ced8fe439931669f74ffe2193754a586be5aee957d0592bbbc60d3e52d6522bf68d3282179&s=7428de386415b01e746849ccb1cb36c9&id=690aa4a79e207b014162edec&g5=0&taste=0&supportDLTaste=0
+size: 92
+md5_pending: yes
+source: lian86

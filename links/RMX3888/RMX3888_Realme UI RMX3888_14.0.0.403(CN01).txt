@@ -1,0 +1,4 @@
+https://gauss-compotacostauto-cn.allawnfs.com/remove-be943059a4493836163ba7881be8e1f1/component-ota/24/03/01/68ebe956b380430ca786193cdb6f1951.zip
+size: 8223528760
+md5_pending: yes
+source: lian86
