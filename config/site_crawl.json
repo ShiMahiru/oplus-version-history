@@ -2357,6 +2357,14 @@
   {
    "code": "PYB110",
    "name": "一加 16"
+  },
+  {
+   "code": "PMS110",
+   "name": "一加 Ace 7 Pro"
+  },
+  {
+   "code": "PYF110",
+   "name": "一加 Ace 7"
   }
  ],
  "OPPO": [
@@ -3667,6 +3675,30 @@
   {
    "code": "RMP2108",
    "name": "Realme 平板 X"
+  },
+  {
+   "code": "RMX3115",
+   "name": "真我X7 Pro 至尊版"
+  },
+  {
+   "code": "RMX3121",
+   "name": "真我V11 5G"
+  },
+  {
+   "code": "RMX3125",
+   "name": "真我V11s 5G"
+  },
+  {
+   "code": "RMX3142",
+   "name": "Realme Q3 Pro 狂欢版"
+  },
+  {
+   "code": "RMX3361",
+   "name": "真我GT 大师版"
+  },
+  {
+   "code": "RMX3619",
+   "name": "真我V30"
   }
  ],
  "iQOO": [

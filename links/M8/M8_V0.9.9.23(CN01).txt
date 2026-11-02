@@ -1,0 +1,4 @@
+https://download.meizu.com/Firmware/M8/xip_0.9.9.23.zip
+size: 79830763
+md5_pending: yes
+source: lian86

@@ -1,0 +1,4 @@
+https://gauss-compota-c-cn.allawnfs.com/remove-c2066f39bb77545db288a7fd8e2715d4/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/07/20/0e89c1ae57b44c8bb7f8d48a67d3fb6d.zip?sign=6e85761594d674900b8bda9a23b0486c&t=6ae8647b&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793616771&Signature=3w6JBxAxOQkfjaFvd4fr9gIMvF4%3D
+size: 150
+md5_pending: yes
+source: lian86

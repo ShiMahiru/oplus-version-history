@@ -1,0 +1,4 @@
+https://gauss-opexcostmanual-in.allawnofs.com/remove-f17b23de76c0ad6496774e8f57bd1075/component-ota/25/04/14/96270e2b59d84bc18eaa23b72ce81c7c.zip
+size: 5964625988
+md5_pending: yes
+source: lian86

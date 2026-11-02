@@ -1,0 +1,4 @@
+https://download.c.realme.com/osupdate/RMX1991_11_OTA_1230_all_KpOMv8xayLKp.ozip
+size: 3241394698
+md5_pending: yes
+source: lian86

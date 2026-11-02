@@ -1,0 +1,4 @@
+https://sysuptxdl.vivo.com.cn/upgrade/oem/files/202602282133136f1b454a1895bb8dd8c1ece2ae48b9f7.zip
+size: 7502388479
+md5_pending: yes
+source: lian86

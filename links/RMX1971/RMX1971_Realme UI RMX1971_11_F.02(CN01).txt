@@ -1,0 +1,4 @@
+https://gauss-otacostmanual-cn.allawnfs.com/remove-2db1fd7f9aa3ae7dfc853eb0cfd5d4a1/ota/21/07/17/ac3c37fb-0ffb-4695-a712-31217cdc43ae.ozip
+size: 3572666739
+md5_pending: yes
+source: lian86

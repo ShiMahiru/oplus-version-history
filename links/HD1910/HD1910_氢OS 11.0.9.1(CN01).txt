@@ -1,0 +1,4 @@
+https://gauss-otacostauto-cn.allawnfs.com/remove-7b02eb21d82292c09c905de1ba7e1a08/ota/22/06/20/e168edbf-923a-45cf-a7f8-42473af042eb.zip
+size: 3953231370
+md5_pending: yes
+source: lian86

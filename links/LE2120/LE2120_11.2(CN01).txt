@@ -1,0 +1,4 @@
+https://componentota-auto-cn.allawnfs.com/component-ota/21/09/08/b85a95f64ee0410d96510abd46880e0a.zip
+size: 4050159765
+md5: 35289b9b809cfbd0b7d94dc2d0bc0d5d
+source: lian86

@@ -1,0 +1,4 @@
+https://download.meizu.com/Firmware/Flyme/1.1.3_9847/7991384b/M9/update.bin
+size: 100310036
+md5_pending: yes
+source: lian86

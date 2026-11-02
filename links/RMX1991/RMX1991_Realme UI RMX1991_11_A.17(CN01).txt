@@ -1,0 +1,4 @@
+https://gauss-componentotacostmanual-cn.allawnfs.com/RMX1991/RMX1991_11.A.17_0170_202003092344/patch/CHN/RMX1991/RMX1991_11.A.17_0170_202003092344/RMX1991_11_OTA_0170_all_lqztkqOQRoa1_2b61b561d1ef743.ozip
+size: 162
+md5_pending: yes
+source: lian86
