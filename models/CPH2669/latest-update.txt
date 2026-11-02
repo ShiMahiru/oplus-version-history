@@ -4,6 +4,5 @@
 版本名称: CPH2669_14.0.1.2252(EX01)
 Android 版本: Android 14
 ColorOS 版本: CPH2669_14.0.1.2252(EX01)
-安全补丁: 2026-05-01
 发布时间: 1780480544308
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-d145da99ca36db66388d50bbb698a507/component-ota/26/05/21/e9a1cf9a27d445c3becf44d19644f2f1.zip

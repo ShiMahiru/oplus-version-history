@@ -4,6 +4,5 @@
 版本名称: RMX3852_14.0.1.618(CN01)
 Android 版本: Android 14
 ColorOS 版本: RMX3852_14.0.1.618(CN01)
-安全补丁: 2024-10-05
 发布时间: 1741076472949
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1af5b0086345b244b4a17f3200504329/component-ota/25/01/24/17ff6a318ff447b680cc17b704738da2.zip

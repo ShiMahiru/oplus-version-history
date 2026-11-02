@@ -4,6 +4,5 @@
 版本名称: PMT110_16.0.9.400(CN01)
 Android 版本: Android 16
 ColorOS 版本: PMT110_16.0.9.400(CN01)
-安全补丁: 2026-07-01
 发布时间: 1786095172882
 ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=8fd9a2ccbc9d63f72f8f73270f4ebf37&p=a6c78fdd375288883ace88fb459f35619078f8e74d6e54f7d1ec03bd922c05c6edbe3489b6703476b96fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a754bbb92ce7c01806f5dcd&taste=0&supportDLTaste=0&mode=1&tr=manual&s=34553db09628f3c9de34250e92e749b3

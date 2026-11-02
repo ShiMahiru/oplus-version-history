@@ -4,6 +4,5 @@
 版本名称: CPH2565_13.1.1.582(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2565_13.1.1.582(EX01)
-安全补丁: 2024-03-05
 发布时间: 1712018633928
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-b192700b6425e58237275f5f66d96798/component-ota/24/03/14/1f821dec57a64514a816d36943169df2.zip

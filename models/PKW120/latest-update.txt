@@ -4,6 +4,5 @@
 版本名称: PKW120_15.0.1.1201(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKW120_15.0.1.1201(CN01)
-安全补丁: 2026-01-01
 发布时间: 1769768322723
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f5d6d0a1ea4105c847b5fd5362a48ee7/component-ota/26/01/07/0b043f68e50b42e1aeaec6d9327615e7.zip

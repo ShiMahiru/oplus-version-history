@@ -4,6 +4,5 @@
 版本名称: CPH2789_16.0.5.1200(EX01)
 Android 版本: Android 16
 ColorOS 版本: CPH2789_16.0.5.1200(EX01)
-安全补丁: 2026-08-01
 发布时间: 1788782836040
 ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=1e9bbfa6d922a942d63367e92a5fbbdb&p=f088224e00631389a6bc900015638062417944922b33c0e07d49c6889ec5866717b63148fd5326e2460c452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a7be0ed92ce7c01806f64e9&taste=0&supportDLTaste=0&mode=1&tr=manual&s=d504509f90cd9b4d585eab2ed0ef1fae

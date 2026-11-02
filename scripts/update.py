@@ -532,7 +532,6 @@ def write_latest(model, info):
         f"版本名称: {info.get('version','')}",
         f"Android 版本: {info.get('android','') or 'Android' + info.get('android','')}",
         f"ColorOS 版本: {info.get('version','')}",
-        f"安全补丁: {info.get('patch','')}",
         f"发布时间: {info.get('published','')}",
         f"ROM 下载链接: {info.get('url','')}",
         "",

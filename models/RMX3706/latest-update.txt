@@ -4,6 +4,5 @@
 版本名称: RMX3706_13.1.0.118(SP01CN01)
 Android 版本: Android 13
 ColorOS 版本: RMX3706_13.1.0.118(SP01CN01)
-安全补丁: 2023-10-05
 发布时间: 1705331756699
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-acc663e60a4c67ceb3b2f57e2d3c44c2/component-ota/23/11/22/a0804b7122024c1cb271d50ad9d7b6fd.zip

@@ -4,6 +4,5 @@
 版本名称: CPH2697_15.0.0.703(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2697_15.0.0.703(EX01)
-安全补丁: 2025-04-01
 发布时间: 1744300009873
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a86e08ff7d458e586d95e4e4c9d3e7af/component-ota/25/03/29/c273bbf65de6445bbc3572ecdba2fca1.zip

@@ -4,6 +4,5 @@
 版本名称: CPH2521_13.1.1.408(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2521_13.1.1.408(EX01)
-安全补丁: 2023-11-05
 发布时间: 1700747942491
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-be27d094967527a7fff3404c55364bc5/component-ota/23/11/07/9bcc2a8dd94f449f8a2c4d67bd245277.zip

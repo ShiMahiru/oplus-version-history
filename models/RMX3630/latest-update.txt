@@ -4,6 +4,5 @@
 版本名称: RMX3630_11_A.30
 Android 版本: Android 12
 ColorOS 版本: RMX3630_11_A.30
-安全补丁: 2023-04-05
 发布时间: 1683618809648
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0552deb915458f33146a83400348ca4b/component-ota/23/04/21/9d67ae9f731d44a4b7fde208e28fae64.zip

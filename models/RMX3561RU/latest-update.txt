@@ -4,6 +4,5 @@
 版本名称: RMX3561_11_A.16
 Android 版本: Android 12
 ColorOS 版本: RMX3561_11_A.16
-安全补丁: 2022-09-05
 发布时间: 1664961470381
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-52eff72240a9c5e2a47d460473c30ea2/component-ota/22/09/28/52164384ddb748709d19cdf9177aa2d3.zip

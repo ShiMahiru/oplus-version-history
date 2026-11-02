@@ -4,6 +4,5 @@
 版本名称: OPD2305_13.2.0.422(EX01)
 Android 版本: Android 13
 ColorOS 版本: OPD2305_13.2.0.422(EX01)
-安全补丁: 2024-04-05
 发布时间: 1716807370146
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-221b5f51fbde25eb47c40f8929f802c0/component-ota/24/05/13/54b690b2ae604fe2aa0d4a37e309df79.zip

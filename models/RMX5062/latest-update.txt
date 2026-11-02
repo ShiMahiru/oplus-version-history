@@ -4,6 +4,5 @@
 版本名称: RMX5062_15.0.1.971(CN01)
 Android 版本: Android 15
 ColorOS 版本: RMX5062_15.0.1.971(CN01)
-安全补丁: 2025-09-01
 发布时间: 1759195960703
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ee5b26f7672b4d75488922e5659a1d1d/component-ota/25/09/12/1665bb4be9c543a5b7cee79e959f7357.zip

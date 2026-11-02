@@ -4,6 +4,5 @@
 版本名称: PKS110_15.0.0.701(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKS110_15.0.0.701(CN01)
-安全补丁: 2025-03-01
 发布时间: 1747051821940
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-248bddccc03212ba0203a80ff913b95b/component-ota/25/04/01/c897cee950b149fa8bf247b9300c8828.zip

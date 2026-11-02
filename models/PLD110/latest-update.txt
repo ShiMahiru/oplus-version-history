@@ -4,6 +4,5 @@
 版本名称: PLD110_15.0.1.810(CN01)
 Android 版本: Android 15
 ColorOS 版本: PLD110_15.0.1.810(CN01)
-安全补丁: 2025-11-01
 发布时间: 1764324015377
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0683fbeee3467e898a879044838bbe38/component-ota/25/11/10/27998a4ab71d46e9816cc5cf450b8230.zip

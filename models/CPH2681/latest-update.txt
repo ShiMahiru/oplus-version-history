@@ -4,7 +4,6 @@
 版本名称: CPH2681_15.0.0.1705(EX01)
 Android 版本: 
 ColorOS 版本: CPH2681_15.0.0.1705(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0746afe8a1ab872e5bc5fb415637a2c2/component-ota/26/08/24/aa85f22daea44c188fdba973771bffa9.zip
 

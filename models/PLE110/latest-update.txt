@@ -4,6 +4,5 @@
 版本名称: PLE110_15.0.2.701(CN01)
 Android 版本: Android 15
 ColorOS 版本: PLE110_15.0.2.701(CN01)
-安全补丁: 2025-10-01
 发布时间: 1760509118706
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-87004abed74095ac5394968220ad039c/component-ota/25/09/25/7100d8628a8b4286a4defb62452a630f.zip

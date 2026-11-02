@@ -4,6 +4,5 @@
 版本名称: RMX3286_11_A.58
 Android 版本: Android 11.0
 ColorOS 版本: RMX3286_11_A.58
-安全补丁: 2022-06-05
 发布时间: 1657529243254
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-4167b9c287130fe3def072e91b865e46/component-ota/22/06/28/83de201bb916480482199f4d6d8de837.zip

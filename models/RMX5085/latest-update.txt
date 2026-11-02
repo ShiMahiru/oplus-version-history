@@ -4,6 +4,5 @@
 版本名称: RMX5085_15.0.0.817(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX5085_15.0.0.817(EX01)
-安全补丁: 2025-04-01
 发布时间: 1749638722716
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-e7b711423f45ad8c34c233e3b6d54bcc/component-ota/25/05/27/65675095eb7d4d3fb83876379c928c6c.zip

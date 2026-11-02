@@ -4,6 +4,5 @@
 版本名称: CPH2387_11_A.32
 Android 版本: Android 12
 ColorOS 版本: CPH2387_11_A.32
-安全补丁: 2023-05-05
 发布时间: 1685409742462
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-424112b3754b5e900e8a39d90f6a4599/component-ota/23/05/15/878945327827458cbec3b631081d22a7.zip

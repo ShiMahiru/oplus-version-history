@@ -4,6 +4,5 @@
 版本名称: PJW110_14.1.0.430(CN01)
 Android 版本: Android 14
 ColorOS 版本: PJW110_14.1.0.430(CN01)
-安全补丁: 2024-12-05
 发布时间: 1735124992086
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-67d7415755894b9816fca371b427d214/component-ota/24/12/11/100d567b5fd1493980734e7c6bda4758.zip

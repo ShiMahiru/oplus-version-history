@@ -4,6 +4,5 @@
 版本名称: PGGM10_11_A.06
 Android 版本: Android 12
 ColorOS 版本: PGGM10_11_A.06
-安全补丁: 2023-01-05
 发布时间: 1675244254716
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8f617341aecb90633f762ce18c3d284f/component-ota/22/12/30/01d0360927be4069b356e89ac4c13d5e.zip

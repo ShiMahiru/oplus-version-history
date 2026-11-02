@@ -4,6 +4,5 @@
 版本名称: PHB110_13.1.0.196(CN01)
 Android 版本: Android 13
 ColorOS 版本: PHB110_13.1.0.196(CN01)
-安全补丁: 2023-10-05
 发布时间: 1699620179205
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-987678466647153cce25d19a138fe095/component-ota/23/10/23/3139a5770e414640ad62f5406b5b9e26.zip

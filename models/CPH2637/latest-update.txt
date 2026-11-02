@@ -4,6 +4,5 @@
 版本名称: CPH2637_14.0.1.1201(EX01)
 Android 版本: Android 14
 ColorOS 版本: CPH2637_14.0.1.1201(EX01)
-安全补丁: 2024-11-05
 发布时间: 1731151280113
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-cf65fe9f3435b0b7ac33edcb2ce36cbd/component-ota/24/10/30/4da7cf24f18b4c64a541ba62ae5c9cf5.zip

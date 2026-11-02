@@ -4,7 +4,6 @@
 版本名称: CPH2573_16.0.10.501(EX01)
 Android 版本: 
 ColorOS 版本: CPH2573_16.0.10.501(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=de4332f267d881eced709bcd7fb52b8f&p=a50845bd67478545c76042406e1b74857d8d4df5174644330370debef5c4d8d45f0cfec397cad3acb5094b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9a214992ce7c01836a56ba&taste=0&supportDLTaste=0&mode=1&tr=manual&s=79a1a449a0fd94855e4c090cc6018a7b
 

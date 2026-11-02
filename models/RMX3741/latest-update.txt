@@ -4,6 +4,5 @@
 版本名称: RMX3741_13.1.0.549(EX01)
 Android 版本: Android 13
 ColorOS 版本: RMX3741_13.1.0.549(EX01)
-安全补丁: 2023-12-05
 发布时间: 1704349202545
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f8ed4d227e8a5bf4d3ed2d1d22b1c1a2/component-ota/23/12/22/9ca7806f64a646f9935f0e955e493ed3.zip

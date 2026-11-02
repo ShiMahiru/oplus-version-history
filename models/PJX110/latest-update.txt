@@ -4,6 +4,5 @@
 版本名称: PJX110_14.1.0.510(CN01)
 Android 版本: Android 14
 ColorOS 版本: PJX110_14.1.0.510(CN01)
-安全补丁: 2024-10-05
 发布时间: 1731939164685
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-be75ad2c768d42cf63b69ec84dd9af45/component-ota/24/10/24/bbfc4e2fcf734aab874d6787d15d558b.zip

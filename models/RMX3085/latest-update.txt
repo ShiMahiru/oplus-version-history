@@ -4,6 +4,5 @@
 版本名称: RMX3085_11_A.26
 Android 版本: Android 11
 ColorOS 版本: RMX3085_11_A.26
-安全补丁: 2022-02-05
 发布时间: 1648280029397
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-7404cc9492d9c52a8037f9bbbb45be41/component-ota/22/03/17/bf563c6c607246d48697b7875591a7cd.zip

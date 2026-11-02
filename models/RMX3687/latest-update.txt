@@ -4,6 +4,5 @@
 版本名称: RMX3687_11_A.36
 Android 版本: Android 13
 ColorOS 版本: RMX3687_11_A.36
-安全补丁: 2023-12-05
 发布时间: 1705060059665
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-50a966ffbf5a083996aaa4b97f05ef89/component-ota/23/12/07/8fa536d13e53424ba5f4c1bdd4918f89.zip

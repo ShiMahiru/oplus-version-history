@@ -4,6 +4,5 @@
 版本名称: RMX3388_11_F.10
 Android 版本: Android 13
 ColorOS 版本: RMX3388_11_F.10
-安全补丁: 2024-03-05
 发布时间: 1712470241342
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-144f40d219186a50518d4c54df45e477/component-ota/24/03/04/84fb7b812ace4803b8a253a67a486b3c.zip

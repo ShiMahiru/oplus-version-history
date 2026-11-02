@@ -4,6 +4,5 @@
 版本名称: CPH2651_15.0.0.863(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2651_15.0.0.863(EX01)
-安全补丁: 2025-10-01
 发布时间: 1760100364879
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a13e0a3ba4e03d88c2492381e2beccf9/component-ota/25/10/06/cd0e6b1aaa724087bd8c8d45309242c7.zip

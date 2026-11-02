@@ -4,6 +4,5 @@
 版本名称: CPH2415_11_A.12
 Android 版本: Android 12
 ColorOS 版本: CPH2415_11_A.12
-安全补丁: 2022-11-05
 发布时间: 1669282807468
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-b39af09099beb0386f9d21ee7f02391a/component-ota/22/11/03/1a4e2bb5a20a42f9be031752e2131ca2.zip

@@ -4,6 +4,5 @@
 版本名称: PGAM10_11_A.21
 Android 版本: Android 12
 ColorOS 版本: PGAM10_11_A.21
-安全补丁: 2022-12-05
 发布时间: 1729406303089
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-195e0a4be8281dcbee8e4c59ccb8820e/component-ota/22/12/29/8966415909fe47d39a183f961981ebc6.zip

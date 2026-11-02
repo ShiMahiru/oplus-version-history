@@ -4,6 +4,5 @@
 版本名称: RMX3842_14.0.0.1501(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX3842_14.0.0.1501(EX01)
-安全补丁: 2024-10-05
 发布时间: 1730718408950
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-60a29fceb4e1a5f4d24ccfeddf8eba6f/component-ota/24/10/12/c61a7e5a22024608b14c4f044f50d5a0.zip

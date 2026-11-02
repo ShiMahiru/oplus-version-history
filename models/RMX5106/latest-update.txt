@@ -4,6 +4,5 @@
 版本名称: RMX5106_15.0.2.710(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX5106_15.0.2.710(EX01)
-安全补丁: 2025-11-01
 发布时间: 1764897656692
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-edf5a45a0e478fe64d308ae1d0d4f4e0/component-ota/25/11/20/2e56ceee061f481e87cc93c284e1e4d3.zip

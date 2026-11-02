@@ -4,6 +4,5 @@
 版本名称: RMX3430_11_A.13
 Android 版本: Android 11
 ColorOS 版本: RMX3430_11_A.13
-安全补丁: 2022-05-05
 发布时间: 1653379162014
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-e30bc7eafb693164a4fd489dfb5200b4/component-ota/22/05/09/1c6e8925216643cf975042ad885b5173.zip

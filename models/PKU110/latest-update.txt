@@ -4,6 +4,5 @@
 版本名称: PKU110_15.0.1.622(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKU110_15.0.1.622(CN01)
-安全补丁: 2025-09-01
 发布时间: 1760191167068
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5eade0ba46cd15275c4b145f0367e733/component-ota/25/09/20/0fa339d521154e34ac7e3e346f8b51b1.zip

@@ -515,9 +515,24 @@ for b in site["brands"]:
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
 # ── 分片输出：index.json（首页/品牌页）+ versions/{code}.json（机型页）
+# 安全补丁 / ARB / 编译日期：不再输出（用户不需要）——放在写分片之前
+_DROP_META = ("securityPatch", "buildDate", "arb", "arbStatus", "arbMajor", "arbMinor", "arbNote")
+for _b in site["brands"]:
+    for _m in _b["models"]:
+        for _v in _m["versions"]:
+            _meta = _v.get("meta")
+            if isinstance(_meta, dict):
+                for _k in _DROP_META:
+                    _meta.pop(_k, None)
+                if not _meta:
+                    _v.pop("meta", None)
+
 IDX_DIR = os.path.join(ROOT, "site")
 VER_DIR = os.path.join(ROOT, "site", "versions")
 os.makedirs(VER_DIR, exist_ok=True)
+for _old in os.listdir(VER_DIR):
+    if _old.endswith(".json"):
+        os.remove(os.path.join(VER_DIR, _old))
 
 index = {"brands": [], "generated": site.get("generated", "")}
 for b in site["brands"]:
@@ -531,11 +546,6 @@ for b in site["brands"]:
             "name": m["name"],
             "n": len(vs),
             "latest": latest.get("version", ""),
-            "patch": lm.get("securityPatch", ""),
-            "date": lm.get("buildDate", ""),
-            "arb": lm.get("arb"),
-            "platform": lm.get("platform", ""),
-            "arbStatus": lm.get("arbStatus", ""),
         })
         # 单机型文件
         payload = {"code": m["code"], "name": m["name"], "brand": b["key"], "versions": vs}

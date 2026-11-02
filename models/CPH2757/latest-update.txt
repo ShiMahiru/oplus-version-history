@@ -4,7 +4,6 @@
 版本名称: CPH2757_16.0.5.1201(EX01)
 Android 版本: 
 ColorOS 版本: CPH2757_16.0.5.1201(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=773f81afa323843f9dddbdd701e64f98&p=a50845bd67488546c06041476d4922d27eda1aac134f4466577585e9f6c3dad35f5ca59297ca87f6ec0b4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a8cea0576d168017ee7cedf&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f5a3c88b41cc378c02fa95a89c113d7b
 

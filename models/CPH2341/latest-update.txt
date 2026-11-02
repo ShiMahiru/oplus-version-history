@@ -4,6 +4,5 @@
 版本名称: CPH2341_11_A.13
 Android 版本: Android 11
 ColorOS 版本: CPH2341_11_A.13
-安全补丁: 2022-05-05
 发布时间: 1654585034597
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-cef3294ac693e3dac0486b722ff6673a/component-ota/22/05/27/259a257512e74d8ba93dcc0507c5e74c.zip

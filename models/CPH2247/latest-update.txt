@@ -4,6 +4,5 @@
 版本名称: CPH2247_11_A.15
 Android 版本: Android 11
 ColorOS 版本: CPH2247_11_A.15
-安全补丁: 2021-11-05
 发布时间: 1637726834675
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-12ebba89b51de522e3822c1fa49f5667/component-ota/21/11/12/0e028bd4c2854beaa031c46d94656813.zip

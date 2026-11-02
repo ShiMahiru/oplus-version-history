@@ -4,6 +4,5 @@
 版本名称: OPD2402_14.1.0.601(EX01)
 Android 版本: Android 14
 ColorOS 版本: OPD2402_14.1.0.601(EX01)
-安全补丁: 2024-10-05
 发布时间: 1730969356536
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-db0626b8342d0bb9715e1e4825df1120/component-ota/24/10/31/a25efb187b234056b9d7efe6bbfc3537.zip

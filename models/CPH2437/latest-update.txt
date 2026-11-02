@@ -4,6 +4,5 @@
 版本名称: CPH2437_13.1.0.600(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2437_13.1.0.600(EX01)
-安全补丁: 2023-10-05
 发布时间: 1699277357138
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f1ae0cc70515c31fa74d3643a03463e8/component-ota/23/10/23/bc899d71443d42f99af4da71f047317c.zip

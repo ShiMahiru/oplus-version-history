@@ -4,7 +4,6 @@
 版本名称: CPH2551_16.0.5.1301(EX01)
 Android 版本: 
 ColorOS 版本: CPH2551_16.0.5.1301(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=267050a5cb17de807232353bcbea0e37&p=a50845bd67468545c5601412394b268279df1ef9174f446d047085bfa7c38d810e5aa5c597c6d3feb50c4b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6ab4fffa76d168017ee7fc85&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ada44ff06b542ba1f0bf1eeda54f03ba
 

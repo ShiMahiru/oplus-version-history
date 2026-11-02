@@ -4,6 +4,5 @@
 版本名称: RMX3853_14.0.1.613(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX3853_14.0.1.613(EX01)
-安全补丁: 2024-10-05
 发布时间: 1730091781030
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0ca1cc099b078552059c34cda4aea96e/component-ota/24/09/29/cd2f7a3b5a3545e29965c26c79af418e.zip

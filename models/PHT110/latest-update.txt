@@ -4,6 +4,5 @@
 版本名称: PHT110_13.2.0.300(CN01)
 Android 版本: Android 13
 ColorOS 版本: PHT110_13.2.0.300(CN01)
-安全补丁: 2024-01-05
 发布时间: 1705407160969
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-86a321acd090755335b1ef7e7b5c4a6d/component-ota/24/01/05/9cf8ffcc09d1420ba1d24b6a858de109.zip

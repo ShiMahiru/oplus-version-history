@@ -4,6 +4,5 @@
 版本名称: RMX3988_14.1.0.630(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX3988_14.1.0.630(EX01)
-安全补丁: 2024-10-05
 发布时间: 1730710799653
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-19580a589cec6735943065344ce8d265/component-ota/24/10/24/8e0e8a93a1f547ddb6903ca4b7cc5101.zip

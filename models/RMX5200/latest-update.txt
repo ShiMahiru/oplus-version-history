@@ -4,6 +4,5 @@
 版本名称: RMX5200_16.0.10.501(CN01)
 Android 版本: Android 16
 ColorOS 版本: RMX5200_16.0.10.501(CN01)
-安全补丁: 2026-08-01
 发布时间: 1790696523436
 ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=a63974709ec05dc4fca4d381674a4efd&p=a6c78fdd375c888b39cedaaa439d65609677a8e5493754fe8ced00b9902f53c6efbe61d2e62e3876e93bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6abbdac392ce7c01836a79a4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6ae2efc080dfada6fcb997a227719bd9

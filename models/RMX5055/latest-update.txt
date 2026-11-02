@@ -4,6 +4,5 @@
 版本名称: RMX5055_15.0.0.1010(CN01)
 Android 版本: Android 15
 ColorOS 版本: RMX5055_15.0.0.1010(CN01)
-安全补丁: 2025-05-01
 发布时间: 1753687452959
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0a547df98e50401bf9687081bb88ef51/component-ota/25/05/26/7a3630eefa81400cad7029e17eb0ddd6.zip

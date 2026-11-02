@@ -4,6 +4,5 @@
 版本名称: PHY120_14.0.1.790(CN01)
 Android 版本: Android 14
 ColorOS 版本: PHY120_14.0.1.790(CN01)
-安全补丁: 2024-10-05
 发布时间: 1730296246564
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d741d95219961a90cad242e2e7a9c022/component-ota/24/10/10/2a3adb324b404917a5cf6779f2467967.zip

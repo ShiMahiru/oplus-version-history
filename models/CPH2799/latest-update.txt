@@ -4,6 +4,5 @@
 版本名称: CPH2799_15.0.2.906(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2799_15.0.2.906(EX01)
-安全补丁: 2026-02-01
 发布时间: 1772636268614
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-6254df5e9110a37da57c93e0e9254677/component-ota/26/02/24/fff965c6609f4ce78fb4414616b02dfc.zip

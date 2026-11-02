@@ -48,6 +48,15 @@ for b in site["brands"]:
                     v0["meta"]["arbMajor"] = arb.get("major")
                     v0["meta"]["arbMinor"] = arb.get("minor")
 
+# 安全补丁 / ARB / 编译日期：不再输出
+for _b in site["brands"]:
+    for _m in _b["models"]:
+        for _v in _m["versions"]:
+            _meta = _v.get("meta")
+            if isinstance(_meta, dict):
+                for _k in ("securityPatch", "buildDate", "arb", "arbStatus", "arbMajor", "arbMinor"):
+                    _meta.pop(_k, None)
+
 json.dump(site, open(os.path.join(ROOT, "site", "site.json"), "w"), ensure_ascii=False, separators=(",", ":"))
 
 total_arb_ver = 0

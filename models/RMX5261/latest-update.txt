@@ -4,7 +4,6 @@
 版本名称: RMX5261_16.0.5.1213(EX01)
 Android 版本: 
 ColorOS 版本: RMX5261_16.0.5.1213(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=f588905ac9dfdd5bf617a468d939b051&p=a50845bd67478546c160114e3f4c27d87fdf11ab47424464062184eef691dbd30c51a4c29599d6f9e3084b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6aa7c1f376d168017ee7ecc7&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f474e9ec12a1bfe85874c15df0d2de93
 

@@ -4,6 +4,5 @@
 版本名称: RMX5050_15.0.0.1034(CN01)
 Android 版本: Android 15
 ColorOS 版本: RMX5050_15.0.0.1034(CN01)
-安全补丁: 2025-11-01
 发布时间: 1765270646549
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2a141c1c36ffb669ad6d15bbf131a641/component-ota/25/11/18/9e32da885553417ab7c3b439b3d24903.zip

@@ -4,6 +4,5 @@
 版本名称: RMX3785_13.2.0.530(EX01)
 Android 版本: Android 13
 ColorOS 版本: RMX3785_13.2.0.530(EX01)
-安全补丁: 2024-03-05
 发布时间: 1717649656399
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-18ca164bf391666aa7a64424b5d80393/component-ota/24/03/26/4d1ec100dda94b488e0cf53f0137a4c7.zip

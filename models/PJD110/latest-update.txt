@@ -4,6 +4,5 @@
 版本名称: PJD110_14.0.0.860(CN01)
 Android 版本: Android 14
 ColorOS 版本: PJD110_14.0.0.860(CN01)
-安全补丁: 2024-10-05
 发布时间: 1730339388888
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-45870af145351eb42b81a777ac70d407/component-ota/24/10/09/233fa60caa38462e97b29bfa8bc0c0e2.zip

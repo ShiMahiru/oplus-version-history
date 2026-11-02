@@ -4,6 +4,5 @@
 版本名称: RMX2202_11_A.17
 Android 版本: Android 11
 ColorOS 版本: RMX2202_11_A.17
-安全补丁: 2021-12-05
 发布时间: 1640910918917
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-28a7c6f4fe3a6901e19c22bf80e6d356/component-ota/21/12/08/3a36053c02eb4446ac0b3faf5c19781f.zip

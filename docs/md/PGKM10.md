@@ -2,7 +2,7 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PGKM10/latest-update.txt>) · [降级包原始档](<../../downgrade/PGKM10.txt>)
 
-**oneplus / CN** · 最新版本 `PGKM10_11_A.23` · OTA `PGKM10_11.A.23_0230_202212130857` · Android 12 · 安全补丁 2022-11-05
+**oneplus / CN** · 最新版本 `PGKM10_11_A.23` · OTA `PGKM10_11.A.23_0230_202212130857` · Android 12
 
 版本记录 **38** 条 · 有官方链接 **32** 条 · 有更新日志 **7** 份
 

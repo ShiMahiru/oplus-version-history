@@ -4,6 +4,5 @@
 版本名称: RMX3392_11_A.14
 Android 版本: Android 12
 ColorOS 版本: RMX3392_11_A.14
-安全补丁: 2022-10-05
 发布时间: 1666682542930
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-97904a814749c743d913296e8641c94a/component-ota/22/10/19/c31025c3a26445a6810d295fa01cca67.zip

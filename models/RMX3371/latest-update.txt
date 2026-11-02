@@ -4,6 +4,5 @@
 版本名称: RMX3371_11_A.08
 Android 版本: Android 12
 ColorOS 版本: RMX3371_11_A.08
-安全补丁: 2022-08-05
 发布时间: 1663122615828
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-456013cebf5a21ee95648f7ff515795b/component-ota/22/08/29/1316c63ce3d547bd92cd8b93492e7cb3.zip

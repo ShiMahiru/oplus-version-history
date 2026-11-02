@@ -4,6 +4,5 @@
 版本名称: RMX3661_11_A.69
 Android 版本: Android 13
 ColorOS 版本: RMX3661_11_A.69
-安全补丁: 2023-12-05
 发布时间: 1703484723579
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-bb6bd76161a1ce49e9d1870387527499/component-ota/23/12/07/fe564c796ca64b66bed728d46bd99450.zip

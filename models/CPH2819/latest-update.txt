@@ -4,6 +4,5 @@
 版本名称: CPH2819_15.0.2.904(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2819_15.0.2.904(EX01)
-安全补丁: 2026-01-01
 发布时间: 1769043262978
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-4237d108e4b89ee1c5a9316b3c52ab80/component-ota/26/01/07/71a575485fc94b0a8a65add93bbe3dd9.zip

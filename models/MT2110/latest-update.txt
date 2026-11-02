@@ -4,6 +4,5 @@
 版本名称: MT2110_11_A.14
 Android 版本: Android 11
 ColorOS 版本: MT2110_11_A.14
-安全补丁: 2022-06-05
 发布时间: 1655973409782
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f6760ff10fbd1b587e10f82f6fc79d2e/component-ota/22/06/07/1ad9ccdf77be4945a3d5aafbf0f69789.zip

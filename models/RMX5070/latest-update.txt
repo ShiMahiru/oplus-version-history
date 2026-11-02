@@ -4,6 +4,5 @@
 版本名称: RMX5070_15.0.0.690(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX5070_15.0.0.690(EX01)
-安全补丁: 2025-05-01
 发布时间: 1751006770835
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-4f36681235acce437dac7e5a71fb788f/component-ota/25/05/22/f64bd07f99b84aea9395254b207e1f0f.zip

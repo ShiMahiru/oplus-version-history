@@ -4,6 +4,5 @@
 版本名称: CPH2577_13.1.1.555(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2577_13.1.1.555(EX01)
-安全补丁: 2024-03-05
 发布时间: 1712018743376
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0d7dae3a693081fd149aa6a3e430452d/component-ota/24/03/07/50203dce7b66444d99791ecf8baaddac.zip

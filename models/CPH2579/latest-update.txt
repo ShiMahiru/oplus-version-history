@@ -4,6 +4,5 @@
 版本名称: CPH2579_13.1.1.633(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2579_13.1.1.633(EX01)
-安全补丁: 2024-03-05
 发布时间: 1712187071677
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a1e50b56d63a5f187472930e2df846cf/component-ota/24/03/08/bcf67ff5f5f743838460ea3468bd8b3b.zip

@@ -4,7 +4,6 @@
 版本名称: RMX5003_16.0.5.1010(EX01)
 Android 版本: 
 ColorOS 版本: RMX5003_16.0.5.1010(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://component-ota-in.allawnos.com/downloadCheck?c=124dc5671361b12271e184cd84e682d7&p=a50845bd67478546c7601040691926d4798b1df54c134465567384bea6c6ded50c08f395c5c7d1f8e6074b74ea1d&d=e24e07e22445855b932e52052f52278f209846b9145b1378092d92bda8cc8d925706a085dd9cdfa3&g=10eab6008d5642cf42abd2aa41f847cb&id=6a9f89e592ce7c01836a5b0a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=765631304a1cf71b8ae4396aadba34cb
 

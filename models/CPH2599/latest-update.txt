@@ -4,6 +4,5 @@
 版本名称: CPH2599_14.0.0.705(EX01)
 Android 版本: Android 14
 ColorOS 版本: CPH2599_14.0.0.705(EX01)
-安全补丁: 2024-11-05
 发布时间: 1734005086189
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-ef4f0a87515603ca7bd2571ac76ffe84/component-ota/24/11/22/17a407be12e749859644515c21417da3.zip

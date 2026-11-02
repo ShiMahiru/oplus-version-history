@@ -4,6 +4,5 @@
 版本名称: PGFM10_13.1.0.171(CN01)
 Android 版本: Android 13
 ColorOS 版本: PGFM10_13.1.0.171(CN01)
-安全补丁: 2023-10-05
 发布时间: 1727074508812
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c239b16493c9e4df5da526a8c739905f/component-ota/23/11/14/a8cb431f1975450199b820acf2047efc.zip

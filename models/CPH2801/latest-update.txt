@@ -4,6 +4,5 @@
 版本名称: CPH2801_16.0.5.1000(EX01)
 Android 版本: Android 16
 ColorOS 版本: CPH2801_16.0.5.1000(EX01)
-安全补丁: 2026-06-01
 发布时间: 1782481482900
 ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=0998274cb7c356d9fc1cf9234bec4406&p=f088224e006d1388a1bc93001631d335437e1294783ec0ed7e199dd698c5d1341ab1654efc557cb5105e452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a3de024007ddc01813dfa52&taste=0&supportDLTaste=0&mode=1&tr=manual&s=835a82dec6d7fdda6cc284ab3def6178

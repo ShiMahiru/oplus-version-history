@@ -4,6 +4,5 @@
 版本名称: RMX3992_14.0.1.512(CN01)
 Android 版本: Android 14
 ColorOS 版本: RMX3992_14.0.1.512(CN01)
-安全补丁: 2024-08-05
 发布时间: 1726626528468
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b8b2a6bd6843294c70a80bbecb4b061f/component-ota/24/08/23/68a935c8d3574e2f952433e42306894a.zip

@@ -4,6 +4,5 @@
 版本名称: PKW110_15.0.1.1201(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKW110_15.0.1.1201(CN01)
-安全补丁: 2026-01-01
 发布时间: 1769768322434
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f1e5f4f57210c994692596a609facb0f/component-ota/26/01/07/ad0693467ff342be88f4ecf2a3a87f79.zip

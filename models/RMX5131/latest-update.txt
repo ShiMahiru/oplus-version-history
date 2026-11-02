@@ -4,6 +4,5 @@
 版本名称: RMX5131_16.0.2.412(EX01)
 Android 版本: Android 16
 ColorOS 版本: RMX5131_16.0.2.412(EX01)
-安全补丁: 2026-01-01
 发布时间: 1770213686459
 ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=a3215a1fa7cfd89e91f0c54a7808e82d&p=f088224e006a1389adbc970d116ed165417a42947a37c0ba781fc681cf968b641be46618fe507ab44358452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6982e520007ddc017e03e18b&taste=0&supportDLTaste=0&mode=1&tr=manual&s=d948854ba7110f7fd9de239f7efa51a6

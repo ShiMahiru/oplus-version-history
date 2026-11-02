@@ -4,6 +4,5 @@
 版本名称: RMX3031_11_A.22
 Android 版本: Android 11
 ColorOS 版本: RMX3031_11_A.22
-安全补丁: 2022-01-05
 发布时间: 1643004904358
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-056740326de548f9505184a4fc92763c/component-ota/22/01/13/e934eaead0884004bc076b81f8bfc5bb.zip

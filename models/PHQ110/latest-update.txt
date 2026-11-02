@@ -4,6 +4,5 @@
 版本名称: PHQ110_14.0.0.700(CN01)
 Android 版本: Android 14
 ColorOS 版本: PHQ110_14.0.0.700(CN01)
-安全补丁: 2024-05-05
 发布时间: 1717804513854
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e294440e9dc805777ffee67bcadb6c31/component-ota/24/05/16/a4b32ce5ec5049fda295083356864d2a.zip

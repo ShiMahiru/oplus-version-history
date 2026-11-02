@@ -4,6 +4,5 @@
 版本名称: OPD2419_15.0.1.1101(EX01)
 Android 版本: Android 15
 ColorOS 版本: OPD2419_15.0.1.1101(EX01)
-安全补丁: 2025-12-01
 发布时间: 1765360454240
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-6f56f19af9a9a0c321c02fe555de18df/component-ota/25/11/25/698d1b8ebc064a979c49e948cb65ead1.zip

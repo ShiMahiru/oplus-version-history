@@ -4,6 +4,5 @@
 版本名称: PHV110_13.1.1.422(CN01)
 Android 版本: Android 13
 ColorOS 版本: PHV110_13.1.1.422(CN01)
-安全补丁: 2024-02-05
 发布时间: 1709287323477
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e064b161de02dad39153b11fa8446730/component-ota/24/02/02/c29978dbf78544febee91550bb3f8cea.zip

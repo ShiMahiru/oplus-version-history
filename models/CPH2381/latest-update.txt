@@ -4,6 +4,5 @@
 版本名称: CPH2381_11_A.14
 Android 版本: Android 12
 ColorOS 版本: CPH2381_11_A.14
-安全补丁: 2022-12-05
 发布时间: 1672400132879
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-6459b4230c6fad4c84cb5a5ee004b933/component-ota/22/11/28/8fe87335ab19442e9b838bbcc0dfa99a.zip

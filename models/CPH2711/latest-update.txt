@@ -4,6 +4,5 @@
 版本名称: CPH2711_15.0.0.1301(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2711_15.0.0.1301(EX01)
-安全补丁: 2025-10-01
 发布时间: 1761299543158
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-19012bf71870cb95e3b74106b1c286de/component-ota/25/10/10/55482b8630324a5984d545f41dfcc9fe.zip

@@ -4,6 +4,5 @@
 版本名称: PKD130_14.0.1.1215(CN01)
 Android 版本: Android 14
 ColorOS 版本: PKD130_14.0.1.1215(CN01)
-安全补丁: 2025-01-01
 发布时间: 1755847895309
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-08fc48078827b50df266fd8aa213df23/component-ota/25/03/03/d938ed6a7cdf415cbfbafa6ed3f9f8f2.zip

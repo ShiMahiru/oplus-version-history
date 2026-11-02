@@ -4,6 +4,5 @@
 版本名称: CPH2197_11_A.12
 Android 版本: Android 11
 ColorOS 版本: CPH2197_11_A.12
-安全补丁: 2021-11-05
 发布时间: 1638341605183
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-6975544ea3872632d266e3ef912f8750/component-ota/21/11/17/0a89b1ebab1147d998adda84edfbf36f.zip

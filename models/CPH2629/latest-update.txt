@@ -4,6 +4,5 @@
 版本名称: CPH2629_14.1.0.410(EX01)
 Android 版本: Android 14
 ColorOS 版本: CPH2629_14.1.0.410(EX01)
-安全补丁: 2024-10-05
 发布时间: 1731332471813
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-dd43a3e0e6247ef0def510a0df21a58d/component-ota/24/10/24/034d6b80501b4e1a88dd2cc2df6ea74a.zip

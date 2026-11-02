@@ -4,6 +4,5 @@
 版本名称: PJE110_14.0.0.817(CN01)
 Android 版本: Android 14
 ColorOS 版本: PJE110_14.0.0.817(CN01)
-安全补丁: 2024-10-05
 发布时间: 1732201059095
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9ced9a638480288939e5f8d9a4b0ecff/component-ota/24/11/08/2849bff7b5f8492cbf47c274efdcca25.zip

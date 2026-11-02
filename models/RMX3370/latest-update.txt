@@ -4,6 +4,5 @@
 版本名称: RMX3370_11_C.10
 Android 版本: Android 12
 ColorOS 版本: RMX3370_11_C.10
-安全补丁: 2022-12-05
 发布时间: 1673858156574
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-473298acd34890fb8c33f856189b906f/component-ota/23/01/11/95534570f4c44499aa97bb51b1a1f570.zip

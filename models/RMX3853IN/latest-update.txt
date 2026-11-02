@@ -4,6 +4,5 @@
 版本名称: RMX3853_15.0.0.1010(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX3853_15.0.0.1010(EX01)
-安全补丁: 2025-07-01
 发布时间: 1754908976388
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-482f7d2df91259a8f898351fedfb42a5/component-ota/25/07/21/e1cfbb0f96aa4238ad582657a5f0f2d4.zip

@@ -4,6 +4,5 @@
 版本名称: PJZ110_15.0.0.861(CN01)
 Android 版本: Android 15
 ColorOS 版本: PJZ110_15.0.0.861(CN01)
-安全补丁: 2025-09-01
 发布时间: 1760191153289
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b2b72c6c221e7a15e14d1397382ca881/component-ota/25/09/19/d92cb1e567994a4eb1700351ee09d71d.zip

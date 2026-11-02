@@ -4,6 +4,5 @@
 版本名称: PLB110_15.0.1.800(CN01)
 Android 版本: Android 15
 ColorOS 版本: PLB110_15.0.1.800(CN01)
-安全补丁: 2025-09-01
 发布时间: 1758243312900
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5e50d20ad13b8ea1e79ce128c3d97891/component-ota/25/08/25/4efd82f268b24147aefd753610000ce6.zip

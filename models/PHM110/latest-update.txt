@@ -4,6 +4,5 @@
 版本名称: PHM110_13.1.0.185(CN01)
 Android 版本: Android 13
 ColorOS 版本: PHM110_13.1.0.185(CN01)
-安全补丁: 2024-01-05
 发布时间: 1729082463482
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-09e4e3efdcbfd7b8ed78e41214f6afd8/component-ota/24/01/09/5bc1303f0c0b4f2b8bb722304916f7e5.zip

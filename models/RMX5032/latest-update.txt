@@ -4,7 +4,6 @@
 版本名称: RMX5032_15.0.0.1034(EX01)
 Android 版本: 
 ColorOS 版本: RMX5032_15.0.0.1034(EX01)
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-07264833259e0dbec57877622b7781dd/component-ota/25/11/24/b480e1661b0a42c9afe5d0f264533a53.zip
 

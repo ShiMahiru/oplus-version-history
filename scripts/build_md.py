@@ -62,8 +62,6 @@ def build_model_page(m):
     if m.get("android"):
         a = str(m["android"]).strip()
         meta.append(a if a.lower().startswith("android") else f"Android {a}")
-    if m.get("patch"):
-        meta.append(f"安全补丁 {m['patch']}")
     head.append(" · ".join(meta) if meta else "")
     head.append("")
     head.append(f"版本记录 **{len(vers)}** 条 · 有官方链接 **{len(with_url)}** 条 · "

@@ -4,6 +4,5 @@
 版本名称: CPH2339_11_A.10
 Android 版本: Android 12
 ColorOS 版本: CPH2339_11_A.10
-安全补丁: 2022-11-05
 发布时间: 1670043421278
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-2af714bd97dc7880ffc8e1a7589c74fc/component-ota/22/11/19/5315e55ba19340aaba7ed568e4cb76a5.zip

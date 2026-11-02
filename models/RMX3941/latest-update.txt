@@ -4,6 +4,5 @@
 版本名称: RMX3941_14.1.0.400(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX3941_14.1.0.400(EX01)
-安全补丁: 2025-04-01
 发布时间: 1748604782663
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-af589360703e3469b2fa88be9811ed01/component-ota/25/05/16/35714d2c62064252ac5b1aae3c3068bf.zip

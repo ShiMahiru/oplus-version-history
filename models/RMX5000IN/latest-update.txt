@@ -4,6 +4,5 @@
 版本名称: RMX5000_14.1.0.720(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX5000_14.1.0.720(EX01)
-安全补丁: 2024-12-05
 发布时间: 1737687776659
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-d5cc87e1e346c14f7a06534078401cab/component-ota/25/01/16/9a7d853e68ed413fb0912f06375dc776.zip

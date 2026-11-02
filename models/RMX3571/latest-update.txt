@@ -4,6 +4,5 @@
 版本名称: RMX3571_11_A.11
 Android 版本: Android 12
 ColorOS 版本: RMX3571_11_A.11
-安全补丁: 2023-01-05
 发布时间: 1674865870044
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-a36c1023885757848309c8fab0b070d0/component-ota/22/12/26/6e09752d88264eb78748ab4e323dd7e7.zip

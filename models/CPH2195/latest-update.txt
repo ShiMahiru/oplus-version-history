@@ -4,7 +4,6 @@
 版本名称: CPH2195_11_C.48
 Android 版本: 
 ColorOS 版本: CPH2195_11_C.48
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-9fd4938c24d6abdb363b37f2df3596ed/component-ota/22/11/11/9e883efaea2844a49035007216240110.zip
 

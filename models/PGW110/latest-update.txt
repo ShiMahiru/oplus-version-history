@@ -4,6 +4,5 @@
 版本名称: PGW110_13.1.0.185(CN01)
 Android 版本: Android 13
 ColorOS 版本: PGW110_13.1.0.185(CN01)
-安全补丁: 2023-12-05
 发布时间: 1727664322954
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5fd599c167affdf1e38bb605ceb926a8/component-ota/23/12/06/f25e0f4407ef42df99a38c54a304d026.zip

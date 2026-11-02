@@ -4,6 +4,5 @@
 版本名称: PKP110_15.0.0.1356(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKP110_15.0.0.1356(CN01)
-安全补丁: 2025-11-01
 发布时间: 1766137204791
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b2c0249c7ae1db42cdb5f78ae7632fba/component-ota/25/11/18/e9b86c792c904b928e1ba9fbc00592b3.zip

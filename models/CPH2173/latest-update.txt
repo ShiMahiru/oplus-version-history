@@ -4,6 +4,5 @@
 版本名称: CPH2173_11_A.24
 Android 版本: Android 11
 ColorOS 版本: CPH2173_11_A.24
-安全补丁: 2021-10-05
 发布时间: 1634784935120
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8baae6e4b0d9332192ef4e652da9fa8f/component-ota/21/10/13/0e936f4cfbe2473cad8c7b1de8444ecf.zip

@@ -4,6 +4,5 @@
 版本名称: PGX110_13.1.0.210(CN01)
 Android 版本: Android 13
 ColorOS 版本: PGX110_13.1.0.210(CN01)
-安全补丁: 2023-12-05
 发布时间: 1704237739451
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d4b426930bcafecba3242585b233d237/component-ota/23/12/11/00678bece7fa419c9bd3e05b250d7081.zip

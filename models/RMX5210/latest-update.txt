@@ -4,6 +4,5 @@
 版本名称: RMX5210_16.0.9.404(EX01)
 Android 版本: Android 16
 ColorOS 版本: RMX5210_16.0.9.404(EX01)
-安全补丁: 2026-08-01
 发布时间: 1790135759946
 ROM 下载链接: https://component-ota-sg.allawnos.com/downloadCheck?c=f1840815bca54205b00f2cb2e74c9538&p=f088224e00621388adbcc0504264d334457c14902b60c0bc291f9d89cfc58a6216b13649ff577fe5135e452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6ab3274692ce7c01836a7150&taste=0&supportDLTaste=0&mode=1&tr=manual&s=08c3be8badb77f651884bc1d1a4d7b6c

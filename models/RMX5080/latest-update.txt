@@ -4,6 +4,5 @@
 版本名称: RMX5080_15.0.0.1003(CN01)
 Android 版本: Android 15
 ColorOS 版本: RMX5080_15.0.0.1003(CN01)
-安全补丁: 2025-08-01
 发布时间: 1758249048061
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-04e1c7be1a3bcc6f5c95db93d439a44a/component-ota/25/09/05/2925fde82ca34707b459fdf770ff3acf.zip

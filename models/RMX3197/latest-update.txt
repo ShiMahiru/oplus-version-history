@@ -4,6 +4,5 @@
 版本名称: RMX3197_11_A.20
 Android 版本: Android 11
 ColorOS 版本: RMX3197_11_A.20
-安全补丁: 2022-05-05
 发布时间: 1653378941477
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-0bf5221ec6b62e6a81980ce09b50da17/component-ota/22/05/05/af426f15cac846548d04afd31f55d7f8.zip

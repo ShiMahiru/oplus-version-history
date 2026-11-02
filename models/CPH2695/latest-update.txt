@@ -4,6 +4,5 @@
 版本名称: CPH2695_15.0.0.904(EX01)
 Android 版本: Android 15
 ColorOS 版本: CPH2695_15.0.0.904(EX01)
-安全补丁: 2025-06-01
 发布时间: 1752740945731
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-61a86a4836902b8dd7ef7a22f3312150/component-ota/25/06/05/9dcdac05b368421395c48286d4ecbdb6.zip

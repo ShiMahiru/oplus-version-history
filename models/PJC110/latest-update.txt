@@ -4,6 +4,5 @@
 版本名称: PJC110_13.1.1.504(CN01)
 Android 版本: Android 13
 ColorOS 版本: PJC110_13.1.1.504(CN01)
-安全补丁: 2024-01-05
 发布时间: 1705979577605
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a62b5b169b7705605a462ea388d0ac32/component-ota/24/01/02/a8626431a9fe44b38a085f6889e2ede5.zip

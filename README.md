@@ -43,7 +43,7 @@ python3 scripts/ota_extract.py pull "https://component-ota-cn.../downloadCheck?.
 ├── links/{型号}/{版本}.txt        # 官方下载链接（核心资产；文件名=版本号）
 ├── models/{型号}/
 │   ├── ota-version.txt            # 版本史时间线：OTA 指纹 ↔ 用户可见版本（只追加）
-│   ├── latest-update.txt          # 最新版元数据（Android/安全补丁/发布时间/链接）
+│   ├── latest-update.txt          # 最新版元数据（Android/发布时间/链接）
 │   └── changelog/{指纹前缀}.md    # 官方更新日志全文
 ├── downgrade/{型号}.txt           # 官方降级包直链（downgrade.coloros.com）
 ├── links/_dead/ + DEAD.md         # 校验失败的死链归档与报告

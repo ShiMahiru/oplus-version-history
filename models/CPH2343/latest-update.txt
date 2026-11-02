@@ -4,6 +4,5 @@
 版本名称: CPH2343_11_A.15
 Android 版本: Android 11
 ColorOS 版本: CPH2343_11_A.15
-安全补丁: 2022-06-05
 发布时间: 1656987972214
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8720ef0d9d6eb5716d699307bfc38639/component-ota/22/06/23/a4a9ef381c154539a70101b64c10869f.zip

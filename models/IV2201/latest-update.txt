@@ -4,7 +4,6 @@
 版本名称: IV2201_11_C.10
 Android 版本: 
 ColorOS 版本: IV2201_11_C.10
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-11a87c83cd163e4bddabc5f61b8c9220/component-ota/22/12/28/fada98b1b72949fba055ffcef80728eb.zip
 

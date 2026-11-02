@@ -4,6 +4,5 @@
 版本名称: PLA110_15.0.2.610(CN01)
 Android 版本: Android 15
 ColorOS 版本: PLA110_15.0.2.610(CN01)
-安全补丁: 2025-09-01
 发布时间: 1758893238792
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a61c2fc2290094a69a99bcd20314db96/component-ota/25/09/02/5aa50db3e3774b2387f262b478765d14.zip

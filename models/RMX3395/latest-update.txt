@@ -4,6 +4,5 @@
 版本名称: RMX3395_11_A.07
 Android 版本: Android 12
 ColorOS 版本: RMX3395_11_A.07
-安全补丁: 2022-11-05
 发布时间: 1670225167536
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-728e6d49089685f7d025448499037c68/component-ota/22/11/15/3459902381e54178a2249cc8f0b1b5dc.zip

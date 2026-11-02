@@ -4,6 +4,5 @@
 版本名称: PHZ110_14.0.1.750(CN01)
 Android 版本: Android 14
 ColorOS 版本: PHZ110_14.0.1.750(CN01)
-安全补丁: 2024-10-05
 发布时间: 1730727613617
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-658bc0a64a886ad6ef1408de9207902d/component-ota/24/10/09/f90313b0f4934deea0f30fef59b0e0b3.zip

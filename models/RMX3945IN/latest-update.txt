@@ -4,6 +4,5 @@
 版本名称: RMX3945_15.0.0.1101(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX3945_15.0.0.1101(EX01)
-安全补丁: 2025-10-01
 发布时间: 1761701510929
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-4eb7b8617083c5aae2f4e43a72471255/component-ota/25/10/16/b50321be2d80442681d08180ade2763d.zip

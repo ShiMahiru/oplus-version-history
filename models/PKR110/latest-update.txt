@@ -4,6 +4,5 @@
 版本名称: PKR110_15.0.0.871(CN01)
 Android 版本: Android 15
 ColorOS 版本: PKR110_15.0.0.871(CN01)
-安全补丁: 2025-09-01
 发布时间: 1760191138137
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-df71d9e6e1b8112034f71cc8f245046d/component-ota/25/09/20/0bc7e8aca013444a99758910a569825f.zip

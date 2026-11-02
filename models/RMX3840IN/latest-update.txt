@@ -4,6 +4,5 @@
 版本名称: RMX3840_14.0.0.807(EX01)
 Android 版本: Android 14
 ColorOS 版本: RMX3840_14.0.0.807(EX01)
-安全补丁: 2024-03-05
 发布时间: 1713325553332
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-7aef66b821cf01231c1f2ec07b620a90/component-ota/24/04/08/37327be8aac74565b8aeafe567544bf9.zip

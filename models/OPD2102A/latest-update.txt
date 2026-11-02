@@ -4,7 +4,6 @@
 版本名称: OPD2102A_11_C.33
 Android 版本: 
 ColorOS 版本: OPD2102A_11_C.33
-安全补丁: 
 发布时间: 
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-fe2342413501ba09fb3d426ca7996032/component-ota/25/08/11/98cf9de96bfb49cb88607aed81102ec7.zip
 

@@ -4,6 +4,5 @@
 版本名称: CPH2145_11_A.30
 Android 版本: Android 11
 ColorOS 版本: CPH2145_11_A.30
-安全补丁: 2021-11-05
 发布时间: 1638186970656
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-f7e0924582ae592f8d172d31639d6f0b/component-ota/21/11/15/4c27d18417fa48d1bcd1fd7058607126.zip

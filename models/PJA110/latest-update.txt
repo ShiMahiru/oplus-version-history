@@ -4,6 +4,5 @@
 版本名称: PJA110_13.1.1.552(CN01)
 Android 版本: Android 13
 ColorOS 版本: PJA110_13.1.1.552(CN01)
-安全补丁: 2023-11-05
 发布时间: 1700298256710
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-fdd7850ded2d236549f9346c59ddd331/component-ota/23/11/14/891a80780997458cb5deaf8e6e963453.zip

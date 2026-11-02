@@ -132,7 +132,6 @@ def main():
             "latest": latest.get("版本名称", ""),
             "ota": latest.get("最新 OTA 版本", ""),
             "android": latest.get("Android 版本", ""),
-            "patch": latest.get("安全补丁", ""),
             "versions": vers,
             "downgrade": dg,
         })

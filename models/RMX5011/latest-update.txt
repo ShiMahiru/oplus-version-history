@@ -4,6 +4,5 @@
 版本名称: RMX5011_15.0.0.270(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX5011_15.0.0.270(EX01)
-安全补丁: 2025-04-01
 发布时间: 1747203421718
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-96125db72c7a6ea58cff4132b3af198d/component-ota/25/04/29/5a8b8a59ce8c47f297a7441e54477818.zip

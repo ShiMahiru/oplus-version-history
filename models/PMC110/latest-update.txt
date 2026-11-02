@@ -4,6 +4,5 @@
 版本名称: PMC110_15.0.2.1101(CN01)
 Android 版本: Android 15
 ColorOS 版本: PMC110_15.0.2.1101(CN01)
-安全补丁: 2026-03-01
 发布时间: 1775182744508
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5a9e97b5cda2ec09cada4b4966efd073/component-ota/26/03/21/550f0babc0264f918b6dd82b8a59994c.zip

@@ -4,6 +4,5 @@
 版本名称: RMX5061_15.0.1.813(EX01)
 Android 版本: Android 15
 ColorOS 版本: RMX5061_15.0.1.813(EX01)
-安全补丁: 2025-09-01
 发布时间: 1760605908653
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-86eddaf8ac5e05667c64549e82c1b04d/component-ota/25/09/20/8df76ae0584e4759998d3f7e056d67cd.zip

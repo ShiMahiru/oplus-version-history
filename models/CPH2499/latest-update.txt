@@ -4,6 +4,5 @@
 版本名称: CPH2499_13.2.0.301(EX01)
 Android 版本: Android 13
 ColorOS 版本: CPH2499_13.2.0.301(EX01)
-安全补丁: 2024-01-05
 发布时间: 1705474775558
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-eb90b3dc22be3b12b1c6a87aab576947/component-ota/24/01/15/11e6b46564244303b6b9b69724df97f6.zip

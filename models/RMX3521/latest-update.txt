@@ -4,6 +4,5 @@
 版本名称: RMX3521_11_C.24
 Android 版本: Android 13
 ColorOS 版本: RMX3521_11_C.24
-安全补丁: 2024-03-05
 发布时间: 1711533812053
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8bff8b67d8266dca3fb7ae253a13845a/component-ota/24/03/21/04a54f44a5204e98a05281186bfe1749.zip

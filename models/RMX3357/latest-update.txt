@@ -4,6 +4,5 @@
 版本名称: RMX3357_11_A.14
 Android 版本: Android 11
 ColorOS 版本: RMX3357_11_A.14
-安全补丁: 2022-01-05
 发布时间: 1647995085100
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-36ed32d458b2d0ae14cc49856cead75b/component-ota/22/01/10/c13c2619fed14f6b8f908b2cbc40e2f4.zip

@@ -4,6 +4,5 @@
 版本名称: PGIM10_11_A.10
 Android 版本: Android 12
 ColorOS 版本: PGIM10_11_A.10
-安全补丁: 2022-11-05
 发布时间: 1671534641206
 ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6b28723040e3c81b10d68ee099295d3b/component-ota/22/12/12/e70b11b5956d413cb824134ff600b0fc.zip

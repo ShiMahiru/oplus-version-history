@@ -4,6 +4,5 @@
 版本名称: CPH2363_11_A.19
 Android 版本: Android 12
 ColorOS 版本: CPH2363_11_A.19
-安全补丁: 2022-11-05
 发布时间: 1669769195551
 ROM 下载链接: https://gauss-componentotamanual.allawnofs.com/remove-8852a7a49ea22cb58d3bf8d56ab6d93d/component-ota/22/11/12/642d5f7d1fb9413e9b5a19a899f3e57e.zip
