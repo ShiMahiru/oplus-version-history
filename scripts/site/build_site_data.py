@@ -418,7 +418,7 @@ for b in site["brands"]:
     for m in b["models"]:
         m["versions"] = [
             v for v in m["versions"]
-            if (v.get("meta") or {}).get("md5") and v.get("url") and (v.get("changelog") or "").strip()
+            if (v.get("meta") or {}).get("md5") and v.get("url")
         ]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
@@ -483,7 +483,7 @@ def _real_cl(cl):
 
 for b in site["brands"]:
     for m in b["models"]:
-        m["versions"] = [v for v in m["versions"] if _real_cl(v.get("changelog"))]
+        m["versions"] = [v for v in m["versions"] if v.get("url") or _real_cl(v.get("changelog"))]
     b["models"] = [m for m in b["models"] if m["versions"]]
 
 # 发布日期优先使用官方 published 毫秒时间戳；缺失时回退编译日期，再回退版本号。
