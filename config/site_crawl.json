@@ -2365,6 +2365,150 @@
   {
    "code": "PYF110",
    "name": "一加 Ace 7"
+  },
+  {
+   "code": "CPH2447",
+   "name": "OnePlus 11"
+  },
+  {
+   "code": "CPH2449",
+   "name": "OnePlus 11"
+  },
+  {
+   "code": "CPH2487",
+   "name": "OnePlus 11R/Ace 2"
+  },
+  {
+   "code": "CPH2551",
+   "name": "OnePlus Open"
+  },
+  {
+   "code": "CPH2573",
+   "name": "OnePlus 12"
+  },
+  {
+   "code": "CPH2581",
+   "name": "OnePlus 12"
+  },
+  {
+   "code": "CPH2585",
+   "name": "OnePlus 12R/Ace 3"
+  },
+  {
+   "code": "CPH2609",
+   "name": "OnePlus 12R/Ace 3"
+  },
+  {
+   "code": "CPH2613",
+   "name": "OnePlus Nord CE 4"
+  },
+  {
+   "code": "CPH2619",
+   "name": "OnePlus Nord CE 4 Lite"
+  },
+  {
+   "code": "CPH2621",
+   "name": "OnePlus Nord CE 4 Lite"
+  },
+  {
+   "code": "CPH2645",
+   "name": "OnePlus 13R/Ace 5"
+  },
+  {
+   "code": "CPH2649",
+   "name": "OnePlus 13"
+  },
+  {
+   "code": "CPH2653",
+   "name": "OnePlus 13s"
+  },
+  {
+   "code": "CPH2661",
+   "name": "OnePlus Nord 4"
+  },
+  {
+   "code": "CPH2663",
+   "name": "OnePlus Nord 4"
+  },
+  {
+   "code": "CPH2691",
+   "name": "OnePlus 13R/Ace 5"
+  },
+  {
+   "code": "CPH2707",
+   "name": "OnePlus Nord 5"
+  },
+  {
+   "code": "CPH2709",
+   "name": "OnePlus Nord 5"
+  },
+  {
+   "code": "CPH2717",
+   "name": "OnePlus Nord CE 5"
+  },
+  {
+   "code": "CPH2719",
+   "name": "OnePlus Nord CE 5"
+  },
+  {
+   "code": "CPH2723",
+   "name": "OnePlus 13s"
+  },
+  {
+   "code": "CPH2745",
+   "name": "OnePlus 15"
+  },
+  {
+   "code": "CPH2747",
+   "name": "OnePlus 15"
+  },
+  {
+   "code": "CPH2767",
+   "name": "OnePlus 15R/Ace6T"
+  },
+  {
+   "code": "CPH2769",
+   "name": "OnePlus 15R/Ace6T"
+  },
+  {
+   "code": "CPH2793",
+   "name": "OnePlus Nord 6"
+  },
+  {
+   "code": "CPH2795",
+   "name": "OnePlus Nord 6"
+  },
+  {
+   "code": "CPH2805",
+   "name": "OnePlus Nord CE 6"
+  },
+  {
+   "code": "CPH2807",
+   "name": "OnePlus Nord CE 6"
+  },
+  {
+   "code": "NE2211",
+   "name": "OnePlus 10 Pro"
+  },
+  {
+   "code": "NE2213",
+   "name": "OnePlus 10 Pro"
+  },
+  {
+   "code": "OPD2403",
+   "name": "OnePlus Pad 2"
+  },
+  {
+   "code": "OPD2415",
+   "name": "OnePlus Pad 3"
+  },
+  {
+   "code": "OPD2504",
+   "name": "OnePlus Pad Go 2 WiFi"
+  },
+  {
+   "code": "OPD2514",
+   "name": "OnePlus Pad 4"
   }
  ],
  "OPPO": [
@@ -3035,6 +3179,58 @@
   {
    "code": "OPD2417",
    "name": "OPPO Pad SE"
+  },
+  {
+   "code": "CPH2651",
+   "name": "OPPO FIND X8"
+  },
+  {
+   "code": "CPH2659",
+   "name": "OPPO FIND X8 PRO"
+  },
+  {
+   "code": "CPH2671",
+   "name": "OPPO FIND N5 · SG"
+  },
+  {
+   "code": "CPH2765",
+   "name": "OPPO FIND N6 · APC"
+  },
+  {
+   "code": "CPH2781",
+   "name": "OPPO A6 PRO 5G"
+  },
+  {
+   "code": "CPH2791",
+   "name": "OPPO FIND X9 PRO · APC"
+  },
+  {
+   "code": "CPH2797",
+   "name": "OPPO FIND X9"
+  },
+  {
+   "code": "CPH2841",
+   "name": "OPPO FIND X9 ULTRA · APC"
+  },
+  {
+   "code": "CPH2859",
+   "name": "OPPO RENO 16 F"
+  },
+  {
+   "code": "CPH2863",
+   "name": "OPPO RENO 16 PRO"
+  },
+  {
+   "code": "CPH2865",
+   "name": "OPPO RENO 16"
+  },
+  {
+   "code": "CPH2873",
+   "name": "OPPO FIND X9s · ID"
+  },
+  {
+   "code": "OPD2480",
+   "name": "OPPO PAD LITE"
   }
  ],
  "Meizu": [
@@ -3699,6 +3895,30 @@
   {
    "code": "RMX3619",
    "name": "真我V30"
+  },
+  {
+   "code": "RMX5011",
+   "name": "realme GT7 Pro · TR"
+  },
+  {
+   "code": "RMX5061",
+   "name": "realme GT 7 · TW"
+  },
+  {
+   "code": "RMX5085",
+   "name": "realme GT 7T · TW"
+  },
+  {
+   "code": "RMX5120",
+   "name": "realme 16 Pro · TW"
+  },
+  {
+   "code": "RMX5131",
+   "name": "realme 16 Pro+ · TW"
+  },
+  {
+   "code": "RMX5210",
+   "name": "realme GT 8 Pro · TW"
   }
  ],
  "iQOO": [
