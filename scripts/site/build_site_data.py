@@ -95,6 +95,9 @@ for key in KEEP:
     for m in crawl.get(key, []):
         code = m["code"]
         versions = build_versions(code)
+        # 只保留中国大陆版本：带区域标记的必须是 CN，无标记的（降级包）放行
+        _NON_CN = re.compile(r"\((?!CN)[A-Z]{2}\d{2}\)")
+        versions = [v for v in versions if not _NON_CN.search(v.get("version", ""))]
         if not versions:
             continue
         brand_obj["models"].append({"code": code, "name": m["name"], "versions": versions})
