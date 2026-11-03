@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-52a6f77147bdffe46c2e4f7371e4fcb0/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/04/10/fec6d9ff7a7745f1bddc57a0c8a579c9.zip?sign=5ee22b79da2f94cd4ed344cbaf8bf6c6&t=6ae833a0&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793604264&Signature=jvE9e27coVrMvaJQs%2F4vTuKISgM%3D
-size: 150
-md5_pending: yes
-source: lian86
+https://component-ota-cn.allawntech.com/downloadCheck?c=69e2c9f3738aa9aa0ee9b2bb82c1633a&p=a6c78fdd3751888b39ce8bfa1199656dc126fab04d6154f2d3bf00ecc27b5495bbbf31d3b67d372eee32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=180ddb777959bd1273962366b057a1ee&id=6a69d44d76d168017f1d6e12&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ae20b56fa73d13d538ceb3eb729d125b
+size: 6004102750
+md5: 171d3d6212ab2faf04aaa0ad59dd5ec6
+patch: 2026-04-01
+fp: PLT130_11.A.52_1520_202604080312

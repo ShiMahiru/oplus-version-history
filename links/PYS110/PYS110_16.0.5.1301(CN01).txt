@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-dac5a5efa663cb25593f4888cb388e36/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/09/22/53c70485ff7e44b6b482d7c3e2a7abf8.zip?sign=f37ae16b50bf0ef08ab1bbb681898f5e&t=6ae833f3&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793604298&Signature=8VsZEp69PiT%2Fc45xMwGFQa%2BfnG4%3D
-size: 150
-md5_pending: yes
-source: lian86
+https://component-ota-cn.allawntech.com/downloadCheck?c=298d466013d162ef09c81f3864c79d3f&p=a6c78fdd375c88883bced8ac119831609f75abb74d3354f3d7b800bc9e2a0595b9bc37d9b67f6175eb33d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=614441decb822d307b504c735cf95280&id=6acf3fbe7d8131017f156d07&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ca54bb8189a219d88c63f0da3d887a5b
+size: 8005212357
+md5: 8e72da6c7f668263d16d583d4c2cd8ec
+patch: 2026-09-01
+fp: PYS110_11.A.44_0440_202609212138

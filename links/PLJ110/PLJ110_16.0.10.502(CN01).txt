@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=005d608b0e6d503afc9f8d82ce2268ce&p=a6c78fdd375d888b3dce88fb47ce63649476aeb3186154a686ea03ed952d52c7ecbc6a89e62c6522b96dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a963f6c76d168017ee7d902&taste=1&supportDLTaste=0&mode=1&tr=manual&s=a4cd93bd4e45449234d748deb0828a94
+https://component-ota-cn.allawntech.com/downloadCheck?c=093aca08a1d9dff7df4dfd127ffa2f13&p=a6c78fdd375d888b3dce88fb47ce63649476aeb3186154a686ea03ed952d52c7ecbc6a89e62c6522b96dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=af4074b1473c010e97bec060afa226a0&id=6aa1166892ce7c01836a5d10&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c11b47f87e4e5a15c5549e67e21e36df
 size: 9199932223
 md5: 630df2273197394d54e49d0610afc3fd
 patch: 2026-08-01
 fp: PLJ110_11.A.28_1280_202608141316
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-005d608b0e6d503afc9f8d82ce2268ce/component-ota/26/09/01/b3f90fdb552f4248bf57311553b6c4ce.html

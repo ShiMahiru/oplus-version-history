@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=e284555e42d0d9322d65d4202b7f1184&p=a6c78fdd3752888939cedba6149832369e22fdb44b6e54a482be5aeec72007c0b8bd6389e37a332fec38d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a7ed66092ce7c01806f6b13&taste=1&supportDLTaste=0&mode=1&tr=manual&s=061b6d2c504bbeec75fcfba9e0785bcb
+https://component-ota-cn.allawntech.com/downloadCheck?c=914d0bd83e89a82ebfc1bf073162ed15&p=a6c78fdd3655888b3ace8bfd469632329521a8e74a6f54f08cba5abec32e55c1bfbf31d8b62d3923bb3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=f028c0a16f67e591caa82353464f5a5e&id=6acdabf392ce7c01836a873a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=589e90bf35978699f282c4954469aab3
 size: 10120066082
 md5: 66306c284bc88985e146d14759f73440
 patch: 2026-08-01
 fp: PMA120_11.A.64_0640_202607300009
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-e284555e42d0d9322d65d4202b7f1184/component-ota/26/08/14/481149f46aad431e9a2e9f3cfc4b8b6d.html

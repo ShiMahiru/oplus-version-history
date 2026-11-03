@@ -1,1 +1,5 @@
-https://gauss-compotacostauto-cn.allawnfs.com/remove-284d491e83cb27e26aa18aad07f2eff4/component-ota/21/12/10/31fea71cc1b348a79545a0a28acc7e46.zip
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-284d491e83cb27e26aa18aad07f2eff4/component-ota/21/12/10/31fea71cc1b348a79545a0a28acc7e46.zip
+size: 4154376562
+md5: 937c3f8e1ee14281f9f98f0674ae094e
+patch: 2021-12-05
+fp: RMX2202_11.A.27_0270_202112090245

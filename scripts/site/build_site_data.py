@@ -510,10 +510,32 @@ for b in site["brands"]:
         full.sort(key=_release_key, reverse=True)
         dg.sort(key=_release_key, reverse=True)
         m["versions"] = full + dg
-    b["models"].sort(
-        key=lambda m: _release_key(m["versions"][0]) if m["versions"] else (0, "", (0, 0, 0, 0)),
-        reverse=True,
-    )
+    # 机型排序：按"上市时间"倒序（新机在前）。上市时间取该机型最早一条 OTA 指纹的构建日期，
+    # 这是官方发布节奏的可靠代理；缺失时回退到最新版本日期。
+    # ColorOS 大版本 → 大约上市年月（用于无 OTA 指纹时的回退）
+    _ERA = {11:202009, 12:202110, 13:202209, 14:202311, 15:202410, 16:202510, 17:202606}
+    def _launch(m):
+        ds = []
+        for v in m["versions"]:
+            fp = (v.get("meta") or {}).get("fp") or v.get("fp") or ""
+            mm = re.search(r"_(\d{8})\d{6}$", fp)
+            if mm: ds.append(mm.group(1))
+        if ds:
+            d = min(ds)                       # 最早一条官方 OTA 构建日期
+            return (2, int(d), d)
+        eras = []
+        for v in m["versions"]:
+            mm = re.search(r"ColorOS\s*(\d+)", v.get("version", ""))
+            if mm:
+                n = int(mm.group(1))
+                if n in _ERA: eras.append(_ERA[n])
+        if eras:
+            e = min(eras)
+            return (1, e, str(e))
+        return (0, 0, "")
+    b["models"].sort(key=_launch, reverse=True)
+    for m in b["models"]:
+        m["launch"] = _launch(m)[2]
 
 json.dump(site, open(OUT, "w"), ensure_ascii=False, separators=(",", ":"))
 
@@ -549,6 +571,7 @@ for b in site["brands"]:
             "name": m["name"],
             "n": len(vs),
             "latest": latest.get("version", ""),
+            "launch": m.get("launch", ""),
         })
         # 单机型文件
         payload = {"code": m["code"], "name": m["name"], "brand": b["key"], "versions": vs}
