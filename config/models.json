@@ -4186,6 +4186,1021 @@
    "brand": "realme",
    "region": "CN",
    "_source": "crawl:xiyan+lian86"
+  },
+  {
+   "code": "GM1900",
+   "name": "GM1900",
+   "brand": "oppo",
+   "region": "GL",
+   "_source": "sync"
+  },
+  {
+   "code": "GM1910",
+   "name": "GM1910",
+   "brand": "oppo",
+   "region": "GL",
+   "_source": "sync"
+  },
+  {
+   "code": "HD1900",
+   "name": "HD1900",
+   "brand": "oppo",
+   "region": "GL",
+   "_source": "sync"
+  },
+  {
+   "code": "HD1910",
+   "name": "HD1910",
+   "brand": "oppo",
+   "region": "GL",
+   "_source": "sync"
+  },
+  {
+   "code": "LE2120",
+   "name": "LE2120",
+   "brand": "oppo",
+   "region": "GL",
+   "_source": "sync"
+  },
+  {
+   "code": "M8",
+   "name": "M8",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "M9",
+   "name": "M9",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2101",
+   "name": "OPD2101",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2102",
+   "name": "OPD2102",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2201",
+   "name": "OPD2201",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2405",
+   "name": "OPD2405",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2409",
+   "name": "OPD2409",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2417",
+   "name": "OPD2417",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2501",
+   "name": "OPD2501",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2506",
+   "name": "OPD2506",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2511",
+   "name": "OPD2511",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2515",
+   "name": "OPD2515",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "OPD2601",
+   "name": "OPD2601",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PAFM00",
+   "name": "PAFM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PAHM00",
+   "name": "PAHM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCAM00",
+   "name": "PCAM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCAM10",
+   "name": "PCAM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCCM00",
+   "name": "PCCM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCDM10",
+   "name": "PCDM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCEM00",
+   "name": "PCEM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCGM00",
+   "name": "PCGM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCHM10",
+   "name": "PCHM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCHM30",
+   "name": "PCHM30",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCKM00",
+   "name": "PCKM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCKM80",
+   "name": "PCKM80",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCLM10",
+   "name": "PCLM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCNM00",
+   "name": "PCNM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCPM00",
+   "name": "PCPM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PCRM00",
+   "name": "PCRM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2158",
+   "name": "PD2158",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2165",
+   "name": "PD2165",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2168",
+   "name": "PD2168",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2171",
+   "name": "PD2171",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2172",
+   "name": "PD2172",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2178",
+   "name": "PD2178",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2180",
+   "name": "PD2180",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2183",
+   "name": "PD2183",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2185",
+   "name": "PD2185",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2188",
+   "name": "PD2188",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2196",
+   "name": "PD2196",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2199",
+   "name": "PD2199",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PD2203",
+   "name": "PD2203",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDAM10",
+   "name": "PDAM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDCM00",
+   "name": "PDCM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDEM10",
+   "name": "PDEM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDEM30",
+   "name": "PDEM30",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDET10",
+   "name": "PDET10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDHM00",
+   "name": "PDHM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDKM00",
+   "name": "PDKM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDNM00",
+   "name": "PDNM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDNT00",
+   "name": "PDNT00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDPM00",
+   "name": "PDPM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDPT00",
+   "name": "PDPT00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDRM00",
+   "name": "PDRM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDSM00",
+   "name": "PDSM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDVM00",
+   "name": "PDVM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PDYM20",
+   "name": "PDYM20",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEAM00",
+   "name": "PEAM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PECM20",
+   "name": "PECM20",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PECM30",
+   "name": "PECM30",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEDM00",
+   "name": "PEDM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEEM00",
+   "name": "PEEM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEGM00",
+   "name": "PEGM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEGM10",
+   "name": "PEGM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEHM00",
+   "name": "PEHM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PELM00",
+   "name": "PELM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEMM00",
+   "name": "PEMM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEMM20",
+   "name": "PEMM20",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PENM00",
+   "name": "PENM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEPM00",
+   "name": "PEPM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEQM00",
+   "name": "PEQM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PERM00",
+   "name": "PERM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PERM10",
+   "name": "PERM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PESM10",
+   "name": "PESM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEUM00",
+   "name": "PEUM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEXM00",
+   "name": "PEXM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PEYM00",
+   "name": "PEYM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFCM00",
+   "name": "PFCM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFDM00",
+   "name": "PFDM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFEM10",
+   "name": "PFEM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFFM10",
+   "name": "PFFM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFFM20",
+   "name": "PFFM20",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFGM00",
+   "name": "PFGM00",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFJM10",
+   "name": "PFJM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFTM10",
+   "name": "PFTM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFTM20",
+   "name": "PFTM20",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFUM10",
+   "name": "PFUM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFVM10",
+   "name": "PFVM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PFZM10",
+   "name": "PFZM10",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PHJ110",
+   "name": "PHJ110",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PJB110",
+   "name": "PJB110",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PMS110",
+   "name": "PMS110",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "PYF110",
+   "name": "PYF110",
+   "brand": "oneplus",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMP2108",
+   "name": "RMP2108",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX1851",
+   "name": "RMX1851",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX1901",
+   "name": "RMX1901",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX1931",
+   "name": "RMX1931",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX1971",
+   "name": "RMX1971",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX1991",
+   "name": "RMX1991",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2051",
+   "name": "RMX2051",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2071",
+   "name": "RMX2071",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2072",
+   "name": "RMX2072",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2112",
+   "name": "RMX2112",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2117",
+   "name": "RMX2117",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2121",
+   "name": "RMX2121",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2141",
+   "name": "RMX2141",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX2205",
+   "name": "RMX2205",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3041",
+   "name": "RMX3041",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3042",
+   "name": "RMX3042",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3043",
+   "name": "RMX3043",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3093",
+   "name": "RMX3093",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3115",
+   "name": "RMX3115",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3121",
+   "name": "RMX3121",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3122",
+   "name": "RMX3122",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3125",
+   "name": "RMX3125",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3142",
+   "name": "RMX3142",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3161",
+   "name": "RMX3161",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3361",
+   "name": "RMX3361",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3372",
+   "name": "RMX3372",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3475",
+   "name": "RMX3475",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3551",
+   "name": "RMX3551",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3574",
+   "name": "RMX3574",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3576",
+   "name": "RMX3576",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3611",
+   "name": "RMX3611",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3615",
+   "name": "RMX3615",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3617",
+   "name": "RMX3617",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3618",
+   "name": "RMX3618",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3619",
+   "name": "RMX3619",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3751",
+   "name": "RMX3751",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3781",
+   "name": "RMX3781",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3783",
+   "name": "RMX3783",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3946",
+   "name": "RMX3946",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3948",
+   "name": "RMX3948",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3953",
+   "name": "RMX3953",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3995",
+   "name": "RMX3995",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX3996",
+   "name": "RMX3996",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX5002",
+   "name": "RMX5002",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX5090",
+   "name": "RMX5090",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "RMX6699",
+   "name": "RMX6699",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
+  },
+  {
+   "code": "_dead",
+   "name": "_dead",
+   "brand": "oppo",
+   "region": "CN",
+   "_source": "sync"
   }
  ]
 }

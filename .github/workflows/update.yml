@@ -38,6 +38,14 @@ jobs:
         continue-on-error: true
         timeout-minutes: 25
 
+      - name: 新机型发现（分片轮转扫 CN 代号空间）
+        run: |
+          OFF=$(( ($(date -u +%j) * 400 + ${{ matrix.shard }} * 400) % 13405 ))
+          python3 scripts/discover.py --pattern cn --prefix P --region cn \
+            --offset $OFF --limit 400 --gap 0.5
+        continue-on-error: true
+        timeout-minutes: 12
+
       - uses: actions/upload-artifact@v4
         with:
           name: ota-data-${{ matrix.shard }}
