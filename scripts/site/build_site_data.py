@@ -1,5 +1,5 @@
 
-
+import json, os, re, time
 import json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -316,6 +316,36 @@ for b in site["brands"]:
                 v["meta"]["projectId"] = (PN.get(model["code"]) or {}).get("prj", "")
             if val:
                 v["meta"]["android"] = v["meta"].get("android") or val
+
+# 文件 / 链接有效期 / 解析状态
+_RESOLVED = {}
+_rp = os.path.join(ROOT, "config", "resolved_files.json")
+if os.path.exists(_rp):
+    _RESOLVED = json.load(open(_rp))
+
+def _file_of(v):
+    u = v.get("url") or ""
+    hit = _RESOLVED.get(u) or {}
+    if hit.get("file"):
+        return hit["file"]
+    mm = re.search(r"/([^/?]+\.(?:zip|bin|tgz))", u)
+    return mm.group(1) if mm else ""
+
+for b in site["brands"]:
+    for m in b["models"]:
+        for v in m["versions"]:
+            u = v.get("url") or ""
+            v["file"] = _file_of(v)
+            if "downloadCheck" in u:
+                v["resolve"] = "gate"
+                v["expires"] = "永久（点击时实时签名）"
+            elif re.search(r"Expires=\d+", u):
+                em = re.search(r"Expires=(\d+)", u)
+                v["resolve"] = "signed"
+                v["expires"] = time.strftime("%Y-%m-%d %H:%M", time.gmtime(int(em.group(1))))
+            else:
+                v["resolve"] = "direct"
+                v["expires"] = "永久"
 
 for b in site["brands"]:
     for m in b["models"]:
