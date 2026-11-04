@@ -33,6 +33,11 @@ jobs:
       - name: v6 增量记录 + 日志补全（分片 ${{ matrix.shard }}/6）
         run: python3 scripts/daily_v6.py --shard ${{ matrix.shard }}/6 --taste
 
+      - name: 官方接口补全 链接/MD5/更新日志（分片 ${{ matrix.shard }}/6）
+        run: python3 scripts/fetch_official.py --all --workers 4 --shard ${{ matrix.shard }}/6
+        continue-on-error: true
+        timeout-minutes: 25
+
       - uses: actions/upload-artifact@v4
         with:
           name: ota-data-${{ matrix.shard }}
@@ -67,11 +72,6 @@ jobs:
             echo "合并 $d"
             cp -a "$d". .
           done
-
-      - name: 官方接口补全（链接/MD5/更新日志）
-        run: python3 scripts/fetch_official.py --all
-        continue-on-error: true
-        timeout-minutes: 15
 
       - name: 版本史归一化
         run: python3 scripts/normalize.py
