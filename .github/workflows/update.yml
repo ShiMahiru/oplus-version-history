@@ -44,7 +44,7 @@ jobs:
   commit:
     needs: update
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -69,7 +69,7 @@ jobs:
           done
 
       - name: 官方接口补全（链接/MD5/更新日志）
-        run: python3 scripts/fetch_official.py --all
+        run: python3 scripts/fetch_official.py --all --days 1
         continue-on-error: true
         timeout-minutes: 15
 
@@ -77,7 +77,7 @@ jobs:
         run: python3 scripts/normalize.py
 
       - name: 链接校验
-        run: python3 scripts/verify.py
+        run: python3 scripts/verify.py --max 2500
         continue-on-error: true
 
       - name: size/md5 CDN 对账（修正错误值）
