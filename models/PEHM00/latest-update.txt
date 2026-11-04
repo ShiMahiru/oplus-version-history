@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:52
+查询地区: CN
+最新 OTA 版本: PEHM00_11.A.17_0170_202203112240
+版本名称: PEHM00_11_A.17
+Android 版本: Android 11
+ColorOS 版本: PEHM00_11_A.17
+发布时间: 1650287748127
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-62991ea2ea9518a29a95d5dc8d466a1f/component-ota/22/03/12/f71a00746fba40c382c87fd6cc83467a.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:24
+查询地区: CN
+最新 OTA 版本: PFUM10_11.A.12_0120_202208101944
+版本名称: PFUM10_11_A.12
+Android 版本: Android 11
+ColorOS 版本: PFUM10_11_A.12
+发布时间: 1665987742179
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f14ac43d3948dd18ed86c9062ca41eb8/component-ota/22/08/11/825030b5448b434088213a2b3960109d.zip

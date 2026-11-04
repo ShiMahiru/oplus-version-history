@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:48
+查询地区: CN
+最新 OTA 版本: RMX3043_11.A.11_0110_202108231113
+版本名称: RMX3043_11_A.11
+Android 版本: Android 11
+ColorOS 版本: RMX3043_11_A.11
+发布时间: 1630283019994
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-88b4e8a588ca7291462983d2628f8d60/component-ota/21/08/24/3261b85994114a0498cef53ecbd8df37.zip

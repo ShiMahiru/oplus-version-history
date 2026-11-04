@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:50:15
+查询地区: CN
+最新 OTA 版本: RMX3093_11.F.04_3040_202206020452
+版本名称: RMX3093_11_F.04
+Android 版本: Android 12
+ColorOS 版本: RMX3093_11_F.04
+发布时间: 1655516753290
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1d6d2016fa2bf0de5936ab51b34d628c/component-ota/22/06/10/0d81fdb5b2454df1ad8b9bded942e9ef.zip

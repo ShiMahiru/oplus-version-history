@@ -3,3 +3,5 @@ size: 9350147743
 md5: a5f73202a9cf4b62e5ae1a5bacf5cac2
 patch: 2026-08-01
 fp: RMX3800_11.F.34_2340_202609231252
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-1cb5b90a2ea1f020e431dddf9816b907/component-ota/26/10/12/d1c4c61e5c0946519d011e7074dc4c6b.html

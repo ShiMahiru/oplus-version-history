@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:38
+查询地区: CN
+最新 OTA 版本: PDEM30_11.C.24_1240_202201251852
+版本名称: PDEM30_11_C.24
+Android 版本: Android 11
+ColorOS 版本: PDEM30_11_C.24
+发布时间: 1646725934755
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b88f1c438dc3ef2e3b689cfadad8a5ab/component-ota/22/02/15/443b778b9de940e8a665b074f26ef24f.zip

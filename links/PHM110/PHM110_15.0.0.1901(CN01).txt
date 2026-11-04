@@ -1,0 +1,5 @@
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-eda26205f75a3184956c1faf9e71322c/component-ota/26/07/02/fdbb2f9a6f80429298b567254f7e07ec.zip
+size: 7311936211
+md5: 3f15b6db3bc17ad8319abca21f93c248
+patch: 2026-07-01
+fp: PHM110_11.F.19_2190_202607010010

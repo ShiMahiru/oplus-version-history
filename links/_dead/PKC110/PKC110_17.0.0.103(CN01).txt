@@ -1,5 +1,7 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=2f7e5951726a838b6a238ff5d5dbea91&p=a6c78fdd3655888b39ced5a7419731319371ffe64c6054f683bf5beec22b519bebb76688b3783222bf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad07d5f350d39017fff109a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=147ba41bc3dfe1212a658a7028ab0df7
+https://component-ota-cn.allawntech.com/downloadCheck?c=8a7c742793f10e6d7406ce55f731da01&p=a6c78fdd3655888b39ced5a7419731319371ffe64c6054f683bf5beec22b519bebb76688b3783222bf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aca611092ce7c01836a8430&taste=1&supportDLTaste=0&mode=1&tr=manual&s=1721f3257d5f9c65bf55dc9aa18fd0c6
 size: 9316198061
 md5: 02624a1cd1f7b41abf76246a9e27736a
 patch: 2026-09-01
 fp: PKC110_11.F.12_2120_202610081138
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-8a7c742793f10e6d7406ce55f731da01/component-ota/26/10/12/b94707a1fd2a4c5da36e30ec12a975cd.html

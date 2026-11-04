@@ -4,13 +4,13 @@
 
 **oneplus / CN** · 最新版本 `PGKM10_11_A.23` · OTA `PGKM10_11.A.23_0230_202212130857` · Android 12
 
-版本记录 **40** 条 · 有官方链接 **36** 条 · 有更新日志 **7** 份
+版本记录 **40** 条 · 有官方链接 **35** 条 · 有更新日志 **7** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PGKM10_15.0.0.1800(CN01) | `PGKM10_11.H.20_3200_202604032300` | 2026-04-03 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-274118ffc8c885d682ca0d564712b2fd/component-ota/26/04/08/7dc957b3990f411fa0cf7da4c3a9406c.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.20_3200.md>) |  |
+| PGKM10_15.0.0.1800(CN01) | `PGKM10_11.H.20_3200_202604032300` | 2026-04-03 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.20_3200.md>) |  |
 | PGKM10_15.0.0.1601(CN01) | `PGKM10_11.H.19_3190_202511271818` | 2025-11-27 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5c6e4d7820563819d52533ae3f4d78e4/component-ota/25/12/02/e4213e792a104bb3abd63f77f284638e.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.19_3190.md>) |  |
 | PGKM10_15.0.0.700(CN01) | `PGKM10_11.H.13_3130_202503311910` | 2025-03-31 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.13_3130.md>) |  |
 | PGKM10_15.0.0.700(CN01) | `PGKM10_11.F.13_3130_202503311910` | 2025-03-31 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.F.13_3130.md>) |  |

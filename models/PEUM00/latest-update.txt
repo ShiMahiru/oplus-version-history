@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:57
+查询地区: CN
+最新 OTA 版本: PEUM00_11.A.26_0260_202211161157
+版本名称: PEUM00_11_A.26
+Android 版本: Android 11
+ColorOS 版本: PEUM00_11_A.26
+发布时间: 1670463939769
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-782c423f57892e1b1c8f0cca352acb66/component-ota/22/11/16/5132a012e1cd4b38935ebb0bd7cd3777.zip

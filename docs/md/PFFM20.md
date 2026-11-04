@@ -2,16 +2,19 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PFFM20/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PFFM20_11_A.28` · OTA `PFFM20_11.A.28_0280_202211172153` · Android 12
 
-
-版本记录 **2** 条 · 有官方链接 **2** 条 · 有更新日志 **0** 份
+版本记录 **5** 条 · 有官方链接 **1** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PFFM20_15.0.0.1201(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-4d6e3518009d52cafe7af67859e9727b/component-ota/25/08/15/7b5801eb8acf46db94498b939ca0fe9a.zip>) |  |  |
-| PFFM20_15.0.0.1351(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-91a40cd4bc2610105b34029b19a1d83d/component-ota/25/10/21/ac7c3a45ba36427aa3c3cce22e243b47.zip>) |  |  |
+| PFFM20_16.0.3.501(CN01) | `PFFM20_11.J.19_4190_202603251938` | 2026-03-25 |  |  |  |
+| PFFM20_15.0.0.1351(CN01) | `PFFM20_11.H.33_3330_202510201038` | 2025-10-20 |  |  |  |
+| PFFM20_14.0.0.670(CN01) | `PFFM20_11.F.38_2380_202412101632` | 2024-12-10 |  |  |  |
+| PFFM20_13.1.0.210(CN01) | `PFFM20_11.C.39_1390_202311232238` | 2023-11-23 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3e1f0d1fc51a4f8d6855722c66ec691e/component-ota/23/11/24/318e68e4d9ae4262ad14adc67ddcdc24.zip>) |  |  |
+| PFFM20_11_A.28 | `PFFM20_11.A.28_0280_202211172153` | 2022-11-17 |  | [原文](<../../models/PFFM20/changelog/PFFM20_11.A.28_0280.md>) |  |
 
 ---
 

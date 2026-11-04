@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:17
+查询地区: CN
+最新 OTA 版本: PCLM10_11.F.13_3130_202204281824
+版本名称: PCLM10_11_F.13
+Android 版本: Android 11
+ColorOS 版本: PCLM10_11_F.13
+发布时间: 1653526873752
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-bc268547fa975def902d79a7cee56693/component-ota/22/04/29/d0aa33b4363447ffb3b9ac972f9bc822.zip

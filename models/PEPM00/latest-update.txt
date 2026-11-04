@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:20
+查询地区: CN
+最新 OTA 版本: PEPM00_11.A.22_0220_202112131747
+版本名称: PEPM00_11_A.22
+Android 版本: Android 11
+ColorOS 版本: PEPM00_11_A.22
+发布时间: 1645091828370
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-eaf78ec389c10072f9e54d5cbe1ef50e/component-ota/21/12/14/a8020b4c512a41499bc98efb397962ec.zip

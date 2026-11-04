@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:39
+查询地区: CN
+最新 OTA 版本: RMX3041_11.A.11_0110_202108231114
+版本名称: RMX3041_11_A.11
+Android 版本: Android 11
+ColorOS 版本: RMX3041_11_A.11
+发布时间: 1630282940129
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f13bdf3b09016bc2e7ad5bc8483fbd8e/component-ota/21/08/24/967e3b91057e429794ea47449384344e.zip

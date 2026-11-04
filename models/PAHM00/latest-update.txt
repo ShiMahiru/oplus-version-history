@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:56
+查询地区: CN
+最新 OTA 版本: PAHM00_11.H.15_4150_202112132057
+版本名称: PAHM00_11_H.15
+Android 版本: Android 11
+ColorOS 版本: PAHM00_11_H.15
+发布时间: 1639790368755
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-763b543070f401d6b4d3df23b9c9d893/component-ota/21/12/15/dccb0721efcd45ca8c10371b91d2aba6.zip

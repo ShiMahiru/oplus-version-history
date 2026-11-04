@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:45:53
+查询地区: CN
+最新 OTA 版本: OPD2515_11.A.37_0370_202608071143
+版本名称: OPD2515_16.0.10.500(CN01)
+Android 版本: Android 16
+ColorOS 版本: OPD2515_16.0.10.500(CN01)
+发布时间: 1788228524771
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=4f1448959a504f4248029cd450fe4d66&p=a6c78fdd375d888b39ce89aa449c3437c626f4b7496354f08cbe5bbc967c58c4bfb630d8b22e6122be3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a962aa976d168017ee7d8be&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c112059eb7848050110a7ed4e0a332c5

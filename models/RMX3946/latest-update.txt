@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:23
+查询地区: CN
+最新 OTA 版本: RMX3946_11.A.34_0340_202512221852
+版本名称: RMX3946_15.0.0.1200(CN01)
+Android 版本: Android 15
+ColorOS 版本: RMX3946_15.0.0.1200(CN01)
+发布时间: 1768376554965
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-4aa73b7c6bb1cc8706327623b7ede7ec/component-ota/25/12/26/5b0ae9f187d74811a8e3a5dc523ec2aa.zip

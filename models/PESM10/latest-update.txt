@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:41
+查询地区: CN
+最新 OTA 版本: PESM10_11.A.07_0070_202205171335
+版本名称: PESM10_11_A.07
+Android 版本: Android 11
+ColorOS 版本: PESM10_11_A.07
+发布时间: 1654652148476
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d10650e0ff977010f7d762df4168e667/component-ota/22/05/18/3fe9858c6cc8468d98e569777f2fb69b.zip

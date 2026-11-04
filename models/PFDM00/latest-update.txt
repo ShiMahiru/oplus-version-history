@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:45
+查询地区: CN
+最新 OTA 版本: PFDM00_11.A.20_0200_202203181855
+版本名称: PFDM00_11_A.20
+Android 版本: Android 11
+ColorOS 版本: PFDM00_11_A.20
+发布时间: 1649225456651
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e06cffc74f43fa371d36003619bd29b0/component-ota/22/03/19/1741efe53a2743509ba6e221da071623.zip

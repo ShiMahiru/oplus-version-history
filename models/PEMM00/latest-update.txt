@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:23
+查询地区: CN
+最新 OTA 版本: PEMM00_11.A.15_0150_202201081908
+版本名称: PEMM00_11_A.15
+Android 版本: Android 11
+ColorOS 版本: PEMM00_11_A.15
+发布时间: 1642735367175
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-80659853e63ff45060129450ecc8491c/component-ota/22/01/09/f319e70194564e4596e50affaaf888a9.zip

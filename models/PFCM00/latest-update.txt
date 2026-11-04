@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:46
+查询地区: CN
+最新 OTA 版本: PFCM00_11.A.13_0130_202203282017
+版本名称: PFCM00_11_A.13
+Android 版本: Android 11
+ColorOS 版本: PFCM00_11_A.13
+发布时间: 1649403401615
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-831ea152a774683efe73973e032be2e8/component-ota/22/03/28/1041b0eda993493a8eaa2818d6257298.zip

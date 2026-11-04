@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:04
+查询地区: CN
+最新 OTA 版本: RMP2108_11.A.27_0270_202502191711
+版本名称: RMP2108_11_A.27
+Android 版本: Android 12
+ColorOS 版本: RMP2108_11_A.27
+发布时间: 1742803191828
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-92d25da14ff0cec83cbd0c57cb0493f7/component-ota/25/02/24/1ca03ef552ec4364b66f2bc6435bab36.zip

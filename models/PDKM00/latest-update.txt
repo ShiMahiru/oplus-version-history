@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:51
+查询地区: CN
+最新 OTA 版本: PDKM00_11.C.11_1110_202205091241
+版本名称: PDKM00_11_C.11
+Android 版本: Android 11
+ColorOS 版本: PDKM00_11_C.11
+发布时间: 1653556800776
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e98ec539b38529ce17076fda441c29de/component-ota/22/05/09/086ade207ed54b178ab43933e93b815e.zip

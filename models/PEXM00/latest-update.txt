@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:31
+查询地区: CN
+最新 OTA 版本: PEXM00_11.A.11_0110_202202102239
+版本名称: PEXM00_11_A.11
+Android 版本: Android 11
+ColorOS 版本: PEXM00_11_A.11
+发布时间: 1646269113664
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b166b02ac7c5b850fc5d5fcbd1aa2299/component-ota/22/02/14/095759e1c0b8434795310d52c70ad910.zip

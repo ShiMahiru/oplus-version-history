@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:27
+查询地区: CN
+最新 OTA 版本: PDPT00_11.C.37_1370_202202091315
+版本名称: PDPT00_11_C.37
+Android 版本: Android 11
+ColorOS 版本: PDPT00_11_C.37
+发布时间: 1645710719870
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c21d5b70e2df6a9685a52ad81e7baceb/component-ota/22/02/12/5a0c0f7a99c04c04a3501a7a825d83ab.zip

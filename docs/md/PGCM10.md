@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGCM10_11_A.06` · OTA `PGCM10_11.A.06_0060_202205202113` · Android 11
 
-版本记录 **7** 条 · 有官方链接 **5** 条 · 有更新日志 **3** 份
+版本记录 **7** 条 · 有官方链接 **4** 条 · 有更新日志 **3** 份
 
 ## 版本史
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|
 | PGCM10_11_F.22 | `PGCM10_11.F.22_2220_202603131918` | 2026-03-13 |  | [原文](<../../models/PGCM10/changelog/PGCM10_11.F.22_2220.md>) |  |
 | PGCM10_11_C.09 | `PGCM10_11.C.09_1090_202303221616` | 2023-03-22 |  | [原文](<../../models/PGCM10/changelog/PGCM10_11.C.09_1090.md>) |  |
-| PGCM10_11_A.06 | `PGCM10_11.A.06_0060_202205202113` | 2022-05-20 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-530eda7d17dbbd2963ddff9e900d01ee/component-ota/22/05/23/ca274573974a4e2e956f018920802365.zip>) | [原文](<../../models/PGCM10/changelog/PGCM10_11.A.06_0060.md>) |  |
+| PGCM10_11_A.06 | `PGCM10_11.A.06_0060_202205202113` | 2022-05-20 |  | [原文](<../../models/PGCM10/changelog/PGCM10_11.A.06_0060.md>) |  |
 | PGCM10_11_C.02 |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7aea3f21552b919ea4cf68cec7a22ff4/component-ota/22/06/02/e3654cc995e3433098f2b03b7443bf93.zip>) |  |  |
 | PGCM10_11_C.09(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-49c73045d827f488ca20998dab9ad304/component-ota/23/03/23/572660b38d42432d813eb5856cb184ff.zip>) |  |  |
 | PGCM10_11_F.13 |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1a2433c252cbbe50f896df5b2983a879/component-ota/24/02/04/d74f383429734df48294808d2f6d24c9.zip>) |  |  |

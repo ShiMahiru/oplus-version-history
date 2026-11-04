@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:08
+查询地区: CN
+最新 OTA 版本: PEGM10_11.A.23_0230_202203071201
+版本名称: PEGM10_11_A.23
+Android 版本: Android 11
+ColorOS 版本: PEGM10_11_A.23
+发布时间: 1648459834485
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-001a404b44a6daac9093c4599704d8c9/component-ota/22/03/08/efe80cd4bb9c4aa4b93303f9b5858cd7.zip

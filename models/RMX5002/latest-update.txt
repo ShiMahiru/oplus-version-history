@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:51:28
+查询地区: CN
+最新 OTA 版本: RMX5002_11.A.78_0780_202411191412
+版本名称: RMX5002_14.1.0.600(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX5002_14.1.0.600(CN01)
+发布时间: 1734060748368
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f579abb40d094297a60e73c7c29525aa/component-ota/24/11/21/0a67e209711548f094c6781c8b399428.zip

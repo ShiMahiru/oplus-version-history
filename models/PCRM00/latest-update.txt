@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:38
+查询地区: CN
+最新 OTA 版本: PCRM00_11.C.15_1150_202203071123
+版本名称: PCRM00_11_C.15
+Android 版本: Android 11
+ColorOS 版本: PCRM00_11_C.15
+发布时间: 1648119783051
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3ae2319f73cc6b62c47429ab297f17eb/component-ota/22/03/14/722e588e4c6442fe89735b785de24b86.zip

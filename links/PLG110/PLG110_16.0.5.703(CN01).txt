@@ -1,4 +1,0 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-b30ae062f7f76bb732d38662640734b1/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/04/13/e764b1ea969c4224af20d9a11f297fef.zip?sign=103dd79be2ffb7baa785f19b5e279bb6&t=6ae8333d&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793604165&Signature=Zmr3EhJs6aOen0urVPyxwaXeFcg%3D
-size: 150
-md5_pending: yes
-source: lian86

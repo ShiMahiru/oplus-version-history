@@ -3,3 +3,5 @@ size: 9533556986
 md5: 0e9d216b4634a117eec5f0e66d889fef
 patch: 2026-07-01
 fp: PKU110_11.C.72_1720_202607071034
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-382747fa1feba937cae5c25378fb4ac8/component-ota/26/07/31/11431ebdba2e412794df83c4fe9a5820.html

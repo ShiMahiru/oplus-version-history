@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:37
+查询地区: CN
+最新 OTA 版本: RMX2117_11.C.18_1180_202208011832
+版本名称: RMX2117_11_C.18
+Android 版本: Android 11
+ColorOS 版本: RMX2117_11_C.18
+发布时间: 1660185996716
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-833b868a43cc5168377e1a0df43c8c73/component-ota/22/08/02/0e52be69ebf441a8b6c830eee218f5a8.zip

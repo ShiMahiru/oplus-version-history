@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:40
+查询地区: CN
+最新 OTA 版本: PECM20_11.C.07_1070_202205091305
+版本名称: PECM20_11_C.07
+Android 版本: Android 11
+ColorOS 版本: PECM20_11_C.07
+发布时间: 1654153607782
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8d3d5b30b92f16eebf159b607fa0dc2a/component-ota/22/05/09/fe4ea4cf9ea5458bb5428bfd0b9433f9.zip

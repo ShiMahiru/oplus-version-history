@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:49
+查询地区: CN
+最新 OTA 版本: PDPM00_11.C.37_1370_202202091313
+版本名称: PDPM00_11_C.37
+Android 版本: Android 11
+ColorOS 版本: PDPM00_11_C.37
+发布时间: 1645710732851
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e183fdfda177569a2248a65df3b694ad/component-ota/22/02/12/018c4b139da743e99f95f31acd8138d6.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:18
+查询地区: CN
+最新 OTA 版本: PEEM00_11.A.30_0300_202112022333
+版本名称: PEEM00_11_A.30
+Android 版本: Android 11
+ColorOS 版本: PEEM00_11_A.30
+发布时间: 1645428100678
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f9365bd64094f55c0918b13c67806bfa/component-ota/21/12/03/305f2444e17f45168fc93752e49fec19.zip

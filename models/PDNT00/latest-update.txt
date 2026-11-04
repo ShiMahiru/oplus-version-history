@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:07
+查询地区: CN
+最新 OTA 版本: PDNT00_11.C.36_1360_202202091314
+版本名称: PDNT00_11_C.36
+Android 版本: Android 11
+ColorOS 版本: PDNT00_11_C.36
+发布时间: 1646008200944
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9c2624e7fd27a28fce3d831c7436a0b5/component-ota/22/02/12/8a8a542d47cf40b4b56d0d6a4d2967ce.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:54
+查询地区: CN
+最新 OTA 版本: PDHM00_11.C.22_1220_202202142327
+版本名称: PDHM00_11_C.22
+Android 版本: Android 11
+ColorOS 版本: PDHM00_11_C.22
+发布时间: 1646041047658
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e50c1a022c5a53b167df03fca4a7775c/component-ota/22/02/15/1b803457ba3747e789f5eae6e52c08dd.zip

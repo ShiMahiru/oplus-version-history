@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:19
+查询地区: CN
+最新 OTA 版本: PDYM20_11.C.13_1130_202205030043
+版本名称: PDYM20_11_C.13
+Android 版本: Android 11
+ColorOS 版本: PDYM20_11_C.13
+发布时间: 1653306384009
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0f377bc7404d51ab156480c6f0b31366/component-ota/22/05/03/0a19c332b5e246618ccd3b09aa3b068d.zip

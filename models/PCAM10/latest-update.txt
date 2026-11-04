@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:14
+查询地区: CN
+最新 OTA 版本: PCAM10_11.F.13_3130_202402041802
+版本名称: PCAM10_11_F.13
+Android 版本: Android 11
+ColorOS 版本: PCAM10_11_F.13
+发布时间: 1713520183599
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c0250111976c1ba9a1e3b05419cc82b8/component-ota/24/03/01/39b8d3ee1d4c48f19f53ea0fed6c6c34.zip

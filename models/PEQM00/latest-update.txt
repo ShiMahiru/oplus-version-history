@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:06
+查询地区: CN
+最新 OTA 版本: PEQM00_11.A.25_0250_202205211956
+版本名称: PEQM00_11_A.25
+Android 版本: Android 11
+ColorOS 版本: PEQM00_11_A.25
+发布时间: 1653919022622
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-43ae1dd87eb1db122a11ab85648194c2/component-ota/22/05/23/7e9243860c764a8580e965d0a1ca89ea.zip

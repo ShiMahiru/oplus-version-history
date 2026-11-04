@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-95d9539af3c643546ef514eee9fb86f1/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/09/16/caee5cb68a7f4522b31cf8f0b58f261e.zip?sign=3ec91d0a725d2d3f5fd0e8a7b0c613d5&t=6ae83174&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793603657&Signature=2FFcjCnf7Sf6CzSChHy3S8djpf8%3D
-size: 150
-md5_pending: yes
-source: lian86
+https://component-ota-cn.allawntech.com/downloadCheck?c=da1564d31e778302c99c7f5dada92154&p=a6c78fdd375c888b3fce8efe17ca3437c576f5b04d3054f287bc00bb977b079abcbf30deef2e3221bc6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6adb18247d8131017f157f1c&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1fa01eb2bc491df4a3bb2d36445a70fb
+size: 8857730154
+md5: 63b59432562ce8d7b723e612ddc4b2e0
+patch: 2026-09-01
+fp: PGT110_11.H.32_3320_202609140924

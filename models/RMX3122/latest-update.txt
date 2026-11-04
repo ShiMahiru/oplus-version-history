@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:50
+查询地区: CN
+最新 OTA 版本: RMX3122_11.A.28_0280_202504301037
+版本名称: RMX3122_11_A.28
+Android 版本: Android 11
+ColorOS 版本: RMX3122_11_A.28
+发布时间: 1751622324738
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a155310596bd73720f9ab30407698a7b/component-ota/25/05/15/a64b12c95b96456fb8dab8c29ff255d5.zip

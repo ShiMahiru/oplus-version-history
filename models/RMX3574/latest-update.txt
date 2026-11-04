@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:09
+查询地区: CN
+最新 OTA 版本: RMX3574_11.A.22_0220_202502272234
+版本名称: RMX3574_11_A.22
+Android 版本: Android 12
+ColorOS 版本: RMX3574_11_A.22
+发布时间: 1743390298691
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-32bed0b43ceda00d7f066c65e6dd64bb/component-ota/25/03/10/29683cc0768f49ea9909ff2cb3159034.zip

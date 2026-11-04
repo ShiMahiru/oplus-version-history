@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:08
+查询地区: CN
+最新 OTA 版本: PDVM00_11.C.29_2290_202407231905
+版本名称: PDVM00_11_C.29
+Android 版本: Android 11
+ColorOS 版本: PDVM00_11_C.29
+发布时间: 1725018437756
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f33d82757c955063332376a25ff1edc1/component-ota/24/07/24/9ff4af0d4dca4b99af345841a3fd78a5.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:17
+查询地区: CN
+最新 OTA 版本: RMX3996_11.A.20_0200_202502270927
+版本名称: RMX3996_14.1.0.109(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3996_14.1.0.109(CN01)
+发布时间: 1742192639622
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-72c9d0ed453580b01d0a80944ed5810a/component-ota/25/03/04/17879b5e7ad64c0aac52714aefb63d2c.zip

@@ -2,18 +2,18 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PFZM10/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PFZM10_11_A.24` · OTA `PFZM10_11.A.24_0240_202209172134` · Android 12
 
-
-版本记录 **4** 条 · 有官方链接 **4** 条 · 有更新日志 **0** 份
+版本记录 **4** 条 · 有官方链接 **0** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PFZM10_11_A.24(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-68c6d7d656f84e3844d5c1ba3474ac4a/component-ota/22/09/19/f2fbfd01d23a487586133982662ba6eb.zip>) |  |  |
-| PFZM10_14.0.0.640(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ec07645854dec1982e81f4001a72812e/component-ota/24/11/14/39f7bf893b8242588f65a4024d55169e.zip>) |  |  |
-| PFZM10_15.0.0.1351(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f3cd8887e4fe3818e89bdf76d6ae0629/component-ota/25/10/24/0bb72508c844477c846eb5b27adaf01c.zip>) |  |  |
-| PFZM10_15.0.0.1352(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-78fb9b73bcc5c85498c6c90ef995b228/component-ota/25/11/18/175c1eb65dd74f7099ef45371201883b.zip>) |  |  |
+| PFZM10_15.0.0.2002(CN01) | `PFZM10_11.H.30_3300_202609091132` | 2026-09-09 |  |  |  |
+| PFZM10_14.0.0.640(CN01) | `PFZM10_11.F.57_2570_202411072018` | 2024-11-07 |  |  |  |
+| PFZM10_13.1.0.200(CN01) | `PFZM10_11.C.36_1360_202311220038` | 2023-11-22 |  |  |  |
+| PFZM10_11_A.24 | `PFZM10_11.A.24_0240_202209172134` | 2022-09-17 |  | [原文](<../../models/PFZM10/changelog/PFZM10_11.A.24_0240.md>) |  |
 
 ---
 

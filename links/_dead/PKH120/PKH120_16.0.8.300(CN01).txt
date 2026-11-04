@@ -3,3 +3,5 @@ size: 9377734552
 md5: 09ed251bdc89e81dd27b542c46967544
 patch: 2026-06-01
 fp: PKH120_11.C.94_1940_202606021757
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-5715ed42c4633f8d01a65798ccb5ac4e/component-ota/26/06/10/4790ce0cb85849e986ac25e71f5a20cc.html

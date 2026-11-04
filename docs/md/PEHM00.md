@@ -2,16 +2,17 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PEHM00/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PEHM00_11_A.17` · OTA `PEHM00_11.A.17_0170_202203112240` · Android 11
 
-
-版本记录 **2** 条 · 有官方链接 **2** 条 · 有更新日志 **0** 份
+版本记录 **3** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
+| PEHM00_11_C.42 | `PEHM00_11.C.42_1420_202608262038` | 2026-08-26 |  |  |  |
+| PEHM00_11_A.17 | `PEHM00_11.A.17_0170_202203112240` | 2022-03-11 |  |  |  |
 | PEHM00_11_C.32(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1116cba983e80d0bdc45614e440f44ec/component-ota/23/07/25/4677e62b43824cc09eb768b694d0216f.zip>) |  |  |
-| PEHM00_11_C.34(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9adc57935dd7efa3d2aa073609084572/component-ota/24/01/12/0f8ab617bb0a4825a524d3e7be9b909e.zip>) |  |  |
 
 ---
 

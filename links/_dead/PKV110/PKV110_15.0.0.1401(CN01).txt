@@ -1,5 +1,4 @@
-https://gauss-componentotacostmanual-cn.allawnfs.com/remove-65fe1e5b51639c21663eb9db32401c68/component-ota/25/10/21/8412299601394ebd9d4f35c3f3e84ff0.zip
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-655d73f6300fd4403646a0bbabd7521d/component-ota/25/10/21/8412299601394ebd9d4f35c3f3e84ff0.zip
 size: 5531341706
 md5: 781e5fe29c019995a2a2555a699abfb6
-patch: 2025-10-01
-fp: PKV110_11.C.46_1460_202510131557
+source: lian86

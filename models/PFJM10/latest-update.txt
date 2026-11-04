@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:57
+查询地区: CN
+最新 OTA 版本: PFJM10_11.A.29_0290_202206180203
+版本名称: PFJM10_11_A.29
+Android 版本: Android 11
+ColorOS 版本: PFJM10_11_A.29
+发布时间: 1655982210694
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-39f022a8d27b02044720adadd5101f15/component-ota/22/06/18/2470b7f7c485402b973f06c79bccc4d9.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:33
+查询地区: CN
+最新 OTA 版本: RMX6699_11.A.74_0740_202608102046
+版本名称: RMX6699_16.0.10.500(CN01)
+Android 版本: Android 16
+ColorOS 版本: RMX6699_16.0.10.500(CN01)
+发布时间: 1788936409799
+ROM 下载链接: https://component-ota-cn.allawntech.com/downloadCheck?c=8a8c544152ee9f91ce301ad8cf363055&p=a6c78fdd375d888b38cedcab11963566c670afb74d3554fed7b703ea977b0592bcbe62dbef7b312fbb6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a97efef92ce7c01836a53b5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=64b2fded3772c19552371acd54b6ed59

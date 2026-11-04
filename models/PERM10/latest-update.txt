@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:34
+查询地区: CN
+最新 OTA 版本: PERM10_11.A.09_0090_202204071623
+版本名称: PERM10_11_A.09
+Android 版本: Android 11
+ColorOS 版本: PERM10_11_A.09
+发布时间: 1650787724047
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-bf8ccc2367f7d9e499235b294ff99578/component-ota/22/04/07/ef6cfc73838047968042f91fd8418bc6.zip

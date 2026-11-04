@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:44
+查询地区: CN
+最新 OTA 版本: PENM00_11.A.23_0230_202203281902
+版本名称: PENM00_11_A.23
+Android 版本: Android 11
+ColorOS 版本: PENM00_11_A.23
+发布时间: 1650282796098
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-70cadafefe1d288591b789da60498431/component-ota/22/03/29/346193ac5d2c4b4684633fb20be3984e.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:04
+查询地区: CN
+最新 OTA 版本: PFTM20_11.A.12_0120_202211102034
+版本名称: PFTM20_11_A.12
+Android 版本: Android 12
+ColorOS 版本: PFTM20_11_A.12
+发布时间: 1670043453931
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d4a8aaafb68ab559fdf9b1846635b7ee/component-ota/22/11/11/f704259dfe4940769c4e3899716ce4e2.zip

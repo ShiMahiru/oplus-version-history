@@ -1,0 +1,5 @@
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cd7af5973a2f5323ee373ac055a293bd/component-ota/24/04/07/ef1a428b902141f09017088c149ff0dc.zip
+size: 5443378268
+md5: af4e0ff07f7cdd0b2a19f8f2ee827659
+patch: 2024-03-05
+fp: RMX3781_11.A.58_0580_202404021908

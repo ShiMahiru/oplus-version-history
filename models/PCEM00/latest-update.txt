@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:06
+查询地区: CN
+最新 OTA 版本: PCEM00_11.F.09_3090_202112131929
+版本名称: PCEM00_11_F.09
+Android 版本: Android 11
+ColorOS 版本: PCEM00_11_F.09
+发布时间: 1640868356167
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-99b67ba0106031f6ef55bc3e3668710e/component-ota/21/12/14/d4ba040d5acf4e41990b6a52684ab26d.zip

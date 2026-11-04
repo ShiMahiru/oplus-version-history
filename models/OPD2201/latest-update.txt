@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:48
+查询地区: CN
+最新 OTA 版本: OPD2201_11.A.43_0430_202312122242
+版本名称: OPD2201_13.1.0.197(CN01)
+Android 版本: Android 13
+ColorOS 版本: OPD2201_13.1.0.197(CN01)
+发布时间: 1703765030445
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-744460e016eac959e5a70667589c0879/component-ota/23/12/14/676f60ea70c94e30873c1dbb2c259551.zip

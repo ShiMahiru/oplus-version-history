@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:08
+查询地区: CN
+最新 OTA 版本: PCGM00_11.F.15_3150_202401021407
+版本名称: PCGM00_11_F.15
+Android 版本: Android 11
+ColorOS 版本: PCGM00_11_F.15
+发布时间: 1708946578778
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3fc8a6cb6010d86ec46541a1966f9161/component-ota/24/01/05/2f0d2efba6e14f46b2ceecb27c4a8d98.zip

@@ -2,16 +2,17 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PDRM00/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PDRM00_11_A.32` · OTA `PDRM00_11.A.32_0320_202203251349` · Android 11
 
-
-版本记录 **3** 条 · 有官方链接 **3** 条 · 有更新日志 **0** 份
+版本记录 **4** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PDRM00_13.1.0.193(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-73c2ddc18c8e7705c587bd8a6df747a0/component-ota/24/02/22/6ed049f2e4bf46b6ab44a8973acb5aec.zip>) |  |  |
-| PDRM00_13.1.0.199(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-24f5e60ab8c9ab30932e6c650c9c999e/component-ota/25/06/30/3eee4cb67cc14a5bb9f44338bc4f4973.zip>) |  |  |
+| PDRM00_13.1.0.202(CN01) | `PDRM00_11.F.27_2270_202603301610` | 2026-03-30 |  |  |  |
+| PDRM00_11_F.10 | `PDRM00_11.C.10_2100_202303111042` | 2023-03-11 |  |  |  |
+| PDRM00_11_A.32 | `PDRM00_11.A.32_0320_202203251349` | 2022-03-25 |  |  |  |
 | PDRM00_13.1.0.201(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ef767b6274d2f89e8ee370ba57fdae0b/component-ota/25/12/15/437966ab16bf47d883425f4a43e92fac.zip>) |  |  |
 
 ---

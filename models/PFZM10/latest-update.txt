@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:46
+查询地区: CN
+最新 OTA 版本: PFZM10_11.A.24_0240_202209172134
+版本名称: PFZM10_11_A.24
+Android 版本: Android 12
+ColorOS 版本: PFZM10_11_A.24
+发布时间: 1665822228284
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-49e55abb7ac36aa670889fa98424d0ac/component-ota/22/09/19/f2fbfd01d23a487586133982662ba6eb.zip

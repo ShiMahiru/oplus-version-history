@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:01
+查询地区: CN
+最新 OTA 版本: PCDM10_11.F.22_3220_202212231121
+版本名称: PCDM10_11_F.22
+Android 版本: Android 11
+ColorOS 版本: PCDM10_11_F.22
+发布时间: 1676376581909
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-88884f3f8d967b7a8bbcc52fa2e13e37/component-ota/22/12/29/c89ff1ea7be7460eb1e60a305a107001.zip

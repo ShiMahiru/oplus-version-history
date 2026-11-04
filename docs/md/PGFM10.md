@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGFM10_13.1.0.171(CN01)` · OTA `PGFM10_11.A.46_0460_202311131950` · Android 13
 
-版本记录 **8** 条 · 有官方链接 **6** 条 · 有更新日志 **4** 份
+版本记录 **8** 条 · 有官方链接 **5** 条 · 有更新日志 **4** 份
 
 ## 版本史
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|
 | PGFM10_16.0.5.701(CN01) | `PGFM10_11.H.12_3120_202604152200` | 2026-04-15 |  | [原文](<../../models/PGFM10/changelog/PGFM10_11.H.12_3120.md>) |  |
 | PGFM10_15.0.0.861(CN01) | `PGFM10_11.F.36_2360_202510301850` | 2025-10-30 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a2ceafe3cdec82347dfee72d0e248fbd/component-ota/25/11/03/36230daefe9045539ff8a4a9e0d257e6.zip>) | [原文](<../../models/PGFM10/changelog/PGFM10_11.F.36_2360.md>) |  |
-| PGFM10_14.0.0.850(CN01) | `PGFM10_11.C.92_1920_202411041753` | 2024-11-04 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3dae3670ef417e95e76ba2afbf0e6fc5/component-ota/24/11/05/c8c9306b08834136bee89f82ebe8cf7f.zip>) | [原文](<../../models/PGFM10/changelog/PGFM10_11.C.92_1920.md>) |  |
+| PGFM10_14.0.0.850(CN01) | `PGFM10_11.C.92_1920_202411041753` | 2024-11-04 |  | [原文](<../../models/PGFM10/changelog/PGFM10_11.C.92_1920.md>) |  |
 | PGFM10_13.1.0.171(CN01) | `PGFM10_11.A.46_0460_202311131950` | 2023-11-13 |  | [原文](<../../models/PGFM10/changelog/PGFM10_11.A.46_0460.md>) |  |
 | PGFM10_13.1.0.170(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-2c324df4cf1d830676ff1eaa008db613/component-ota/23/10/24/caeed53bba584fcb857365b57a97579e.zip>) |  |  |
 | PGFM10_14.0.0.111(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7896eb8876b96343cb63a9e52b0b1073/component-ota/23/10/30/9dfa048d9d374561a18fe97020ac1b1f.zip>) |  |  |

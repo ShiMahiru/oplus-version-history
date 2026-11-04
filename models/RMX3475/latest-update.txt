@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:01
+查询地区: CN
+最新 OTA 版本: RMX3475_11.A.59_0590_202412191526
+版本名称: RMX3475_11_A.59
+Android 版本: Android 12
+ColorOS 版本: RMX3475_11_A.59
+发布时间: 1735957088778
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-898759a095c045e7668c3d6680cb1123/component-ota/24/12/20/862a82d4c3864378b5d34ac67736d6fc.zip

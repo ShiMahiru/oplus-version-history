@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:12
+查询地区: CN
+最新 OTA 版本: PEDM00_11.A.32_0320_202112030313
+版本名称: PEDM00_11_A.32
+Android 版本: Android 11
+ColorOS 版本: PEDM00_11_A.32
+发布时间: 1639397506210
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-83a5528527d5a314ee296e04577f9a2b/component-ota/21/12/03/6d6642cdf3574facafce73aa45bb6029.zip

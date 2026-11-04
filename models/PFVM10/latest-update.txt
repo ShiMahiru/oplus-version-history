@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:53
+查询地区: CN
+最新 OTA 版本: PFVM10_11.A.12_0120_202204012053
+版本名称: PFVM10_11_A.12
+Android 版本: Android 11
+ColorOS 版本: PFVM10_11_A.12
+发布时间: 1650631334700
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-34e6677b6be68930ea5437691a670b95/component-ota/22/04/07/8deb0eec467e41d9a42a054fea6ac586.zip

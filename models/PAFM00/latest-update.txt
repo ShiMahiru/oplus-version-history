@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:45:56
+查询地区: CN
+最新 OTA 版本: PAFM00_11.H.15_4150_202112132055
+版本名称: PAFM00_11_H.15
+Android 版本: Android 11
+ColorOS 版本: PAFM00_11_H.15
+发布时间: 1639790125421
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d57986d7a384fef7a2762ffc2129e5cc/component-ota/21/12/15/8ab277d34a17438f82eb25e9f342267d.zip

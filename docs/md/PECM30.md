@@ -2,17 +2,16 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PECM30/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PECM30_11_C.07` · OTA `PECM30_11.C.07_1070_202205091306` · Android 11
 
-
-版本记录 **3** 条 · 有官方链接 **3** 条 · 有更新日志 **0** 份
+版本记录 **2** 条 · 有官方链接 **1** 条 · 有更新日志 **0** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PECM30_11_F.12(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-edcc0e6d3acd2ea1ecaf2f7cedb24e4d/component-ota/24/01/25/99523c72d03b460fba071a255cfc5443.zip>) |  |  |
-| PECM30_11_F.14(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-30f2bcb423c21ea894c159aa7d1b6724/component-ota/24/07/26/33695044a669402a90b2b27b3df3420d.zip>) |  |  |
-| PECM30_11_F.21(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ad460dec5d2440221e2b26a4f9208b8a/component-ota/26/08/25/f41059bea71e4947bce2dd57bf122793.zip>) |  |  |
+| PECM30_11_F.21 | `PECM30_11.F.21_2210_202608241119` | 2026-08-24 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b35113566212856572b8c655ee3b1ac1/component-ota/26/08/25/f41059bea71e4947bce2dd57bf122793.zip>) |  |  |
+| PECM30_11_C.07 | `PECM30_11.C.07_1070_202205091306` | 2022-05-09 |  |  |  |
 
 ---
 

@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=4f204f526c82c9089d7935dde8d773cc&p=a6c78fdd3655888b30ced9fd16996436c423fce04a3254f182bd03bd942857c1eeb76489e22e3621ba3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad615097d8131017f1575cd&taste=1&supportDLTaste=0&mode=1&tr=manual&s=48eaf573d7ad87a9c27e7c6517d26451
+https://component-ota-cn.allawntech.com/downloadCheck?c=333e754b6cf0e45ad41e8d90ff7afb37&p=a6c78fdd3655888b30ced9fd16996436c423fce04a3254f182bd03bd942857c1eeb76489e22e3621ba3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ae1af507d8131017f1586a0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=e0b250f54c30519bfbbba9c81cc7dc58
 size: 8867692434
 md5: 15aa0fb1d1dee2b6f9c98071aab57b32
 patch: 2026-09-01
 fp: PLF110_11.F.37_2370_202610191708
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-4f204f526c82c9089d7935dde8d773cc/component-ota/26/10/27/f5f37cafd6af4f2ab1e447ba0b69be00.html

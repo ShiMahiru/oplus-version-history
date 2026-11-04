@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:28
+查询地区: CN
+最新 OTA 版本: RMX2072_11.C.28_1280_202201291531
+版本名称: RMX2072_11_C.28
+Android 版本: Android 11
+ColorOS 版本: RMX2072_11_C.28
+发布时间: 1645058985684
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-51a3d5a485e311389b4e3a56d2abba14/component-ota/22/02/08/a05f93cb3965427993158080b177106a.zip

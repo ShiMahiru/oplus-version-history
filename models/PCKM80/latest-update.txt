@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:11
+查询地区: CN
+最新 OTA 版本: PCKM80_11.F.16_3160_202212231104
+版本名称: PCKM80_11_F.16
+Android 版本: Android 11
+ColorOS 版本: PCKM80_11_F.16
+发布时间: 1676376431120
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-97aa0eb51b174e1a5d11a6cb1256077f/component-ota/22/12/29/954750b55c7a47e78341874bc0b8749d.zip

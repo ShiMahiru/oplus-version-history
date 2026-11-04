@@ -2,16 +2,17 @@
 
 [← 返回机型索引](../../HISTORY.md) · [最新版元数据](<../../models/PELM00/latest-update.txt>)
 
+**oneplus / CN** · 最新版本 `PELM00_11_A.12` · OTA `PELM00_11.A.12_0120_202112151749` · Android 11
 
-
-版本记录 **2** 条 · 有官方链接 **2** 条 · 有更新日志 **0** 份
+版本记录 **3** 条 · 有官方链接 **1** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PELM00_11_A.12(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-92a2c4f663350aaec6dba8a79e02673c/component-ota/21/12/15/dd14b04507b14e07964b452aa8c953d2.zip>) |  |  |
-| PELM00_11_F.58(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-980903e838511c25348f95e170ce3a38/component-ota/26/04/09/16bacab29c3743e3860d0fdc5330fe2f.zip>) |  |  |
+| PELM00_11_F.58 | `PELM00_11.F.58_2580_202604031146` | 2026-04-03 |  |  |  |
+| PELM00_11_C.30 | `PELM00_11.C.30_1300_202211251527` | 2022-11-25 |  |  |  |
+| PELM00_11_A.12 | `PELM00_11.A.12_0120_202112151749` | 2021-12-15 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-dda6e7542a661b8c0657978d761e960b/component-ota/21/12/15/dd14b04507b14e07964b452aa8c953d2.zip>) | [原文](<../../models/PELM00/changelog/PELM00_11.A.12_0120.md>) |  |
 
 ---
 

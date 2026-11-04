@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:50:23
+查询地区: CN
+最新 OTA 版本: RMX2205_11.A.19_0190_202201110215
+版本名称: RMX2205_11_A.19
+Android 版本: Android 11
+ColorOS 版本: RMX2205_11_A.19
+发布时间: 1643004935634
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a2ec773fc219ae7c3711ac84663b37c7/component-ota/22/01/12/8787765a03304b7ba64d6c145602b152.zip

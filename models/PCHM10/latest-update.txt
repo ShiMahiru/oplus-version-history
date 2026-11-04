@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:45:59
+查询地区: CN
+最新 OTA 版本: PCHM10_11.F.14_3140_202211172129
+版本名称: PCHM10_11_F.14
+Android 版本: Android 11
+ColorOS 版本: PCHM10_11_F.14
+发布时间: 1671712919438
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7422473bf5185d1b5be1ac4da80487fc/component-ota/22/11/22/245d6ecb87b44a759f442c28abb27ee7.zip

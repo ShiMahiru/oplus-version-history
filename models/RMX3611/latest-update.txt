@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:55
+查询地区: CN
+最新 OTA 版本: RMX3611_11.A.38_0380_202505300958
+版本名称: RMX3611_11_A.38
+Android 版本: Android 12
+ColorOS 版本: RMX3611_11_A.38
+发布时间: 1750677511578
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-330e7152e2317e6d322e9d681d398a5c/component-ota/25/06/03/da419480abb44bb4a4fa33615d52439f.zip

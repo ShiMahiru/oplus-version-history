@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:50:27
+查询地区: CN
+最新 OTA 版本: RMX3161_11.A.23_0230_202206142111
+版本名称: RMX3161_11_A.23
+Android 版本: Android 11
+ColorOS 版本: RMX3161_11_A.23
+发布时间: 1656382506803
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-327fa6156ee4c218660c0f03a5355f90/component-ota/22/06/17/abd9cc656818494f8555dd6776eee940.zip

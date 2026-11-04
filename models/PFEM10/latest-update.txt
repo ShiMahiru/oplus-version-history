@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:52
+查询地区: CN
+最新 OTA 版本: PFEM10_11.A.29_0290_202210100119
+版本名称: PFEM10_11_A.29
+Android 版本: Android 12
+ColorOS 版本: PFEM10_11_A.29
+发布时间: 1667201151121
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1959e6ff7e1d9535d45645685bcf43ff/component-ota/22/10/10/b06458c6f594451fa91accecd46a4aa9.zip

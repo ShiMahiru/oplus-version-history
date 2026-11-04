@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:15
+查询地区: CN
+最新 OTA 版本: PDET10_11.C.24_1240_202201251851
+版本名称: PDET10_11_C.24
+Android 版本: Android 11
+ColorOS 版本: PDET10_11_C.24
+发布时间: 1646725916555
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8e8c48bf27e8439d561d3b548e700071/component-ota/22/02/15/971cbff9948c47379e200848a37165bc.zip

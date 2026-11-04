@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:01
+查询地区: CN
+最新 OTA 版本: PDSM00_11.A.21_0210_202203310214
+版本名称: PDSM00_11_A.21
+Android 版本: Android 11
+ColorOS 版本: PDSM00_11_A.21
+发布时间: 1650283208368
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9a5b304c2abcd21a47892a2a6f20ae4c/component-ota/22/03/31/509ee1e7c444423b96eb7458d8fe2a15.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:34
+查询地区: CN
+最新 OTA 版本: RMX5090_11.A.47_0470_202509192157
+版本名称: RMX5090_15.0.0.670(CN01)
+Android 版本: Android 15
+ColorOS 版本: RMX5090_15.0.0.670(CN01)
+发布时间: 1759975980134
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e00a4fd15423792865f89dbe0e28abd9/component-ota/25/09/20/20c6bd52b2f441769746ec9a3bc332d5.zip

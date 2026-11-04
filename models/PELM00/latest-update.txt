@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:25
+查询地区: CN
+最新 OTA 版本: PELM00_11.A.12_0120_202112151749
+版本名称: PELM00_11_A.12
+Android 版本: Android 11
+ColorOS 版本: PELM00_11_A.12
+发布时间: 1640416467362
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-dda6e7542a661b8c0657978d761e960b/component-ota/21/12/15/dd14b04507b14e07964b452aa8c953d2.zip

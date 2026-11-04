@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:48:28
+查询地区: CN
+最新 OTA 版本: RMX2112_11.F.06_3060_202211212211
+版本名称: RMX2112_11_F.06
+Android 版本: Android 12
+ColorOS 版本: RMX2112_11_F.06
+发布时间: 1670464088702
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a6cacf68d1d56a948417deee7bc17ab8/component-ota/22/11/25/e75ddad13e9e4a95bc60692239932bdd.zip

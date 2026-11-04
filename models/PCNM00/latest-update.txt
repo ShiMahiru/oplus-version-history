@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:47:20
+查询地区: CN
+最新 OTA 版本: PCNM00_11.F.27_2270_202211011831
+版本名称: PCNM00_11_F.27
+Android 版本: Android 11
+ColorOS 版本: PCNM00_11_F.27
+发布时间: 1669356975082
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-de344c4ccbcfbe820b70d68a2aa5a9e4/component-ota/22/11/03/9f340fd93d474d59a48e3dd68b46190e.zip

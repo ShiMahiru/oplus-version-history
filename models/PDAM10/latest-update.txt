@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:46:41
+查询地区: CN
+最新 OTA 版本: PDAM10_11.C.40_2400_202512241424
+版本名称: PDAM10_11_C.40
+Android 版本: Android 11.1
+ColorOS 版本: PDAM10_11_C.40
+发布时间: 1769163771537
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-eadff838cc1932b18e2cd4be7eac9175/component-ota/25/12/26/9bf31b8978fd474f98a416f33bb310ba.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:49:06
+查询地区: CN
+最新 OTA 版本: RMX3781_11.A.58_0580_202404021908
+版本名称: RMX3781_13.2.0.530(SP01CN01)
+Android 版本: Android 13
+ColorOS 版本: RMX3781_13.2.0.530(SP01CN01)
+发布时间: 1713153187533
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cd7af5973a2f5323ee373ac055a293bd/component-ota/24/04/07/ef1a428b902141f09017088c149ff0dc.zip

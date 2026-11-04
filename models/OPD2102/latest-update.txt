@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 19:45:27
+查询地区: CN
+最新 OTA 版本: OPD2102_11.A.12_0120_202302222252
+版本名称: OPD2102_11_A.12
+Android 版本: Android 12
+ColorOS 版本: OPD2102_11_A.12
+发布时间: 1678195835035
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f3c6613b56346c84be3a3c5a57a558df/component-ota/23/02/24/e4fc363713ea473c8051e6eb4b4dc28f.zip
