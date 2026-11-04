@@ -68,6 +68,11 @@ jobs:
             cp -a "$d". .
           done
 
+      - name: 官方接口补全（链接/MD5/更新日志）
+        run: python3 scripts/fetch_official.py --all
+        continue-on-error: true
+        timeout-minutes: 15
+
       - name: 版本史归一化
         run: python3 scripts/normalize.py
 
