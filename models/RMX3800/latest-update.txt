@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 09:31:44
+查询地区: CN
+最新 OTA 版本: RMX3800_11.A.44_0440_202501230230
+版本名称: RMX3800_14.1.0.190(CN01)
+Android 版本: Android 14
+ColorOS 版本: RMX3800_14.1.0.190(CN01)
+发布时间: 1738919546415
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0fcd615f2bb8a69822b6fb32c984cae5/component-ota/25/01/23/46c799b23b8748d2a5d0237e71fe6917.zip

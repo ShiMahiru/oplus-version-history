@@ -4,7 +4,7 @@
 
 **oppo / CN** · 最新版本 `PGBM10_11_A.27` · OTA `PGBM10_11.A.27_0270_202212191345` · Android 12
 
-版本记录 **7** 条 · 有官方链接 **4** 条 · 有更新日志 **3** 份
+版本记录 **9** 条 · 有官方链接 **6** 条 · 有更新日志 **3** 份
 
 ## 版本史
 
@@ -13,10 +13,12 @@
 | PGBM10_14.0.0.3001(CN01) | `PGBM10_11.F.64_2640_202606021054` | 2026-06-02 |  | [原文](<../../models/PGBM10/changelog/PGBM10_11.F.64_2640.md>) |  |
 | PGBM10_13.1.0.180(CN01) | `PGBM10_11.C.40_1400_202312042256` | 2023-12-04 |  | [原文](<../../models/PGBM10/changelog/PGBM10_11.C.40_1400.md>) |  |
 | PGBM10_11_A.27 | `PGBM10_11.A.27_0270_202212191345` | 2022-12-19 |  | [原文](<../../models/PGBM10/changelog/PGBM10_11.A.27_0270.md>) |  |
+| PGBM10_11_A.27(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-079f29984578b42e9ea52ac69188e733/component-ota/22/12/22/7f04fe618e9d4060939b322db2bce22a.zip>) |  |  |
 | PGBM10_14.0.0.200(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c53e9e307cfd05fb477fafd5b820b868/component-ota/23/12/08/b022f963dd914f4d971bce9219b68a7e.zip>) |  |  |
 | PGBM10_14.0.0.2402(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-77ca5d50f561be529c5468a19af9b795/component-ota/25/09/25/ceb5cf9dcbf740918bbc154af1417487.zip>) |  |  |
 | PGBM10_14.0.0.2701(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6b772616dee72cd184190bdb8b3ba4ad/component-ota/25/11/28/8914225b19cd493795145b309defb113.zip>) |  |  |
 | PGBM10_14.0.0.2900(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6bc0921f1879b8261223a85d684f94ad/component-ota/26/03/09/1e0c0951ec6b4204b2747319880b0772.zip>) |  |  |
+| PGBM10_14.0.0.3101(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9b32a1d887e90f962b600bc54b495cb4/component-ota/26/09/28/dc3322fe7ec7445ab7107975f4ba9b34.zip>) |  |  |
 
 ## 官方降级包
 

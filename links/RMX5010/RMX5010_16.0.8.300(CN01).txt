@@ -1,7 +1,0 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=facb453c3cbe1da261a2598c2eaa5804&p=a6c78fdd3753888a30ced4ad479d60319076f9b34d6e54f6d6b65bbf977c0596bced36d9b4793724b43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a44cb089e207b01827c6df8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1037dc8b4ac3a77093f663e70437aff3
-size: 9615865949
-md5: b4185348b110046cbb9ea3817bb20ed0
-patch: 2026-06-01
-fp: RMX5010_11.F.65_2650_202606091626
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-facb453c3cbe1da261a2598c2eaa5804/component-ota/26/07/01/a3ab2864a36b4e088288727bd7a999b3.html

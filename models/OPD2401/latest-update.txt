@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 09:30:06
+查询地区: CN
+最新 OTA 版本: OPD2401_11.A.69_0690_202411211026
+版本名称: OPD2401_14.1.0.703(CN01)
+Android 版本: Android 14
+ColorOS 版本: OPD2401_14.1.0.703(CN01)
+发布时间: 1733208761295
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cfddc1e6154cc6ae2d68b12c74565112/component-ota/24/11/21/7225f7b2b3d24842bbad8b492dd430eb.zip

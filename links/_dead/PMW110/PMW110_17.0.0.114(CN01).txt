@@ -1,5 +1,4 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=3569c45b95d6b616f4e15582953e114a&p=a6c78fdd375c88883eced8a6169b6066c679fab2496754f381ea5ae9902e54c7edbf63d3e42d3724ee6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=4b9221736ced2b313b80b3318eed7649&id=6acc42d992ce7c01836a8529&taste=0&supportDLTaste=0&mode=1&tr=manual&s=8726ab06f7ed19723b32d784d9fb20d5
-size: 10832070270
-md5: bb9992811cf8a738275b681325bea266
-patch: 2026-09-01
-fp: PMW110_11.A.55_0550_202609270152
+https://gauss-compota-c-cn.allawnfs.com/remove-05307837d39371049c9dff3a85d0e8d0/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/09/27/59d4a2a97c31444d8a665e70183e73cf.zip?sign=e81510f59c528dacc577339d4b3c99cb&t=6ae86656&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793617246&Signature=REWQJfHSg9amzEZbGgY0FCJSV4E%3D
+size: 150
+md5_pending: yes
+source: lian86

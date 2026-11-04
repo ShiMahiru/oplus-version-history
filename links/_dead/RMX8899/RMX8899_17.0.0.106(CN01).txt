@@ -3,3 +3,5 @@ size: 9733511430
 md5: c0ca72cabab48d37cc76c79c4997b66c
 patch: 2026-09-01
 fp: RMX8899_11.C.13_1130_202610080048
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-de5940a79b5634c8415dd0d95d8feb53/component-ota/26/10/16/1953acdf7bed4b399e317bc07691a8bb.html

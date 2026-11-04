@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 09:29:54
+查询地区: CN
+最新 OTA 版本: IN2010_11.F.66_2660_202305161557
+版本名称: IN2010_13.1.0.120(CN01)
+Android 版本: Android 13
+ColorOS 版本: IN2010_13.1.0.120(CN01)
+发布时间: 1687922072977
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1a764cdcb4695273f5ca602f5b541a42/component-ota/23/05/17/3b6c9b881277480284f813e0100b59ef.zip

@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 09:31:15
+查询地区: CN
+最新 OTA 版本: LE2100_11.A.15_0150_202112102141
+版本名称: LE2100_11_A.15
+Android 版本: Android 11
+ColorOS 版本: LE2100_11_A.15
+发布时间: 1641265236466
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-32447a6d9cbf71d71edae37725c9b535/component-ota/21/12/13/ccec56961f964f9f87401351e132c2d4.zip

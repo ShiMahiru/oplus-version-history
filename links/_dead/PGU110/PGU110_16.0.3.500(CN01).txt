@@ -1,1 +1,4 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-f893cb6792c7d5c9371546f980b4d311/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/02/28/f27c996d082b4da48b622fb168a96356.zip?sign=2505aed47dab5b177240e711b3a98ce7&t=6ac5ca4a&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1791348844&Signature=EfiDtqO9DQS1fr4ve6OTzMg6C%2FA%3D
+https://gauss-compota-c-cn.allawnfs.com/remove-f893cb6792c7d5c9371546f980b4d311/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/02/28/f27c996d082b4da48b622fb168a96356.zip?sign=4df6dccf79410433e46f95c0f45469ae&t=6ae83184&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793603724&Signature=5pVxjSXu8dHXKMOV4kjuVOi2a%2BQ%3D
+size: 150
+md5_pending: yes
+source: lian86

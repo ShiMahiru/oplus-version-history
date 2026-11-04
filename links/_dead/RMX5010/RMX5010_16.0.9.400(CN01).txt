@@ -3,3 +3,5 @@ size: 9655812253
 md5: d9e2d1aedddc6aadff3f92b2cfbe98db
 patch: 2026-07-01
 fp: RMX5010_11.F.66_2660_202607071748
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-0d5535f5260a53e8dfcddc29fa868ca1/component-ota/26/07/23/99c27a7a55794a2aaff964525d4140c1.html

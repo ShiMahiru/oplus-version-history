@@ -1,0 +1,8 @@
+本地更新时间: 2026-11-04 09:30:25
+查询地区: CN
+最新 OTA 版本: KB2000_11.F.67_2670_202305111850
+版本名称: KB2000_13.1.0.121(CN01)
+Android 版本: Android 13
+ColorOS 版本: KB2000_13.1.0.121(CN01)
+发布时间: 1687932296393
+ROM 下载链接: https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ff078deacec8297af6386568147c14c2/component-ota/23/05/11/43a3edd905ee4ceebbb838f6354cf09b.zip
