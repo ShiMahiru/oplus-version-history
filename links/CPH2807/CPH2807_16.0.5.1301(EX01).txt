@@ -1,7 +1,5 @@
-https://component-ota-sg.allawnos.com/downloadCheck?c=18dad885bb540e3bec31339b0be31c3d&p=f088224e016b1388adbc94061132d663437c119c273fc0e079199d889f9fd26447b6661df50526e14d5a452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6ac8b3d892ce7c01836a7f35&taste=1&supportDLTaste=0&mode=1&tr=manual&s=197a8ee1af490d48e82779f3e79aad86
+https://component-ota-sg.allawnos.com/downloadCheck?c=53b3ba977f979b60f0cf95dea0002ae3&p=f088224e016b1388adbc94061132d663437c119c273fc0e079199d889f9fd26447b6661df50526e14d5a452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=6eda99f2e547c3a0c280e9519db00722&id=6ae1cfc4350d39017fff27b8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=100f0688e708d6bdf636c1c2e9543757
 size: 7194496109
 md5: 6f29ee004455f5cbac9fb9006f954542
 patch: 2026-10-01
 fp: CPH2807_11.A.21_0210_202610081617
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-18dad885bb540e3bec31339b0be31c3d/component-ota/26/10/26/4373098526ca4b91b0b340e05ab445ec.html

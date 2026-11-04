@@ -1,7 +1,5 @@
-https://component-ota-eu.allawnos.com/downloadCheck?c=334cd7476f0faccad32c63ee74b2f6cc&p=c25c9713dbb5a25f829e34a33d6aeb4700a28a1af6d8737b7a338aff53956dd7176daff46088816b31ac181c2077&d=851ad54c99bfa241d5d076b47975b91b5ae3d60ba797246f7975c5af5dc86d924a61afb32ddb8867&g=10eab6008d5642cf42abd2aa41f847cb&id=6ac9aa4a76d168017ee808ee&taste=1&supportDLTaste=0&mode=1&tr=manual&s=81648aecda25d310cf444553a97bfd81
-size: 6584069564
-md5: 33109f9e8a6c0f4c05748a63edb426d7
+https://component-ota-sg.allawnos.com/downloadCheck?c=38fde87d51bb7bb2bdc95d1ab6ebb4e6&p=f088224e016b1389a4bc91534567d5334f7e4391263fc0e0791f9e879897833517b36419a95078e64c02452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=fa2e1ed955e37bb9cbb32a8707519534&id=6ae1ce48350d39017fff27b6&taste=0&supportDLTaste=0&mode=1&tr=manual&s=e25f780d602d00bce435507a5a04de6f
+size: 6584409498
+md5: 491c08496894e9fc433f0e76911fe595
 patch: 2026-10-01
 fp: OPD2504_11.A.36_0360_202610091329
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-334cd7476f0faccad32c63ee74b2f6cc/component-ota/26/10/26/1e123304947548898963c55b9bb5545e.html

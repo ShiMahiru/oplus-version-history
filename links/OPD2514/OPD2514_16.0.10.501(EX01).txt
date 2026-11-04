@@ -1,7 +1,5 @@
-https://component-ota-sg.allawnos.com/downloadCheck?c=8d90cc1cc7b401c3054b003dd9e05779&p=f088224e00631388a1bcc2041160d569132e19932667c0ec7c18c787ca91d23646b36448a95227e71459452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=6a72b73792ce7c01806f59b2&taste=1&supportDLTaste=0&mode=1&tr=manual&s=049cd1470fe77578fab853662946744b
+https://component-ota-sg.allawnos.com/downloadCheck?c=cb052f532a4f0596acfda0388233c582&p=f088224e00631388a1bcc2041160d569132e19932667c0ec7c18c787ca91d23646b36448a95227e71459452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=a61431b8d7f83cda00df80e30c9a3d47&id=6a9a2f6a92ce7c01836a571b&taste=0&supportDLTaste=0&mode=1&tr=manual&s=330425bcd2aeaa6f6e60013afea3c749
 size: 7233066258
 md5: 56fac9cb6aadebfb4104a7b2e7df6bcb
 patch: 2026-08-01
 fp: OPD2514_11.A.38_0380_202608042337
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-8d90cc1cc7b401c3054b003dd9e05779/component-ota/26/09/02/3ae9f57947114dfdaa1e5ffe8e4d8d29.html

@@ -1,0 +1,5 @@
+https://gauss-componentotamanual.allawnofs.com/remove-4eb7b8617083c5aae2f4e43a72471255/component-ota/25/10/16/b50321be2d80442681d08180ade2763d.zip
+size: 6153873171
+md5: be632ad928c88b37c271c063f43e7868
+patch: 2025-10-01
+fp: RMX3945_11.A.30_0300_202510101115

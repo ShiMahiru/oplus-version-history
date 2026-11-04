@@ -1,0 +1,5 @@
+https://gauss-componentotamanual.allawnofs.com/remove-9d92a3e508954af353595ca1ef1f6bf3/component-ota/25/11/25/052410dd61374dae837b88a9b52544d2.zip
+size: 5289801248
+md5: e38a345836fc991db50f95df03af80b8
+patch: 2025-12-01
+fp: OPD2420_11.A.49_0490_202511242044
