@@ -1,7 +1,5 @@
-https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b4dabb9bf620f11c57b27d07b13f40ea/component-ota/24/12/18/07b992fdd2f34aa59e780ac0a9c683dd.zip
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-78e474331c0d1ce98cdb975479c28670/component-ota/24/12/18/07b992fdd2f34aa59e780ac0a9c683dd.zip
 size: 6871663621
 md5: 58d3a22b4a1e05194d5ce7374fe58282
 patch: 2024-12-05
 fp: NE2210_11.F.80_2800_202412131718
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-b4dabb9bf620f11c57b27d07b13f40ea/component-ota/25/01/06/7bc99ad3e1e0438c834ab6d84c0e69dc.html

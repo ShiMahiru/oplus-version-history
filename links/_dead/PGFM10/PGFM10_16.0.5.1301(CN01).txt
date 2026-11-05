@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-3e13fb837c69aa58d909f9485a6b43bd/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/09/30/23822a06f06543ccbf0d750451c52124.zip?sign=7242262c2d4107c0f0b1e6e3c6ca5c2e&t=6ae8315a&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793603682&Signature=tV9O40HISVGP7KdWtQIQGxb3AFo%3D
-size: 150
-md5_pending: yes
-source: lian86
+https://component-ota-cn.allawntech.com/downloadCheck?c=b3f3595d07d39ba2732784474862a6e8&p=a6c78fdd375c888939cedfac4a9d33359776abe14c6354f4d6ed00ee967c5697eabb67dab47d3226bf3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ae99ea3350d39017fff2fcd&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c1f63740e0e5f07ad625fd9dac2d4902
+size: 8745400920
+md5: 57990fa9049ea1cedb8bf4bb7c54c6cb
+patch: 2026-10-01
+fp: PGFM10_11.H.15_3150_202609291754
