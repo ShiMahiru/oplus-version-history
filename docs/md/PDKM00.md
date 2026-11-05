@@ -4,15 +4,14 @@
 
 **oneplus / CN** · 最新版本 `PDKM00_11_C.11` · OTA `PDKM00_11.C.11_1110_202205091241` · Android 11
 
-版本记录 **3** 条 · 有官方链接 **2** 条 · 有更新日志 **0** 份
+版本记录 **2** 条 · 有官方链接 **0** 条 · 有更新日志 **0** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
 | PDKM00_11_F.20 | `PDKM00_11.F.20_2200_202510151128` | 2025-10-15 |  |  |  |
-| PDKM00_11_C.11 | `PDKM00_11.C.11_1110_202205091241` | 2022-05-09 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e98ec539b38529ce17076fda441c29de/component-ota/22/05/09/086ade207ed54b178ab43933e93b815e.zip>) |  |  |
-| PDKM00_11_F.12(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-f5b874497fc973281e1803bc0dc7aae5/component-ota/24/02/18/f74633ecc4784a9bae9e8e72ae69f86b.zip>) |  |  |
+| PDKM00_11_C.11 | `PDKM00_11.C.11_1110_202205091241` | 2022-05-09 |  |  |  |
 
 ---
 

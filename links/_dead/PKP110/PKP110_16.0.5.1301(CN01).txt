@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-4877636e6a69fbd127e4169caab7ed5b/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/10/19/fe87b9c0553948c2bb6f6f2338e529fb.zip?sign=6594eaa8d9a5c75d1d64e26525876f9a&t=6ae832ea&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793604082&Signature=ZXJyhePKbEYlTR7TydL0h%2FXEr5w%3D
-size: 150
-md5_pending: yes
-source: lian86
+https://component-ota-cn.allawntech.com/downloadCheck?c=04390e6e22610d3fb63b0de3cfa30eda&p=a6c78fdd3655888b30ce8bfa4a98636dc470f8e4496f54ffd6bc00ea907e57c4e8bc61d3b27d322eeb69d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aeaebbf350d39017fff3328&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b00054e4eb5a9b58143e8454c7af62ac
+size: 8009112906
+md5: 810c1ddf56aea3377e3d3dd93dde4cf8
+patch: 2026-10-01
+fp: PKP110_11.C.61_1610_202610161130

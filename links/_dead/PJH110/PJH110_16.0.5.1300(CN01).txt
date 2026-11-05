@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-a612cbf463388f3be00b7650f7e95d0f/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/10/19/fc9dbfe76bde45faa54dfb772722c75e.zip?sign=8070b5a77fbfad7011515c34a6ba357f&t=6ae83ebe&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793607110&Signature=yLYvdh6I4bUw5qdcARZZh8hd7VU%3D
+https://component-ota-cn.allawntech.com/downloadCheck?c=56ab848c60f8e2c0507da7f949f2ff35&p=a6c78fdd3655888b30ce8bfc4bcb6332c277fbb31e3354f2d3ef03bd927c07c0edb860dce57a6320b86ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ae847af7d8131017f158cd9&taste=0&supportDLTaste=0&mode=1&tr=manual&s=be69784ec82d9b08263151bd7a356a20
 size: 8249041234
 md5: fe9904bee2fc18ba89d5a86bb5ea1d8b
-source: lian86
+patch: 2026-10-01
+fp: PJH110_11.F.13_2130_202610101954

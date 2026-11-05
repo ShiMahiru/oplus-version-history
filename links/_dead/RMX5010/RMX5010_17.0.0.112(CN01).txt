@@ -1,5 +1,7 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=9300c304e1113e4cb8eee8222fc25aaa&p=a6c78fdd3655888b30cedca6479d3166c174fab01b3454a686eb5aba94280495efb661dee12b612eeb69d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ae1c3a57d8131017f158710&taste=0&supportDLTaste=0&mode=1&tr=manual&s=e35c883769febb457fd273f6f24b7df0
+https://component-ota-cn.allawntech.com/downloadCheck?c=6fa8715ea6c1408067daa55d7c07ac5a&p=a6c78fdd3655888b30cedca6479d3166c174fab01b3454a686eb5aba94280495efb661dee12b612eeb69d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6adf0a35350d39017fff238a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b03f7bd08fb19b9946bf2baa74d5e181
 size: 9649201537
 md5: 34c0ccd754ea87258c7bc9fc7058e630
 patch: 2026-09-01
 fp: RMX5010_11.H.27_3270_202610171504
+source: daniel+xiyan
+changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-6fa8715ea6c1408067daa55d7c07ac5a/component-ota/26/10/26/c7198158c4004576b5e3392cf41d8075.html

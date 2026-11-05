@@ -1,4 +1,5 @@
-https://gauss-compotacostauto-cn.allawnfs.com/remove-5eec27fb0fdf10c77b40528b3b7bcc9e/component-ota/24/02/05/1cd52ecc7e6f45ffba56f827fd961db7.zip
+https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8a66588a198310d5d4ca538991cb99b7/component-ota/24/02/05/1cd52ecc7e6f45ffba56f827fd961db7.zip
 size: 5345420960
-md5_pending: yes
-source: lian86
+md5: 684f4f8e70d6e222a21d5054cf57227b
+patch: 2024-02-05
+fp: OPD2101_11.F.45_2450_202402022114

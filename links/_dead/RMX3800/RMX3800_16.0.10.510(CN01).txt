@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=1cb5b90a2ea1f020e431dddf9816b907&p=a6c78fdd375c88883dce89a841cd33609f71f9b01e3754ff81ed00bc957c05c7e3be60d2e67b3427b533d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6accbe9892ce7c01836a8641&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6314bb3fdb75c23a02dcf334d5d1304c
+https://component-ota-cn.allawntech.com/downloadCheck?c=eda037f156427c15a4c4ca417683f728&p=a6c78fdd375c88883dce89a841cd33609f71f9b01e3754ff81ed00bc957c05c7e3be60d2e67b3427b533d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6ad075777d8131017f156f19&taste=0&supportDLTaste=0&mode=1&tr=manual&s=77b082c6d6d86e2bc9b9ad4cfb7b8096
 size: 9350147743
 md5: a5f73202a9cf4b62e5ae1a5bacf5cac2
 patch: 2026-08-01
 fp: RMX3800_11.F.34_2340_202609231252
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-1cb5b90a2ea1f020e431dddf9816b907/component-ota/26/10/12/d1c4c61e5c0946519d011e7074dc4c6b.html

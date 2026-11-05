@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=2d39dbcc00416f6fd8e797a0337eee73&p=a6c78fdd375288883bced8fe4bcb3265c374f9b54f3554a3d1ed5abfc22f5091e3be648ae72a3727be3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a6020e59e207b01827c8622&taste=1&supportDLTaste=0&mode=1&tr=manual&s=420ed8c567ab47cd9f9ecfdb15a33097
+https://component-ota-cn.allawntech.com/downloadCheck?c=bb8250f591c4db544b8299e5a6cc1ab0&p=a6c78fdd3752888939ced5ad43cd63619176fce61c3354fe80bf00bec27902c6efb737dee07f3671e832d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a954e7f76d168017ee7d76a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a738bfb59627c7568c4fdcdfaf053fb0
 size: 8224376024
 md5: fd1b0301a17e416e4eab063ec082ac68
 patch: 2026-07-01
 fp: PJE110_11.F.31_2310_202607172126
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-2d39dbcc00416f6fd8e797a0337eee73/component-ota/26/07/23/b3a5de257dd7407c9b81e302706d1a23.html

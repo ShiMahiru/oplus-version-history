@@ -1,7 +1,5 @@
-https://component-ota-cn.allawntech.com/downloadCheck?c=333ce2017941304150ebaf00edfda4df&p=a6c78fdd375d888b3ece8ba716ca32329224afe5193554a2d4bd5bb9c5200590bcb967d2b5783620b938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a82aec892ce7c01806f6d81&taste=1&supportDLTaste=0&mode=1&tr=manual&s=c47cc5f1d099d0579c4ca40c4d34e080
+https://component-ota-cn.allawntech.com/downloadCheck?c=48bc0838e27c017187fed1caa23254ba&p=a6c78fdd375d888b3ece8ba716ca32329224afe5193554a2d4bd5bb9c5200590bcb967d2b5783620b938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aad008876d168017ee7f2eb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=0d5072b667d99464af470bf503aa92d5
 size: 7781443377
 md5: a9f6605437808910dbd2b5119e664f0d
 patch: 2026-08-01
 fp: OPD2404_11.F.30_2300_202608140040
-source: daniel+xiyan
-changelog: https://gauss-compotacostauto-cn.allawnfs.com/remove-333ce2017941304150ebaf00edfda4df/component-ota/26/09/02/fe94daaf54b0404bba7364d420991b9c.html
