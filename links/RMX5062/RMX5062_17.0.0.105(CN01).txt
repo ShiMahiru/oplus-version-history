@@ -1,4 +1,5 @@
-https://gauss-compota-c-cn.allawnfs.com/remove-2b44cdec1b6c6509bf3e444e4efbf797/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/10/22/b15484e2385f41c2932d78c7e8937a36.zip?sign=3f457e6c717e5be2d07ca088199bbf3a&t=6ae837a1&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793605289&Signature=%2BqxgZtnby8Eir45%2Bmy3GnVCFeeg%3D
+https://component-ota-cn.allawntech.com/downloadCheck?c=c5db8a8a7552db1a2a213dd1aa4c3c12&p=a6c78fdd365588883bce8fae479b3960c272fee94f3054f6d6bc5bbb947c569ab9b837d3ee7b3776be3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aed9da2350d39017fff3881&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a2a6dd727f3a2d98a7a47df64d4e4ac9
 size: 9213404918
 md5: b528604168e60fc02d6764c135f70fb3
-source: lian86
+patch: 2026-10-01
+fp: RMX5062_11.F.12_2120_202610220149

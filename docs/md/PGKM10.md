@@ -4,20 +4,23 @@
 
 **oneplus / CN** · 最新版本 `PGKM10_11_A.23` · OTA `PGKM10_11.A.23_0230_202212130857` · Android 12
 
-版本记录 **38** 条 · 有官方链接 **32** 条 · 有更新日志 **7** 份
+版本记录 **43** 条 · 有官方链接 **42** 条 · 有更新日志 **7** 份
 
 ## 版本史
 
 | 版本 | 指纹 | 日期 | 官方链接 | 更新日志 | 备注 |
 |---|---|---|---|---|---|
-| PGKM10_15.0.0.1800(CN01) | `PGKM10_11.H.20_3200_202604032300` | 2026-04-03 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.20_3200.md>) |  |
+| PGKM10_15.0.0.1800(CN01) | `PGKM10_11.H.20_3200_202604032300` | 2026-04-03 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-44a0b7584b887b8c162187713bdbbbe0/component-ota/26/04/08/7dc957b3990f411fa0cf7da4c3a9406c.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.20_3200.md>) |  |
 | PGKM10_15.0.0.1601(CN01) | `PGKM10_11.H.19_3190_202511271818` | 2025-11-27 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5c6e4d7820563819d52533ae3f4d78e4/component-ota/25/12/02/e4213e792a104bb3abd63f77f284638e.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.19_3190.md>) |  |
-| PGKM10_15.0.0.700(CN01) | `PGKM10_11.H.13_3130_202503311910` | 2025-03-31 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.13_3130.md>) |  |
-| PGKM10_15.0.0.700(CN01) | `PGKM10_11.F.13_3130_202503311910` | 2025-03-31 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.F.13_3130.md>) |  |
+| PGKM10_15.0.0.700(CN01) | `PGKM10_11.H.13_3130_202503311910` | 2025-03-31 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-845aae8727dc0f039f001268bbc50bc4/component-ota/25/04/01/16a318c5fe7a41cb9234539e2638f7db.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.H.13_3130.md>) |  |
+| PGKM10_15.0.0.700(CN01) | `PGKM10_11.F.13_3130_202503311910` | 2025-03-31 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-845aae8727dc0f039f001268bbc50bc4/component-ota/25/04/01/16a318c5fe7a41cb9234539e2638f7db.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.F.13_3130.md>) |  |
 | PGKM10_14.0.0.500(CN01) | `PGKM10_11.F.32_2320_202402261716` | 2024-02-26 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-bff432212436d6fb9a6578ae8cc1cd07/component-ota/24/02/27/ece5d3c87bf643b8b16e083385dddcee.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.F.32_2320.md>) |  |
-| PGKM10_13.1.0.211(CN01) | `PGKM10_11.C.38_1380_202401301432` | 2024-01-30 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.C.38_1380.md>) |  |
-| PGKM10_11_A.23 | `PGKM10_11.A.23_0230_202212130857` | 2022-12-13 |  | [原文](<../../models/PGKM10/changelog/PGKM10_11.A.23_0230.md>) |  |
+| PGKM10_13.1.0.211(CN01) | `PGKM10_11.C.38_1380_202401301432` | 2024-01-30 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-05ec7bdded53c4601fa377e98568106d/component-ota/24/02/04/e93f516550e94c87b0811a3919708a0d.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.C.38_1380.md>) |  |
+| PGKM10_11_A.23 | `PGKM10_11.A.23_0230_202212130857` | 2022-12-13 | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0192f445646a69f82480ec6192580455/component-ota/22/12/13/891f4f13dfb74cecb4411fd043862f35.zip>) | [原文](<../../models/PGKM10/changelog/PGKM10_11.A.23_0230.md>) |  |
 | _(仅指纹)_ | `PGKM10_11.C.14_1140_202211141229` | 2022-11-14 |  |  |  |
+| PGKM10_11_A.23(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ef536696966566e51d51cbbb8fd190cb/component-ota/22/12/13/891f4f13dfb74cecb4411fd043862f35.zip>) |  |  |
+| PGKM10_11_C.19(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-3d5cb57d56d8a4467d187605167e64bb/component-ota/23/04/04/1a36a84240c641eaa11f57013767b721.zip>) |  |  |
+| PGKM10_12.1(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-0f66db81e5fd4b620b17f45a1aaba59e/component-ota/22/03/09/cb93d01195794e4497bec8a206fdf6a5.zip>) |  |  |
 | PGKM10_12.1_A.09 |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-ba833e98d1f98b42e7e8713491e0b395/component-ota/22/04/26/fe4523b04cb8425fa808272e320cd5a6.zip>) |  |  |
 | PGKM10_12.1_A.11 |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-a1bab07980d73b9d78d177ee169581cf/component-ota/22/05/03/14370df0d9b24efd9869127d1645c35d.zip>) |  |  |
 | PGKM10_12.1_A.16 |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-29a2d9f968ee90eaee1ea46008980c49/component-ota/22/06/02/f82183998cd740299d90660f4edae5cf.zip>) |  |  |
@@ -44,6 +47,8 @@
 | PGKM10_14.0.0.620(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-43b15b68d248029ad5afff98bfdd1a1e/component-ota/24/05/28/d5a6e7d1c59b40bda8701dc0f6963876.zip>) |  |  |
 | PGKM10_14.0.0.630(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3e45eecbc4adc683d7190d286c3186ba/component-ota/24/06/21/768a3b45154943b9bb8347e83dc6ed3f.zip>) |  |  |
 | PGKM10_14.0.0.640(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0be2384a29ef60ead22f40878162ab4d/component-ota/24/08/21/8c533e15e263497a9567e8380bedfbd8.zip>) |  |  |
+| PGKM10_14.0.0.80(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-8b3e4d64072d9eb0cc231182bc8218bd/component-ota/23/11/06/91ba2d41d66941f281535e2979b95f3a.zip>) |  |  |
+| PGKM10_14.0.0.82(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-a63f9b875a8ee4bfef4bcab250513edd/component-ota/23/11/23/e658703b069f4898a2d68954d820207c.zip>) |  |  |
 | PGKM10_15.0.0.1100(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f97830b0e8b48f6d8dc7e077ac88a21f/component-ota/25/06/24/35c5cf927e9a463ebab076ad811b7412.zip>) |  |  |
 | PGKM10_15.0.0.1301(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9b697c54368b0c68d8521e20e4793e2c/component-ota/25/08/22/bfaf7e9cdb3e40b297922b560b0394a7.zip>) |  |  |
 | PGKM10_15.0.0.500(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7949cbe2d140b2d9c63b84cc1594f653/component-ota/25/02/10/9dc2d5c5e1c04607ac3ffb83c1f255b0.zip>) |  |  |
