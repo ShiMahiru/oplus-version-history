@@ -8,7 +8,7 @@
 size: 1386654
 md5: 0a983af47b44fd079fdf8bbbe854ad24
 patch: 2024-01-05
-fp: RMX2117_11.F.12_3120_202312261231` | HTTP 403 直链不可用 |
+fp: RMX2117_11.F.12_3120_202312261231` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX2117/RMX2117_11_C.18.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-833b868a43cc5168377e1a0df43c8c73/component-ota/22/08/02/0e52be69ebf441a8b6c830eee218f5a8.zip
 size: 1150545
 md5: 7fcc9361be6582f97b1fba06b3065058
@@ -18,17 +18,17 @@ fp: RMX2117_11.C.18_1180_202208011832` | HTTP 403 直链不可用 |
 size: 7196015947
 md5: 23d0f9cac0cbf322ee29d862b9577b95
 patch: 2025-10-01
-fp: PFFM20_11.H.33_3330_202510201038` | HTTP 403 直链不可用 |
+fp: PFFM20_11.H.33_3330_202510201038` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFFM20/PFFM20_14.0.0.670(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-85a2a0c2cd48850f3daf63ec52f80ca9/component-ota/24/12/11/8ff0d89127b94faebac3c67838a79fdd.zip
 size: 7327606940
 md5: 00cb92cbd848adbbea1cc010c24c4d4e
 patch: 2024-12-05
-fp: PFFM20_11.F.38_2380_202412101632` | HTTP 403 直链不可用 |
+fp: PFFM20_11.F.38_2380_202412101632` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFFM20/PFFM20_11_A.28.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b21034777f763238b366dd50240c4836/component-ota/22/11/18/5cecd3dc69584f8bb4117664a47be47a.zip
 size: 6025230192
 md5: 757ab5dc9e1e5febc8fe33d3fa2489cc
 patch: 2022-11-05
-fp: PFFM20_11.A.28_0280_202211172153` | HTTP 403 直链不可用 |
+fp: PFFM20_11.A.28_0280_202211172153` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFFM20/PFFM20_16.0.3.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=69603668fe46b1fbb618796d52895c3d&p=a6c78fdd375688883ccedca943cb6332c423fab2183754f3d6ef5bbe957d5893eab863deb57a3623ec6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=69e0dd0e007ddc01813da4e8&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2ce07a85be8412cab800e7c44e9718a6
 size: 7758039968
 md5: 44c66e5b0769ce5566e42b77e3056c72
@@ -38,13 +38,13 @@ fp: PFFM20_11.J.19_4190_202603251938` | gate HTTP 200（需 302） |
 size: 7244089776
 md5: b33d3dfc4a62137d07550e32d163f535
 patch: 2023-11-05
-fp: PFFM20_11.C.39_1390_202311232238` | HTTP 403 直链不可用 |
+fp: PFFM20_11.C.39_1390_202311232238` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3041/RMX3041_11_A.11.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f13bdf3b09016bc2e7ad5bc8483fbd8e/component-ota/21/08/24/967e3b91057e429794ea47449384344e.zip
 size: 1193132
 md5: 3c1908709fb461bba63497ccdaa86350
 patch: 2021-08-05
-fp: RMX3041_11.A.11_0110_202108231114` | HTTP 403 直链不可用 |
-| `OPD2601/OPD2601_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=fd2a58a46efc38ea261e0e5fe7f9fcda&p=a6c78fdd3655888a30cedaa7449a36619677fde64b6354a383eb5bb0c5200596e8bf348fe7793276e93ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=be2ff3e33c5e74d94683729b10c96f67&id=6ae45117350d39017fff2a51&taste=0&supportDLTaste=0&mode=1&tr=manual&s=43594f18453d30a9c0673bd1372a1098
+fp: RMX3041_11.A.11_0110_202108231114` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
+| `OPD2601/OPD2601_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=fd2a58a46efc38ea261e0e5fe7f9fcda&p=a6c78fdd3655888a30cedaa7449a36619677fde64b6354a383eb5bb0c5200596e8bf348fe7793276e93ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=fc922848c0c58fa1f4dd76b3eff4d2f5&id=6ae45117350d39017fff2a51&taste=0&supportDLTaste=0&mode=1&tr=manual&s=0e086fd20e30a251a48aa5117982e60a
 size: 9594487136
 md5: a2669348a470579b0460fcaaa9c02ea8
 patch: 2026-10-01
@@ -54,6 +54,7 @@ size: 5611759585
 md5: d518184a8ce3bd6123cc5e5e4c6c1752
 patch: 2022-10-05
 fp: NE2210_11.A.19_0190_202210202243` | HTTP 403 直链不可用 |
+| `NE2210/NE2210_13.0.0_C.23.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-32707211fb8926dc5a609cfee6cf757a/component-ota/22/11/14/2590f5ac05d34f7ba2238c9aac118235.zip` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `NE2210/NE2210_13.1.0.196(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c130516e954e575586adbde642aa31aa/component-ota/23/10/13/cd8b54b891ea4e80b30ac84f95a5ec68.zip
 size: 6979317134
 md5: a53769ecbd653bfb2394a78d80c790a2
@@ -73,7 +74,7 @@ fp: NE2210_11.J.94_4940_202606031902` | gate HTTP 200（需 302） |
 size: 6933814750
 md5: 851094bc9f6829aae556cb124ae35a55
 patch: 2025-08-01
-fp: NE2210_11.H.87_3870_202508291254` | HTTP 403 直链不可用 |
+fp: NE2210_11.H.87_3870_202508291254` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3783/RMX3783_14.0.0.320(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5baf97bbf87b730457aa416653b80b76/component-ota/25/02/08/4b33f2494a424d519307524ba8d48c0f.zip
 size: 5745389751
 md5: 5ce5a6a63065254042fd711353948a3d
@@ -83,7 +84,7 @@ fp: RMX3783_11.C.29_1290_202502062102` | HTTP 403 直链不可用 |
 size: 5827173538
 md5: a7e1764e82d86e23d81fe9d469727467
 patch: 2026-08-01
-fp: RMX3783_11.F.30_2300_202608061401` | HTTP 403 直链不可用 |
+fp: RMX3783_11.F.30_2300_202608061401` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3783/RMX3783_13.2.0.530(SP01CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-c80f8ae180de6382970760caa0d7769d/component-ota/24/04/07/e6a2e3428665465abd402dd6bd252155.zip
 size: 5443368236
 md5: 4992b622ba2579460caab9e29fc804ca
@@ -128,7 +129,7 @@ fp: PKB110_11.A.90_0900_202508252310` | HTTP 403 直链不可用 |
 size: 3627480435
 md5: 8b120602ddc3d11413a5299dd5f680c7
 patch: 2021-08-05
-fp: RMX1851_11.F.05_1050_202109111811` | HTTP 403 直链不可用 |
+fp: RMX1851_11.F.05_1050_202109111811` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFZM10/PFZM10_15.0.0.2002(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-14da2c3938cc10a75fe87c924ba9d59c/component-ota/26/09/10/d6781278955d4fd080e9168c2564fe87.zip
 size: 7601038021
 md5: e371a5553bc8992fe6c78886fc12b076
@@ -143,7 +144,7 @@ fp: PFZM10_11.F.57_2570_202411072018` | HTTP 403 直链不可用 |
 size: 7415354153
 md5: 79edb905449b1bd80cd08c2bc3114574
 patch: 2023-11-05
-fp: PFZM10_11.C.36_1360_202311220038` | HTTP 403 直链不可用 |
+fp: PFZM10_11.C.36_1360_202311220038` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFZM10/PFZM10_11_A.24.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-49e55abb7ac36aa670889fa98424d0ac/component-ota/22/09/19/f2fbfd01d23a487586133982662ba6eb.zip
 size: 6075148439
 md5: f248bc3b3665bf4dad6cad9b5c27d39b
@@ -203,7 +204,7 @@ fp: PLB110_11.C.61_1610_202607302343` | gate HTTP 200（需 302） |
 size: 4707990007
 md5: 23e7b4d9a1597119ab7077487a241b30
 patch: 2022-08-05
-fp: PHA120_11.A.05_0050_202208252355` | HTTP 403 直链不可用 |
+fp: PHA120_11.A.05_0050_202208252355` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHA120/PHA120_11_C.24.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-3b469b264d1cad79687b6c50f8bd2e38/component-ota/25/10/14/86ee6b622fac46869e32568d42804dea.zip
 size: 5555312264
 md5: 6a17ec1423f45953f0426240d18d5989
@@ -323,12 +324,12 @@ fp: RMX2072_11.C.28_1280_202201291531` | HTTP 403 直链不可用 |
 size: 1420120
 md5: f7be8f4a302dced03bada8dde32f23e4
 patch: 2024-02-05
-fp: RMX2072_11.F.20_3200_202401191645` | HTTP 403 直链不可用 |
+fp: RMX2072_11.F.20_3200_202401191645` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHM110/PHM110_14.0.0.612(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6ce8f512f84e71b9f8659242bc9ed63b/component-ota/25/02/10/3686e9e2b02c4e4797c771be227f51f2.zip
 size: 7147367311
 md5: 931a03ac4be73517dbc0c41bd92ed564
 patch: 2025-02-01
-fp: PHM110_11.C.36_1360_202502071900` | HTTP 403 直链不可用 |
+fp: PHM110_11.C.36_1360_202502071900` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHM110/PHM110_13.1.0.185(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-09e4e3efdcbfd7b8ed78e41214f6afd8/component-ota/24/01/09/5bc1303f0c0b4f2b8bb722304916f7e5.zip
 size: 7094410036
 md5: 7169032c865166e08123553308ea69a5
@@ -369,20 +370,12 @@ size: 1404928
 md5: 7255969c1ea9b9c011688e1f681537b7
 patch: 2022-10-05
 fp: PEQM00_11.C.36_1360_202211030949` | HTTP 403 直链不可用 |
-| `CPH2691/CPH2691_16.0.3.500(EX01).txt` | `https://component-ota-sg.allawnos.com/downloadCheck?c=d2a84aec8eba412c473cb107db65f6a4&p=f088224e006a1389a4bc91064566d5344378119c2c32c0ee7918c788c5c68b6541e36c4aac057de74d59452b5ef4&d=b7ce601143611397f3f2d646007a853e1a3c4ed07f2b97f43c4dd1d191cbd2714cbd320fe30771e9&g=10eab6008d5642cf42abd2aa41f847cb&id=696448409e207b017baaad0d&taste=1&supportDLTaste=0&mode=1&s=cee8a630b0021400923c8f46a4a8eab1
-size: 8002677445
-patch: 2026-01-01
-fp: CPH2691_11.F.32_2320_202601100058
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-d2a84aec8eba412c473cb107db65f6a4/component-ota/26/01/22/e04ecd968b2a4ba18a6c219690a92702.html
-direct: https://gauss-compota-c-sg.allawnofs.com/remove-d2a84aec8eba412c473cb107db65f6a4/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/01/10/23613e4408244762888a8cc186aacc8b.zip?sign=b3db68c881bc0f0b9079ccfe40557136&t=6ae80392&x-oss-signature=ddAx7NEw5y7OStQIrFtAXGA8ioVO%2FdL4bL6uEEhwnZE%3D&x-oss-signature-version=OSS2&x-oss-expires=1793591962&x-oss-access-key-id=LTAI5t7LQqPWs3796pRv6Avx
-md5_pending: yes` | gate HTTP 200（需 302） |
-| `PMH110/PMH110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=81373722b92c570cbee1514f9026f5f7&p=a6c78fdd375c888b38ced8fd47cb6737c574fbe0183054f2d0bb5ab8c4285695e9b7668fe0793772eb3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=22cad60cf7bab61a3c34fdee058329a7&id=6ab3881892ce7c01836a71f5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=9bf77d598177b988f9f80b731c3c0f53
+| `PMH110/PMH110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=81373722b92c570cbee1514f9026f5f7&p=a6c78fdd375c888b38ced8fd47cb6737c574fbe0183054f2d0bb5ab8c4285695e9b7668fe0793772eb3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d4bec33afd85dde54953b32470362800&id=6ab3881892ce7c01836a71f5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=aa07a30934d86fb4d37b218decbfcc6b
 size: 8873003338
 md5: c45ac94bee9228559f6fbf32b6ef344b
 patch: 2026-09-01
 fp: PMH110_11.A.27_0270_202609101556` | gate HTTP 200（需 302） |
-| `PMA110/PMA110_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=396ea54733e1e5b1fbe751c1274c5181&p=a6c78fdd3655888b3ace8cae17986537c276f8e61f6654a2d3ec00ed9f7a5094e9eb6bd8e17e3422bc39d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=7f7ae50640304fee55646314ba8b9a07&id=6acdabf492ce7c01836a873b&taste=0&supportDLTaste=0&mode=1&tr=manual&s=73d052de8b5e0176b63c581d2fcf5a09
+| `PMA110/PMA110_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=396ea54733e1e5b1fbe751c1274c5181&p=a6c78fdd3655888b3ace8cae17986537c276f8e61f6654a2d3ec00ed9f7a5094e9eb6bd8e17e3422bc39d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=86de91ac7ead6aad42e008b7596330fb&id=6acdabf492ce7c01836a873b&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7fc90eed0fc4b790640b27867c11b80c
 size: 10098805175
 md5: 328838972f6fd5bd804ce127d5461375
 patch: 2026-08-01
@@ -422,16 +415,11 @@ size: 8779427201
 md5: ff1b788a94ab14cd805321fa629b3cb1
 patch: 2026-10-01
 fp: RMX3820_11.H.32_3320_202609292026` | gate HTTP 200（需 302） |
-| `PMX110/PMX110_17.0.1.202(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=77a8b63c083e76b808bb66a373534fa3&p=a6c78fdd3654888a38ce8fae4acd6030c278f5b2426f54f086b65ab09f7a0392eeec66d9ef7e3474b93cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=2183a0a4ba4b17750495c63b615106f9&id=6aebf150350d39017fff3446&taste=1&supportDLTaste=0&mode=1&tr=manual&s=87f93a667028a8a7c83bdee7389edcc9
-size: 11316587669
-md5: 91e47c11b142a3d4b67ce4fccafe0923
-patch: 2026-11-01
-fp: PMX110_11.A.61_0610_202611010129` | gate HTTP 200（需 302） |
-| `PMX110/PMX110_17.0.0.116(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=53f954d409b772369bafa709354120ef&p=a6c78fdd365588883bcedea74a9964369473a8e54c3054a286bd5bbbc47a0594edee61daef7f3074eb3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=538cc3f54253bb4915eebbabe14cdc65&id=6ae16c19350d39017fff26bf&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a335792e8bb883b4c1c537060566c309
-size: 11238223968
-md5: 72a6c5d31e65ccb88bd48a08c0f53758
+| `PMX110/PMX110_17.0.0.114(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=9e50627f2eb5512353b38a35bad29dd2&p=a6c78fdd375c88883eced4fa16ce65359779abb24e6f54a285ed03eb9e295493bcbc308ae47b362ebd3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=3cc902dca47aeac8005313d0e173fd25&id=6acdd74e76d168017ee80f93&taste=0&supportDLTaste=0&mode=1&tr=manual&s=bae54037d846aae61c754017f1ca54c8
+size: 11239151328
+md5: 5c2132a8d2e396ee9a3344ef3a9721c7
 patch: 2026-09-01
-fp: PMX110_11.A.57_0570_202610212202` | gate HTTP 200（需 302） |
+fp: PMX110_11.A.55_0550_202609270158` | gate HTTP 200（需 302） |
 | `PAFM00/PAFM00_11_H.15.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d57986d7a384fef7a2762ffc2129e5cc/component-ota/21/12/15/8ab277d34a17438f82eb25e9f342267d.zip
 size: 3655279962
 md5: a571f733d7768fc332e0d2f94b0d2fc3
@@ -452,11 +440,11 @@ size: 6073444821
 md5: e605b9b633fc7c2f2deb594ab7ce6c28
 patch: 2026-01-01
 fp: PGCM10_11.F.22_2220_202603131918` | HTTP 403 直链不可用 |
-| `PGBM10/PGBM10_14.0.0.3101(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a471fdb8913c214f993b222b82fc2569/component-ota/26/09/28/dc3322fe7ec7445ab7107975f4ba9b34.zip
-size: 6924374545
-md5: 0fc555ad6d996c6c36bba26269626065
-patch: 2026-09-01
-fp: PGBM10_11.F.65_2650_202609241124` | HTTP 403 直链不可用 |
+| `PGBM10/PGBM10_14.0.0.3001(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-6412238e7c6a47f8afcc1a2876d00d56/component-ota/26/06/02/88a941d8e67545418ff0eb99c5ee57ef.zip
+size: 6907924725
+md5: 0b55643767e286571f454000ed294296
+patch: 2026-06-01
+fp: PGBM10_11.F.64_2640_202606021054` | HTTP 403 直链不可用 |
 | `PGBM10/PGBM10_11_A.27.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-93fa20fcaf7a7edb5163a22879c8cd1f/component-ota/22/12/22/7f04fe618e9d4060939b322db2bce22a.zip
 size: 5614509720
 md5: 35289d39d06b55e96b26fffa699a7ad3
@@ -502,7 +490,7 @@ size: 9271674344
 md5: ef71905c53243c0f2c75c2b64ac6edde
 patch: 2026-09-01
 fp: PJZ110_11.F.07_2070_202610080010` | gate HTTP 200（需 302） |
-| `OPD2515/OPD2515_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=4f1448959a504f4248029cd450fe4d66&p=a6c78fdd375d888b39ce89aa449c3437c626f4b7496354f08cbe5bbc967c58c4bfb630d8b22e6122be3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=2c3247ee009f03ed651a6c9bcfd5b7a9&id=6a962aa976d168017ee7d8be&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a6687df4b285d371b2665d1e653a2781
+| `OPD2515/OPD2515_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=4f1448959a504f4248029cd450fe4d66&p=a6c78fdd375d888b39ce89aa449c3437c626f4b7496354f08cbe5bbc967c58c4bfb630d8b22e6122be3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=dcaac92c9efe2a8bf219926a47300e54&id=6a962aa976d168017ee7d8be&taste=0&supportDLTaste=0&mode=1&tr=manual&s=0f25de676cc13fb3d29f854e006e2b0e
 size: 8852438875
 md5: a12ca6f9f7143842093683ec79d01d57
 patch: 2026-08-01
@@ -542,7 +530,7 @@ size: 6626861177
 md5: 0ebeb7be97ff6ea12a541bea1d4e22a9
 patch: 2025-12-01
 fp: OPD2407_11.A.40_0400_202512081034` | HTTP 403 直链不可用 |
-| `OPD2506/OPD2506_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c4bdf8586727cadcf036c2935779344b&p=a6c78fdd3655888a30ce8cfc45c930369778ace1186354a48dbe5ab0c07e55c3efbd66dbee2a6275ec3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d0d4f3de3d3848d3446b821749a05d9f&id=6adff2237d8131017f158407&taste=0&supportDLTaste=0&mode=1&tr=manual&s=317926fdba3bc0bfe4cf1cf6c0c372f8
+| `OPD2506/OPD2506_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c4bdf8586727cadcf036c2935779344b&p=a6c78fdd3655888a30ce8cfc45c930369778ace1186354a48dbe5ab0c07e55c3efbd66dbee2a6275ec3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=f0047e251ca3e4124974d79896f823c1&id=6adff2237d8131017f158407&taste=0&supportDLTaste=0&mode=1&tr=manual&s=711f471deff8b1ec95981bb7edf0ff40
 size: 9582951060
 md5: 07eb32f6885e1cc24ab14ff79fa30aa3
 patch: 2026-10-01
@@ -552,10 +540,6 @@ size: 5694333691
 md5: 16494fd8045f9ccb59c5e47193e0c127
 patch: 2023-03-05
 fp: PERM10_11.C.14_1140_202303031449` | HTTP 403 直链不可用 |
-| `PERM10/PERM10_11_C.14(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-60df7724112b14c0c312f19fba745390/component-ota/23/03/06/8d1707818e3d426398eb0a2cda234494.zip
-size: 5694333691
-md5_pending: yes
-source: lian86` | HTTP 403 直链不可用 |
 | `PERM10/PERM10_11_A.09.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-bf8ccc2367f7d9e499235b294ff99578/component-ota/22/04/07/ef6cfc73838047968042f91fd8418bc6.zip
 size: 4478689609
 md5: 8a39bf70d9e78b9b65c4e5571153556a
@@ -651,7 +635,7 @@ size: 9350804642
 md5: d6303fbe12c74fc1c2d94a3ec612d9f6
 patch: 2026-09-01
 fp: PMK110_11.C.12_1120_202610092206` | gate HTTP 200（需 302） |
-| `PMK110/PMK110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=d2e8620b091cdad7329726095558cc0a&p=a6c78fdd3655888b3ccedefb4198336c9170abe84a6e54ff80bf5aea932e0593b8ea36dae17c6623b93fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=e4633b25514afac8308fd4b90c619505&id=6ad081ad350d39017fff10cb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c3d270104e4017dd1287036b52c12f31
+| `PMK110/PMK110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=d2e8620b091cdad7329726095558cc0a&p=a6c78fdd3655888b3ccedefb4198336c9170abe84a6e54ff80bf5aea932e0593b8ea36dae17c6623b93fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=5666a899e198075f3ec65f10747a6d29&id=6ad081ad350d39017fff10cb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5e566bd9ce37be104f32fd99089aefcb
 size: 9052534323
 md5: 687404ac8783efcdb54729771e659bb4
 patch: 2026-08-01
@@ -671,24 +655,17 @@ size: 7002165254
 md5: be66db71d6ac5f00d02000223c177de1
 patch: 2023-12-05
 fp: RMX3740_11.A.49_0490_202312221125` | HTTP 403 直链不可用 |
-| `CPH2659/CPH2659_16.0.9.401(EX01).txt` | `https://component-ota-eu.allawnos.com/downloadCheck?c=c9d09e7926604dad45a0ed3c7b8a7b34&p=c25c9713dab2a25f839e35f06f60be4d02f2d848f68273747a34d3f601953e871136fba2608e833e31f9181c2077&d=851ad54c99bfa241d5d076b47975b91b5ae3d60ba797246f7975c5af5dc86d924a61afb32ddb8867&g=10eab6008d5642cf42abd2aa41f847cb&id=6a61e9a49e207b01827c8884&taste=1&supportDLTaste=0&mode=1&tr=manual&s=1428a1122da2fb53c8b206b8d73baaca
-size: 8658161575
-md5: 229f2b270d470d87e04a9914d4774058
-patch: 2026-07-01
-fp: CPH2659_11.C.78_1780_202607102217
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-c9d09e7926604dad45a0ed3c7b8a7b34/component-ota/26/07/23/d1829ac861484146b60340955be94b04.html` | gate HTTP 200（需 302） |
 | `RMX3574/RMX3574_11_A.22.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-32bed0b43ceda00d7f066c65e6dd64bb/component-ota/25/03/10/29683cc0768f49ea9909ff2cb3159034.zip
 size: 4672191006
 md5: 9596a50921d019f60f03df224ebd727e
 patch: 2025-03-01
 fp: RMX3574_11.A.22_0220_202502272234` | HTTP 403 直链不可用 |
-| `PMW110/PMW110_17.0.0.116(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=9ba6f1e081669f9f8d5328331acda6de&p=a6c78fdd365588883bced9a847ce3563c576acb71c6154a5d3bb5bbf92200492edbd36dfb22e6271b933d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d3fba310b2e5257b7bca381ca9815d35&id=6ae16c7b7d8131017f158642&taste=0&supportDLTaste=0&mode=1&tr=manual&s=44c2439381487baf8248e5bfdeac4555
+| `PMW110/PMW110_17.0.0.116(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=9ba6f1e081669f9f8d5328331acda6de&p=a6c78fdd365588883bced9a847ce3563c576acb71c6154a5d3bb5bbf92200492edbd36dfb22e6271b933d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=439b1193831d47b31180b514850a5168&id=6ae16c7b7d8131017f158642&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a4b4fc767ba620a3da15acad85df7339
 size: 10831571012
 md5: 130957aff235f79b867f3e13c2b1ffbc
 patch: 2026-09-01
 fp: PMW110_11.A.57_0570_202610212125` | gate HTTP 200（需 302） |
-| `PMW110/PMW110_17.0.1.202(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=38a49d1f8b6a8c5c51d5e68fe86df9e7&p=a6c78fdd3654888a38ce8ef9109e6464c324f5e34f3554a1d4bc00eec77a5897bbee31dfb67d3275b432d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=500424d388409dae480b7f4faafc20bb&id=6aebf1f3350d39017fff3447&taste=1&supportDLTaste=0&mode=1&tr=manual&s=c5d23636401721c803a6d3ee5f0d7007
+| `PMW110/PMW110_17.0.1.202(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=38a49d1f8b6a8c5c51d5e68fe86df9e7&p=a6c78fdd3654888a38ce8ef9109e6464c324f5e34f3554a1d4bc00eec77a5897bbee31dfb67d3275b432d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=48b5a151e7d34626172e7498b072ee42&id=6aebf1f3350d39017fff3447&taste=1&supportDLTaste=0&mode=1&tr=manual&s=b7a4932fb8b454326bf354c0db1907d7
 size: 10868951961
 md5: 4ce9c066453e77d37ead0a3aec7c4f2d
 patch: 2026-11-01
@@ -718,7 +695,7 @@ size: 7320952141
 md5: 3797b83e14892813c93b860251e18e2a
 patch: 2023-12-05
 fp: RMX3560_11.C.27_1270_202312042122` | HTTP 403 直链不可用 |
-| `PYD110/PYD110_16.0.10.601(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=6cbe5d5f4711a362993313157d6ce254&p=a6c78fdd3655888b38cedfac16ce67609625f5e8186454f485bf5ab9917e5496bfb760dce77c6527b438d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=fa8150b522990a81ca2446a1f8a9deda&id=6adb28d0350d39017fff2098&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2eb0a329c9b204a0cbe9dad0a84f5a74
+| `PYD110/PYD110_16.0.10.601(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=6cbe5d5f4711a362993313157d6ce254&p=a6c78fdd3655888b38cedfac16ce67609625f5e8186454f485bf5ab9917e5496bfb760dce77c6527b438d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=78cfb2a89d965627d866d4fb0fef58ca&id=6adb28d0350d39017fff2098&taste=0&supportDLTaste=0&mode=1&tr=manual&s=eb52cb2f9e54b48443ab832d2e24fbb2
 size: 8066934853
 md5: 25090f4bd5d39bb27be4eac75bfb4a48
 patch: 2026-10-01
@@ -798,11 +775,6 @@ size: 7327836631
 md5: 3cc416b3714d1b1578ad5c78c63d5e6a
 patch: 2025-02-01
 fp: RMX3687_11.C.13_1130_202502121958` | HTTP 403 直链不可用 |
-| `RMX3687/RMX3687_14.0.0.95(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-38b7bb6c9e9d584b5b6934708c110e6d/component-ota/24/02/19/91f191983007435bba8f939fec2d403f.zip
-size: 7233470082
-md5: 8cf32be32552a263323b741bdd5dc340
-patch: 2024-01-05
-fp: RMX3687_11.A.03_1030_202402181214` | HTTP 403 直链不可用 |
 | `PHW110/PHW110_14.0.0.610(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e128bef908305b92c6346a5e6906636f/component-ota/25/04/15/bf9ca68ce838418e8c9d3a9042cf7e51.zip
 size: 7186408700
 md5: a502a7c84e28585833ac523182136133
@@ -898,7 +870,7 @@ size: 6672099103
 md5: b23a31481bf4a868b631b59197e93d9f
 patch: 2024-07-05
 fp: PJG110_11.A.11_1110_202406252250` | HTTP 403 直链不可用 |
-| `PMS110/PMS110_17.0.0.159(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8c1b45a9a33e67b452600d06bdc2b1aa&p=a6c78fdd3655888b31ce89fb4bcb60679f73fce91b3354a285ea5bbc91295297eabc63ddb5713126e939d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=ed1192d71f15021a9306afd4620425fd&id=6ae95401350d39017fff2f4c&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1b7ef74a027dd9f33b6c8304a328615d
+| `PMS110/PMS110_17.0.0.159(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8c1b45a9a33e67b452600d06bdc2b1aa&p=a6c78fdd3655888b31ce89fb4bcb60679f73fce91b3354a285ea5bbc91295297eabc63ddb5713126e939d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=f9aa17fede25c6a8285d4cc74d2cf0c0&id=6ae95401350d39017fff2f4c&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6a389e85a093e0c42399b51344ead1f7
 size: 9731224640
 md5: 9a345e4f86e6cd0c86d5255156771dc0
 patch: 2026-10-01
@@ -918,10 +890,6 @@ size: 8453913543
 md5: 35826062f7a1f7e7a01bc64c7329bdf5
 patch: 2026-06-01
 fp: PHU110_11.H.96_3960_202606181332` | gate HTTP 200（需 302） |
-| `PHU110/PHU110_16.0.2.401(CN01).txt` | `https://gauss-compota-c-cn.allawnfs.com/remove-22562c74b3454097ce20f84a36ca49ab/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/01/05/b4575a500e214067aafdff44c696e3c5.zip?sign=3a4f492620a61abe274cfffb307d62b4&t=6ae83215&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793603869&Signature=SEAPJYyqCP6iu9dqBjaRbSpEnz4%3D
-size: 150
-md5_pending: yes
-source: lian86` | HTTP 403 直链不可用 |
 | `PHU110/PHU110_13.1.1.407(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8805c26dac84aba15022b1d005a21b0e/component-ota/23/10/18/6abb8a0eea7c43c19645ca54639333ff.zip
 size: 7849038042
 md5: 169ff399b8baed36c7d0e6ac3e4ba2f0
@@ -972,10 +940,6 @@ size: 5152201614
 md5: 4305c3160dae7cf83bd6276467f57207
 patch: 2025-03-01
 fp: RMX3615_11.A.25_0250_202506052019` | HTTP 403 直链不可用 |
-| `RMX3366/RMX3366_Realme UI RMX3366_14.0.0.2100(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8730446dfafe3fe4348f0181824c26ca/component-ota/25/07/25/ecab51dffaf14d77bc0190091e7cab88.zip
-size: 7302015401
-md5: 5c4c12566cde18e2884f64ba2f42293b
-source: lian86` | HTTP 403 直链不可用 |
 | `RMX3366/RMX3366_11_A.17.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9674faf50006ecbe9a9db3909eff625b/component-ota/22/02/23/1f2289bb185c4b9386437e8e27b358ef.zip
 size: 1210075
 md5: cf83f718a3749202dc4eaec558336c03
@@ -1201,7 +1165,7 @@ size: 1233133
 md5: 4917abd4a64eed3f986ce1b72da3f244
 patch: 2022-03-05
 fp: RMX2141_11.C.18_1180_202203130012` | HTTP 403 直链不可用 |
-| `PLQ110/PLQ110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=ab6b7aabf193d68c620997f2916f4b03&p=a6c78fdd375d888a30ce8cfc46cd30619474fee3186154f784bf00bb93215194efba67dab2786420bd39d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=ec4d2437e04bf978c9d35d0af78873de&id=6a96d19576d168017ee7da47&taste=0&supportDLTaste=0&mode=1&tr=manual&s=916183779aaaf6168baa6debda04913c
+| `PLQ110/PLQ110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=ab6b7aabf193d68c620997f2916f4b03&p=a6c78fdd375d888a30ce8cfc46cd30619474fee3186154f784bf00bb93215194efba67dab2786420bd39d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d7da81bab8a6d62cd49cad902b5a7664&id=6a96d19576d168017ee7da47&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5be31d20174ec62fa797a1293a646d1c
 size: 8458278730
 md5: 426959f59655e11efc126bc788a9a77f
 patch: 2026-08-01
@@ -1306,12 +1270,12 @@ size: 7187537973
 md5: f3a122bcc388598082c28b8752071911
 patch: 2025-02-01
 fp: RMX3770_11.C.15_1150_202502121954` | HTTP 403 直链不可用 |
-| `PNA110/PNA110_17.0.1.202(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=fabbce24a24fa0912b88e791be5c2bdd&p=a6c78fdd3654888a38cedaad4acb316d9375feb71f6e54a484ba00bf947c52c3e2be3788e47f3376ba6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=0a20cc59e63be369578d7d847b5c4675&id=6ae67e73350d39017fff2c12&taste=1&supportDLTaste=0&mode=1&tr=manual&s=8d6c2d0afbe05dace89b158d06207876
+| `PNA110/PNA110_17.0.1.202(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=fabbce24a24fa0912b88e791be5c2bdd&p=a6c78fdd3654888a38cedaad4acb316d9375feb71f6e54a484ba00bf947c52c3e2be3788e47f3376ba6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=2246619ade6048ef592c64916556b53f&id=6aebf2a47d8131017f159339&taste=1&supportDLTaste=0&mode=1&tr=manual&s=4e0838e574e6cca55c61a1438675a9bd
 size: 9402881991
 md5: a9009b010b2ce02d6346a21c1aad5325
 patch: 2026-11-01
 fp: PNA110_11.A.61_0610_202610312218` | gate HTTP 200（需 302） |
-| `PNA110/PNA110_17.0.0.111(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8e82b0090ad012e17c2bfaca1c7473f1&p=a6c78fdd3655888b3acedefc109c63619379ffe41c6e54fe86e85bbbc52c5794edba6a8fee7d3125b532d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=a2889705211cc9e55193fd6eba04da20&id=6ad9aab6350d39017fff1cc0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=bd2d7c6606e5a0de91ef9d23de34c98a
+| `PNA110/PNA110_17.0.0.111(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8e82b0090ad012e17c2bfaca1c7473f1&p=a6c78fdd3655888b3acedefc109c63619379ffe41c6e54fe86e85bbbc52c5794edba6a8fee7d3125b532d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=23af2b30138e56d2bc30d7206f602611&id=6ad9aab6350d39017fff1cc0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ff060aa9b72d0972cf003d641b484862
 size: 9367909848
 md5: 9e585bbac80f823b4e345c99b75eeae8
 patch: 2026-09-01
@@ -1546,12 +1510,12 @@ size: 1233648
 md5: b4dadc2ed5af96f65650a1a41b4122d2
 patch: 2022-03-05
 fp: RMX2051_11.C.18_1180_202203130010` | HTTP 403 直链不可用 |
-| `PMG110/PMG110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=72d1b62c2bf55779a9ec2b5dad106ad4&p=a6c78fdd3655888a31cedffe429a67659473abe7433254a186eb5bb0c3280392bbbe33dbe07b3024ba69d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=64ac3c15d1a9069c1744ba55efbce758&id=6ae28f4c350d39017fff27dc&taste=0&supportDLTaste=0&mode=1&tr=manual&s=88732e8c342e981dc3c6e17524096a50
+| `PMG110/PMG110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=72d1b62c2bf55779a9ec2b5dad106ad4&p=a6c78fdd3655888a31cedffe429a67659473abe7433254a186eb5bb0c3280392bbbe33dbe07b3024ba69d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=6ffd6af694ecd4d1a301d5a9ae881c1f&id=6ae28f4c350d39017fff27dc&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7e6bba718e8299b176a8c4b717008248
 size: 8343810012
 md5: 4dc329c94ef26e7f624540ed13b52d2d
 patch: 2026-10-01
 fp: PMG110_11.A.22_0220_202609292148` | gate HTTP 200（需 302） |
-| `PLK110/PLK110_16.0.10.502(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=2fb4517a623479c4248fd1bdf8d0c77e&p=a6c78fdd375c888b39ce89fb46cd65369172ffe64e3454a6d0eb03b0967e0095e8bd65d9e47c3324bf6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d28d33d487e635c2028036a2b4675362&id=6acf37827d8131017f156cd7&taste=0&supportDLTaste=0&mode=1&tr=manual&s=760885fd4e5b76443f8f2af493070095
+| `PLK110/PLK110_16.0.10.502(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=2fb4517a623479c4248fd1bdf8d0c77e&p=a6c78fdd375c888b39ce89fb46cd65369172ffe64e3454a6d0eb03b0967e0095e8bd65d9e47c3324bf6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=34d75f46936500415ae918bdabe4806e&id=6acf37827d8131017f156cd7&taste=0&supportDLTaste=0&mode=1&tr=manual&s=0923311a81b84220f40bd47bc4cc97b9
 size: 9152445555
 md5: b7bb3c38d5ab12ec276fcadff4e30222
 patch: 2026-08-01
@@ -1586,7 +1550,7 @@ size: 8332663699
 md5: 4b6394f0dbff02c3ec4d56efff1ed739
 patch: 2025-09-01
 fp: PHY120_11.C.63_1630_202509082259` | HTTP 403 直链不可用 |
-| `PLW110/PLW110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=52adaa21c1501947569a17b88105f323&p=a6c78fdd375d888b39ce8bfe409667379173feb74f6554f3d0ec00bd972e07c0beeb378ab6716224e86fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=64ca8806a1068a72aeff51e0ef89a66d&id=6a96bbfc92ce7c01836a518a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=840e1a4aaf0d43efb7493a7defb95291
+| `PLW110/PLW110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=52adaa21c1501947569a17b88105f323&p=a6c78fdd375d888b39ce8bfe409667379173feb74f6554f3d0ec00bd972e07c0beeb378ab6716224e86fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=9c4501fc736a27105a984f52af2cade6&id=6a96bbfc92ce7c01836a518a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=37811889ab10fdfd2f2452abf2241780
 size: 8996121002
 md5: ce7caf55e106ebd9f7b95030235ba86b
 patch: 2026-08-01
@@ -1606,7 +1570,7 @@ size: 8126075643
 md5: 318ace5f3df15e5a98f9a81cb0d11523
 patch: 2026-05-01
 fp: PJV110_11.F.13_3130_202606041236` | gate HTTP 200（需 302） |
-| `PLG110/PLG110_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c6d14b7bb3ccd53a29d1e5c5dc02f770&p=a6c78fdd375d88883ece8cfe41986360c279f5b51b3254f1d7ef03bd917b079befbd62d3e67d3375bf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=bf46d8b9c4f381136058c3544aeabde4&id=6a9a711176d168017ee7df9d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=45c7003be16a3a98f68f4c5ab48e19aa
+| `PLG110/PLG110_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c6d14b7bb3ccd53a29d1e5c5dc02f770&p=a6c78fdd375d88883ece8cfe41986360c279f5b51b3254f1d7ef03bd917b079befbd62d3e67d3375bf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=7aa0b6ccf28fe223673ae399d7b83238&id=6a9a711176d168017ee7df9d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b2d977c4378339923439c772c6cb7e89
 size: 9220999410
 md5: ed74da0c5d0f2cebee307919bd0fa5bb
 patch: 2026-08-01
@@ -1616,7 +1580,7 @@ size: 9592101891
 md5: 075a8e3e763ae954628f260e80d5723d
 patch: 2026-09-01
 fp: PLG110_11.C.61_1610_202610051306` | gate HTTP 200（需 302） |
-| `PYS110/PYS110_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=298d466013d162ef09c81f3864c79d3f&p=a6c78fdd375c88883bced8ac119831609f75abb74d3354f3d7b800bc9e2a0595b9bc37d9b67f6175eb33d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c44504977ea9e8a8909982b20964a65c&id=6acf3fbe7d8131017f156d07&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5731511f0fcea0e48097509f5d99f66e
+| `PYS110/PYS110_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=298d466013d162ef09c81f3864c79d3f&p=a6c78fdd375c88883bced8ac119831609f75abb74d3354f3d7b800bc9e2a0595b9bc37d9b67f6175eb33d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=4771e313d598467cc023f01a4ccbe8e3&id=6acf3fbe7d8131017f156d07&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5ea4184d3918afc9f0349e6854c14b31
 size: 8005212357
 md5: 8e72da6c7f668263d16d583d4c2cd8ec
 patch: 2026-09-01
@@ -1736,7 +1700,7 @@ size: 10368980242
 md5: 21541e0308f5d6f81ba2f051c182740b
 patch: 2026-09-01
 fp: RMX5200_11.C.27_1270_202610051850` | gate HTTP 200（需 302） |
-| `RMX5200/RMX5200_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a63974709ec05dc4fca4d381674a4efd&p=a6c78fdd375c888b39cedaaa439d65609677a8e5493754fe8ced00b9902f53c6efbe61d2e62e3876e93bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=4834ef24bb8d56ffea52428e30a9edf0&id=6abbdac392ce7c01836a79a4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6a1799997d93adc72fbb0c8729f602f6
+| `RMX5200/RMX5200_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a63974709ec05dc4fca4d381674a4efd&p=a6c78fdd375c888b39cedaaa439d65609677a8e5493754fe8ced00b9902f53c6efbe61d2e62e3876e93bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=bd17e0c5b3e169f25455fac2b7bb86db&id=6abbdac392ce7c01836a79a4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=24e6835edc95c976a949441e589926c6
 size: 10290100912
 md5: 55da1cbec8e90562a86046b1baf594c5
 patch: 2026-08-01
@@ -1786,7 +1750,7 @@ size: 7635348190
 md5: dcfbe5b4838971aeb251f2bedd0efed0
 patch: 2024-10-05
 fp: PGEM10_11.C.90_1900_202410181334` | HTTP 403 直链不可用 |
-| `PLZ110/PLZ110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=78bc1547ecc1ec6256bef42912c96b39&p=a6c78fdd3752888939cedefd42cd3564c578f5e5493754a181bc03eec22d0495bbea61d2b27b3872e838d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=719448ede466e3683128be878d8d867c&id=6a8c052a92ce7c01836a4545&taste=0&supportDLTaste=0&mode=1&tr=manual&s=183ecaf22910a55d70eef271972511ba
+| `PLZ110/PLZ110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=78bc1547ecc1ec6256bef42912c96b39&p=a6c78fdd3752888939cedefd42cd3564c578f5e5493754a181bc03eec22d0495bbea61d2b27b3872e838d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=ad5e548287194ec2d50248b9d00bec93&id=6a8c052a92ce7c01836a4545&taste=0&supportDLTaste=0&mode=1&tr=manual&s=82f00c6372e3d8d3edd848b8598addfb
 size: 9170255308
 md5: c613b61ceaf628f331eefc5856f3d88f
 patch: 2026-08-01
@@ -1801,12 +1765,12 @@ size: 4601862941
 md5: 3b5cbaa427972ba82f7a817bb2590063
 patch: 2022-06-05
 fp: MT2110_11.A.14_0140_202206070325` | HTTP 403 直链不可用 |
-| `PLV110/PLV110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=3520f447f6447cd3b8e9d08ae7843166&p=a6c78fdd375c88883bce8ffa419c646c9626a8e74d6354f78cb75bedc77b57c7e9b76389e42c382eee3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=3fb6c8e61842a248c923bb2fc72e17b4&id=6ad5dc35350d39017fff16ae&taste=0&supportDLTaste=0&mode=1&tr=manual&s=9a5b8d28f4bb463efcbd2fa3e81f108e
+| `PLV110/PLV110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=3520f447f6447cd3b8e9d08ae7843166&p=a6c78fdd375c88883bce8ffa419c646c9626a8e74d6354f78cb75bedc77b57c7e9b76389e42c382eee3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=8048e1274f706afae39d4be1cc766881&id=6ad5dc35350d39017fff16ae&taste=0&supportDLTaste=0&mode=1&tr=manual&s=ca430c65f0245aaf3aa661d29314c6ac
 size: 8992074045
 md5: 10d3d36e36ad80ea26b1f936a0548df1
 patch: 2026-10-01
 fp: PLV110_11.A.68_0680_202609221506` | gate HTTP 200（需 302） |
-| `PLY110/PLY110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c532f2cf809566ed8f5c0528ca3d90e3&p=a6c78fdd375c888b39cedbaa11cb62659771ffb04d3754f083ba5beb9e7e5492bcb931dee12b3176b43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=672e298ca0768e16615240883748867d&id=6accc6e976d168017ee80e30&taste=0&supportDLTaste=0&mode=1&tr=manual&s=fa9757cc0e099442a81ac19dd722552c
+| `PLY110/PLY110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c532f2cf809566ed8f5c0528ca3d90e3&p=a6c78fdd375c888b39cedbaa11cb62659771ffb04d3754f083ba5beb9e7e5492bcb931dee12b3176b43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=247b689afdd3ea27546508b334b11d49&id=6accc6e976d168017ee80e30&taste=0&supportDLTaste=0&mode=1&tr=manual&s=57cd9e920e941276901efdb657edf2cb
 size: 7887062587
 md5: 845125087b6a56b9784a8a6b6c891b54
 patch: 2026-09-01
@@ -1821,7 +1785,7 @@ size: 6207722112
 md5: d19f00310fe51a24c9cfe2979bad0b25
 patch: 2026-10-01
 fp: PMC110_11.C.55_1550_202609291650` | gate HTTP 200（需 302） |
-| `PYF110/PYF110_17.0.0.157(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=214236e1f87dde6064e23cb166683678&p=a6c78fdd365588883aceddae45c967659f22a8b3496654f287bb5ab8c3790290bbe961dab6786420b93bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=7f4b64bef223d06f0d499e9a0697072d&id=6ae954b0350d39017fff2f4d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2645bf7e9c26abeb5a0f56d9acef5bb7
+| `PYF110/PYF110_17.0.0.157(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=214236e1f87dde6064e23cb166683678&p=a6c78fdd365588883aceddae45c967659f22a8b3496654f287bb5ab8c3790290bbe961dab6786420b93bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=22247c0dae91aa47f94bd76a777e20f1&id=6ae954b0350d39017fff2f4d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=109258f7f2f13cfa559d2ed0e0a58c9b
 size: 9476347106
 md5: a0ee6601f2c7bcf38c4c97e706d4d02d
 patch: 2026-10-01
@@ -1871,10 +1835,6 @@ size: 3997808656
 md5: dc81097b6c89b80e2cfd2528eef1285a
 patch: 2022-04-05
 fp: PCGM00_11.F.15_3150_202401021407` | HTTP 403 直链不可用 |
-| `PCGM00/PCGM00_11_F.16(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-d6d964be26dc3369433b90dcaf671314/component-ota/25/04/01/c428fe1c57ee4d2f9a84e5cca926fde6.zip
-size: 3983625947
-md5: c39c5cebfb401881fee104cabccdfbad
-source: lian86` | HTTP 403 直链不可用 |
 | `RMX3663/RMX3663_15.0.0.1620(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-79be3e44c592f8d03b5279a30b1e0219/component-ota/26/02/28/fda53f7288f14896acc599b324027ac5.zip
 size: 6969702494
 md5: b8e4d6289361a280b96fd861e597eb83
@@ -2035,11 +1995,7 @@ size: 1189298
 md5: 4750d7374bb62946a3eda4d012ed4bb9
 patch: 2022-04-05
 fp: PFGM00_11.A.11_0110_202204012119` | HTTP 403 直链不可用 |
-| `PFGM00/PFGM00_11_A.11(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-05d0ba47f1b94a1f9b467990bd1e40cb/component-ota/22/04/06/9c61c79313c147779574cbde8970d003.zip
-size: 1189298
-md5: 4750d7374bb62946a3eda4d012ed4bb9
-source: lian86` | HTTP 403 直链不可用 |
-| `PMB110/PMB110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=d4928a10bc9aceb268417d3439e2427b&p=a6c78fdd375d888b39cedefc119f3031c626fcb01f6f54f481eb5aee94795293bbeb67d2e62c3575eb3bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=908ac6582e911a40f613e2e348a69164&id=6a9fcf1476d168017ee7e37f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=478f34e757031c846df762e26514e688
+| `PMB110/PMB110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=d4928a10bc9aceb268417d3439e2427b&p=a6c78fdd375d888b39cedefc119f3031c626fcb01f6f54f481eb5aee94795293bbeb67d2e62c3575eb3bd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=b2b970c453bbf434cc7ffa19e45abe24&id=6a9fcf1476d168017ee7e37f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6ff3a0b075831ba044c680e2256ec298
 size: 8580916892
 md5: 9c21fddedabec092e03b7ccc4cf29388
 patch: 2026-08-01
@@ -2084,7 +2040,7 @@ size: 8329215021
 md5: 3073461b1f9b51f4ea7af2add278510c
 patch: 2025-09-01
 fp: PHY110_11.C.63_1630_202509082258` | HTTP 403 直链不可用 |
-| `PYR110/PYR110_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=51d6399939feade180e47ed5a57d2100&p=a6c78fdd375c888b3bcedbab479934379126f5e8186254f3d7b600bb962d0593beed31dbb529392fbf3ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=1e786442f16ff240b12923bcc0e79f9a&id=6abccea492ce7c01836a7b58&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6eec59363099b59c29df272eb2e24008
+| `PYR110/PYR110_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=51d6399939feade180e47ed5a57d2100&p=a6c78fdd375c888b3bcedbab479934379126f5e8186254f3d7b600bb962d0593beed31dbb529392fbf3ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=049e6b724c18970e9af2d98a1fb4ff6d&id=6abccea492ce7c01836a7b58&taste=0&supportDLTaste=0&mode=1&tr=manual&s=16ca47e744e7185939ce410655a69585
 size: 8418802987
 md5: 68da0e6162533361dcb5c0d9df3ddd3f
 patch: 2026-09-01
@@ -2094,7 +2050,7 @@ size: 8730200512
 md5: a076e2d13d4c61d4390b802264b68b66
 patch: 2026-09-01
 fp: PLR110_11.C.09_1090_202610072000` | gate HTTP 200（需 302） |
-| `PLR110/PLR110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=10985c18ff1cbe85d1aa8084cb1b2693&p=a6c78fdd375d888b39ce89ac45cc6467c374fcb7196054ffd0ef5abe9e2f559bebea63d8e17b3471ee6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=67a273c5f18e19a4b82d2d8188ea2bc4&id=6a91476592ce7c01836a4c0d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b5716d59223816f1385b8e1dc39a7cf5
+| `PLR110/PLR110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=10985c18ff1cbe85d1aa8084cb1b2693&p=a6c78fdd375d888b39ce89ac45cc6467c374fcb7196054ffd0ef5abe9e2f559bebea63d8e17b3471ee6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c249fcb6be6bda2bb08adb7697b45c06&id=6a91476592ce7c01836a4c0d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6d668fc25d4175c6103847b6e1e1ac07
 size: 8440578241
 md5: 2ce9f884cfc5cc27611d4d59f168b887
 patch: 2026-08-01
@@ -2129,11 +2085,6 @@ size: 5967694606
 md5: ca6cea910b9769ca110f00211d8a9030
 patch: 2025-09-01
 fp: PKQ110_11.A.21_0210_202509101836` | HTTP 403 直链不可用 |
-| `RMX3850/RMX3850_16.0.5.1310(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=5dad2923ca122d38758eb5c5c08bdfca&p=a6c78fdd365588883bce8fa64b973160c270a8e31e6554f4d0ed00b0972002c4e2ea33dfe22c3120e86fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aec2996350d39017fff3586&taste=0&supportDLTaste=0&mode=1&tr=manual&s=3683b9f59aec9302a03b839bbf3cfb33
-size: 9154262840
-md5: b6d8cadbb86632626f789cbf5370baa6
-patch: 2026-10-01
-fp: RMX3850_11.F.71_2710_202610212352` | gate HTTP 200（需 302） |
 | `RMX3850/RMX3850_14.0.1.612(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e5e03fadab692bb53f1daab7e56b0f99/component-ota/25/01/23/756b2d2a3bcd4a3faa9449c7e1c56fed.zip
 size: 7975083687
 md5: 973b510a663aad1c7993838151f39e0c
@@ -2144,6 +2095,11 @@ size: 8144272869
 md5: 13acf4c550674d17dc865ecbf94073ea
 patch: 2025-09-01
 fp: RMX3850_11.C.48_1480_202509151834` | HTTP 403 直链不可用 |
+| `RMX3850/RMX3850_16.0.5.1200(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a2d02a202310375ab62954f4a49bd5d6&p=a6c78fdd375d888b38cedbfd409c3660c378a8b0493054f086ef5bb19e7d059beeea31dab37a3574b53cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aacf8fa76d168017ee7f2d4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=0a346cae9a67bbb992ced305c14ea400
+size: 9175911062
+md5: 87ebf15ae73512e06bc1797c98c93062
+patch: 2026-08-01
+fp: RMX3850_11.F.69_2690_202608062004` | gate HTTP 200（需 302） |
 | `RMX3093/RMX3093_11_F.04.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1d6d2016fa2bf0de5936ab51b34d628c/component-ota/22/06/10/0d81fdb5b2454df1ad8b9bded942e9ef.zip
 size: 1354575
 md5: 65860dc034ee5fc720e6a8e603d54231
@@ -2179,7 +2135,7 @@ size: 6723844710
 md5: 861e6a3f8a3e94e131a1981a32d4ab8b
 patch: 2024-02-05
 fp: PGJM10_11.C.11_1110_202402011214` | HTTP 403 直链不可用 |
-| `PLG120/PLG120_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=4b6dc2c082f032c95c1a15142bc67183&p=a6c78fdd375d88883ece8ea9419d306c9276fcb74b3454f5d0ba5bb8967b559bb8bd3788b278352fbb38d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=fea96c978f52990ee4b4de3843251094&id=6a97e52a92ce7c01836a53a0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=d858a93e6b28b8a2cb8cec3881a42841
+| `PLG120/PLG120_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=4b6dc2c082f032c95c1a15142bc67183&p=a6c78fdd375d88883ece8ea9419d306c9276fcb74b3454f5d0ba5bb8967b559bb8bd3788b278352fbb38d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c85c9bc114eafaf4d367f8e8a4df4960&id=6a97e52a92ce7c01836a53a0&taste=0&supportDLTaste=0&mode=1&tr=manual&s=8862166bc2d006196622d5f46f7bc678
 size: 9230418882
 md5: f751d912bb4c87aec750c8ac596ed361
 patch: 2026-08-01
@@ -2194,7 +2150,7 @@ size: 1233533
 md5: 0b61dcca2d10755bf2621eb04942bcee
 patch: 2024-02-05
 fp: PDVM00_11.C.29_2290_202407231905` | HTTP 403 直链不可用 |
-| `OPD2511/OPD2511_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=f8a316bb954edf313f84999d670338dd&p=a6c78fdd375d888b39cedead11ca396c9324aeb3186f54ff85eb5bbf947b009bebec37d8e6786122b938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=29e74bf6d9bbbd8c444f5cdbef3b0bce&id=6a8eeff092ce7c01836a4978&taste=0&supportDLTaste=0&mode=1&tr=manual&s=9532259602dea8c8f2266696580cdf4a
+| `OPD2511/OPD2511_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=f8a316bb954edf313f84999d670338dd&p=a6c78fdd375d888b39cedead11ca396c9324aeb3186f54ff85eb5bbf947b009bebec37d8e6786122b938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=2171a2379091651add86e77676327bd1&id=6a8eeff092ce7c01836a4978&taste=0&supportDLTaste=0&mode=1&tr=manual&s=724e86710a3cc5f34700e79e6cc86490
 size: 8975090906
 md5: e3397d4c82de79480a6a13d4de55d650
 patch: 2026-08-01
@@ -2279,35 +2235,31 @@ size: 7103565663
 md5: 29f5c98ceca2202ce5e9e7248bc30db1
 patch: 2025-10-01
 fp: PKS110_11.C.19_1190_202510211134` | HTTP 403 直链不可用 |
-| `PMD110/PMD110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=55618225cd39d4aab7ab825a8e75cc1c&p=a6c78fdd375c88883bce8fad439c3166c579fae14a6554f380b75ab896285093beec3788e02a362fbf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=a2f62d9d88f5fb185b04c8a572d3d99c&id=6ad88370350d39017fff1acf&taste=0&supportDLTaste=0&mode=1&tr=manual&s=acc554aa2825a7c3044964cd6b705e28
+| `PMD110/PMD110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=55618225cd39d4aab7ab825a8e75cc1c&p=a6c78fdd375c88883bce8fad439c3166c579fae14a6554f380b75ab896285093beec3788e02a362fbf3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=07d23efed0a2bac5c5c6e4d277f8f29c&id=6ad88370350d39017fff1acf&taste=0&supportDLTaste=0&mode=1&tr=manual&s=acd64df19b17aeb85814de7a62843817
 size: 8925366253
 md5: df22b00d853749acbbeeb44748d1a3e9
 patch: 2026-10-01
 fp: PMD110_11.A.32_0320_202609181652` | gate HTTP 200（需 302） |
-| `PLP110/PLP110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8e3f5e70144f5c69c38d15a6e681c79c&p=a6c78fdd3752888939ce8eac4aca36619577fae64d6554f2d4ba00eac7215791bbea6addb12a3275be3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=bba9bcdd87ed92cd912e365f1b5ba0a7&id=6a8c33fe92ce7c01836a45bb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=9e914a63179ffef7a562682f9cf576dd
+| `PLP110/PLP110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8e3f5e70144f5c69c38d15a6e681c79c&p=a6c78fdd3752888939ce8eac4aca36619577fae64d6554f2d4ba00eac7215791bbea6addb12a3275be3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=e827b904d848d468905308feb55a2f3b&id=6a8c33fe92ce7c01836a45bb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=34709ab1236acf7c4aaa6fb6fdfb434d
 size: 9645244860
 md5: 33ba71c280c17f97bef82e75e6df9d18
 patch: 2026-08-01
 fp: PLP110_11.A.40_0400_202607292358` | gate HTTP 200（需 302） |
-| `PLP110/PLP110_16.0.5.705(CN01).txt` | `https://gauss-compota-c-cn.allawnfs.com/remove-358503e403e6609573a7f8839c5522b4/g-10eab6008d5642cf42abd2aa41f847cb/component-ota/26/04/09/a9fc4d310b604d9896f9321c2bf3b393.zip?sign=672439698148cd8ca6a478f88daf3426&t=6ae833ab&AWSAccessKeyId=ayjy7KyLVHvDqDax6_KqJgtBeORTJARg9MSGiL66&Expires=1793604275&Signature=ZFkhdyyC%2BxBgciYD%2BVLecgjhlek%3D
-size: 150
-md5_pending: yes
-source: lian86` | HTTP 403 直链不可用 |
 | `PLP110/PLP110_17.0.0.109(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=aba3b1ade776d1e87747332304508e93&p=a6c78fdd3655888a3cce89a84197366d9675fae5496f54f0d4be5aeac5795995edbf678ee47e3723bc32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6acc3d5092ce7c01836a8515&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b74e7c1850458ca92d6c0978671f3c87
 size: 9902437367
 md5: b204590ca1ea6c0fbf07c396fa07c3ad
 patch: 2026-09-01
 fp: PLP110_11.C.41_1410_202610051653` | gate HTTP 200（需 302） |
-| `RMX3852/RMX3852_16.0.5.1300(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=d0a83d533f6573433c09614eda65154d&p=a6c78fdd3655888b39cedbfd16cd386c9779fbe24f3254ffd3bc5be99e2e53c4b8ed60d3e6793123b433d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aec2a3f7d8131017f15943b&taste=0&supportDLTaste=0&mode=1&tr=manual&s=309d06f0e5e57f95340182435c0b32ee
-size: 9290095744
-md5: 7c02bd98906e1055bf8e542577801e58
-patch: 2026-10-01
-fp: RMX3852_11.F.70_2700_202609301402` | gate HTTP 200（需 302） |
 | `RMX3852/RMX3852_14.0.1.618(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1af5b0086345b244b4a17f3200504329/component-ota/25/01/24/17ff6a318ff447b680cc17b704738da2.zip
 size: 8024125670
 md5: a7317fd3ad6f4e941aab7b30ba9dce66
 patch: 2024-10-05
 fp: RMX3852_11.A.25_0250_202501231426` | HTTP 403 直链不可用 |
+| `RMX3852/RMX3852_16.0.5.1200(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a70fc499100154729f003d2c3ad4b625&p=a6c78fdd375d888b38cedbac409830609771afb44b6e54f183bd5bbd912f0793e8bf31deb2783023ef3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aacf95c92ce7c01836a6aa9&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a89cd663d2346e3775264cdc18c61eef
+size: 9312884874
+md5: 492df5615f33c81b60c8716fa2740a73
+patch: 2026-08-01
+fp: RMX3852_11.F.69_2690_202608062004` | gate HTTP 200（需 302） |
 | `RMX3852/RMX3852_15.0.0.1350(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-e262f7f319f66ceb2b9feaa53a664ce7/component-ota/25/09/15/67dbd8310d6e48009a7509121f967f35.zip
 size: 8277946246
 md5: 5d23134b70d415d5e0d6a93587cd4fb1
@@ -2323,10 +2275,6 @@ size: 6449704534
 md5: 6955c0a059c1653234ee9e2141067b6b
 patch: 2023-04-05
 fp: LE2100_11.F.26_2260_202305051414` | HTTP 403 直链不可用 |
-| `LE2100/LE2100_氧OS LE2101_13.1.0.500(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-57b2f08c72fa1ba639602ee202510550/component-ota/23/05/05/36523447c2514bb388f7bfe9bff21f8a.zip
-size: 4992866791
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
 | `LE2100/LE2100_11_A.15.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-32447a6d9cbf71d71edae37725c9b535/component-ota/21/12/13/ccec56961f964f9f87401351e132c2d4.zip
 size: 1201114
 md5: a39403790c8dc105b43944657efd0c76
@@ -2352,10 +2300,6 @@ size: 5974313377
 md5: e3d381d10069c9428ec6ee2b59272629
 patch: 2024-02-05
 fp: RMX3478_11.C.22_1220_202401231651` | HTTP 403 直链不可用 |
-| `RMX3478/RMX3478_Realme UI RMX3478_11_C.10(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-918c82943f176897be4237227de2ce2d/component-ota/23/02/03/3631a2f89bef454982333fb6c1c5d88b.zip
-size: 5627360849
-md5: 9dcebb34af8d52f41cebd047e8d75207
-source: lian86` | HTTP 403 直链不可用 |
 | `PDNT00/PDNT00_11_F.12.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-0751656d47d760af73e1392059f8ccb2/component-ota/23/05/08/021858b78bb04e218d77a8eb5b11ca14.zip
 size: 1419920
 md5: bf1a3757da2efe8592a8e753845c925c
@@ -2366,7 +2310,7 @@ size: 1194222
 md5: 312c042022ccfd2139a9326aa260a68c
 patch: 2022-02-05
 fp: PDNT00_11.C.36_1360_202202091314` | HTTP 403 直链不可用 |
-| `RMX6699/RMX6699_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8a8c544152ee9f91ce301ad8cf363055&p=a6c78fdd375d888b38cedcab11963566c670afb74d3554fed7b703ea977b0592bcbe62dbef7b312fbb6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=aa5890677c7ebbeedd87df206fa3a5ca&id=6a97efef92ce7c01836a53b5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=dddc3b5e6251b0ef430500a5ed2c322c
+| `RMX6699/RMX6699_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8a8c544152ee9f91ce301ad8cf363055&p=a6c78fdd375d888b38cedcab11963566c670afb74d3554fed7b703ea977b0592bcbe62dbef7b312fbb6ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=1a8716d0250afb1a0085e041deeda806&id=6a97efef92ce7c01836a53b5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=eb65b20ce79733c20eba580d20bd418d
 size: 9716411623
 md5: 674b0b549b49fa5b716ac3a5f32316c9
 patch: 2026-08-01
@@ -2406,7 +2350,7 @@ size: 1403962
 md5: ba1ae7b150e738ef4fbf4b6b96c4f90a
 patch: 2022-12-05
 fp: PFDM00_11.C.16_1160_202212160741` | HTTP 403 直链不可用 |
-| `PMM110/PMM110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=24cff226b6f785b3f8a50a0e8cfc8b27&p=a6c78fdd375d888a3bce8eaf10cb36319222aee24a3254f4d6ef00ed9e2005c7bcb8638fb52a3027bc6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=08c94b92bb4e586136d3fed6815e78fb&id=6a8c148d76d168017ee7ce27&taste=0&supportDLTaste=0&mode=1&tr=manual&s=02a1da8e6c5a2d92675baea13392a239
+| `PMM110/PMM110_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=24cff226b6f785b3f8a50a0e8cfc8b27&p=a6c78fdd375d888a3bce8eaf10cb36319222aee24a3254f4d6ef00ed9e2005c7bcb8638fb52a3027bc6ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=0bbfbe5beded7e84d036b73d928f2829&id=6a8c148d76d168017ee7ce27&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c3a87dfc5d7b8b1ee5b6f03b46dc5a6f
 size: 8968943244
 md5: 5b98187a027877bc965e5642eb28d446
 patch: 2026-08-01
@@ -2421,7 +2365,7 @@ size: 3650333166
 md5: 55e0057ab0e82d0276294da0603821de
 patch: 2021-08-05
 fp: RMX1901_11.F.06_1060_202108232309` | HTTP 403 直链不可用 |
-| `PLT130/PLT130_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=69e2c9f3738aa9aa0ee9b2bb82c1633a&p=a6c78fdd3751888b39ce8bfa1199656dc126fab04d6154f2d3bf00ecc27b5495bbbf31d3b67d372eee32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=359b0749fa38bde50700f36535fe42fa&id=6a69d44d76d168017f1d6e12&taste=0&supportDLTaste=0&mode=1&tr=manual&s=672d77901d6b9304662bfa1c32165888
+| `PLT130/PLT130_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=69e2c9f3738aa9aa0ee9b2bb82c1633a&p=a6c78fdd3751888b39ce8bfa1199656dc126fab04d6154f2d3bf00ecc27b5495bbbf31d3b67d372eee32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=72e12cae977808b4c32e9c3c250c6ee1&id=6a69d44d76d168017f1d6e12&taste=0&supportDLTaste=0&mode=1&tr=manual&s=acf9c44d87dbe039194d4547170ee159
 size: 6004102750
 md5: 171d3d6212ab2faf04aaa0ad59dd5ec6
 patch: 2026-04-01
@@ -2431,7 +2375,7 @@ size: 6259497621
 md5: ab73db44e7985c8cf7126837f0cdb409
 patch: 2026-10-01
 fp: PLT130_11.C.65_1650_202610150037` | gate HTTP 200（需 302） |
-| `PLP120/PLP120_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=3f84054b38798502873e956a537edaa9&p=a6c78fdd3752888939ced4af16c93331c676feb51b3354f383ec03b8c379079be2ec30dbe6786127ba6fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=b936e85def6c60494a6527204790b15d&id=6a8c33fe92ce7c01836a45ba&taste=0&supportDLTaste=0&mode=1&tr=manual&s=b2c865bf652dbfacbab8c3a674003f35
+| `PLP120/PLP120_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=3f84054b38798502873e956a537edaa9&p=a6c78fdd3752888939ced4af16c93331c676feb51b3354f383ec03b8c379079be2ec30dbe6786127ba6fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=3d8a5d37edb9cf5eb48ecb93d2b8b648&id=6a8c33fe92ce7c01836a45ba&taste=0&supportDLTaste=0&mode=1&tr=manual&s=fe41b023ceb5da4ecc76eac4f4c48fdb
 size: 9650739113
 md5: 5edc06a3ecda9a130e82551172764251
 patch: 2026-08-01
@@ -2476,7 +2420,7 @@ size: 9733511430
 md5: c0ca72cabab48d37cc76c79c4997b66c
 patch: 2026-09-01
 fp: RMX8899_11.C.13_1130_202610080048` | gate HTTP 200（需 302） |
-| `RMX8899/RMX8899_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=964fbe2d58c851d8e554bafabdedb609&p=a6c78fdd375d888b38ce8bad44cd34619376a8e14d6354a381be5ab8972159c7efbb30dce02d372ebf3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=df3979027fee1bbd8d06d2c986dbd825&id=6aa3c24376d168017ee7e96d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5eb74df389dd8fd00ecfbf459bc5a580
+| `RMX8899/RMX8899_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=964fbe2d58c851d8e554bafabdedb609&p=a6c78fdd375d888b38ce8bad44cd34619376a8e14d6354a381be5ab8972159c7efbb30dce02d372ebf3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=6ce27d3c49d75fdad0d411ec0393bf3f&id=6aa3c24376d168017ee7e96d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=dea2ee66372684fa4969cea0600b2f1c
 size: 9769374742
 md5: be4a025e98b3db143893658598a9ef2d
 patch: 2026-08-01
@@ -2496,11 +2440,16 @@ size: 7015522956
 md5: 23023783401c7237233e7655f846ecaa
 patch: 2024-09-05
 fp: RMX3357_11.F.28_3280_202410211614` | HTTP 403 直链不可用 |
-| `PYB110/PYB110_17.0.0.157(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c88b72e20ad712c6fc64cc4be4de2ca9&p=a6c78fdd365588883ace8fa840973062c570fce54a6154f18cb95ab9c22e0392bebf6b89b22c622eba33d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=3e3bc89c3c32727c98f2fb6b1266ee4c&id=6ae832c07d8131017f158c4d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f626392f6c06eb433f06d18b5ac40ee2
+| `PYB110/PYB110_17.0.0.157(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c88b72e20ad712c6fc64cc4be4de2ca9&p=a6c78fdd365588883ace8fa840973062c570fce54a6154f18cb95ab9c22e0392bebf6b89b22c622eba33d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=8dbac08c15c51c3a3ab096eeb78a3174&id=6ae832c07d8131017f158c4d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=fab3735daf437d32bf9dc822d47e4906
 size: 9857075557
 md5: c4feadc0eb3829c677513289fead516f
 patch: 2026-10-01
 fp: PYB110_11.A.41_0410_202610202144` | gate HTTP 200（需 302） |
+| `PYB110/PYB110_17.0.1.201(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=156070ae1f457bff8f71028e32fb0c58&p=a6c78fdd3655888938cedbfb409c67329722f4e41b6454ffd6ef5bbc942d58c1e3b662dde67d6174bf68d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aed43267d8131017f159681&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7e0e094713333d49bd3d54620169fae2
+size: 10187609378
+md5: 6aaf2ba845841892d2e447171630918b
+patch: 2026-11-01
+fp: PYB110_11.A.44_0440_202610302310` | gate HTTP 200（需 302） |
 | `PKD130/PKD130_15.0.0.1900(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-81e301c0fdd4ab6f6917da5711ad1876/component-ota/26/08/20/13448b32af364ac49e8091e2fff8ae40.zip
 size: 5598570820
 md5: d3c761b94256f543bc76a12fd5f951f4
@@ -2526,7 +2475,7 @@ size: 1193799
 md5: e104a98bb915f5489e29c4eb02307a47
 patch: 2022-05-05
 fp: PECM30_11.C.07_1070_202205091306` | HTTP 403 直链不可用 |
-| `PLT120/PLT120_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=38b197d3922c04a3b660ec468cea0bba&p=a6c78fdd3751888b39cedaa917ca60369071ffe54d6e54a181b800ba932a5191e2b730d9e3783873b56dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=dfe21f6d071a78eb2006679edc9eff3f&id=6a69d44d76d168017f1d6e11&taste=0&supportDLTaste=0&mode=1&tr=manual&s=99c864de34850decb5c744c5e19523aa
+| `PLT120/PLT120_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=38b197d3922c04a3b660ec468cea0bba&p=a6c78fdd3751888b39cedaa917ca60369071ffe54d6e54a181b800ba932a5191e2b730d9e3783873b56dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=42f479f06e11f9697ee37c50d113ef53&id=6a69d44d76d168017f1d6e11&taste=0&supportDLTaste=0&mode=1&tr=manual&s=20f4900776e8949ce259464ba326d3f9
 size: 6004138137
 md5: d0eec8a934a8b0d71d24ecbb22417a6c
 patch: 2026-04-01
@@ -2536,10 +2485,6 @@ size: 6260357413
 md5: 26a865cf1486648075191b0468617745
 patch: 2026-10-01
 fp: PLT120_11.C.65_1650_202610150038` | gate HTTP 200（需 302） |
-| `PCKM80/PCKM80_11_F.16(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-1d1859d96256f9644dc19b3403b0894c/component-ota/22/12/29/954750b55c7a47e78341874bc0b8749d.zip
-size: 3732942808
-md5: 4f06920fc6fa8385a9e667cfd1f8404f
-source: lian86` | HTTP 403 直链不可用 |
 | `PCKM80/PCKM80_11_F.16.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-97aa0eb51b174e1a5d11a6cb1256077f/component-ota/22/12/29/954750b55c7a47e78341874bc0b8749d.zip
 size: 3732942808
 md5: 4f06920fc6fa8385a9e667cfd1f8404f
@@ -2700,7 +2645,7 @@ size: 1246585
 md5: da978c0a0e2b7a0de09717e9a02e3fbe
 patch: 2022-03-05
 fp: PEGM10_11.A.23_0230_202203071201` | HTTP 403 直链不可用 |
-| `PYC110/PYC110_16.0.9.420(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c47c0daf16f640b5c344db66072b0617&p=a6c78fdd3655888a30ced9fb479d32679472ffe21e6654ff8cbc00ea902f03c6b8b760d9b12b3524b532d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=0ec99f3ee31d22808e80e41c84a4f4f8&id=6ae82e0b350d39017fff2d09&taste=0&supportDLTaste=0&mode=1&tr=manual&s=81cdba6d27fef1c1c6588ffba811a4cc
+| `PYC110/PYC110_16.0.9.420(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c47c0daf16f640b5c344db66072b0617&p=a6c78fdd3655888a30ced9fb479d32679472ffe21e6654ff8cbc00ea902f03c6b8b760d9b12b3524b532d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=3720a5c5530411e7d24efe68f7496b10&id=6ae82e0b350d39017fff2d09&taste=0&supportDLTaste=0&mode=1&tr=manual&s=778bd6638ae890f0b07a01b9787c5e28
 size: 6238800764
 md5: b471fcee038a44a6faa2f5cc6026601d
 patch: 2026-09-01
@@ -2760,7 +2705,7 @@ size: 7601080404
 md5: 68e56c1930a9d566e8e55060a6e7bc23
 patch: 2026-09-01
 fp: OPD2201_11.H.07_3070_202609171652` | gate HTTP 200（需 302） |
-| `PMT110/PMT110_16.0.10.620(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=ce7ad183cef1a4bbf36b4e847dd5fe6b&p=a6c78fdd3655888a30cedda743ca60329722f4b7423754f5d6be5be9c2290392bcb867d8e42d3472bc3ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=179a87b1bb6381b60fd66f464025ccd6&id=6ae1b37b7d8131017f1586a5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f02d22a497fc1386dab51922b2759c9d
+| `PMT110/PMT110_16.0.10.620(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=ce7ad183cef1a4bbf36b4e847dd5fe6b&p=a6c78fdd3655888a30cedda743ca60329722f4b7423754f5d6be5be9c2290392bcb867d8e42d3472bc3ed3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=bf793e87da04f2aad61d7ba044629944&id=6ae1b37b7d8131017f1586a5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c7edf14dee3ad1c6efec5eecde75c53c
 size: 6343983358
 md5: 0271ee9427498507abceef96a6870072
 patch: 2026-09-01
@@ -2815,11 +2760,16 @@ size: 7547830911
 md5: cebfd9215f2e2a5537e1f047b9b12526
 patch: 2023-10-05
 fp: PFEM10_11.C.66_1660_202311220016` | HTTP 403 直链不可用 |
-| `OPD2513/OPD2513_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=dd1afa2462335c21b8ea45c2cc0c1607&p=a6c78fdd375d888b39ce8fab459734649624fdb21b6e54a3d4ed00ea9f7d5891e8bb658ee4786121b433d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=cadb1951fd9c1a2cb5d7a9492913cca7&id=6a902ab376d168017ee7d329&taste=0&supportDLTaste=0&mode=1&tr=manual&s=25447d04a51fd20f02b9977d6fdf5065
+| `OPD2513/OPD2513_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=dd1afa2462335c21b8ea45c2cc0c1607&p=a6c78fdd375d888b39ce8fab459734649624fdb21b6e54a3d4ed00ea9f7d5891e8bb658ee4786121b433d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=5d4b184441f8226f14c81e7e3c820ed2&id=6a902ab376d168017ee7d329&taste=0&supportDLTaste=0&mode=1&tr=manual&s=cb6e7317efdf595744aa5a1ac1f0ee07
 size: 8942148178
 md5: 4617f09f6bba39b5e0ced0d5e029a56c
 patch: 2026-08-01
 fp: OPD2513_11.A.36_0360_202608071148` | gate HTTP 200（需 302） |
+| `OPD2513/OPD2513_17.0.0.105(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a94819d7030579fc232edeb4e82ef4dc&p=a6c78fdd3655888a3eceddfc4bcb67669076abb51b3554a486be00b1c42e52c3eabe3389ee7f3476e86dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aec4df17d8131017f1594b4&taste=0&supportDLTaste=0&mode=1&tr=manual&s=6e7fb5c3ec8904ed9aeabcc3c5edda4d
+size: 9291456961
+md5: 4fb23787f5d9141d21c95a1f0e327c5a
+patch: 2026-09-01
+fp: OPD2513_11.C.16_1160_202610062130` | gate HTTP 200（需 302） |
 | `RMX3461/RMX3461_11_A.16.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f11ab0350f2e9f25cffe649c813917b1/component-ota/22/03/10/f745cc8f01c148ec87e72fbce4f9f152.zip
 size: 4316369594
 md5: ed2be7abea6d4c2a444f853b730ccda5
@@ -2950,7 +2900,7 @@ size: 4154376562
 md5: 937c3f8e1ee14281f9f98f0674ae094e
 patch: 2021-12-05
 fp: RMX2202_11.A.27_0270_202112090245` | HTTP 403 直链不可用 |
-| `PYE130/PYE130_16.0.10.507(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=98b7b3f14bb642224a55e61d5c2d9862&p=a6c78fdd365588883fced9ac16cd6436c678afb54c6754f781e803ec937c0392b8ee36d3e47c6125e938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c7c66146dd18e452411e3bd1f6152194&id=6ae5505f350d39017fff2bac&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2f658046b34ca2631c6b5170491fa770
+| `PYE130/PYE130_16.0.10.507(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=98b7b3f14bb642224a55e61d5c2d9862&p=a6c78fdd365588883fced9ac16cd6436c678afb54c6754f781e803ec937c0392b8ee36d3e47c6125e938d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=e0474c3190ea2280eead9db3c4a93e17&id=6ae5505f350d39017fff2bac&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7c9c71acb6d5adccdd1ef88c0656fb63
 size: 6276220251
 md5: 68a9f867421c5946fdbbab2becb73f1d
 patch: 2026-10-01
@@ -3044,18 +2994,18 @@ fp: OPD2101_11.A.18_0180_202212160249` | HTTP 403 直链不可用 |
 size: 5345420960
 md5: 684f4f8e70d6e222a21d5054cf57227b
 patch: 2024-02-05
-fp: OPD2101_11.F.45_2450_202402022114` | HTTP 403 直链不可用 |
+fp: OPD2101_11.F.45_2450_202402022114` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PMA120/PMA120_17.0.0.106(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=28b33bbaff3a83603059f606e4963ade&p=a6c78fdd3655888a3ccedbaa109b3065c525f9e0486f54a687bb5beb96295992b8bf64dfb32b3476ec39d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6acf3eee7d8131017f156d05&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a3b837a928e429641c68f721eebe90d8
 size: 10550794396
 md5: 354435acdb140b6026aa4ce5e1acdbf0
 patch: 2026-09-01
 fp: PMA120_11.C.20_1200_202610051631` | gate HTTP 200（需 302） |
-| `PMA120/PMA120_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=914d0bd83e89a82ebfc1bf073162ed15&p=a6c78fdd3655888b3ace8bfd469632329521a8e74a6f54f08cba5abec32e55c1bfbf31d8b62d3923bb3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=b775355aa51c2c5b22f27ba1c6404c09&id=6acdabf392ce7c01836a873a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c300cbff28920537d6e25945aad52267
+| `PMA120/PMA120_16.0.10.501(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=914d0bd83e89a82ebfc1bf073162ed15&p=a6c78fdd3655888b3ace8bfd469632329521a8e74a6f54f08cba5abec32e55c1bfbf31d8b62d3923bb3ad3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=f75ea7979915e7189c4e55b8625c8370&id=6acdabf392ce7c01836a873a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=3760196fa7cb9cfa03acf7a77c50c265
 size: 10120066082
 md5: 66306c284bc88985e146d14759f73440
 patch: 2026-08-01
 fp: PMA120_11.A.64_0640_202607300009` | gate HTTP 200（需 302） |
-| `OPD2501/OPD2501_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8c65f6cde3e2a128a27ff0341119222e&p=a6c78fdd3655888b3dce8bfe46cc35379f79f8e01c3054a487ea5bedc2280094eeee66d8ee7a6173bb3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=612324ab85a6c5e1cfc8785a5e13f01c&id=6ae85e2c7d8131017f158d14&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f94109688430c47388a67bbf1a6b866d
+| `OPD2501/OPD2501_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8c65f6cde3e2a128a27ff0341119222e&p=a6c78fdd3655888b3dce8bfe46cc35379f79f8e01c3054a487ea5bedc2280094eeee66d8ee7a6173bb3fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=f2fa1fcc6d37f83128b46e71835759cd&id=6ae85e2c7d8131017f158d14&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f66f37a3bc664ec022cb95a8db1e0536
 size: 8503994773
 md5: 83535095a0a2d99c4faf5ee79bbf1945
 patch: 2026-10-01
@@ -3100,7 +3050,7 @@ size: 8518131288
 md5: f475c00275da9723e66108d04f5fcfa7
 patch: 2025-09-01
 fp: PLA110_11.A.46_0460_202509011614` | HTTP 403 直链不可用 |
-| `PLU110/PLU110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=020fbcee3d702ee0a5c859edb469fd9a&p=a6c78fdd375c888b3dcedeac109c38679221fbe44c6f54ffd1b75becc3795292bbbd6ad8e52c3121bd3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=1b40359e5cdd7bc9b00e5782111eaafc&id=6ac8a29492ce7c01836a7ed1&taste=0&supportDLTaste=0&mode=1&tr=manual&s=53a7e57305b9583f626d08c9ab0a6596
+| `PLU110/PLU110_16.0.10.600(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=020fbcee3d702ee0a5c859edb469fd9a&p=a6c78fdd375c888b3dcedeac109c38679221fbe44c6f54ffd1b75becc3795292bbbd6ad8e52c3121bd3cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=abe0244a04657a38eebb63961383fff3&id=6ac8a29492ce7c01836a7ed1&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7e3121aa12626cf8aaef44b7119ee964
 size: 8292779614
 md5: 8067ee9258680e3b1ddafc9446cfe34e
 patch: 2026-09-01
@@ -3144,17 +3094,17 @@ fp: RMX3551_11.H.21_3210_202602271826` | HTTP 403 直链不可用 |
 size: 5952826752
 md5: 5ca92c4625808b3b872d29979282fbf8
 patch: 2022-11-05
-fp: RMX3551_11.A.22_0220_202211232323` | HTTP 403 直链不可用 |
+fp: RMX3551_11.A.22_0220_202211232323` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3551/RMX3551_14.0.0.1410(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8179a770679134b16d2fc121356244f3/component-ota/25/01/02/efcacd1194b145b1bcfbe7bfb23796a1.zip
 size: 7643545883
 md5: ffe8dbc0b79f9a8c647972cea3d000c7
 patch: 2025-01-01
-fp: RMX3551_11.F.36_2360_202412312020` | HTTP 403 直链不可用 |
+fp: RMX3551_11.F.36_2360_202412312020` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3551/RMX3551_13.1.0.107(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-525d9889a92d75d52617f7a3744361c3/component-ota/23/10/18/2e6c0b84ed4946b0b8e14bd321f92168.zip
 size: 7317725117
 md5: 594f0f9f7714d820bc2cb48a98c41bb6
 patch: 2023-10-05
-fp: RMX3551_11.C.24_1240_202310162103` | HTTP 403 直链不可用 |
+fp: RMX3551_11.C.24_1240_202310162103` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PKR110/PKR110_17.0.0.101(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=96db79be81d98c34456f9f8fd5b7c60a&p=a6c78fdd3654888a38ce8cfc4acc6065c323fce3493554a5d7e800eb912a56c1ede930deb52a382eb93cd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aeaf98c350d39017fff333d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=93f52c5a662f95d0e4d24cd56d759737
 size: 8815557051
 md5: ccd61cd0dfa5d296b914af0e16b46156
@@ -3175,11 +3125,12 @@ size: 9740222570
 md5: 6953af073f42992c7121531149506e75
 patch: 2026-09-01
 fp: PME110_11.C.22_1220_202610051628` | gate HTTP 200（需 302） |
-| `PME110/PME110_16.0.9.402(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a0007bfa1d75d21e13b8a5293f8dff92&p=a6c78fdd3753888831ced4a816cc3331c473ffe4496754f6d6eb5aea957d5990b9ba3188b67f6274bc32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c91fb8f76af8c5125f9a83203cc30467&id=6a5214279e207b01827c7b6d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=f72e338cc953b056b46a776488f581b6
+| `PME110/PME110_16.0.9.402(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=a0007bfa1d75d21e13b8a5293f8dff92&p=a6c78fdd3753888831ced4a816cc3331c473ffe4496754f6d6eb5aea957d5990b9ba3188b67f6274bc32d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=debd320ed6ff50d096967cfe96beb5a9&id=6a5214279e207b01827c7b6d&taste=0&supportDLTaste=0&mode=1&tr=manual&s=2b62bf3d2b9602e2d0146efe4942b75c
 size: 9337807945
 md5: 1b5f3a971315f9b9dea534017bedf9e4
 patch: 2026-07-01
 fp: PME110_11.A.59_0590_202606280528` | gate HTTP 200（需 302） |
+| `PHP110/PHP110_13.1.0.133(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-7fe1519474a2830ce337fe8d54a46f10/component-ota/23/06/28/e77b593ee445438487aadd99298c4d4a.zip` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHP110/PHP110_16.0.5.1000(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=9762c8b90fc3c8514d26f1f403720efe&p=a6c78fdd3750888831cedffc109960659371f5b24c6f54f4d7b75bbbc52a5291e3ba6189b12b3271ef3dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a3e602f007ddc01813dfb0f&taste=0&supportDLTaste=0&mode=1&tr=manual&s=872d4f136cc4e2f134f0d2a6e68791cb
 size: 7944272147
 md5: 989d3892e1ad9541d24469eb7f3fff3b
@@ -3194,12 +3145,12 @@ fp: PHP110_11.F.29_2290_202510211728` | HTTP 403 直链不可用 |
 size: 7295164542
 md5: e552b6c6401f05234e2724ee7d6ba422
 patch: 2024-12-05
-fp: PHP110_11.C.43_1430_202412051328` | HTTP 403 直链不可用 |
+fp: PHP110_11.C.43_1430_202412051328` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHP110/PHP110_13.1.0.172(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-73c31fb7089f70ca6d94b6e18262e5c9/component-ota/23/10/16/3c92854e9dc640f4b25a084f724c1b15.zip
 size: 7221507983
 md5: cc138adaa3331e811f760d1b1f286580
 patch: 2023-10-05
-fp: PHP110_11.A.27_0270_202310141110` | HTTP 403 直链不可用 |
+fp: PHP110_11.A.27_0270_202310141110` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFUM10/PFUM10_11_A.12.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f14ac43d3948dd18ed86c9062ca41eb8/component-ota/22/08/11/825030b5448b434088213a2b3960109d.zip
 size: 4653936136
 md5: 05a478bc23de077bda6796e07d88e404
@@ -3214,7 +3165,7 @@ fp: PFUM10_11.C.48_1480_202605211830` | HTTP 403 直链不可用 |
 size: 6510257541
 md5: b7c465baac7e1e17f5b0514af8913faa
 patch: 2023-11-05
-fp: PHF110_11.A.08_0080_202311071820` | HTTP 403 直链不可用 |
+fp: PHF110_11.A.08_0080_202311071820` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PHF110/PHF110_15.0.0.1900(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-127412680d2a655d076e37c6b7ef6297/component-ota/26/06/22/d10588168ba74c499d30fd4dfba21846.zip
 size: 6626144972
 md5: 5614a9df99d5ff38a996cec1830440a0
@@ -3230,16 +3181,17 @@ size: 7292231042
 md5: e0487fc4818e8a2837aaf5f01dfae06e
 patch: 2024-10-05
 fp: PJE110_11.A.78_0780_202411072112` | HTTP 403 直链不可用 |
+| `PJE110/PJE110_14.0.0.505(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-01ce24e943c314393f9a1858506634dd/component-ota/24/03/27/895c385d4f234bf9ace5b9ce5474a89c.zip` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
+| `PJE110/PJE110_16.0.5.1301(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=da426527128757bfff9d49f4d7e571d1&p=a6c78fdd3655888839cedca7449c3765c425fbe04e3554a1d4bd5beac32e03c6e3b763dbe02b6127b832d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6aec5d1f7d8131017f1594cb&taste=0&supportDLTaste=0&mode=1&tr=manual&s=5167029534f291f4882f7554096c2206
+size: 8286646646
+md5: e24f761bbadffeab86ecf56ce42b1434
+patch: 2026-10-01
+fp: PJE110_11.F.32_2320_202610191534` | gate HTTP 200（需 302） |
 | `PJE110/PJE110_15.0.0.870(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-fe1d8bc61a00a84442193a4e1c20952d/component-ota/25/10/06/bbd6953c3313468aa9dbe4909ea8ad57.zip
 size: 7487078384
 md5: 41ecfd297b1aa4b2d71410e4dd817781
 patch: 2025-10-01
-fp: PJE110_11.C.48_1480_202509281306` | HTTP 403 直链不可用 |
-| `PJE110/PJE110_16.0.5.1002(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=bb8250f591c4db544b8299e5a6cc1ab0&p=a6c78fdd3752888939ced5ad43cd63619176fce61c3354fe80bf00bec27902c6efb737dee07f3671e832d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a954e7f76d168017ee7d76a&taste=0&supportDLTaste=0&mode=1&tr=manual&s=a738bfb59627c7568c4fdcdfaf053fb0
-size: 8224376024
-md5: fd1b0301a17e416e4eab063ec082ac68
-patch: 2026-07-01
-fp: PJE110_11.F.31_2310_202607172126` | gate HTTP 200（需 302） |
+fp: PJE110_11.C.48_1480_202509281306` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PGKM10/PGKM10_15.0.0.700(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-845aae8727dc0f039f001268bbc50bc4/component-ota/25/04/01/16a318c5fe7a41cb9234539e2638f7db.zip
 size: 7035869411
 md5: b8e7af8494e77594394840797cd22f44
@@ -3264,27 +3216,27 @@ fp: PGKM10_11.H.20_3200_202604032300` | HTTP 403 直链不可用 |
 size: 1201099
 md5: 14de4c136df3574c011f8dc5847d0e8a
 patch: 2022-01-05
-fp: PEMM20_11.A.15_0150_202201081907` | HTTP 403 直链不可用 |
+fp: PEMM20_11.A.15_0150_202201081907` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PEMM20/PEMM20_11_F.20.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-95bbffc8f46af764368fb1ca5f5ecc5a/component-ota/26/04/23/bbb64324638d4321825f2cd512433764.zip
 size: 5978439483
 md5: 1dd898a0f0f3c987eef85a8da902a913
 patch: 2026-01-01
-fp: PEMM20_11.F.20_2200_202604201842` | HTTP 403 直链不可用 |
+fp: PEMM20_11.F.20_2200_202604201842` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PEMM20/PEMM20_11_C.17.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-499bf9152b4bd7518b027ded67d2791c/component-ota/23/03/10/a93a1f5a90c54fc8a2c449f05ad4b4d2.zip
 size: 1383150
 md5: ba42c6de76ec662832013523df67034b
 patch: 2023-03-05
-fp: PEMM20_11.C.17_1170_202303071259` | HTTP 403 直链不可用 |
+fp: PEMM20_11.C.17_1170_202303071259` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3781/RMX3781_13.2.0.530(SP01CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-cd7af5973a2f5323ee373ac055a293bd/component-ota/24/04/07/ef1a428b902141f09017088c149ff0dc.zip
 size: 5443378268
 md5: af4e0ff07f7cdd0b2a19f8f2ee827659
 patch: 2024-03-05
-fp: RMX3781_11.A.58_0580_202404021908` | HTTP 403 直链不可用 |
+fp: RMX3781_11.A.58_0580_202404021908` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3781/RMX3781_15.0.0.1910(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-091577df526471136cfe9041f2c82094/component-ota/26/08/07/7606da9b5e1f43da9c868a365db28bf3.zip
 size: 5827173386
 md5: 97af98210a331d2794e17c557e62e11a
 patch: 2026-08-01
-fp: RMX3781_11.F.30_2300_202608061400` | HTTP 403 直链不可用 |
+fp: RMX3781_11.F.30_2300_202608061400` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX3781/RMX3781_14.0.0.320(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-51dafbd7462a0242712e9a42c936b364/component-ota/25/02/08/9900b973a3134f5a9bf702e3a13452f0.zip
 size: 5745371171
 md5: f2d94b3504a406ffaf728313d919ac6a
@@ -3299,8 +3251,8 @@ fp: RMX3161_11.A.23_0230_202206142111` | HTTP 403 直链不可用 |
 size: 1230587
 md5: b8fd5d4460298affb21dbf92fdd16f33
 patch: 2024-04-05
-fp: RMX3161_11.C.18_1180_202403291934` | HTTP 403 直链不可用 |
-| `PYE110/PYE110_16.0.10.507(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=f579e2d272e93de9a2098fd9b9ca0d94&p=a6c78fdd365588883fced9a844963267c675fbe91e6554f5d1b95ab99e2b55c0b9b966dcb47f6520bf6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=c03143caeef1e2127e401ae7e21ff7cc&id=6ae5505e350d39017fff2bab&taste=0&supportDLTaste=0&mode=1&tr=manual&s=40cbf3588725e70f9bf1801accddcdcd
+fp: RMX3161_11.C.18_1180_202403291934` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
+| `PYE110/PYE110_16.0.10.507(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=f579e2d272e93de9a2098fd9b9ca0d94&p=a6c78fdd365588883fced9a844963267c675fbe91e6554f5d1b95ab99e2b55c0b9b966dcb47f6520bf6dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=e2f41b1d7afd625651efdb4651915c95&id=6ae5505e350d39017fff2bab&taste=0&supportDLTaste=0&mode=1&tr=manual&s=aada10e688556c176672c799bd38c590
 size: 6280502524
 md5: a8bd847dcc2da7304abdff0dcacf058e
 patch: 2026-10-01
@@ -3319,7 +3271,7 @@ fp: PGGM10_11.A.06_0060_202212292131` | HTTP 403 直链不可用 |
 size: 6277651827
 md5: 6e8af3e0e24cb523fc86c9f481628124
 patch: 2024-05-05
-fp: PGGM10_11.C.74_2740_202405081642` | HTTP 403 直链不可用 |
+fp: PGGM10_11.C.74_2740_202405081642` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX5060/RMX5060_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=53959ef10f3c17e91c8ea3ecb3caede8&p=a6c78fdd375d888b3ace8cfc179b6761c272a9e74d3454a4d7bc00bdc779039ae8bc31dbee703371e868d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6a99576676d168017ee7de22&taste=0&supportDLTaste=0&mode=1&tr=manual&s=8a1f40e1b052a997bbd8585a6c407109
 size: 9342770171
 md5: 7471ece58455ce0a55c7c35da1fef775
@@ -3329,8 +3281,8 @@ fp: RMX5060_11.C.49_1490_202608130050` | gate HTTP 200（需 302） |
 size: 8345245825
 md5: 5b8b84c97f193111f4b9fac64520dcd8
 patch: 2025-09-01
-fp: RMX5060_11.A.61_0610_202509190148` | HTTP 403 直链不可用 |
-| `PLT140/PLT140_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8ba3b3fd190e0cc2c55532e4cae0db37&p=a6c78fdd3751888b39cedcfb40ce65329077fce5426054fe82ec5bbcc32d51c1e2bc37dce42c6327bc6fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=b11bec2e5e0a4e5e1ab3ea15ca9af278&id=6a69d44e92ce7c01806f5345&taste=0&supportDLTaste=0&mode=1&tr=manual&s=d91f87f76521c609c323b1805c199823
+fp: RMX5060_11.A.61_0610_202509190148` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
+| `PLT140/PLT140_16.0.5.700(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=8ba3b3fd190e0cc2c55532e4cae0db37&p=a6c78fdd3751888b39cedcfb40ce65329077fce5426054fe82ec5bbcc32d51c1e2bc37dce42c6327bc6fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=70c4c84e437ed7307616fe87fa2483eb&id=6a69d44e92ce7c01806f5345&taste=0&supportDLTaste=0&mode=1&tr=manual&s=50a43b3e7f1dec109e68aabd04de5740
 size: 5975926958
 md5: 8864e0cdf637b9bcd28503b495095354
 patch: 2026-04-01
@@ -3344,7 +3296,7 @@ fp: PLT140_11.C.65_1650_202610150036` | gate HTTP 200（需 302） |
 size: 1212456
 md5: 4c8e9a24cc0307d645443c379ca5f7ff
 patch: 2021-11-05
-fp: PELM00_11.A.12_0120_202112151749` | HTTP 403 直链不可用 |
+fp: PELM00_11.A.12_0120_202112151749` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PELM00/PELM00_11_F.58.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-39a2229dc59784cfdf6de9c92d49e60b/component-ota/26/04/09/16bacab29c3743e3860d0fdc5330fe2f.zip
 size: 6405286937
 md5: 62a0e9bba2eac3a47db6e13b4573da11
@@ -3369,7 +3321,7 @@ fp: PFFM10_11.C.49_2490_202311212114` | HTTP 403 直链不可用 |
 size: 7225666968
 md5: 0e10998c791cf76104b2599db597a502
 patch: 2026-06-01
-fp: PFFM10_11.H.41_4410_202607101956` | HTTP 403 直链不可用 |
+fp: PFFM10_11.H.41_4410_202607101956` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFFM10/PFFM10_14.0.0.607(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-9b0db82670e57838a940a0e86f5fa9d5/component-ota/24/11/12/fe8fa44c39ff49e4880de25774716c51.zip
 size: 7127313550
 md5: ce4da7500191812c01d7fa824a1335aa
@@ -3380,7 +3332,7 @@ size: 9575395390
 md5: 107d4cd1aa161b5f64f485f83278aeb3
 patch: 2026-09-01
 fp: PLJ110_11.C.61_1610_202610051600` | gate HTTP 200（需 302） |
-| `PLJ110/PLJ110_16.0.10.502(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=093aca08a1d9dff7df4dfd127ffa2f13&p=a6c78fdd375d888b3dce88fb47ce63649476aeb3186154a686ea03ed952d52c7ecbc6a89e62c6522b96dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=d4cf83f407d32a504f1a1bff4982ef07&id=6aa1166892ce7c01836a5d10&taste=0&supportDLTaste=0&mode=1&tr=manual&s=c31ba071ec12856c40024c103b41a2c2
+| `PLJ110/PLJ110_16.0.10.502(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=093aca08a1d9dff7df4dfd127ffa2f13&p=a6c78fdd375d888b3dce88fb47ce63649476aeb3186154a686ea03ed952d52c7ecbc6a89e62c6522b96dd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=9552fe267dd9998e84df943727fda82f&id=6aa1166892ce7c01836a5d10&taste=0&supportDLTaste=0&mode=1&tr=manual&s=54dc2a536064b9243e1ac82ec140298c
 size: 9199932223
 md5: 630df2273197394d54e49d0610afc3fd
 patch: 2026-08-01
@@ -3414,7 +3366,7 @@ fp: RMX3996_11.A.20_0200_202502270927` | HTTP 403 直链不可用 |
 size: 5761791237
 md5: 645e1aea9b0e2d8644968f86aab6cd03
 patch: 2025-11-01
-fp: RMX3996_11.C.61_1610_202511272359` | HTTP 403 直链不可用 |
+fp: RMX3996_11.C.61_1610_202511272359` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `PFTM10/PFTM10_14.0.0.3000(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a0df9ab288ea72208f3c729631eb14a4/component-ota/26/07/29/bf3256ee8aeb45c7a80bf2d121e17ef5.zip
 size: 6085707184
 md5: de1c6667966a1dfa956539a645d2d9a8
@@ -3429,7 +3381,7 @@ fp: PFTM10_11.A.08_0080_202211102114` | HTTP 403 直链不可用 |
 size: 6032531208
 md5: 4c76e3f2026a96eb60750c2e52c2936b
 patch: 2024-05-05
-fp: PFTM10_11.C.62_2620_202405170234` | HTTP 403 直链不可用 |
+fp: PFTM10_11.C.62_2620_202405170234` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMX5100/RMX5100_15.0.2.532(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a32a6fcc518d2f7359ad97bd53d6aa23/component-ota/25/10/28/08d41aadb13e4452a66343a6da022cb6.zip
 size: 8003447626
 md5: ba26c2ec17b526a061806480f5072359
@@ -3460,12 +3412,13 @@ size: 7656614243
 md5: b2047a193319cf26d397421a0c5d8127
 patch: 2025-11-01
 fp: PJA110_11.F.39_2390_202511052253` | HTTP 403 直链不可用 |
+| `PJA110/PJA110_13.1.1.405(CN01).txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-a1234a2cee5a2584a23a11f30aec96e2/component-ota/23/09/07/9185187425ff462e81433507bdda1e99.zip` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `RMP2108/RMP2108_11_A.27.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-92d25da14ff0cec83cbd0c57cb0493f7/component-ota/25/02/24/1ca03ef552ec4364b66f2bc6435bab36.zip
 size: 4113676536
 md5: dc08f052971028d53992647379bcd481
 patch: 2025-02-01
 fp: RMP2108_11.A.27_0270_202502191711` | HTTP 403 直链不可用 |
-| `OPD2508/OPD2508_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c445f81427ca31b5729b5c47ea5c151d&p=a6c78fdd375d888b3dced4ab409e3861c572abe64b6154f4d4b95becc220569bb9b663ddb12e3923b43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=746c34284de9d614bfd78421764462f2&id=6a968c8576d168017ee7d9b3&taste=0&supportDLTaste=0&mode=1&tr=manual&s=32551ac47bed7ae2952058f85eea88ca
+| `OPD2508/OPD2508_16.0.10.500(CN01).txt` | `https://component-ota-cn.allawntech.com/downloadCheck?c=c445f81427ca31b5729b5c47ea5c151d&p=a6c78fdd375d888b3dced4ab409e3861c572abe64b6154f4d4b95becc220569bb9b663ddb12e3923b43fd3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=78efad96e34c716ab2ea00051dba588b&id=6a968c8576d168017ee7d9b3&taste=0&supportDLTaste=0&mode=1&tr=manual&s=1a67d590d89354a27f31c94160c0bbf2
 size: 9535813782
 md5: 1490dfe463fe62b55e886ee2f2edb599
 patch: 2026-08-01
@@ -3489,7 +3442,7 @@ fp: PFCM00_11.A.13_0130_202203282017` | HTTP 403 直链不可用 |
 size: 4665198229
 md5: 236ccf51f038e1f9331523436e8da854
 patch: 2026-01-01
-fp: OPD2102_11.C.32_1320_202605151902` | HTTP 403 直链不可用 |
+fp: OPD2102_11.C.32_1320_202605151902` | HTTPSConnectionPool(host='gauss-componentotacostmanual-cn.al |
 | `OPD2102/OPD2102_11_A.12.txt` | `https://gauss-componentotacostmanual-cn.allawnfs.com/remove-f3c6613b56346c84be3a3c5a57a558df/component-ota/23/02/24/e4fc363713ea473c8051e6eb4b4dc28f.zip
 size: 3995519333
 md5: 875ae4363d3fae9d038cb725245bb764

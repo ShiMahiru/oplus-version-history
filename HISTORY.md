@@ -1,6 +1,6 @@
 # 欧加官方 ROM 历史版本档案 · 索引
 
-> **657** 机型 · **1589** 条官方链接 · **2290** 份官方更新日志 · **187** 个官方降级包
+> **657** 机型 · **1585** 条官方链接 · **2290** 份官方更新日志 · **187** 个官方降级包
 >
 > 私有档案，仅自己可见。数据全部来自官方服务器，链接入库前逐个 302 实测。
 
@@ -474,7 +474,7 @@
 | `LE2100` | 一加 9R | CN | 57 | 54 | LE2100_11_A.15 | [查看](<docs/md/LE2100.md>) |
 | `LE2110` | 一加 9 | CN | 86 | 86 | — | [查看](<docs/md/LE2110.md>) |
 | `MT2110` | 一加 9RT 国行版 | CN | 62 | 60 | MT2110_11_A.14 | [查看](<docs/md/MT2110.md>) |
-| `NE2210` | OnePlus 10 Pro | CN | 138 | 132 | NE2210_11_A.19 | [查看](<docs/md/NE2210.md>) |
+| `NE2210` | OnePlus 10 Pro | CN | 137 | 131 | NE2210_11_A.19 | [查看](<docs/md/NE2210.md>) |
 | `NE2211` | OnePlus 10 Pro | IN | 10 | 0 | NE2211_11_A.18 | [查看](<docs/md/NE2211.md>) |
 | `NE2213` | OnePlus 10 Pro | GLO | 9 | 0 | NE2213_11_A.17 | [查看](<docs/md/NE2213.md>) |
 | `NE2213EEA` | OnePlus 10 Pro | EU | 5 | 0 | NE2213_11_A.17 | [查看](<docs/md/NE2213EEA.md>) |
@@ -567,10 +567,10 @@
 | `PGZ110` | OnePlus Ace Racing Edition | CN | 37 | 31 | PGZ110_11_A.13 | [查看](<docs/md/PGZ110.md>) |
 | `PHB110` | OnePlus 11 | CN | 42 | 37 | PHB110_13.1.0.196(CN01) | [查看](<docs/md/PHB110.md>) |
 | `PHK110` | OnePlus 11R/Ace 2 | CN | 59 | 54 | PHK110_13.1.0.184(CN01) | [查看](<docs/md/PHK110.md>) |
-| `PHP110` | OnePlus Ace 2V | CN | 33 | 28 | PHP110_13.1.0.172(CN01) | [查看](<docs/md/PHP110.md>) |
-| `PJA110` | OnePlus Ace 2 Pro | CN | 34 | 30 | PJA110_13.1.1.552(CN01) | [查看](<docs/md/PJA110.md>) |
+| `PHP110` | OnePlus Ace 2V | CN | 32 | 27 | PHP110_13.1.0.172(CN01) | [查看](<docs/md/PHP110.md>) |
+| `PJA110` | OnePlus Ace 2 Pro | CN | 33 | 29 | PJA110_13.1.1.552(CN01) | [查看](<docs/md/PJA110.md>) |
 | `PJD110` | OnePlus 12 | CN | 44 | 37 | PJD110_14.0.0.860(CN01) | [查看](<docs/md/PJD110.md>) |
-| `PJE110` | OnePlus 12R/Ace 3 | CN | 40 | 36 | PJE110_14.0.0.817(CN01) | [查看](<docs/md/PJE110.md>) |
+| `PJE110` | OnePlus 12R/Ace 3 | CN | 39 | 35 | PJE110_14.0.0.817(CN01) | [查看](<docs/md/PJE110.md>) |
 | `PJF110` | OnePlus Ace 3V | CN | 35 | 24 | PJF110_14.0.1.720(CN01) | [查看](<docs/md/PJF110.md>) |
 | `PJX110` | OnePlus Ace 3 Pro | CN | 30 | 26 | PJX110_14.1.0.510(CN01) | [查看](<docs/md/PJX110.md>) |
 | `PJZ110` | OnePlus 13 | CN | 32 | 29 | PJZ110_15.0.0.861(CN01) | [查看](<docs/md/PJZ110.md>) |
