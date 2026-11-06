@@ -17,23 +17,53 @@ def check(url):
     is_gate = "downloadCheck" in url or "download?" in url
     try:
         if is_gate:
-            r = requests.get(url, allow_redirects=False, timeout=15,
-                             headers={"User-Agent": UA, "userId": UID})
-            if r.status_code in (301, 302, 303, 307, 308):
-                loc = r.headers.get("Location", "")
-                if "allawn" in loc or "coloros" in loc:
-                    return True, f"302 → {loc.split('/')[2]}"
-                return False, f"302 → 非官方域 {loc[:60]}"
-            return False, f"gate HTTP {r.status_code}（需 302）"
+            # gate 链接是永久链接（点击时实时签名），限流下可能返回 403/200，
+            # 必须重试确认；仍失败也不能归档，否则会误杀可用的 gate 链接。
+            last = ""
+            for attempt in range(4):
+                try:
+                    r = requests.get(url, allow_redirects=False, timeout=20,
+                                     headers={"User-Agent": UA, "userId": UID})
+                except Exception as e:
+                    last = f"请求异常 {type(e).__name__}"; time.sleep(2 + attempt * 2); continue
+                if r.status_code in (301, 302, 303, 307, 308):
+                    loc = r.headers.get("Location", "")
+                    if "allawn" in loc or "coloros" in loc:
+                        return True, f"302 → {loc.split('/')[2]}"
+                    return False, f"302 → 非官方域 {loc[:60]}"
+                last = f"gate HTTP {r.status_code}"
+                if r.status_code in (403, 429):
+                    time.sleep(2 + attempt * 2); continue
+                break
+            return True, f"{last}（gate 未确认，保留）"
         h = {"Range": "bytes=0-0"}
-        r = requests.get(url, allow_redirects=False, timeout=15, headers=h)
-        if r.status_code in (200, 206):
-            return True, f"{r.status_code}"
+        code = 0
+        for attempt in range(4):
+            try:
+                r = requests.get(url, allow_redirects=False, timeout=20, headers=h)
+                code = r.status_code
+            except Exception as e:
+                code = -1
+            if code in (200, 206):
+                return True, f"{code}"
+            if code in (403, 429, -1):          # 限流/网络抖动：重试，别当死链
+                time.sleep(2 + attempt * 2)
+                continue
+            break
+        if code in (404, 410, 451):             # 只有明确的“不存在”才归档
+            return False, f"HTTP {code} 直链不可用"
+        if code in (403, 429, -1):
+            return True, f"HTTP {code}（限流未确认，保留）"
         h2 = dict(h, Referer="https://www.coloros.com/")
-        r2 = requests.get(url, allow_redirects=False, timeout=15, headers=h2)
+        try:
+            r2 = requests.get(url, allow_redirects=False, timeout=20, headers=h2)
+        except Exception:
+            return True, "请求异常（保留）"
         if r2.status_code in (200, 206):
             return True, f"{r2.status_code}(+Referer)"
-        return False, f"HTTP {r2.status_code} 直链不可用"
+        if r2.status_code in (404, 410, 451):
+            return False, f"HTTP {r2.status_code} 直链不可用"
+        return True, f"HTTP {r2.status_code}（未确认，保留）"
     except Exception as e:
         return False, str(e)[:60]
 

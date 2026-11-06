@@ -1,0 +1,5 @@
+https://component-ota-cn.allawntech.com/downloadCheck?c=07646c08d4bfeccabdec8743c58f4ab2&p=a6c78fdd375c888b3dce88ab119a34369472ace54d6054a3d4bc00b896285595beb636dbb42e352eb969d3282179&d=e181cd82745f88956e8098ec0182623bca30a2a51b7b03ead6e04ce9ca7400d5b4e921c5b4276d&g=10eab6008d5642cf42abd2aa41f847cb&id=6acf5cbe350d39017fff0ef5&taste=0&supportDLTaste=0&mode=1&tr=manual&s=7acc8a39403ba01a3d84f72ad8760b35
+size: 8548798673
+md5: dce08e8aa5db2f708dd293c3197ebdaf
+patch: 2026-09-01
+fp: RMX3843_11.F.47_2470_202609141554
