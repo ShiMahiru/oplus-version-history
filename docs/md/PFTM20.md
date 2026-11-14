@@ -4,7 +4,7 @@
 
 **oneplus / CN** · 最新版本 `PFTM20_11_A.12` · OTA `PFTM20_11.A.12_0120_202211102034` · Android 12
 
-版本记录 **16** 条 · 有官方链接 **16** 条 · 有更新日志 **1** 份
+版本记录 **17** 条 · 有官方链接 **17** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
@@ -22,6 +22,7 @@
 | PFTM20_14.0.0.2400(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-940e9bb7cbbcc379a0ef390dc33ed226/component-ota/25/10/22/95ef8be546354d04b37010d133bcaf98.zip>) |  |  |
 | PFTM20_14.0.0.2700(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-5f1199e54b22faf2ac6a1efc968e6b2a/component-ota/26/01/09/48b92dd8ad174dd4a019ca711d2db942.zip>) |  |  |
 | PFTM20_14.0.0.2900(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-b891bbc333444999121fddf1d044506f/component-ota/26/04/21/e01b308ef4154b729620b187aed03c79.zip>) |  |  |
+| PFTM20_14.0.0.3100(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-01683f5a74dff359d301e16be518f8f3/component-ota/26/10/23/dfcd3aa5cba64aeda9406a0a8f6748b4.zip>) |  |  |
 | PFTM20_14.0.0.500(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-8401b2756920e730e77c927ad35b8270/component-ota/24/03/07/f56a4fc3a947477193a02172fd8452fe.zip>) |  |  |
 | PFTM20_14.0.0.80(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-4db7e4856b2ea1f2efde1ff6f138e391/component-ota/23/12/31/b36f561fe78e4d99b30162e27e24ceac.zip>) |  |  |
 | PFTM20_14.0.0.820(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-ad9ff20184fa42653b89aa0130059dde/component-ota/24/08/20/51bd4eeaf06945ffa7d4f4c6c8fb9e28.zip>) |  |  |
