@@ -365,8 +365,10 @@ def main():
         r = subprocess.run([sys.executable, "scripts/build_static.py"], cwd=web, capture_output=True, text=True)
         print(f"  {'✅' if r.returncode == 0 else '❌'} build_static")
         env = dict(os.environ)
-        env.setdefault("CLOUDFLARE_API_TOKEN", "cfut_EDSYBWrC8CULpy9g6nCm2OdEsGn8mawXWj8giUaY81c2d9cc")
-        env.setdefault("CLOUDFLARE_ACCOUNT_ID", "bf425e3b280e5facebdad91a7d665576")
+        # token 只从环境变量读取，不写死在代码里
+        if not env.get("CLOUDFLARE_API_TOKEN") or not env.get("CLOUDFLARE_ACCOUNT_ID"):
+            print("  ⚠️ 缺少 CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID，跳过部署")
+            return
         wr = os.path.join(web, "node_modules", ".bin", "wrangler")
         cmd = [wr, "deploy"] if os.path.exists(wr) else ["npx", "wrangler", "deploy"]
         r = subprocess.run(cmd, cwd=web, capture_output=True, text=True, env=env)
