@@ -4,300 +4,230 @@
 
 | 文件 | 链接 | 原因 |
 |---|---|---|
-| `LE2100/LE2100_氧OS LE2101_12.1(CN01).txt` | `https://gauss-componentotacostmanual-sg.allawnofs.com/remove-93c748f063aff6ad8bcef8ef9bdaa655/component-ota/22/08/27/7f69d9fbe9904ec2a724140a669c2ab2.zip
-size: 4117833052
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2020/IN2020_氧OS IN2023_13.1.0.587(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-7ab5e015d9d92e9ae30e28ffb3769518/component-ota/24/04/12/61803f9f365f4918adfa545c5e3a2da7.zip
-size: 4884878832
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2010/IN2010_氧OS IN2011_13.1.0.585(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-88fddd08cac20ea4a2b71fd514f3fb16/component-ota/23/12/11/dfde769dcc484109805394f17505f7c0.zip
-size: 5147006026
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2449/CPH2449_14.0.0.833(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-2a526577a4085ac7d88999c5430fced7/component-ota/24/10/25/f468e5037e614a24bb280e85991f0fdb.zip
-size: 6012766960
-md5: b9d025ed11a63e79b8a27120f528bcd5
-patch: 2024-10-05
-fp: CPH2449_11.C.60_1600_202410241807
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-2a526577a4085ac7d88999c5430fced7/component-ota/24/11/18/f3f41f9ae2f4483584ddcb4751fe3867.html` | HTTP 404 直链不可用 |
-| `CPH2423/CPH2423_15.0.0.700(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-70b9d2908f9046654631a50c2a3f326a/component-ota/25/04/01/e0a40ea425d24914a4c08651936daceb.zip
-size: 6663179850
-md5: 25a37f2af60618deafc4ccf160c27354
-patch: 2025-03-01
-fp: CPH2423_11.F.13_3130_202503311907` | HTTP 404 直链不可用 |
-| `CPH2307/CPH2307_15.0.0.1600(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-85dcebb4d6630802c92deb57dfb2a9fc/component-ota/26/02/02/8aab6b52f6cb4646aed91b2003899504.zip
-size: 7263925868
-md5: fe06415c8aa4aad526cb40e776ba9b36
-patch: 2026-02-01
-fp: CPH2307_11.H.40_4400_202601301336` | HTTP 404 直链不可用 |
-| `RMX3780/RMX3780_13.2.0.510(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-57f582643b77e9d16d7d318b6079c229/component-ota/24/02/20/6f2d2e8f99b8468fa1c71a41ff440e16.zip
-size: 5219181480
-md5: 9ee6aa1b38039889ac1e35fcb9390765
-patch: 2024-02-05
-fp: RMX3780_11.A.53_0530_202402200735` | HTTP 404 直链不可用 |
-| `CPH2263/CPH2263_11_A.12.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-b34b53e4e1b75649661ca02c25980f57/component-ota/21/11/17/86469ac2a1ef426d906700b1c95f955e.zip
-size: 3093319947
-md5: e3b8ddd2904445d1eb4518865aa97c74
-patch: 2021-11-05
-fp: CPH2263_11.A.12_0120_202111170024` | HTTP 404 直链不可用 |
-| `CPH2337/CPH2337_14.0.0.3000(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-d378b02a4ca2e3c40b1e32b94b30138c/component-ota/26/08/03/ec6ba06c7dad468d904b7665bf8a28b9.zip
-size: 5507524456
-md5: 43e99f2225fa47d070f13153d5892ec8
-patch: 2026-08-01
-fp: CPH2337_11.F.73_2730_202607310955` | HTTP 404 直链不可用 |
-| `LE2110/LE2110_LE2113_14.0.0.720(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-4806ec39cf5c144ac4d0006702676357/component-ota/24/10/09/40d0a480d72640a2ae54bebc64aa76e7.zip
-size: 5364115027
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `RMX3392/RMX3392_11_A.14.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-97904a814749c743d913296e8641c94a/component-ota/22/10/19/c31025c3a26445a6810d295fa01cca67.zip
-size: 5017775682
-md5: 44336cd0eb97d67760f91f6eec68e67a
-patch: 2022-10-05
-fp: RMX3392_11.A.14_0140_202210191439` | HTTP 404 直链不可用 |
-| `CPH2251/CPH2251_11_A.20.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-a8c090c972e6e37dc1dc9a4f30797e35/component-ota/22/01/27/ebb9fc61f30f429292dd41a71afc0309.zip
-size: 1265864
-md5: ad0bf66ba941d7099e36d5cad4c6cc8b
-patch: 2021-12-05
-fp: CPH2251_11.A.20_0200_202201270535` | HTTP 404 直链不可用 |
-| `IN2010/IN2010_氧OS IN2013_13.1.0.585(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-781f1934c285b2978bff960c7153e4ab/component-ota/23/12/11/5bc31160b43547cc9ede0a8e69549f1d.zip
-size: 4768316680
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2120/LE2120_LE2123_14.0.0.501(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-9184075467f71434a9744b385ba46d76/component-ota/24/03/08/8ba9aa144cba4b24a1c9ce8629a3e5d0.zip
-size: 5313160506
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2110/LE2110_LE2113_14.0.0.710(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-d5d7aed96791a83db6856ea29d9858e7/component-ota/24/08/13/a409971b403840f7a6940613f047319e.zip
-size: 5349991011
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2449/CPH2449_14.0.0.304(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-25602794e995be3c8b69292c8bc892db/component-ota/23/12/26/b482f8a5a3fb477390f18a0a0f9a4ea0.zip
-size: 5864156747
-md5: e698b0fa87d61c1b081abe119c52fb86
-patch: 2023-12-05
-fp: CPH2449_11.A.48_1480_202312122101
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-25602794e995be3c8b69292c8bc892db/component-ota/24/01/22/e4ddbda7ecef48ec9b91ee7b1f30704a.html` | HTTP 404 直链不可用 |
-| `CPH2415/CPH2415_11_A.12.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-b39af09099beb0386f9d21ee7f02391a/component-ota/22/11/03/1a4e2bb5a20a42f9be031752e2131ca2.zip
-size: 4576416560
-md5: 5b6991a0f9ca5100516fa0cdfcad5074
-patch: 2022-11-05
-fp: CPH2415_11.A.12_0120_202211021048` | HTTP 404 直链不可用 |
-| `LE2120/LE2120_LE2123_14.0.0.701(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-907076ea320b9e4969914468f7428b85/component-ota/24/06/20/416bff968726409a8e04a37985ab64f1.zip
-size: 5362499253
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2651/CPH2651_15.0.0.860(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-2500c34c47b37b419f3ee67bb5bbaed8/component-ota/25/08/30/b596e8947665474d8f86b644faf3e6e8.zip
-size: 7924822142
-patch: 2025-09-01
-fp: CPH2651_11.A.49_0490_202508282004
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-2500c34c47b37b419f3ee67bb5bbaed8/component-ota/25/09/12/0051b320f38c46e99265d2314d1b8e8e.html
-direct: https://gauss-componentotamanual.allawnofs.com/remove-2500c34c47b37b419f3ee67bb5bbaed8/component-ota/25/08/30/b596e8947665474d8f86b644faf3e6e8.zip
-md5_pending: yes` | HTTP 404 直链不可用 |
-| `MT2110/MT2110_氧OS MT2111_13.1.0.591(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-021e84d67d507b0fb9f442b75162d2aa/component-ota/23/08/30/5fa8f9a3e645475988bfa64721aa920c.zip
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `KB2000/KB2000_氧OS KB2003_14.0.0.501(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-e3131efd295da17dfa766ac3092529f5/component-ota/24/03/22/57e627ddaa144724bf59ecf8d95fddb3.zip
-size: 4986516789
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2173/CPH2173_14.0.0.2102(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-448c0476e8fff72bb72ac0cc811311a0/component-ota/25/10/14/9de5d74837084f1fa3343614e737f4e2.zip
-size: 6504165280
-md5: 0d2005b4b7818ccdc3590096b88d8d09
-patch: 2025-06-01
-fp: CPH2173_11.H.14_4140_202510111642` | HTTP 404 直链不可用 |
-| `OPD2415/OPD2415_15.0.1.801(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-3b26bfabd1f643866f43302546b5ff3a/component-ota/25/09/24/fab9a0a640d74842bf9b3714d03581b6.zip
-size: 5237498024
-md5: 26f0e1f07b15a34a78a6c84e283ae178
-patch: 2025-10-01
-fp: OPD2415_11.A.37_0370_202509231711` | HTTP 404 直链不可用 |
-| `CPH2581/CPH2581_15.0.0.863(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-d4dfb7c37642a65d38b1e36a340a56e8/component-ota/25/10/06/fae89987e8574435adcc0c1bff7569ec.zip
-size: 7137138690
-md5: e4e38d8a69fec1e73ee3b897027597f0
-patch: 2025-10-01
-fp: CPH2581_11.C.24_2240_202510060045
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-d4dfb7c37642a65d38b1e36a340a56e8/component-ota/25/10/13/9aee7d64d60b4788a1a6f40da448ea83.html` | HTTP 404 直链不可用 |
-| `CPH2723/CPH2723_15.0.2.601(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-52462db29492a043f49b354195d6435e/component-ota/25/08/28/c2e34b99586c427197fc36023e778e14.zip
-size: 7264623176
-patch: 2025-09-01
-fp: CPH2723_11.A.55_0550_202508261950
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-ea442dd09c837e427ad2862053b1170f/component-ota/25/09/12/a77bb99218de46b3b9b8f5066d4519f4.html
-direct: https://gauss-componentotamanual.allawnofs.com/remove-52462db29492a043f49b354195d6435e/component-ota/25/08/28/c2e34b99586c427197fc36023e778e14.zip
-md5_pending: yes` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2213_12.1 A.13_GLO(CN01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-e6a35fb347d5ea39a261bc31e3aa302c/component-ota/22/05/05/ce5a97bd5b9d4f69a6ba416dafaef885.zip
-size: 4314117925
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2213_12.1 A.14_EEA(CN01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-d83f66e3d7e6efc202414b1d15f384ec/component-ota/22/05/26/6cc553d19ce849b6ae5d4d6a4318e03e.zip
-size: 4366746718
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `NE2213/NE2213_14.0.0.202(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-0994a680adc07ea1ec63867b8d6a91f8/component-ota/23/11/29/ce18145274a544fc9b0e1b8c472f2de6.zip
-size: 5435247068
-md5: 2cd47fb517e2d0869da9daab7a673ce4
-patch: 2023-11-05
-fp: NE2213_11.C.65_2650_202311282239
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-0994a680adc07ea1ec63867b8d6a91f8/component-ota/24/01/15/60001322dcbf43429f4b035ea7acfcf8.html` | HTTP 404 直链不可用 |
-| `RMX3286/RMX3286_11_A.58.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-8287a87170e62ac3e7ffea4eb1571060/component-ota/22/06/28/766610c1872e4f3a87d39fd6e8d55c2d.zip
-size: 1240783
-md5: ca059b138e9f7a88f3529a7f3087fdd6
-patch: 2022-06-05
-fp: RMX3286_11.A.58_0580_202206241845` | HTTP 404 直链不可用 |
-| `LE2120/LE2120_LE2123_13.1.0.590(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-e11f9f23dbcc3225418d36e3bb124446/component-ota/23/07/18/a6fe4f93a40a4854a125633c5015d259.zip
-size: 5085095366
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2213_13.1.0.520(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-33e2db602490a4375718242505120558/component-ota/23/04/14/656671e49fda4607a68f0c7fc67d7c4f.zip
-size: 5068729428
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2020/IN2020_氧OS IN2021_13.1.0.581(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-8d64f1d61bc4d2262917d6581811a768/component-ota/23/06/29/972562ad41a0447081bd2bdbf9f101e8.zip
-size: 5123424078
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2020/IN2020_氧OS IN2023_13.1.0.582(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-570656d2a492894c64870f9548cc329f/component-ota/23/08/15/8f3211be39444e50935d3bf3c7053749.zip
-size: 4793616525
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2010/IN2010_氧OS 13.0.0(CN01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-5f2dbdb505e1ce9bd3483a7e89a9aa74/component-ota/22/12/06/dad25c67732647fda21504df34bb3e6e.zip
-size: 4371472108
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2213_13.1.0.593(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-b3d092ce875a40e5abf7824f98cf1a94/component-ota/23/09/18/83b23af2c8394f429b025a06df7f3c36.zip
-size: 5213161982
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `MT2110/MT2110_氧OS MT2111_12.1(CN01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-7203e2b7c40f0df6012a8b18c5340756/component-ota/22/11/03/029002eff77c495ba8edfa0be3118e64.zip
-size: 4763574182
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `NE2211/NE2211_11_C.30.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-cae555de54263b274b087765977fb3c6/component-ota/23/03/21/55f1afb0beb94637a21dd445baebbd97.zip
-size: 5309330584
-patch: 2023-03-05
-fp: NE2211_11.C.30_1300_202303210951
-source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-cae555de54263b274b087765977fb3c6/component-ota/23/04/03/0dcf30a900674f93abe34b7864257ab2.html
-direct: https://gauss-componentotamanual.allawnofs.com/remove-cae555de54263b274b087765977fb3c6/component-ota/23/03/21/55f1afb0beb94637a21dd445baebbd97.zip
-md5_pending: yes` | HTTP 404 直链不可用 |
-| `CPH2341/CPH2341_11_F.66.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-18bdd111aaa5f363eb9405634e032c34/component-ota/25/10/16/6f904956c42043b5911115a4b59962eb.zip
-size: 5514842926
-md5: 46382f59d9995196db03668cce532a79
-patch: 2025-10-01
-fp: CPH2341_11.F.66_2660_202510161155` | HTTP 404 直链不可用 |
-| `LE2100/LE2100_氧OS LE2101_14.0.0.602(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-5e3dbcbd9ef22a77d7cd8149d5c34b27/component-ota/24/08/19/23d8cbb6a881483babdb802e675a2be9.zip
-size: 5502673406
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2437/CPH2437_14.0.0.570(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-f2a8df73feb67e2241a79fc95fda0fdd/component-ota/24/11/25/ca674f37bf3a46b68185d23f056f5534.zip
-size: 7327511316
-md5: 9080263da52ffae414bccffc1adbfb38
-patch: 2024-12-05
-fp: CPH2437_11.C.78_1780_202411201922` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2211_15.0.0.401(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-5c14ebad8f76535cf95e4fe78c8b73e1/component-ota/25/01/07/6c2ab64ab6ac4093bfe55d803f4a6bb3.zip
-size: 6332998246
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2120/LE2120_LE2123_14.0.0.1901(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-fca110e80ba309864bbdd4e316b71fdf/component-ota/25/04/14/1b0ef8e468ed4dd79398aa05ee818446.zip
-size: 5484292589
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2110/LE2110_LE2111_14.0.0.720(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-d769298ed4f3b69e6a3cf0cd793b59b2/component-ota/24/10/09/e8e8807a885f4a5cbe356ba1549b2d50.zip
-size: 5849741789
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2483/CPH2483_14.0.0.700(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-8fba7085a845ad2c584b1890740ab7ec/component-ota/24/05/16/11f067c1c5594d628f159e62e6ec501e.zip
-size: 5253401272
-md5: 32aefee572afb805ae14247e2d1ad83a
-patch: 2024-05-05
-fp: CPH2483_11.A.44_1440_202405101931` | HTTP 404 直链不可用 |
-| `RMX3660/RMX3660_11_A.47.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-ea2493f9b68c73132723bc19df4b8458/component-ota/24/01/18/5e68e975549844d6b91869216b1a6cdc.zip
-size: 5421433107
-md5: 1106ba006e2ec4d1ab897106560a9c6b
+| `RMX3636/RMX3636_11_A.16.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-8adebeb65938204dc0b63e9290e0be1e/component-ota/24/03/06/d2cb5a94470f4b05a3c21c8c3d3aa168.zip
+size: 5532265753
+md5: 9fccd96a5ecf53bb8977bc1ffb847334
+patch: 2024-03-05
+fp: RMX3636_11.A.16_0160_202403051211` | HTTP 404 直链不可用 |
+| `RMX3943/RMX3943_15.0.0.1100(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-617d3e5996a03d07e711b4e2aab0d499/component-ota/25/11/06/42ba3b36078b44c6bff83b077b46ce42.zip
+size: 6259399592
+md5: 6fbd63d94d56f815dc06135bb4f1f63a
+patch: 2025-11-01
+fp: RMX3943_11.A.37_0370_202511051822` | HTTP 404 直链不可用 |
+| `CPH2569/CPH2569_13.1.1.502(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-2784ab83af60b3ca92b7770e12d9c280/component-ota/23/12/26/9b80974561e5450a8d938f088b79f2f1.zip
+size: 6001017389
+md5: a19691f4275eacdefb02dbc62f4e16df
 patch: 2024-01-05
-fp: RMX3660_11.A.47_0470_202401171120` | HTTP 404 直链不可用 |
-| `MT2110/MT2110_氧OS MT2111_14.0.0.720(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-437db5098703eea463c8728b518825d3/component-ota/24/10/17/1a8e8993f6bc4c7ab89eb6ec63af3144.zip
-size: 5874061525
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2495/CPH2495_14.0.0.700(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-5d8b3566c56b83953052a135826f894e/component-ota/24/05/01/379c248123914392872538c10847387b.zip
-size: 4844198264
-md5: f04608d6c59bf4fd8fe62613decdb515
-patch: 2024-05-05
-fp: CPH2495_11.A.44_1440_202404302146` | HTTP 404 直链不可用 |
-| `MT2110/MT2110_氧OS MT2111_14.0.0.212(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-51725c7403db66fce4e41aff01be0ecd/component-ota/24/01/19/846279f515934af4a20f996d9693fabd.zip
-size: 5770954391
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2411/CPH2411_13.1.0.611(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-114a5266e439a888287f8beb1674c0ce/component-ota/24/02/01/0274dc680c194650b5264b99886bc8b8.zip
-size: 6058143821
-md5: 44eeb9dc71d38a175ddb825b67a991d1
-patch: 2024-02-05
-fp: CPH2411_11.C.36_1360_202401300047` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2213_15.0.0.901(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-c0c9cf0ec404edb89837a4f9e6ecb554/component-ota/25/05/12/732f134ad2bd41baaa2abaef14ce4c69.zip
-size: 6138256254
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `IN2010/IN2010_氧OS 13.1.0.581.F.68(CN01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-a85fe55081ad6f9ba16545b5dba73404/component-ota/23/06/29/505e8a1be98c4a77bf7d06913daefcd2.zip
-size: 5076116195
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2110/LE2110_LE2113_14.0.0.1901(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-842e9d6c80c074bb73a3c4fd2257db5b/component-ota/25/04/14/1048cdb748e44bbfac731f002293a2a4.zip
-size: 5432681984
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `LE2120/LE2120_LE2123_14.0.0.600(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-27d22bf97328b321c158235cc12fa8bb/component-ota/24/04/08/8b121404c2cd4a34bda3c64840239e43.zip
-size: 5289564060
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `KB2000/KB2000_氧OS KB2003_14.0.0.600(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-6ff50d7592a76a370244931b32975f83/component-ota/24/04/22/bf398d9dc67c48ddacee906ae9382799.zip
-size: 5048405268
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2387/CPH2387_11_A.32.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-52365625eafc6e869f4e0a2ccf262f40/component-ota/23/05/15/d4cea3cee5b449f5a84ecec82e491763.zip
-size: 3303853543
-md5: 0e81fc0ee589d89e245ae65aec132d4f
-patch: 2023-05-05
-fp: CPH2387_11.A.32_0320_202305130023` | HTTP 404 直链不可用 |
-| `LE2100/LE2100_氧OS LE2101_14.0.0.301(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-fabc36dbb2a2f5de5b9d972082e202a4/component-ota/23/12/21/10950f5eac1e4f4fa625881fafac6397.zip
-size: 5364642260
-md5_pending: yes
-source: lian86` | HTTP 404 直链不可用 |
-| `CPH2659/CPH2659_15.0.0.860(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-4b5ab5ec3073e010e45aa7eacbea8304/component-ota/25/08/30/0af1095118cf4b93b4098ae7dfe47e9f.zip
-size: 7924279955
-patch: 2025-09-01
-fp: CPH2659_11.A.50_0500_202508282029
+fp: CPH2569_11.A.07_0070_202312200022` | HTTP 404 直链不可用 |
+| `CPH2519/CPH2519_13.2.0.300(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-6c72a6b2a55fee63825e4bbd4f01e038/component-ota/23/12/27/13b825d6da604485be8e411ad719bab0.zip
+size: 7903735688
+md5: cd08e83790d6bea07c9ad362e5555295
+patch: 2024-01-05
+fp: CPH2519_11.A.40_0400_202312270156` | HTTP 404 直链不可用 |
+| `CPH2661/CPH2661_14.1.0.603(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-2f0084f2ab367e575809d3f919546d7a/component-ota/24/10/11/0ce353d810fe4e369b1e77afedbf6fe5.zip
+size: 6722012327
+patch: 2024-10-05
+fp: CPH2661_11.A.19_0190_202410091728
 source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-4b5ab5ec3073e010e45aa7eacbea8304/component-ota/25/09/10/16bd895895eb4654a7a43dc24334b485.html
-direct: https://gauss-componentotamanual.allawnofs.com/remove-4b5ab5ec3073e010e45aa7eacbea8304/component-ota/25/08/30/0af1095118cf4b93b4098ae7dfe47e9f.zip
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-2f0084f2ab367e575809d3f919546d7a/component-ota/24/10/26/a4fd9252fad34c8988497981948c22aa.html
+direct: https://gauss-componentotamanual.allawnofs.com/remove-2f0084f2ab367e575809d3f919546d7a/component-ota/24/10/11/0ce353d810fe4e369b1e77afedbf6fe5.zip
 md5_pending: yes` | HTTP 404 直链不可用 |
-| `NE2211/NE2211_13.1.0.597(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-0c812083d06cfe78f8e785d002116e0b/component-ota/23/10/13/cbab2391303f4766997c0ab922a663de.zip
-size: 5710966895
+| `KB2000/KB2000_氧OS KB2001_14.0.0.601(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-77dcf81e074a4317fada13db236686fe/component-ota/24/06/17/36f7e3f9b49349098626fc2fa21a7f38.zip
+size: 5542050619
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2343/CPH2343_11_A.15.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-8720ef0d9d6eb5716d699307bfc38639/component-ota/22/06/23/a4a9ef381c154539a70101b64c10869f.zip
+size: 4075674057
+md5: 346c32a9489fa4f30a6dcd1131cc4915
+patch: 2022-06-05
+fp: CPH2343_11.A.15_0150_202206231309` | HTTP 404 直链不可用 |
+| `NE2210/NE2210_NE2213_13.0.0 C.22_EEA(CN01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-909e235f94f7caba34d4eb1efa4616aa/component-ota/22/11/25/3e49e275c73448eeb3635f5cf58ae3d5.zip
+size: 4814989773
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `RMX5011/RMX5011_15.0.0.270(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-08ad5d7909a4a9339baced9a0207854d/component-ota/25/04/29/5ee3d2d43c524b459863730e02e70c2c.zip
+size: 7419485913
+md5: b50c8391c8ff88341e3c923ffe447a4a
+patch: 2025-04-01
+fp: RMX5011_11.A.05_1050_202504281520` | HTTP 404 直链不可用 |
+| `CPH2557/CPH2557_14.0.0.820(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-7e4a251aa2cd1480cbbab4550b598705/component-ota/24/06/13/f92da77304b143e9b57dea7afd526c7d.zip
+size: 5391258014
+md5: 2fabd30d2a2c9110f74c23f59e208308
+patch: 2024-06-05
+fp: CPH2557_11.A.35_1350_202406112317` | HTTP 404 直链不可用 |
+| `CPH2487/CPH2487_15.0.0.870(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-bf191047ccfcc503926b0f0bfb82963a/component-ota/25/11/06/9bee119c7dc54f80adcb8e0e2ea72d20.zip
+size: 7191976143
+patch: 2025-11-01
+fp: CPH2487_11.F.47_2470_202511061238
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-bf191047ccfcc503926b0f0bfb82963a/component-ota/25/12/01/36894c4ab3ea457993971ff5be2a17d1.html
+direct: https://gauss-componentotamanual.allawnofs.com/remove-bf191047ccfcc503926b0f0bfb82963a/component-ota/25/11/06/9bee119c7dc54f80adcb8e0e2ea72d20.zip
+md5_pending: yes` | HTTP 404 直链不可用 |
+| `PD2185/PD2185_16.4.16.0.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/2026082114191424d7add9103f3d8c4b536a8e6b7f8e5d.zip
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2531/CPH2531_13.1.1.510(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-733ec61b35c4f29e04b3e7e0bb8f12cb/component-ota/23/11/10/6cba25105de8495b91a0b6c226b94802.zip
+size: 6011528253
+md5: a55eae0a96fdb410f7b99b84342d9116
+patch: 2023-11-05
+fp: CPH2531_11.A.20_0200_202311091631` | HTTP 404 直链不可用 |
+| `NE2210/NE2210_NE2211_14.0.0.710(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-82e6733744256a2deee80a723a0dc789/component-ota/24/05/15/fd3f67fc9eee4b1ba2bb3ac2ca0e8b6d.zip
+size: 6037874050
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `HD1910/HD1910_氧OS 11.0.9.1(CN01).txt` | `https://gauss-otacostmanual-sg.allawnofs.com/remove-cbcab16a230d09c0c195020c6b377077/ota/22/06/27/72034fb3-700b-4847-b2f5-a3fc7f691897.zip
+size: 2798018672
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `MT2110/MT2110_MT2111_14.0.0.2101(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-bfc03e421637b9b3fc0b28aa56a0e4f5/component-ota/25/06/26/e01be9922abd4e41a444d538abf92d9b.zip
+size: 5979513209
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `LE2110/LE2110_LE2113_13.1.0.591(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-d130e49f0f300af083486bb6cda8e561/component-ota/23/09/01/4d5ca797f02a4dd0a1c93615a5185ea1.zip
+size: 5033282455
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `RMX3371/RMX3371_11_A.09.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-6943b332455ee69c98a7d39f30f3beb9/component-ota/22/11/29/ef2add1edf9b45cc8b2002e0e25152e0.zip
+size: 4866145014
+md5: 535c36b95ce44a023afa85664931ed53
+patch: 2022-11-05
+fp: RMX3371_11.A.09_0090_202211251310` | HTTP 404 直链不可用 |
+| `GM1910/GM1910_氧OS 12.1(CN01).txt` | `https://gauss-otacostmanual-eu.allawnofs.com/remove-d74c973c240292cb011317bb07f424a2/component-ota/23/03/28/6d4604798d27450e8de05671d5effbae.zip
+size: 3456657103
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2437/CPH2437_13.1.0.600(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-f1ae0cc70515c31fa74d3643a03463e8/component-ota/23/10/23/bc899d71443d42f99af4da71f047317c.zip
+size: 6951732247
+md5: 368bca8007dd0a59e410beea8412a9ff
 patch: 2023-10-05
-fp: NE2211_11.C.60_1600_202310112228
+fp: CPH2437_11.A.57_0570_202310202144` | HTTP 404 直链不可用 |
+| `LE2100/LE2100_氧OS LE2101_13.1.0.500(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-57b2f08c72fa1ba639602ee202510550/component-ota/23/05/05/36523447c2514bb388f7bfe9bff21f8a.zip
+size: 4992866791
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `OPD2420/OPD2420_15.0.1.1101(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-9d92a3e508954af353595ca1ef1f6bf3/component-ota/25/11/25/052410dd61374dae837b88a9b52544d2.zip
+size: 5289801248
+md5: e38a345836fc991db50f95df03af80b8
+patch: 2025-12-01
+fp: OPD2420_11.A.49_0490_202511242044` | HTTP 404 直链不可用 |
+| `CPH2401/CPH2401_14.0.0.2901(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-ef6c101bd6d0cbf34979a3ffaf6ebedd/component-ota/26/04/13/a1c56631dbdc4dda96327eee0fdfee25.zip
+size: 6087473758
+md5: b82df6fc11dc22f3fc4438a5a1e6b720
+patch: 2026-04-01
+fp: CPH2401_11.F.51_2510_202604101012` | HTTP 404 直链不可用 |
+| `CPH2411/CPH2411_15.0.0.1601(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-cfbc66478c61e6568cd2b3e31a54cbb6/component-ota/25/11/25/c034d9ea2c6f4608b5a4c22d88ae000b.zip
+size: 6975423373
+md5: f43778379e502608e42ef93591d12157
+patch: 2025-12-01
+fp: CPH2411_11.H.19_3190_202511240140` | HTTP 404 直链不可用 |
+| `LE2100/LE2100_氧OS LE2101_14.0.0.604(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-61784442f825893073406c63d70b4038/component-ota/24/12/11/4c3a44ef6c91457e9d7403d996b9f76a.zip
+size: 5515539527
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `LE2120/LE2120_LE2123_14.0.0.730(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-f3c474885acf8371b78dcd4fae9e30ea/component-ota/24/12/06/6e944e50b2c040cfa309e78c5e6dc905.zip
+size: 5434199579
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2551/CPH2551_15.0.0.610(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-bf8838f7732ad87d87519c908e31e402/component-ota/25/02/24/5c1dcb6116624f228bc87eacbc9e6c85.zip
+size: 6862885604
+patch: 2025-02-01
+fp: CPH2551_11.F.75_2750_202502211147
 source: daniel+xiyan
-changelog: https://gauss-componentotamanual.allawnofs.com/remove-0c812083d06cfe78f8e785d002116e0b/component-ota/23/10/27/506b7b1da1ba43ed9c203730ce18ab1e.html
-direct: https://gauss-componentotamanual.allawnofs.com/remove-0c812083d06cfe78f8e785d002116e0b/component-ota/23/10/13/cbab2391303f4766997c0ab922a663de.zip
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-bf8838f7732ad87d87519c908e31e402/component-ota/25/03/17/bbbe00eb6bbe4714a3bba0a71a9525ed.html
+direct: https://gauss-componentotamanual.allawnofs.com/remove-bf8838f7732ad87d87519c908e31e402/component-ota/25/02/24/5c1dcb6116624f228bc87eacbc9e6c85.zip
 md5_pending: yes` | HTTP 404 直链不可用 |
-| `GM1900/GM1900_氧OS 11.0.9.1(CN01).txt` | `https://gauss-otacostmanual-sg.allawnofs.com/remove-adc69987d7a4a50017d830af95d53083/ota/22/06/27/84defc61-252f-424f-bb38-831ae10a7317.zip
-size: 2583741577
+| `LE2120/LE2120_LE2121_14.0.0.500(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-f96e273c0289ff6506e17f7c6b55b690/component-ota/24/02/27/c258595722194af89956d5d418c63b06.zip
+size: 5859217923
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
-| `NE2210/NE2210_NE2211_13.1.0.581(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-157dfc7c4ffb50d3f0ac5f2ccb67129a/component-ota/23/07/20/c945186701e04b5189186db0f70898a3.zip
-size: 5563904499
+| `IN2020/IN2020_氧OS IN2023_13.1.0.580(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-db5c15af1ab9e32e02b92edc72591852/component-ota/23/06/20/cf27fd4b45ef433e8b1aeabbe3f77afa.zip
+size: 4687066772
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
-| `KB2000/KB2000_氧OS KB2001_13.1.0.582(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-f4b301b6a007268adb451ea7477f77b7/component-ota/23/10/18/cc2ead2c785341cb936e59c08a505ca9.zip
-size: 5233442755
+| `CPH2585/CPH2585_14.0.0.832(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-b2b5dcaeb9e9e52e28980862f5267e0a/component-ota/24/09/20/6b6720515e834d6285cf8d96d6464982.zip
+size: 6456748973
+patch: 2024-09-05
+fp: CPH2585_11.A.77_0770_202409191405
+source: daniel+xiyan
+changelog: https://gauss-componentotamanual.allawnofs.com/remove-b2b5dcaeb9e9e52e28980862f5267e0a/component-ota/24/10/18/9023f7c5b8f14372a599a5ed3a3f9c1e.html
+direct: https://gauss-componentotamanual.allawnofs.com/remove-b2b5dcaeb9e9e52e28980862f5267e0a/component-ota/24/09/20/6b6720515e834d6285cf8d96d6464982.zip
+md5_pending: yes` | HTTP 404 直链不可用 |
+| `CPH2363/CPH2363_11_A.19.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-8852a7a49ea22cb58d3bf8d56ab6d93d/component-ota/22/11/12/642d5f7d1fb9413e9b5a19a899f3e57e.zip
+size: 4366310459
+md5: 478dfe968b74297eaea80cfa4a4a916f
+patch: 2022-11-05
+fp: CPH2363_11.A.19_0190_202211111557` | HTTP 404 直链不可用 |
+| `PD2165/PD2165_12.0.19.22.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/20250821221107e895aa4e6d65f48300a679a326b85dd2.zip
+size: 5153826617
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
-| `IN2010/IN2010_氧OS IN2011_13.1.0.587(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-75a40cdd42c23283a832d9e4ee053435/component-ota/24/04/12/c3a6bec3b8934f7a828503a305c66594.zip
-size: 5252034651
+| `NE2210/NE2210_NE2213_13.0.0 C.19_EEA(CN01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-a512edcddc03e4d26aed835f7756d700/component-ota/22/09/15/a05bef885f554390872158136ad1886c.zip
+size: 4828938421
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2409/CPH2409_14.0.0.601(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-d6707d2c1468032f67278b43906c0425/component-ota/24/04/28/328c3165334540ef809e7ba3445e13b2.zip
+size: 4950049291
+md5: cc68379e3f549cd8b8063d8990fb7b0f
+patch: 2024-05-05
+fp: CPH2409_11.C.71_2710_202404271608` | HTTP 404 直链不可用 |
+| `PD2196/PD2196_15.3.15.3.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/202605062059350e8b2e6d6c263453c4ace0b0097c6fa5.zip
+size: 8340325251
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2739/CPH2739_15.0.2.603(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-929dc6bbb11e06a2d9efe3b6d29458fc/component-ota/25/10/07/9829f180f9c04811b37cb053cd56910b.zip
+size: 8738023174
+md5: 9e0d7e5398bf9c8369f2257047934ed3
+patch: 2025-09-01
+fp: CPH2739_11.A.37_0370_202510052257` | HTTP 404 直链不可用 |
+| `MT2110/MT2110_氧OS MT2111_14.0.0.1901(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-f0b1c7691c14222747975da128875375/component-ota/25/03/26/035a0c154c7f4a88a65f6ed11f74fab3.zip
+size: 5929861013
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `NE2210/NE2210_NE2213_12.1 A.16_EEA(CN01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-821e6a4e58190490d660badbc7998bf2/component-ota/22/08/02/bad49a10477f4f00b80171120a10efac.zip
+size: 4481152160
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `LE2110/LE2110_LE2111_14.0.0.730(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-67e0d060ceebbcd72ea3233e60c128e0/component-ota/24/12/06/def7718c532443f5bf276176cdb8d391.zip
+size: 5859421598
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `PD2183/PD2183_12.0.19.11.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/202211210827025d733e6cbc8946097484ce6433abeb9a.zip
+size: 6696762596
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `IN2020/IN2020_氧OS IN2023_13.1.0.585(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-f114c8d2acb1b5d5ca0d55fc2d5b7855/component-ota/23/12/11/7cae2505088e434c8e5271cb7e3db202.zip
+size: 4782885862
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `RMX3661/RMX3661_11_A.69.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-fff5c0104e21522c14ea940266b73dd4/component-ota/23/12/07/d731c94aaee4418abc80a5e7318eea9d.zip
+size: 5211921235
+md5: 90b018b522f9fc3051cc047c278a9b89
+patch: 2023-12-05
+fp: RMX3661_11.A.69_0690_202312052150` | HTTP 404 直链不可用 |
+| `CPH2449EEA/CPH2449_15.0.0.862(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-91d42da789449a0aa76a1ec1d401d313/component-ota/25/10/06/cc1a533b0a9945ccbd2d1b5aa4bea201.zip
+size: 6757329053
+md5: 54cc417e44e221c6960e4a6446c56cd0
+patch: 2025-10-01
+fp: CPH2449_11.F.75_2750_202510060041` | HTTP 404 直链不可用 |
+| `RMX3151/RMX3151_11_A.46.txt` | `https://gauss-componentotamanual.allawnofs.com/remove-1d60ead660f4684ebb7d555118875e21/component-ota/22/07/12/904cd660f80345ccaa18c6d6e1acd50d.zip
+size: 1239692
+md5: fc47508d27b104552eb77404f9020b69
+patch: 2022-06-05
+fp: RMX3151_11.A.46_0460_202207072102` | HTTP 404 直链不可用 |
+| `LE2120/LE2120_LE2123_13.1.0.591(EX01).txt` | `https://gauss-componentotacostmanual-eu.allawnofs.com/remove-eb14327836ddd4b26157c2973dba41bd/component-ota/23/09/08/8cb18ce530a14ccab7a466d0bd18d833.zip
+size: 5085700807
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `CPH2357/CPH2357_14.0.0.2302(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-5a06ff63389e7c623bb0cb80ad1a3246/component-ota/25/10/30/4b0f3b65dd864da08b76bf57f7b88400.zip
+size: 6982632282
+md5: 09b8e122ae2fe7eec8e029188d115368
+patch: 2025-11-01
+fp: CPH2357_11.F.65_2650_202510291718` | HTTP 404 直链不可用 |
+| `NE2210/NE2210_NE2213_12.1 A.15_GLO(CN01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-fa368bf1a023e8dc12a1ae090cee098f/component-ota/22/06/23/a71b2b7b663243b09c46b5fd582a3504.zip
+size: 4476039933
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
+| `OPD2404/OPD2404_OPD2403_15.0.0.1301(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-6dad0aefb20eb504e1f1354e8fb228fa/component-ota/25/09/03/3b0f7b6b02d04ae1a8fbc1e5e109cbc0.zip
+size: 6070297680
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
