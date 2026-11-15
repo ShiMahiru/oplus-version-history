@@ -1,4 +1,3 @@
 https://componentota-auto-cn.allawnfs.comcomponent-ota/22/07/19/042987a8b3d444259194adeef127327b.zip
-size: 17
 md5_pending: yes
 source: lian86
