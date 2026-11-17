@@ -4,12 +4,11 @@
 
 | 文件 | 链接 | 原因 |
 |---|---|---|
-| `NE2210/NE2210_NE2213_12.1 A.13_EEA(CN01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-024a0e51cec8d7dcf24f46cd2bae2237/component-ota/22/05/05/bf275b880f624d168dd8bdddf7903245.zip
-size: 4356653740
+| `LE2120/LE2120_LE2121_14.0.0.1901(EX01).txt` | `https://gauss-opexcostmanual-in.allawnofs.com/remove-f17b23de76c0ad6496774e8f57bd1075/component-ota/25/04/14/96270e2b59d84bc18eaa23b72ce81c7c.zip
+size: 5964625988
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
-| `RMX3851/RMX3851_14.0.1.614(EX01).txt` | `https://gauss-componentotamanual.allawnofs.com/remove-4d0506e8b7b4ea1868f5521090b9a58f/component-ota/24/09/29/0deb197f15614520a8f3daddc9735fa3.zip
-size: 7301283253
-md5: 6da2a6840409f9f6088b5a27ef06013f
-patch: 2024-10-05
-fp: RMX3851_11.A.34_0340_202409282235` | HTTP 404 直链不可用 |
+| `IN2020/IN2020_氧OS IN2023_13.1.0.586(EX01).txt` | `https://gauss-componentotacostmanual-in.allawnofs.com/remove-9ef96e3eff82b8782206ec37eb82d402/component-ota/24/02/27/ee61e5f9c77043fb833f197a6aac46ae.zip
+size: 4877151348
+md5_pending: yes
+source: lian86` | HTTP 404 直链不可用 |
