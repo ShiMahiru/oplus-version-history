@@ -4,7 +4,7 @@
 
 **oneplus / CN** · 最新版本 `PFJM10_11_A.29` · OTA `PFJM10_11.A.29_0290_202206180203` · Android 11
 
-版本记录 **9** 条 · 有官方链接 **9** 条 · 有更新日志 **1** 份
+版本记录 **10** 条 · 有官方链接 **10** 条 · 有更新日志 **1** 份
 
 ## 版本史
 
@@ -19,6 +19,7 @@
 | PFJM10_13.1.0.200(CN01) |  |  | [下载](<https://gauss-compotacostauto-cn.allawnfs.com/remove-6b0559817919ffbdefcd581646248308/component-ota/24/08/19/08c06cc43c5b469f9d1fb3ac64bda849.zip>) |  |  |
 | PFJM10_13.1.0.231(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-8e3cae03d642306be3016b0c7dfceb5a/component-ota/25/07/16/2e0b66347f8c4ec09170672f271b04ef.zip>) |  |  |
 | PFJM10_13.1.0.233(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-805fd21c61ce1ac7d9743289f13b8442/component-ota/26/01/14/74ea77d7ba334c57af9b0c30aea7c914.zip>) |  |  |
+| PFJM10_13.1.0.235(CN01) |  |  | [下载](<https://gauss-componentotacostmanual-cn.allawnfs.com/remove-ffccded8eddd87c80336249a0b6a110a/component-ota/26/10/29/4e2eaf8a132b4de29ab919c6c8e6e14f.zip>) |  |  |
 
 ---
 
