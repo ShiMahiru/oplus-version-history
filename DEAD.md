@@ -4,7 +4,7 @@
 
 | 文件 | 链接 | 原因 |
 |---|---|---|
-| `PD2199/PD2199_13.1.13.5.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/202402282133190cbd458ed6a116a0bdc2aa57620cfdf3.zip
-size: 6051111303
+| `PD2203/PD2203_14.2.7.1.W10.V000L1(CN01).txt` | `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/2026082520495933472816ce2833d8815685df5ba2db9d.zip
+size: 7086981096
 md5_pending: yes
 source: lian86` | HTTP 404 直链不可用 |
